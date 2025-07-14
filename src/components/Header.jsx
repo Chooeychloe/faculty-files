@@ -1,15 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../assets/cvsu.ico";
 import PersonCard from "./PersonCard";
 import { people } from "../data";
+import { X, Search } from "lucide-react"; // ⬅️ Icons
 
-
-function Header ()  {
+function Header() {
   const [search, setSearch] = useState("");
-  
+  const [debouncedSearch, setDebouncedSearch] = useState("");
+
+  // Debounce search (300ms delay)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearch(search);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [search]);
 
   const filteredPeople = people.filter((person) =>
-    person.name.toLowerCase().includes(search.toLowerCase())
+    person.name.toLowerCase().includes(debouncedSearch.toLowerCase())
   );
 
   return (
@@ -17,6 +25,7 @@ function Header ()  {
       <header>
         <div className="bg-blue-600 py-3 shadow-white my-12 rounded font-funnel">
           <div className="flex justify-between items-center px-4">
+            {/* Logo Section */}
             <div className="flex item-center mr-20">
               <img
                 src={Logo}
@@ -26,22 +35,39 @@ function Header ()  {
                 height="60"
               />
               <h2 className="text-white font-bold text-2xl">
-                Department of Computer Studies <br />{" "}
-                <span className="text-yellow-300"> 201 Files</span>
+                Department of Computer Studies <br />
+                <span className="text-yellow-300">201 Files</span>
               </h2>
             </div>
-            <div className="w-1/2">
-              <form action="">
-                <input
-                  type="text"
-                  className="px-5 py-3 border rounded text-gray-900 w-full outline-none bg-white"
-                  placeholder="Search by name..."
-                  value={search}
-                  onChange={(e) => {
-                    setSearch(e.target.value);
-                  }}
-                />
-              </form>
+
+            {/* Search Input Section */}
+            <div className="w-1/2 relative">
+              <input
+                type="text"
+                className="pl-10 pr-10 py-3 border rounded-full text-gray-900 w-full outline-none bg-white"
+                placeholder="Search by name..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+
+              {/* Search icon on the left */}
+              <Search
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+                size={18}
+              />
+
+              {/* Clear button on the right */}
+              {search && (
+                <button
+                  type="button"
+                  onClick={() => setSearch("")}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-red-500 transition-opacity duration-200"
+                  title="Clear"
+                  aria-label="Clear search"
+                >
+                  <X size={18} />
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -50,6 +76,6 @@ function Header ()  {
       <PersonCard data={filteredPeople} />
     </>
   );
-};
+}
 
 export default Header;

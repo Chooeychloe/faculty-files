@@ -10,31 +10,76 @@ export const people = [
 
     },
     {
-        id: 2,
+        first_name: "Bryan",
+        last_name: "Ablaza",
+        name: "Bryan Dale Ablaza",
+        designation: "Instructor I",
+        image: "/images/ablaza.JPG",
+
+    },
+     {
+        first_name: "Mikaela",
+        last_name: "Arciaga",
+        name: "Mikaela Arciaga",
+        designation: "Instructor I",
+        image: "/images/arciaga.JPG",
+
+    },
+
+
+    {
         first_name: "Stephen",
         last_name: "Bacolor",
         name: "Stephen Bacolor",
         designation: "Instructor I",
         image: "/images/bacolor.JPG",
     }, {
-        id: 3,
+        first_name: "Jhon Nerick",
+        last_name: "Batuigas",
+        name: "John Nerick Batuigas",
+        designation: "Instructor I",
+        image: "/images/batuigas.JPG",
+
+    },
+    {
         first_name: "Edan",
         last_name: "Belgica",
         name: "Edan A. Belgica",
         designation: "Instructor I",
         image: "/images/belgica.jpeg",
-        diploma: "/diploma/diploma.jpg",
-        resume: "/resume/edan-resume.pdf",
     }, {
-        id: 4,
         first_name: "Alvin",
         last_name: "Catalo",
         name: "Alvin Catalo, MIT",
         designation: "Research Coordinator",
         image: "/images/catalo.JPG",
 
+    }, 
+    {
+        first_name: "Allen Dave",
+        last_name: "Coles",
+        name: "Allen Dave Coles",
+        designation: "Instructor I",
+        image: "/images/coles.JPG",
+
     }, {
-        id: 5,
+        first_name: "James",
+        last_name: "Mañozo",
+        name: "James Mañozo",
+        designation: "Instructor I",
+        image: "/images/mañozo.JPG",
+
+    },
+    {
+        first_name: "Ashley",
+        last_name: "Manuel",
+        name: "Ashley Manuel",
+        designation: "Instructor I",
+        image: "/images/manuel.JPG",
+
+    },
+    
+    {
         first_name: "Alvina",
         last_name: "Ramallosa",
         name: "Alvina Ramallosa",
@@ -42,7 +87,6 @@ export const people = [
         image: "/images/ramallosa.jpg",
 
     }, {
-        id: 6,
         first_name: "Rachel",
         last_name: "Rodriguez",
         name: "Rachel Rodriguez",
@@ -50,21 +94,36 @@ export const people = [
         image: "/images/rodriguez.JPG",
 
     }, {
-        id: 7,
         first_name: "Clarissa",
-        last_name: "Rostrollo", 
+        last_name: "Rostrollo",
         name: "Clarissa Rostrollo",
         designation: "Instructor I",
         image: "/images/rostrollo.JPG",
 
     }, {
-        id: 8,
         first_name: "Clarence",
-        last_name: "Salvador",  
+        last_name: "Salvador",
         name: "Clarence Salvador",
         designation: "Instructor I",
         image: "/images/salvador.JPG",
 
+    }
+    ,{
+        first_name: "Jessica Ann",
+        last_name: "Sambrano",
+        name: "Jessica Ann Sambrano",
+        designation: "Instructor I",
+        image: "/images/sambrano.JPG",
+
     },
+    {
+        first_name: "Jerome",
+        last_name: "Tacata",
+        name: "Jerome Tacata",
+        designation: "Instructor I",
+        image: "/images/tacata.JPG",
+
+    }
+
 
 ];
