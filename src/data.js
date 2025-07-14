@@ -25,7 +25,6 @@ export const people = [
         image: "/images/belgica.jpeg",
         diploma: "/diploma/diploma.jpg",
         resume: "/resume/edan-resume.pdf",
-        tor: "/tor/TOR.pdf"
     }, {
         id: 4,
         first_name: "Alvin",
