@@ -1,5 +1,13 @@
+@font-face {
+  font-family: Funnel-Regular;
+  src: url("../src/assets/fonts/FunnelDisplay-SemiBold.ttf");
+}
+
 @import "tailwindcss";
 
+@theme{
+  --font-funnel:Funnel-Regular, sans-serif;
+}
 body {
   background-color: #10141e;
 }

@@ -4,7 +4,7 @@ export const people = [
         id: 1,
         name: "Jovelyn D. Ocampo, MIT",
         designation: "Department Head",
-        image: "/images/profile1.png",
+        image: "/images/ocampo.png",
         diploma: "/diploma/diploma.jpg",
         resume: "/resume/edan-resume.pdf",
     },

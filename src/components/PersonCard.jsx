@@ -3,10 +3,10 @@ import PersonList from "./PersonList";
 
 function PersonCard({ data }) {
   return (
-    <div>
+    <div className="font-funnel">
       <h2
         className="bg-zinc-200 p-4 text-3xl font-semibold border-l-8
-       border-blue-500 mt-10 shadow-lg shadow-black rounded mb-10"
+       border-blue-500 mt-10 shadow-lg shadow-black rounded mb-10 "
       >
         Members of the Department
       </h2>

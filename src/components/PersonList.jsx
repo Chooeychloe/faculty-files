@@ -23,7 +23,7 @@ function PersonList ({ data }) {
             className=" object-cover"
           />
           {/* Consistent content layout */}
-          <div className="flex flex-col items-start p-4">
+          <div className="flex flex-col items-start p-4 font-funnel">
             <h3 className="font-semibold text-lg text-gray-800">{person.name}</h3>
             <p className="bg-yellow-200 text-gray-800 px-3 py-1 rounded mt-2 text-sm">
               {person.designation}

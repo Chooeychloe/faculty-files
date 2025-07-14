@@ -24,8 +24,8 @@ function PersonDetail() {
   const { name, designation, image, diploma, resume, tor } = state.person;
 
   return (
-    <>
-      <nav className="bg-blue-600 text-white py-4 shadow-md">
+    < >
+      <nav className="bg-blue-600 text-white py-4 shadow-md font-funnel">
         <div className="container mx-auto px-6 flex justify-between items-center">
           <h1 className="text-xl font-bold">Department of Computer Studies</h1>
           <button
@@ -37,7 +37,7 @@ function PersonDetail() {
         </div>
       </nav>
 
-      <div className="max-w-2xl mx-auto mt-12 p-6 bg-white rounded shadow">
+      <div className="max-w-2xl mx-auto mt-12 p-6 bg-white rounded shadow font-funnel">
         <img
           src={image}
           alt={name}
@@ -51,7 +51,7 @@ function PersonDetail() {
             href={diploma}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 underline"
+            className="text-blue-600 "
           >
             View Diploma
           </a>
@@ -59,7 +59,7 @@ function PersonDetail() {
             href={tor}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 underline"
+            className="text-blue-600 "
           >
             View TOR
           </a>
@@ -67,7 +67,7 @@ function PersonDetail() {
             href={resume}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 underline"
+            className="text-blue-600 "
           >
             View Resume
           </a>
