@@ -24,13 +24,15 @@ function PersonDetail() {
   const { name, designation, image, diploma, resume, tor } = state.person;
 
   return (
-    < >
+    <>
       <nav className="bg-blue-600 text-white py-4 shadow-md font-funnel">
         <div className="container mx-auto px-6 flex justify-between items-center">
-          <h1 className="text-xl font-bold">Department of Computer Studies</h1>
+          <h1 className="text-xl font-bold hover:scale-105 cursor-pointer" onClick={() => navigate("/")}>
+            Department of Computer Studies
+          </h1>
           <button
             onClick={() => navigate("/")}
-            className="bg-white text-blue-600 px-4 py-2 rounded font-medium hover:bg-gray-100 transition"
+            className="bg-white text-blue-600 px-4 py-2 rounded font-medium hover:scale-105 cursor-pointer transition"
           >
             Home
           </button>
@@ -47,30 +49,36 @@ function PersonDetail() {
         <p className="text-center text-gray-600 mb-4">{designation}</p>
 
         <div className="flex flex-col justify-center gap-4 mb-6">
-          <a
-            href={diploma}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 "
-          >
-            View Diploma
-          </a>
-          <a
-            href={tor}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 "
-          >
-            View TOR
-          </a>
-           <a
-            href={resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 "
-          >
-            View Resume
-          </a>
+          {diploma && (
+            <a
+              href={diploma}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 "
+            >
+              View Diploma
+            </a>
+          )}
+          {tor && (
+            <a
+              href={tor}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 "
+            >
+              View TOR
+            </a>
+          )}
+          {resume && (
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 "
+            >
+              View Resume
+            </a>
+          )}
         </div>
       </div>
     </>

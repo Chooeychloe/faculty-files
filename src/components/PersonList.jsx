@@ -6,7 +6,7 @@ function PersonList ({ data }) {
   const navigate = useNavigate();
 
    const handlePersonClick = (person) => {
-    navigate(`/person/${person.id}`, { state: { person } }); // passes the entire person object
+    navigate(`/person/${person.last_name}${person.first_name}`, { state: { person } }); // passes the entire person object
   };
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-12">
