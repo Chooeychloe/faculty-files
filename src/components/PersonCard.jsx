@@ -20,7 +20,7 @@ function PersonCard({ data }) {
 
   return (
     <div className="font-funnel">
-      <h2 className="bg-zinc-200 p-4 text-3xl font-semibold border-l-8 border-blue-500 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
+      <h2 className="bg-zinc-200 p-4 text-3xl font-semibold border-l-8 border-red-900 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
         Members of the Department
       </h2>
 

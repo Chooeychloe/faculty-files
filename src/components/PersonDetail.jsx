@@ -26,7 +26,7 @@ function PersonDetail() {
 
   return (
     <>
-      <nav className="bg-blue-600 text-white py-4 shadow-md font-funnel">
+      <nav className="bg-red-900 text-white py-4 shadow-md font-funnel">
         <div className="container mx-auto px-6 flex justify-between items-center">
           <h1
             className="text-xl font-bold hover:scale-105 cursor-pointer"
@@ -36,7 +36,7 @@ function PersonDetail() {
           </h1>
           <button
             onClick={() => navigate("/")}
-            className="bg-white text-blue-600 px-4 py-2 rounded font-medium hover:scale-105 cursor-pointer transition"
+            className="bg-white text-red-900 px-4 py-2 rounded font-medium hover:scale-105 cursor-pointer transition"
           >
             Home
           </button>
@@ -50,7 +50,7 @@ function PersonDetail() {
           className="w-48 h-48 object-contain mx-auto mb-6"
         />
         <h2 className="text-3xl font-bold text-center mb-2">{name}</h2>
-        <p className="text-center text-gray-600 mb-4">{designation}</p>
+        <p className="text-center text-red-900 mb-4">{designation}</p>
 
         <div className="flex flex-col justify-center gap-4 mb-6  ">
           {diploma && (
@@ -58,7 +58,7 @@ function PersonDetail() {
               href={diploma}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline hover:text-blue-600"
+              className="hover:underline hover:text-red-900"
               s
             >
               View Undergraduate Diploma
@@ -69,7 +69,7 @@ function PersonDetail() {
               href={masters_diploma}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline hover:text-blue-600"
+              className="hover:underline hover:text-red-900"
               s
             >
               View Masters Diploma
@@ -80,7 +80,7 @@ function PersonDetail() {
               href={tor}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline hover:text-blue-600"
+              className="hover:underline hover:text-red-900"
             >
               View TOR
             </a>
@@ -90,7 +90,7 @@ function PersonDetail() {
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline hover:text-blue-600"
+              className="hover:underline hover:text-red-900"
             >
               View Resume
             </a>
@@ -107,7 +107,7 @@ function PersonDetail() {
                       href={doc.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className=" hover:underline hover:text-blue-600"
+                      className=" hover:underline hover:text-red-900"
                     >
                      View {doc.name || `Certificate ${index + 1}`}
                     </a>
@@ -128,7 +128,7 @@ function PersonDetail() {
                       href={doc.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className=" hover:underline hover:text-blue-600"
+                      className=" hover:underline hover:text-red-900"
                     >
                       View {doc.name || `Certificate ${index + 1}`}
                     </a>
