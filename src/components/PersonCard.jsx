@@ -19,8 +19,8 @@ function PersonCard({ data }) {
   };
 
   return (
-    <div className="font-funnel">
-      <h2 className="bg-zinc-200 p-4 text-3xl font-semibold border-l-8 border-red-900 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
+    <div className="font-funnel mx-4">
+      <h2 className="bg-amber-50 p-4 text-3xl font-semibold border-l-8 border-red-900 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
         Members of the Department
       </h2>
 
@@ -37,7 +37,7 @@ function PersonCard({ data }) {
             <button
               onClick={() => goToPage(currentPage - 1)}
               disabled={currentPage === 1}
-              className="p-2 bg-white text-black rounded hover:bg-red-900 disabled:opacity-50"
+              className="p-2 bg-amber-50 text-black rounded hover:bg-red-900 disabled:opacity-50"
               aria-label="Previous Page"
             >
               <ChevronLeft size={20} />
@@ -50,7 +50,7 @@ function PersonCard({ data }) {
                 className={`px-4 py-2 rounded ${
                   currentPage === index + 1
                     ? "bg-red-900 text-black"
-                    : "bg-gray-200 hover:bg-gray-300"
+                    : "bg-amber-50 hover:bg-gray-300"
                 }`}
               >
                 {index + 1}
@@ -60,7 +60,7 @@ function PersonCard({ data }) {
             <button
               onClick={() => goToPage(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="p-2 bg-white text-black rounded hover:bg-red-900 disabled:opacity-50"
+              className="p-2 bg-amber-50 text-black rounded hover:bg-red-900 disabled:opacity-50"
               aria-label="Next Page"
             >
               <ChevronRight size={20} />

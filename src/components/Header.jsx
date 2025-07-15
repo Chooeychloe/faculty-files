@@ -34,7 +34,7 @@ function Header() {
                 width="60"
                 height="60"
               />
-              <h2 className="text-white font-bold text-2xl">
+              <h2 className="text-amber-50 font-bold text-2xl">
                 Department of Computer Studies <br />
                 <span className="text-yellow-300">201 Files</span>
               </h2>
@@ -44,7 +44,7 @@ function Header() {
             <div className="w-1/2 relative">
               <input
                 type="text"
-                className="pl-10 pr-10 py-3 border rounded-full text-gray-900 w-full outline-none bg-white"
+                className="pl-10 pr-10 py-3 border rounded-full text-gray-900 w-full outline-none bg-amber-50"
                 placeholder="Search by name..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}

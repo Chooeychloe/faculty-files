@@ -13,7 +13,7 @@ function PersonDetail() {
         </p>
         <button
           onClick={() => navigate("/")}
-          className="mt-5 px-4 py-2 bg-blue-600 text-white rounded"
+          className="mt-5 px-4 py-2 bg-blue-600 text-amber-50 rounded"
         >
           Go Back
         </button>
@@ -26,7 +26,7 @@ function PersonDetail() {
 
   return (
     <>
-      <nav className="bg-red-900 text-white py-4 shadow-md font-funnel">
+      <nav className="bg-red-900 text-amber-50 py-4 shadow-md font-funnel my-4">
         <div className="container mx-auto px-6 flex justify-between items-center">
           <h1
             className="text-xl font-bold hover:scale-105 cursor-pointer"
@@ -43,7 +43,7 @@ function PersonDetail() {
         </div>
       </nav>
 
-      <div className="max-w-2xl mx-auto mt-12 p-6 bg-white rounded shadow font-funnel">
+      <div className="max-w-2xl mx-auto mt-12 p-6 bg-amber-50 rounded shadow font-funnel">
         <img
           src={image}
           alt={name}

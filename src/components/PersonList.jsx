@@ -14,7 +14,7 @@ function PersonList ({ data }) {
         <div
           key={index}
           onClick={() => handlePersonClick(person)}
-          className="card bg-white border border-gray-200 rounded-lg shadow hover:scale-105 cursor-pointer transition ease-in-out delay-50"
+          className="card bg-amber-50 border border-gray-200 rounded-lg shadow hover:scale-105 cursor-pointer transition ease-in-out delay-50"
         >
           {/* Fixed image size */}
           <img
