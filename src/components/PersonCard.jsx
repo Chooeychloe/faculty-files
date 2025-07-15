@@ -20,7 +20,7 @@ function PersonCard({ data }) {
 
   return (
     <div className="font-funnel">
-      <h2 className="bg-zinc-200 p-4 text-3xl font-semibold border-l-8 border-blue-500 mt-10 shadow-lg shadow-black rounded mb-10 text-blue-600">
+      <h2 className="bg-zinc-200 p-4 text-3xl font-semibold border-l-8 border-blue-500 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
         Members of the Department
       </h2>
 
@@ -49,7 +49,7 @@ function PersonCard({ data }) {
                 onClick={() => goToPage(index + 1)}
                 className={`px-4 py-2 rounded ${
                   currentPage === index + 1
-                    ? "bg-yellow-400 text-black"
+                    ? "bg-red-900 text-black"
                     : "bg-gray-200 hover:bg-gray-300"
                 }`}
               >

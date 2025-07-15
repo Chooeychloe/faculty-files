@@ -23,7 +23,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className="bg-blue-600 py-3 shadow-white my-12 rounded font-funnel">
+        <div className="bg-red-900 py-3 shadow-white my-12 rounded font-funnel">
           <div className="flex justify-between items-center px-4">
             {/* Logo Section */}
             <div className="flex item-center mr-20">
