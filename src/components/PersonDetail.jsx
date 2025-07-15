@@ -21,13 +21,17 @@ function PersonDetail() {
     );
   }
 
-  const { name, designation, image, diploma, resume, tor } = state.person;
+  const { name, designation, image, diploma, resume, tor, certificates , speaking_engagements,masters_diploma} =
+    state.person;
 
   return (
     <>
       <nav className="bg-blue-600 text-white py-4 shadow-md font-funnel">
         <div className="container mx-auto px-6 flex justify-between items-center">
-          <h1 className="text-xl font-bold hover:scale-105 cursor-pointer" onClick={() => navigate("/")}>
+          <h1
+            className="text-xl font-bold hover:scale-105 cursor-pointer"
+            onClick={() => navigate("/")}
+          >
             Department of Computer Studies
           </h1>
           <button
@@ -48,15 +52,27 @@ function PersonDetail() {
         <h2 className="text-3xl font-bold text-center mb-2">{name}</h2>
         <p className="text-center text-gray-600 mb-4">{designation}</p>
 
-        <div className="flex flex-col justify-center gap-4 mb-6">
+        <div className="flex flex-col justify-center gap-4 mb-6  ">
           {diploma && (
             <a
               href={diploma}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 "
+              className="hover:underline hover:text-blue-600"
+              s
             >
-              View Diploma
+              View Undergraduate Diploma
+            </a>
+          )}
+            {masters_diploma && (
+            <a
+              href={masters_diploma}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-blue-600"
+              s
+            >
+              View Masters Diploma
             </a>
           )}
           {tor && (
@@ -64,7 +80,7 @@ function PersonDetail() {
               href={tor}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 "
+              className="hover:underline hover:text-blue-600"
             >
               View TOR
             </a>
@@ -74,10 +90,52 @@ function PersonDetail() {
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 "
+              className="hover:underline hover:text-blue-600"
             >
               View Resume
             </a>
+          )}
+          {Array.isArray(certificates) && certificates.length > 0 && (
+            <div className="mt-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                Certificates:
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                {certificates.map((doc, index) => (
+                  <li key={index}>
+                    <a
+                      href={doc.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" hover:underline hover:text-blue-600"
+                    >
+                     View {doc.name || `Certificate ${index + 1}`}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+           {Array.isArray(speaking_engagements) && speaking_engagements.length > 0 && (
+            <div className="mt-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                Speaking Engagements:
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                {speaking_engagements.map((doc, index) => (
+                  <li key={index}>
+                    <a
+                      href={doc.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" hover:underline hover:text-blue-600"
+                    >
+                      View {doc.name || `Certificate ${index + 1}`}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       </div>

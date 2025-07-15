@@ -1,12 +1,23 @@
 // src/data.js
 export const people = [
     {
-        id: 1,
         first_name: "Jovelyn",
         last_name: "Ocampo",
         name: "Jovelyn D. Ocampo, MIT",
         designation: "Department Head",
         image: "/images/ocampo.png",
+        diploma: "/diploma/diplom.jpg",
+        tor: "/tor/tor.jfif",
+        resume: "/resume/resume-sample.png",
+        certificates: [{
+            name: "Certificate in Teaching and Learning",
+            url: "/certificates/cert.jpg"
+        }],
+        speaking_engagements: [{
+            name: "Speaking Engagement at the 2023 ICT Educators' Conference",
+            url: "/certificates/cert.jpg"
+        }],
+        masters_diploma: "/diploma/diplom.jpg"
 
     },
     {
@@ -17,7 +28,7 @@ export const people = [
         image: "/images/ablaza.JPG",
 
     },
-     {
+    {
         first_name: "Mikaela",
         last_name: "Arciaga",
         name: "Mikaela Arciaga",
@@ -47,14 +58,22 @@ export const people = [
         name: "Edan A. Belgica",
         designation: "Instructor I",
         image: "/images/belgica.jpeg",
+        diploma: "https://drive.google.com/file/d/1TbHmM1XsWJZUANmNEvLBQNHr60T6F4xU/view?usp=drive_link",
+        certificates: [
+            { name: "C# Theoritical Understanding", url: "https://drive.google.com/file/d/15R4MYPRy2itbYqLi1mV1QSblpwz5fPUZ/view?usp=drive_link" },
+            { name: "Training-Workshop on Proposal Writing and Publication", url: "https://drive.google.com/file/d/1NWuBbh9f97ulGMuqg8ImQSk9eWM3u19o/view?usp=drive_link" },
+            { name: "Seminar-Workshop on Module Development and Publication", url: "https://drive.google.com/file/d/12MEK7JCvPr0foYTZj07R-O6Yer59mtRB/view?usp=drive_link" }
+        ]
     }, {
         first_name: "Alvin",
         last_name: "Catalo",
         name: "Alvin Catalo, MIT",
         designation: "Research Coordinator",
         image: "/images/catalo.JPG",
+        diploma: "/images/catalo.JPG",
+        masters_diploma: "/images/catalo.JPG"
 
-    }, 
+    },
     {
         first_name: "Allen Dave",
         last_name: "Coles",
@@ -78,7 +97,7 @@ export const people = [
         image: "/images/manuel.JPG",
 
     },
-    
+
     {
         first_name: "Alvina",
         last_name: "Ramallosa",
@@ -108,7 +127,7 @@ export const people = [
         image: "/images/salvador.JPG",
 
     }
-    ,{
+    , {
         first_name: "Jessica Ann",
         last_name: "Sambrano",
         name: "Jessica Ann Sambrano",
