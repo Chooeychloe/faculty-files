@@ -37,7 +37,7 @@ function PersonCard({ data }) {
             <button
               onClick={() => goToPage(currentPage - 1)}
               disabled={currentPage === 1}
-              className="p-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
+              className="p-2 bg-white text-black rounded hover:bg-red-900 disabled:opacity-50"
               aria-label="Previous Page"
             >
               <ChevronLeft size={20} />
@@ -60,7 +60,7 @@ function PersonCard({ data }) {
             <button
               onClick={() => goToPage(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="p-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
+              className="p-2 bg-white text-black rounded hover:bg-red-900 disabled:opacity-50"
               aria-label="Next Page"
             >
               <ChevronRight size={20} />
