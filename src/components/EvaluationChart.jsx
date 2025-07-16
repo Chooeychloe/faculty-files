@@ -11,10 +11,9 @@ import {
   Legend,
 } from "chart.js";
 
-// Register Chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-function EvaluationChart({ name, evaluationScores, evaluationLabels }) {
+function EvaluationChart({first_name,last_name, evaluationScores, evaluationLabels }) {
   const evaluationData = {
     labels: evaluationLabels || [],
     datasets: [
@@ -99,7 +98,7 @@ function EvaluationChart({ name, evaluationScores, evaluationLabels }) {
       <Bar data={evaluationData} options={evaluationOptions} />
       <h1 className="text-red-900 font-bold text-xl mt-4 flex justify-center items-center gap-2">
         <TrendingUp className="h-6 w-6 text-red-900" />
-        Student Evaluation for {name}
+        Student Evaluation for {first_name} {last_name}
       </h1>
     </div>
   );

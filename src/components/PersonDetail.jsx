@@ -27,6 +27,8 @@ function PersonDetail() {
   }
 
   const {
+    first_name,
+    last_name,
     name,
     designation,
     image,
@@ -39,41 +41,53 @@ function PersonDetail() {
     schedule,
     evaluation_scores,
     evaluation_labels,
-    development_plan_image,
+    development_plan,
   } = state.person;
+  console.log("Development Plan Data:", development_plan);
 
   return (
     <>
       <PersonHeader />
 
-      <div className="flex flex-row mb-12">
-        {/* Section 1: Personal Information and Documents */}
-        <PersonInfoCard
-          name={name}
-          designation={designation}
-          image={image}
-          diploma={diploma}
-          masters_diploma={masters_diploma}
-          tor={tor}
-          resume={resume}
-          certificates={certificates}
-          speaking_engagements={speaking_engagements}
-        />
+      <div className="container mx-auto px-4 mt-8">
+        {/* Row 1: Personal Information and Documents + Charts/Schedule */}
+        <div className="flex flex-col lg:flex-row mb-12 gap-8">
+          {/* Section 1: Personal Information and Documents */}
+          <div className="w-full lg:w-1/2 flex justify-center items-start">
+            <PersonInfoCard
+              first_name={first_name}
+              last_name={last_name}
+              name={name}
+              designation={designation}
+              image={image}
+              diploma={diploma}
+              masters_diploma={masters_diploma}
+              tor={tor}
+              resume={resume}
+              certificates={certificates}
+              speaking_engagements={speaking_engagements}
+            />
+          </div>
 
-        {/* Section 2: Charts and Schedule */}
-        <div className="w-1/2 flex flex-col mt-12 gap-8 mx-6">
-          {/* Student Evaluation Graph */}
-          <EvaluationChart
-            name={name}
-            evaluationScores={evaluation_scores}
-            evaluationLabels={evaluation_labels}
-          />
+          {/* Section 2: Charts and Schedule */}
+          <div className="w-full lg:w-1/2 flex flex-col gap-8">
+            {/* Student Evaluation Graph */}
+            <EvaluationChart
+              name={name}
+              first_name={first_name}
+              last_name={last_name}
+              evaluationScores={evaluation_scores}
+              evaluationLabels={evaluation_labels}
+            />
 
-          {/* Faculty Schedule as a Table */}
-          <FacultySchedule schedule={schedule} />
+            {/* Faculty Schedule as a Table */}
+            <FacultySchedule schedule={schedule} />
+          </div>
+        </div>
 
-          {/* Individual Development Plan */}
-          <DevelopmentPlan developmentPlanImage={development_plan_image} />
+        {/* Row 2: Individual Development Plan */}
+        <div className="w-full mb-12">
+          <DevelopmentPlan development_plan={development_plan} />
         </div>
       </div>
     </>

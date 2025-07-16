@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PersonList from "./PersonList";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // 👈 Icon imports
+import { ChevronLeft, ChevronRight } from "lucide-react"; 
 
 function PersonCard({ data }) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -32,7 +32,6 @@ function PersonCard({ data }) {
         <>
           <PersonList data={currentData} />
 
-          {/* Pagination Controls */}
           <div className="flex justify-center gap-2 mt-8">
             <button
               onClick={() => goToPage(currentPage - 1)}

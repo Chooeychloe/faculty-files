@@ -2,13 +2,11 @@ import React, { useState, useEffect } from "react";
 import Logo from "../assets/cvsu.ico";
 import PersonCard from "./PersonCard";
 import { people } from "../data";
-import { X, Search } from "lucide-react"; // ⬅️ Icons
-
+import { X, Search } from "lucide-react";
 function Header() {
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
 
-  // Debounce search (300ms delay)
   useEffect(() => {
     const timer = setTimeout(() => {
       setDebouncedSearch(search);
