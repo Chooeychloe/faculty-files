@@ -1,10 +1,11 @@
 export const people = [
+  //Jovelyn Ocampo
   {
     first_name: "Jovelyn",
     last_name: "Ocampo",
     name: "Jovelyn D. Ocampo, MIT",
     designation: "Department Head",
-    image: "/images/ocampo.png",
+    image: "/images/ocampo.jpg",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
     resume: "/resume/resume-sample.png",
@@ -146,7 +147,7 @@ export const people = [
     ],
     evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.9],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Participate in 2 workshops on AI/ML.", "Complete a certification in cloud computing."],
         "2025": ["Attend international conference on CS education.", "Start a Master's program (if applicable)."],
@@ -177,6 +178,546 @@ export const people = [
       }
     }
   },
+  //Ely Rose Panganiban-Briones
+  {
+    first_name: "Ely Rose ",
+    last_name: "Briones",
+    name: "Ely Rose L. Panganiban-Briones, MIT",
+    designation: "CS Program Coordinator",
+    image: "/images/briones.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
+    certificates: [{
+      name: "Certificate in Teaching and Learning",
+      url: "/certificates/cert.jpg"
+    }],
+    speaking_engagements: [{
+      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
+      url: "/certificates/cert.jpg"
+    }],
+    masters_diploma: "/diploma/diplom.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "9:00 AM - 10:00 AM", subject: "Dept. Meeting", room: "Conf. Room A" },
+            { time: "10:00 AM - 12:00 PM", subject: "CS Elective 1 (Adv. Data Science)", room: "Online" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          wednesday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Curriculum Development", room: "Conf. Room B" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Collaboration", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced AI Topics", room: "G501" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Graduate Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Thesis Defense Panel", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Department Review", room: "Conf. Room A" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "9:30 AM - 11:30 AM", subject: "Data Science Fundamentals", room: "Online" },
+          ],
+          tuesday: [],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Curriculum Planning", room: "Conf. Room B" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Grant Meeting", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Machine Learning Concepts", room: "G502" },
+          ],
+          tuesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI Ethics Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Faculty Development Workshop", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced Database Systems", room: "G105" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Project Supervision", room: "Library Study Area" },
+          ],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Department Budget Review", room: "Conf. Room A" },
+          ],
+          thursday: [],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Teaching Methodologies", room: "G201" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Thesis Defense Committee", room: "Auditorium" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Cybersecurity Fundamentals", room: "Lab 6" },
+          ],
+          wednesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI in Education Seminar", room: "Online" },
+          ],
+          thursday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Strategic Planning Session", room: "Conf. Room B" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.9],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Participate in 2 workshops on AI/ML.", "Complete a certification in cloud computing."],
+        "2025": ["Attend international conference on CS education.", "Start a Master's program (if applicable)."],
+        "2026": ["Publish 1-2 papers in peer-reviewed journals.", "Lead a departmental training session."],
+        "2027": ["Mentor junior faculty members.", "Obtain a specialized industry certification."],
+        "2028": ["Present at a national conference.", "Develop new curriculum for emerging technologies."],
+      },
+      loading: {
+        "2024": ["Maintain standard teaching load.", "Serve on 1 departmental committee."],
+        "2025": ["Reduce teaching load by 1 course (if pursuing higher studies).", "Serve on 2 departmental committees."],
+        "2026": ["Focus on research and thesis writing.", "Serve on 1 college-level committee."],
+        "2027": ["Resume full teaching load.", "Take on a new administrative role (e.g., coordinator)."],
+        "2028": ["Lead a major university-wide initiative.", "Maintain full teaching load."],
+      },
+      research: {
+        "2024": ["Identify a research topic of interest.", "Begin literature review."],
+        "2025": ["Develop research proposal.", "Submit proposal for internal funding."],
+        "2026": ["Conduct data collection/experiments.", "Draft first research paper."],
+        "2027": ["Submit paper to conference/journal.", "Begin new research project."],
+        "2028": ["Secure external research grant.", "Collaborate on interdisciplinary research."],
+      },
+      extensions: {
+        "2024": ["Participate in 1 community outreach program.", "Offer pro-bono tech consultation to local NGOs."],
+        "2025": ["Organize a coding workshop for high school students.", "Serve as a judge in a local hackathon."],
+        "2026": ["Lead a university-community partnership project.", "Conduct a public lecture on a tech topic."],
+        "2027": ["Establish a mentorship program for local youth.", "Collaborate with industry on a community-focused project."],
+        "2028": ["Secure funding for a long-term community tech initiative.", "Receive an award for community service."],
+      }
+    }
+  },
+  //Donnalyn Montallana
+  {
+    first_name: "Donnalyn ",
+    last_name: "Montallana",
+    name: "Donnalyn B. Montallana, MIT",
+    designation: "IT Program Coordinator",
+    image: "/images/montallana.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
+    certificates: [{
+      name: "Certificate in Teaching and Learning",
+      url: "/certificates/cert.jpg"
+    }],
+    speaking_engagements: [{
+      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
+      url: "/certificates/cert.jpg"
+    }],
+    masters_diploma: "/diploma/diplom.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "9:00 AM - 10:00 AM", subject: "Dept. Meeting", room: "Conf. Room A" },
+            { time: "10:00 AM - 12:00 PM", subject: "CS Elective 1 (Adv. Data Science)", room: "Online" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          wednesday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Curriculum Development", room: "Conf. Room B" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Collaboration", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced AI Topics", room: "G501" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Graduate Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Thesis Defense Panel", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Department Review", room: "Conf. Room A" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "9:30 AM - 11:30 AM", subject: "Data Science Fundamentals", room: "Online" },
+          ],
+          tuesday: [],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Curriculum Planning", room: "Conf. Room B" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Grant Meeting", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Machine Learning Concepts", room: "G502" },
+          ],
+          tuesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI Ethics Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Faculty Development Workshop", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced Database Systems", room: "G105" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Project Supervision", room: "Library Study Area" },
+          ],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Department Budget Review", room: "Conf. Room A" },
+          ],
+          thursday: [],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Teaching Methodologies", room: "G201" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Thesis Defense Committee", room: "Auditorium" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Cybersecurity Fundamentals", room: "Lab 6" },
+          ],
+          wednesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI in Education Seminar", room: "Online" },
+          ],
+          thursday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Strategic Planning Session", room: "Conf. Room B" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.9],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Participate in 2 workshops on AI/ML.", "Complete a certification in cloud computing."],
+        "2025": ["Attend international conference on CS education.", "Start a Master's program (if applicable)."],
+        "2026": ["Publish 1-2 papers in peer-reviewed journals.", "Lead a departmental training session."],
+        "2027": ["Mentor junior faculty members.", "Obtain a specialized industry certification."],
+        "2028": ["Present at a national conference.", "Develop new curriculum for emerging technologies."],
+      },
+      loading: {
+        "2024": ["Maintain standard teaching load.", "Serve on 1 departmental committee."],
+        "2025": ["Reduce teaching load by 1 course (if pursuing higher studies).", "Serve on 2 departmental committees."],
+        "2026": ["Focus on research and thesis writing.", "Serve on 1 college-level committee."],
+        "2027": ["Resume full teaching load.", "Take on a new administrative role (e.g., coordinator)."],
+        "2028": ["Lead a major university-wide initiative.", "Maintain full teaching load."],
+      },
+      research: {
+        "2024": ["Identify a research topic of interest.", "Begin literature review."],
+        "2025": ["Develop research proposal.", "Submit proposal for internal funding."],
+        "2026": ["Conduct data collection/experiments.", "Draft first research paper."],
+        "2027": ["Submit paper to conference/journal.", "Begin new research project."],
+        "2028": ["Secure external research grant.", "Collaborate on interdisciplinary research."],
+      },
+      extensions: {
+        "2024": ["Participate in 1 community outreach program.", "Offer pro-bono tech consultation to local NGOs."],
+        "2025": ["Organize a coding workshop for high school students.", "Serve as a judge in a local hackathon."],
+        "2026": ["Lead a university-community partnership project.", "Conduct a public lecture on a tech topic."],
+        "2027": ["Establish a mentorship program for local youth.", "Collaborate with industry on a community-focused project."],
+        "2028": ["Secure funding for a long-term community tech initiative.", "Receive an award for community service."],
+      }
+    }
+  },
+  //Steffanie Bato
+
+  {
+    first_name: "Steffanie ",
+    last_name: "Bato",
+    name: "Steffanie M. Bato, MIT",
+    designation: "Program Coordinator, Computer Science",
+    image: "/images/bato.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
+    certificates: [{
+      name: "Certificate in Teaching and Learning",
+      url: "/certificates/cert.jpg"
+    }],
+    speaking_engagements: [{
+      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
+      url: "/certificates/cert.jpg"
+    }],
+    masters_diploma: "/diploma/diplom.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "9:00 AM - 10:00 AM", subject: "Dept. Meeting", room: "Conf. Room A" },
+            { time: "10:00 AM - 12:00 PM", subject: "CS Elective 1 (Adv. Data Science)", room: "Online" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          wednesday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Curriculum Development", room: "Conf. Room B" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Collaboration", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced AI Topics", room: "G501" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Graduate Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Thesis Defense Panel", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Department Review", room: "Conf. Room A" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "9:30 AM - 11:30 AM", subject: "Data Science Fundamentals", room: "Online" },
+          ],
+          tuesday: [],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Curriculum Planning", room: "Conf. Room B" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Grant Meeting", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Machine Learning Concepts", room: "G502" },
+          ],
+          tuesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI Ethics Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Faculty Development Workshop", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced Database Systems", room: "G105" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Project Supervision", room: "Library Study Area" },
+          ],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Department Budget Review", room: "Conf. Room A" },
+          ],
+          thursday: [],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Teaching Methodologies", room: "G201" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Thesis Defense Committee", room: "Auditorium" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Cybersecurity Fundamentals", room: "Lab 6" },
+          ],
+          wednesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI in Education Seminar", room: "Online" },
+          ],
+          thursday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Strategic Planning Session", room: "Conf. Room B" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.9],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Participate in 2 workshops on AI/ML.", "Complete a certification in cloud computing."],
+        "2025": ["Attend international conference on CS education.", "Start a Master's program (if applicable)."],
+        "2026": ["Publish 1-2 papers in peer-reviewed journals.", "Lead a departmental training session."],
+        "2027": ["Mentor junior faculty members.", "Obtain a specialized industry certification."],
+        "2028": ["Present at a national conference.", "Develop new curriculum for emerging technologies."],
+      },
+      loading: {
+        "2024": ["Maintain standard teaching load.", "Serve on 1 departmental committee."],
+        "2025": ["Reduce teaching load by 1 course (if pursuing higher studies).", "Serve on 2 departmental committees."],
+        "2026": ["Focus on research and thesis writing.", "Serve on 1 college-level committee."],
+        "2027": ["Resume full teaching load.", "Take on a new administrative role (e.g., coordinator)."],
+        "2028": ["Lead a major university-wide initiative.", "Maintain full teaching load."],
+      },
+      research: {
+        "2024": ["Identify a research topic of interest.", "Begin literature review."],
+        "2025": ["Develop research proposal.", "Submit proposal for internal funding."],
+        "2026": ["Conduct data collection/experiments.", "Draft first research paper."],
+        "2027": ["Submit paper to conference/journal.", "Begin new research project."],
+        "2028": ["Secure external research grant.", "Collaborate on interdisciplinary research."],
+      },
+      extensions: {
+        "2024": ["Participate in 1 community outreach program.", "Offer pro-bono tech consultation to local NGOs."],
+        "2025": ["Organize a coding workshop for high school students.", "Serve as a judge in a local hackathon."],
+        "2026": ["Lead a university-community partnership project.", "Conduct a public lecture on a tech topic."],
+        "2027": ["Establish a mentorship program for local youth.", "Collaborate with industry on a community-focused project."],
+        "2028": ["Secure funding for a long-term community tech initiative.", "Receive an award for community service."],
+      }
+    }
+  },
+
+  //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
@@ -259,7 +800,7 @@ export const people = [
     ],
     evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Bryan's 2024 PD"],
         "2025": ["Placeholder for Bryan's 2025 PD"],
@@ -290,6 +831,7 @@ export const people = [
       }
     }
   },
+  //Mikaela Arciaga
   {
     first_name: "Mikaela",
     last_name: "Arciaga",
@@ -372,7 +914,7 @@ export const people = [
     ],
     evaluation_scores: [4.5, 4.6, 4.4, 4.5, 4.6, 4.5],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Mikaela's 2024 PD"],
         "2025": ["Placeholder for Mikaela's 2025 PD"],
@@ -403,6 +945,8 @@ export const people = [
       }
     }
   },
+
+  //Stephen Bacolor
   {
     first_name: "Stephen",
     last_name: "Bacolor",
@@ -485,7 +1029,7 @@ export const people = [
     ],
     evaluation_scores: [3.9, 4.0, 4.1, 4.0, 4.2, 4.1],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Stephen's 2024 PD"],
         "2025": ["Placeholder for Stephen's 2025 PD"],
@@ -516,10 +1060,11 @@ export const people = [
       }
     }
   },
+  //Jhon Nerick Batuigas
   {
     first_name: "Jhon Nerick",
     last_name: "Batuigas",
-    name: "John Nerick Batuigas",
+    name: "Jhon Nerick Batuigas",
     designation: "Instructor I",
     image: "/images/batuigas.JPG",
     schedule: [
@@ -629,12 +1174,13 @@ export const people = [
       }
     }
   },
+  //Edan Belgica
   {
     first_name: "Edan",
     last_name: "Belgica",
     name: "Edan A. Belgica",
     designation: "Instructor I",
-    image: "/images/belgica.jpeg",
+    image: "/images/belgic.jpeg",
     diploma: "https://drive.google.com/file/d/1TbHmM1XsWJZUANmNEvLBQNHr60T6F4xU/view?usp=drive_link",
     certificates: [
       { name: "C# Theoritical Understanding", url: "https://drive.google.com/file/d/15R4MYPRy2itbYqLi1mV1QSblpwz5fPUZ/view?usp=drive_link" },
@@ -772,6 +1318,480 @@ export const people = [
       }
     }
   },
+  //Ralph Christian Bolarda
+  {
+    first_name: "Ralph Christian",
+    last_name: "Bolarda",
+    name: "Ralph Christian Bolarda",
+    designation: "Instructor I",
+    image: "/images/bolarda.JPG",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Rafael Carvajal
+
+  {
+    first_name: "Rafael",
+    last_name: "Carvajal",
+    name: "Rafel j. Carvajal",
+    designation: "Instructor I",
+    image: "/images/carvajal.JPG",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Jerico Castillo
+  {
+    first_name: "Jerico",
+    last_name: "Castillo",
+    name: "Jerico D. Castillo",
+    designation: "Instructor I",
+    image: "/images/castillo.jpg",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Mariel Castillo
+  {
+    first_name: "Mariel",
+    last_name: "Castillo",
+    name: "Mariel E. Castillo",
+    designation: "Instructor I",
+    image: "/images/m_castillo.JPG",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Alvin Catalo
   {
     first_name: "Alvin",
     last_name: "Catalo",
@@ -856,7 +1876,7 @@ export const people = [
     ],
     evaluation_scores: [4.6, 4.7, 4.8, 4.7, 4.5, 4.6],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Alvin's 2024 PD"],
         "2025": ["Placeholder for Alvin's 2025 PD"],
@@ -887,6 +1907,125 @@ export const people = [
       }
     }
   },
+  //Alvin Celino
+  {
+    first_name: "Alvin",
+    last_name: "Celino",
+    name: "Alvin P. Celino",
+    designation: "Instructor I",
+    image: "/images/celino.JPG",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Allen Dave Coles
   {
     first_name: "Allen Dave",
     last_name: "Coles",
@@ -969,7 +2108,7 @@ export const people = [
     ],
     evaluation_scores: [4.1, 4.2, 4.0, 4.3, 4.1, 4.2],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Allen Dave's 2024 PD"],
         "2025": ["Placeholder for Allen Dave's 2025 PD"],
@@ -1000,6 +2139,599 @@ export const people = [
       }
     }
   },
+  //Redem Decipulo
+  {
+    first_name: "Redem",
+    last_name: "Decipulo",
+    name: "Redem M. Decipulo",
+    designation: "Instructor I",
+    image: "/images/decipulo.jpg",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Rufino Dela Cruz
+  {
+    first_name: "Rufino Jr",
+    last_name: "Dela Cruz",
+    name: "Rufino Jr. A. Dela Cruz",
+    designation: "Instructor I",
+    image: "/images/delacruz.jpg",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Jen Jerome Dela Pena
+  {
+    first_name: "Jen Jerome",
+    last_name: "Dela Pena",
+    name: "Jen Jerome V. Dela Pena",
+    designation: "Instructor I",
+    image: "/images/delapena.png",
+    certificates: [
+      { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+  //Roi Francisco
+  {
+    first_name: "Francisco",
+    last_name: "Roi",
+    name: "Roi M. Francisco",
+    designation: "Instructor I",
+    image: "/images/francisc.jpg",
+    certificates: [
+      { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+
+  //Lawrence Jimenez
+  {
+    first_name: "Lawrence ",
+    last_name: "Jimenez",
+    name: "Lawrence G. Jimenez",
+    designation: "Instructor I",
+    image: "/images/jimenez.jpg",
+    certificates: [
+      { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
+      }
+    }
+  },
+
+  //James Mañozo
   {
     first_name: "James",
     last_name: "Mañozo",
@@ -1082,7 +2814,7 @@ export const people = [
     ],
     evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for James's 2024 PD"],
         "2025": ["Placeholder for James's 2025 PD"],
@@ -1113,6 +2845,7 @@ export const people = [
       }
     }
   },
+  //Ashley Manuel
   {
     first_name: "Ashley",
     last_name: "Manuel",
@@ -1195,7 +2928,7 @@ export const people = [
     ],
     evaluation_scores: [4.0, 4.1, 4.0, 4.2, 4.1, 4.3],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Ashley's 2024 PD"],
         "2025": ["Placeholder for Ashley's 2025 PD"],
@@ -1226,6 +2959,691 @@ export const people = [
       }
     }
   },
+  //Edmund Martinez
+  {
+    first_name: "Edmond",
+    last_name: "Martinez",
+    name: "Edmond E. Martinez",
+    designation: "Instructor I",
+    image: "/images/martinez.JPG",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Julios Mojas
+  {
+    first_name: "Julios",
+    last_name: "Mojas",
+    name: "Julios M. Mojas",
+    designation: "Instructor I",
+    image: "/images/mojas.JPG",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Richard Ongayo
+  {
+    first_name: "Richard",
+    last_name: "Ongayo",
+    name: "Ridhard D. Ongayo",
+    designation: "Instructor I",
+    image: "/images/ongayo.JPG",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Aida Penson
+  {
+    first_name: "Aida",
+    last_name: "Penson",
+    name: "Aida M. Penson",
+    designation: "Instructor I",
+    image: "/images/penson.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Nestor Migule Pimentel
+  {
+    first_name: "Nestor Miguel",
+    last_name: "Pimentel",
+    name: "Nestor Miguel T. Pimentel",
+    designation: "Instructor I",
+    image: "/images/pimentel.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //JR Racadio
+  {
+    first_name: "Jay-Ar",
+    last_name: "Racadio",
+    name: "Jay-Ar A. Racadio",
+    designation: "Instructor I",
+    image: "/images/racadio.jpeg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Alvina Ramallosa
   {
     first_name: "Alvina",
     last_name: "Ramallosa",
@@ -1308,7 +3726,7 @@ export const people = [
     ],
     evaluation_scores: [4.4, 4.5, 4.3, 4.6, 4.4, 4.5],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Alvina's 2024 PD"],
         "2025": ["Placeholder for Alvina's 2025 PD"],
@@ -1339,6 +3757,235 @@ export const people = [
       }
     }
   },
+  //Joven Rios
+  {
+    first_name: "Joven",
+    last_name: "Rios",
+    name: "Joven S Rios",
+    designation: "Instructor I",
+    image: "/images/rios.JPG",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Nino Rodil
+  {
+    first_name: "Nino",
+    last_name: "Rodil",
+    name: "Nino M. Rodil",
+    designation: "Instructor I",
+    image: "/images/rodil.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
@@ -1421,7 +4068,7 @@ export const people = [
     ],
     evaluation_scores: [4.0, 4.1, 4.1, 4.0, 4.2, 4.1],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Rachel's 2024 PD"],
         "2025": ["Placeholder for Rachel's 2025 PD"],
@@ -1452,6 +4099,7 @@ export const people = [
       }
     }
   },
+  //Clarissa Rostrollo
   {
     first_name: "Clarissa",
     last_name: "Rostrollo",
@@ -1534,7 +4182,7 @@ export const people = [
     ],
     evaluation_scores: [4.5, 4.6, 4.5, 4.7, 4.6, 4.7],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Clarissa's 2024 PD"],
         "2025": ["Placeholder for Clarissa's 2025 PD"],
@@ -1565,6 +4213,7 @@ export const people = [
       }
     }
   },
+  //Clarence Salvador
   {
     first_name: "Clarence",
     last_name: "Salvador",
@@ -1647,7 +4296,7 @@ export const people = [
     ],
     evaluation_scores: [4.2, 4.3, 4.1, 4.4, 4.3, 4.4],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Clarence's 2024 PD"],
         "2025": ["Placeholder for Clarence's 2025 PD"],
@@ -1678,6 +4327,7 @@ export const people = [
       }
     }
   },
+  //Jessica Ann Sambrano
   {
     first_name: "Jessica Ann",
     last_name: "Sambrano",
@@ -1760,7 +4410,7 @@ export const people = [
     ],
     evaluation_scores: [4.3, 4.4, 4.5, 4.3, 4.4, 4.5],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Jessica Ann's 2024 PD"],
         "2025": ["Placeholder for Jessica Ann's 2025 PD"],
@@ -1791,6 +4441,122 @@ export const people = [
       }
     }
   },
+  //Benedick Sarmiento
+  {
+    first_name: "Benedick",
+    last_name: "Sarmieto",
+    name: "Benedick M. Sarmiento",
+    designation: "Instructor I",
+    image: "/images/sarmiento.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+
+  //Jerome Tacata
   {
     first_name: "Jerome",
     last_name: "Tacata",
@@ -1873,7 +4639,7 @@ export const people = [
     ],
     evaluation_scores: [4.1, 4.2, 4.0, 4.3, 4.1, 4.2],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: { 
+    development_plan: {
       professionalDevelopment: {
         "2024": ["Placeholder for Jerome's 2024 PD"],
         "2025": ["Placeholder for Jerome's 2025 PD"],
@@ -1903,5 +4669,348 @@ export const people = [
         "2028": ["Placeholder for Jerome's 2028 Extensions"],
       }
     }
-  }
+  },
+  //Pamela Tagum
+  {
+    first_name: "Pamela",
+    last_name: "Tagum",
+    name: "Pamela Marie O. Tagum",
+    designation: "Instructor I",
+    image: "/images/tagum.JPG",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Cesar Talibong
+  {
+    first_name: "Cesar II",
+    last_name: "Talibong",
+    name: "Cesar II B. Talibong ",
+    designation: "Instructor I",
+    image: "/images/talibong.jpg",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+  //Russel Villareal
+  {
+    first_name: "Russel Adrianne",
+    last_name: "Villareal",
+    name: "Russel Adrianne Villareak",
+    designation: "Instructor I",
+    image: "/images/villareal.JPG",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
+      },
+      loading: {
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
+      },
+      research: {
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
+      },
+      extensions: {
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
+    }
+  },
+
 ];
