@@ -1,28 +1,20 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation} from "react-router-dom";
 import PersonHeader from "./PersonHeader";
 import PersonInfoCard from "./PersonInfoCard";
 import EvaluationChart from "./EvaluationChart";
 import FacultySchedule from "./FacultySchedule";
 import DevelopmentPlan from "./DevelopmentPlan";
+import NotFound from "./NotFound";
 
 function PersonDetail() {
   const { state } = useLocation();
-  const navigate = useNavigate();
 
   if (!state?.person) {
     return (
-      <div className="text-center mt-20">
-        <p className="text-red-500 text-xl font-bold">
-          Person not found. Please go back to the main page.
-        </p>
-        <button
-          onClick={() => navigate("/")}
-          className="mt-5 px-4 py-2 bg-blue-600 text-amber-50 rounded"
-        >
-          Go Back
-        </button>
-      </div>
+     
+        <NotFound></NotFound>
+     
     );
   }
 

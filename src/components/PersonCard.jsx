@@ -1,18 +1,29 @@
 import React, { useState, useEffect } from "react";
 import PersonList from "./PersonList";
-import { ChevronLeft, ChevronRight } from "lucide-react"; 
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function PersonCard({ data }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
 
   useEffect(() => {
     setCurrentPage(1);
   }, [data]);
 
-  const totalPages = Math.ceil(data.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentData = data.slice(startIndex, startIndex + itemsPerPage);
+  // Calculate total pages based on custom logic
+  const totalPages =
+    data.length <= 4 ? 1 : 1 + Math.ceil((data.length - 4) / 8);
+
+  // Determine start and end index based on currentPage
+  const getCurrentData = () => {
+    if (currentPage === 1) {
+      return data.slice(0, 4);
+    } else {
+      const startIndex = 4 + (currentPage - 2) * 8;
+      return data.slice(startIndex, startIndex + 8);
+    }
+  };
+
+  const currentData = getCurrentData();
 
   const goToPage = (page) => {
     setCurrentPage(page);

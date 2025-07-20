@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Logo from "../assets/cvsu.ico";
 import PersonCard from "./PersonCard";
 import { people } from "../data";
 import { X, Search } from "lucide-react";
 function Header() {
+  const navigate = useNavigate();
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
 
@@ -32,9 +34,9 @@ function Header() {
                 width="60"
                 height="60"
               />
-              <h2 className="text-amber-50 font-bold text-2xl">
+              <h2 className="text-amber-50 font-bold text-4xl hover:scale-105 cursor-pointer" onClick={() => navigate("/")}>
                 Department of Computer Studies <br />
-                <span className="text-yellow-300">201 Files</span>
+                <span className="text-amber-400 text-2xl">Cavite State University - Bacoor City Campus</span>
               </h2>
             </div>
 
