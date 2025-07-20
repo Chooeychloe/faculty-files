@@ -542,7 +542,7 @@ export const people = [
     first_name: "Steffanie ",
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
-    designation: "Program Coordinator, Computer Science",
+    designation: "OSAS Coordinator",
     image: "/images/bato.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
