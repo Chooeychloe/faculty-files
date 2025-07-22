@@ -34,9 +34,14 @@ function Header() {
                 width="60"
                 height="60"
               />
-              <h2 className="text-amber-50 font-bold text-4xl hover:scale-105 cursor-pointer" onClick={() => navigate("/")}>
+              <h2
+                className="text-amber-50 font-bold text-xl shover:scale-105 cursor-pointer"
+                onClick={() => navigate("/home")}
+              >
                 Department of Computer Studies <br />
-                <span className="text-amber-400 text-2xl">Cavite State University - Bacoor City Campus</span>
+                <span className="text-amber-400 text-base">
+                  Cavite State University - Bacoor City Campus
+                </span>
               </h2>
             </div>
 
@@ -69,8 +74,16 @@ function Header() {
                 </button>
               )}
             </div>
+            
           </div>
+        
         </div>
+          <button
+              onClick={() => navigate("/")}
+              className="text-sm ml-4 px-4 py-2 bg-amber-400 text-red-900 font-semibold rounded hover:bg-amber-300"
+            >
+              View Organizational Chart
+            </button>
       </header>
 
       <PersonCard data={filteredPeople} />

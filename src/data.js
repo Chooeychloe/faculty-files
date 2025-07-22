@@ -183,7 +183,7 @@ export const people = [
     first_name: "Ely Rose ",
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
-    designation: "CS Program Coordinator",
+    designation: "Computer Science Program Coordinator",
     image: "/images/briones.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -362,7 +362,7 @@ export const people = [
     first_name: "Donnalyn ",
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
-    designation: "IT Program Coordinator",
+    designation: "Information Technology Program Coordinator",
     image: "/images/montallana.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -542,7 +542,7 @@ export const people = [
     first_name: "Steffanie ",
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
-    designation: "OSAS Coordinator",
+    designation: "Head, OSAS",
     image: "/images/bato.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -2259,9 +2259,9 @@ export const people = [
   },
   //Rufino Dela Cruz
   {
-    first_name: "Rufino Jr",
+    first_name: "Rufino",
     last_name: "Dela Cruz",
-    name: "Rufino Jr. A. Dela Cruz",
+    name: "Rufino A. Dela Cruz Jr.",
     designation: "Instructor I",
     image: "/images/delacruz.jpg",
     certificates: [
