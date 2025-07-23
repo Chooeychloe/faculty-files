@@ -837,65 +837,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.58, 4.43],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Participated in professional development programs focused on learning methodologies and curriculum design to enhance instructional expertise.",
-          "Pursued certified online training programs to acquire industry-relevant skills aligned with the chosen career path."
-        ],
-        "2025": [
-          "Pass the Board Licensure Examination for Professional Teachers (BLEPT)",
-          "Attend academic related seminars to enhance teaching effectiveness.",
-          "Be a technical critic for students to guide them in their project and thesis."
-        ],
-        "2026": [
-          "Enroll in a Master’s program in Information Technology",
-          "Join in organizations that will enhance my professional and academic skills.",
-          "Seek for organizations who are in need in terms of systems, mobile and web applications.",
-          " Enhance teaching approach for students, in order to attain effective deliverance of the topic."
-        ],
-        "2027": [
-          "Complete the Master’s Degree program in Information Technology.",
-          "Stay and lead people in an organization that is focused on IT related programs."
-        ],
-        "2028": ["Participate in seminars that offer advanced certification in the relevant field."],
+        "2024": [" Participate in professional development programs focused on learning methodologies and curriculum design to enhance instructional expertise."],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": ["Information Management", "Elective 3: Internet of Things", "Automata Theory and Formal Languages"],
-        "2025": ["Computer Programming II", "Web System and Technologies II", "System Integration and Architecture I"],
-        "2026": ["Any Minor/ Major Subject related to Web Design, Computer Programming, Computer System Servicing"],
-        "2027": ["Any Minor/ Major Subject related to Web Design, Computer Programming, Computer System Servicing"],
-        "2028": ["Any Minor/ Major Subject related to Web Design, Computer Programming, Computer System Servicing"],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Participate in research-oriented seminars to enhance critical thinking skills and adopt effective approaches to subject matter analysis.",
-          "Deliver forward-thinking academic mentorship to students, guiding them in the development of innovative and impact-driven research projects."
-        ],
-        "2025": [
-          "Drive pioneering research that pushes the boundaries of Computer Studies in response to future technological advancements.",
-          "Continuously engage in advanced seminars and immersive workshops to stay at the forefront of evolving research practices.",
-          "Empower the next generation of innovators by providing ongoing mentorship and strategic guidance in their research endeavors."
-        ],
-        "2026": [
-          "Engage in innovative research initiatives that advance the field of Computer Studies.",
-          "Participate in cutting-edge seminars and workshops to stay updated with emerging trends in research writing and methodologies.",
-          "Foster future-ready researchers by continuously mentoring students throughout their evolving research journeys."
-        ],
-        "2027": [
-          "Guide students with their research development.",
-          "Participate in a research seminar related to Computer Studies."
-        ],
-        "2028": ["Guide students with their research development."],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2026": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2027": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2028": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -918,402 +889,7 @@ export const people = [
     }],
 
     schedule: [
-      {
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 50 (LEC)",
-              section: "IT 1-1",
-              room: "ROOM 301"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "ITEC 50 (LEC)",
-              section: "CS 1-1",
-              room: "ROOM 301"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "DCIT 25 (LAB)",
-              section: "CS 2-2",
-              room: "CL 3"
-            },
-          ],
-          tuesday: [
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 25 (LEC)",
-              section: "CS 2-1",
-              room: "ROOM 302"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "CONSULTATION HOURS",
-              room: "FACULTY ROOM"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 50 (LAB)",
-              section: "IT 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "DCIT 25 (LEC)",
-              section: "IT 1-1",
-              room: "ROOM 302"
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 50 (LAB)",
-              section: "IT 1-2",
-              room: "CL 1"
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 25 (LEC)",
-              section: "CS 2-2",
-              room: "ROOM 302"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 25 (LAB)",
-              section: "IT 2-6",
-              room: "CL 2"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 25 (LEC) ASYNC",
-              section: "IT 2-6",
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "IT 1-2",
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "IT 1-1",
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 50 (LAB)",
-              section: "CS 2-1",
-              room: "CL 1"
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 25 (LEC)",
-              section: "CS 2-3",
-              room: "ROOM 302"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 25 (LAB)",
-              section: "CS 2-3",
-              room: "CL 4"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 25 (LEC) ASYNC",
-              section: "CS 2-1",
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 25 (LEC) ASYNC",
-              section: "CS 2-2",
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "DCIT 25 (LEC) ASYNC",
-              section: "CS 2-3",
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 23-24",
-        details: {
-          monday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22 (LEC)",
-              section: "CS 1-1",
-              room: "ROOM 301"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-1",
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 26 (LEC)",
-              section: "CS 3-1",
-              room: "ROOM 301"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 22 (LEC)",
-              section: "CS 1-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-2",
-              room: "CL 4"
-            },
-
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 26 (LEC) ASYNC",
-              section: "CS 3-1",
-            },
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 26 (LEC) ASYNC",
-              section: "CS 3-2",
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "CONSULTATION HOURS",
-              room: "CL 4"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 26",
-              section: "CS 3-1",
-              room: "FACULTY ROOM"
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-3",
-              room: "CL 3"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-2",
-              room: "CL 2"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-1",
-              room: "CL 4"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 26 ((LEC))",
-              section: "CS 3-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 22 (LAB)",
-              section: "CS 1-2",
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 22 (LAB)",
-              section: "CS 1-3",
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 22 (LAB)",
-              section: "CS 1-1",
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "DCIT 22 (LAB)",
-              section: "CS 1-2",
-            },
-          ],
-          thursday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22 ((LEC))",
-              section: "CS 1-3",
-              room: "ROOM 301"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-3",
-              room: "CL 4"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 26",
-              section: "CS 1-3",
-              room: "CL 4"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 50",
-              section: "CS 1-4",
-              room: "CL 4"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-4",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-5",
-              room: "CL 2"
-            },
-
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "ITEC 95",
-              section: "IT 3-2",
-              room: "CL 4"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 95",
-              section: "IT 3-3",
-              room: "ROOM 305"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "ITEC 50",
-              section: "CS 1-5",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-5",
-              room: "ROOM 302"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "ITEC 50 LAB ASYNC",
-              section: "CS 1-4",
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 50 LAB ASYNC",
-              section: "CS 1-5",
-            },
-          ],
-          wednesday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 50",
-              section: "CS 1-5",
-              room: "ROOM 302"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "CS 1-5",
-            },
-            {
-              time: "11:00 AM - 12:00 AM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "CS 1-4",
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "ITEC 50",
-              section: "CS 1-4",
-              room: "CL 2"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "IT 1-4",
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "IT 1-5",
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "ITEC 50 LAB ASYNC",
-              section: "IT 1-4",
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "ITEC 50 LAB ASYNC",
-              section: "IT 1-5",
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "ITEC 95",
-              section: "IT 3-1",
-              room: "ROOM 302"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 95 ASYNC",
-              section: "IT 3-1",
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 95 ASYNC",
-              section: "IT 3-2",
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "CONSULTATION",
-              room: "FACULTY"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-5",
-              room: "ROOM 203"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-4",
-              room: "302"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
+      
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -1338,7 +914,7 @@ export const people = [
 
           ],
           tuesday: [
-
+           
           ],
           wednesday: [
             {
@@ -1359,13 +935,13 @@ export const people = [
               section: "IT 3-1",
               room: "ROOM 203"
             },
-            {
+             {
               time: "1:00 PM - 3:00 PM",
               subject: "ITEC 50",
               section: "IT 1-5",
               room: "ROOM 203"
             },
-            {
+             {
               time: "5:00 PM - 7:00 PM",
               subject: "ITEC 50",
               section: "IT 1-4",
@@ -1393,13 +969,13 @@ export const people = [
               section: "IT 3-1",
               room: "ROOM 203"
             },
-            {
+             {
               time: "1:00 PM - 3:00 PM",
               subject: "ITEC 50",
               section: "IT 1-5",
               room: "ROOM 203"
             },
-            {
+             {
               time: "5:00 PM - 7:00 PM",
               subject: "ITEC 50",
               section: "IT 1-4",
@@ -1407,7 +983,7 @@ export const people = [
             },
           ],
           saturday: [
-            {
+             {
               time: "7:00 AM - 8:30 AM",
               subject: "ITEC 95",
               section: "IT 3-3",
@@ -1425,13 +1001,13 @@ export const people = [
               section: "IT 3-1",
               room: "ROOM 203"
             },
-            {
+             {
               time: "1:00 PM - 3:00 PM",
               subject: "ITEC 50",
               section: "IT 1-5",
               room: "ROOM 203"
             },
-            {
+             {
               time: "5:00 PM - 7:00 PM",
               subject: "ITEC 50",
               section: "IT 1-4",
@@ -1443,71 +1019,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.75, 4.33, 4.51, 4.53],
+    evaluation_scores: [4.5, 4.6, 4.4, 4.5, 4.6, 4.5],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Enrolled in a Master’s program in Information Technology",
-          "Redesigned course syllabus to integrate flexible learning and LMS.",
-          "Identified potential research topics related to tech in education."
-        ],
-        "2025": [
-          "Completed my Master’s degree.",
-          "Developed online learning materials for 1–2 subjects.",
-          "Implemented tech-enhanced assessments using tools like Google Forms."
-        ],
-        "2026": [
-          "Take CISCO developer-focused certification track.",
-          "Join institutional community outreach IT projects.",
-          "Develop research proposal and seek internal approval."
-        ],
-        "2027": [
-          "Share best practices in instructional innovation through in-house seminars.",
-          "Publish at least one paper in a journal or IT education conference proceedings.",
-          "Lead a tech-for-community innovation project."
-        ],
-        "2028": [
-          "Share best practices in instructional innovation through in-house seminars.",
-          "Participate in institutional curriculum review committee",
-          "Enroll in short-term international training or fellowship."
-        ],
+        "2024": ["Placeholder for Mikaela's 2024 PD"],
+        "2025": ["Placeholder for Mikaela's 2025 PD"],
+        "2026": ["Placeholder for Mikaela's 2026 PD"],
+        "2027": ["Placeholder for Mikaela's 2027 PD"],
+        "2028": ["Placeholder for Mikaela's 2028 PD"],
       },
       loading: {
-        "2024": ["Object-oriented Programming", "Computer   Programming I"],
-        "2025": ["Quantitative Research", "Web and System Technologies", "Application Development and Emerging Technology"],
-        "2026": ["Any Major BSIT/BSCS Courses"],
-        "2027": ["Any Major BSIT/BSCS Courses"],
-        "2028": ["Any Major BSIT/BSCS Courses"],
+        "2024": ["Placeholder for Mikaela's 2024 Loading"],
+        "2025": ["Placeholder for Mikaela's 2025 Loading"],
+        "2026": ["Placeholder for Mikaela's 2026 Loading"],
+        "2027": ["Placeholder for Mikaela's 2027 Loading"],
+        "2028": ["Placeholder for Mikaela's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Engage in research on computer science education, software development, or data analytics.",
-          "Continue guiding students in their research journey.."
-        ],
-        "2025": [
-          "Engage in research on computer science education, software development, or data analytics.",
-          "Continue guiding students in their research journey.."
-        ],
-        "2026": [
-          "Continue to mentor student researchers to be able to produce at least Research per year for funding.",
-          "Continue guiding students in their research journey.."
-        ],
-        "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey.."
-        ],
-        "2028": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey.."
-        ],
+        "2024": ["Placeholder for Mikaela's 2024 Research"],
+        "2025": ["Placeholder for Mikaela's 2025 Research"],
+        "2026": ["Placeholder for Mikaela's 2026 Research"],
+        "2027": ["Placeholder for Mikaela's 2027 Research"],
+        "2028": ["Placeholder for Mikaela's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": ["Participate in the campus extension activities."],
-        "2027": ["Participate in the campus extension activities."],
-        "2028": ["Participate in the campus extension activities."],
+        "2024": ["Placeholder for Mikaela's 2024 Extensions"],
+        "2025": ["Placeholder for Mikaela's 2025 Extensions"],
+        "2026": ["Placeholder for Mikaela's 2026 Extensions"],
+        "2027": ["Placeholder for Mikaela's 2027 Extensions"],
+        "2028": ["Placeholder for Mikaela's 2028 Extensions"],
       }
     }
   },
@@ -1611,88 +1152,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.39, 4.36],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [3.9, 4.0, 4.1, 4.0, 4.2, 4.1],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Attended industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Gained more knowledge through workshops related to Operating Systems, Mobile Technology, and Computer Programming.",
-          "Broadened my knowledge and strength in teaching."
-        ],
-        "2025": [
-          "Attended industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Gained more knowledge through workshops related to Operating Systems, Mobile Technology, and Computer Programming.",
-          "Broadened my knowledge and strength in teaching.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming."
-        ],
-        "2026": [
-          "Continue to attend industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Be a resource speaker related to Operating Systems, and  Mobile Technology.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming.",
-          "Gain a unit in terms of Teaching.",
-          "To attend workshops in Google, and Microsoft."
-        ],
-        "2027": [
-          "Continue to attend industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Be a resource speaker related to Operating Systems, and  Mobile Technology.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming.",
-          "Gain a unit in terms of Teaching.",
-          "Gain a License for Teaching.",
-          "Pursue a Master’s degree in Information Technology."
-        ],
-        "2028": [
-          "Continue to attend industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Be a resource speaker related to Operating Systems, and  Mobile Technology.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming.",
-          "Gain a unit in terms of Teaching.",
-          "Gain a License for Teaching.",
-          "Pursue a Master’s degree in Information Technology.",
-          "Work abroad as a teacher"
-        ],
+        "2024": ["Placeholder for Stephen's 2024 PD"],
+        "2025": ["Placeholder for Stephen's 2025 PD"],
+        "2026": ["Placeholder for Stephen's 2026 PD"],
+        "2027": ["Placeholder for Stephen's 2027 PD"],
+        "2028": ["Placeholder for Stephen's 2028 PD"],
       },
       loading: {
-        "2024": ["COSC 85: OPERATING SYSTEMS"],
-        "2025": ["COSC 90: PROGRAMMING LANGUAGES", "COSC 70: SOFTWARE ENGINEERING I", "ITEC 65: OPEN-SOURCE TECHNOLOGY"],
-        "2026": ["COSC 85: OPERATING SYSTEMS", "ITEC 55: PLATFORM TECHNOLOGIES"],
-        "2027": ["Any Major Subject BSIT/BSCS Course"],
-        "2028": ["Any Major Subject BSIT/BSCS Course"],
+        "2024": ["Placeholder for Stephen's 2024 Loading"],
+        "2025": ["Placeholder for Stephen's 2025 Loading"],
+        "2026": ["Placeholder for Stephen's 2026 Loading"],
+        "2027": ["Placeholder for Stephen's 2027 Loading"],
+        "2028": ["Placeholder for Stephen's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development."
-        ],
-        "2025": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development."
-        ],
-        "2026": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development.",
-          "Be able to compose my own research related to Operating System innovation."
-        ],
-        "2027": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development.",
-          "Be able to compose my own research related to Operating System innovation."
-        ],
-        "2028": [
-          "Engage in research related to computer studies"
-        ],
+        "2024": ["Placeholder for Stephen's 2024 Research"],
+        "2025": ["Placeholder for Stephen's 2025 Research"],
+        "2026": ["Placeholder for Stephen's 2026 Research"],
+        "2027": ["Placeholder for Stephen's 2027 Research"],
+        "2028": ["Placeholder for Stephen's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2026": ["Be able to conduct an extension program regarding Mobile Technology Efficiency"],
-        "2027": [
-          "Continue to conduct an extension program regarding Mobile Technology Efficiency.",
-          "Collaborate with LGUs and NGOs for Literacy on Mobile Technology."
-        ],
-        "2028": [
-          "Continue to conduct an extension program regarding Mobile Technology Efficiency.",
-          "Collaborate with LGUs and NGOs for Literacy on Mobile Technology."
-        ],
+        "2024": ["Placeholder for Stephen's 2024 Extensions"],
+        "2025": ["Placeholder for Stephen's 2025 Extensions"],
+        "2026": ["Placeholder for Stephen's 2026 Extensions"],
+        "2027": ["Placeholder for Stephen's 2027 Extensions"],
+        "2028": ["Placeholder for Stephen's 2028 Extensions"],
       }
     }
   },
@@ -1752,46 +1241,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.46],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.2, 4.3, 4.2, 4.4, 4.1, 4.3],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Acquired relevant skills aligned with the course by enrolling in certified online training programs.",
-          "Attended development programs related to learning styles, or curriculum development."
-        ],
-        "2025": [
-          "Passed the Board Licensure Examination for Professional Teachers (BLEPT) to obtain professional certification in the field of education.",
-          "Acquired relevant skills aligned with the course by enrolling in certified online training programs.",
-          "Served as adviser or panelist in undergraduate capstone/thesis projects."
-        ],
-        "2026": [
-          "Pursue a Master’s degree in Information Technology to deepen expertise and broaden knowledge in the field.",
-          "Engage in public speaking opportunities by participating in seminars, webinars, and similar events to enhance communication and presentation skills"
-        ],
-        "2027": ["Serve as resource speaker or trainer in seminars/webinars outside the university."],
-        "2028": ["Complete the Master’s Degree program"],
+        "2024": [""],
+        "2025": ["Placeholder for Jhon Nerick's 2025 PD"],
+        "2026": ["Placeholder for Jhon Nerick's 2026 PD"],
+        "2027": ["Placeholder for Jhon Nerick's 2027 PD"],
+        "2028": ["Placeholder for Jhon Nerick's 2028 PD"],
       },
       loading: {
-        "2024": ["Information Management", "Intelligent System ", "Network Fundamentals"],
-        "2025": ["Data Structures and Algorithms", "Open Source Technology ", "System Integration and Architecture I"],
-        "2026": ["Any courses in networking, hardware, or computer programming fundamentals, where I can apply my expertise as an ICT educator."],
-        "2027": ["Any courses in networking, hardware, or computer programming fundamentals, where I can apply my expertise as an ICT educator."],
-        "2028": ["Any courses in networking, hardware, or computer programming fundamentals, where I can apply my expertise as an ICT educator."],
+        "2024": ["Placeholder for Jhon Nerick's 2024 Loading"],
+        "2025": ["Placeholder for Jhon Nerick's 2025 Loading"],
+        "2026": ["Placeholder for Jhon Nerick's 2026 Loading"],
+        "2027": ["Placeholder for Jhon Nerick's 2027 Loading"],
+        "2028": ["Placeholder for Jhon Nerick's 2028 Loading"],
       },
       research: {
-        "2024": ["Guide students with their research development."],
-        "2025": ["Guide students with their research development."],
-        "2026": ["Serve as adviser or panelist in undergraduate capstone/thesis projects."],
-        "2027": ["Serve as adviser or panelist in undergraduate capstone/thesis projects."],
-        "2028": ["Serve as adviser or panelist in undergraduate capstone/thesis projects."],
+        "2024": ["Placeholder for Jhon Nerick's 2024 Research"],
+        "2025": ["Placeholder for Jhon Nerick's 2025 Research"],
+        "2026": ["Placeholder for Jhon Nerick's 2026 Research"],
+        "2027": ["Placeholder for Jhon Nerick's 2027 Research"],
+        "2028": ["Placeholder for Jhon Nerick's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2026": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2027": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2028": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
+        "2024": ["Placeholder for Jhon Nerick's 2024 Extensions"],
+        "2025": ["Placeholder for Jhon Nerick's 2025 Extensions"],
+        "2026": ["Placeholder for Jhon Nerick's 2026 Extensions"],
+        "2027": ["Placeholder for Jhon Nerick's 2027 Extensions"],
+        "2028": ["Placeholder for Jhon Nerick's 2028 Extensions"],
       }
     }
   },
@@ -1920,7 +1399,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.97, null, 4.34],
+    evaluation_scores: [4.5, 4.6, 4.5, 4.7, 4.8, 4.7],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -2068,36 +1547,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.12, null, 4.25],
-    evaluation_labels: ["2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -2105,7 +1584,7 @@ export const people = [
   {
     first_name: "Rafael",
     last_name: "Carvajal",
-    name: "Rafel J. Carvajal",
+    name: "Rafel j. Carvajal",
     designation: "Instructor I",
     image: "/images/carvajal.JPG",
     diploma: "https://drive.google.com/file/d/1IkZvDHn2Y9NCiXsuF-7UIpLJj5bAeJbl/view?usp=drive_link",
@@ -2196,56 +1675,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.41],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Successfully passed the Board Licensure Examinations for Professional Teachers.",
-          "Integrated relevant skills aligned with the course by attending to online seminars and programs."
-        ],
-        "2025": [
-          "Participated in any local and international workshops and seminars on Cybersecurity and Ethical Use of AI.",
-          "Attended Module Creation Workshop and Capability Enhancement Training provided by the CvSU and DICT.",
-          "Assist students for their academic compliance through project proposal aligned to the UN’s Sustainable Development Goals with applied technical strategies on Computer Programming through Community-Based Sustainable solutions to the issues/concerns focusing on Healthcare, Traffic Management, Waste Management and Animal Welfare."
-        ],
-        "2026": [
-          "Enroll to a reputable university for a Master of Science in Computer Science.",
-          "Enhance my skills in Media and Information Literacy and Multimedia Arts through workshops and training.",
-          "Improve my abilities in Research and Communications to better align students’ research purposes with community issues and concerns.",
-          "Become a member of professional organizations that will enrich and augment my expertise in Computer Science."
-        ],
-        "2027": [
-          "Publish a Faculty Research that focuses students’ Career Assessment and their Job Performance during OJT.",
-          "Craft a policy on the students’ ethical use of AI on their submitted academic materials aligned to the CvSU Academic Guidelines and other significant factors.",
-          "Integrate my professional skills on Data Analysis on Computer Studies."
-        ],
-        "2028": [
-          "Engage on Seminars, Trainings and related events to share professional insights and knowledge to the audiences.",
-          "Enhance my skills on Educational Management and Curriculum Enhancement from compiled students’ evaluations, performance ratings through relevant workshops and trainings.",
-          "Propose a Curriculum Roadmap for Computer Studies."
-        ],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": ["Systems Analysis and Design"],
-        "2025": ["Software Engineering I", "Computer Programming 2"],
-        "2026": ["Any subjects related to General Education, Multimedia and IT/CS."],
-        "2027": ["Any subjects related to General Education, Multimedia and IT/CS."],
-        "2028": ["Any subjects related to General Education, Multimedia and IT/CS."],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -2344,36 +1803,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.71, 4.19, null, 3.67],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -2463,36 +1922,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.94, null, 3.66],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -2610,36 +2069,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 4.36, null, 4.16],
+    evaluation_scores: [4.6, 4.7, 4.8, 4.7, 4.5, 4.6],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Attended relevant workshops and earned industry-recognized certifications in the IT and Computer Science field to continually update and expand technical knowledge."],
-        "2025": ["Became an active member of a professional IT/Computer Science organization to stay updated on emerging trends, contribute to the field, and expand my professional network."],
-        "2026": ["Pursue a Doctoral degree in Information Technology to advance my research capabilities and contribute to academic knowledge and innovation."],
-        "2027": ["Pursue doctoral studies in [IT/Computer Science] and aim to publish at least one research paper in a peer-reviewed journal or conference during the course of my program."],
-        "2028": [" participate in specialized workshops and obtain recognized certifications in the IT and Computer Science fields to keep my technical skills current and continuously broaden my expertise."],
+        "2024": ["Placeholder for Alvin's 2024 PD"],
+        "2025": ["Placeholder for Alvin's 2025 PD"],
+        "2026": ["Placeholder for Alvin's 2026 PD"],
+        "2027": ["Placeholder for Alvin's 2027 PD"],
+        "2028": ["Placeholder for Alvin's 2028 PD"],
       },
       loading: {
-        "2024": ["Information Management", "Institutional Orientation"],
-        "2025": ["Methods of Research"],
-        "2026": ["Any Major BSIT/BSCS Courses"],
-        "2027": ["Any Major BSIT/BSCS Courses"],
-        "2028": ["Any Major BSIT/BSCS Courses"],
+        "2024": ["Placeholder for Alvin's 2024 Loading"],
+        "2025": ["Placeholder for Alvin's 2025 Loading"],
+        "2026": ["Placeholder for Alvin's 2026 Loading"],
+        "2027": ["Placeholder for Alvin's 2027 Loading"],
+        "2028": ["Placeholder for Alvin's 2028 Loading"],
       },
       research: {
-        "2024": ["One of the proponents of a Faculty Study."],
-        "2025": ["One of the proponents of a Faculty Study."],
-        "2026": ["Present at least one research paper"],
-        "2027": ["Publish at least one research paper"],
-        "2028": ["Publish at least one research paper"],
+        "2024": ["Placeholder for Alvin's 2024 Research"],
+        "2025": ["Placeholder for Alvin's 2025 Research"],
+        "2026": ["Placeholder for Alvin's 2026 Research"],
+        "2027": ["Placeholder for Alvin's 2027 Research"],
+        "2028": ["Placeholder for Alvin's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively Participate in Extension programs"],
-        "2025": ["Actively Participate in Extension programs"],
-        "2026": ["Actively Participate in Extension programs"],
-        "2027": ["Actively Participate in Extension programs"],
-        "2028": ["Actively Participate in Extension programs"],
+        "2024": ["Placeholder for Alvin's 2024 Extensions"],
+        "2025": ["Placeholder for Alvin's 2025 Extensions"],
+        "2026": ["Placeholder for Alvin's 2026 Extensions"],
+        "2027": ["Placeholder for Alvin's 2027 Extensions"],
+        "2028": ["Placeholder for Alvin's 2028 Extensions"],
       }
     }
   },
@@ -2660,11 +2119,11 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
           saturday: [],
           sunday: [],
         }
@@ -2672,9 +2131,9 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 22-23",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
           thursday: [],
           friday: [],
           saturday: [],
@@ -2684,12 +2143,12 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [{ time: "7:00 AM - 9:00 AM", section: " IT 3-6", subject: "ITEC 90 Lab", room: "CL 3" }],
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
           tuesday: [],
-          wednesday: [{ time: "7:00 PM - 8:00 AM", subject: "ITEC 90 Lec", section: "IT 3-2", room: "Room 305" }, { time: "8:00 AM - 9:00 AM", subject: "ITEC 90 Lec", section: "IT 3-6", room: "Room 305" }],
-          thursday: [],
-          friday: [{ time: "7:00 AM - 9:00 PM", section: "IT 3-2", subject: "ITEC 90 Lab", room: "Room 301" }],
-          saturday: [{ time: "7:00 AM - 8:00 AM", section: "IT 3-2", subject: "ITEC 90 Lec", room: "" }, { time: "8:00 AM - 9:00 AM", section: "IT 3-2", subject: "ITEC 90 Lab", room: "" }, { time: "9:00 AM - 10:00 AM", section: "IT 3-6", subject: "ITEC 90 Lec", room: "" }, { time: "10:00 AM - 11:00 AM", section: "IT 3-6", subject: "ITEC 90 Lab", room: "" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
           sunday: [],
         }
       },
@@ -2731,36 +2190,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.29, 4.48, 4.37],
-    evaluation_labels: ["2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [""],
-        "2025": [""],
-        "2026": [""],
-        "2027": [""],
-        "2028": [""],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [""],
-        "2025": [""],
-        "2026": [""],
-        "2027": [""],
-        "2028": [""],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [""],
-        "2025": [""],
-        "2026": [""],
-        "2027": [""],
-        "2028": [""],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [""],
-        "2025": [""],
-        "2026": [""],
-        "2027": [""],
-        "2028": [""],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -2848,49 +2307,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.13],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.1, 4.2, 4.0, 4.3, 4.1, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [""],
-        "2025": [
-          "Pass the Board Licensure Examination for Professional Teachers (BLEPT)",
-          "Partake in seminars that are relevant in the field"
-        ],
-        "2026": [
-          "Enroll in a Master’s program in Information Technology",
-          "Be a member of an organization that can help in my professional and academic endeavors"
-        ],
-        "2027": [
-          "Placeholder for Allen Dave's 2027 PDContinue Master’s studies program in Information Technology",
-          "Keep being an active member of an organization and explore other opportunities"
-        ],
-        "2028": ["Attend seminars that offer advanced certification in the relevant field"],
+        "2024": ["Placeholder for Allen Dave's 2024 PD"],
+        "2025": ["Placeholder for Allen Dave's 2025 PD"],
+        "2026": ["Placeholder for Allen Dave's 2026 PD"],
+        "2027": ["Placeholder for Allen Dave's 2027 PD"],
+        "2028": ["Placeholder for Allen Dave's 2028 PD"],
       },
       loading: {
-        "2024": ["Integrated Programming and Technologies 2"],
-        "2025": [
-          "Web Systems and Technologies 1",
-          "Understanding the Self",
-          "Science, Technology, and Society"
-        ],
-        "2026": ["Any courses in multimedia, and web design"],
-        "2027": ["Any courses in multimedia, and web design"],
-        "2028": ["Any courses in multimedia, and web design"],
+        "2024": ["Placeholder for Allen Dave's 2024 Loading"],
+        "2025": ["Placeholder for Allen Dave's 2025 Loading"],
+        "2026": ["Placeholder for Allen Dave's 2026 Loading"],
+        "2027": ["Placeholder for Allen Dave's 2027 Loading"],
+        "2028": ["Placeholder for Allen Dave's 2028 Loading"],
       },
       research: {
-        "2024": ["Guide students with their research development."],
-        "2025": ["Guide students with their research development."],
-        "2026": ["Guide students with their research development."],
-        "2027": ["Guide students with their research development."],
-        "2028": ["Guide students with their research development."],
+        "2024": ["Placeholder for Allen Dave's 2024 Research"],
+        "2025": ["Placeholder for Allen Dave's 2025 Research"],
+        "2026": ["Placeholder for Allen Dave's 2026 Research"],
+        "2027": ["Placeholder for Allen Dave's 2027 Research"],
+        "2028": ["Placeholder for Allen Dave's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2026": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2027": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2028": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
+        "2024": ["Placeholder for Allen Dave's 2024 Extensions"],
+        "2025": ["Placeholder for Allen Dave's 2025 Extensions"],
+        "2026": ["Placeholder for Allen Dave's 2026 Extensions"],
+        "2027": ["Placeholder for Allen Dave's 2027 Extensions"],
+        "2028": ["Placeholder for Allen Dave's 2028 Extensions"],
       }
     }
   },
@@ -2982,77 +2428,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.59, null, 3.93],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Passed the Licensure Examination for Professional Teacher(LEPT).",
-          "Attend at least one national-level IT or CS conference or seminar.",
-          "Submit at least one research proposal for internal funding.",
-        ],
-        "2025": [
-          "Pursue and begin graduate-level studies to further enhance my academic and professional development.",
-          "Complete short courses/certifications for better instructions and academic foundations.",
-          "Enhance professional competencies by attending relevant",
-        ],
-        "2026": [
-          "Obtain professional certification (e.g., AWS, Cisco, Google Educator, etc.).",
-          "Enhance professional competencies by attending relevant workshops and training programs in IT and Computer Science, both nationally and internationally."
-        ],
-        "2027": [
-          "Attain a postgraduate degree or be in candidacy status.",
-          "Enhance professional competencies by attending relevant workshops and training programs in IT and Computer Science, both nationally and internationally."
-        ],
-        "2028": [
-          "Enhancing credibility and beginning doctoral studies(if applicable.)",
-          " Enhance professional competencies by attending relevant workshops and training programs in IT and Computer Science, both nationally and internationally."
-        ],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Platform Technologies",
-          "Information Management",
-          "Human Computer Interaction II",
-          "Data Structure and Algorithm",
-          "Science, Technology, and Society"
-        ],
-        "2025": [
-          "Platform Technologies",
-          "Information Assurance and Security I",
-          "Data Structure and Algorithm",
-          "Human Computer Interaction II",
-          "Open Source Technologies"
-        ],
-        "2026": ["Any Major /Minor Subject BSIT/BSCS Course"],
-        "2027": ["Any Major /Minor Subject BSIT/BSCS Course"],
-        "2028": ["Any Major /Minor Subject BSIT/BSCS Course"],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Attend research methodology or proposal writing workshops.",
-          "Develop a research agenda aligned with departmental or institutional objectives."
-        ],
-        "2025": [
-          "Submit and complete one internally funded research project.",
-          "Serve as research adviser for undergraduate thesis projects."
-        ],
-        "2026": [
-          "Collaborate with colleagues on a multi-disciplinary research project.",
-          "Present research output in a local or regional research colloquium."
-        ],
-        "2027": [
-          "Present a paper in an international conference , face-to-face or virtual.",
-          "Apply for external research funding/grant."
-        ],
-        "2028": ["Publish in an international indexed journal."],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively Participate in department and university extension activity."],
-        "2025": ["Actively Participate in department and university extension activity."],
-        "2026": ["Actively Participate in department and university extension activity."],
-        "2027": ["Actively Participate in department and university extension activity."],
-        "2028": ["Actively Participate in department and university extension activity."],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -3144,36 +2549,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.54, 4.56, 3.97],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -3268,36 +2673,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.69, null, 3.79],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -3389,36 +2794,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.66, 4.11, null, 4.10],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Research"],
+        "2025": ["Placeholder for Bryan's 2025 Research"],
+        "2026": ["Placeholder for Bryan's 2026 Research"],
+        "2027": ["Placeholder for Bryan's 2027 Research"],
+        "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -3511,49 +2916,22 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.32, null, 3.98],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.2, 4.1, 4.3, 4.0, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Passed the Board in Licensure Examination for Teachers.",
-          "Currently enrolled in an advanced academic program at MIT to deepen my expertise in the field."
-        ],
-        "2025": ["Gain relevant skills and knowledge aligned with the course by enrolling in certified online training programs available."],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Bryan's 2024 PD"],
+        "2025": ["Placeholder for Bryan's 2025 PD"],
+        "2026": ["Placeholder for Bryan's 2026 PD"],
+        "2027": ["Placeholder for Bryan's 2027 PD"],
+        "2028": ["Placeholder for Bryan's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Platform Technologies",
-          "Application Development and Emerging Technology",
-          "Data Structure and Algorithm",
-          "Panitikang Panlipunan"
-        ],
-        "2025": [
-          "Open Source Technology",
-          "Data Structure and Algorithm",
-          "CS Elective Computer Graphics",
-          "Multimedia System",
-          "Dalumat ng/sa Filipino"
-        ],
-        "2026": [
-          "CS Elective Computer Graphics",
-          "Multimedia System",
-          "Panitikang Panlipunan",
-          "Dalumat ng/sa Filipino"
-        ],
-        "2027": [
-          "CS Elective Computer Graphics",
-          "Multimedia System",
-          "Panitikang Panlipunan",
-          "Dalumat ng/sa Filipino"
-        ],
-        "2028": ["CS Elective Computer Graphics",
-          "Multimedia System",
-          "Panitikang Panlipunan",
-          "Dalumat ng/sa Filipino"],
+        "2024": ["Placeholder for Bryan's 2024 Loading"],
+        "2025": ["Placeholder for Bryan's 2025 Loading"],
+        "2026": ["Placeholder for Bryan's 2026 Loading"],
+        "2027": ["Placeholder for Bryan's 2027 Loading"],
+        "2028": ["Placeholder for Bryan's 2028 Loading"],
       },
       research: {
         "2024": ["Placeholder for Bryan's 2024 Research"],
@@ -3563,17 +2941,11 @@ export const people = [
         "2028": ["Placeholder for Bryan's 2028 Research"],
       },
       extensions: {
-        "2024": [
-          "Participate in the campus extension activities.",
-          "Participate in the community workshop thru NGO",
-        ],
-        "2025": [
-          "Mentoring at Multimedia Course held at Bacoor Computer Center.",
-          "Be Organizing committee at CyberPeace Education 2025"
-        ],
-        "2026": ["Spearhead a workshop focusing on Multimedia within the community"],
-        "2027": ["Continuous participation on different activities that will beneficial to the local community "],
-        "2028": ["Develop a web-based application for Cavite Creative Community"],
+        "2024": ["Placeholder for Bryan's 2024 Extensions"],
+        "2025": ["Placeholder for Bryan's 2025 Extensions"],
+        "2026": ["Placeholder for Bryan's 2026 Extensions"],
+        "2027": ["Placeholder for Bryan's 2027 Extensions"],
+        "2028": ["Placeholder for Bryan's 2028 Extensions"],
       }
     }
   },
@@ -3662,36 +3034,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.15, null, 3.78],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -3779,71 +3151,39 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.51],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.0, 4.1, 4.0, 4.2, 4.1, 4.3],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Started a professional career and applied the skills I have acquired through my degree in education.",
-          "Enhanced teaching effectiveness through systematic self-evaluation, guided by the results of the Student Evaluation of Teachers (SET), and by thoughtfully integrating feedback into instructional strategies."
-        ],
-        "2025": [
-          "Pass the Board Licensure Examination for Professional Teachers (BLEPT).",
-          "Actively participate as a speaker in workshops and seminars related to my specialization, sharing my expertise beyond the classroom to reach wider learners."
-        ],
-        "2026": [
-          "Pursue my professional development by enrolling in a Master’s degree program related to Computer Studies.",
-          "Be an active member of an organization wherein I can acquire new skills while applying and refining my existing competencies."
-        ],
-        "2027": [
-          "Continue professional development in my Master’s program.",
-          "Keep being an active member of an organization.",
-          "Spearhead skills training initiatives such as workshops and seminars, either within the institution or in partnership with external organizations."
-        ],
-        "2028": [
-          "Complete graduate studies leading to a Master’s degree related to Computer Studies.",
-          "Pursue an additional academic degree in the field of engineering, specifically computer engineering."
-        ],
+        "2024": ["Placeholder for Ashley's 2024 PD"],
+        "2025": ["Placeholder for Ashley's 2025 PD"],
+        "2026": ["Placeholder for Ashley's 2026 PD"],
+        "2027": ["Placeholder for Ashley's 2027 PD"],
+        "2028": ["Placeholder for Ashley's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "System Administration and Maintenance",
-          "System Integration and Architecture II"
-        ],
-        "2025": [
-          "Computer Programming II",
-          "Information Assurance and Security",
-          "Art Appreciation",
-          "Science, Technology, and Science",
-          "System Integration and Architecture"
-        ],
-        "2026": ["Any courses in networking, hardware, or graphic design where I can apply my expertise as an ICT educator."],
-        "2027": ["Any courses in networking, hardware, or graphic design where I can apply my expertise as an ICT educator."],
-        "2028": ["Any courses in networking, hardware, or graphic design where I can apply my expertise as an ICT educator."],
+        "2024": ["Placeholder for Ashley's 2024 Loading"],
+        "2025": ["Placeholder for Ashley's 2025 Loading"],
+        "2026": ["Placeholder for Ashley's 2026 Loading"],
+        "2027": ["Placeholder for Ashley's 2027 Loading"],
+        "2028": ["Placeholder for Ashley's 2028 Loading"],
       },
       research: {
-        "2024": ["Guide students with their research development."],
-        "2025": ["Guide students with their research development."],
-        "2026": [
-          "Guide students with their research development.",
-          "Serve as research adviser for undergraduate thesis projects."
-        ],
-        "2027": ["Engage in collaborative research with fellow educators across various academic disciplines."],
-        "2028": [
-          "Author or co-author at least one peer-reviewed publication in a recognized academic journal.",
-          "Sustain engagement in research endeavors and offer continuous support to students in their scholarly work."
-        ],
+        "2024": ["Placeholder for Ashley's 2024 Research"],
+        "2025": ["Placeholder for Ashley's 2025 Research"],
+        "2026": ["Placeholder for Ashley's 2026 Research"],
+        "2027": ["Placeholder for Ashley's 2027 Research"],
+        "2028": ["Placeholder for Ashley's 2028 Research"],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Maintain active involvement in institutional and departmental extension activities."],
-        "2026": ["Regularly engage in extension programs spearheaded by the department."],
-        "2027": ["Maintain actively involved in extension programs led by both the department and the university."],
-        "2028": ["Initiate training sessions or workshops focused on computer literacy and other in-demand industry skills."],
+        "2024": ["Placeholder for Ashley's 2024 Extensions"],
+        "2025": ["Placeholder for Ashley's 2025 Extensions"],
+        "2026": ["Placeholder for Ashley's 2026 Extensions"],
+        "2027": ["Placeholder for Ashley's 2027 Extensions"],
+        "2028": ["Placeholder for Ashley's 2028 Extensions"],
       }
     }
   },
-
   //Edmund Martinez
   {
     first_name: "Edmond",
@@ -3928,70 +3268,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.76, 4.51, null, 4.12],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Established effective systems and standards in computer laboratory management to improve teaching strategies.",
-          "Attended relevant seminars and training related to Information Technology."
-        ],
-        "2025": [
-          "Established effective systems and standards in computer laboratory management to improve teaching strategies.",
-          "Attended relevant seminars and training related to Information Technology.",
-          "Stayed updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
-        ],
-        "2026": [
-          "Continue to Establish an effective systems and standards in computer laboratory management and to improve teaching strategies",
-          "Continue to Attend relevant seminars and training related to Information Technology.",
-          "Staying updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
-        ],
-        "2027": [
-          "Continue to Establish an effective systems and standards in computer laboratory management and to improve teaching strategies",
-          "Continue to Attend relevant seminars and training related to Information Technology.",
-          "Staying updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
-        ],
-        "2028": [
-          "Continue to Establish an effective systems and standards in computer laboratory management and to improve teaching strategies",
-          "Continue to Attend relevant seminars and training related to Information Technology.",
-          "Staying updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2025": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2026": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2027": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2028": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -4079,93 +3385,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.39],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Focused on developing a strong academic foundation and excellence in research and system development.",
-          "Enhanced teaching effectiveness by conducting regular self-evaluations using Student Evaluation of Teachers (SET) results and integrating constructive feedback into lesson planning and instructional delivery."
-        ],
-        "2025": [
-          "Joined a Research Council or department research cluster to support and initiate collaborative projects.",
-          "Presented or co-author a research paper at a university, regional, or national-level research forum.",
-          "Attended Module writing workshops, capability-building seminars, and proposal development trainings organized by CvSU or CHED.",
-          "Participated in panel review, documentation, or mentoring in undergraduate research and system project courses."
-        ],
-        "2026": [
-          "Enroll in a Master’s program in Computer Science to strengthen theoretical and technical competencies.",
-          "Continue mentoring undergraduate students and co-developing papers with research advisors."
-        ],
-        "2027": [
-          "Continue Master’s studies and complete coursework while managing teaching load.",
-          "Actively participate in academic conferences, workshops, and seminars in CS/IT.",
-          "Publish or co-author at least one peer-reviewed article in a journal or indexed conference.",
-          "Actively participate in academic conferences, workshops, and seminars in CS/IT."
-        ],
-        "2028": [
-          "Continue Master’s studies and complete coursework while managing teaching load.",
-          "Actively participate in academic conferences, workshops, and seminars in CS/IT.",
-          "Publish or co-author at least one peer-reviewed article in a journal or indexed conference.",
-          "Actively participate in academic conferences, workshops, and seminars in CS/IT."
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Digital Logic Design",
-          "Object Oriented Programming"
-        ],
-        "2025": [
-          "Life and Works of Rizal",
-          "Design And Analysis of Algorithms",
-          "Architecture and Organization",
-          "Practicum"
-        ],
-        "2026": [
-          "Any courses related to my specialization.",
-          "Familiarity boosts confidence, establishing credibility among students and peers."
-        ],
-        "2027": [
-          "Familiarity helps refine lesson plans, activities, and assessments based on past experiences."
-        ],
-        "2028": [
-          "Long-term handling allows room for experimentation, feedback-based improvements, and scholarly contributions."
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Graduate from academic program as a significant professional milestone.",
-          "Enhance teaching effectiveness by using SET results for instructional improvement.",
-          "Contribute to research efforts by assisting in documentation, mentoring students, or participating in proposal reviews.",
-          "Begin building a personal roadmap aligned with DCS and institutional thrusts."
-        ],
-        "2025": [
-          "Become an active member of the University or Campus Research Council, contributing to research proposal reviews and student mentoring.",
-          "Co-author or present a research paper in a local or national research conference (e.g., ALCUCOA, CvSU Research Congress)."
-        ],
-        "2026": [
-          "Participate in research capability-building sessions and proposal writing workshops.",
-          "Develop a collaborative Faculty research proposal aligned with Computer Science themes",
-          "Submit a paper to a refereed journal",
-          "Continue mentoring undergraduate students with a focus on research ethics and system design."
-        ],
-        "2027": [
-          "Publish or co-author at least one paper in a CHED-recognized or indexed journal/conference.",
-          "Join research consortiums or academic networks in the field of IT and CS",
-          "Present thesis-related progress or system-based research at a regional or National forum."
-        ],
-        "2028": [
-          "Lead or co-lead a faculty-led research project funded by the institution, LGU, or external partners.",
-          "Produce a completed Master’s thesis that can be adapted into a journal article or case study.",
-          "Propose a research agenda for future departmental initiatives (e.g., DRRM innovations, mobile/web app development, ethical AI)."
-        ],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -4253,36 +3502,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.59, 4.82, null, 4.77],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -4370,66 +3619,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.41, null, 4.21],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Attended relevant trainings and seminars aligned with and beyond my field of specialization."
-        ],
-        "2025": [
-          "Continued attending relevant training and seminars aligned with and beyond my field of specialization.",
-          "Pursued further studies by enrolling in a Master's program to complete my MAEd in Mathematics."
-        ],
-        "2026": [
-          "Continue participating in relevant training and seminars both within and beyond my area of specialization.",
-          "Will finish my MAEd in Mathematics."
-        ],
-        "2027": [
-          "Enroll in Doctorate degree",
-          "Continue participating in relevant training and seminars both within and beyond my area of specialization."
-        ],
-        "2028": [
-          "Continue and complete doctorate program",
-          "Continue participating in relevant training and seminars both within and beyond my area of specialization."
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Any Mathematics subjects and General Education"
-        ],
-        "2025": [
-          "Any Mathematics subjects and General Education"
-        ],
-        "2026": [
-          "Any Mathematics subjects and General Education"
-        ],
-        "2027": [
-          "Any Mathematics subjects and General Education"
-        ],
-        "2028": [
-          "Any Mathematics subjects and General Education"
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [
-          "Engage and collaborate in the campus extension program"
-        ],
-        "2027": [
-          "Engage and collaborate in the campus extension program"
-        ],
-        "2028": [
-          "Engage and collaborate in the campus extension program"
-        ],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -4517,36 +3736,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.83, 4.68, 4.41, 4.35],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -4634,80 +3853,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.67, 4.17, null, 4.0],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Successfully demonstrated the core competencies in Trainers Methodology 1 of Advanced Java Programming Qualifications.",
-          "Acquired mastery in the completion of TM1 teaching components such as: Planned training sessions, Supervised work-based learning, Facilitated learning sessions, Conducted competency assessments",
-          "Masters the 0365 platform for tech to teach tools."
-        ],
-        "2025": [],
-        "2026": [
-          "Pursue a Master's degree in Information Technology to augment theoretical foundations and technical expertise."
-        ],
-        "2027": [
-          "Continue striving to finish Master's degree"
-        ],
-        "2028": [
-          "Participate in a notable IT related workshops to explore opportunities."
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Object-oriented Programming",
-          "System Integration and Architecture",
-          "Advanced Database Management System",
-          "Web Systems and Technologies",
-          "Computer Programming1, 2,3."
-        ],
-        "2025": [
-          "Object-oriented Programming",
-          "System Integration and Architecture",
-          "Advanced Database Management System",
-          "Web Systems and Technologies",
-          "Computer Programming1, 2,3."
-        ],
-        "2026": [
-          "Any Major /Minor Subject BSIT/BSCS Course"
-        ],
-        "2027": [
-          "Any Major /Minor Subject BSIT/BSCS Course"
-        ],
-        "2028": [
-          "Any Major /Minor Subject BSIT/BSCS Course"
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Engaged in research on computer science education, software development, or data analytics",
-          "Continue guiding students in their research journey."
-        ],
-        "2025": [
-          "Engaged in research on computer science education, software development, or data analytics",
-          "Continue guiding students in their research journey."
-        ],
-        "2026": [
-          "Continue to mentor student researchers to be able to produce at least Research per year for funding.",
-          "Continue guiding students in their research journey."
-
-        ],
-        "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals",
-          "Continue guiding students in their research journey."
-        ],
-        "2028": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals",
-          "Continue guiding students in their research journey."
-        ],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -4725,30 +3900,7 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "ITEC 75 (LAB)",
-              section: "IT 4-1",
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 75 (LAB)",
-              section: "IT 4-1",
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 75 (LAB)",
-              section: "IT 1-5",
-              room: "CL 1"
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "DCIT 23",
-              section: "CS 1-5",
-              room: "CL 1"
-            },
-          ],
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS202 - Algorithms Analysis", room: "G203" }],
           tuesday: [{ time: "9:00 AM - 10:00 AM", subject: "Office Hours", room: "Faculty Office 10" }],
           wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS202 - Algorithms Analysis", room: "G203" }],
           thursday: [],
@@ -4818,82 +3970,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.62, null, 3.81],
+    evaluation_scores: [4.4, 4.5, 4.3, 4.6, 4.4, 4.5],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Started my Masters degree"
-        ],
-        "2025": [
-          "Continure my masteral degree",
-          "Become a member of any organizations related in IT",
-          "Attended more research workshops"
-        ],
-        "2026": [
-          "Complete my Masteral Degree",
-          "Taking up Doctor of information Technology",
-          "Attend more seminar, workshop for my professional growth"
-        ],
-        "2027": [
-          "Enhancing my skills in any mobile developing thru more seminar and workshops",
-          "Take Board Licensure Examination for Professional Teachers"
-        ],
-        "2028": [
-          "Participate local and International seminar workshops"
-        ],
+        "2024": ["Placeholder for Alvina's 2024 PD"],
+        "2025": ["Placeholder for Alvina's 2025 PD"],
+        "2026": ["Placeholder for Alvina's 2026 PD"],
+        "2027": ["Placeholder for Alvina's 2027 PD"],
+        "2028": ["Placeholder for Alvina's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Professional Ethics"
-        ],
-        "2025": [
-          "Methods of Research"
-        ],
-        "2026": [
-          "Any Major BSIT/BSCS Courses"
-        ],
-        "2027": [
-          "Any Major BSIT/BSCS Courses"
-        ],
-        "2028": [
-          "Any Major BSIT/BSCS Courses"
-        ],
+        "2024": ["Placeholder for Alvina's 2024 Loading"],
+        "2025": ["Placeholder for Alvina's 2025 Loading"],
+        "2026": ["Placeholder for Alvina's 2026 Loading"],
+        "2027": ["Placeholder for Alvina's 2027 Loading"],
+        "2028": ["Placeholder for Alvina's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "One of the proponents of a Faculty Study"
-        ],
-        "2025": [
-
-        ],
-        "2026": [
-          "Be one of a presenter of a study for a research and extension"
-        ],
-        "2027": [
-          "One of the co-author of any study for research and extension"
-        ],
-        "2028": [
-          "Continue to a research program"
-        ],
+        "2024": ["Placeholder for Alvina's 2024 Research"],
+        "2025": ["Placeholder for Alvina's 2025 Research"],
+        "2026": ["Placeholder for Alvina's 2026 Research"],
+        "2027": ["Placeholder for Alvina's 2027 Research"],
+        "2028": ["Placeholder for Alvina's 2028 Research"],
       },
       extensions: {
-        "2024": [
-          "Focusrd and obtained Project 2 CLASSES OBJECTIVES"
-        ],
-        "2025": [
-          "Continue to kick off the remaining activities of Project 2 CLASSES"
-        ],
-        "2026": [
-          "Propose a new project extension partnership",
-          "Propose new extension activity that align in research"
-        ],
-        "2027": [
-          "Continue to participate to an activity that contributes to long-term, sustainable development goals in the local area"
-        ],
-        "2028": [
-          "Continue to participate to an activity that contributes to long-term, sustainable development goals in the local area"
-        ],
+        "2024": ["Placeholder for Alvina's 2024 Extensions"],
+        "2025": ["Placeholder for Alvina's 2025 Extensions"],
+        "2026": ["Placeholder for Alvina's 2026 Extensions"],
+        "2027": ["Placeholder for Alvina's 2027 Extensions"],
+        "2028": ["Placeholder for Alvina's 2028 Extensions"],
       }
     }
   },
@@ -4901,7 +4007,7 @@ export const people = [
   {
     first_name: "Joven",
     last_name: "Rios",
-    name: "Joven S. Rios",
+    name: "Joven S Rios",
     designation: "Instructor I",
     image: "/images/rios.JPG",
     diploma: "/diploma/diplom.jpg",
@@ -4981,67 +4087,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.42, null, 4.70],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Successfully passed the Board Licensure Examinations for Professional Teachers",
-          "Complete my Master’s degree."
-        ],
-        "2025": [
-          "Attend different workshops and seminars, both domestically and abroad in research"
-        ],
-        "2026": [
-          "I intend to obtain a doctorate in information technology in order to enhance my abilities, expertise, and inventiveness."
-        ],
-        "2027": [
-          "Continue Doctorate program"
-        ],
-        "2028": [
-          "Finish the doctoral program."
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Digital Logic design",
-          "(Applied Manual Robotics)",
-          "Architecture and Organization"
-        ],
-        "2025": [
-          "Digital Logic design",
-          "(Applied Manual Robotics)",
-          "Architecture and Organization"
-        ],
-        "2026": [
-          "Digital Logic design",
-          "(Applied Manual Robotics)",
-          "Architecture and Organization"
-        ],
-        "2027": [
-          "Digital Logic design",
-          "(Applied Manual Robotics)",
-          "Architecture and Organization"
-        ],
-        "2028": [
-          "Digital Logic design",
-          "(Applied Manual Robotics)",
-          "Architecture and Organization"
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -5129,58 +4204,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.96, null, 3.87],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Attended relevant training and seminars within the field of computer studies"
-        ],
-        "2025": [
-          "Conferred Scientific and Technological Specialist Eligibility from the Civil Service Commission.",
-          "Attended relevant training and seminars within the field of Computer Studies."
-        ],
-        "2026": [
-          "Attend relevant training and seminars within the field of computer studies"
-        ],
-        "2027": [
-          "To enroll in Master’s Degree Program",
-          "To attend relevant training and seminars within the field of computer studies"
-        ],
-        "2028": [
-          "To attend relevant training and seminars within the field of computer studies"
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "System Administration"
-        ],
-        "2025": [
-          "System Administration"
-        ],
-        "2026": [
-          "Any Major BSIT/BSCS"
-        ],
-        "2027": [
-          "Any Major BSIT/BSCS"
-        ],
-        "2028": [
-          "Any Major BSIT/BSCS"
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -5198,126 +4251,106 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [
-          ],
-          tuesday: [
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "CONSULTATION",
-              room: "FACULTY ROOM"
-            },
-            {
-              time: "10:00 PM - 1:00 PM",
-              subject: "ITEC 111",
-              section: "IT 4-1",
-            },
-            {
-              time: "2:00 PM - 5:00 PM",
-              subject: "ITEC 111 (LAB)",
-              section: "IT 4-2",
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "ITEC 55",
-              section: "IT 2-1",
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 55",
-              section: "IT 2-1",
-            },
-          ],
-          wednesday: [
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "ITEC 55 (LAB)",
-              section: "IT 2-3"
-            },
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "ITEC 55",
-              section: "IT 2-3"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 55 (LAB)",
-              section: "IT 2-1"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "ITEC 55",
-              section: "IT 2-1"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 55",
-              section: "IT 2-2"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 55",
-              section: "IT 2-2"
-            },
-          ],
-          friday: [
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "ITEC 106",
-              section: "IT 3-5",
-              room: "AUDI"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "ITEC 106",
-              section: "IT 3-4",
-              room: "107"
-            }
-          ],
-          saturday: [
-          ],
-          sunday: [
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "IT402 - Information Security", room: "G402" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 12:00 PM", subject: "IT402 - Information Security", room: "G402" }],
+          friday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 11" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Network Security", room: "G403" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cryptography Basics", room: "G404" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Support Session", room: "Faculty Office 11" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Cybersecurity Management", room: "G402" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "Ethical Hacking Intro", room: "Lab 13" }],
+          friday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 11" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Digital Forensics", room: "G403" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Web Security", room: "Online" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 12:00 PM", subject: "Cloud Security", room: "G404" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Information Security Governance", room: "G402" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Malware Analysis", room: "Lab 13" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Department Sync", room: "Conf. Room B" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 11" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Incident Response & Recovery", room: "G403" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Security Auditing", room: "G404" }],
+          thursday: [{ time: "10:00 AM - 12:00 PM", subject: "Advanced Cryptography", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.80, null, 3.87],
+    evaluation_scores: [4.0, 4.1, 4.1, 4.0, 4.2, 4.1],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Continued MAEdSpEd. To update and expand knowledge in the field, local seminars were actively attended, complemented by international webinars directly related to the MAEdSpEd coursework."],
-        "2025": [
-          "Active membership is maintained in the professional IT organization PSITE.",
-          "Graduation from the MAEdSpEd program is being finalized, with preparation underway for the Licensure Examination for Professional Teachers."
-        ],
-        "2026": [
-          "Continue pursuit of MSIT program is underway, aimed at augmenting academic knowledge for future contributions to the field.",
-          "Attend various seminars and workshops to ensure continuous professional growth."
-        ],
-        "2027": ["Pursuit of doctoral studies in MAEd-SpEd will be undertaken to enhance specialization in the field and support long-term professional growth."],
-        "2028": ["Involvement in local and international conferences, seminars, and workshops will be actively pursued to broaden professional networks and stay updated with current trends in the field."],
+        "2024": ["Placeholder for Rachel's 2024 PD"],
+        "2025": ["Placeholder for Rachel's 2025 PD"],
+        "2026": ["Placeholder for Rachel's 2026 PD"],
+        "2027": ["Placeholder for Rachel's 2027 PD"],
+        "2028": ["Placeholder for Rachel's 2028 PD"],
       },
       loading: {
-        "2024": ["Data Structure and Algorithm", "Platform Technologies", "Information System", "Quantitative Methods", "Human Computer Interaction I"],
-        "2025": ["Data Structure and Algorithm", "Science, Technology, and Society"],
-        "2026": ["Any Major Subject BSIT/BSCS Program"],
-        "2027": ["Any Major Subject BSIT/BSCS Program"],
-        "2028": ["Any Major Subject BSIT/BSCS Program"],
+        "2024": ["Placeholder for Rachel's 2024 Loading"],
+        "2025": ["Placeholder for Rachel's 2025 Loading"],
+        "2026": ["Placeholder for Rachel's 2026 Loading"],
+        "2027": ["Placeholder for Rachel's 2027 Loading"],
+        "2028": ["Placeholder for Rachel's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Rachel's 2024 Research"],
+        "2025": ["Placeholder for Rachel's 2025 Research"],
+        "2026": ["Placeholder for Rachel's 2026 Research"],
+        "2027": ["Placeholder for Rachel's 2027 Research"],
+        "2028": ["Placeholder for Rachel's 2028 Research"],
       },
       extensions: {
-        "2024": ["Participated in campus extension activities such as ICT Literacy Training at Molino II, contributing to community engagement and digital skills development."],
-        "2025": ["Has continued participation in extension activities at BJMP Female Dorm, supporting outreach efforts and community involvement."],
-        "2026": ["Participation in campus extension programs will be sustained to help participants gain new skills and knowledge applicable to their daily lives or livelihood, through training, seminars, or workshops."],
-        "2027": ["Continued participation in community-based activities will be prioritized to support long-term, sustainable development goals within the local area."],
-        "2028": ["Participation in community-based activities will continue, contributing to the achievement of long-term, sustainable development goals in the local area."],
+        "2024": ["Placeholder for Rachel's 2024 Extensions"],
+        "2025": ["Placeholder for Rachel's 2025 Extensions"],
+        "2026": ["Placeholder for Rachel's 2026 Extensions"],
+        "2027": ["Placeholder for Rachel's 2027 Extensions"],
+        "2028": ["Placeholder for Rachel's 2028 Extensions"],
       }
     }
   },
@@ -5405,85 +4438,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.53, 4.72, 4.79],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.5, 4.6, 4.5, 4.7, 4.6, 4.7],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Attended relevant training and seminars in improving teaching strategies.",
-          "Enhanced teaching effectiveness through the use of Student Evaluation of Teachers (SET)."
-        ],
-        "2025": ["Enrolled in the Master’s in Computer Science program to advance technical expertise and academic qualifications in the field."],
-        "2026": [
-          "Continuation of the Master’s Degree program will be pursued to deepen expertise in the field and fulfill academic goals.",
-          "Enroll in a Teacher Certificate Program will be undertaken to gain additional knowledge in teaching methodologies and improve instructional effectiveness."
-        ],
-        "2027": [
-          "Completion of the Master’s Degree program will be achieved to solidify academic qualifications and enhance career advancement opportunities.",
-          "Completion of the Teacher Certificate Program and taking of the Licensure Examination for Teachers (LET) will be pursued to obtain professional teaching credentials and broaden career pathways in education."
-        ],
-        "2028": [
-          "Attend in faculty development training both local and international.",
-          "Search for a scholarship and pursue my Doctorate Degree."
-        ],
+        "2024": ["Placeholder for Clarissa's 2024 PD"],
+        "2025": ["Placeholder for Clarissa's 2025 PD"],
+        "2026": ["Placeholder for Clarissa's 2026 PD"],
+        "2027": ["Placeholder for Clarissa's 2027 PD"],
+        "2028": ["Placeholder for Clarissa's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Computer Programming I",
-          "Computer Programming II",
-          "Software Engineering I",
-          "Institutional Orientation",
-          "Design and Analysis of Algorithm"
-        ],
-        "2025": [
-          "Computer Programming I",
-          "Computer Programming II",
-          "Software Engineering I",
-          "Software Engineering II"
-        ],
-        "2026": [
-          "Programming Languages",
-          "Operating Systems",
-          "Methods of Research",
-          "Software Engineering I",
-          "Software Engineering II"
-        ],
-        "2027": [
-          "Method of Research",
-          "Undergraduate Thesis Part A"
-        ],
-        "2028": [
-          "Methods of Research",
-          "Undergraduate Thesis Part A",
-          "Undergraduate Thesis Part B"
-        ],
+        "2024": ["Placeholder for Clarissa's 2024 Loading"],
+        "2025": ["Placeholder for Clarissa's 2025 Loading"],
+        "2026": ["Placeholder for Clarissa's 2026 Loading"],
+        "2027": ["Placeholder for Clarissa's 2027 Loading"],
+        "2028": ["Placeholder for Clarissa's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Engaged in research related to Computer Studies.",
-          "Guided students in their research as Thesis Adviser and Technical Critic."
-        ],
-        "2025": [
-          "Contributed to research related to Computer Science",
-          "Has become an active member of the Campus Research and Development Team, contributing to initiatives that promote innovation and academic excellence.",
-          "Attended seminars/workshops related to research writing."
-        ],
-        "2026": [
-          "Write and publish one research related to Computer Studies.",
-          "Participate in a local research conference."
-        ],
-        "2027": [
-          "Write and publish one research related to Computer Studies.",
-          "Participate in a local research conference."
-        ],
-        "2028": [],
+        "2024": ["Placeholder for Clarissa's 2024 Research"],
+        "2025": ["Placeholder for Clarissa's 2025 Research"],
+        "2026": ["Placeholder for Clarissa's 2026 Research"],
+        "2027": ["Placeholder for Clarissa's 2027 Research"],
+        "2028": ["Placeholder for Clarissa's 2028 Research"],
       },
       extensions: {
-        "2024": ["Participated in the campus extension activities."],
-        "2025": ["Active member or lecturer in an extension of activities provided by the Campus."],
-        "2026": ["Propose a system that will improve the extension activities of the Campus."],
-        "2027": ["Attend or participate in seminars or workshops promoting various extension activities."],
-        "2028": ["Collaborate with different organizations locally in promoting various extension activities."],
+        "2024": ["Placeholder for Clarissa's 2024 Extensions"],
+        "2025": ["Placeholder for Clarissa's 2025 Extensions"],
+        "2026": ["Placeholder for Clarissa's 2026 Extensions"],
+        "2027": ["Placeholder for Clarissa's 2027 Extensions"],
+        "2028": ["Placeholder for Clarissa's 2028 Extensions"],
       }
     }
   },
@@ -5571,77 +4555,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.71, 4.65, 4.28, 4.46],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.2, 4.3, 4.1, 4.4, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Attended relevant training and seminars in improving teaching strategies.",
-          "Enhanced teaching effectiveness through the use of Student Evaluation of Teachers (SET)."
-        ],
-        "2025": [
-          "Enroll in a Master's program in Information Technology.",
-          "Attended relevant training and seminars in improving teaching strategies."
-        ],
-        "2026": [
-          "Continue Master’s studies program in Information Technology.",
-          "Keep being an active member of an organization and explore other opportunities."
-        ],
-        "2027": [
-          "Complete graduate studies leading to a Master’s degree related to Computer Studies.",
-          "Pursue an additional academic degree in the field of engineering, specifically computer engineering."
-        ],
-        "2028": ["Pursue a Doctoral degree in Information Technology."],
+        "2024": ["Placeholder for Clarence's 2024 PD"],
+        "2025": ["Placeholder for Clarence's 2025 PD"],
+        "2026": ["Placeholder for Clarence's 2026 PD"],
+        "2027": ["Placeholder for Clarence's 2027 PD"],
+        "2028": ["Placeholder for Clarence's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Human Computer Interaction I",
-          "Introduction to Computing",
-          "Dalumat ng/sa Filipino",
-          "Institutional Orientation",
-          "System Integration and Architecture"
-        ],
-        "2025": [
-          "Computer Programming I",
-          "Institutional Orientation",
-          "Human Computer Interaction II",
-          "Science, Technology and Society",
-          "Arts Appreciation",
-          "System Integration and Architecture"
-        ],
-        "2026": ["Any Major Subject BSIT/BSCS Course"],
-        "2027": ["Any Major Subject BSIT/BSCS Course"],
-        "2028": ["Any Major Subject BSIT/BSCS Course"],
+        "2024": ["Placeholder for Clarence's 2024 Loading"],
+        "2025": ["Placeholder for Clarence's 2025 Loading"],
+        "2026": ["Placeholder for Clarence's 2026 Loading"],
+        "2027": ["Placeholder for Clarence's 2027 Loading"],
+        "2028": ["Placeholder for Clarence's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Engaged in research on computer science education, software development or data analytics.",
-          "Guided students in their research as Thesis Adviser and Technical Critic."
-        ],
-        "2025": [
-          "Contributed to Research Related to Computer Studies.",
-          "Attended seminars and workshops related to research writing.",
-          "Continued guiding students in their research journey."
-        ],
-        "2026": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
-        ],
-        "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
-        ],
-        "2028": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
-        ],
+        "2024": ["Placeholder for Clarence's 2024 Research"],
+        "2025": ["Placeholder for Clarence's 2025 Research"],
+        "2026": ["Placeholder for Clarence's 2026 Research"],
+        "2027": ["Placeholder for Clarence's 2027 Research"],
+        "2028": ["Placeholder for Clarence's 2028 Research"],
       },
       extensions: {
-        "2024": ["Engaged and collaborated in the campus extension program."],
-        "2025": ["Continued participation in the extension activities BJMP Female Dorm."],
-        "2026": ["Participate in the campus extension activities like ICT literacy Training at Molino2."],
-        "2027": ["Be an active member or lecturer in an extension of activities provided by the Campus."],
-        "2028": ["Be an active member or lecturer in an extension of activities provided by the Campus."],
+        "2024": ["Placeholder for Clarence's 2024 Extensions"],
+        "2025": ["Placeholder for Clarence's 2025 Extensions"],
+        "2026": ["Placeholder for Clarence's 2026 Extensions"],
+        "2027": ["Placeholder for Clarence's 2027 Extensions"],
+        "2028": ["Placeholder for Clarence's 2028 Extensions"],
       }
     }
   },
@@ -5729,83 +4672,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.61, 4.38, 4.53, 4.46],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.5, 4.3, 4.4, 4.5],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Successfully obtained a license by passing the Board Licensure Examination for Professional Teachers.",
-          "Participated in online training and seminars to acquire course-relevant skills and competencies."
-        ],
-        "2025": [
-          "Pursue a Master’s degree to advance academic qualifications.",
-          "Finish specialized short courses or certifications to strengthen teaching skills and subject expertise.",
-          "Improve professional abilities by joining local and international training programs and workshops related to IT and Computer Science."
-        ],
-        "2026": [
-          "Continue participating in recognized training and seminars in the field of ICT.",
-          "Serve as a resource speaker in topics such as Operating Systems and Mobile Technology.",
-          "Engage in ongoing workshops related to IT, hosting, mobile technology, and programming.",
-          "Earn academic units required for teaching qualifications.",
-          "Attend certified workshops for Computer Science and Information Technology related."
-        ],
-        "2027": [
-          "Pursue or achieve candidacy for a postgraduate degree.",
-          "Strengthen professional expertise through participation in relevant local and international training programs and workshops in Information Technology and Computer Science."
-        ],
-        "2028": [
-          "Strengthen academic and professional credibility by commencing doctoral studies, if applicable.",
-          "Advance technical and instructional competencies through participation in specialized training and workshops in Information Technology and Computer Science at both national and international levels."
-        ],
+        "2024": ["Placeholder for Jessica Ann's 2024 PD"],
+        "2025": ["Placeholder for Jessica Ann's 2025 PD"],
+        "2026": ["Placeholder for Jessica Ann's 2026 PD"],
+        "2027": ["Placeholder for Jessica Ann's 2027 PD"],
+        "2028": ["Placeholder for Jessica Ann's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Panitikang Panlipunan",
-          "Life and Works of Rizal",
-          "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
-          "Object-oriented Programming"
-        ],
-        "2025": [
-          "Social and Professional Issues",
-          "Introduction to Computing",
-          "Panitikang Panlipunan",
-          "Life and Works of Rizal"
-        ],
-        "2026": ["Any Major/Minor Subject BSIT/BSCS Course"],
-        "2027": ["Any Major/Minor Subject BSIT/BSCS Course"],
-        "2028": ["Any Major/Minor Subject BSIT/BSCS Course"],
+        "2024": ["Placeholder for Jessica Ann's 2024 Loading"],
+        "2025": ["Placeholder for Jessica Ann's 2025 Loading"],
+        "2026": ["Placeholder for Jessica Ann's 2026 Loading"],
+        "2027": ["Placeholder for Jessica Ann's 2027 Loading"],
+        "2028": ["Placeholder for Jessica Ann's 2028 Loading"],
       },
       research: {
-        "2024": [
-          "Participated in scholarly research activities within the field of Computer Studies.",
-          "Provided academic guidance to students in the development of their research projects."
-        ],
-        "2025": ["Maintained active involvement in Computer Studies research and continued mentoring student researchers."],
-        "2026": [
-          "Engage in collaborative research with fellow educators across various academic disciplines.",
-          "Present the outcomes of the research at a local or regional academic conference or colloquium."
-        ],
-        "2027": [
-          "Present and publish research findings on Operating System advancements in a reputable academic journal or conference.",
-          "Sustain engagement in research endeavors and offer continuous support to students in their scholarly work."
-        ],
-        "2028": [
-          "Author or co-author at least one peer-reviewed publication in a recognized academic journal.",
-          "Provide ongoing mentorship to students throughout their research endeavors."
-        ],
+        "2024": ["Placeholder for Jessica Ann's 2024 Research"],
+        "2025": ["Placeholder for Jessica Ann's 2025 Research"],
+        "2026": ["Placeholder for Jessica Ann's 2026 Research"],
+        "2027": ["Placeholder for Jessica Ann's 2027 Research"],
+        "2028": ["Placeholder for Jessica Ann's 2028 Research"],
       },
       extensions: {
-        "2024": [
-          "Consistently took part in extension programs and outreach initiatives organized by the department and the university.",
-          "Maintained active involvement in institutional and departmental extension activities."
-        ],
-        "2025": [
-          "Consistently took part in extension programs and outreach initiatives organized by the department and the university.",
-          "Maintained active involvement in institutional and departmental extension activities."
-        ],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Jessica Ann's 2024 Extensions"],
+        "2025": ["Placeholder for Jessica Ann's 2025 Extensions"],
+        "2026": ["Placeholder for Jessica Ann's 2026 Extensions"],
+        "2027": ["Placeholder for Jessica Ann's 2027 Extensions"],
+        "2028": ["Placeholder for Jessica Ann's 2028 Extensions"],
       }
     }
   },
@@ -5893,36 +4789,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.64, 3.58, null, 4.42],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -6011,49 +4907,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.43, 4.43, 4.50],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.1, 4.2, 4.0, 4.3, 4.1, 4.2],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Enhanced IT teaching methodologies by attending workshops on blended learning and integrating emerging technologies."],
-        "2025": [
-          "Passed the Board in Licensure Examination for Teachers.",
-          "Mentored students in certification programs or capstone projects."
-        ],
-        "2026": [
-          "Complete the Master’s degree in Information Technology",
-          "Publish a research paper or present at a conference on innovative IT education strategies or technical trends."
-        ],
-        "2027": ["Pursue a leadership role in curriculum development for IT programs, ensuring alignment with industry standards."],
-        "2028": ["Explore doctoral studies or advanced certifications."],
+        "2024": ["Placeholder for Jerome's 2024 PD"],
+        "2025": ["Placeholder for Jerome's 2025 PD"],
+        "2026": ["Placeholder for Jerome's 2026 PD"],
+        "2027": ["Placeholder for Jerome's 2027 PD"],
+        "2028": ["Placeholder for Jerome's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "CvSU 101",
-          "Introduction to Computing",
-          "Social and Professional Issues"
-        ],
-        "2025": ["Web Systems and Technologies 1",
-          "Integrated and Technologies 1",
-          "Advance Database Management System"
-        ],
-        "2026": ["Any Major/Minor Subject BSIT/BSCS Course"],
-        "2027": ["Any Major/Minor Subject BSIT/BSCS Course"],
-        "2028": ["Any Major/Minor Subject BSIT/BSCS Course"],
+        "2024": ["Placeholder for Jerome's 2024 Loading"],
+        "2025": ["Placeholder for Jerome's 2025 Loading"],
+        "2026": ["Placeholder for Jerome's 2026 Loading"],
+        "2027": ["Placeholder for Jerome's 2027 Loading"],
+        "2028": ["Placeholder for Jerome's 2028 Loading"],
       },
       research: {
-        "2024": ["Guided students with their research development."],
-        "2025": ["Served as one of the proponents of a faculty study."],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for Jerome's 2024 Research"],
+        "2025": ["Placeholder for Jerome's 2025 Research"],
+        "2026": ["Placeholder for Jerome's 2026 Research"],
+        "2027": ["Placeholder for Jerome's 2027 Research"],
+        "2028": ["Placeholder for Jerome's 2028 Research"],
       },
       extensions: {
-        "2024": ["Participated in the campus extension activities like Computer System Servicing at Mambog."],
-        "2025": ["Actively participated in extension programs organized at the campus level, especially those initiated by the department."],
-        "2026": ["Participation in community-based activities will be continued to contribute toward the achievement of long-term, sustainable development goals in the local area."],
-        "2027": ["Participation in community-based activities will be continued to contribute toward the achievement of long-term, sustainable development goals in the local area."],
-        "2028": ["Participation in community-based activities will be continued to contribute toward the achievement of long-term, sustainable development goals in the local area."],
+        "2024": ["Placeholder for Jerome's 2024 Extensions"],
+        "2025": ["Placeholder for Jerome's 2025 Extensions"],
+        "2026": ["Placeholder for Jerome's 2026 Extensions"],
+        "2027": ["Placeholder for Jerome's 2027 Extensions"],
+        "2028": ["Placeholder for Jerome's 2028 Extensions"],
       }
     }
   },
@@ -6141,36 +5024,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.67],
-    evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -6258,54 +5141,36 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.31, null, 4.12],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Attended local and national seminars and training about IT.",
-          "Attended workshops in blended learning."
-        ],
-        "2025": [
-          "Attended more workshops integrating emerging technologies and css.",
-          "Attended Module Creation Workshop and Capability Enhancement Training.",
-          "Passed the licensure examination for teachers"
-        ],
-        "2026": [
-          "Be a resource speaker about any seminars related to IT.",
-          "Attend Module Creation Workshop and Capability Enhancement Training."
-        ],
-        "2027": [
-          "Attend more local and national seminars and training about IT.",
-          "Taking more certification from any available trainings online.",
-          "Attend Module Creation Workshop and Capability Enhancement Training."
-        ],
-        "2028": [
-          "Attend more local and national seminars and training about IT.",
-          "Taking more certification from any available trainings online.",
-          "Attend Module Creation Workshop and Capability Enhancement Training."
-        ],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
       }
     }
   },
@@ -6393,65 +5258,37 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 2.75, null, 4.33],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.3, 4.4, 4.2, 4.5, 4.3, 4.4],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Passed the Board in Licensure Examination for Teachers.",
-          "Enhanced IT teaching methodologies by attending workshops on blended learning and integrating emerging technologies."
-        ],
-        "2025": [
-          "Mentored students in certification programs or capstone projects.",
-          "Enhanced teaching effectiveness through systematic self-evaluation, guided by the results of the Student Evaluation of Teachers (SET), and by thoughtfully integrating feedback into instructional strategies."
-        ],
-        "2026": [
-          "Complete the Master’s degree in Information Technology",
-          "Publish a research paper or present at a conference on innovative IT education strategies or technical trends."
-        ],
-        "2027": ["Pursue a leadership role in curriculum development for IT programs, ensuring alignment with industry standards."],
-        "2028": ["Explore doctoral studies or advanced certifications."],
+        "2024": ["Placeholder for James's 2024 PD"],
+        "2025": ["Placeholder for James's 2025 PD"],
+        "2026": ["Placeholder for James's 2026 PD"],
+        "2027": ["Placeholder for James's 2027 PD"],
+        "2028": ["Placeholder for James's 2028 PD"],
       },
       loading: {
-        "2024": [
-          "Professional Ethics",
-          "Understanding The Self",
-          "Data Structure And Algorithm",
-          "Programming Languages"
-        ],
-        "2025": [
-          "Professional Ethics",
-          "Understanding The Self",
-          "Data Structure And Algorithm",
-          "Programming Languages"
-        ],
-        "2026": [
-          "Any subjects related to General Education, Multimedia and IT/CS.",
-          "Any General Education Subjects IT/CS."
-        ],
-        "2027": [
-          "Any subjects related to General Education, Multimedia and IT/CS.",
-          "Any General Education Subjects IT/CS."
-        ],
-        "2028": [
-          "Any subjects related to General Education, Multimedia and IT/CS.",
-          "Any General Education Subjects IT/CS."
-        ],
+        "2024": ["Placeholder for James's 2024 Loading"],
+        "2025": ["Placeholder for James's 2025 Loading"],
+        "2026": ["Placeholder for James's 2026 Loading"],
+        "2027": ["Placeholder for James's 2027 Loading"],
+        "2028": ["Placeholder for James's 2028 Loading"],
       },
       research: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": ["Placeholder for James's 2024 Research"],
+        "2025": ["Placeholder for James's 2025 Research"],
+        "2026": ["Placeholder for James's 2026 Research"],
+        "2027": ["Placeholder for James's 2027 Research"],
+        "2028": ["Placeholder for James's 2028 Research"],
       },
       extensions: {
-        "2024": ["Participated in the Project 2 Classes Objecives."],
-        "2025": [],
-        "2026": ["Participate in the campus extension activities."],
-        "2027": ["Participate in the campus extension activities."],
-        "2028": ["Participate in the campus extension activities."],
-      },
+        "2024": ["Placeholder for James's 2024 Extensions"],
+        "2025": ["Placeholder for James's 2025 Extensions"],
+        "2026": ["Placeholder for James's 2026 Extensions"],
+        "2027": ["Placeholder for James's 2027 Extensions"],
+        "2028": ["Placeholder for James's 2028 Extensions"],
+      }
     }
   },
 
