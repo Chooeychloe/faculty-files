@@ -724,77 +724,116 @@ export const people = [
     name: "Bryan Dale Ablaza",
     designation: "Instructor I",
     image: "/images/ablaza.JPG",
+    diploma: {
+      name: "Bachelor of Science in Industrial Education",
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
+    },
+    // tor: "/tor/tor.jfif",
+    resume: "https://drive.google.com/file/d/1DwxvMB55GxK2groUnOOoKFxs02j8rO28/view?usp=drive_link",
+    certificates: [{
+      name: "Off-Campus Practice Teaching",
+      url: "https://drive.google.com/file/d/1OjXG1LSZeRJhnlp7jLkDj9Cn0yn-KEeM/view?usp=drive_link"
+    },
+
+    {
+      name: "EdukaTalks: A SEM1 Seminar Series",
+      url: "https://drive.google.com/file/d/1H2nxazqePHdwCEHbEfcNbFIASgFUptqu/view?usp=drive_link"
+    },
+
+    ],
+
     schedule: [
-      {
-        semesterName: "1st Sem A.Y 22-23",
-        details: {
-          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
-          wednesday: [],
-          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
-          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
-          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
-          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 23-24",
-        details: {
-          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
-          tuesday: [],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
-          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
-          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [],
-          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
-          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
-          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
-          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
-          wednesday: [],
-          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
-          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
-          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
+          monday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "CONSULTATION",
+              room: "FACULTY ROOM"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-7",
+              room: "CL 5"
+            }, {
+              time: "4:00 PM - 7:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5",
+              room: "CL 1"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5",
+              room: "CL 1"
+            },
+          ],
+          tuesday: [
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "DCIT 23",
+              section: "CS 1-5",
+              room: "CL 4"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-7",
+              room: "AUDI"
+            }, {
+              time: "1:00 PM - 4:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-5",
+              room: "CL 3"
+            },
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-3",
+              room: "CL 1"
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "DCIT 23",
+              section: "IT 1-7",
+              room: "CL 2"
+            },
+            {
+              time: "10:00 PM - 1:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-4",
+              room: "CL 2"
+            }, {
+              time: "3:00 PM - 6:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-3",
+              room: "CL 4"
+            },
+          ],
+          thursday: [
+          ],
+          friday: [
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-5",
+              room: "AUDI"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-4",
+              room: "107"
+            }
+          ],
+          saturday: [
+          ],
+          sunday: [
+          ],
         }
       }
     ],
@@ -838,77 +877,145 @@ export const people = [
     name: "Mikaela Arciaga",
     designation: "Instructor I",
     image: "/images/arciaga.JPG",
+    diploma: {
+      name: "Bachelor of Science in Information Technology",
+      url: "https://drive.google.com/file/d/1d6F-Sa-0-KDgxPj4QCENkD2sfa5M8nuW/view?usp=drive_link"
+    },
+    tor: "https://drive.google.com/file/d/1ST9zWRG3iqbTTOLJh7G1-22hK8HiUHwK/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1n8yYCs08h-QTZnlDStGcHZE0ICDChnBI/view?usp=drive_link",
+    certificates: [{
+      name: "Orientation/Re-orientation Cum Capability Enhancement for Faculty and Staff",
+      url: "https://drive.google.com/file/d/1ehv66Db4h45i2I8OXUca5sD1gfEIxYQp/view?usp=drive_link"
+    }],
+
     schedule: [
-      {
-        semesterName: "1st Sem A.Y 22-23",
-        details: {
-          monday: [],
-          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "IT Elective (Mobile Dev)", room: "G305" }],
-          wednesday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 3" }],
-          thursday: [],
-          friday: [{ time: "10:00 AM - 12:00 PM", subject: "CS303 - Database Systems", room: "G105" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "UI/UX Design Principles", room: "G402" }],
-          tuesday: [],
-          wednesday: [{ time: "2:00 PM - 4:00 PM", subject: "Web Programming II", room: "Lab 6" }],
-          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultations", room: "Faculty Office 3" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 23-24",
-        details: {
-          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Front-end Frameworks", room: "Online" }],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Database Administration", room: "G105" }],
-          wednesday: [],
-          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 3" }],
-          friday: [{ time: "10:00 AM - 12:00 PM", subject: "Capstone Project Mentoring", room: "Conf. Room D" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [],
-          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Backend Development with APIs", room: "G305" }],
-          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Visualization", room: "Lab 7" }],
-          thursday: [],
-          friday: [{ time: "2:00 PM - 4:00 PM", subject: "Mobile Game Development", room: "Lab 8" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud-Native Application Dev", room: "Online" }],
-          tuesday: [],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Advanced Database Security", room: "G105" }],
-          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room A" }],
-          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 3" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
+      
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [{ time: "1:00 PM - 3:00 PM", subject: "DevOps Practices", room: "G403" }],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Machine Learning with Python", room: "Lab 9" }],
-          wednesday: [],
-          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Advanced Web Technologies", room: "Online" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
+          monday: [
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 50",
+              section: "IT 1-4",
+              room: "CL 4"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-7",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "CONSULTATION",
+              room: "FACULTY ROOM"
+            },
+
+          ],
+          tuesday: [
+           
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 95",
+              section: "IT 3-3",
+              room: "ROOM 203"
+            },
+            {
+              time: "8:30 AM - 10:00 AM",
+              subject: "ITEC 95",
+              section: "IT 3-2",
+              room: "ROOM 203"
+            },
+            {
+              time: "10:00 AM - 11:30 AM",
+              subject: "ITEC 95",
+              section: "IT 3-1",
+              room: "ROOM 203"
+            },
+             {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-5",
+              room: "ROOM 203"
+            },
+             {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-4",
+              room: "AUDI"
+            },
+          ],
+          thursday: [
+          ],
+          friday: [
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 95",
+              section: "IT 3-1",
+              room: "ROOM 203"
+            },
+            {
+              time: "8:30 AM - 10:00 AM",
+              subject: "ITEC 95",
+              section: "IT 3-3",
+              room: "ROOM 203"
+            },
+            {
+              time: "10:00 AM - 11:30 AM",
+              subject: "ITEC 95",
+              section: "IT 3-1",
+              room: "ROOM 203"
+            },
+             {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-5",
+              room: "ROOM 203"
+            },
+             {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-4",
+              room: "AUDI"
+            },
+          ],
+          saturday: [
+             {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 95",
+              section: "IT 3-3",
+              room: "ROOM 203"
+            },
+            {
+              time: "8:30 AM - 10:00 AM",
+              subject: "ITEC 95",
+              section: "IT 3-2",
+              room: "ROOM 203"
+            },
+            {
+              time: "10:00 AM - 11:30 AM",
+              subject: "ITEC 95",
+              section: "IT 3-1",
+              room: "ROOM 203"
+            },
+             {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-5",
+              room: "ROOM 203"
+            },
+             {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-4",
+              room: "AUDI"
+            },
+          ],
+          sunday: [
+          ],
         }
       }
     ],
@@ -953,6 +1060,24 @@ export const people = [
     name: "Stephen Bacolor",
     designation: "Instructor I",
     image: "/images/bacolor.JPG",
+    diploma: {
+      name: "Bachelor of Science in Information Technology",
+      url: "https://drive.google.com/file/d/1ZDwAzRO-QnzWZ0PkyuDxG1qd3QOdOG0V/view?usp=drive_link"
+    },
+    tor: "https://drive.google.com/file/d/1BScHlM_SpLeAnDq8iVceH_vMwUcGazp_/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1b7C9kyETjtBPZnxOIGhB2NgxtaWiJ4AH/view?usp=drive_link",
+    certificates: [{
+      name: "Leadership Summit 2023: Kabsuhenyonh Liderator sa Panibagong Panahon",
+      url: "https://drive.google.com/file/d/1FEcFnOx_Cw3Pfm2FSAozNoJWboVMd2E7/view?usp=drive_link"
+    },
+    {
+      name: "Introduction to Cybersecurity - Cisco Networking Academy",
+      url: "https://drive.google.com/file/d/1ZvZArl8NNt5Q5Hu2u4FxndF4YpJxSZPv/view?usp=drive_link"
+    },
+    {
+      name: "Computer Literacy Program - Datacom Institute of Computer Technology - Imus ",
+      url: "https://drive.google.com/file/d/10FaXQYC2TASOrUft5v8nYHKZM3tiyQuF/view?usp=drive_link"
+    }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1067,74 +1192,49 @@ export const people = [
     name: "Jhon Nerick Batuigas",
     designation: "Instructor I",
     image: "/images/batuigas.JPG",
+    diploma: {
+      name: "Bachelor of Science in Industrial Education",
+      url: "https://drive.google.com/file/d/16elYpxvQDk-dbG-9Vs7e4xhFZYOAX6GB/view?usp=drive_link"
+    },
+    tor: "https://drive.google.com/file/d/1hQedUTRMwszaMajzVfCE4lQQzI3wI7ce/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1Oa23aJB_fVoKJhykozlv8eUdU5cV2d90/view?usp=drive_link",
+    certificates: [{
+      name: "NC II: Computer Systems Servicing (TESDA)",
+      url: "https://drive.google.com/file/d/1kGUKM8UPXx1MjTPAPYkG1Mvi24auSc_d/view?usp=drive_link"
+    }],
+
     schedule: [
-      {
-        semesterName: "1st Sem A.Y 22-23",
-        details: {
-          monday: [{ time: "10:00 AM - 12:00 PM", subject: "IT102 - Computer Fundamentals", room: "Lab 3" }],
-          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "IT102 - Computer Fundamentals", room: "Lab 3" }],
-          wednesday: [],
-          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 5" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Basic Productivity Software", room: "Lab 4" }],
-          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Digital Literacy", room: "G101" }],
-          wednesday: [],
-          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Support", room: "Faculty Office 5" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 23-24",
-        details: {
-          monday: [],
-          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Intro to Hardware", room: "Lab 3" }],
-          wednesday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating Systems Basics", room: "G102" }],
-          thursday: [],
-          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 5" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Networking Fundamentals", room: "G201" }],
-          tuesday: [],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "IT Support Essentials", room: "Lab 4" }],
-          thursday: [{ time: "10:00 AM - 12:00 PM", subject: "Tech Support Workshop", room: "Lab 5" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Cloud Concepts for Beginners", room: "Online" }],
-          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Data Privacy & Security Intro", room: "G401" }],
-          wednesday: [],
-          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 5" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
+
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Ethics and Professionalism", room: "G105" }],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Intro to Database Design", room: "Lab 3" }],
-          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room B" }],
+          monday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "CONSULTATION",
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-7"
+            }, {
+              time: "4:00 PM - 7:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5"
+            },
+          ],
+          tuesday: [
+
+          ],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Intro to Database Design", room: "Lab 3" }],
+          thursday: [
+            { time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room B" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -1181,11 +1281,40 @@ export const people = [
     name: "Edan A. Belgica",
     designation: "Instructor I",
     image: "/images/belgic.jpeg",
-    diploma: "https://drive.google.com/file/d/1TbHmM1XsWJZUANmNEvLBQNHr60T6F4xU/view?usp=drive_link",
+    diploma: "https://drive.google.com/file/d/1bMZsYarmGI_KHjhpmNIUOTK6HB8kQ45W/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1fNyXSp0Osq3xCgrcI2AMopkfb5DuOpOj/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1L5lM0fGKwv1lksmYmVvqxR7eyk9RceSp/view?usp=drive_link",
     certificates: [
-      { name: "C# Theoritical Understanding", url: "https://drive.google.com/file/d/15R4MYPRy2itbYqLi1mV1QSblpwz5fPUZ/view?usp=drive_link" },
-      { name: "Training-Workshop on Proposal Writing and Publication", url: "https://drive.google.com/file/d/1NWuBbh9f97ulGMuqg8ImQSk9eWM3u19o/view?usp=drive_link" },
-      { name: "Seminar-Workshop on Module Development and Publication", url: "https://drive.google.com/file/d/12MEK7JCvPr0foYTZj07R-O6Yer59mtRB/view?usp=drive_link" }
+      {
+        name: "C# Theoritical Understanding",
+        url: "https://drive.google.com/file/d/1q8v6Jtls_GeaWAoLrMsY4O505KDivC5W/view?usp=drive_link"
+      },
+      {
+        name: "Training-Workshop on Proposal Writing and Publication",
+        url: "https://drive.google.com/file/d/1Qf1swnhotCKFDKyJ0GM0YOoYZs3Gb46f/view?usp=drive_link"
+      },
+      {
+        name: "Introduction to Machine Learning",
+        url: "https://drive.google.com/file/d/1j4x798N9Zee6riHbF1F4Nmc6oRqBwIeR/view?usp=drive_link"
+      },
+
+      {
+        name: "Java Theoritical Understanding",
+        url: "https://drive.google.com/file/d/11Lq-H_2zaGYNWdqmkNSchYyWzLDuJEig/view?usp=drive_link"
+      },
+
+      {
+        name: "JavaScript Theoritical Understanding",
+        url: "https://drive.google.com/file/d/1oyva7Yq0R_lb1TXVb2C95WTRIEKhT6_O/view?usp=drive_link"
+      },
+      {
+        name: "SQL Theoritical Understanding",
+        url: "https://drive.google.com/file/d/1eebCjFdli886SLE9_DyssnfvUb5ebZS8/view?usp=drive_link"
+      },
+      {
+        name: "Seminar-Workshop on Module Development and Publication",
+        url: "https://drive.google.com/file/d/1HfxvgckXehgqz2iZCHIPc8ldRoCDqhmP/view?usp=drive_link"
+      }
     ],
     schedule: [
       {
@@ -1322,11 +1451,26 @@ export const people = [
   {
     first_name: "Ralph Christian",
     last_name: "Bolarda",
-    name: "Ralph Christian Bolarda",
+    name: "Ralph Christian Bolarda, MIT",
     designation: "Instructor I",
     image: "/images/bolarda.JPG",
+    diploma: "https://drive.google.com/file/d/1vZbJpkcNKzVAjOhaI_2pxbEd6Yha147H/view?usp=drive_link",
+    masters_diploma: "https://drive.google.com/file/d/1vBxRmRTd-osPfFdAxx9ncQWagBOz65lK/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1z1okPsd93fgtWkqBY7d3ptvMZpEJGDMT/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1_TEGYBf5-F_DFkecGkObp2kKYB1psxNO/view?usp=drive_link",
     certificates: [
-      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+      {
+        name: "Big Data Programming Languages & Big Data Vs Data Science",
+        url: "https://drive.google.com/file/d/1OvrOESUOL-eSutXOTCGKFBsDXow-_mVE/view?usp=drive_link"
+      },
+      {
+        name: "2023 Orientation Seminar for Newly Hired CvSU Employees",
+        url: "https://drive.google.com/file/d/1DYDdAdJWNCdJyeQsMb58z1nxNe4Mce0j/view?usp=drive_link"
+      },
+      {
+        name: "Seminar-Workshop on Module Development and Publication",
+        url: "https://drive.google.com/file/d/1tYjr4HnPGJZQo_Rff_xmkgwFpTGQhwqH/view?usp=drive_link"
+      },
     ],
     schedule: [
       {
@@ -1437,15 +1581,24 @@ export const people = [
     }
   },
   //Rafael Carvajal
-
   {
     first_name: "Rafael",
     last_name: "Carvajal",
     name: "Rafel j. Carvajal",
     designation: "Instructor I",
     image: "/images/carvajal.JPG",
+    diploma: "https://drive.google.com/file/d/1IkZvDHn2Y9NCiXsuF-7UIpLJj5bAeJbl/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1OD5ihB_21VLXplxN42pP4u1DVb9mV-IH/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1kmBSZPwJthlmjze5C275tfQp2Ffm-vJk/view?usp=drive_link",
     certificates: [
-      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+      {
+        name: "Beyond Firewalls: A Unified Approach to Cybersecurity",
+        url: "https://drive.google.com/file/d/1kw_uGfMNEok1Fl_BodJny6WAdtthNeYH/view?usp=drive_link"
+      },
+      {
+        name: "Seminar-Workshop on Module Development and Publication",
+        url: "https://drive.google.com/file/d/111dy8R6L4MQZdbe68pkgpogwuostNUPv/view?usp=drive_link"
+      },
     ],
     schedule: [
       {
@@ -1562,9 +1715,19 @@ export const people = [
     name: "Jerico D. Castillo",
     designation: "Instructor I",
     image: "/images/castillo.jpg",
+    diploma: "https://drive.google.com/file/d/1dkCoo6jeZOAHA7u_QzOwdJv9NnUvQzej/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1Eb9dtITCymDZ1W2pxkMh9tTCY1EBb7nF/view?usp=drive_link",
+    resume: "https://docs.google.com/document/d/11-Oo8Qq995N3ZFPvde9LyTDAtlv0AuFi/edit?usp=drive_link&ouid=103847682815473513757&rtpof=true&sd=true",
     certificates: [
-      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+      {
+        name: "Training-Writeshop on the Enhancement of Contingency Plan and School Safety Plan",
+        url: "https://drive.google.com/file/d/14DUR4pjOat661UoGSV6mHX2o41i4GJ_t/view?usp=drive_link"
+      },
     ],
+    speaking_engagements: [{
+      name: "Resource Speaker: District-Level Training on the Matatag Curriculum for Grade 7 Teachers",
+      url: "https://drive.google.com/file/d/1vLC6nkRADTwNLjP6VWVVZSDPFT-f9NjA/view?usp=drive_link"
+    }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1680,9 +1843,10 @@ export const people = [
     name: "Mariel E. Castillo",
     designation: "Instructor I",
     image: "/images/m_castillo.JPG",
-    certificates: [
-      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
-    ],
+    diploma: "https://drive.google.com/file/d/1X_38eAzIhR5ERSyBVcINhPT3eK4svwbr/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1CbDVQsroAu5B7nNLtjlvVgZsvhySAUGT/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1Zf4zHWDUcq58dl9KlxLmE-svOzxnsiQi/view?usp=drive_link",
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1798,8 +1962,39 @@ export const people = [
     name: "Alvin Catalo, MIT",
     designation: "Research Coordinator",
     image: "/images/catalo.JPG",
-    diploma: "/images/catalo.JPG",
-    masters_diploma: "/images/catalo.JPG",
+    diploma: "https://drive.google.com/file/d/1-J4qYC2-5qVOa0zsJiBXpMWTDkDBcF4J/view?usp=drive_link",
+    masters_diploma: "https://drive.google.com/file/d/1bOcOxR_bjrhx_Etf9b7qlkE-_A7Rho5A/view?usp=drive_link",
+    //  tor: "/tor/tor.jfif",
+    resume: "https://drive.google.com/file/d/1Bvmz-sK8F8lARgQB20SumsdHEKj7B7BW/view?usp=drive_link",
+    certificates: [{
+      name: "2024 Orientation/Re-orientation Cum Capability Enhancement for Faculty and Staff",
+      url: "https://drive.google.com/file/d/1jUk50LWiEeqBTljynFZd7RgEEEEMthV2/view?usp=drive_link"
+    },
+    {
+      name: "KLD Faculty Development Activities 2024 - Day 1",
+      url: "https://drive.google.com/file/d/1CFSxCLsTfkQwC0bTHMHvHKS-xVew6ShD/view?usp=drive_link"
+    },
+    {
+      name: "KLD Faculty Development Activities 2024 - Day 3",
+      url: "https://drive.google.com/file/d/1os1sD3rnD8jQv-LjNBPvsGwknYaRzYvq/view?usp=drive_link"
+    },
+    {
+      name: "1st International Conference on Mobile Technology and Engineering Education",
+      url: "https://drive.google.com/file/d/1Cqz6J0uqpFpzaeouVU6nzMGrNq7Uw83V/view?usp=drive_link"
+    }, {
+      name: "",
+      url: ""
+    }, {
+      name: "",
+      url: ""
+    }, {
+      name: "",
+      url: ""
+    },],
+    speaking_engagements: [{
+      name: "Lecturer: Computer Literacy and System Support Extension Services",
+      url: "https://drive.google.com/file/d/1ehQfwTkOddptyc2q-vkLXt9uFGySrtlb/view?usp=drive_link"
+    }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1914,6 +2109,9 @@ export const people = [
     name: "Alvin P. Celino",
     designation: "Instructor I",
     image: "/images/celino.JPG",
+    diploma: "https://drive.google.com/file/d/1Q_swPtzGs_0NnEIvBzduIWjm93QSsyNe/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1-YUOnraAK-lApKbC1Upvn67TRa0PiN5d/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1q-iUn_XmzpcwFjT0Zb_HApy0U8xeob4P/view?usp=drive_link",
     certificates: [
       { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
@@ -2032,6 +2230,9 @@ export const people = [
     name: "Allen Dave Coles",
     designation: "Instructor I",
     image: "/images/coles.JPG",
+    diploma: "https://drive.google.com/file/d/1nxpjnIqxYD7EoaefDtJLOvCjYLX3cPca/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1EJQXV7_-gOatE4cjacKhCDaBfMy1iAIR/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1fuLTxBR8mSRojcDS_R4O6nbq4tzn3PHf/view?usp=drive_link",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -2146,6 +2347,9 @@ export const people = [
     name: "Redem M. Decipulo",
     designation: "Instructor I",
     image: "/images/decipulo.jpg",
+    diploma: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1mHGnJ-tXtpHj3_Zk6WB0pGJzuU6iGlR0/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1olJ3gaTfFNxg_s-0ZcVjtjDjNIBfh_UD/view?usp=drive_link",
     certificates: [
       { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
@@ -2264,6 +2468,9 @@ export const people = [
     name: "Rufino A. Dela Cruz Jr.",
     designation: "Instructor I",
     image: "/images/delacruz.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     certificates: [
       { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
@@ -2382,8 +2589,14 @@ export const people = [
     name: "Jen Jerome V. Dela Pena",
     designation: "Instructor I",
     image: "/images/delapena.png",
-    certificates: [
-      { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    diploma: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1ll7o1VE306Zsg0iCCC_B2-1uW00um679/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1yavnXI1qLTWBb-PfiAKe010ma5QNsOdD/view?usp=drive_link",
+    // certificates: [
+    //   { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    // ],
+    membership: [
+      { name: "Member: ICT Industry Council", url: "https://drive.google.com/file/d/1tTd_rQq6x8qFlQHW46doPOG-9nvVnSqF/view?usp=drive_link" },
     ],
     schedule: [
       {
@@ -2500,6 +2713,9 @@ export const people = [
     name: "Roi M. Francisco",
     designation: "Instructor I",
     image: "/images/francisc.jpg",
+    diploma: "https://drive.google.com/file/d/1AHTgB2AiSAKrXSZaEJrNxW2ZW8B2P1zI/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/12C2wVx_4zgvbrEjDfxrXVrzcyCZjoPWi/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1qlRrgmmPiMP74LcZKfykAOayidOtT8wx/view?usp=drive_linkg",
     certificates: [
       { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
@@ -2619,6 +2835,9 @@ export const people = [
     name: "Lawrence G. Jimenez",
     designation: "Instructor I",
     image: "/images/jimenez.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     certificates: [
       { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
@@ -2738,6 +2957,9 @@ export const people = [
     name: "James Mañozo",
     designation: "Instructor I",
     image: "/images/mañozo.JPG",
+    diploma: "https://drive.google.com/file/d/1LA5i_jQ_B08bJ5ESgNsk7t9aptgyVY86/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1_LnFiVi4FC8oaOBQmNC-XCIQz4goTD59/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1ayHFiLC7X6m8EkQvgv6yoUuNYvt1vu3D/view?usp=drive_link",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -2852,6 +3074,9 @@ export const people = [
     name: "Ashley Manuel",
     designation: "Instructor I",
     image: "/images/manuel.JPG",
+    diploma: "https://drive.google.com/file/d/1G-6r59KX54zX_6ckdCSJE3mGYCzD0O4s/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1YsCrbyAd0aYl4RvXmi1i879RDvXFBAod/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1mVkgHWvs3k5tbYXceRJKwn07wZivoCfb/view?usp=drive_link",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -2966,6 +3191,9 @@ export const people = [
     name: "Edmond E. Martinez",
     designation: "Instructor I",
     image: "/images/martinez.JPG",
+    //  diploma: "/diploma/diplom.jpg",
+    // tor: "/tor/tor.jfif",
+    // resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3080,6 +3308,9 @@ export const people = [
     name: "Julios M. Mojas",
     designation: "Instructor I",
     image: "/images/mojas.JPG",
+    diploma: "https://drive.google.com/file/d/1tblDO1MXNqwooST1lts8t_-XQKKCq1Lq/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/153JADjzVYIdLU9ZpBHgW8Z7FrFBKJqpY/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1uvX97ogxkKL2uavAOeKdIk26H-gWmMp4/view?usp=drive_link",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3194,6 +3425,9 @@ export const people = [
     name: "Ridhard D. Ongayo",
     designation: "Instructor I",
     image: "/images/ongayo.JPG",
+    diploma: "https://drive.google.com/file/d/1YVgISKruS4SCtI-b9rzhVQ8iZ8BZhTVi/view?usp=drive_link",
+    // tor: "/tor/tor.jfif",
+    // resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3308,6 +3542,9 @@ export const people = [
     name: "Aida M. Penson",
     designation: "Instructor I",
     image: "/images/penson.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3422,6 +3659,9 @@ export const people = [
     name: "Nestor Miguel T. Pimentel",
     designation: "Instructor I",
     image: "/images/pimentel.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3536,6 +3776,9 @@ export const people = [
     name: "Jay-Ar A. Racadio",
     designation: "Instructor I",
     image: "/images/racadio.jpeg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3650,6 +3893,9 @@ export const people = [
     name: "Alvina Ramallosa",
     designation: "Instructor I",
     image: "/images/ramallosa.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3764,6 +4010,9 @@ export const people = [
     name: "Joven S Rios",
     designation: "Instructor I",
     image: "/images/rios.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3878,6 +4127,9 @@ export const people = [
     name: "Nino M. Rodil",
     designation: "Instructor I",
     image: "/images/rodil.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3992,6 +4244,9 @@ export const people = [
     name: "Rachel Rodriguez",
     designation: "Instructor I",
     image: "/images/rodriguez.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4106,6 +4361,9 @@ export const people = [
     name: "Clarissa Rostrollo",
     designation: "Instructor I",
     image: "/images/rostrollo.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4220,6 +4478,9 @@ export const people = [
     name: "Marc Clarence Salvador",
     designation: "Instructor I",
     image: "/images/salvador.jpeg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4334,6 +4595,9 @@ export const people = [
     name: "Jessica Ann Sambrano",
     designation: "Instructor I",
     image: "/images/sambrano.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4448,6 +4712,9 @@ export const people = [
     name: "Benedick M. Sarmiento",
     designation: "Instructor I",
     image: "/images/sarmiento.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4563,6 +4830,9 @@ export const people = [
     name: "Jerome Tacata",
     designation: "Instructor I",
     image: "/images/tacata.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4677,6 +4947,9 @@ export const people = [
     name: "Pamela Marie O. Tagum",
     designation: "Instructor I",
     image: "/images/tagum.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4791,6 +5064,9 @@ export const people = [
     name: "Cesar II B. Talibong ",
     designation: "Instructor I",
     image: "/images/talibong.jpg",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4902,9 +5178,12 @@ export const people = [
   {
     first_name: "Russel Adrianne",
     last_name: "Villareal",
-    name: "Russel Adrianne Villareak",
+    name: "Russel Adrianne Villareal",
     designation: "Instructor I",
     image: "/images/villareal.JPG",
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",

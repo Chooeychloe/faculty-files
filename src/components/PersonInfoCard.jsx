@@ -11,6 +11,7 @@ function PersonInfoCard({
   resume,
   certificates,
   speaking_engagements,
+  membership
 }) {
   return (
     <div className="w-1/2 mt-12 p-6 bg-amber-50 rounded shadow font-funnel mx-6 ">
@@ -23,12 +24,12 @@ function PersonInfoCard({
       <div className="flex flex-col justify-center gap-4 mb-6">
         {diploma && (
           <a
-            href={diploma}
+            href={diploma.url}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline hover:text-red-900"
           >
-            View Undergraduate Diploma
+            {diploma.name}
           </a>
         )}
         {masters_diploma && (
@@ -75,7 +76,7 @@ function PersonInfoCard({
                     rel="noopener noreferrer"
                     className="hover:underline hover:text-red-900"
                   >
-                    View {doc.name || `Certificate ${index + 1}`}
+                    {doc.name || `Certificate ${index + 1}`}
                   </a>
                 </li>
               ))}
@@ -98,6 +99,28 @@ function PersonInfoCard({
                       className="hover:underline hover:text-red-900"
                     >
                       View {doc.name || `Engagement ${index + 1}`}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+            {Array.isArray(membership) &&
+          membership.length > 0 && (
+            <div className="mt-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                Memberships and Affiliations:
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                {membership.map((doc, index) => (
+                  <li key={index}>
+                    <a
+                      href={doc.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline hover:text-red-900"
+                    >
+                       {doc.name || `Engagement ${index + 1}`}
                     </a>
                   </li>
                 ))}

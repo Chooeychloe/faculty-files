@@ -78,6 +78,9 @@ function FacultySchedule({ schedule }) {
                   Subject
                 </th>
                 <th className="py-2 px-4 border border-gray-300 text-left text-gray-700">
+                  Section
+                </th>
+                 <th className="py-2 px-4 border border-gray-300 text-left text-gray-700">
                   Room
                 </th>
               </tr>
@@ -105,6 +108,9 @@ function FacultySchedule({ schedule }) {
                         {item.subject}
                       </td>
                       <td className="py-2 px-4 border border-gray-300 text-gray-900">
+                        {item.section}
+                      </td>
+                       <td className="py-2 px-4 border border-gray-300 text-gray-900">
                         {item.room}
                       </td>
                     </tr>
