@@ -2503,8 +2503,14 @@ export const people = [
     name: "Alvin Catalo, MIT",
     designation: "Research Coordinator",
     image: "/images/catalo.JPG",
-    diploma: "https://drive.google.com/file/d/1-J4qYC2-5qVOa0zsJiBXpMWTDkDBcF4J/view?usp=drive_link",
-    masters_diploma: "https://drive.google.com/file/d/1bOcOxR_bjrhx_Etf9b7qlkE-_A7Rho5A/view?usp=drive_link",
+     diploma: {
+      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
+    },
+    masters_diploma: {
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
+    },
     //  tor: "/tor/tor.jfif",
     resume: "https://drive.google.com/file/d/1Bvmz-sK8F8lARgQB20SumsdHEKj7B7BW/view?usp=drive_link",
     certificates: [{
