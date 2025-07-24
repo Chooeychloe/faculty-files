@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import PersonList from "./PersonList";
+import { useNavigate } from "react-router-dom";
+
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function PersonCard({ data }) {
   const [currentPage, setCurrentPage] = useState(1);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setCurrentPage(1);
@@ -31,8 +34,14 @@ function PersonCard({ data }) {
 
   return (
     <div className="font-funnel mx-4">
-      <h2 className="bg-amber-50 p-4 text-3xl font-semibold border-l-8 border-red-900 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
+      <h2 className="flex flex-row justify-between items-center bg-amber-50 p-4 text-3xl font-semibold border-l-8 border-red-900 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
         Members of the Department
+        <button
+          onClick={() => navigate("/")}
+          className="text-lg ml-4 px-4 py-2 bg-red-900 text-amber-400  rounded hover:outline-4"
+        >
+          View Organizational Chart
+        </button>
       </h2>
 
       {data.length === 0 ? (

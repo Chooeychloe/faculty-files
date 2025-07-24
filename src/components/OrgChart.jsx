@@ -8,8 +8,8 @@ function OrgChart() {
   const [selectedYear, setSelectedYear] = useState("2024-2025");
 
   const chair = people[0];
-  const coordinators = people.slice(1, 4);
-  const facultyMembers = people.slice(4);
+  const coordinators = people.slice(1, 3);
+  const facultyMembers = people.slice(3);
 
   const handleClick = (person) => {
     const id = `${person.last_name}${person.first_name}`;

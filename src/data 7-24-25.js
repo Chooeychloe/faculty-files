@@ -717,21 +717,19 @@ export const people = [
     }
   },
 
-   //Bryan Ablaza
+  //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
     name: "Bryan Dale Ablaza",
     designation: "Instructor I",
     image: "/images/ablaza.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
+    diploma: {
+      name: "Bachelor of Science in Industrial Education",
       url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
-    },],
-    // tor: "/tor/tor.jfif",
-    resume: {
-      url: "https://drive.google.com/file/d/1DwxvMB55GxK2groUnOOoKFxs02j8rO28/view?usp=drive_link"
     },
+    // tor: "/tor/tor.jfif",
+    resume: "https://drive.google.com/file/d/1DwxvMB55GxK2groUnOOoKFxs02j8rO28/view?usp=drive_link",
     certificates: [{
       name: "Off-Campus Practice Teaching",
       url: "https://drive.google.com/file/d/1OjXG1LSZeRJhnlp7jLkDj9Cn0yn-KEeM/view?usp=drive_link"
@@ -740,7 +738,9 @@ export const people = [
     {
       name: "EdukaTalks: A SEM1 Seminar Series",
       url: "https://drive.google.com/file/d/1H2nxazqePHdwCEHbEfcNbFIASgFUptqu/view?usp=drive_link"
-    },],
+    },
+
+    ],
 
     schedule: [
       {
@@ -846,9 +846,9 @@ export const people = [
           "Pursued certified online training programs to acquire industry-relevant skills aligned with the chosen career path."
         ],
         "2025": [
-          "Passed the Board Licensure Examination for Professional Teachers (BLEPT)",
-          "Attended academic related seminars to enhance teaching effectiveness.",
-          "Became a technical critic for students to guide them in their project and thesis."
+          "Pass the Board Licensure Examination for Professional Teachers (BLEPT)",
+          "Attend academic related seminars to enhance teaching effectiveness.",
+          "Be a technical critic for students to guide them in their project and thesis."
         ],
         "2026": [
           "Enroll in a Master’s program in Information Technology",
@@ -871,13 +871,13 @@ export const people = [
       },
       research: {
         "2024": [
-          "Participated in research-oriented seminars to enhance critical thinking skills and adopt effective approaches to subject matter analysis.",
-          "Delivered forward-thinking academic mentorship to students, guiding them in the development of innovative and impact-driven research projects."
+          "Participate in research-oriented seminars to enhance critical thinking skills and adopt effective approaches to subject matter analysis.",
+          "Deliver forward-thinking academic mentorship to students, guiding them in the development of innovative and impact-driven research projects."
         ],
         "2025": [
-          "Drove pioneering research that pushed the boundaries of Computer Studies in response to future technological advancements.",
-          "Continuously engaged in advanced seminars and immersive workshops to stay at the forefront of evolving research practices.",
-          "Empowered the next generation of innovators by providing ongoing mentorship and strategic guidance in their research endeavors."
+          "Drive pioneering research that pushes the boundaries of Computer Studies in response to future technological advancements.",
+          "Continuously engage in advanced seminars and immersive workshops to stay at the forefront of evolving research practices.",
+          "Empower the next generation of innovators by providing ongoing mentorship and strategic guidance in their research endeavors."
         ],
         "2026": [
           "Engage in innovative research initiatives that advance the field of Computer Studies.",
@@ -906,20 +906,15 @@ export const people = [
     name: "Mikaela Arciaga",
     designation: "Instructor I",
     image: "/images/arciaga.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+    diploma: {
+      name: "Bachelor of Science in Information Technology",
       url: "https://drive.google.com/file/d/1d6F-Sa-0-KDgxPj4QCENkD2sfa5M8nuW/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1ST9zWRG3iqbTTOLJh7G1-22hK8HiUHwK/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1n8yYCs08h-QTZnlDStGcHZE0ICDChnBI/view?usp=drive_link"
     },
+    tor: "https://drive.google.com/file/d/1ST9zWRG3iqbTTOLJh7G1-22hK8HiUHwK/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1n8yYCs08h-QTZnlDStGcHZE0ICDChnBI/view?usp=drive_link",
     certificates: [{
-      name: "-",
-      url: "https://drive.google.com/file/d/1ZDwAzRO-QnzWZ0PkyuDxG1qd3QOdOG0V/view?usp=drive_link"
+      name: "Orientation/Re-orientation Cum Capability Enhancement for Faculty and Staff",
+      url: "https://drive.google.com/file/d/1ehv66Db4h45i2I8OXUca5sD1gfEIxYQp/view?usp=drive_link"
     }],
 
     schedule: [
@@ -1487,11 +1482,11 @@ export const people = [
       },
       research: {
         "2024": [
-          "Engaged in research on computer science education, software development, or data analytics.",
+          "Engage in research on computer science education, software development, or data analytics.",
           "Continue guiding students in their research journey.."
         ],
         "2025": [
-          "Engaged in research on computer science education, software development, or data analytics.",
+          "Engage in research on computer science education, software development, or data analytics.",
           "Continue guiding students in their research journey.."
         ],
         "2026": [
@@ -1524,29 +1519,24 @@ export const people = [
     name: "Stephen Bacolor",
     designation: "Instructor I",
     image: "/images/bacolor.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+    diploma: {
+      name: "Bachelor of Science in Information Technology",
       url: "https://drive.google.com/file/d/1ZDwAzRO-QnzWZ0PkyuDxG1qd3QOdOG0V/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1BScHlM_SpLeAnDq8iVceH_vMwUcGazp_/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1b7C9kyETjtBPZnxOIGhB2NgxtaWiJ4AH/view?usp=drive_link"
     },
+    tor: "https://drive.google.com/file/d/1BScHlM_SpLeAnDq8iVceH_vMwUcGazp_/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1b7C9kyETjtBPZnxOIGhB2NgxtaWiJ4AH/view?usp=drive_link",
     certificates: [{
-      name: "LEADERSHIP SUMMIT 2023: KABSUHENYONG LIDERATO SA PANIBANGONG PANAHON",
+      name: "Leadership Summit 2023: Kabsuhenyonh Liderator sa Panibagong Panahon",
       url: "https://drive.google.com/file/d/1FEcFnOx_Cw3Pfm2FSAozNoJWboVMd2E7/view?usp=drive_link"
     },
     {
-      name: "INTRODUCTION TO CYBERSECURITY - CISCO NETWORKING ACADEMY",
+      name: "Introduction to Cybersecurity - Cisco Networking Academy",
       url: "https://drive.google.com/file/d/1ZvZArl8NNt5Q5Hu2u4FxndF4YpJxSZPv/view?usp=drive_link"
     },
     {
-      name: "COMPUTER LITERACY PROGRAM - DATACOM INSTITUTE OF COMPUTER TECHNOLOGY - IMUS",
+      name: "Computer Literacy Program - Datacom Institute of Computer Technology - Imus ",
       url: "https://drive.google.com/file/d/10FaXQYC2TASOrUft5v8nYHKZM3tiyQuF/view?usp=drive_link"
-    },],
+    }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1713,19 +1703,14 @@ export const people = [
     name: "Jhon Nerick Batuigas",
     designation: "Instructor I",
     image: "/images/batuigas.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
+    diploma: {
+      name: "Bachelor of Science in Industrial Education",
       url: "https://drive.google.com/file/d/16elYpxvQDk-dbG-9Vs7e4xhFZYOAX6GB/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/1hQedUTRMwszaMajzVfCE4lQQzI3wI7ce/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1Oa23aJB_fVoKJhykozlv8eUdU5cV2d90/view?usp=drive_link"
     },
+    tor: "https://drive.google.com/file/d/1hQedUTRMwszaMajzVfCE4lQQzI3wI7ce/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1Oa23aJB_fVoKJhykozlv8eUdU5cV2d90/view?usp=drive_link",
     certificates: [{
-      name: "NC II COMPUTER SYSTEM SERVICING - TESDA",
+      name: "NC II: Computer Systems Servicing (TESDA)",
       url: "https://drive.google.com/file/d/1kGUKM8UPXx1MjTPAPYkG1Mvi24auSc_d/view?usp=drive_link"
     }],
 
@@ -1817,17 +1802,9 @@ export const people = [
     name: "Edan A. Belgica",
     designation: "Instructor I",
     image: "/images/belgic.jpeg",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1bMZsYarmGI_KHjhpmNIUOTK6HB8kQ45W/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1fNyXSp0Osq3xCgrcI2AMopkfb5DuOpOj/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1L5lM0fGKwv1lksmYmVvqxR7eyk9RceSp/view?usp=drive_link"
-    },
+    diploma: "https://drive.google.com/file/d/1bMZsYarmGI_KHjhpmNIUOTK6HB8kQ45W/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1fNyXSp0Osq3xCgrcI2AMopkfb5DuOpOj/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1L5lM0fGKwv1lksmYmVvqxR7eyk9RceSp/view?usp=drive_link",
     certificates: [
       {
         name: "C# Theoritical Understanding",
@@ -1998,35 +1975,38 @@ export const people = [
     name: "Ralph Christian Bolarda, MIT",
     designation: "Instructor I",
     image: "/images/bolarda.JPG",
-    diploma: [{
+    diploma: {
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1vZbJpkcNKzVAjOhaI_2pxbEd6Yha147H/view?usp=drive_link"
-    },],
-    masters_diploma:{
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
+    },
+    masters_diploma: {
       name: "MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1vBxRmRTd-osPfFdAxx9ncQWagBOz65lK/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
     },
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1z1okPsd93fgtWkqBY7d3ptvMZpEJGDMT/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1_TEGYBf5-F_DFkecGkObp2kKYB1psxNO/view?usp=drive_link"
-    },
+    tor: "https://drive.google.com/file/d/1z1okPsd93fgtWkqBY7d3ptvMZpEJGDMT/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1_TEGYBf5-F_DFkecGkObp2kKYB1psxNO/view?usp=drive_link",
     certificates: [
       {
-        name: "BIG DATA - UDEMY",
+        name: "Big Data Programming Languages & Big Data Vs Data Science",
         url: "https://drive.google.com/file/d/1OvrOESUOL-eSutXOTCGKFBsDXow-_mVE/view?usp=drive_link"
       },
       {
-        name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
+        name: "2023 Orientation Seminar for Newly Hired CvSU Employees",
+        url: "https://drive.google.com/file/d/1DYDdAdJWNCdJyeQsMb58z1nxNe4Mce0j/view?usp=drive_link"
+      },
+      {
+        name: "Seminar-Workshop on Module Development and Publication",
         url: "https://drive.google.com/file/d/1tYjr4HnPGJZQo_Rff_xmkgwFpTGQhwqH/view?usp=drive_link"
-      },],
+      },
+    ],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          monday: [
+            { time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming" },
+             { time: "1:00 PM - 3:00 PM", subject: "DCIT23 -  Programming2", room: "Lab 1" },
+          ],
           tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
           wednesday: [],
           thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
@@ -2137,26 +2117,19 @@ export const people = [
     name: "Rafel J. Carvajal",
     designation: "Instructor I",
     image: "/images/carvajal.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/1IkZvDHn2Y9NCiXsuF-7UIpLJj5bAeJbl/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/1OD5ihB_21VLXplxN42pP4u1DVb9mV-IH/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1kmBSZPwJthlmjze5C275tfQp2Ffm-vJk/view?usp=drive_link"
-    },
+    diploma: "https://drive.google.com/file/d/1IkZvDHn2Y9NCiXsuF-7UIpLJj5bAeJbl/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1OD5ihB_21VLXplxN42pP4u1DVb9mV-IH/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1kmBSZPwJthlmjze5C275tfQp2Ffm-vJk/view?usp=drive_link",
     certificates: [
       {
-        name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-        url: "https://drive.google.com/file/d/111dy8R6L4MQZdbe68pkgpogwuostNUPv/view?usp=drive_link"
+        name: "Beyond Firewalls: A Unified Approach to Cybersecurity",
+        url: "https://drive.google.com/file/d/1kw_uGfMNEok1Fl_BodJny6WAdtthNeYH/view?usp=drive_link"
       },
       {
-        name: "BEYOND FIREWALLS: A UNIFIED APPROACH TO CYBERSECURITY - DICT",
-        url: "https://drive.google.com/file/d/1kw_uGfMNEok1Fl_BodJny6WAdtthNeYH/view?usp=drive_link"
-      },],
+        name: "Seminar-Workshop on Module Development and Publication",
+        url: "https://drive.google.com/file/d/111dy8R6L4MQZdbe68pkgpogwuostNUPv/view?usp=drive_link"
+      },
+    ],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -2271,17 +2244,17 @@ export const people = [
       },
       research: {
         "2024": [],
-        "2025": ["Continue to mentor student researchers to be able to produce at least Research per year for funding"],
-        "2026": ["Continue to mentor student researchers to be able to produce at least Research per year for funding"],
+        "2025": [],
+        "2026": [],
         "2027": [],
         "2028": [],
       },
       extensions: {
         "2024": [],
         "2025": [],
-        "2026": ["Participate in the campus extension activities."],
-        "2027": ["Participate in the campus extension activities."],
-        "2028": ["Participate in the campus extension activities."],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -2292,22 +2265,9 @@ export const people = [
     name: "Jerico D. Castillo",
     designation: "Instructor I",
     image: "/images/castillo.jpg",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/1dkCoo6jeZOAHA7u_QzOwdJv9NnUvQzej/view?usp=drive_link"
-    },],
-    tor: [
-      {
-        name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-        url: "https://drive.google.com/file/d/1Eb9dtITCymDZ1W2pxkMh9tTCY1EBb7nF/view?usp=drive_link"
-      },
-      {
-        name: "MASTER OF ARTS IN EDUCATION MAJOR IN EDUCATIONAL MANAGEMENT",
-        url: "https://drive.google.com/file/d/1fztALg8k0oHJ9CRlWBON-giU0Vp4PWnz/view?usp=drive_link"
-      },],
-    resume: {
-      url: "https://docs.google.com/document/d/11-Oo8Qq995N3ZFPvde9LyTDAtlv0AuFi/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true"
-    },
+    diploma: "https://drive.google.com/file/d/1dkCoo6jeZOAHA7u_QzOwdJv9NnUvQzej/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1Eb9dtITCymDZ1W2pxkMh9tTCY1EBb7nF/view?usp=drive_link",
+    resume: "https://docs.google.com/document/d/11-Oo8Qq995N3ZFPvde9LyTDAtlv0AuFi/edit?usp=drive_link&ouid=103847682815473513757&rtpof=true&sd=true",
     certificates: [
       {
         name: "Training-Writeshop on the Enhancement of Contingency Plan and School Safety Plan",
@@ -2397,32 +2357,32 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Continued Masters Degree"],
-        "2025": ["Earned Masters Degree"],
-        "2026": ["To continue in Doctorate Degree"],
-        "2027": ["To continue in Doctorate Degree"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
         "2028": [],
       },
       loading: {
-        "2024": ["Web Systems and Technologies 1", "Understanding the Self"],
-        "2025": ["Web Systems and Technologies 1", "Understanding the Self"],
-        "2026": ["Web Systems and Technologies 1", "Understanding the Self"],
-        "2027": ["Web Systems and Technologies 1", "Understanding the Self"],
-        "2028": ["Web Systems and Technologies 1", "Understanding the Self"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": ["To attend research seminar/ workshop and colloquium"],
-        "2025": ["To attend research seminar/ workshop and colloquium"],
-        "2026": ["To attend research seminar/ workshop and colloquium"],
-        "2027": ["To conduct and publish applied research in computing studies"],
-        "2028": ["To conduct and publish applied research in computing studies"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": ["To engage in various extension activities and programs"],
-        "2025": ["To engage in various extension activities and programs"],
-        "2026": ["To engage in various extension activities and programs"],
-        "2027": ["To engage in various extension activities and programs"],
-        "2028": ["To engage in various extension activities and programs"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -2433,17 +2393,9 @@ export const people = [
     name: "Mariel E. Castillo",
     designation: "Instructor I",
     image: "/images/m_castillo.JPG",
-    diploma: [{
-      name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS",
-      url: "https://drive.google.com/file/d/1X_38eAzIhR5ERSyBVcINhPT3eK4svwbr/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "TOR: BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS",
-      url: "https://drive.google.com/file/d/1CbDVQsroAu5B7nNLtjlvVgZsvhySAUGT/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1Zf4zHWDUcq58dl9KlxLmE-svOzxnsiQi/view?usp=drive_link"
-    },
+    diploma: "https://drive.google.com/file/d/1X_38eAzIhR5ERSyBVcINhPT3eK4svwbr/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1CbDVQsroAu5B7nNLtjlvVgZsvhySAUGT/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1Zf4zHWDUcq58dl9KlxLmE-svOzxnsiQi/view?usp=drive_link",
 
     schedule: [
       {
@@ -2560,53 +2512,43 @@ export const people = [
     name: "Alvin Catalo, MIT",
     designation: "Research Coordinator",
     image: "/images/catalo.JPG",
-    diploma: [{
+    diploma: {
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1-J4qYC2-5qVOa0zsJiBXpMWTDkDBcF4J/view?usp=drive_link"
-    },],
-    masters_diploma:{
-      name: "MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1bOcOxR_bjrhx_Etf9b7qlkE-_A7Rho5A/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
     },
-    tor: [{
-      name: "TOR: BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1WXMm-jqx7nACUvsJyvD3DozjkZ0ROrPI/view?usp=drive_link"
+    masters_diploma: {
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
+    },
+    //  tor: "/tor/tor.jfif",
+    resume: "https://drive.google.com/file/d/1Bvmz-sK8F8lARgQB20SumsdHEKj7B7BW/view?usp=drive_link",
+    certificates: [{
+      name: "2024 Orientation/Re-orientation Cum Capability Enhancement for Faculty and Staff",
+      url: "https://drive.google.com/file/d/1jUk50LWiEeqBTljynFZd7RgEEEEMthV2/view?usp=drive_link"
     },
     {
-      name: "TOR: MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1WXMm-jqx7nACUvsJyvD3DozjkZ0ROrPI/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1Bvmz-sK8F8lARgQB20SumsdHEKj7B7BW/view?usp=drive_link"
-    },
-    certificates: [{
-      name:"DESIGNING EFFECTIVE OUTCOMES-BASED COURSE SYLLABI AND CREATIVITY AND INNOVATION IN TEACHING WITH THE USE OF PRODUCTIVITY AND AI TOOLS - KOLEHIYO NG LUNGSOD NG DASMARINAS",
+      name: "KLD Faculty Development Activities 2024 - Day 1",
       url: "https://drive.google.com/file/d/1CFSxCLsTfkQwC0bTHMHvHKS-xVew6ShD/view?usp=drive_link"
     },
     {
-      name: "1ST INTERNATION CONFERENCE ON MOBILE TECHNOLOGY AND ENGINEERING EDUCATION (ICMTEE) - INDONESIA",
+      name: "KLD Faculty Development Activities 2024 - Day 3",
+      url: "https://drive.google.com/file/d/1os1sD3rnD8jQv-LjNBPvsGwknYaRzYvq/view?usp=drive_link"
+    },
+    {
+      name: "1st International Conference on Mobile Technology and Engineering Education",
       url: "https://drive.google.com/file/d/1Cqz6J0uqpFpzaeouVU6nzMGrNq7Uw83V/view?usp=drive_link"
-    },
-    {
-      name:"DATA SCIENCE AND ANALYTICS TRAINING - DICT",
-      url: "https://drive.google.com/file/d/1ZQCaHkVZXj_6puUijePrG3kYicac04_0/view?usp=drive_link"
-    },
-    {
-      name: "UNDERSTANDING MICRO-CREDENTIALS FOR LIFELONG LEARNING - KOLEHIYO NG LUNGSOD NG DASMARINAS",
-      url: "https://drive.google.com/file/d/1vI4g2Btx8ei6wiIAC1IW64kb8Cmo9ULr/view?usp=drive_link"
     }, {
-      name: "INTERNATIONALIZATION INITIATIVES AND ITS IMPACT ON WORLD UNIVERSITY RANKINGS",
-      url: "https://drive.google.com/file/d/1resJOAX_-a0SVXjrfrF910qpBjcHozyv/view?usp=drive_link"
+      name: "",
+      url: ""
     }, {
-      name: "INTEGRATING SUSTAINABLE DEVELOPMENT GOALS INTO HIGHER EDUCATION CURRICULA",
-      url: "https://drive.google.com/file/d/14UE5KGbpjmUpCZS2kOJ-7vRbC79Y_lpV/view?usp=drive_link"
+      name: "",
+      url: ""
+    }, {
+      name: "",
+      url: ""
     },],
     speaking_engagements: [{
-      name: "PRESENTER: 1ST INTERNATION CONFERENCE ON MOBILE TECHNOLOGY AND ENGINEERING EDUCATION (ICMTEE) - INDONESIA",
-      url: "https://drive.google.com/file/d/1r3n7FHLF56nsB5fKdMEgRXDEsQu1Gxow/view?usp=drive_link"
-    },
-    {
-      name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - MAMBOG ELEMENTARY SCHOOL",
+      name: "Lecturer: Computer Literacy and System Support Extension Services",
       url: "https://drive.google.com/file/d/1ehQfwTkOddptyc2q-vkLXt9uFGySrtlb/view?usp=drive_link"
     }],
     schedule: [
@@ -2837,173 +2779,6 @@ export const people = [
       }
     }
   },
-  //Alvin Celino
-  {
-    first_name: "Alvin",
-    last_name: "Celino",
-    name: "Alvin P. Celino",
-    designation: "Instructor I",
-    image: "/images/celino.JPG",
-    diploma: [{
-      name:"Bachelor of Science in Computer Engineering",
-      url:"https://drive.google.com/file/d/1Q_swPtzGs_0NnEIvBzduIWjm93QSsyNe/view?usp=drive_link"
-    }],
-    masters_diploma: [{
-      name:"",
-      url:""
-    }],
-    tor: [
-      {name:"Bachelor of Science in Computer Engineering", url:"https://drive.google.com/file/d/1-YUOnraAK-lApKbC1Upvn67TRa0PiN5d/view?usp=drive_link"},
-      {name:"Professional Education Units" , url:"https://drive.google.com/file/d/13pjAca-nnAJt0nS_o9HP99Ytwat8XOGj/view?usp=drive_link"}],
-    resume: "https://drive.google.com/file/d/1q-iUn_XmzpcwFjT0Zb_HApy0U8xeob4P/view?usp=drive_link",
-    certificates: [
-      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
-    ],
-    schedule: [
-      {
-        semesterName: "1st Sem A.Y 22-23",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 23-24",
-        details: {
-          monday: [{ time: "7:00 AM - 9:00 AM", section: " IT 3-6", subject: "ITEC 90 Lab", room: "CL 3" }],
-          tuesday: [],
-          wednesday: [{ time: "7:00 PM - 8:00 AM", subject: "ITEC 90 Lec", section: "IT 3-2", room: "ROOM 305" }, { time: "8:00 AM - 9:00 AM", subject: "ITEC 90 Lec", section: "IT 3-6", ROOM: "Room 305" }],
-          thursday: [],
-          friday: [{ time: "7:00 AM - 9:00 PM", section: "IT 3-2", subject: "ITEC 90 Lab", room: "Room 301" }],
-          saturday: [{ time: "7:00 AM - 8:00 AM", section: "IT 3-2", subject: "ITEC 90 Lec", ROOM: "" }, { time: "8:00 AM - 9:00 AM", section: "IT 3-2", subject: "ITEC 90 Lab", ROOM: "" }, { time: "9:00 AM - 10:00 AM", section: "IT 3-6", subject: "ITEC 90 Lec", ROOM: "" }, { time: "10:00 AM - 11:00 AM", section: "IT 3-6", subject: "ITEC 90 Lab", ROOM: "" }],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [],
-          tuesday: [
-            { time: "7:00 PM - 8:00 PM", section: "IT 3-6", subject: "ITEC 105", ROOM: "ROOM 301"},
-            { time: "8:00 PM - 9:00 PM", section: "IT 3-6", subject: "ITEC 105 Lec", ROOM: "" },
-            { time: "9:00 PM - 10:00 PM", section: "IT 3-6", subject: "ITEC 105 Lab", ROOM: "" }
-          ],
-          wednesday: [],
-          thursday: [{ time: "7:00 AM - 9:00 AM", subject: "ITEC 105", ROOM: "CL 1" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-
-      {
-        semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [{ time: "7:00 AM - 10:00 AM", section: "IT 3-4", subject: "ITEC 105", room: "CL 3" }],
-          tuesday: [{ time: "7:00 AM - 9:00 AM", section: "IT 3-5", subject: "ITEC 105", room: "ROOM 201" }],
-          wednesday: [{ time: "7:00 AM - 10:00 AM", section: "IT 3-5", subject: "ITEC 105", room: "ROOM 203" }],
-          thursday: [{ time: "7:00 AM - 10:00 AM", section: "IT 3-5", subject: "ITEC 85", room: "ROOM 201" }],
-          friday: [{ time: "7:00 AM - 9:00 AM", section: "IT 3-4", subject: "ITEC 105", room: "ROOM 201" }],
-          saturday: [],
-          sunday: [],
-        }
-      }
-    ],
-    evaluation_scores: [4.29, 4.48, 4.37],
-    evaluation_labels: ["2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-    development_plan: {
-      professionalDevelopment: {
-        "2024": [
-          "Regularly attended seminars and webinars focused on networking to improve my communication skills and expand my professional network.",
-          "Undertook and completed a foundational course in networking fundamentals, which provided hands-on experience and theoretical knowledge in key networking concepts and practices.",
-          "Researched multiple graduate schools, evaluated program offerings, and prepared to enroll in a Master’s program that best matched my field of interest and long-term objectives."
-        ],
-        "2025": [
-          "Enroll in a Master’s degree program in Computer Studies with a specialization in Networking to enhance my technical knowledge and career opportunities.",
-          "Attend one to two professional conferences or seminars to gain insights from industry experts and stay updated on the latest developments in the field."
-        ],
-        "2026": [
-          "Continue my Master’s degree studies to further develop specialized knowledge and practical skills relevant to my career goals.",
-          "Attend one major networking seminar or conference to gain in-depth insights into current industry practices and emerging technologies.",
-          "Enroll in an advanced short course to deepen my knowledge in a specific technical field and enhance my practical skills."
-        ],
-        "2027": [
-          "Work toward completing my Master’s degree by focusing on my thesis or final project, demonstrating applied knowledge and research skills.",
-          "Participate in a minimum of two professional seminars or workshops, contributing either as an engaged attendee or as a speaker presenting on relevant topics in my field.",
-          "Take short courses focused on cloud computing and enterprise networking to build specialized technical skills and stay updated with current industry standards."
-        ],
-        "2028": [
-          "Finalize my Master’s degree requirements and present my thesis or project in a professional seminar to demonstrate the outcomes of my academic work.",
-          "Organize and lead a networking workshop aimed at educating participants on essential networking concepts, tools, and real-world applications"
-        ],
-      },
-      loading: {
-        "2024": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2025": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2026": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2027": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2028": [
-          "Network Fundamentals",
-          "Network Management"
-        ],
-      },
-      research: {
-        "2024": ["One of the proponents of a Faculty Study."],
-        "2025": ["One of the proponents of a Faculty Study."],
-        "2026": ["One of the proponents of a Faculty Study."],
-        "2027": ["One of the proponents of a Faculty Study."],
-        "2028": ["Publish at least one research paper"],
-      },
-      extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department"],
-        "2025": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department"],
-        "2026": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department"],
-        "2027": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department"],
-        "2028": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department"],
-      }
-    }
-  },
   //Allen Dave Coles
   {
     first_name: "Allen Dave",
@@ -3011,27 +2786,9 @@ export const people = [
     name: "Allen Dave Coles",
     designation: "Instructor I",
     image: "/images/coles.JPG",
-    diploma:
-      [       
-        {name: "Bachelor of Science in Industrial Education",
-        url: "https://drive.google.com/file/d/1nxpjnIqxYD7EoaefDtJLOvCjYLX3cPca/view?usp=drive_link"},
-      ],
-    tor: [
-      {name: "Bachelor of Science in Industrial Education", url: "Bachelor of Science in Industrial Education"},
-    ],
-    resume: ["https://drive.google.com/file/d/1fuLTxBR8mSRojcDS_R4O6nbq4tzn3PHf/view?usp=drive_link"],
-    certificates: [
-      { name: "Training Workshop on Proposal Writing and Publication Cavite State University-Bacoor", url: "https://drive.google.com/file/d/1MxUyLjRr72GbhrrJotFoAnSMPE5z4nRY/view?usp=drive_link"},
-      { name: "HTML ESSENTIALS - CISCO NETWORKING ACADEMY", url: "https://drive.google.com/file/d/1DGnhxkwy2dbpEBRtaTWdR_m96P1EDwVv/view?usp=drive_link"},
-      { name: "INTRODUCTION TO TECHNOLOGY FOR TEACHING AND LEARNING - UNIVERSITY OF THE PHILIPPINES OPEN UNIVERSITY", url: "https://drive.google.com/file/d/18EvPJuKQzA2nNAPiULCNp-qELYLp1Og6/view?usp=drive_link"},
-      { name: "DIMENSIONS OF DEVELOPMENT: NURTURING THE CHILD AND ADOLESCENT LEARNER THROUGH EFFECTIVE LEARNING PRINCIPLES - TUP CAVITE", url: "https://drive.google.com/file/d/1naaPqumJtLFk3Fx7mof1OH86-P8y2Xro/view?usp=drive_link"},
-      { name: "EDUKATALKS: A SEM1 SEMINAR SERIES - TUP CAVITE", url: "https://drive.google.com/file/d/1D7-sMobzHeSeFAVbk1ZsiTEBKCZurXUA/view?usp=drive_link"},
-      { name: "CONNECTED: HARNESSING TECHNOLOGY FOR TEACHING AND LEARNING - TUP CAVITE", url: "https://drive.google.com/file/d/1mLOTtMY72Av82bNJlfmMcCX3u3yGX5VT/view?usp=drive_link"},
-      { name: "SCRIPTWRITING FOR EDUCATIONAL VIDEO MATERIALS - UNIVERSITY OF THE PHILIPPINES OPEN UNIVERSITY", url: "https://drive.google.com/file/d/1WI5xR-0gkTnGimHnNgIRcqy2YiAkG_oP/view?usp=drive_link"},
-    ],
-    speaking_engagements: [
-      { name: "PHOTO AND VIDEO EDITING TRAINING - CAVITE STATE UNIVERSITY - BACOOR", url: "https://drive.google.com/file/d/105Yf9vc9o_el642t38LYhtjzxtxT89K5/view?usp=drive_link"},
-    ],
+    diploma: "https://drive.google.com/file/d/1nxpjnIqxYD7EoaefDtJLOvCjYLX3cPca/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1EJQXV7_-gOatE4cjacKhCDaBfMy1iAIR/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1fuLTxBR8mSRojcDS_R4O6nbq4tzn3PHf/view?usp=drive_link",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -3159,16 +2916,11 @@ export const people = [
     name: "Redem M. Decipulo",
     designation: "Instructor I",
     image: "/images/decipulo.jpg",
-    diploma: [
-      {name:"Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link"},
-    ],
-    tor: [
-      {name:"Bachelor of Science in Industrial Education", url:"https://drive.google.com/file/d/1mHGnJ-tXtpHj3_Zk6WB0pGJzuU6iGlR0/view?usp=drive_link"},
-    ],
+    diploma: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1mHGnJ-tXtpHj3_Zk6WB0pGJzuU6iGlR0/view?usp=drive_link",
     resume: "https://drive.google.com/file/d/1olJ3gaTfFNxg_s-0ZcVjtjDjNIBfh_UD/view?usp=drive_link",
-    certificates: [],
-    speaking_engagements: [
-      { name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - MAMBOG ELEMENTARY SCHOOL", url: "https://drive.google.com/file/d/1UjjMVjCYMg6TP2tkDRLrpybks8Rb3EHZ/view?usp=drive_link"}
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
     schedule: [
       {
@@ -3447,24 +3199,14 @@ export const people = [
     name: "Jen Jerome V. Dela Pena",
     designation: "Instructor I",
     image: "/images/delapena.png",
-    diploma: [
-      {name:"Bachelor of Science in Industrial Education", url:"https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link"}
-    ],
-    tor: [
-      {name:"Bachelor of Science in Industrial Education", url:"https://drive.google.com/file/d/1ll7o1VE306Zsg0iCCC_B2-1uW00um679/view?usp=drive_link"}
-    ],
+    diploma: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1ll7o1VE306Zsg0iCCC_B2-1uW00um679/view?usp=drive_link",
     resume: "https://drive.google.com/file/d/1yavnXI1qLTWBb-PfiAKe010ma5QNsOdD/view?usp=drive_link",
-    certificates: [
-       {name:"Programming for Beginners Using Python - DICT", url: "https://drive.google.com/file/d/1AqI5w1sFX7scH9hjsYsH0NbxVX18ZixW/view?usp=drive_link" },
-       {name:"Python Essentials 1 - CISCO NETWORKING ACADEMY", url:"https://drive.google.com/file/d/15qzXuNX67ciJkJ4E0UTFwWWPT4982gay/view?usp=drive_link"},
-       {name:"Python Essentials 2 - CISCO NETWORKING ACADEMY", url:"https://drive.google.com/file/d/1TWY6NZZ1gtlJ4jn9N1Eu0bG96I1_38gP/view?usp=drive_link"},
-       {name:"LEARNING RECOVERY TO LEARNING RESILIENCE IN CLASSROOMS THROUGH EFFECTIVE TEACHING STRATEGIES FOR EMPOWERING TECHNOLOGIES", url:"https://drive.google.com/file/d/1fZTwxC5h3J4mt7cA_D4j4Sj2QmNdk0-M/view?usp=drive_link"},
-     ],
+    // certificates: [
+    //   { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    // ],
     membership: [
       { name: "Member: ICT Industry Council", url: "https://drive.google.com/file/d/1tTd_rQq6x8qFlQHW46doPOG-9nvVnSqF/view?usp=drive_link" },
-    ],
-    speaking_engagements: [
-
     ],
     schedule: [
       {
@@ -4124,119 +3866,9 @@ export const people = [
     name: "Edmond E. Martinez",
     designation: "Instructor I",
     image: "/images/martinez.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1I4XT9BVoXJbnossRYZ17BDBcGf5e3vNb/view?usp=drive_link"
-    },],
-    masters_diploma: [{
-      name: "MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
-    },],
-    tor: [{
-      name:"BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url:"https://drive.google.com/file/d/1fvK81JPTKD1yIt7ZPhCHwaH813CW9Yxw/view?usp=drive_link"
-    },],
-    resume: {
-      url:"https://drive.google.com/file/d/1fN0Ck8ZL7HJrisi6hWnX4n48Mz7i7gAE/view?usp=drive_link"
-    },
-    certificates: [
-      {
-        name: "BASIC OF NETWORKING DESIGN - TESDA",
-        url: "https://drive.google.com/file/d/1vvOObhDtuqocZQph0w0WYImNGbKKCz-D/view?usp=drive_link"
-      },
-      {
-        name: "CANVA FOR BEGINNERS - TESDA",
-        url: "https://drive.google.com/file/d/1Wgb23NDB1sl1a8NPMk4U84mUTAWCgiNP/view?usp=drive_link"
-      },
-      {
-        name: "COMPUTER LITERACY TRAINING PROGRAM - ADAMSON UNIVERSITY",
-        url: "https://drive.google.com/file/d/1DXrVZuQqJmvqD8c8o2UlLKA8RmfKj3M3/view?usp=drive_link"
-      },
-      {
-        name: "CYBERATTACKS AND CYBERSECURITY - MINDORO STATE UNIVERSITY",
-        url: "https://drive.google.com/file/d/1CZkmHDYObK4SBPKN4M1gYOYx1rGHyvMg/view?usp=drive_link"
-      },
-      {
-        url: "https://drive.google.com/file/d/1DXrVZuQqJmvqD8c8o2UlLKA8RmfKj3M3/view?usp=drive_link",
-        name: "COMPUTER LITERACY TRAINING PROGRAM - ADAMSON UNIVERSITY"
-      },
-      {
-        name: "CYBERSECURITY AWARENESS - DICT",
-        url: "https://drive.google.com/file/d/1r4BbghOqrJurLveXCTeFgr4mnSQiyQlz/view?usp=drive_link"
-      }, 
-      {
-        name: "CYBERSECURITY AWARENESS - DICT",
-        url: "https://drive.google.com/file/d/13XdmTRmEG_FjrDmL6OsShSBK9A8cTtfi/view?usp=drive_link"
-      },
-      {
-        name: "CYBERSECURITY AWARENESS - DICT,",
-        url: "https://drive.google.com/file/d/1fLkq6fLtsnQHGjNlXweqecLmbL4HmQNv/view?usp=drive_link"
-      },
-      {
-        name: "CYBERTALKS: CYBER RESILIENCE: ADAPTING, INNOVATING AND DEFENDING IN THE DIGITAL AGE - DICT",
-        url: "https://drive.google.com/file/d/1FaDk-bVSwzBfgWj47G-VEzv4UBD2fbUm/view?usp=drive_link"
-      },
-      {
-        name: "DATA PRIVACY ACT (RA 10173) AWARENESS SEMINAR - DICT",
-        url: "https://drive.google.com/file/d/1aESd4gd605Z9gFdA-yuSQlexjxDzVWhu/view?usp=drive_link"
-      },
-      {
-        name: "ICT PEDAGOGY, ANDRAGOGY, AND HEUTAGOGY: DYNAMICS OF TEACHING ICT - DICT",
-        url: "https://drive.google.com/file/d/1z1oMOW-d17CfL2-6_vhEsa1ZXBcr8Nu5/view?usp=drive_link"
-      },
-      {
-        name: "EMERGNCY COMMUNICATION SYSTEMS WEBINAR - DICT",
-        url: "https://drive.google.com/file/d/10BCOMkEsG7qBxAY5nhOWl60rlEjy26PX/view?usp=drive_link"
-      },
-      {
-        name: "EXCEL TECHNIQUES FOR DATA ANALYSIS - DICT",
-        url: "https://drive.google.com/file/d/1et6l0US2uD1mFDJrXIFP2VEHM-GKNyMq/view?usp=drive_link"
-      },
-      {
-        name: "ADOBE CREATIVE EDUCATORS CERTIFICATIONS (LEVEL 2) - DICT",
-        url: "https://drive.google.com/file/d/1UUnvQtPs4ALWnfAA7XprE_mG3ZSUDBzS/view?usp=drive_link"
-      },
-      {
-        name: "EXPLORATION AND UTILIZATION OF GOOGLE WORKSPACE",
-        url: "https://drive.google.com/file/d/1c453fXYZg9m7EhnnmviB7MusVlD_ajEU/view?usp=drive_link"
-      },
-      {
-        name: "GOOGLE WORKSPACE",
-        url: "https://drive.google.com/file/d/1DCjXx9-ljt5S6V4e0Bn5v3GZWxyT6tF_/view?usp=drive_link"
-      },
-      {
-        name: "GRAPHIC DESIGN USING ADOBE EXPRESS - CREATIVE NATION ACADEMY",
-        url: "https://drive.google.com/file/d/1EzjYeKJbnUTKTZHC5L1QiBDH8lBPaeMu/view?usp=drive_link"
-      },
-      {
-        name: "GRAPHIC DESIGN USING ADOBE EXPRESS - CREATIVE NATION ACADEMY",
-        url: "https://drive.google.com/file/d/1FccoRc4EYIUY7mQxKhqVA_8om520S2-r/view?usp=drive_link"
-      },
-      {
-        name: "MAXIMIZE YOUR FREELANCE EARNINGS WITH AI TOOLS - DICT",
-        url: "https://drive.google.com/file/d/1G5NWSrUNStLD09QlmFcbLYxH0BgtkOno/view?usp=drive_link"
-      },
-      {
-        name: "COMPUTER SYSTEM SERVICING (NCII) - TESDA",
-        url: "https://drive.google.com/file/d/1AzuqFWhQ_ZAPNZNpel3_h2rYdhs9unjM/view?usp=drive_link"
-      },
-      {
-        name: "PC FORMATTING USING VIRTUALBOX - DICT",
-        url: "https://drive.google.com/file/d/1eh5a_4WkCmEr9ILz1t77ttAt_ODxbqg-/view?usp=drive_link"
-      },
-      {
-        name: "VIDEO EDITING USING ADOBE PHOTOSHOP - CREATIVE NATION ACADEMY",
-        url: "https://drive.google.com/file/d/1X1491C9F9y46SDfDp-Bf3Q13pc3lQPn0/view?usp=drive_link"
-      },
-      {
-        name: "WEB 3.0 101 WEBINAR - DICT",
-        url: "https://drive.google.com/file/d/1X9VQ4Fnjb7FwuW_oDp-9BAl7B-LfMVwj/view?usp=drive_link"
-      },
-      {
-        name: "COMPUTER SYSTEM SERVICING - TESDA",
-        url: "https://drive.google.com/file/d/1AzuqFWhQ_ZAPNZNpel3_h2rYdhs9unjM/view?usp=drive_link"
-      }
-    ],
+    //  diploma: "/diploma/diplom.jpg",
+    // tor: "/tor/tor.jfif",
+    // resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4385,78 +4017,9 @@ export const people = [
     name: "Julios M. Mojas",
     designation: "Instructor I",
     image: "/images/mojas.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1tblDO1MXNqwooST1lts8t_-XQKKCq1Lq/view?usp=drive_link"
-    },],
-    tor: [{
-      name:"BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url:"https://drive.google.com/file/d/153JADjzVYIdLU9ZpBHgW8Z7FrFBKJqpY/view?usp=drive_link"
-    },],
-    resume: [{
-      url:"https://drive.google.com/file/d/1uvX97ogxkKL2uavAOeKdIk26H-gWmMp4/view?usp=drive_link"
-    },],
-    certificates: 
-    [{
-      name: "DCS RESEARCH COLLOQUIUM 2024 - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1RRujWOYRHKWoYXDaDwDv-4bVqe6rltLe/view?usp=drive_link"
-    },
-    { 
-      name: "1ST INTERNATIONAL RESEARCH CONFERENCE ON SUSTAINABLE DEVELOPMENT 2024",
-      url: "https://drive.google.com/file/d/1NuCSTpagn6qtvAsVgJKbi0hqDU5IqtCO/view?usp=drive_link"
-    },
-    {
-      name: "ICT PROJECT MANAGEMENT - DICT",
-      url: "https://drive.google.com/file/d/1HW_Eho_7eXo9oHrT680zxnbpe5Y0u523/view?usp=drive_link"
-    },
-    {
-      name: "RESPONSIBLE RESEACH: BALANCING ARTIFICIAL INTELLIGENCE AND ETHICS - ISTREL",
-      url: "https://drive.google.com/file/d/1Kc-_Tq1SKDcwmlGhSsXt8V-Jl7ORaIyQ/view?usp=drive_link"
-    },
-    {
-      name: "SOFTWARE DEVELOPMENT AND DESIGN THINKING - DICT",
-      url: "https://drive.google.com/file/d/1yuf_b5qEWDe5IHQrfMWBUxNjbIMFyl1b/view?usp=drive_link"
-    },
-    { 
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1a9xzBfNAljx0shN1taI5B1txc3DpebNO/view?usp=drive_link"
-    },
-    { 
-      name: "IN2ITION 2024: 3RD PHYIGF - SOUTHVILLE INTERNATIONAL SCHOOL AND COLLEGES",
-      url: "https://drive.google.com/file/d/1p2Aq0gCyG_-RLpLIVT8xmKNDIVrNzsmh/view?usp=drive_link"
-    },
-    {
-      name: "STUDENT RESEARCH SYMPOSIUM - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1WrvHBRNgB3v0AFBsHSd2J3d5D4rG7wJM/view?usp=drive_link"
-    },
-    {
-      name: "STUDENT RESEARCH SYMPOSIUM (SECOND PLACE) - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1rW0_c2oVOBLksNEvfo3oON-p2sMvK15N/view?usp=drive_link"
-    },
-    { 
-      name: "3RD ALCUCOA NATIONAL RESEARCH CONFERENCE",
-      url: "https://drive.google.com/file/d/1FgBcF-Jt56eVd30ittHrYmmPntgbeROM/view?usp=drive_link"
-    },
-    {
-      name: "3RD ALCUCOA NATIONAL RESEARCH CONFERENCE (BEST PAPER PRESENTATION)",
-      url: "https://drive.google.com/file/d/1ILphwXXv9mZBHfXzuI4SudCE5m7RgSpB/view?usp=drive_link"
-    },
-    { 
-      name: "9TH GENDER AND DEVELOPMENT RESEARCH CONFERENCE - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1JxZNVNzwqhlCVcHz1p8QKUXW3Zj2XlqY/view?usp=drive_link"
-    },
-    { 
-      name: "1ST INTERNATIONAL RESEARCH CONFERENCE ON SUSTAINABLE DEVELOPMENT 2024",
-      url: "https://drive.google.com/file/d/1jJGmRauyzmJO4_EVTHFriNgwxaforDZC/view?usp=drive_link"
-    },
-    {
-      name: "COMPUTER SYSTEM SERVICING - TESDA",
-      url: "https://drive.google.com/file/d/1CQFvsFs9xzZQTy7pI-mRJXgc7heYmUXD/view?usp=drive_link"
-    },],
-     speaking_engagements: [{
-      name: "STUDENT RESEARCH SYMPOSIUM - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1WrvHBRNgB3v0AFBsHSd2J3d5D4rG7wJM/view?usp=drive_link"
-    }],
+    diploma: "https://drive.google.com/file/d/1tblDO1MXNqwooST1lts8t_-XQKKCq1Lq/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/153JADjzVYIdLU9ZpBHgW8Z7FrFBKJqpY/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1uvX97ogxkKL2uavAOeKdIk26H-gWmMp4/view?usp=drive_link",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4628,14 +4191,9 @@ export const people = [
     name: "Ridhard D. Ongayo",
     designation: "Instructor I",
     image: "/images/ongayo.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
-      url: "https://drive.google.com/file/d/1YVgISKruS4SCtI-b9rzhVQ8iZ8BZhTVi/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    // tor: {name:"", url:""},
-    // resume: {url:""},
-    // certificates: [{name:"", url:""},],
+    diploma: "https://drive.google.com/file/d/1YVgISKruS4SCtI-b9rzhVQ8iZ8BZhTVi/view?usp=drive_link",
+    // tor: "/tor/tor.jfif",
+    // resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4750,226 +4308,83 @@ export const people = [
     name: "Aida M. Penson",
     designation: "Instructor I",
     image: "/images/penson.jpg",
-      diploma: [{
-      name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
-      url: "https://drive.google.com/file/d/1MycGv2JX2wvev1JTu97Kgou8UAuez66n/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
-      url: "https://drive.google.com/file/d/1KZTe_2eXI5M7QghQBHSOm-nPICfP1X8y/view?usp=drive_link"
-    },],
-    resume: {
-      url:"https://drive.google.com/file/d/1W1vPP_9rrwvMwpTfag6yNjXQroxO7l19/view?usp=drive_link"
-    },
-    certificates: [
-     {
-      name: "FUNDAMENTALS OF STATISTICS WITH MICROSOFT EXCEL - DATA ANALYTICS PHILIPPINES",
-      url: "https://drive.google.com/file/d/1twkaAPPUOVDi2bdsBppF26aqNXG87nst/view?usp=drive_link"
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
       },
       {
-        name: "INTRODUCTION TO DATA PRIVACY - DICT",
-        url: "https://drive.google.com/file/d/1II2CP67LcM-zSgMKB2ZY4LzE23KieYFt/view?usp=drive_link"
-      },],
-
-    schedule: [
-  {
-    semesterName: "1st Sem A.Y 22-23",
-    details: {
-      monday: [
-        {
-          time: "5:00 PM - 6:30 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
-        },
-        {
-          time: "6:30 PM - 8:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
         }
-      ],
-      tuesday: [
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-7"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 50",
-          section: "IT 1-6"
-        },
-        {
-          time: "7:00 PM - 8:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-7"
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
         }
-      ],
-      wednesday: [
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-1"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-3"
-        },
-        {
-          time: "7:00 PM - 8:00 PM",
-          subject: "COSC 50",
-          section: "CS 2-3"
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
         }
-      ],
-      thursday: [
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 50",
-          section: "CS 1-6"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-6"
-        },
-        {
-          time: "7:00 PM - 8:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-6"
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
         }
-      ],
-      friday: [
-        {
-          time: "1:00 PM - 2:00 PM",
-          subject: "COSC 50",
-          section: "IT 1-6"
-        },
-        {
-          time: "2:00 PM - 3:00 PM",
-          subject: "COSC 50",
-          section: "IT 1-7"
-        },
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
         }
-      ],
-      saturday: [
-        {
-          time: "10:30 AM - 12:00 PM",
-          subject: "CONSULTATION",
-          room: "FACULTY ROOM"
-        }
-      ],
-    }
-  },
-  {
-    semesterName: "2nd Sem A.Y 22-23",
-    details: {
-      monday: [
-        {
-          time: "5:00 PM - 6:30 PM",
-          subject: "MATH 4 LEC",
-          section: "CS 3-1",
-          room: "205"
-        },
-        {
-          time: "6:30 PM - 8:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
-        }
-      ],
-      tuesday: [
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-7"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 50",
-          section: "IT 1-6"
-        },
-        {
-          time: "7:00 PM - 8:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-7"
-        }
-      ],
-      wednesday: [
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-1"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-3"
-        },
-        {
-          time: "7:00 PM - 8:00 PM",
-          subject: "COSC 50",
-          section: "CS 2-3"
-        }
-      ],
-      thursday: [
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 50",
-          section: "CS 1-6"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-6"
-        },
-        {
-          time: "7:00 PM - 8:00 PM",
-          subject: "COSC 55",
-          section: "CS 1-6"
-        }
-      ],
-      friday: [
-        {
-          time: "1:00 PM - 2:00 PM",
-          subject: "COSC 50",
-          section: "IT 1-6"
-        },
-        {
-          time: "2:00 PM - 3:00 PM",
-          subject: "COSC 50",
-          section: "IT 1-7"
-        },
-        {
-          time: "5:00 PM - 6:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
-        },
-        {
-          time: "6:00 PM - 7:00 PM",
-          subject: "COSC 55",
-          section: "CS 2-2"
-        }
-      ],
-      saturday: [
-        {
-          time: "10:30 AM - 12:00 PM",
-          subject: "CONSULTATION",
-          room: "FACULTY ROOM"
-        }
-      ],
-    }
-  }
-],
-
+      }
+    ],
     evaluation_scores: [null, 4.41, null, 4.21],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
@@ -5040,41 +4455,9 @@ export const people = [
     name: "Nestor Miguel T. Pimentel",
     designation: "Instructor I",
     image: "/images/pimentel.jpg",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/11zHyrLDN6jCzLsKL5FRyVD3VrU0cdmDo/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/10gyOQqhCCoUAg5od1hpYtFE8X9sgPQSG/view?usp=drive_link"
-    },],
-    resume: {
-      url:"https://drive.google.com/file/d/1_Gun1auCL0MZ_HQbMCunrsQb_5beMCtM/view?usp=drive_link"
-    },
-    certificates: [
-    {
-      name: "2ND IGNITE IT CONVENTION - IGNITE",
-      url: "https://drive.google.com/file/d/1d25VWC5DvAaASqMi6Pir1kAUfmxs2D8j/view?usp=drive_link"
-    },
-    {
-      name: "TRAIN THE TRAINER PROGRAM WORKSHOP FOR SAP BUSINESS ONE - STI COLLEGE",
-      url: "https://drive.google.com/file/d/1FsT55uPq_oyJLhqEMttDgX-AV2T8BcM5/view?usp=drive_link"
-    },
-    {
-      name: "CONDUCT COMPETENCY ASSESSMENT",
-      url: "https://drive.google.com/file/d/1pCGI0sWdfWNhGxqYOzHxQOxG156-a7z1/view?usp=drive_link"
-    },
-    {
-      name: "DELIVER TRAINING SESSION",
-      url: "https://drive.google.com/file/d/1HAL-b_4hqnsiX_Wg6U1lcjJxC56M21U6/view?usp=drive_link"
-    },
-    {
-      name: "PHILIPPINE TVET TRAINERS QUALIFICATION SYSTEMS",
-      url: "https://drive.google.com/file/d/10WFtqER6VbWVwC5yySkQQ7UmACVijxY7/view?usp=drive_link"
-    },],
-      // speaking_engagements: [{name:"", url:""},],
-
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -5189,28 +4572,9 @@ export const people = [
     name: "Jay-Ar A. Racadio",
     designation: "Instructor I",
     image: "/images/racadio.jpeg",
-     diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1nCFGl5mhhCo99GBlsrUvCv3BuP-_VAtA/view?usp=drive_link"
-    },],   
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1Azf0IC2oiLqtec7M0_Edd6JONffKIPSI/view?usp=drive_link"
-    },],
-    resume: {
-      url:"https://docs.google.com/document/d/1dFB9TS_jtSqFCrMOTWZQtVMzZPjocAKs/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true"
-    },
-    certificates: [
-    {
-      name: "COMPUTER PROGRAMMING III (INTERMEDIATE JAVA PROGRAMMING) - STI",
-      url: "https://drive.google.com/file/d/1A3Y85q8rkoKEpwiguMhkcI0upi8ms4ID/view?usp=drive_link"
-    },
-    {
-      name: "TRAINERS METHODOLOGY LEVEL 1 - TESDA",
-      url: "https://drive.google.com/file/d/11o0VgaPJcUj_Cb6rvQREXjy0ZW2aVelg/view?usp=drive_link"
-    },],
-    // speaking_engagements: [{name:"", url:""},],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -5369,35 +4733,9 @@ export const people = [
     name: "Alvina Ramallosa",
     designation: "Instructor I",
     image: "/images/ramallosa.jpg",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1JhQzXFYI9KPAMkCdtD2tOvxzZWmcIFhN/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1NMdVjMmnGUsIoGOWAEV5LPtg5UKkLDx4/view?usp=drive_link"
-    },],
-    resume: {
-      url:"https://drive.google.com/file/d/1gMxHBB_NXHm6Rd4drwIZ2vxrsKP3leJJ/view?usp=drive_link"
-    },
-    certificates: [
-      {
-        name: "HARNESSING AI: RESPONSIBLE AND ETHICAL USE OF AI IN THE ACADEMIC SETTING - UNIVERSITY OF THE PHILIPPINES DILIMAN",
-        url: "https://drive.google.com/file/d/1AKBWp-vy7Jz43i8d9lTpwg5PxMdzmwIs/view?usp=drive_link"
-      },
-      {
-        name: "R1 101: INTRODUCTION TO RESEARCH INTEGRITY - UNIVERSITY OF THE PHILIPPINES DILIMAN",
-        url: "https://drive.google.com/file/d/17MYXIHUQhKnRzOuAQkqXZ1KUJvM6UCwM/view?usp=drive_link"
-      },
-      {
-        name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - CAVITE STATE UNIVERSITY - MAIN",
-        url: "https://drive.google.com/file/d/1llQ2UhSnDz7RyFP2EGZBWhvdouy1Hasn/view?usp=drive_link"
-      },],
-    speaking_engagements: [{
-      name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1zaM5_GolEkUb_edP9eMGJOXe_Edjur1c/view?usp=drive_link"
-    }],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -5581,17 +4919,9 @@ export const people = [
     name: "Joven S. Rios",
     designation: "Instructor I",
     image: "/images/rios.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
-      url: "https://drive.google.com/file/d/1U9AYJP_pHKbYD99EqeVAAbVw09WAFiX3/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    resume: {
-      url:"https://drive.google.com/file/d/1MGU35y36s_dmTGekSpVv27Y359A531rh/view?usp=drive_link"
-    },
-    // tor: {name:"", url:""},
-    // certificates: [{name:"", url:""},],
-    // speaking_engagements: [{name:"", url:""},],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -5737,20 +5067,9 @@ export const people = [
     name: "Nino M. Rodil",
     designation: "Instructor I",
     image: "/images/rodil.jpg",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1Qqu3GM0naLFfLRAweoTQ-qLgh7yIdOnm/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1Qqu3GM0naLFfLRAweoTQ-qLgh7yIdOnm/view?usp=drive_link"
-    },],
-    resume: {
-      url:"https://drive.google.com/file/d/1HkY_9si5VpTlHTekGsKrlN9E0l91DiFB/view?usp=drive_link"
-    },
-    // certificates: [{name:"", url:""},],
-    // speaking_engagements: [{name:"", url:""},],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -5880,54 +5199,16 @@ export const people = [
       }
     }
   },
-   //Rachel Rodriguez
+  //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
     name: "Rachel Rodriguez",
     designation: "Instructor I",
     image: "/images/rodriguez.JPG",
-    diploma: {
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1HtP05Tgh2OtUPJr1ie1p1hxrvs4LO6IV/view?usp=drive_link"
-    },
-    tor: {
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1HtP05Tgh2OtUPJr1ie1p1hxrvs4LO6IV/view?usp=drive_link"
-    },
-    resume: {
-      url: "https://docs.google.com/document/d/1x-8Twt1hyOmNbmcEw58YPWWBma-Qv8cm/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true",
-    },
-    certificates: [{
-      name: "LIBREOFFICE: FREE AND OPEN-SOURCE PRODUCTIVITY SOFTWARE SUITE - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1yqT6zTFZy-KViA_HNb9aqnZdHTvNZU8T/view?usp=drive_link"
-    },
-    {
-      name: "EXPLORING BASIC COMPONENTS OF GOOGLE SUITE - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1O-ZqBTQuh9jPge20nd9sCnEuYbBAPhwO/view?usp=drive_link"
-    },
-    {
-      name: "THE INFORMATION SCIENCE OF GREEN IOT, INTERNET OF THINGS - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1hexCNUhjupc8UKFwjdjT_9bLSDq40GLg/view?usp=drive_link"
-    },
-    {
-      name: "SMART UNIVERSITY: LEVERAGING TECHNOLOGY FOR BETTER TEACHING AND LEARNING - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1ZiIhH6zIr0zRbqBKVbPKWgqdUCHOp_-6/view?usp=drive_link"
-    },
-    {
-      name: "SENTIMENT ANALYSIS AND COMPUTING: 3RD INTERNATIONAL WEBINAR - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1rk1fqni5ox45ioDt-u96TrUsW_w3Fyp7/view?usp=drive_link"
-    },
-    ],
-    speaking_engagements: [{
-      name: "CSS ACADEMIC INDUSTRY COUNCIL CURRICULUM REVIEW 2022 - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1nQXk_cgbGcPqbu1tyjfiDJ5YowEChlCF/view?usp=drive_link"
-    },
-    {
-      name: "TIKTOK SHOP TRAINING",
-      url: "https://drive.google.com/file/d/1fS4N6MEHqbvgqUzQ-6uOKyf4qjDOMRWD/view?usp=drive_link"
-    }],
-
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -5935,100 +5216,84 @@ export const people = [
           monday: [
           ],
           tuesday: [
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY ROOM" },
-            { time: "10:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "2:00 PM - 5:00 PM", subject: "ITEC 111 (LAB)", section: "IT 4-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-1" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 55", section: "IT 2-1" },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "CONSULTATION",
+              room: "FACULTY ROOM"
+            },
+            {
+              time: "10:00 PM - 1:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-1",
+            },
+            {
+              time: "2:00 PM - 5:00 PM",
+              subject: "ITEC 111 (LAB)",
+              section: "IT 4-2",
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-1",
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-1",
+            },
           ],
           wednesday: [
           ],
           thursday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 55 (LAB)", section: "IT 2-3" },
-            { time: "8:00 AM - 10:00 AM", subject: "ITEC 55 (LAB)", section: "IT 2-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 55 (LAB)", section: "IT 2-1" },
-            { time: "11:00 AM - 1:00 PM", subject: "ITEC 55 (LAB)", section: "IT 2-1" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 55 (LAB)", section: "IT 2-2" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 55 (LAB)", section: "IT 2-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-6" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 55", section: "IT 2-6" },
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-3"
+            },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "ITEC 55",
+              section: "IT 2-3"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-1"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-1"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-2"
+            },
           ],
           friday: [
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-5",
+              room: "AUDI"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-4",
+              room: "107"
+            }
           ],
           saturday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 55", section: "IT 2-3" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "11:00 AM - 12:00 NN", subject: "ITEC 111", section: "IT 4-2" },
-            { time: "12:00 NN - 1:00 PM", subject: "ITEC 111", section: "IT 4-2" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 55", section: "IT 2-3" },
-            { time: "3:30 PM - 4:30 PM", subject: "ITEC 55 (LAB)" },
-            { time: "4:30 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-6" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 55", section: "IT 2-2" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 55", section: "IT 2-2" },
           ],
           sunday: [
           ],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Expert Systems", room: "G302" }],
-          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Natural Language Processing", room: "G303" }],
-          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "AI Research Group Meeting", room: "Conf. Room C" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 23-24",
-        details: {
-          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Neural Networks Intro", room: "G301" }],
-          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Deep Learning Concepts", room: "Online" }],
-          wednesday: [],
-          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Office Hours", room: "Faculty Office 12" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Computer Vision", room: "Lab 14" }],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Reinforcement Learning", room: "G302" }],
-          thursday: [{ time: "10:00 AM - 12:00 PM", subject: "AI Ethics & Society", room: "G303" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Robotics & AI", room: "Lab 15" }],
-          tuesday: [],
-          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cognitive Science", room: "G301" }],
-          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Department Colloquium", room: "Auditorium" }],
-          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 12" }],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Big Data & AI", room: "Online" }],
-          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "AI for Game Development", room: "Lab 16" }],
-          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Applied Machine Learning", room: "G302" }],
-          friday: [],
-          saturday: [],
-          sunday: [],
         }
       }
     ],
@@ -6056,20 +5321,11 @@ export const people = [
         "2028": ["Any Major Subject BSIT/BSCS Program"],
       },
       research: {
-        "2024": ["Attended research and seminars and a contributed to the Faculty Research."],
-        "2025": [
-          "Engaged in an ongoing research study as part of graduate school requirements.",
-          "Responded as TA/TC of undergraduate research."
-        ],
-        "2026": ["Participate in local and international research."],
-        "2027": [
-          "Continue to serve as research panelist, adviser, and mentor students.",
-          "Participate in local and international research."
-        ],
-        "2028": [
-          "Continue to serve as research panelist, adviser, and mentor students.",
-          "Participate in local and international research."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
         "2024": ["Participated in campus extension activities such as ICT Literacy Training at Molino II, contributing to community engagement and digital skills development."],
@@ -6087,36 +5343,9 @@ export const people = [
     name: "Clarissa Rostrollo",
     designation: "Instructor I",
     image: "/images/rostrollo.JPG",
-    diploma: {
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1-EzbQ77U9l2H4qBHZkuOMH9BYgaB_3cZ/view?usp=drive_link"
-    },
-    tor: {
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1FZIwC5ImoW7EshHE5HnQJiieL4IOwxf5/view?usp=drive_link"
-    },
-    resume: {
-      url: "https://docs.google.com/document/d/1q_Ao6n-tOg0YO2fA4gvI3CzKD1yJOcdf/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true",
-    },
-    certificates: [{
-      name: "TRAINING-WORKSHOP ON PROPOSAL WRITING AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1gOBLzYTe2CAeBBkK4dnlG06RwmvNQClL/view?usp=drive_link"
-    },
-    {
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1Yl264k-ko_tXBi_7X39ai06mZivJwL3r/view?usp=drive_link"
-    },
-    {
-      name: "GRADUATE/UNDERGRADUATE THESIS DOCUMENTATION STYLE AND TYPING MECHANICS - CAVITE STATE UNIVESITY - MAIN",
-      url: "https://drive.google.com/file/d/1fnMID7-7qYIO-8sKP4SPQRxr7AAefdFt/view?usp=drive_link"
-    },
-    ],
-    speaking_engagements: [{
-      name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSAL - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1zEyYdiQDz1bWqT-1pg1yPXlKTGXQOWSP/view?usp=drive_link"
-    },
-    ],
-
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -6280,30 +5509,9 @@ export const people = [
     name: "Marc Clarence Salvador",
     designation: "Instructor I",
     image: "/images/salvador.jpeg",
-    diploma: {
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1nsWZ6gLwu8DDNH2k-KGd6T5EzNglNRoM/view?usp=drive_link"
-    },
-    tor: {
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1IXHswA7eQP3LWjzUBvOQpvyWdZIIWfmr/view?usp=drive_link"
-    },
-    resume: {
-      url: "https://drive.google.com/file/d/1A5cC0fxc9ea9vSUG40C2ZhNZ1shOTScO/view?usp=drive_link",
-    },
-    certificates: [{
-      name: "TRAINING-WORKSHOP ON PROPOSAL WRITING AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1vB356LKPkpzFPmIHb3p0kurn9i2mKgij/view?usp=drive_link"
-    },
-    {
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1YEjuNWbiQHNz8oSJgEpYXE-ZpVstsnLm/view?usp=drive_link"
-    },
-    {
-      name: "GRADUATE/UNDERGRADUATE THESIS DOCUMENTATION STYLE AND TYPING MECHANICS - CAVITE STATE UNIVESITY - MAIN",
-      url: "https://drive.google.com/file/d/1P01Q0-aMYQqdgQ4ajvoeMo0HOTLFNMdM/view?usp=drive_link"
-    },
-    ],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -6623,33 +5831,9 @@ export const people = [
     name: "Benedick M. Sarmiento",
     designation: "Instructor I",
     image: "/images/sarmiento.jpg",
-    diploma: [{
-      name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
-      url: "https://drive.google.com/file/d/1TCOi2uvlxKWdUmjhgWMxrWj4XY4Jh5ET/view?usp=drive_link"
-    },
-    {
-      name: "BACHELOR OF TECHNICAL-VOCATIONAL TEACHER EDUCATION MAJOR IN COMPUTER HARDWARE SERVICING",
-      url: "https://drive.google.com/file/d/162SEpiuPo-_6FjdT250VpWqmOUTZdfX9/view?usp=drive_link"
-    },
-    ],
-    tor: {
-      name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
-      url: "https://drive.google.com/file/d/1O17jZwXcWF811O1QHSJ9VRIHt4s4qkmS/view?usp=drive_link"
-    },
-    resume: null,
-    certificates: [{
-      name: "MICROSOFT OFFICE SPECIALIST - OFFICE EXCEL 2010",
-      url: "https://drive.google.com/file/d/1QrAWYJde7VNuOTtB5pNT1rK3GgmtWWlL/view?usp=drive_link"
-    },
-    {
-      name: "COMPUTER SYSTEM SERVICING",
-      url: "https://drive.google.com/file/d/1IRd1B0khYCocbNAd4JQBU0fSsfrSwGxw/view?usp=drive_link"
-    },
-    {
-      name: "PHILIPPINE TVET TRAINERS QUALIFICATION SYSTEMS (PTTQS)",
-      url: "https://drive.google.com/file/d/1-ZOP5PpIyRjEcKLxep95X-VmPfCTN8Ri/view?usp=drive_link"
-    },
-    ],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -6728,68 +5912,32 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Passed the Licensure Examination for Professional Teachers.",
-          "Started Graduate Studies (Master’s Degree)."
-        ],
-        "2025": [
-          "Completed the Academic Requirements for Graduate Studies (Master’s Degree).",
-          "Ongoing thesis writing, aiming to fulfill academic requirements and contribute original research to the field."
-        ],
-        "2026": [
-          "To Complete the  Graduate Studies (Master’s Degree).",
-          "To renew  TESDA National Certificate in various Information Technology Areas (Animation, Technical Drafting, Programming, Visual Graphic Design and Computer System Servicing NCII)."
-        ],
-        "2027": [
-          "To renew professional certification in Cisco and CompTIA.",
-          "To enroll in Graduate Studies (Doctorate Degree) related to Information Technology."
-        ],
-        "2028": [
-          "To demonstrate up-to-date knowledge in Networking.",
-          "To attend IT conferences, expos, and networking events.",
-          "To participate in local or international tech communities."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       loading: {
-        "2024": [
-          "Network and Communications",
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2025": [
-          "Network and Communications",
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2026": [
-          "Network and Communications",
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2027": [
-          "Network and Communications",
-          "Network Fundamentals",
-          "Network Management"
-        ],
-        "2028": [
-          "Network and Communications",
-          "Network Fundamentals",
-          "Network Management"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": ["Attended research seminars."],
-        "2025": ["Engaged in innovation projects or collaborative research with academic peers."],
-        "2026": ["To continue the engagement in innovation projects or collaborative research with academic peers."],
-        "2027": ["To conduct and publish applied research in computing and technology education."],
-        "2028": ["To conduct and publish applied research in computing and technology education."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": ["Served as one of the resource speaker at Mambog Elementary School for Computer System Servicing NCII training."],
-        "2025": ["Served as one of the resource speaker at Mambog Elementary School for Computer System Servicing NCII training."],
-        "2026": ["To continue to serve as a resource speaker and participate in any extension classes activities."],
-        "2027": ["To continue to serve as a resource speaker and participate in any extension classes activities."],
-        "2028": ["To continue to serve as a resource speaker and participate in any extension classes activities."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -6801,72 +5949,9 @@ export const people = [
     name: "Jerome Tacata",
     designation: "Instructor I",
     image: "/images/tacata.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1yTysOCyM5-fhLH5MS_pQmVwtO_8un-fL/view?usp=drive_link"
-    },
-    ],
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1XdWIDqz-DUPii7WZE8pWRiyYgL_C0P-f/view?usp=drive_link"
-    },
-    ],
-    resume: {
-      url: "https://drive.google.com/file/d/102AlDuAN_0K07mSEFJqoHu_UU5GJyDRg/view?usp=drive_link"
-    },
-    certificates: [{
-      name: "CSS ESSENTIALS - CISCO NETWORKING ACADEMY",
-      url: "https://drive.google.com/file/d/1dCq6YwlUfLgADAxZjuh18JvisXVqKJdn/view?usp=drive_link"
-    },
-    {
-      name: "CYBER THREAT MANAGEMENT - CISCO NETWORKING ACADEMY",
-      url: "https://drive.google.com/file/d/1KEyzF-WQvWZTPYBtjmgm_ts-Iyjgf3eZ/view?usp=drive_link"
-    },
-    {
-      name: "HTML ESSENTIALS - CISCO NETWORKING ACADEMY",
-      url: "https://drive.google.com/file/d/1SvLKLsvyza0Vq9bdRoz60yz42W3ucTrA/view?usp=drive_link"
-    },
-    {
-      name: "LEARN SQL: INTRODUCTION TO QUERYING DATA - DICT",
-      url: "https://drive.google.com/file/d/1Rfzsx7g_zsbf8WDK2klOYamQSVzxOWDL/view?usp=drive_link"
-    },
-    {
-      name: "NETWORK DEFENSE - CISCO NETWORK ACADEMY",
-      url: "https://drive.google.com/file/d/1JglblWbVoWmviuNP1ndFJHSivaVPYN4i/view?usp=drive_link"
-    },
-    {
-      name: "PROGRAMMING FOR BEGINNERS USING PYTHON - DICT",
-      url: "https://drive.google.com/file/d/1hPIrqxGZBDdVkNP-GZYz_gcb9TB-fcZp/view?usp=drive_link"
-    },
-    {
-      name: "PYTHON ESSENTIAL 1 - CISCO NETWORK ACADEMY",
-      url: "https://drive.google.com/file/d/1szee3tizLHLmWF0XdfyflRXUW5_-4rgm/view?usp=drive_link"
-    },
-    {
-      name: "PYTHON ESSENTIAL 2 - CISCO NETWORK ACADEMY",
-      url: "https://drive.google.com/file/d/15dw95V-xRzXSHxKfaXj-NTWhWObAWopN/view?usp=drive_link"
-    },
-    {
-      name: "DIGITAL LEARNING APAC - IBE FORUM",
-      url: "https://drive.google.com/file/d/1JOhli0irWsWS9e5d1r_OHrA6tc-v6H9T/view?usp=drive_link"
-    },
-    {
-      name: "CANVAS LEARNING MANAGEMENT SYSTEM - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1iiphM5G_HnLbDXelwSQ41gq0i0axZPUj/view?usp=drive_link",
-    },
-    {
-      name: "PROMOTING GLOBAL ENGAGEMENT TOWARDS A SUSTAINABLE AND SAFE ENVIRONMENT - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1NAzjUv9H20KcRebXKU_MjKHjXtytfvy0/view?usp=drive_link"
-    },
-    {
-      name: "ART OF WRITING RESEARCH ON BLOCKCHAIN TECHNOLOGY - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1EXNhoqEoxWcLdCkKgjvsbHb7GisidWma/view?usp=drive_link"
-    },
-    {
-      name: "INFORMATION TECHNOLOGY ENTREPRENEURIAL DEVELOPMENT, RESEARCH, AND INNOVATION - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1Ux6BP1F4XOkFqIIg8Bw5iHwitXfbDdrx/view?usp=drive_link"
-    },
-    ],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -6963,8 +6048,7 @@ export const people = [
           "Introduction to Computing",
           "Social and Professional Issues"
         ],
-        "2025": [
-          "Web Systems and Technologies 1",
+        "2025": ["Web Systems and Technologies 1",
           "Integrated and Technologies 1",
           "Advance Database Management System"
         ],
@@ -6975,9 +6059,9 @@ export const people = [
       research: {
         "2024": ["Guided students with their research development."],
         "2025": ["Served as one of the proponents of a faculty study."],
-        "2026": ["One of the proponents of a Faculty Study."],
-        "2027": ["One of the proponents of a Faculty Study."],
-        "2028": ["One of the proponents of a Faculty Study."],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
         "2024": ["Participated in the campus extension activities like Computer System Servicing at Mambog."],
@@ -6995,38 +6079,9 @@ export const people = [
     name: "Pamela Marie O. Tagum",
     designation: "Instructor I",
     image: "/images/tagum.JPG",
-    diploma: [{
-      name: "DIPLOMA IN COMPUTER ENGINEERING TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1ANoBLwbbR_Guqo0G5uVE43NXy5VdlaQX/view?usp=drive_link",
-    },
-    {
-      name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
-      url: "https://drive.google.com/file/d/14DVxCjdrG7UNrjlP9NH3SmVVnFS2iFjD/view?usp=drive_link"
-    },
-    ],
-    tor: [{
-      name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
-      url: "https://drive.google.com/file/d/1ULne0ElwwPXxIN6OlxQOxqD8RUwfVaLc/view?usp=drive_link"
-    },
-    ],
-    resume: null,
-    certificates: [{
-      name: "TEFL COURSE - TEFL PROFESSIONAL INSTITUTE",
-      url: "https://drive.google.com/file/d/13ABUtDl0xwZ5KG0sbWntkY-e_hopMXaG/view?usp=drive_link"
-    },
-    {
-      name: "TEACHING ENGLISH TO YOUNG LEARNERS (TEYL) - TESOL/TEFL",
-      url: "https://drive.google.com/file/d/1edRoIllzNgjWf3Km5kdlW9dsHjGp6ZpM/view?usp=drive_link"
-    },
-    {
-      name: "TEACHING ENGLISH TO SPEAKERS OF OTHER LANGAUGE - TESOL",
-      url: "https://drive.google.com/file/d/1WT1UIOWaDjzPoOqiGxlIb43o-Hgpm5Qb/view?usp=drive_link"
-    },
-    {
-      name: "COMPUTER SYSTEMS SERVICING",
-      url: "https://drive.google.com/file/d/1p_ZrB9asZOz8REocCvlWflZC_cbdN80O/view?usp=drive_link"
-    },
-    ],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -7141,26 +6196,9 @@ export const people = [
     name: "Cesar II B. Talibong ",
     designation: "Instructor I",
     image: "/images/talibong.jpg",
-    diploma: [
-    {
-      name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/1kgtKuCwTSfufgj0RdQgNS8yPwDuSo4Wa/view?usp=drive_link"
-    },
-    ],
-    tor: [{
-     name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-     url: "https://drive.google.com/file/d/13HpTCurPKzo68rvQanTrlW4WpIUPvjMg/view?usp=drive_link"
-    },
-    ],
-    resume: 
-    {
-      url: "https://docs.google.com/document/d/1AFp6ue4xok1x7FQcGMhaQhZPXdrL36uP/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true"
-    },
-    certificates: null,
-    speaking_engagements: [{
-     name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVESITY - BACOOR",
-     url: "https://drive.google.com/file/d/1zykr4P8Xb_PzZPaW3QH_n5Q8kSUY_F6J/view?usp=drive_link"
-    }],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -7264,35 +6302,25 @@ export const people = [
         ],
       },
       loading: {
-        "2024": [
-          "Computer Programming II",
-          "IT Elective 2",
-          "Information Assurance and Security 1",
-          "System Analysis and Design"
-        ],
-        "2025": [
-          "Human Computer Interaction 1",
-          "Information Assurance and Security 1",
-          "Integrated Programming and Technologies 1",
-          "Web Systems and Technologies 1"
-        ],
-        "2026": ["Any Major/Minor Subject BSIT/BSCS Course"],
-        "2027": ["Any Major/Minor Subject BSIT/BSCS Course"],
-        "2028": ["Any Major/Minor Subject BSIT/BSCS Course"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": ["Participated in Research symposium and presented our own developed title."],
-        "2025": ["Guided students with their research development."],
-        "2026": ["Serve as adviser or panelist in undergraduate capstone/thesis projects."],
-        "2027": ["Serve as adviser or panelist in undergraduate capstone/thesis projects."],
-        "2028": ["Serve as adviser or panelist in undergraduate capstone/thesis projects."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": ["Participated in extension activities for community development in Mambog Elementary School."],
-        "2025": ["Participated in extension activities for community development and having my share of educating students in CSS."],
-        "2026": ["Participate in Extension programs."],
-        "2027": ["Participate in Extension programs."],
-        "2028": ["Participate in Extension programs."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -7303,23 +6331,9 @@ export const people = [
     name: "Russel Adrianne Villareal",
     designation: "Instructor I",
     image: "/images/villareal.JPG",
-    diploma: [null],
-    tor: [null],
-    resume: {
-    url: "https://drive.google.com/file/d/1thAHDQ1hSViTTXM-keeejBOgu1dvVnnE/view?usp=drive_link"
-    },
-    certificates: [{
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1H5xEkT1TrLUmC9MZuyevKh1A-XQCW31P/view?usp=drive_link"
-    }],
-    speaking_engagements: [{
-      name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION - MAMBOG ELEMENTARY SCHOOL",
-      url: "https://drive.google.com/file/d/1loyMz2C6OmtHSI_JMEBRO7lGi1ou9lzt/view?usp=drive_link"
-    }, 
-    {
-      name: "2024 RESEACH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVESITY - BACOOR",
-      url: "https://drive.google.com/file/d/1b_sUN997MR80cJmLkq_gIaI3m2OfS9_7/view?usp=drive_link"
-    }],
+    diploma: "/diploma/diplom.jpg",
+    tor: "/tor/tor.jfif",
+    resume: "/resume/resume-sample.png",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",

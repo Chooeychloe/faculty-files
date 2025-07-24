@@ -5,6 +5,7 @@ import PersonCard from "./PersonCard";
 import { people } from "../data";
 import { X, Search } from "lucide-react";
 function Header() {
+
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
@@ -78,12 +79,7 @@ function Header() {
           </div>
         
         </div>
-          <button
-              onClick={() => navigate("/")}
-              className="text-sm ml-4 px-4 py-2 bg-amber-400 text-red-900 font-semibold rounded hover:bg-amber-300"
-            >
-              View Organizational Chart
-            </button>
+         
       </header>
 
       <PersonCard data={filteredPeople} />
