@@ -56,7 +56,7 @@ function PersonInfoCard({
         {Array.isArray(tor) && tor.length > 0 && (
           <div className="mt-4">
             <h3 className="text-base font-semibold text-gray-800 mb-2">
-              TOR:
+              Transcipt of Records:
             </h3>
             <ul className="list-disc list-inside space-y-1">
               {tor.map((doc, index) => (

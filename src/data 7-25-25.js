@@ -507,36 +507,37 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Attended relevant training and seminars within the field of computer studies."],
-        "2025": ["Participated in local and international workshops and training on current trends and technologies.", "Joined and became an active member of IT and CS related professional organizations."],
-        "2026": ["Continue to enroll in the DIT program. Integrate learnings into teaching and program enhancement", "Attend and present at national and regional conferences.", "Continue to attend relevant training and seminars within the field of computer studies."],
-        "2027": ["Continue DIT schooling.", "Propose a new research proposal.", "Continue to attend relevant training and seminars within the field of computer studies.", "Attend face-to-face or hybrid international conferences."],
-        "2028": ["Proceed with DIT dissertation.", "Continue to attend relevant training and seminars within the field of computer studies."],
+        "2024": ["Participate in 2 workshops on AI/ML.", "Complete a certification in cloud computing."],
+        "2025": ["Attend international conference on CS education.", "Start a Master's program (if applicable)."],
+        "2026": ["Publish 1-2 papers in peer-reviewed journals.", "Lead a departmental training session."],
+        "2027": ["Mentor junior faculty members.", "Obtain a specialized industry certification."],
+        "2028": ["Present at a national conference.", "Develop new curriculum for emerging technologies."],
       },
       loading: {
-        "2024": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
-        "2025": ["Methods of Research", "Practicum(IT Intership Supervision)"],
-        "2026": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
-        "2027": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
-        "2028": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
+        "2024": ["Maintain standard teaching load.", "Serve on 1 departmental committee."],
+        "2025": ["Reduce teaching load by 1 course (if pursuing higher studies).", "Serve on 2 departmental committees."],
+        "2026": ["Focus on research and thesis writing.", "Serve on 1 college-level committee."],
+        "2027": ["Resume full teaching load.", "Take on a new administrative role (e.g., coordinator)."],
+        "2028": ["Lead a major university-wide initiative.", "Maintain full teaching load."],
       },
       research: {
-        "2024": ["Attended a research capacity-building seminar.", "Served as panelist/ adviser for undergraduate research."],
-        "2025": ["Finished current research project and submitted all related paperworks.", "Served as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
-        "2026": ["Draft and submit a research proposal for funding.", "Publish at least one paper in a Scopus- or CHED- recognized journal.","Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
-        "2027": ["Collaborate with partner institutions or industry for applied research.", "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
-        "2028": ["Continue to attend research related presentations and conferences to gather insights and experiences.", "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
+        "2024": ["Identify a research topic of interest.", "Begin literature review."],
+        "2025": ["Develop research proposal.", "Submit proposal for internal funding."],
+        "2026": ["Conduct data collection/experiments.", "Draft first research paper."],
+        "2027": ["Submit paper to conference/journal.", "Begin new research project."],
+        "2028": ["Secure external research grant.", "Collaborate on interdisciplinary research."],
       },
       extensions: {
-        "2024": ["Actively participated in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Continue to actively participate in extension programs and initiatives.", "Realign capstone/research projects with community extension goals."],
-        "2026": ["Conduct project impact assessments and submit results.", "Submit proposals/ideas on a new ICT-based extension project proposal that addresses identified community needs."],
-        "2027": ["Continue to actively participate in extension programs organized at the campus level, especially those initiated by the department.", "Collaborate with LGUs, or NGOs on tech-enabled outreach."],
-        "2028": ["Continue to actively participate in extension programs organized at the campus level, especially those initiated by the department."],
+        "2024": ["Participate in 1 community outreach program.", "Offer pro-bono tech consultation to local NGOs."],
+        "2025": ["Organize a coding workshop for high school students.", "Serve as a judge in a local hackathon."],
+        "2026": ["Lead a university-community partnership project.", "Conduct a public lecture on a tech topic."],
+        "2027": ["Establish a mentorship program for local youth.", "Collaborate with industry on a community-focused project."],
+        "2028": ["Secure funding for a long-term community tech initiative.", "Receive an award for community service."],
       }
     }
   },
   //Steffanie Bato
+
   {
     first_name: "Steffanie ",
     last_name: "Bato",
@@ -556,210 +557,167 @@ export const people = [
     }],
     masters_diploma: "/diploma/diplom.jpg",
     schedule: [
-      { //1st 22-23
+      {
         semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [],
+          monday: [
+            { time: "9:00 AM - 10:00 AM", subject: "Dept. Meeting", room: "Conf. Room A" },
+            { time: "10:00 AM - 12:00 PM", subject: "CS Elective 1 (Adv. Data Science)", room: "Online" },
+          ],
           tuesday: [
-            { 
-              time: "8:00 AM - 11:00 AM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-1", 
-              room: null 
-            },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-3", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 5:00 PM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-2", 
-              room: null 
-            },
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
           ],
           wednesday: [
-            {
-              time: "12:00 PM - 1:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-3", 
-              room: null 
-            },
-            {
-              time: "12:00 PM - 1:00 PM", 
-              subject: "RESEARCH AND EXTENSION",
-              section: null, 
-              room: null 
-            }
+            { time: "8:00 AM - 10:00 AM", subject: "Curriculum Development", room: "Conf. Room B" },
           ],
           thursday: [
-            { 
-              time: "8:00 AM - 10:00 AM", 
-              subject: "INSY 55",
-              section: "IT 3-1", 
-              room: null 
-            },
-            { 
-              time: "10:00 AM - 1:00 PM", 
-              subject: "DCIT 21 (LAB)",
-              section: "CS 1-3", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 4:00 PM", 
-              subject: "INSY 55",
-              section: "IT 3-2", 
-              room: null 
-            },
+            { time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
           ],
-          friday: [],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Collaboration", room: "Library Study Area" },
+          ],
           saturday: [],
           sunday: [],
         }
       },
-      { //2nd 22-23
+      {
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
-            { 
-              time: "10:00 AM - 1:00 PM", 
-              subject: "ITEC 200A",
-              section: "IT 3-3", 
-              room: "ROOM 305" 
-            },
-            { 
-              time: "1:00 PM - 4:00 PM", 
-              subject: "ITEC 200A",
-              section: "IT 3-2", 
-              room: "ROOM 305" 
-            },
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced AI Topics", room: "G501" },
           ],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "1:00 PM - 4:00 AM", 
-              subject: "RESEARCH AND EXTENSION",
-              section: null, 
-              room: null 
-            }
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Graduate Seminar", room: "Conf. Room C" },
           ],
+          wednesday: [],
           thursday: [
-            { 
-              time: "8:00 AM - 9:00 AM", 
-              subject: "DCIT 23 (LEC)",
-              section: "IT 1-4", 
-              room: null 
-            },
-            { 
-              time: "9:00 AM - 12:00 PM", 
-              subject: "DCIT 23 (LAB)",
-              section: "IT 1-4", 
-              room: "COM LAB 3" 
-            },
-            { 
-              time: "1:00 PM - 4:00 PM", 
-              subject: "DCIT 23 (LAB)",
-              section: "IT 1-4", 
-              room: "COM LAB 3" 
-            },
+            { time: "1:00 PM - 3:00 PM", subject: "Thesis Defense Panel", room: "Auditorium" },
           ],
-          friday: [],
+          friday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Department Review", room: "Conf. Room A" },
+          ],
           saturday: [],
           sunday: [],
         }
       },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "9:30 AM - 11:30 AM", subject: "Data Science Fundamentals", room: "Online" },
+          ],
+          tuesday: [],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "IT Capstone Project Advising", room: "Faculty Office 1" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Curriculum Planning", room: "Conf. Room B" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Grant Meeting", room: "Library Study Area" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Machine Learning Concepts", room: "G502" },
+          ],
+          tuesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI Ethics Seminar", room: "Conf. Room C" },
+          ],
+          wednesday: [],
+          thursday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Faculty Development Workshop", room: "Auditorium" },
+          ],
+          friday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "10:00 AM - 12:00 PM", subject: "Advanced Database Systems", room: "G105" },
+          ],
+          tuesday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Research Project Supervision", room: "Library Study Area" },
+          ],
+          wednesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Department Budget Review", room: "Conf. Room A" },
+          ],
+          thursday: [],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Teaching Methodologies", room: "G201" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [
+            { time: "8:00 AM - 10:00 AM", subject: "Thesis Defense Committee", room: "Auditorium" },
+          ],
+          tuesday: [
+            { time: "1:00 PM - 3:00 PM", subject: "Cybersecurity Fundamentals", room: "Lab 6" },
+          ],
+          wednesday: [
+            { time: "10:00 AM - 12:00 PM", subject: "AI in Education Seminar", room: "Online" },
+          ],
+          thursday: [
+            { time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 1" },
+          ],
+          friday: [
+            { time: "9:00 AM - 11:00 AM", subject: "Strategic Planning Session", room: "Conf. Room B" },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      }
     ],
     evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.9],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Pursued graduate studies by enrolling Doctor in Information Technology in any CHED recognized institution.",
-          "Participated in local and international workshops and bootcamps on emerging technologies.",
-          "Incorporated blended learning, flipped classroom strategies, and project-based learning into CS and IT courses.",
-          "Mastered tools such as Moodle, Google Classroom, and Canvas for online and hybrid learning"
-        ],
-        "2025": [
-          "Participate in local and international workshops and bootcamps on emerging technologies.",
-          "Be an active member of any IT and CS related professional organizations like Philippine Society of IT Educators (PSITE), Computing Society of the Philippines (CSP) and Association for Computing Machinery (ACM).",
-          "Attend and present at national and regional conferences (e.g., NCITE, iSITE, etc.)"
-        ],
-        "2026": [
-          "Continue striving to finish DIT in any CHED recognized institution.",
-          "Engage in research on computer science education, software development, or data analytics.",
-          "Obtain industry-recognized certifications such as: Cisco (CCNA), Microsoft (Azure and the likes)"
-        ],
-        "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue to mentor student researchers to be able to produce at least Research per year for funding"
-        ],
-        "2028": [
-          "Continue striving to finish DIT in any CHED recognized institution.",
-          "Engage in research on computer science education, software development, or data analytics; present in symposia or publish in any reputable academic journals."
-        ],
+        "2024": ["Participate in 2 workshops on AI/ML.", "Complete a certification in cloud computing."],
+        "2025": ["Attend international conference on CS education.", "Start a Master's program (if applicable)."],
+        "2026": ["Publish 1-2 papers in peer-reviewed journals.", "Lead a departmental training session."],
+        "2027": ["Mentor junior faculty members.", "Obtain a specialized industry certification."],
+        "2028": ["Present at a national conference.", "Develop new curriculum for emerging technologies."],
       },
       loading: {
-        "2024": [
-          "Research Related Subject for IT/CS"
-        ],
-        "2025": [
-          "Research Related Subject for IT/CS"
-        ],
-        "2026": [
-          "Research Related Subject for IT/CS"
-        ],
-        "2027": [
-          "Research Related Subject for IT/CS"
-        ],
-        "2028": [
-          "Research Related Subject for IT/CS"
-        ],
+        "2024": ["Maintain standard teaching load.", "Serve on 1 departmental committee."],
+        "2025": ["Reduce teaching load by 1 course (if pursuing higher studies).", "Serve on 2 departmental committees."],
+        "2026": ["Focus on research and thesis writing.", "Serve on 1 college-level committee."],
+        "2027": ["Resume full teaching load.", "Take on a new administrative role (e.g., coordinator)."],
+        "2028": ["Lead a major university-wide initiative.", "Maintain full teaching load."],
       },
       research: {
-        "2024": [
-          "Engage in research on computer science education, software development, or data analytics.",
-          "Continue guiding students in their research journey."
-        ],
-        "2025": [
-          "Engage in research on computer science education, software development, or data analytics.",
-          "Continue guiding students in their research journey."
-        ],
-        "2026": [
-          "Continue to mentor student researchers to be able to produce at least Research per year for funding.",
-          "Continue guiding students in their research journey."
-        ],
-        "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
-        ],
-        "2028": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
-        ],
+        "2024": ["Identify a research topic of interest.", "Begin literature review."],
+        "2025": ["Develop research proposal.", "Submit proposal for internal funding."],
+        "2026": ["Conduct data collection/experiments.", "Draft first research paper."],
+        "2027": ["Submit paper to conference/journal.", "Begin new research project."],
+        "2028": ["Secure external research grant.", "Collaborate on interdisciplinary research."],
       },
       extensions: {
-        "2024": [
-          "Participate in the department’s initiative to conduct community outreach through ICT literacy trainings and support for local schools or barangays"
-        ],
-        "2025": [
-          "Continue to kick off extension activities under CLASSES program of BacoorEx in Mambog Elementary School, BJMP Bacoor and Brgy. Molino II."
-        ],
-        "2026": [
-          "Continue to kick off extension activities under CLASSES program of BacoorEx in Mambog Elementary School, BJMP Bacoor and Brgy. Molino II."
-        ],
-        "2027": [
-          "Lead the department towards the thorough evaluation and monitoring of the CLASSES project before it will be terminated."
-        ],
-        "2028": [
-          "Formulate another extension project that would be beneficial to the chosen community through peer collaboration."
-        ],
+        "2024": ["Participate in 1 community outreach program.", "Offer pro-bono tech consultation to local NGOs."],
+        "2025": ["Organize a coding workshop for high school students.", "Serve as a judge in a local hackathon."],
+        "2026": ["Lead a university-community partnership project.", "Conduct a public lecture on a tech topic."],
+        "2027": ["Establish a mentorship program for local youth.", "Collaborate with industry on a community-focused project."],
+        "2028": ["Secure funding for a long-term community tech initiative.", "Receive an award for community service."],
       }
     }
   },
 
-     //Bryan Ablaza
+   //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
@@ -785,18 +743,6 @@ export const people = [
     },],
 
     schedule: [
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -1374,18 +1320,6 @@ export const people = [
         }
       },
       {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
-      {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
@@ -1514,7 +1448,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.75, 4.33, 4.53],
+    evaluation_scores: [null, null, 4.75, 4.33, 4.51, 4.53],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -1582,6 +1516,7 @@ export const people = [
       }
     }
   },
+
   //Stephen Bacolor
   {
     first_name: "Stephen",
@@ -1614,12 +1549,60 @@ export const people = [
     },],
     schedule: [
       {
-        semesterName: "1st Sem A.Y 24-25",
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "CS201 - Discrete Structures", room: "G102" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "CS201 - Discrete Structures", room: "G102" }],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Linear Algebra for CS", room: "G103" }],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Combinatorics", room: "G104" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Student Consultations", room: "Faculty Office 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
-          tuesday: [],
-          wednesday: [],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Graph Theory", room: "G102" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Number Theory for Cryptography", room: "G102" }],
           thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 4" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Probability and Statistics", room: "G103" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Mathematical Logic", room: "G104" }],
+          thursday: [{ time: "2:00 PM - 3:00 PM", subject: "Research Collaboration", room: "Library Study Area" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Applied Discrete Structures", room: "G102" }],
+          tuesday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Mentoring", room: "Faculty Office 4" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 12:00 PM", subject: "Coding Theory", room: "G103" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -1628,117 +1611,12 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "COSC 95",
-              section: "CS 3-5",
-              room: "ROOM 204"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-4",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "1:00 PM - 2:30 PM",
-              subject: "COSC 95",
-              section: "CS 3-6",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "4:30 PM - 6:0 PM",
-              subject: "COSC 95",
-              section: "CS 3-1",
-              room: "ROOM 304"
-            },
-            {
-              time: "7:30 PM - 9:00 PM",
-              subject: "COSC 70",
-              section: "CS 2-2",
-              room: "AUDITORIUM"
-            },
-          ],
-          tuesday: [
-            {
-              time: "10:30 AM - 12:00 PM",
-              subject: "COSC 95",
-              section: "CS 3-4",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "CONSULTATION HOURS",
-              room: "FACULTY"
-            },
-            {
-              time: "4:00 PM - 5:30 PM",
-              subject: "COSC 95",
-              section: "CS 3-1",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "4:30 PM - 6:0 PM",
-              subject: "COSC 70",
-              section: "CS 2-4",
-              room: "CL 3"
-            },
-            {
-              time: "7:00 PM - 8:30 PM",
-              subject: "COSC 70",
-              section: "CS 2-2",
-              room: "CL 4"
-            },
-          ],
-          wednesday: [
-             {
-              time: "12:30 PM - 2:00 PM",
-              subject: "COSC 70",
-              section: "CS 2-4",
-              room: "ROOM 201"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-3",
-              room: "CL 2"
-            },
-          ],
-          thursday: [],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Advanced Algorithms", room: "G203" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Structures II", room: "G204" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 4" }],
           friday: [],
-          saturday: [
-             {
-              time: "8:30 AM - 10:00 AM",
-              subject: "COSC 95",
-              section: "CS 3-5",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-4",
-              room: "CL 1"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "COSC 95",
-              section: "CS 3-4",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "5:30 PM - 7:00 PM",
-              subject: "COSC 95",
-              section: "CS 3-6",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-3",
-              room: "ROOM 107"
-            },
-          ],
+          saturday: [],
           sunday: [],
         }
       }
@@ -1852,95 +1730,38 @@ export const people = [
     }],
 
     schedule: [
-      {
-        semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
+
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [],
+          monday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "CONSULTATION",
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-7"
+            }, {
+              time: "4:00 PM - 7:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5"
+            },
+          ],
           tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 25",
-              section: "CS 2-4",
-              room: "CL 2"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-2",
-              room: "CL 4"
-            }, 
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-5",
-              room: "ROOM 203"
-            },
+
           ],
           wednesday: [
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "CONSULTATION",
-              room: "FACULTY"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-6",
-              room: "CL 3"
-            }, 
-          ],
+            { time: "1:00 PM - 3:00 PM", subject: "Intro to Database Design", room: "Lab 3" }],
           thursday: [
-            {
-              time: "9:30 AM - 11:30 AM",
-              subject: "DCIT 25",
-              section: "CS 2-5",
-              room: "AUDITORIUM"
-            },
-            {
-              time: "11:30 AM - 1:30 PM",
-              subject: "ITEC 65",
-              section: "CS 2-2",
-              room: "AUDITORIUM"
-            }, 
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-4",
-              room: "CL 3"
-            },
-          ],
-          friday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-5",
-              room: "CL 2"
-            },
-            {
-              time: "1:00 AM - 3:00 PM",
-              subject: "ITEC 65",
-              section: "IT 2-6",
-              room: "ROOM 203"
-            }, 
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-4",
-              room: "CL 3"
-            },
-          ],
+            { time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room B" }],
+          friday: [],
           saturday: [],
           sunday: [],
         }
@@ -2100,11 +1921,11 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Object-Oriented Design", room: "G103" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Software Architecture", room: "G401" }],
+          wednesday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
           thursday: [],
-          friday: [],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 6" }],
           saturday: [],
           sunday: [],
         }
@@ -2112,91 +1933,10 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "ITEC 85",
-              section: "CS 3-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-3",
-              room: "ROOM 201"
-            }, 
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-2",
-              room: "CL 1"
-            },
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "ITEC 106",
-              section: "IT 3-1",
-              room: "ROOM 107"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 106",
-              section: "IT 3-2",
-              room: "ROOM 109"
-            },
-            {
-              time: "12:00 PM - 3:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-4",
-              room: "CL 1"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-3",
-              room: "CL 1"
-            },
-          ],
-          wednesday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 85",
-              section: "CS 3-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "CONSULTATION",
-              room: "FACULTY"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 106",
-              section: "IT 3-2",
-              room: "CL 1"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 106",
-              section: "IT 3-1",
-              room: "CL 1"
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 55",
-              section: "CS 2-4",
-              room: "ROOM 107"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 55",
-              section: "CS 2-2",
-              room: "ROOM 107"
-            },
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Human-Computer Interaction", room: "G305" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Software Security", room: "Lab 4" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "Full-Stack Development", room: "Online" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -2229,25 +1969,25 @@ export const people = [
         ],
       },
       loading: {
-        "2024": ["Software Engineering 2"],
-        "2025": ["Advanced Database Management System", "Information Security and Assurance", "Web Systems and Technologies 2"],
-        "2026": ["Any major Computer Science Course Subjects"],
-        "2027": ["Any major Computer Science Course Subjects"],
-        "2028": ["Any major Computer Science Course Subjects"],
+        "2024": ["Maintain current teaching load (e.g., 18 units).", "Serve on 1 departmental committee."],
+        "2025": ["Adjust teaching load to accommodate Master's studies (e.g., 12 units).", "Serve on 1-2 departmental committees."],
+        "2026": ["Maintain reduced teaching load for Master's thesis/project.", "Actively participate in 1 college-level committee."],
+        "2027": ["Resume full teaching load (e.g., 18 units).", "Consider taking on a program coordinator role."],
+        "2028": ["Lead a new academic program or significant curriculum revision.", "Maintain full teaching load and committee service."],
       },
       research: {
-        "2024": ["One of the proponents of a Faculty Study."],
-        "2025": ["Developed the application that supports the Faculty Study."],
-        "2026": ["Presentation of the Faculty Study to the CvSU’s CELLAR.", "Be a member of the research projects for the extension services."],
-        "2027": ["Make publications of the presented research and studies."],
-        "2028": ["Continue with the research-related application development and create research projects locally and internationally."],
+        "2024": ["Identify potential research areas in mobile/web development.", "Begin initial literature review."],
+        "2025": ["Formulate a research proposal for Master's thesis.", "Seek faculty mentor for research guidance."],
+        "2026": ["Conduct research experiments/data collection for thesis.", "Prepare initial draft of thesis paper."],
+        "2027": ["Complete and defend Master's thesis.", "Publish at least one research paper in a local conference/journal."],
+        "2028": ["Initiate a new research project on emerging tech trends.", "Seek external funding for research initiatives."],
       },
       extensions: {
-        "2024": ["Participate in the campus extension activities."],
-        "2025": ["Develop applications and automated solutions for the extension projects."],
-        "2026": ["Finished the development of the application and automated solutions for the extension projects."],
-        "2027": ["Develop additional applications for an automated solution and processes for the extension projects."],
-        "2028": ["Initiate training and workshops related to application development."],
+        "2024": ["Participate in 1 university-wide community service activity.", "Offer pro-bono web development assistance to a local non-profit."],
+        "2025": ["Organize a basic coding workshop for local high school students.", "Volunteer for a tech-related community event."],
+        "2026": ["Lead a small-scale community IT project.", "Conduct a public seminar on digital literacy."],
+        "2027": ["Establish a regular tech outreach program for underserved communities.", "Collaborate with industry on a social impact project."],
+        "2028": ["Secure grants for community tech initiatives.", "Receive recognition for community engagement efforts."],
       }
     }
   },
@@ -2334,15 +2074,16 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
           saturday: [],
           sunday: [],
         }
       },
+
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -2418,13 +2159,61 @@ export const people = [
       },],
     schedule: [
       {
-        semesterName: "1st Sem A.Y 24-25",
+        semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
           wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
           thursday: [],
           friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
           saturday: [],
           sunday: [],
         }
@@ -2581,15 +2370,16 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
           saturday: [],
           sunday: [],
         }
       },
+
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -2707,15 +2497,16 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
           saturday: [],
           sunday: [],
         }
       },
+
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -2733,60 +2524,32 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Strengthened my teaching strategies in mathematics for computing by aligning with OBE principles and CS course outcomes.",
-          "Attended training on integrating computational tools (e.g., Python, MATLAB, GeoGebra) in teaching mathematical concepts.",
-          "Used SET feedback and peer observation to refine instructional delivery and student engagement."
-        ],
-        "2025": [
-          "Attended workshops on teaching programming-related mathematics (e.g., Discrete Math, Linear Algebra, Probability).",
-          "Collaborated with CS faculty to enhance cross-disciplinary instruction (e.g., using math in algorithms and AI).",
-          "Mentored students struggling with math-based CS subjects and support tutorial or bridge programs."
-        ],
-        "2026": [
-          "I will pursue graduate studies in either Applied Mathematics or Computer Science to deepen my interdisciplinary expertise.",
-          "I plan to explore innovative assessment and teaching strategies for higher math and computing integration."
-        ],
-        "2027": [
-          "I will present at education or CS teaching conferences, focusing on math teaching innovations or integration strategies.",
-          "I will participate in university curriculum reviews to better align math content with current computing trends."
-        ],
-        "2028": [
-          "I aim to co-develop a minor specialization or elective that blends math modeling and computing.",
-          "I will start developing a specialized teaching module or e-learning resource for math in CS."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       loading: {
-        "2024": ["Mathematics in the Modern World","Discrete Structure  I"],
-        "2025": ["Mathematics in the Modern World","Experimental statistics"],
-        "2026": ["Any major or minor subjects in BSIT and BSCS related to mathematics."],
-        "2027": ["Any major or minor subjects in BSIT and BSCS related to mathematics."],
-        "2028": ["Any major or minor subjects in BSIT and BSCS related to mathematics."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": [
-          "Explored research topics that intersect mathematics and computing (e.g., graph theory, numerical methods).",
-          "Attended training on research proposal writing, data analytics, and educational research design.",
-          "Supported student research in math-based system modeling or optimization."
-        ],
-        "2025": ["Offered guidance and assistance to students throughout the course of their research or thesis projects."],
-        "2026": ["Take CvSU Examination for Statistician recognition to help student researcher"],
-        "2027": [
-          "I will focus on research topics such as algorithm efficiency, quantitative modeling, or math anxiety in CS students.",
-          "I aim to submit a research proposal for funding or institutional support.",
-          "I will integrate research findings into teaching practices and student learning materials."
-        ],
-        "2028": [
-          "I will mentor undergraduate thesis groups focused on mathematical models, optimization, or analytics.",
-          "I plan to produce a research output that can influence curriculum development or policy."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
         "2024": [],
         "2025": [],
-        "2026": ["Engage and participate in the campus extension activities."],
-        "2027": ["Engage and participate in the campus extension activities."],
-        "2028": ["Engage and participate in the campus extension activities."],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -2898,10 +2661,10 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Research Data Management", room: "Online" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Graduate Student Research Workshop", room: "Conf. Room D" }],
           wednesday: [],
-          thursday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Research Office" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -2953,8 +2716,127 @@ export const people = [
       }
     }
   },
-  
+  //Alvin Celino
+  {
+    first_name: "Alvin",
+    last_name: "Celino",
+    name: "Alvin P. Celino",
+    designation: "Instructor I",
+    image: "/images/celino.JPG",
+    diploma: "https://drive.google.com/file/d/1Q_swPtzGs_0NnEIvBzduIWjm93QSsyNe/view?usp=drive_link",
+    tor: "https://drive.google.com/file/d/1-YUOnraAK-lApKbC1Upvn67TRa0PiN5d/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1q-iUn_XmzpcwFjT0Zb_HApy0U8xeob4P/view?usp=drive_link",
+    certificates: [
+      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
+    ],
+    schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "7:00 AM - 9:00 AM", section: " IT 3-6", subject: "ITEC 90 Lab", room: "CL 3" }],
+          tuesday: [],
+          wednesday: [{ time: "7:00 PM - 8:00 AM", subject: "ITEC 90 Lec", section: "IT 3-2", room: "Room 305" }, { time: "8:00 AM - 9:00 AM", subject: "ITEC 90 Lec", section: "IT 3-6", room: "Room 305" }],
+          thursday: [],
+          friday: [{ time: "7:00 AM - 9:00 PM", section: "IT 3-2", subject: "ITEC 90 Lab", room: "Room 301" }],
+          saturday: [{ time: "7:00 AM - 8:00 AM", section: "IT 3-2", subject: "ITEC 90 Lec", room: "" }, { time: "8:00 AM - 9:00 AM", section: "IT 3-2", subject: "ITEC 90 Lab", room: "" }, { time: "9:00 AM - 10:00 AM", section: "IT 3-6", subject: "ITEC 90 Lec", room: "" }, { time: "10:00 AM - 11:00 AM", section: "IT 3-6", subject: "ITEC 90 Lab", room: "" }],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
+          wednesday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
 
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
+    ],
+    evaluation_scores: [4.29, 4.48, 4.37],
+    evaluation_labels: ["2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    development_plan: {
+      professionalDevelopment: {
+        "2024": [""],
+        "2025": [""],
+        "2026": [""],
+        "2027": [""],
+        "2028": [""],
+      },
+      loading: {
+        "2024": [""],
+        "2025": [""],
+        "2026": [""],
+        "2027": [""],
+        "2028": [""],
+      },
+      research: {
+        "2024": [""],
+        "2025": [""],
+        "2026": [""],
+        "2027": [""],
+        "2028": [""],
+      },
+      extensions: {
+        "2024": [""],
+        "2025": [""],
+        "2026": [""],
+        "2027": [""],
+        "2028": [""],
+      }
+    }
+  },
   //Alvin Celino
   {
     first_name: "Alvin",
@@ -2963,21 +2845,45 @@ export const people = [
     designation: "Instructor I",
     image: "/images/celino.JPG",
     diploma: [{
-      name: "Bachelor of Science in Computer Engineering",
-      url: "https://drive.google.com/file/d/1Q_swPtzGs_0NnEIvBzduIWjm93QSsyNe/view?usp=drive_link"
+      name:"Bachelor of Science in Computer Engineering",
+      url:"https://drive.google.com/file/d/1Q_swPtzGs_0NnEIvBzduIWjm93QSsyNe/view?usp=drive_link"
     }],
     masters_diploma: [{
-      name: "",
-      url: ""
+      name:"",
+      url:""
     }],
     tor: [
-      { name: "Bachelor of Science in Computer Engineering", url: "https://drive.google.com/file/d/1-YUOnraAK-lApKbC1Upvn67TRa0PiN5d/view?usp=drive_link" },
-      { name: "Professional Education Units", url: "https://drive.google.com/file/d/13pjAca-nnAJt0nS_o9HP99Ytwat8XOGj/view?usp=drive_link" }],
+      {name:"Bachelor of Science in Computer Engineering", url:"https://drive.google.com/file/d/1-YUOnraAK-lApKbC1Upvn67TRa0PiN5d/view?usp=drive_link"},
+      {name:"Professional Education Units" , url:"https://drive.google.com/file/d/13pjAca-nnAJt0nS_o9HP99Ytwat8XOGj/view?usp=drive_link"}],
     resume: "https://drive.google.com/file/d/1q-iUn_XmzpcwFjT0Zb_HApy0U8xeob4P/view?usp=drive_link",
     certificates: [
       { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
     ],
     schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -2995,7 +2901,7 @@ export const people = [
         details: {
           monday: [],
           tuesday: [
-            { time: "7:00 PM - 8:00 PM", section: "IT 3-6", subject: "ITEC 105", ROOM: "ROOM 301" },
+            { time: "7:00 PM - 8:00 PM", section: "IT 3-6", subject: "ITEC 105", ROOM: "ROOM 301"},
             { time: "8:00 PM - 9:00 PM", section: "IT 3-6", subject: "ITEC 105 Lec", ROOM: "" },
             { time: "9:00 PM - 10:00 PM", section: "IT 3-6", subject: "ITEC 105 Lab", ROOM: "" }
           ],
@@ -3106,37 +3012,83 @@ export const people = [
     designation: "Instructor I",
     image: "/images/coles.JPG",
     diploma:
-      [
-        {
-          name: "Bachelor of Science in Industrial Education",
-          url: "https://drive.google.com/file/d/1nxpjnIqxYD7EoaefDtJLOvCjYLX3cPca/view?usp=drive_link"
-        },
+      [       
+        {name: "Bachelor of Science in Industrial Education",
+        url: "https://drive.google.com/file/d/1nxpjnIqxYD7EoaefDtJLOvCjYLX3cPca/view?usp=drive_link"},
       ],
     tor: [
-      { name: "Bachelor of Science in Industrial Education", url: "Bachelor of Science in Industrial Education" },
+      {name: "Bachelor of Science in Industrial Education", url: "Bachelor of Science in Industrial Education"},
     ],
     resume: ["https://drive.google.com/file/d/1fuLTxBR8mSRojcDS_R4O6nbq4tzn3PHf/view?usp=drive_link"],
     certificates: [
-      { name: "Training Workshop on Proposal Writing and Publication Cavite State University-Bacoor", url: "https://drive.google.com/file/d/1MxUyLjRr72GbhrrJotFoAnSMPE5z4nRY/view?usp=drive_link" },
-      { name: "HTML ESSENTIALS - CISCO NETWORKING ACADEMY", url: "https://drive.google.com/file/d/1DGnhxkwy2dbpEBRtaTWdR_m96P1EDwVv/view?usp=drive_link" },
-      { name: "INTRODUCTION TO TECHNOLOGY FOR TEACHING AND LEARNING - UNIVERSITY OF THE PHILIPPINES OPEN UNIVERSITY", url: "https://drive.google.com/file/d/18EvPJuKQzA2nNAPiULCNp-qELYLp1Og6/view?usp=drive_link" },
-      { name: "DIMENSIONS OF DEVELOPMENT: NURTURING THE CHILD AND ADOLESCENT LEARNER THROUGH EFFECTIVE LEARNING PRINCIPLES - TUP CAVITE", url: "https://drive.google.com/file/d/1naaPqumJtLFk3Fx7mof1OH86-P8y2Xro/view?usp=drive_link" },
-      { name: "EDUKATALKS: A SEM1 SEMINAR SERIES - TUP CAVITE", url: "https://drive.google.com/file/d/1D7-sMobzHeSeFAVbk1ZsiTEBKCZurXUA/view?usp=drive_link" },
-      { name: "CONNECTED: HARNESSING TECHNOLOGY FOR TEACHING AND LEARNING - TUP CAVITE", url: "https://drive.google.com/file/d/1mLOTtMY72Av82bNJlfmMcCX3u3yGX5VT/view?usp=drive_link" },
-      { name: "SCRIPTWRITING FOR EDUCATIONAL VIDEO MATERIALS - UNIVERSITY OF THE PHILIPPINES OPEN UNIVERSITY", url: "https://drive.google.com/file/d/1WI5xR-0gkTnGimHnNgIRcqy2YiAkG_oP/view?usp=drive_link" },
+      { name: "Training Workshop on Proposal Writing and Publication Cavite State University-Bacoor", url: "https://drive.google.com/file/d/1MxUyLjRr72GbhrrJotFoAnSMPE5z4nRY/view?usp=drive_link"},
+      { name: "HTML ESSENTIALS - CISCO NETWORKING ACADEMY", url: "https://drive.google.com/file/d/1DGnhxkwy2dbpEBRtaTWdR_m96P1EDwVv/view?usp=drive_link"},
+      { name: "INTRODUCTION TO TECHNOLOGY FOR TEACHING AND LEARNING - UNIVERSITY OF THE PHILIPPINES OPEN UNIVERSITY", url: "https://drive.google.com/file/d/18EvPJuKQzA2nNAPiULCNp-qELYLp1Og6/view?usp=drive_link"},
+      { name: "DIMENSIONS OF DEVELOPMENT: NURTURING THE CHILD AND ADOLESCENT LEARNER THROUGH EFFECTIVE LEARNING PRINCIPLES - TUP CAVITE", url: "https://drive.google.com/file/d/1naaPqumJtLFk3Fx7mof1OH86-P8y2Xro/view?usp=drive_link"},
+      { name: "EDUKATALKS: A SEM1 SEMINAR SERIES - TUP CAVITE", url: "https://drive.google.com/file/d/1D7-sMobzHeSeFAVbk1ZsiTEBKCZurXUA/view?usp=drive_link"},
+      { name: "CONNECTED: HARNESSING TECHNOLOGY FOR TEACHING AND LEARNING - TUP CAVITE", url: "https://drive.google.com/file/d/1mLOTtMY72Av82bNJlfmMcCX3u3yGX5VT/view?usp=drive_link"},
+      { name: "SCRIPTWRITING FOR EDUCATIONAL VIDEO MATERIALS - UNIVERSITY OF THE PHILIPPINES OPEN UNIVERSITY", url: "https://drive.google.com/file/d/1WI5xR-0gkTnGimHnNgIRcqy2YiAkG_oP/view?usp=drive_link"},
     ],
     speaking_engagements: [
-      { name: "PHOTO AND VIDEO EDITING TRAINING - CAVITE STATE UNIVERSITY - BACOOR", url: "https://drive.google.com/file/d/105Yf9vc9o_el642t38LYhtjzxtxT89K5/view?usp=drive_link" },
+      { name: "PHOTO AND VIDEO EDITING TRAINING - CAVITE STATE UNIVERSITY - BACOOR", url: "https://drive.google.com/file/d/105Yf9vc9o_el642t38LYhtjzxtxT89K5/view?usp=drive_link"},
     ],
     schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "IT201 - Data Communications", room: "G202" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT201 - Data Communications", room: "G202" }],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 7" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Networking Protocols", room: "G203" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Wireless Technologies", room: "Lab 8" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Student Advising", room: "Faculty Office 7" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Network Security Fundamentals", room: "G202" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Networking", room: "Online" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 7" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Administration", room: "Lab 9" }],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Voice & Data Convergence", room: "G203" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 10" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Advanced Routing & Switching", room: "G202" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Forensics", room: "Online" }],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Department Meeting", room: "Conf. Room D" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 7" }],
           saturday: [],
           sunday: [],
         }
@@ -3144,24 +3096,10 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [
-            { time: "10:00 AM - 1:00 PM", section: "CS 1-3", subject: "ITEC 50", room: "CL 4" },
-            { time: "1:00 PM - 4:00 PM", section: "CS 1-5", subject: "ITEC 50", room: "CL 3" }
-          ],
-          tuesday: [
-            { time: "7:00 AM - 9:00 PM", section: "CS 1-3", subject: "ITEC 50", room: "ROOM 203" },
-            { time: "9:00 AM - 12:00 PM", section: "CS 1-4", subject: "ITEC 50", room: "CL 2" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 1-5", subject: "ITEC 50", room: "ROOM 109" },
-            { time: "3:00 PM - 6:00 PM", section: "IT 2-3", subject: "GNED 08", room: "ROOM 101" }
-          ],
-          wednesday: [
-            { time: "7:00 AM - 10:00 AM", section: "CS 2-4", subject: "GNED 08", room: "ROOM 107" },
-            { time: "10:00 PM - 12:00 PM", section: "", subject: "Consultation", room: "Faculty" }
-          ],
-          thursday: [
-            { time: "10:00 AM - 1:00 PM", section: "IT 2-6", subject: "GNED 08", room: "ROOM 101" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 1-4", subject: "ITEC 50", room: "ROOM 101" },
-          ],
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Virtualization", room: "G203" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "IoT Networking", room: "Lab 8" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Wireless Network Security", room: "G204" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -3222,53 +3160,49 @@ export const people = [
     designation: "Instructor I",
     image: "/images/decipulo.jpg",
     diploma: [
-      { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link" },
+      {name:"Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link"},
     ],
     tor: [
-      { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1mHGnJ-tXtpHj3_Zk6WB0pGJzuU6iGlR0/view?usp=drive_link" },
+      {name:"Bachelor of Science in Industrial Education", url:"https://drive.google.com/file/d/1mHGnJ-tXtpHj3_Zk6WB0pGJzuU6iGlR0/view?usp=drive_link"},
     ],
     resume: "https://drive.google.com/file/d/1olJ3gaTfFNxg_s-0ZcVjtjDjNIBfh_UD/view?usp=drive_link",
     certificates: [],
     speaking_engagements: [
-      { name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - MAMBOG ELEMENTARY SCHOOL", url: "https://drive.google.com/file/d/1UjjMVjCYMg6TP2tkDRLrpybks8Rb3EHZ/view?usp=drive_link" }
+      { name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - MAMBOG ELEMENTARY SCHOOL", url: "https://drive.google.com/file/d/1UjjMVjCYMg6TP2tkDRLrpybks8Rb3EHZ/view?usp=drive_link"}
     ],
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-1", subject: "ITEC 55 (Lec)", room: "ROOM 305" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "3:00 PM - 5:00 PM", section: "IT 2-1", subject: "ITEC 55 (Lab)", room: "CL 2" }
-          ],
-          tuesday: [
-            { time: "8:00 AM - 9:00 AM", section: "IT 2-1", subject: "ITEC 55 (Lec) Async", room: "" },
-            { time: "9:00 AM - 10:00 AM", section: "IT 2-1", subject: "ITEC 55 (Lab) Async", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-3", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-4", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-5", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 2-6", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "2:00 AM - 3:00 PM", section: "IT 2-7", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "3:00 AM - 4:00 PM", section: "IT 2-3", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-4", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 2-5", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 2-6", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 2-7", subject: "DCIT 24 (Lab) Async", room: "" }
-          ],
-          wednesday: [],
-          thursday: [
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-5", subject: "ITEC 55 (Lec)", room: "CL 3" },
-            { time: "11:00 AM - 12:00 PM", section: "CS 2-3", subject: "DCIT 24 (Lec)", room: "ROOM 303" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 2-5", subject: "DCIT 24 (Lab)", room: "CL 4" },
-            { time: "3:00 PM - 5:00 PM", section: "CS 2-3", subject: "DCIT 24 (Lab)", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", section: "CS 2-4", subject: "DCIT 24 (Lec)", room: "ROOM 305" }
-          ],
-          friday: [
-            { time: "8:00 AM - 9:00 AM", section: "CS 2-6", subject: "DCIT 24 (Lec)", room: "ROOM 303" },
-            { time: "10:00 AM - 12:00 PM", section: "CS 2-7", subject: "DCIT 24 (Lab)", room: "CL 3" },
-            { time: "12:00 PM - 2:00 PM", section: "CS 2-4", subject: "DCIT 24 (Lab)", room: "CL 3" },
-            { time: "5:00 PM - 6:00 PM", section: "CS 2-7", subject: "DCIT 24 (Lec)", room: "ROOM 305" },
-          ],
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
           saturday: [],
           sunday: [],
         }
@@ -3276,38 +3210,10 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "7:00 AM - 9:00 AM", section: "IT 2-6", subject: "ITEC 65", room: "CL 3" },
-            { time: "9:00 AM - 11:00 AM", section: "IT 2-5", subject: "ITEC 65", room: "CL 1" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-7", subject: "ITEC 60 (Lec) Async", room: "" },
-            { time: "1:00 PM - 3:00 PM", section: "IT 2-7", subject: "ITEC 60", room: "Cl 4" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 2-5", subject: "ITEC 65 (Lab) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-3", subject: "ITEC 60 (Lab) Async", room: "" }
-          ],
-          tuesday: [
-            { time: "9:00 PM - 10:00 PM", section: "IT 2-3", subject: "ITEC 60", room: "ROOM 303" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 60 (Lec) Async", room: "" },
-            { time: "11:00 AM - 1:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "1:00 PM - 3:00 PM", section: "IT 3-4", subject: "ITEC 95", room: "Audi 2" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 2-1", subject: "ITEC 60", room: "ROOM 301" },
-            { time: "5:00 PM - 7:00 PM", section: "IT 3-5", subject: "ITEC 95", room: "ROOM 302" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 2-6", subject: "ITEC 65 (Lec) Async", room: "" }
-          ],
-          wednesday: [
-            { time: "7:00 AM - 8:00 AM", section: "IT 2-6", subject: "ITEC 62", room: "CL 2" },
-            { time: "8:00 AM - 10:00 AM", section: "IT 2-1", subject: "ITEC 60", room: "CL 2" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 60 (Lab) Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-5", subject: "ITEC 65", room: "CL 3" },
-            { time: "1:00 PM - 3:00 PM", section: "IT 2-3", subject: "ITEC 60", room: "CL 2" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 2-7", subject: "ITEC 60", room: "ROOM 301" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-5", subject: "ITEC 65 (Lec) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 2-6", subject: "ITEC 65 (Lec) Async", room: "" }
-          ],
-          thursday: [
-            { time: "8:00 AM - 9:00 AM", section: "IT 2-3", subject: "ITEC 60 (Lec) Async", room: "" },
-            { time: "9:00 PM - 10:00 PM", section: "IT 2-7", subject: "ITEC 60 (Lab) Async", room: "" },
-            { time: "10:00 PM - 11:00 PM", section: "IT 3-4", subject: "ITEC 60 (Lec) Async", room: "" }
-          ],
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -3329,26 +3235,11 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [
-            { time: "7:00 AM - 10:00 AM", section: "IT 2-5", subject: "DCIT 25", room: "ROOM 101" },
-            { time: "1:00 PM - 4:00 PM", section: "IT 3-4", subject: "ITEC 101", room: "ROOM 203" },
-            { time: "4:00 PM - 7:00 PM", section: "IT 2-6", subject: "DCIT 25", room: "CL 2" }
-          ],
-          tuesday: [],
-          wednesday: [
-            { time: "1:00 PM - 3:00 PM", section: "IT 2-5", subject: "DCIT 25", room: "CL 4" },
-            { time: "5:00 PM - 7:00 PM", section: "IT 2-6", subject: "DCIT 25", room: "ROOM 203" }
-          ],
-          thursday: [
-            { time: "10:00 AM - 12:00 PM", section: "IT 2-2", subject: "ITEC 65", room: "" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "4:00 PM - 7:00 PM", section: "IT 2-1", subject: "ITEC 65", room: "CL 4" }
-          ],
-          friday: [
-            { time: "7:00 AM - 10:00 AM", section: "IT 2-2", subject: "ITEC 65", room: "CL 1" },
-            { time: "10:00 AM - 12:00 PM", section: "IT 2-1", subject: "ITEC 65", room: "ROOM 101" },
-            { time: "4:00 PM - 6:00 PM", section: "IT 3-4", subject: "ITEC 101", room: "CL 2" }
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
+          friday: [],
           saturday: [],
           sunday: [],
         }
@@ -3443,42 +3334,37 @@ export const people = [
     ],
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "7:00 AM - 9:00 AM", section: "CS 1-2", subject: "DCIT 21", room: "CL 1" },
-            { time: "9:00 AM - 11:00 AM", section: "CS 1-3", subject: "DCIT 21", room: "CL 2" },
-            { time: "11:00 AM - 2:00 PM", section: "IT 2-6", subject: "ITEC 65", room: "CL 1" },
-            { time: "3:00 PM - 4:00 PM", section: "CS 1-5", subject: "DCIT 21", room: "ROOM 302" },
-            { time: "4:00 PM - 5:00 PM", section: "CS 1-4", subject: "DCIT 21 (Lab) Async", room: "" },
-            { time: "5:00 PM - 7:00 PM", section: "CS 1-4", subject: "DCIT 21", room: "CL 2" }
-          ],
-          tuesday: [
-            { time: "8:00 AM - 9:00 AM", section: "IT 2-6", subject: "ITEC 55 (Lec) Async", room: "" },
-            { time: "9:00 AM - 10:00 AM", section: "IT 2-7", subject: "ITEC 55 (Lec) Async", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-6", subject: "ITEC 55 (Lab) Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-7", subject: "ITEC 55 (Lab) Async", room: "" },
-            { time: "1:00 AM - 2:00 PM", section: "CS 1-2", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "2:00 AM - 3:00 PM", section: "CS 1-3", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "3:00 AM - 4:00 PM", section: "CS 1-4", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "4:00 AM - 5:00 PM", section: "CS 1-5", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "5:00 AM - 6:00 PM", section: "CS 1-2", subject: "DCIT 21 (Lab) Async", room: "" },
-            { time: "6:00 AM - 7:00 PM", section: "CS 1-3", subject: "DCIT 21 (Lab) Async", room: "" },
-            { time: "7:00 AM - 8:00 PM", section: "CS 1-5", subject: "DCIT 21 (Lab) Async", room: "" },
-          ],
-          wednesday: [
-            { time: "8:00 AM - 9:00 AM", section: "CS 1-4", subject: "DCIT 21 (Lec)", room: "ROOM 301" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 1-3", subject: "DCIT 21 (Lec)", room: "ROOM 301" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 1-5", subject: "DCIT 21", room: "CL 2" },
-            { time: "3:00 PM - 5:00 PM", section: "CS 2-7", subject: "ITEC 55", room: "CL 3" },
-            { time: "7:00 PM - 8:00 PM", section: "CS 1-2", subject: "DCIT 21 (Lec)", room: "ROOM 301" },
-          ],
-          thursday: [
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-6", subject: "ITEC 55 (Lec)", room: "ROOM 303" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 2-7", subject: "ITEC 55 (Lec)", room: "ROOM 301" },
-            { time: "3:00 PM - 5:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-          ],
-          friday: [],
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
           saturday: [],
           sunday: [],
         }
@@ -3486,38 +3372,10 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "11:00 AM - 1:00 PM", section: "CS 3-3", subject: "ITEC 65", room: "ROOM 210" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "3:00 PM - 4:00 PM", section: "CS 3-3", subject: "ITEC 85 Async", room: "" }
-          ],
-          tuesday: [
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-3", subject: "DCIT 25 (Lec) Async", room: "" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 2-4", subject: "DCIT 25 (Lec) Async", room: "" },
-            { time: "3:00 PM - 4:00 PM", section: "CS 2-5", subject: "DCIT25 (Lab) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-4", subject: "DCIT 25", room: "ROOM 301" },
-            { time: "5:00 PM - 6:00 PM", section: "CS 2-7", subject: "ITEC 65 (Lec) Async", room: "" },
-            { time: "6:00 PM - 8:00 PM", section: "IT 2-3", subject: "ITEC 65", room: "CL 2" },
-
-          ],
-          wednesday: [
-            { time: "11:00 AM - 1:00 AM", section: "CS 2-3", subject: "GNED 14", room: "ROOM 305" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 2-3", subject: "DCIT 25 (Lab) Async", room: "" },
-            { time: "2:00 PM - 3:00 PM", section: "CS 2-5", subject: "DCIT 25", room: "ROOM 302" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 2-4", subject: "DCIT 25 (Lab) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "CS 2-7", subject: "DCIT 25", room: "ROOM 305" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 2-3", subject: "DCIT 25", room: "ROOM 301" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 2-4", subject: "DCIT 25", room: "CL 1" }
-          ],
-          thursday: [
-            { time: "7:00 AM - 9:00 AM", section: "CS 2-7", subject: "DCIT 25", room: "CL 3" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 2-3", subject: "GNED 14", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-4", subject: "GNED 14", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "CS 2-5", subject: "DCIT 25", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "CS 2-7", subject: "DCIT 25", room: "" },
-            { time: "2:00 PM - 4:00 PM", section: "CS 2-4", subject: "GNED 14", room: "ROOM 303" },
-            { time: "4:00 PM - 6:00 PM", section: "CS 2-5", subject: "DCIT 25", room: "CL 2" },
-          ],
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -3526,11 +3384,11 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
           saturday: [],
           sunday: [],
         }
@@ -3539,27 +3397,10 @@ export const people = [
       {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
-          monday: [
-            { time: "10:00 AM - 1:00 PM", section: "IT 1-3", subject: "GNED 01", room: "ROOM 107" },
-            { time: "3:00 PM - 6:00 PM", section: "IT 1-4", subject: "GNED 01", room: "ROOM 107" },
-            { time: "6:00 PM - 9:00 PM", section: "IT 1-7", subject: "GNED 01", room: "ROOM 107" }
-          ],
-          tuesday: [
-            { time: "10:30 AM - 12:00 PM", section: "IT 1-6", subject: "GNED 01", room: "ROOM 203" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-          ],
-          wednesday: [
-            { time: "7:00 AM - 9:00 AM", section: "IT 2-3", subject: "ITEC 70", room: "ROOM 204" },
-            { time: "9:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 70", room: "ROOM 204" },
-            { time: "1:00 PM - 4:00 PM", section: "IT 2-2", subject: "ITEC 70", room: "ROOM 109" },
-            { time: "5:00 PM - 8:00 PM", section: "IT 1-2", subject: "GNED 01", room: "ROOM 101" },
-          ],
-          thursday: [
-            { time: "7:00 AM - 10:00 AM", section: "IT 2-3", subject: "ITEC 70", room: "CL 5" },
-            { time: "11:30 AM - 1:00 PM", section: "IT 1-6", subject: "GNED 01", room: "ROOM 107" },
-            { time: "1:00 PM - 4:00 PM", section: "IT 2-1", subject: "ITEC 70", room: "CL 2" },
-            { time: "7:00 PM - 9:00 PM", section: "IT 2-2", subject: "ITEC 70", room: "CL 2" }
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
           friday: [],
           saturday: [],
           sunday: [],
@@ -3607,18 +3448,18 @@ export const people = [
     designation: "Instructor I",
     image: "/images/delapena.png",
     diploma: [
-      { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link" }
+      {name:"Bachelor of Science in Industrial Education", url:"https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link"}
     ],
     tor: [
-      { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1ll7o1VE306Zsg0iCCC_B2-1uW00um679/view?usp=drive_link" }
+      {name:"Bachelor of Science in Industrial Education", url:"https://drive.google.com/file/d/1ll7o1VE306Zsg0iCCC_B2-1uW00um679/view?usp=drive_link"}
     ],
     resume: "https://drive.google.com/file/d/1yavnXI1qLTWBb-PfiAKe010ma5QNsOdD/view?usp=drive_link",
     certificates: [
-      { name: "Programming for Beginners Using Python - DICT", url: "https://drive.google.com/file/d/1AqI5w1sFX7scH9hjsYsH0NbxVX18ZixW/view?usp=drive_link" },
-      { name: "Python Essentials 1 - CISCO NETWORKING ACADEMY", url: "https://drive.google.com/file/d/15qzXuNX67ciJkJ4E0UTFwWWPT4982gay/view?usp=drive_link" },
-      { name: "Python Essentials 2 - CISCO NETWORKING ACADEMY", url: "https://drive.google.com/file/d/1TWY6NZZ1gtlJ4jn9N1Eu0bG96I1_38gP/view?usp=drive_link" },
-      { name: "LEARNING RECOVERY TO LEARNING RESILIENCE IN CLASSROOMS THROUGH EFFECTIVE TEACHING STRATEGIES FOR EMPOWERING TECHNOLOGIES", url: "https://drive.google.com/file/d/1fZTwxC5h3J4mt7cA_D4j4Sj2QmNdk0-M/view?usp=drive_link" },
-    ],
+       {name:"Programming for Beginners Using Python - DICT", url: "https://drive.google.com/file/d/1AqI5w1sFX7scH9hjsYsH0NbxVX18ZixW/view?usp=drive_link" },
+       {name:"Python Essentials 1 - CISCO NETWORKING ACADEMY", url:"https://drive.google.com/file/d/15qzXuNX67ciJkJ4E0UTFwWWPT4982gay/view?usp=drive_link"},
+       {name:"Python Essentials 2 - CISCO NETWORKING ACADEMY", url:"https://drive.google.com/file/d/1TWY6NZZ1gtlJ4jn9N1Eu0bG96I1_38gP/view?usp=drive_link"},
+       {name:"LEARNING RECOVERY TO LEARNING RESILIENCE IN CLASSROOMS THROUGH EFFECTIVE TEACHING STRATEGIES FOR EMPOWERING TECHNOLOGIES", url:"https://drive.google.com/file/d/1fZTwxC5h3J4mt7cA_D4j4Sj2QmNdk0-M/view?usp=drive_link"},
+     ],
     membership: [
       { name: "Member: ICT Industry Council", url: "https://drive.google.com/file/d/1tTd_rQq6x8qFlQHW46doPOG-9nvVnSqF/view?usp=drive_link" },
     ],
@@ -3627,95 +3468,61 @@ export const people = [
     ],
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming", room: "Lab 1" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT202 - Web Development", room: "G201" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS101 - Intro to Programming (Lab)", room: "Lab 2" }],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Data Structures", room: "G101" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Algorithms", room: "G102" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 2" }],
+          thursday: [],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "8:00 AM - 9:00 PM", section: "IT 3-1", subject: "DCIT 26", room: "ROOM 301" },
-            { time: "9:00 AM - 11:00 AM", section: "IT 3-1", subject: "DCIT 26", room: "CL 3" },
-            { time: "11:00 AM - 1:00 PM", section: "IT 3-3", subject: "DCIT 26", room: "CL 3" },
-          ],
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Database Management", room: "G301" }],
           tuesday: [],
-          wednesday: [
-            { time: "10:00 AM - 12:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 3-2", subject: "DCIT 26", room: "CL 4" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 3-1", subject: "DCIT 26 (Lec) Async", room: "" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 3-2", subject: "DCIT 26 (Lec) Async", room: "" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 3-3", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 4-1", subject: "ITEC 111 (Lab) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 4-2", subject: "ITEC 111 (Lab) Async", room: "" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 4-3", subject: "ITEC 111 (Lab) Async", room: "" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 3-3", subject: "ITEC 111 (Lab) Async", room: "" }
-          ],
-          thursday: [
-            { time: "10:00 AM - 11:00 AM", section: "IT 4-3", subject: "ITEC 111", room: "305" },
-            { time: "12:00 PM - 11:00 PM", section: "IT 4-1", subject: "ITEC 111", room: "CL 1" },
-            { time: "1:00 PM - 3:00 PM", section: "IT 4-1", subject: "ITEC 111", room: "CL 1" },
-            { time: "3:00 PM - 5:00 PM", section: "IT 4-2", subject: "ITEC 111", room: "CL 1" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 4-2", subject: "ITEC 111", room: "ROOM 302" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 3-1", subject: "DCIT 26 (Lab) Async", room: "" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 3-2", subject: "DCIT 26 (Lec) Async", room: "" },
-            { time: "8:00 PM - 9:00 PM", section: "IT 3-3", subject: "DCIT 26", room: "ROOM 303" }
-          ],
-          friday: [],
-          saturday: [
-            { time: "9:00 AM - 11:00 AM", section: "IT 4-3", subject: "ITEC 111", room: "CL 1" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 4-2", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 4-3", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 4-1", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "5:00 PM - 7:00 PM", section: "IT 3-2", subject: "DCIT 26", room: "CL 1" },
-          ],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Mobile App Development", room: "Lab 3" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Faculty Meeting", room: "Conf. Room B" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Research Discussion", room: "Faculty Office 2" }],
+          saturday: [],
           sunday: [],
         }
       },
       {
         semesterName: "2nd Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "8:00 AM - 9:00 AM", section: "CS 3-2", subject: "COSC  106 (Lab) Async", room: "" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 3-1", subject: "COSC  106 (Lab) Async", room: "" },  
-            { time: "11:00 AM - 1:00 PM", section: "CS 3-2", subject: "COSC  106", room: "CL 4" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 1-6", subject: "ITEC 60", room: "ROOM 303" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 2-6", subject: "ITEC 60 (Lab) Async", room: "" },
-            { time: "3:00 PM - 5:00 PM", section: "CS 3-1", subject: "COSC  106", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 2-5", subject: "ITEC 60", room: "ROOM 303" },
-          ],
-          tuesday: [],
-          wednesday: [
-            { time: "9:00 AM - 10:00 AM", section:"IT 2-6", subject: "ITEC 60 (Lec) Async ", room: "" },
-            { time: "10:00 AM - 11:00 AM", section:"IT 2-5", subject: "ITEC 60 (Lec) Async ", room: "" },
-            { time: "12:00 PM - 2:00 PM", section: "IT 2-5", subject: "ITEC 60", room: "CL 1" },
-            { time: "2:00 PM - 3:00 PM", section: "CS 3-2", subject: "COSC 106", room: "CL 4" },
-            { time: "3:00 PM - 4:00 PM", section: "CS 3-1", subject: "COSC 106", room: "CL 4" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-5", subject: "ITEC 60 (Lab) Async", room: "" },
-            { time: "5:00 PM - 7:00 PM", section: "IT 2-6", subject: "ITEC 60", room: "CL 2" },
-          ],
-          thursday: [
-            { time: "12:00 PM - 2:00 PM", section:"IT 3-5", subject: "ITEC 101", room: "CL 3" },
-            { time: "2:00 PM - 3:00 PM", section:"IT 3-5", subject: "ITEC 101 (Lab) Async", room: "" },
-            { time: "3:00 PM - 4:00 PM", section:"IT 3-6", subject: "ITEC 101 (Lab) Async", room: "" },
-            { time: "4:00 PM - 6:00 PM", section:"IT 3-6", subject: "ITEC 101", room: "CL 3" },
-          ],
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Network Security", room: "G401" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Computing Basics", room: "Online" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Cybersecurity Workshop", room: "Lab 4" }],
           friday: [],
-          saturday: [
-            { time: "9:00 AM - 10:00 AM", section: "IT 3-6", subject: "ITEC 101", room: "ROOM 305" },
-            { time: "10:00 AM - 11:00 PM", section: "IT 3-5", subject: "ITEC 101", room: "ROOM 305" },
-            { time: "11:00 PM - 12:00 PM", section: "IT 3-5", subject: "ITEC 101 (Lec) Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 3-6", subject: "ITEC 101 (Lec) Async", room: "" },
-            { time: "2:00 PM - 4:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 3-2", subject: "COSC 106 (Lec) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 3-1", subject: "COSC 106 (Lec) Async", room: "" },
-          ],
+          saturday: [],
           sunday: [],
         }
       },
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
+          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
           saturday: [],
           sunday: [],
         }
@@ -3725,28 +3532,11 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [],
-          tuesday: [
-            { time: "10:00 AM - 1:00 PM", section:"CS 3-1", subject: "COSC 106", room: "CL 5" },
-            { time: "2:00 PM - 5:00 PM", section:"CS 3-4", subject: "COSC 106", room: "CL 5" },
-            { time: "5:00 PM - 7:00 PM", section:"CS 3-3", subject: "COSC 106", room: "ROOM 201" },
-          ],
-          wednesday: [
-            { time: "10:00 PM - 1:00 PM", section:"CS 3-3", subject: "COSC 106", room: "CL 5" },
-            { time: "1:00 PM - 3:00 PM", section:"CS 3-4", subject: "COSC 106", room: "ROOM 201" },
-            { time: "5:00 PM - 8:00 PM", section:"CS 3-2", subject: "COSC 106", room: "CL 5" },
-          ],
-          thursday: [
-            { time: "10:00 AM - 1:00 PM", section:"CS 3-5", subject: "COSC 106", room: "CL 5" },
-            { time: "2:00 PM - 5:00 PM", section:"CS 3-6", subject: "COSC 106", room: "CL 5" },
-            { time: "5:00 PM - 7:00 PM", section:"CS 3-1", subject: "COSC 106", room: "AUDI" },
-          ],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Artificial Intelligence Intro", room: "G503" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Data Analytics Project", room: "Lab 5" }],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Research Methods", room: "Online" }],
           friday: [],
-          saturday: [
-            { time: "10:00 AM - 12:00 PM", section:"CS 3-2", subject: "COSC 106", room: "ROOM 204" },
-            { time: "12:00 PM - 2:00 PM", section:"CS 3-6", subject: "COSC 106", room: "ROOM 107" },
-            { time: "2:30 PM - 4:30 PM", section:"", subject: "Consultation", room: "Faculty" },
-            { time: "5:00 PM - 7:00 PM", section:"CS 3-5", subject: "COSC 106", room: "ROOM 201" },
-          ],
+          saturday: [],
           sunday: [],
         }
       }
@@ -3755,51 +3545,25 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Passed the Board in Licensure Examination for Teachers.",
-          "Enrolled in a Master’s program in Information Technology",
-          "Passed the TESDA National Certificates in Computer Systems Servicing (NC II) and Trainers Methodology  (TM I)",
-          "Passed the International Computer Driving License(ICDL)",
-          "Completed the online course offered by Oracle"
-        ],
-        "2025": [
-          "Take a Civil Service Exam for Professional",
-          "Take an ICT Proficiency Exam by Department of Information and Communication Technology Diagnostic Test",
-          "Mentor students in certification programs or capstone projects.",
-          "Become a Sr. Developer in Web Development",
-          "Make a Educational Content Video related in Programming",
-          "Proposed a research paper",
-          "Attend Seminar and Workshop offered by Department of information and communication technology"
-        ],
-        "2026": [
-          "Complete the Master’s degree in Information Technology",
-          "Talks as a speaker in a different schools and industries related in technology trends",
-          "Propose a new research proposal",
-          "Publish a research paper and Learning Module"
-        ],
-        "2027": ["Enroll in a Doctor’s program in Information Technology"],
-        "2028": ["Continue and improve all that I have started."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       loading: {
-        "2024": ["Application Development and Emerging Technology"],
-        "2025": ["Introduction to Game Development"],
-        "2026": ["Application Development and Emerging Technology"],
-        "2027": ["Introduction to Game Development "],
-        "2028": ["Application Development and Emerging Technology"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": [
-          "Present at research symposium",
-          "Served as a panelist during undergraduate research defense.",
-          "Guide student as a Technical Critic"
-        ],
-        "2025": [
-          "Withdraw the development of our approved research",
-          "Served as a panelist during undergraduate research defense."
-        ],
-        "2026": ["Participate at different research seminars/workshop and symposium"],
-        "2027": ["To conduct and publish applied research in computing and technology education"],
-        "2028": ["To conduct and publish applied research in computing and technology education"],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
         "2024": [],
@@ -3931,6 +3695,7 @@ export const people = [
       }
     }
   },
+
   //Lawrence Jimenez
   {
     first_name: "Lawrence ",
@@ -4085,6 +3850,7 @@ export const people = [
       }
     }
   },
+
   //James Mañozo
   {
     first_name: "James",
@@ -4351,7 +4117,6 @@ export const people = [
     }
   },
 
-
   //Edmund Martinez
   {
     first_name: "Edmond",
@@ -4473,39 +4238,78 @@ export const people = [
       }
     ],
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 22-23
+      {
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [
-            { 
-              time: "8:00 AM - 11:00 AM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-1", 
-              room: null 
-            },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-3", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 5:00 PM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-2", 
-              room: null 
-            },
-          ],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
     ],
     evaluation_scores: [4.76, 4.51, null, 4.12],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -4559,47 +4363,18 @@ export const people = [
         ],
       },
       research: {
-        "2024": [
-           "Guide students with their research development.",
-           "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects."
-        ],
-        "2025": [
-          "Guide students with their research development.",
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects."
-        ],
-        "2026": [
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects."
-        ],
-        "2027": [
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects.",
-          "Serve as Adviser in undergraduate capstone/thesis projects."
-        ],
-        "2028": [
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects.",
-          "Serve as Adviser in undergraduate capstone/thesis projects."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
-        ],
-        "2025": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
-        ],
-        "2026": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
-        ],
-        "2027": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
-        ],
-        "2028": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -4683,53 +4458,92 @@ export const people = [
       url: "https://drive.google.com/file/d/1WrvHBRNgB3v0AFBsHSd2J3d5D4rG7wJM/view?usp=drive_link"
     }],
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 22-23
+      {
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [
-            { 
-              time: "8:00 AM - 11:00 AM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-1", 
-              room: null 
-            },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-3", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 5:00 PM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-2", 
-              room: null 
-            },
-          ],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
     ],
     evaluation_scores: [null, 4.39],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
         "2024": [
-          "Begin laying the groundwork as a full-time instructor by aligning teaching practices with department and university goals. My aim this year is to establish credibility, connect with students, and integrate myself into the academic community.",
-          "Utilize Student Evaluation of Teachers (SET) results to reflect on teaching style and continuously improve instructional strategies. Incorporate feedback into lesson planning and delivery for better engagement and clarity.",
-          "Participate in workshops on classroom management, digital pedagogy, and outcome-based education to refine your teaching techniques and stay current with modern teaching trends in Computer Science"
+          "Focused on developing a strong academic foundation and excellence in research and system development.",
+          "Enhanced teaching effectiveness by conducting regular self-evaluations using Student Evaluation of Teachers (SET) results and integrating constructive feedback into lesson planning and instructional delivery."
         ],
         "2025": [
           "Joined a Research Council or department research cluster to support and initiate collaborative projects.",
-          "Continue professional growth by participating in training focused on instructional material development, teaching innovation, and empowering students in the classroom.",
-          "Attended Module writing workshops, capability-building seminars, and proposal development trainings organized by CvSU or CHED.",          "Participated in panel review, documentation, or mentoring in undergraduate research and system project courses."
+          "Presented or co-author a research paper at a university, regional, or national-level research forum.",
+          "Attended Module writing workshops, capability-building seminars, and proposal development trainings organized by CvSU or CHED.",
+          "Participated in panel review, documentation, or mentoring in undergraduate research and system project courses."
         ],
         "2026": [
           "Enroll in a Master’s program in Computer Science to strengthen theoretical and technical competencies.",
@@ -4739,13 +4553,13 @@ export const people = [
           "Continue Master’s studies and complete coursework while managing teaching load.",
           "Actively participate in academic conferences, workshops, and seminars in CS/IT.",
           "Publish or co-author at least one peer-reviewed article in a journal or indexed conference.",
-          "Collaborate on interdepartmental or inter-campus projects."
+          "Actively participate in academic conferences, workshops, and seminars in CS/IT."
         ],
         "2028": [
           "Continue Master’s studies and complete coursework while managing teaching load.",
           "Actively participate in academic conferences, workshops, and seminars in CS/IT.",
           "Publish or co-author at least one peer-reviewed article in a journal or indexed conference.",
-          "Collaborate on interdepartmental or inter-campus projects."
+          "Actively participate in academic conferences, workshops, and seminars in CS/IT."
         ],
       },
       loading: {
@@ -4772,47 +4586,38 @@ export const people = [
       },
       research: {
         "2024": [
-          "Begin integrating research practices into my instruction, especially in system development and documentation.",
-          "Attend basic research seminars and workshops to strengthen my understanding of research ethics, methodology, and proposal writing.",
+          "Graduate from academic program as a significant professional milestone.",
+          "Enhance teaching effectiveness by using SET results for instructional improvement.",
           "Contribute to research efforts by assisting in documentation, mentoring students, or participating in proposal reviews.",
-          "Begin building a personal roadmap aligned with DCS and institutional thrusts"
+          "Begin building a personal roadmap aligned with DCS and institutional thrusts."
         ],
         "2025": [
-          "Become an active member of the University Research Council or similar institutional body.",
-          "Mentor students in thesis and capstone research, helping them develop quality outputs suitable for presentation or publication."
+          "Become an active member of the University or Campus Research Council, contributing to research proposal reviews and student mentoring.",
+          "Co-author or present a research paper in a local or national research conference (e.g., ALCUCOA, CvSU Research Congress)."
         ],
         "2026": [
           "Participate in research capability-building sessions and proposal writing workshops.",
           "Develop a collaborative Faculty research proposal aligned with Computer Science themes",
-          "Assist in collaborative faculty-student research initiatives within the department."
+          "Submit a paper to a refereed journal",
+          "Continue mentoring undergraduate students with a focus on research ethics and system design."
         ],
         "2027": [
-          "Co-author or lead at least one research paper for submission to a peer-reviewed journal or indexed conference.",
+          "Publish or co-author at least one paper in a CHED-recognized or indexed journal/conference.",
           "Join research consortiums or academic networks in the field of IT and CS",
           "Present thesis-related progress or system-based research at a regional or National forum."
         ],
         "2028": [
+          "Lead or co-lead a faculty-led research project funded by the institution, LGU, or external partners.",
           "Produce a completed Master’s thesis that can be adapted into a journal article or case study.",
-          "Lead a collaborative research project, preferably involving both students and faculty.",
-          "Initiate or contribute to research publications or policy papers that address real-world problems in computer science or education."
+          "Propose a research agenda for future departmental initiatives (e.g., DRRM innovations, mobile/web app development, ethical AI)."
         ],
       },
       extensions: {
-        "2024": [
-          "Participate in department-led extension activities focused on digital literacy, basic programming, or IT awareness in nearby communities or schools."
-        ],
-        "2025": [
-          "Attend seminars and training on community-based project development and impact assessment."
-        ],
-        "2026": [
-          "I will propose and design an extension activity aligned with my specialization, such as basic cybersecurity, mobile app literacy, or digital productivity tools."
-        ],
-        "2027": [
-          "Collaborate with student organizations to integrate outreach into student-led activities and system development projects."
-        ],
-        "2028": [
-          "Explore partnerships with local schools or barangays to sustain community engagement."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -4909,81 +4714,32 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Acquired relevant skills aligned with the course by enrolling in certified online training programs.",
-          "Attended development programs related to learning styles, or curriculum development."
-        ],
-        "2025": [
-          "Continue Masters Degree"
-        ],
-        "2026": [
-          "To earn Masters Degree"
-        ],
-        "2027": [
-          "To continue in Doctorate Degree"
-        ],
-        "2028": [
-          "To earn in Doctorate Degree"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       loading: {
-        "2024": [
-          "Object-oriented Programming", 
-          "System Integration and Architecture", 
-          "Advanced Database Management System",
-          "Web Systems and Technologies ",
-          "Computer Programming1, 2,3." 
-        ],
-        "2025": [
-          "Object-oriented Programming", 
-          "System Integration and Architecture", 
-          "Advanced Database Management System",
-          "Web Systems and Technologies ",
-          "Computer Programming1, 2,3." 
-        ],
-        "2026": [
-          "Any Major /Minor Subject BSIT/BSCS Course"
-        ],
-        "2027": [
-          "Any Major /Minor Subject BSIT/BSCS Course"
-        ],
-        "2028": [
-          "Any Major /Minor Subject BSIT/BSCS Course"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": [
-          "To attend research seminars"
-        ],
-        "2025": [
-          "To provide mentorship and support to students throughout their research/thesis work."
-        ],
-        "2026": [
-          "To provide mentorship and support to students throughout their research/thesis work."
-        ],
-        "2027": [
-          "To conduct and publish applied research in computing studies"
-        ],
-        "2028": [
-          "To conduct and publish applied research in computing studies"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": [
-          "To Engaged in various extension activities and programs that benefits the communities"
-        ],
-        "2025": [
-          "To Engaged in various extension activities and programs that benefits the communities"
-        ],
-        "2026": [
-          "To Engaged in various extension activities and programs that benefits the communities"
-        ],
-        "2027": [
-          "To participate in various extension activities and programs"
-        ],
-        "2028": [
-          "To participate in various extension activities and programs"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -5017,211 +4773,202 @@ export const people = [
       },],
 
     schedule: [
-      { //1st 22-23
-        semesterName: "1st Sem A.Y 22-23",
-        details: {
-          monday: [
-            { 
-              time: "5:00 PM - 7:00 PM", 
-              subject: "COSC 55",
-              section: "CS 2-2", 
-              room: null
-            },
-          ],
-          tuesday: [
-            { 
-              time: "5:00 PM - 8:00 PM", 
-              subject: "COSC 50",
-              section: "CS 1-7", 
-              room: null 
-            },
-            { 
-              time: "8:00 PM - 9:00 PM", 
-              subject: "COSC 50",
-              section: "IT 1-6", 
-              room: null 
-            },
-          ],
-          wednesday: [
-            { 
-              time: "5:00 PM - 7:00 PM", 
-              subject: "COSC 55",
-              section: "CS 2-1", 
-              room: null
-            },
-            { 
-              time: "7:00 PM - 9:00 PM", 
-              subject: "COSC 55",
-              section: "CS 2-3", 
-              room: null
-            },
-          ],
-          thursday: [
-            { 
-              time: "5:00 PM - 8:00 PM", 
-              subject: "COSC 50",
-              section: "CS 1-6", 
-              room: null
-            },
-            { 
-              time: "8:00 PM - 9:00 PM", 
-              subject: "COSC 55",
-              section: "CS 2-3", 
-              room: null
-            },
-          ],
-          friday: [
-            { 
-              time: "5:00 PM - 6:00 PM", 
-              subject: "COSC 55",
-              section: "CS 2-1", 
-              room: null
-            },
-            { 
-              time: "6:00 PM - 7:00 PM", 
-              subject: "COSC 55",
-              section: "CS 2-2", 
-              room: null
-            },
-          ],
-          saturday: [
-            { 
-              time: "11:00 AM - 1:00 PM", 
-              subject: "CONSULTATION HOURS",
-              section: null, 
-              room: "FACULTY"
-            },
-            { 
-              time: "2:00 PM - 4:00 PM", 
-              subject: "COSC 50",
-              section: "IT 1-6", 
-              room: null
-            },
-            { 
-              time: "4:00 PM - 7:00 PM", 
-              subject: "COSC 50",
-              section: "IT 1-7", 
-              room: null
-            },
-          ],
-          sunday: [],
+  {
+    semesterName: "1st Sem A.Y 22-23",
+    details: {
+      monday: [
+        {
+          time: "5:00 PM - 6:30 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
+        },
+        {
+          time: "6:30 PM - 8:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
         }
-      },
-      { //2nd 22-23
-        semesterName: "2nd Sem A.Y 22-23",
-        details: {
-          monday: [
-            { 
-              time: "5:00 PM - 6:00 PM", 
-              subject: "MATH 4 (LEC)",
-              section: "CS 3-1", 
-              room: "ROOM 205" 
-            },
-            { 
-              time: "6:00 PM - 9:00 PM", 
-              subject: "MATH 4 (LEC)",
-              section: "CS 3-1", 
-              room: "ROOM 305" 
-            },
-          ],
-          tuesday: [
-            { 
-              time: "5:00 PM - 7:00 PM", 
-              subject: "COSC 110 (LEC)",
-              section: "CS 4-1", 
-              room: "ROOM 302" 
-            },
-          ],
-          wednesday: [
-            { 
-              time: "5:00 PM - 7:00 PM", 
-              subject: "MATH 2",
-              section: "CS 2-1", 
-              room: "ROOM 303" 
-            },
-          ],
-          thursday: [
-            { 
-              time: "6:00 PM - 8:00 PM", 
-              subject: "MATH 2",
-              section: "CS 2-3", 
-              room: "ROOM 304" 
-            },
-          ],
-          friday: [
-            { 
-              time: "5:00 PM - 7:00 PM", 
-              subject: "COSC 110 (LAB)",
-              section: "CS 4-1", 
-              room: "ROOM 302" 
-            },
-            { 
-              time: "7:00 PM - 9:00 PM", 
-              subject: "COSC 110",
-              section: "IT 2-6", 
-              room: "ROOM 302" 
-            },
-          ],
-          saturday: [
-            { 
-              time: "8:00 AM - 10:00 AM", 
-              subject: "CONSULTATION HOURS",
-              section: "CS 2-2", 
-              room: "ROOM 302" 
-            },
-            { 
-              time: "10:00 AM - 12:00 PM", 
-              subject: "CONSULTATION HOURS",
-              section: null, 
-              room: "FACULTY" 
-            },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              subject: "MATH 2",
-              section: "CS 2-1", 
-              room: null 
-            },
-            { 
-              time: "1:00 PM - 2:00 PM", 
-              subject: "MATH 2 (ASYNC)",
-              section: "CS 2-1", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 3:00 PM", 
-              subject: "MATH 2 (ASYNC)",
-              section: "CS 2-3", 
-              room: null 
-            },
-            { 
-              time: "3:00 PM - 4:00 PM", 
-              subject: "MATH 2 (ASYNC)",
-              section: "CS 2-2", 
-              room: null 
-            },
-            { 
-              time: "4:00 PM - 5:00 PM", 
-              subject: "MATH 2 (ASYNC)",
-              section: "IT 2-6", 
-              room: null 
-            },
-            { 
-              time: "5:00 PM - 6:00 PM", 
-              subject: "MATH 2 (ASYNC)",
-              section: "CS 3-1", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 4:00 PM", 
-              subject: "MATH 2 (ASYNC)",
-              section: "CS 3-1", 
-              room: null 
-            },
-          ],
-          sunday: [],
+      ],
+      tuesday: [
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-7"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 50",
+          section: "IT 1-6"
+        },
+        {
+          time: "7:00 PM - 8:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-7"
         }
-      },
-    ],
+      ],
+      wednesday: [
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-1"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-3"
+        },
+        {
+          time: "7:00 PM - 8:00 PM",
+          subject: "COSC 50",
+          section: "CS 2-3"
+        }
+      ],
+      thursday: [
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 50",
+          section: "CS 1-6"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-6"
+        },
+        {
+          time: "7:00 PM - 8:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-6"
+        }
+      ],
+      friday: [
+        {
+          time: "1:00 PM - 2:00 PM",
+          subject: "COSC 50",
+          section: "IT 1-6"
+        },
+        {
+          time: "2:00 PM - 3:00 PM",
+          subject: "COSC 50",
+          section: "IT 1-7"
+        },
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
+        }
+      ],
+      saturday: [
+        {
+          time: "10:30 AM - 12:00 PM",
+          subject: "CONSULTATION",
+          room: "FACULTY ROOM"
+        }
+      ],
+    }
+  },
+  {
+    semesterName: "2nd Sem A.Y 22-23",
+    details: {
+      monday: [
+        {
+          time: "5:00 PM - 6:30 PM",
+          subject: "MATH 4 LEC",
+          section: "CS 3-1",
+          room: "205"
+        },
+        {
+          time: "6:30 PM - 8:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
+        }
+      ],
+      tuesday: [
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-7"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 50",
+          section: "IT 1-6"
+        },
+        {
+          time: "7:00 PM - 8:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-7"
+        }
+      ],
+      wednesday: [
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-1"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-3"
+        },
+        {
+          time: "7:00 PM - 8:00 PM",
+          subject: "COSC 50",
+          section: "CS 2-3"
+        }
+      ],
+      thursday: [
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 50",
+          section: "CS 1-6"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-6"
+        },
+        {
+          time: "7:00 PM - 8:00 PM",
+          subject: "COSC 55",
+          section: "CS 1-6"
+        }
+      ],
+      friday: [
+        {
+          time: "1:00 PM - 2:00 PM",
+          subject: "COSC 50",
+          section: "IT 1-6"
+        },
+        {
+          time: "2:00 PM - 3:00 PM",
+          subject: "COSC 50",
+          section: "IT 1-7"
+        },
+        {
+          time: "5:00 PM - 6:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
+        },
+        {
+          time: "6:00 PM - 7:00 PM",
+          subject: "COSC 55",
+          section: "CS 2-2"
+        }
+      ],
+      saturday: [
+        {
+          time: "10:30 AM - 12:00 PM",
+          subject: "CONSULTATION",
+          room: "FACULTY ROOM"
+        }
+      ],
+    }
+  }
+],
 
     evaluation_scores: [null, 4.41, null, 4.21],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -5265,23 +5012,11 @@ export const people = [
         ],
       },
       research: {
-        "2024": [
-          "One of the proponents of a Faculty Study"
-        ],
-        "2025": [
-          "One of the proponents of a Faculty Study",
-          "Be the one statistician in campus"
-        ],
-        "2026": [
-          "Present a study for Math Deficiency of a study for a research and extension"
-        ],
-        "2027": [
-          
-          "One of the co-author of any study for research and extension"
-        ],
-        "2028": [
-          "Continue to a research program"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
         "2024": [],
@@ -5341,126 +5076,109 @@ export const people = [
       // speaking_engagements: [{name:"", url:""},],
 
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 22-23
+      {
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [
-            { 
-              time: "8:00 AM - 11:00 AM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-1", 
-              room: null 
-            },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-3", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 5:00 PM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-2", 
-              room: null 
-            },
-          ],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
     ],
-
     evaluation_scores: [4.83, 4.68, 4.41, 4.35],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": [
-          "Updating Trainers Methodology Certificate 1 or Certificate of Competency in Conduct Competency Assessme",
-          "Continous practice in OOP and multimedia."
-        ],
-        "2025": [
-          "Continue professional development by re-enrolling in a Master’s degree program related to Computer Science or pursue Masters degree related to Information Technology or to the department of Computer Studies.",
-          "Update seminar and training certificates earned from previous schools and industries that I can use and share to the department and to Cavite State University and its future endeavor."
-        ],
-        "2026": [
-          "Continue professional development by enrolling in a Master’s degree program related to Computer Science or pursue Masters degree related to Information Technology or to the department of Computer Studies.",
-          "Participating to new seminars and trainings and earning certificates so I can use and share to the future department and to Cavite State University."
-        ],
-        "2027": [
-          "Continue professional development by enrolling in a Master’s degree program related to Computer Science or pursue Masters degree related to Information Technology or to the department of Computer Studies.",
-          "Participating to new seminars and trainings so I can use and share to the future department and to Cavite State University."
-        ],
-        "2028": [
-          "Graduate in Master’s degree program enrolled. And enhancing Web development and mobile application skills.",
-          "Plan to take board licensure exams for Teachers for betterment of my career and to use and share to the Department of Computer Studies."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       loading: {
-        "2024": [
-          "Introduction to Computing",
-          "Human Computer Interaction", 
-          "Computer Graphics and Visual Computing"
-        ],
-        "2025": [
-          "Computer Programming 1",
-          "Discrete Structure 2",
-          "Object Oriented Programming"
-        ],
-        "2026": [
-          "Computer Programming 1",
-          "Discrete Structure 2",
-          "Object Oriented Programming"
-        ],
-        "2027": [
-          "Computer Programming 1",
-          "Discrete Structure 2",
-          "Object Oriented Programming"
-        ],
-        "2028": [
-          "Networks and Communications",
-          "Design and Analysis of Algorithm"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       research: {
-        "2024": [
-          "Present a proposal in research on Computer Department Studies. An Online development of Object Oriented trends and responsive in android phones",
-          "Advising thesis related students in their research per group assigned in capstone A and B."
-        ],
-        "2025": [
-          "Participate in seminar and proposal making in research on computer science course An Online development of Object Oriented trends and responsive in android phones."
-        ],
-        "2026": [
-          "To continue in proposal making in research on Computer Department Studies."
-        ],
-        "2027": [
-          "To conduct and publish research related to Computer Department Studies."
-        ],
-        "2028": [
-          "Applying a publish research related to Computer Department Studies."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": [
-          "Shared expertise in research on Computer Department Studies trends."
-        ],
-        "2025": [
-          "Participate in extension programs organized at the campus level, especially those initiated by the department"
-        ],
-        "2026": [
-          "Participate in extension programs organized at the campus level, especially those initiated by the department"
-        ],
-        "2027": [
-          "To engage in extension programs organized at the campus level, especially those initiated by the department."
-        ],
-        "2028": [
-          "To facilitate in extension programs organized at the campus level, especially those initiated by the department."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -5494,39 +5212,78 @@ export const people = [
     },],
     // speaking_engagements: [{name:"", url:""},],
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 22-23
+      {
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [
-            { 
-              time: "8:00 AM - 11:00 AM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-1", 
-              room: null 
-            },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-3", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 5:00 PM", 
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-2", 
-              room: null 
-            },
-          ],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Embedded Systems", room: "G304" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Real-Time Systems", room: "G305" }],
+          wednesday: [],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Operating System Security", room: "G306" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Linux System Administration", room: "Lab 11" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Operating Systems", room: "Online" }],
+          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Department Meeting", room: "Conf. Room C" }],
+          friday: [{ time: "11:00 AM - 12:00 PM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Containerization (Docker/Kubernetes)", room: "Lab 12" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Computing", room: "G304" }],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "High-Performance Computing", room: "G305" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
     ],
     evaluation_scores: [4.67, 4.17, null, 4.0],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -5597,21 +5354,11 @@ export const people = [
         ],
       },
       extensions: {
-        "2024": [
-          "Participate in Extension programs"
-        ],
-        "2025": [
-          "Participate in Extension programs"
-        ],
-        "2026": [
-          "Participate in Extension programs"
-        ],
-        "2027": [
-          "Participate in Extension programs"
-        ],
-        "2028": [
-          "Participate in Extension programs"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -5652,248 +5399,101 @@ export const people = [
       url: "https://drive.google.com/file/d/1zaM5_GolEkUb_edP9eMGJOXe_Edjur1c/view?usp=drive_link"
     }],
     schedule: [
-      { //1st 22-23
+      {
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
-            { 
-              time: "7:00 AM - 9:00 AM", 
+            {
+              time: "7:00 AM - 8:00 AM",
               subject: "ITEC 75 (LAB)",
-              section: "IT 4-1", 
-              room: null 
+              section: "IT 4-1",
             },
-            { 
-              time: "9:00 AM - 10:00 AM", 
+            {
+              time: "8:00 AM - 9:00 AM",
               subject: "ITEC 75 (LAB)",
-              section: "IT 4-1", 
-              room: null 
+              section: "IT 4-1",
             },
-            { 
-              time: "11:00 AM - 12:00 PM", 
+            {
+              time: "9:00 AM - 10:00 AM",
               subject: "ITEC 75 (LAB)",
-              section: "IT 4-3", 
-              room: null 
+              section: "IT 1-5",
+              room: "CL 1"
             },
-            { 
-              time: "2:00 PM - 3:00 PM", 
-              subject: "DCIT 65 (LAB)",
-              section: "IT 4-1", 
-              room: null 
-            },
-            { 
-              time: "3:00 PM - 5:00 PM", 
-              subject: "DCIT 21 (LAB)",
-              section: "CS 1-5", 
-              room: null 
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-5",
+              room: "CL 1"
             },
           ],
-          tuesday: [
-            { 
-              time: "7:00 AM - 9:00 AM", 
-              subject: "DCIT 65",
-              section: "CS 3-1", 
-              room: null 
-            },
-            { 
-              time: "9:00 AM - 12:00 AM", 
-              subject: "DCIT 26 (LAB)",
-              section: "CS 3-1", 
-              room: null 
-            },
-            { 
-              time: "2:00 PM - 4:00 PM", 
-              subject: "DCIT 21",
-              section: "CS 1-4", 
-              room: null 
-            },
-            { 
-              time: "4:00 PM - 6:00 PM", 
-              subject: "DCIT 21",
-              section: "IT 1-5", 
-              room: null 
-            },
-          ],
-          wednesday: [
-            { 
-              time: "7:00 AM - 9:00 AM", 
-              subject: "ITEC 75 (LAB)",
-              section: "IT 4-3", 
-              room: null 
-            },
-            { 
-              time: "11:00 AM - 9:00 PM", 
-              subject: "ITEC 75 (LAB)",
-              section: "IT 4-1", 
-              room: null 
-            },
-            { 
-              time: "1:00 PM - 3:00 PM", 
-              subject: "DCIT 65",
-              section: "IT 4-1", 
-              room: null 
-            },
-            { 
-              time: "3:00 PM - 5:00 PM", 
-              subject: "ITEC 75 (LAB)",
-              section: "IT 4-2", 
-              room: null 
-            },
-          ],
-          thursday: [
-            { 
-              time: "7:00 AM - 10:00 AM", 
-              subject: "DCIT 21 (LAB)",
-              section: "CS 1-4", 
-              room: null 
-            },
-            { 
-              time: "11:00 AM - 12:00 PM", 
-              subject: "CONSULTATION HOURS",
-              section: null, 
-              room: "FACULTY" 
-            },
-            { 
-              time: "1:00 PM - 4:00 PM", 
-              subject: "DCIT 26",
-              section: "CS 3-1", 
-              room: null 
-            },
-            { 
-              time: "4:00 PM - 5:00 PM", 
-              subject: "DCIT 21 (LAB)",
-              section: "CS 1-5", 
-              room: null 
-            },
-          ],
+          tuesday: [{ time: "9:00 AM - 10:00 AM", subject: "Office Hours", room: "Faculty Office 10" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS202 - Algorithms Analysis", room: "G203" }],
+          thursday: [],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
-      { //2nd 22-23
+      {
         semesterName: "2nd Sem A.Y 22-23",
         details: {
-          monday: [
-            { 
-              time: "7:00 AM - 10:00 AM", 
-              subject: "DCIT 55 (LAB)",
-              section: "CS 2-2", 
-              room: "COM LAB 2" 
-            },
-            { 
-              time: "10:00 AM - 12:00 PM", 
-              subject: "DCIT 60 (LEC)",
-              section: "CS 3-1", 
-              room: "ROOM 301" 
-            },
-            { 
-              time: "1:00 PM - 2:00 PM", 
-              subject: "ITEC 65 (LEC)",
-              section: "IT 2-4", 
-              room: "ROOM 302" 
-            },
-            { 
-              time: "3:00 PM - 6:00 PM", 
-              subject: "ITEC 65 (LAB)",
-              section: "IT 2-5", 
-              room: "COM LAB 2" 
-            },
-            { 
-              time: "6:00 PM - 7:00 PM", 
-              subject: "ITEC 65 (LEC) ASYNC",
-              section: "IT 2-5", 
-              room: null 
-            },
-            { 
-              time: "7:00 PM - 8:00 PM", 
-              subject: "ITEC 65 (LEC) ASYNC",
-              section: "IT 2-4", 
-              room: null 
-            },
-            { 
-              time: "8:00 PM - 9:00 PM", 
-              subject: "ITEC 65 (LEC) ASYNC",
-              section: "IT 2-6", 
-              room: null 
-            },
-          ],
-          tuesday: [],
-          wednesday: [
-            { 
-              time: "9:00 AM - 10:00 AM", 
-              subject: "DCIT 55 (LEC)",
-              section: "CS 2-2", 
-              room: "ROOM 303" 
-            },
-            { 
-              time: "10:00 AM - 11:00 AM", 
-              subject: "ITEC 65 (LEC)",
-              section: "IT 2-5", 
-              room: "ROOM 303" 
-            },
-            { 
-              time: "1:00 PM - 4:00 PM", 
-              subject: "DCIT 55 (LAB)",
-              section: "CS 2-1", 
-              room: "COM LAB 3" 
-            },
-            { 
-              time: "4:00 PM - 7:00 PM", 
-              subject: "ITEC 65 (LEC)",
-              section: "IT 2-5", 
-              room: "COM LAB 4" 
-            },
-            { 
-              time: "7:00 PM - 8:00 PM", 
-              subject: "ITEC 65 (LEC)",
-              section: "IT 2-6", 
-              room: "ROOM 302" 
-            },
-          ],
-          thursday: [
-            { 
-              time: "7:00 AM - 8:00 AM", 
-              subject: "DCIT 60 (LEC) ASYNC",
-              section: "CS 3-1", 
-              room: null 
-            },
-            { 
-              time: "8:00 AM - 10:00 AM", 
-              subject: "DCIT 55 (LEC) ASYNC",
-              section: "CS 2-2", 
-              room: null 
-            },
-            { 
-              time: "11:00 AM - 1:00 PM", 
-              subject: "CONSULTATION HOURS",
-              section: null, 
-              room: "FACULTY"
-            },
-            { 
-              time: "1:00 PM - 2:00 PM", 
-              subject: "DCIT 55 (LEC) ASYNC",
-              section: "CS 2-1", 
-              room: "ROOM 302" 
-            },
-          ],
-          friday: [
-            { 
-              time: "10:00 AM - 1:00 PM", 
-              subject: "ITEC 65 (LAB)",
-              section: "IT 2-6", 
-              room: "COM LAB 3" 
-            },
-            { 
-              time: "1:00 PM - 4:00 PM", 
-              subject: "ITEC 75 (LAB)",
-              section: "IT 4-1", 
-              room: "COM LAB 3" 
-            },
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Advanced Algorithms", room: "G204" }],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Computational Complexity", room: "G205" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Q&A", room: "Faculty Office 10" }],
+          friday: [],
           saturday: [],
           sunday: [],
         }
       },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Algorithm Design Techniques", room: "G203" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Graph Algorithms", room: "G203" }],
+          thursday: [],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 10" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Dynamic Programming", room: "G204" }],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Greedy Algorithms", room: "G205" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "Approximation Algorithms", room: "G206" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Parallel Algorithms", room: "Online" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Randomized Algorithms", room: "G203" }],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Department Workshop", room: "Conf. Room A" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 10" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Quantum Algorithms (Intro)", room: "G204" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Bioinformatics Algorithms", room: "G205" }],
+          thursday: [{ time: "2:00 PM - 4:00 PM", subject: "Algorithm Optimization", room: "G206" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      }
     ],
     evaluation_scores: [null, null, null, 3.62, null, 3.81],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -6115,38 +5715,18 @@ export const people = [
         ],
       },
       research: {
-        "2024": [
-          "Attended research seminars."
-        ],
-        "2025": [
-          "Engaged in innovation projects or collaborative research with academic peers."
-        ],
-        "2026": [
-          "To continue the engagement in innovation projects or collaborative research with academic peers"
-        ],
-        "2027": [
-          "To conduct and publish applied research in computing and technology education"
-        ],
-        "2028": [
-          "To conduct and publish applied research in computing and technology education"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": [
-          "To engage in various extension activities and programs"
-        ],
-        "2025": [
-          "To engage in various extension activities and programs"
-        ],
-        "2026": [
-          "To engage in various extension activities and programs that benefits the communities"
-        ],
-        "2027": [
-          "To participate in various extension activities and programs "
-        ],
-        "2028": [
-          "To participate in various extension activities and programs "
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
@@ -6269,13 +5849,10 @@ export const people = [
       },
       loading: {
         "2024": [
-          "System Administration and Maintenance",
-          "Information Assurance and Security II",
-          "Web System Technologies II"
+          "System Administration"
         ],
         "2025": [
-          "System Administrationand Maintenance",
-          "Information Assurance and Security II"
+          "System Administration"
         ],
         "2026": [
           "Any Major BSIT/BSCS"
@@ -6288,44 +5865,22 @@ export const people = [
         ],
       },
       research: {
-        "2024": [
-          "Provided mentorship and support to students throughout their research/thesis work."
-        ],
-        "2025": [
-          "Provided mentorship and support to students throughout their research/thesis work."
-        ],
-        "2026": [
-          "To provide mentorship and support to students throughout their research/thesis work."
-        ],
-        "2027": [
-          "To provide mentorship and support to students throughout their research/thesis work."
-        ],
-        "2028": [
-          "To provide mentorship and support to students throughout their research/thesis work."
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       extensions: {
-        "2024": [
-          "Engaged in various extension activities aimed at community development."
-        ],
-        "2025": [
-          "Engaged in various extension activities aimed at community development."
-        ],
-        "2026": [
-          "To engage in various extension activities aimed at community development."
-        ],
-        "2027": [
-          "To engage in various extension activities aimed at community development."
-        ],
-        "2028": [
-          "To engage in various extension activities aimed at community development"
-        ],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       }
     }
   },
-
-
-  //Rachel Rodriguez
+   //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
@@ -6380,7 +5935,7 @@ export const people = [
           monday: [
           ],
           tuesday: [
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY" },
+            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY ROOM" },
             { time: "10:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-1" },
             { time: "2:00 PM - 5:00 PM", subject: "ITEC 111 (LAB)", section: "IT 4-2" },
             { time: "5:00 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-1" },
@@ -6404,8 +5959,8 @@ export const people = [
             { time: "7:00 AM - 8:00 AM", subject: "ITEC 55", section: "IT 2-3" },
             { time: "9:00 AM - 10:00 AM", subject: "ITEC 111", section: "IT 4-1" },
             { time: "10:00 AM - 11:00 AM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 111", section: "IT 4-2" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-2" },
+            { time: "11:00 AM - 12:00 NN", subject: "ITEC 111", section: "IT 4-2" },
+            { time: "12:00 NN - 1:00 PM", subject: "ITEC 111", section: "IT 4-2" },
             { time: "1:00 PM - 2:00 PM", subject: "ITEC 55", section: "IT 2-3" },
             { time: "3:30 PM - 4:30 PM", subject: "ITEC 55 (LAB)" },
             { time: "4:30 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-6" },
@@ -6420,73 +5975,22 @@ export const people = [
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 101", section: "IT 3-1", room: "CL 4" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 60 (LEC)", section: "IT 2-3", room: "ROOM 303" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 101 (LEC)", section: "IT 3-2", room: "ROOM 305" },
-            { time: "3:00 PM - 3:00 PM", subject: "ITEC 60 (LEC)", section: "IT 2-1", room: "ROOM 302" },
-            { time: "5:00 PM - 7:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "7:00 PM - 8:30 PM", subject: "ITEC 101 (LAB)", section: "IT 3-3", room: "CL 2" }
-          ],
-          wednesday: [],
-          thursday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 101 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 101 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 101 (LEC)", section: "IT 3-1" },
-            { time: "10:00 AM - 1:00 PM", subject: "ITEC 101 (LAB)", section: "IT 3-2", room: "CL 4" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 60 (LEC)", section: "IT 2-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 101 (LEC)", section: "IT 3-3" },
-            { time: "7:00 PM - 8:30 PM", subject: "ITEC 101 (LAB)", section: "IT 3-3", room: "CL 3" }
-          ],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Expert Systems", room: "G302" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Natural Language Processing", room: "G303" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "AI Research Group Meeting", room: "Conf. Room C" }],
           friday: [],
-          saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 60 (LAB)", section: "IT 2-1", room: "CL 4" },
-            { time: "10:00 AM - 1:00 PM", subject: "ITEC 60 (LAB)", section: "IT 2-2", room: "CL 4" },
-            { time: "2:00 PM - 5:00 PM", subject: "ITEC 60 (LAB)", section: "IT 2-3", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-3" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-2" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-1" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 101 (LEC) ASYNC", section: "IT 3-3" }
-          ],
+          saturday: [],
           sunday: [],
         }
       },
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "10:00 AM - 11:00 AM", subject: "CVSU 101", section: "CS 1-2", room: "ROOM 301" },
-            { time: "11:00 AM - 12:00 PM", subject: "DCIT 25 (LEC)", section: "IT 3-1", room: "ROOM 301" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-6", room: "CL 3" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 25 (LEC)", section: "IT 3-3", room: "ROOM 302" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-6" }
-          ],
-          tuesday: [],
-          wednesday: [
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 25 (LEC)", section: "IT 3-2", room: "ROOM 305" },
-            { time: "10:00 AM - 12:00 PM", subject: "DCIT 25 (LAB)", section: "IT 3-1", room: "CL 3" },
-            { time: "12:00 PM - 1:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-1" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-6", room: "CL 4" },
-            { time: "3:00 PM - 4:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-3" },
-            { time: "6:00 PM - 7:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-4" },
-            { time: "7:00 PM - 8:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-5" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-6" }
-          ],
-          thursday: [],
-          friday: [
-            { time: "7:00 AM - 8:00 AM", subject: "DCIT 25 (LEC)", section: "IT 3-4", room: "CL 2" },
-            { time: "8:00 AM - 10:00 AM", subject: "DCIT 25", section: "IT 3-4", room: "CL 2" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 25 (LEC)", section: "IT 3-5", room: "CL 2" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 25", section: "IT 3-5", room: "CL 2" },
-            { time: "2:00 PM - 3:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-2" },
-            { time: "3:00 PM - 5:00 PM", subject: "DCIT 25", section: "IT 3-2", room: "CL 2" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 25", section: "IT 3-3", room: "CL 1" },
-            { time: "7:00 PM - 8:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-3" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-5" }
-          ],
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Neural Networks Intro", room: "G301" }],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Deep Learning Concepts", room: "Online" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Office Hours", room: "Faculty Office 12" }],
+          friday: [],
           saturday: [],
           sunday: [],
         }
@@ -6615,32 +6119,38 @@ export const people = [
 
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "CS Elective 2 (AI Fundamentals)", room: "G301" }],
+          tuesday: [],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS Elective 2 (AI Fundamentals)", room: "G301" }],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Office Hours", room: "Faculty Office 12" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Expert Systems", room: "G302" }],
+          wednesday: [{ time: "10:00 AM - 12:00 PM", subject: "Natural Language Processing", room: "G303" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "AI Research Group Meeting", room: "Conf. Room C" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [{ time: "7:00 AM - 8:00 AM", subject: "CONSULTATION", room: "FACULTY" }],
-          tuesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 75 (LEC)", section: "CS 3-1", room: "ROOM 305" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC)", section: "CS 3-3", room: "ROOM 305" },
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-2" }
-          ],
-          wednesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 111", section: "CS 4-1", room: "ROOM 303" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-1" },
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-3" }
-          ],
-          thursday: [{ time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC)", section: "CS 3-2", room: "ROOM 305" }],
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Neural Networks Intro", room: "G301" }],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Deep Learning Concepts", room: "Online" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 10:00 AM", subject: "Office Hours", room: "Faculty Office 12" }],
           friday: [],
-          saturday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-1" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "COSC 111 (LAB) ASYNC", section: "CS 4-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "COSC 111 (LEC) ASYNC", section: "CS 4-1" },
-            { time: "12:00 PM - 2:00 PM", subject: "COSC 111", section: "CS 4-1", room: "CL 2" },
-            { time: "3:00 PM - 5:00 PM", subject: "COSC 75", section: "CS 3-1", room: "ROOM 303" },
-            { time: "5:00 PM - 7:00 PM", subject: "COSC 75", section: "CS 3-2", room: "ROOM 303" },
-            { time: "7:00 PM - 9:00 PM", subject: "COSC 75", section: "CS 3-3", room: "ROOM 303" },
-          ],
+          saturday: [],
           sunday: [],
         }
       },
@@ -6796,41 +6306,38 @@ export const people = [
     ],
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT302 - Cloud Computing", room: "G403" }],
+          wednesday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 13" }],
+          thursday: [],
+          friday: [{ time: "9:00 AM - 11:00 AM", subject: "IT302 - Cloud Computing", room: "G403" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Cloud Infrastructure", room: "G404" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Serverless Architectures", room: "Online" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Cloud Migration Strategies", room: "G405" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 ASYNC", section: "CS 4-1" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-1", room: "ROOM 305" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-3", room: "ROOM 305" }
-          ],
-          tuesday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-1" },
-            { time: "7:00 PM - 8:00 PM", subject: "CVSU 101", section: "IT 1-4", room: "ROOM 301" },
-            { time: "8:00 PM - 9:00 PM", subject: "CVSU 101", section: "IT 1-6", room: "ROOM 301" }
-          ],
-          wednesday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-3" },
-            { time: "7:00 PM - 9:00 PM", subject: "CONSULTATION", room: "FACULTY" }
-          ],
-          thursday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-3" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-2" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-1" }
-          ],
-          friday: [
-            { time: "5:00 PM - 6:00 PM", subject: "DCIT 21 ASYNC", section: "IT 1-1" },
-            { time: "6:00 PM - 7:00 PM", subject: "DCIT 21 (LAB) ASYNC", section: "IT 1-1" },
-            { time: "7:00 PM - 9:00 PM", subject: "DCIT 21 (LAB)", section: "IT 1-1", room: "CL 1" }
-          ],
-          saturday: [
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 80 (LAB)", section: "IT 3-1", room: "CL 4" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-2", room: "ROOM 305" },
-            { time: "1:00 PM - 2:00 PM", subject: "DCIT 21 (LEC)", section: "IT 1-1", room: "ROOM 305" },
-            { time: "2:00 PM - 4:00 PM", subject: "ITEC 80 (LEC)", section: "CS 4-1", room: "ROOM 305" },
-            { time: "4:00 PM - 6:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-3", room: "CL 3" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-2" },
-            { time: "7:00 PM - 9:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-3", room: "CL 4" }
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Container Orchestration (Kubernetes)", room: "Lab 17" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "Cloud Security Best Practices", room: "G403" }],
+          friday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 13" }],
+          saturday: [],
           sunday: [],
         }
       },
@@ -6956,6 +6463,42 @@ export const people = [
     tor: "/tor/tor.jfif",
     resume: "/resume/resume-sample.png",
     schedule: [
+      {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "CS Elective 3 (Machine Learning)", room: "G302" }],
+          tuesday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 14" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 3:00 PM", subject: "CS Elective 3 (Machine Learning)", room: "G302" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Deep Learning Architectures", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Reinforcement Learning Basics", room: "G304" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Project Review", room: "Faculty Office 14" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [{ time: "10:00 AM - 12:00 PM", subject: "Natural Language Processing (NLP)", room: "G302" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "Computer Vision Fundamentals", room: "Lab 18" }],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 14" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
       {
         semesterName: "2nd Sem A.Y 23-24",
         details: {
@@ -7109,47 +6652,37 @@ export const people = [
     ],
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
+          wednesday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "2nd Sem A.Y 22-23",
         details: {
-          monday: [
-            { time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-2", room: "CL 3" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 106 (LEC)", section: "IT 3-2", room: "ROOM 303" }
-          ],
-          tuesday: [{ time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-2", room: "ROOM 303" }],
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "System Programming", room: "G304" }],
+          tuesday: [{ time: "2:00 PM - 4:00 PM", subject: "Distributed Systems", room: "G305" }],
           wednesday: [],
-          thursday: [{ time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-1", room: "ROOM 303" },],
-          friday: [
-            { time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-1", room: "CL 2" },
-            { time: "8:30 AM - 9:30 AM", subject: "ITEC 106 (LEC)", section: "IT 3-1", room: "ROOM 305" }
-          ],
-          saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 106 (LAB)", section: "IT 3-3", room: "CL 3" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 106 (LEC)", section: "IT 3-3", room: "ROOM 305" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-3" },
-          ],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Student Consultation", room: "Faculty Office 8" }],
+          friday: [],
+          saturday: [],
           sunday: [],
         }
       },
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-            { time: "3:00 PM - 5:00 PM", subject: "COSC 85", section: "CS 3-2", room: "CL 3" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 85 (LAB) ASYNC", section: "CS 3-2" },
-            { time: "6:00 PM - 7:00 PM", subject: "COSC 85", section: "CS 3-1", room: "ROOM 303" }
-          ],
-          tuesday: [{ time: "2:00 PM - 5:00 PM", subject: "COSC 85", section: "CS 3-3", room: "CL 3" }],
-          wednesday: [
-            { time: "2:00 PM - 3:00 PM", subject: "COSC 85 ASYNC", section: "CS 3-1" },
-            { time: "3:00 PM - 4:00 PM", subject: "COSC 85 ASYNC", section: "CS 3-2" },
-            { time: "4:00 PM - 5:00 PM", subject: "COSC 85 ASYNC", section: "CS 3-3" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 85", section: "CS 3-3", room: "ROOM 301" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 85", section: "CS 3-2", room: "ROOM 301" }
-          ],
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Operating Systems", room: "G303" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Virtualization Technologies", room: "Lab 11" }],
           thursday: [],
-          friday: [{ time: "3:00 PM - 6:00 PM", subject: "COSC 85", section: "CS 3-1", room: "CL 2" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
           saturday: [],
           sunday: [],
         }
@@ -7260,6 +6793,7 @@ export const people = [
       }
     }
   },
+
   //Jerome Tacata
   {
     first_name: "Jerome",
@@ -7335,40 +6869,38 @@ export const people = [
     ],
     schedule: [
       {
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Elective (Cybersecurity)", room: "Lab 6" }],
+          tuesday: [],
+          wednesday: [{ time: "9:00 AM - 11:00 AM", subject: "IT Elective (Cybersecurity)", room: "Lab 6" }],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 15" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [],
+          tuesday: [{ time: "10:00 AM - 12:00 PM", subject: "Network Defense", room: "Lab 7" }],
+          wednesday: [{ time: "1:00 PM - 3:00 PM", subject: "Incident Response", room: "G401" }],
+          thursday: [{ time: "11:00 AM - 12:00 PM", subject: "Cyber Threat Intelligence", room: "Online" }],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [
-          ],
-          tuesday: [],
-          wednesday: [
-            { time: "1:00 PM - 3:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "3:00 PM - 4:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-1" },
-            { time: "4:00 PM - 5:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-2" },
-            { time: "5:00 PM - 7:00 PM", subject: "GNED 14", section: "IT 2-4", room: "CL 1" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 11", section: "CS 1-5", room: "ROOM 201" }
-          ],
-          thursday: [],
-          friday: [
-            { time: "7:00 AM - 9:00 AM", subject: "GNED 11", section: "CS 1-3", room: "ROOM 201" },
-            { time: "9:00 AM - 11:00 AM", subject: "GNED 11", section: "CS 1-2", room: "ROOM 312" },
-            { time: "11:00 AM - 12:00 PM", subject: "GNED 14 ASYNC", section: "IT 2-5" },
-            { time: "1:00 PM - 3:00 PM", subject: "GNED 14", section: "IT 2-5", room: "CL 1" },
-            { time: "3:00 PM - 4:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-3" },
-            { time: "4:00 PM - 5:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-5" },
-            { time: "5:00 PM - 6:00 PM", subject: "GNED 11 ASYNC", section: "IT 2-4" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 11", section: "CS 1-1", room: "ROOM 312" }
-          ],
-          saturday: [
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 85 ASYNC", section: "IT 3-3" },
-            { time: "9:00 AM - 11:00 AM", subject: "COSC 111", section: "CS 4-1", room: "ROOM 305" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 85 (LEC) ASYNC", section: "IT 3-3" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 85 (LAB)", section: "IT 3-3", room: "CL 3" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 85 (LEC)", section: "IT 3-3", room: "CL 3" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 85 (LEC) ASYNC", section: "IT 3-4" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 85 (LAB) ASYNC", section: "IT 3-4" },
-            { time: "6:00 PM - 8:00 PM", subject: "ITEC 85 (LAB)", section: "IT 3-4", room: "CL 3" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 85 (LEC)", section: "IT 3-4", room: "CL 3" }
-          ],
+          monday: [{ time: "1:00 PM - 3:00 PM", subject: "Ethical Hacking & Pen Testing", room: "Lab 6" }],
+          tuesday: [{ time: "9:00 AM - 11:00 AM", subject: "Security Auditing", room: "G402" }],
+          wednesday: [],
+          thursday: [{ time: "1:00 PM - 2:00 PM", subject: "Office Hours", room: "Faculty Office 15" }],
+          friday: [],
+          saturday: [],
           sunday: [],
         }
       },
@@ -7500,10 +7032,10 @@ export const people = [
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
           saturday: [],
           sunday: [],
         }
@@ -7573,14 +7105,11 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Strengthened technical knowledge in emerging technologies through joining seminars and workshops."],
-        "2025": ["Attended local and national conferences to gather relevant-information in the field of IT/ICT."],
-        "2026": ["Pursue academic and teaching credentials such as TESDA, Master's of Technology in Education Program, and Robotics Coach Certification."],
-        "2027": [
-          "Pursue continuous training to deepen expertise and consistently work toward completing graduate programs.",
-          "Aim to gain global experience by pursuing work opportunities overseas."
-        ],
-        "2028": ["Engage in continuous learning to strengthen competencies and remain responsive to technological advancements."],
+        "2024": [],
+        "2025": [],
+        "2026": [],
+        "2027": [],
+        "2028": [],
       },
       loading: {
         "2024": [],
@@ -7613,34 +7142,34 @@ export const people = [
     designation: "Instructor I",
     image: "/images/talibong.jpg",
     diploma: [
-      {
-        name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-        url: "https://drive.google.com/file/d/1kgtKuCwTSfufgj0RdQgNS8yPwDuSo4Wa/view?usp=drive_link"
-      },
-    ],
-    tor: [{
+    {
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/13HpTCurPKzo68rvQanTrlW4WpIUPvjMg/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1kgtKuCwTSfufgj0RdQgNS8yPwDuSo4Wa/view?usp=drive_link"
     },
     ],
-    resume:
+    tor: [{
+     name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
+     url: "https://drive.google.com/file/d/13HpTCurPKzo68rvQanTrlW4WpIUPvjMg/view?usp=drive_link"
+    },
+    ],
+    resume: 
     {
       url: "https://docs.google.com/document/d/1AFp6ue4xok1x7FQcGMhaQhZPXdrL36uP/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true"
     },
     certificates: null,
     speaking_engagements: [{
-      name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVESITY - BACOOR",
-      url: "https://drive.google.com/file/d/1zykr4P8Xb_PzZPaW3QH_n5Q8kSUY_F6J/view?usp=drive_link"
+     name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVESITY - BACOOR",
+     url: "https://drive.google.com/file/d/1zykr4P8Xb_PzZPaW3QH_n5Q8kSUY_F6J/view?usp=drive_link"
     }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
           saturday: [],
           sunday: [],
         }
@@ -7777,7 +7306,7 @@ export const people = [
     diploma: [null],
     tor: [null],
     resume: {
-      url: "https://drive.google.com/file/d/1thAHDQ1hSViTTXM-keeejBOgu1dvVnnE/view?usp=drive_link"
+    url: "https://drive.google.com/file/d/1thAHDQ1hSViTTXM-keeejBOgu1dvVnnE/view?usp=drive_link"
     },
     certificates: [{
       name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
@@ -7786,7 +7315,7 @@ export const people = [
     speaking_engagements: [{
       name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION - MAMBOG ELEMENTARY SCHOOL",
       url: "https://drive.google.com/file/d/1loyMz2C6OmtHSI_JMEBRO7lGi1ou9lzt/view?usp=drive_link"
-    },
+    }, 
     {
       name: "2024 RESEACH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVESITY - BACOOR",
       url: "https://drive.google.com/file/d/1b_sUN997MR80cJmLkq_gIaI3m2OfS9_7/view?usp=drive_link"
@@ -7796,10 +7325,10 @@ export const people = [
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
-          tuesday: [],
+          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "CS301 - Operating Systems", room: "G303" }],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [{ time: "9:00 AM - 11:00 AM", subject: "CS301 - Operating Systems", room: "G303" }],
+          friday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 8" }],
           saturday: [],
           sunday: [],
         }
