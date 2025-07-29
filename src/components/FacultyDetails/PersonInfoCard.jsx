@@ -51,13 +51,13 @@ function PersonInfoCard({
             rel="noopener noreferrer"
             className="hover:underline hover:text-red-900"
           >
-            {toFormalCase (masters_diploma.name)} 
+            {toFormalCase(masters_diploma.name)} 
           </a>
         )}
         {Array.isArray(tor) && tor.length > 0 && (
           <div className="mt-4">
             <h3 className="text-base font-semibold text-gray-800 mb-2">
-              Transcipt of Records:
+              Transcript of Records:
             </h3>
             <ul className="list-disc list-inside space-y-1">
               {tor.map((doc, index) => (

@@ -2,7 +2,6 @@ import React, { useState } from "react"; // Import useState
 import { Award } from "lucide-react";
 
 function DevelopmentPlan({ development_plan }) {
-  console.log("Dev:", development_plan);
 
   const years = ["2024", "2025", "2026", "2027", "2028"];
   const sections = {
