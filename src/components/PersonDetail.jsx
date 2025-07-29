@@ -1,10 +1,10 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import PersonHeader from "./PersonHeader";
-import PersonInfoCard from "./PersonInfoCard";
-import EvaluationChart from "./EvaluationChart";
-import FacultySchedule from "./FacultySchedule";
-import DevelopmentPlan from "./DevelopmentPlan";
+import PersonInfoCard from "./FacultyDetails/PersonInfoCard";
+import EvaluationChart from "./FacultyDetails/EvaluationChart";
+import FacultySchedule from "./FacultyDetails/FacultySchedule";
+import DevelopmentPlan from "./FacultyDetails/DevelopmentPlan";
 import NotFound from "./NotFound";
 
 function PersonDetail() {
