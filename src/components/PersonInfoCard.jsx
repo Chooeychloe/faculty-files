@@ -1,4 +1,6 @@
 import React from "react";
+import { toFormalCase } from './utils/formatTitleCase'
+
 
 function PersonInfoCard({
  
@@ -36,7 +38,7 @@ function PersonInfoCard({
                     rel="noopener noreferrer"
                     className="hover:underline hover:text-red-900"
                   >
-                    {doc.name || `Diploma ${index + 1}`}
+                    {toFormalCase(doc.name) || `Diploma ${index + 1}`}
                   </a>
                 </li>
               ))}
