@@ -1,4 +1,3 @@
-// utils/formatTitleCase.js
 export function toFormalCase(str) {
   const lowercaseWords = ['in', 'of', 'and', 'the', 'for', 'on', 'at', 'to', 'with'];
 
