@@ -37,7 +37,7 @@ function PersonCard({ data }) {
       <h2 className="flex flex-row justify-between items-center bg-amber-50 p-4 text-3xl font-semibold border-l-8 border-red-900 mt-10 shadow-lg shadow-black rounded mb-10 text-red-900">
         Members of the Department
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/orgchart")}
           className="text-lg ml-4 px-4 py-2 bg-red-900 text-amber-400  rounded hover:outline-4"
         >
           View Organizational Chart

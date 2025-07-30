@@ -1,5 +1,5 @@
 import React from "react";
-import { toFormalCase } from './utils/formatTitleCase'
+// import { toFormalCase } from '../utils/formatTitleCase'
 
 
 function PersonInfoCard({
@@ -38,7 +38,7 @@ function PersonInfoCard({
                     rel="noopener noreferrer"
                     className="hover:underline hover:text-red-900"
                   >
-                    {toFormalCase(doc.name) || `Diploma ${index + 1}`}
+                    {/* {doc.name || `Diploma ${index + 1}`} */}
                   </a>
                 </li>
               ))}
@@ -52,13 +52,13 @@ function PersonInfoCard({
             rel="noopener noreferrer"
             className="hover:underline hover:text-red-900"
           >
-            {masters_diploma.name} 
+            {/* {masters_diploma}  */}
           </a>
         )}
         {Array.isArray(tor) && tor.length > 0 && (
           <div className="mt-4">
             <h3 className="text-base font-semibold text-gray-800 mb-2">
-              Transcipt of Records:
+              Transcript of Records:
             </h3>
             <ul className="list-disc list-inside space-y-1">
               {tor.map((doc, index) => (

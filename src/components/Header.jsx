@@ -37,7 +37,7 @@ function Header() {
               />
               <h2
                 className="text-amber-50 font-bold text-xl shover:scale-105 cursor-pointer"
-                onClick={() => navigate("/home")}
+                onClick={() => navigate("/")}
               >
                 Department of Computer Studies <br />
                 <span className="text-amber-400 text-base">

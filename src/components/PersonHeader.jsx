@@ -16,7 +16,7 @@ function PersonHeader() {
         <h2>Department of Computer Studies</h2>
       </div>
       <button
-        onClick={() => navigate("/home")}
+        onClick={() => navigate("/")}
         className="bg-white text-red-900 px-4 py-2 rounded font-medium hover:scale-105 cursor-pointer transition mr-5"
       >
         Home

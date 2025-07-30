@@ -20,7 +20,6 @@ function OrgChart() {
     <div className="py-10 px-4 bg-amber-50 relative min-h-screen">
       <PersonHeader />
 
-      {/* Year Selection Buttons */}
       <div className="flex justify-center gap-4 mb-8">
         {["2024-2025", "2023-2024", "2022-2023"].map((year) => (
           <button
@@ -37,7 +36,6 @@ function OrgChart() {
         ))}
       </div>
 
-      {/* Conditional View */}
       {selectedYear === "2024-2025" ? (
         <>
           <h2 className="text-center text-3xl font-bold mb-10">
