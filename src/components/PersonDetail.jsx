@@ -6,6 +6,7 @@ import EvaluationChart from "./FacultyDetails/EvaluationChart";
 import FacultySchedule from "./FacultyDetails/FacultySchedule";
 import DevelopmentPlan from "./FacultyDetails/DevelopmentPlan";
 import NotFound from "./NotFound";
+import Footer from "./widgets/Footer";
 
 function PersonDetail() {
   const { state } = useLocation();
@@ -82,6 +83,7 @@ function PersonDetail() {
           <DevelopmentPlan development_plan={development_plan} />
         </div>
       </div>
+      <Footer textColor={"text-white"}></Footer>
     </>
   );
 }
