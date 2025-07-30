@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useLocation } from "react-router-dom";
 import PersonHeader from "./PersonHeader";
@@ -18,7 +19,7 @@ function PersonDetail() {
     first_name,
     last_name,
     name,
-    designation,
+    designations,
     image,
     diploma,
     resume,
@@ -37,16 +38,16 @@ function PersonDetail() {
     <>
       <PersonHeader />
 
-      <div className="container mx-auto px-4 mt-8">
-        {/* Row 1: Personal Information and Charts */}
-        <div className="flex flex-col lg:flex-row mb-12 gap-8 justify-center items-start">
-          {/* Section 1: Personal Info */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+      <div className="container mx-auto px-4 mt-8 pb-16">
+        {/* Main wrapper to stack all sections vertically and center them */}
+        <div className="flex flex-col items-center gap-12 lg:gap-16">
+          {/* Section 1: Personal Info Card - WIDENED */}
+          <div className="w-full max-w-6xl">
             <PersonInfoCard
               first_name={first_name}
               last_name={last_name}
               name={name}
-              designation={designation}
+              designations={designations}
               image={image}
               diploma={diploma}
               masters_diploma={masters_diploma}
@@ -59,27 +60,25 @@ function PersonDetail() {
           </div>
 
           {/* Section 2: Evaluation Chart */}
-          <div className="w-full lg:w-1/2 mx-auto mt-12">
-            <div className="max-w-full">
-              <EvaluationChart
-                name={name}
-                first_name={first_name}
-                last_name={last_name}
-                evaluationScores={evaluation_scores}
-                evaluationLabels={evaluation_labels}
-              />
-            </div>
+          <div className="w-full max-w-6xl">
+            <EvaluationChart
+              name={name}
+              first_name={first_name}
+              last_name={last_name}
+              evaluationScores={evaluation_scores}
+              evaluationLabels={evaluation_labels}
+            />
           </div>
-        </div>
 
-        {/* Faculty Schedule Table */}
-        <div className="w-full mb-12 px-4 lg:px-8">
-          <FacultySchedule schedule={schedule} />
-        </div>
+          {/* Section 3: Faculty Schedule Table */}
+          <div className="w-full max-w-6xl">
+            <FacultySchedule schedule={schedule} />
+          </div>
 
-        {/* Individual Development Plan Table */}
-        <div className="w-full mb-12 px-4 lg:px-8">
-          <DevelopmentPlan development_plan={development_plan} />
+          {/* Section 4: Individual Development Plan Table */}
+          <div className="w-full max-w-6xl">
+            <DevelopmentPlan development_plan={development_plan} />
+          </div>
         </div>
       </div>
     </>

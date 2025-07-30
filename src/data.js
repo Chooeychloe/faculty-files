@@ -4,11 +4,17 @@ export const people = [
     first_name: "Jovelyn",
     last_name: "Ocampo",
     name: "Jovelyn D. Ocampo, MIT",
-    designation: "Department Head",
+    designations: { 
+      current_designation: "Head, OSAS",
+      last_designation: [
+        { year: 2024, designation: "Try2024" },
+        { year: 2023, designation: "Try2023" },
+      ],
+    },
     image: "/images/ocampo.jpg",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
-    // resume: "/resume/resume-sample.png",
+    resume: "/resume/resume-sample.png",
     certificates: [{
       name: "Certificate in Teaching and Learning",
       url: "/certificates/cert.jpg"
@@ -6975,10 +6981,16 @@ export const people = [
   },
   //Edmund Martinez
   {
-    first_name: "Edmond",
+    first_name: "Edmund",
     last_name: "Martinez",
-    name: "Edmond E. Martinez",
-    designation: "Instructor I",
+    name: "Edmund E. Martinez",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2024, designation: "Try2024" },
+        { year: 2023, designation: "Try2023" },
+      ],
+    },
     image: "/images/martinez.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
