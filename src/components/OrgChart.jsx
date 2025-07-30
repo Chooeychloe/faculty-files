@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { people } from "../data";
 import PersonHeader from "./PersonHeader";
+import Footer from "./widgets/Footer";
 
 function OrgChart() {
   const navigate = useNavigate();
@@ -104,7 +105,9 @@ function OrgChart() {
                   className="w-20 h-20 rounded-full object-cover mx-auto mb-2 border-4 border-white"
                 />
                 <p className="font-medium">{faculty.name}</p>
-                <p className="text-sm">{faculty.designation || "Faculty Member"}</p>
+                <p className="text-sm">
+                  {faculty.designation || "Faculty Member"}
+                </p>
               </div>
             ))}
           </div>
@@ -118,8 +121,7 @@ function OrgChart() {
           />
         </div>
       )}
-
-     
+    <Footer textColor={"text-gray-900"} iconColor="text-gray-900"/>
     </div>
   );
 }

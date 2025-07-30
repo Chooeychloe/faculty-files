@@ -4,8 +4,8 @@ import Logo from "../assets/cvsu.ico";
 import PersonCard from "./PersonCard";
 import { people } from "../data";
 import { X, Search } from "lucide-react";
+import Footer from "./widgets/Footer";
 function Header() {
-
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
@@ -75,14 +75,12 @@ function Header() {
                 </button>
               )}
             </div>
-            
           </div>
-        
         </div>
-         
       </header>
 
       <PersonCard data={filteredPeople} />
+      <Footer textColor={"text-white"} />
     </>
   );
 }
