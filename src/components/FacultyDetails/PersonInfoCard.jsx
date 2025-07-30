@@ -1,10 +1,6 @@
 import React from "react";
-<<<<<<< HEAD:src/components/PersonInfoCard.jsx
-import { toFormalCase } from './utils/formatTitleCase'
+// import { toFormalCase } from '../utils/formatTitleCase'
 
-=======
-import { toFormalCase } from '../utils/formatTitleCase';
->>>>>>> 6d546e064a5a063c3318b90a4d655461c6afab7e:src/components/FacultyDetails/PersonInfoCard.jsx
 
 function PersonInfoCard({
  
@@ -42,11 +38,7 @@ function PersonInfoCard({
                     rel="noopener noreferrer"
                     className="hover:underline hover:text-red-900"
                   >
-<<<<<<< HEAD:src/components/PersonInfoCard.jsx
-                    {toFormalCase(doc.name) || `Diploma ${index + 1}`}
-=======
-                    { toFormalCase(doc.name) || `Diploma ${index + 1}`}
->>>>>>> 6d546e064a5a063c3318b90a4d655461c6afab7e:src/components/FacultyDetails/PersonInfoCard.jsx
+                    {/* {doc.name || `Diploma ${index + 1}`} */}
                   </a>
                 </li>
               ))}
@@ -60,7 +52,7 @@ function PersonInfoCard({
             rel="noopener noreferrer"
             className="hover:underline hover:text-red-900"
           >
-            {toFormalCase(masters_diploma.name)} 
+            {/* {masters_diploma}  */}
           </a>
         )}
         {Array.isArray(tor) && tor.length > 0 && (
