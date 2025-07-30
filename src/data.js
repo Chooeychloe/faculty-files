@@ -8,7 +8,7 @@ export const people = [
     image: "/images/ocampo.jpg",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
+    // resume: "/resume/resume-sample.png",
     certificates: [{
       name: "Certificate in Teaching and Learning",
       url: "/certificates/cert.jpg"
