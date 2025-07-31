@@ -5942,7 +5942,7 @@ export const people = [
     last_name: "Decipulo",
     name: "Redem M. Decipulo",
     designation: "Instructor I",
-    image: "/images/decipulo.jpg",
+    image: "/images/decipulo2.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link" },
     ],
@@ -6327,7 +6327,7 @@ export const people = [
     last_name: "Dela Pena",
     name: "Jen Jerome V. Dela Pena",
     designation: "Instructor I",
-    image: "/images/delapena.png",
+    image: "/images/delapena2.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link" }
     ],
@@ -10959,7 +10959,7 @@ export const people = [
     last_name: "Rodil",
     name: "Nino M. Rodil",
     designation: "Instructor I",
-    image: "/images/rodil.jpg",
+    image: "/images/rodil2.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1Qqu3GM0naLFfLRAweoTQ-qLgh7yIdOnm/view?usp=drive_link"
