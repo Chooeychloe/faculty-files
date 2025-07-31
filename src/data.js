@@ -4,26 +4,223 @@ export const people = [
     first_name: "Jovelyn",
     last_name: "Ocampo",
     name: "Jovelyn D. Ocampo, MIT",
-    designations: { 
-      current_designation: "Head, OSAS",
+    designations: {
+      current_designation: "Department Chairperson",
       last_designation: [
-        { year: 2024, designation: "Try2024" },
-        { year: 2023, designation: "Try2023" },
+        { year: 2024, designation: "Program Coordinator, Information Technology" },
+        { year: 2023, designation: "Head, Learning Management System" },
       ],
     },
-    image: "/images/ocampo.jpg",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
-    certificates: [{
-      name: "Certificate in Teaching and Learning",
-      url: "/certificates/cert.jpg"
+    image: "/images/ocampo.JPG",
+    diploma: [{
+      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1eb7ywoWS-hKWnlj8g9OfPXKNqLJrQhiy/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1WWpHuA60ivYuKWDe3AGQJaGJY8pDnYK4/view?usp=drive_link"
     }],
-    speaking_engagements: [{
-      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
-      url: "/certificates/cert.jpg"
-    }],
-    masters_diploma: "/diploma/diplom.jpg",
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/1PsNd_dHgQAT1TspG9s21qBBvEr6IITTY/view?usp=drive_link"
+      },
+      {
+        name: "Education Units",
+        url: "https://drive.google.com/file/d/1T4VU3BE4tlWK5Z3wnr_L8IobacfmYtmK/view?usp=drive_link"
+      },
+      {
+        name: "Masters in Information Technology",
+        url: "https://drive.google.com/file/d/1pd25vvYjys5ZUegGQEWrTO0tubJXhH1y/view?usp=drive_link"
+      },
+    ],
+    resume: "https://drive.google.com/file/d/1_pRyAoW8oieEtTcWmI7pfpaJymr8VdLx/view?usp=drive_link",
+    certificates: [
+      {
+        name: "DICT E-commerce Webinar",
+        url: "https://drive.google.com/file/d/1VklpTNn3L8wSKJ0kc4FAjMNL_Ym4uUWq/view?usp=drive_link"
+      },
+      {
+        name: "DICT Managing Time as Freelancer Webinar",
+        url: "https://drive.google.com/file/d/12NtdNCJYAADdAPfJo9rHOH4azPQVgVmp/view?usp=drive_link"
+      },
+      {
+        name: "DICT Technology in New Normal Webinar",
+        url: "https://drive.google.com/file/d/1W3YtRu49sV_CTtU3FVertXZ9rsiiMJUJ/view?usp=drive_link"
+      },
+      {
+        name: "TESDA Introduction to CSS",
+        url: "https://drive.google.com/file/d/1yMRuK_wIow0W1aRtol4gITStedUTo_Eu/view?usp=drive_link"
+      },
+      {
+        name: "TESDA Installing and Configuring Computer Systems",
+        url: "https://drive.google.com/file/d/1u1BclUMWKasAygF5aewu31dOGCx7Qwt8/view?usp=drive_link"
+      }, {
+        name: "TESDA Maintaining Computer Systems and Networks",
+        url: "https://drive.google.com/file/d/1uvbaDJa0mtCb0dt_6CflO5qmv145IOjY/view?usp=drive_link"
+      }, {
+        name: "TESDA Practicing COVID-19 Preventive Measures in the Workplace",
+        url: "https://drive.google.com/file/d/1RE8vP5Oo2s6KsbZImWgkzt0tW1-VpY8x/view?usp=drive_link"
+      }, {
+        name: "TESDA Setting up Computer Networks",
+        url: "https://drive.google.com/file/d/1aZnsqnYaBNZnRtzUx_2acjt9-h2v9mUb/view?usp=drive_link"
+      },
+      {
+        name: "2024 Future Philippines Conference",
+        url: "https://drive.google.com/file/d/1ukltmlhbrSt2bvAM4hUJRYV57Wo6USRj/view?usp=drive_link"
+      }, {
+        name: "CELLAR Webinar Series: Narrative Report and Student Teaching Portfolio",
+        url: "https://drive.google.com/file/d/1QibzA2qBK_N0JJGW1YBBkMeoBq04s0IZ/view?usp=drive_link"
+      }, {
+        name: "Challenges of the New Normal: Cavite HEIs Face and Learn as One",
+        url: "https://drive.google.com/file/d/18ud9X8gipYlPoYlULaTkckrKlMyzDVkk/view?usp=drive_link"
+      }, {
+        name: "Strengthening Educator's Mental Health",
+        url: "https://drive.google.com/file/d/1y1MSXNaqps9oSP3_EoRo3dry6lq4s4wD/view?usp=drive_link"
+      }, {
+        name: "Building Community for Student Success",
+        url: "https://drive.google.com/file/d/1qjJQmb7HapotF-eCEwsTtXlwNwe0fd5R/view?usp=drive_link"
+      }, {
+        name: "2021 Employee's Orientation cum Capability Enhancement for Teachers",
+        url: "https://drive.google.com/file/d/1baO9HapfzQ-6kpsxNINI-IqPWuHihLGm/view?usp=drive_link"
+      },
+      {
+        name: "Webinar Series on Course Design and Delivery for Flexible Learning Arrangement",
+        url: "https://drive.google.com/file/d/1scql3ZOsF7RMHkNCzvnCWhSP9jmktqMs/view?usp=drive_link"
+      },
+      {
+        name: "Learning Management System Training for CvSU LMS Campus",
+        url: "https://drive.google.com/file/d/14aKfQMWBnYsnA-78VcmKJIuRrIIrQsRn/view?usp=drive_link"
+      }, {
+        name: "MULTIMEDIA: Basic Photo & Video Editing & Its Career Opportunities",
+        url: "https://drive.google.com/file/d/1tCQ-34gUVwfMO4qIHjlU3iMKgkPG39f1/view?usp=drive_link"
+      }, {
+        name: "IOT Fundamentals: The Begineer's Guide to Internet of Things",
+        url: "https://drive.google.com/file/d/1knbGDWYZoueBbweLe-4NbFKTJsfI2qPP/view?usp=drive_link"
+      }, {
+        name: "Web Security & Web Development: Trends & Things to Learn",
+        url: "https://drive.google.com/file/d/1QfYwYxfxtaIAaYVaQS39VgVW9aH-VNBh/view?usp=drive_link"
+      }, {
+        name: "DICT Cybersecurity: Cybercriminals and Social Media",
+        url: "https://drive.google.com/file/d/1F0UUYGrloEfGFXcyvTVEDiSPONQbUkLi/view?usp=drive_link"
+      },
+      {
+        name: "DICT Building a Cybersecurity Framework towards a Secured Organization",
+        url: "https://drive.google.com/file/d/11u0Sn_Q4vpe-HqbwZyddAQtJCIiUi1TQ/view?usp=drive_link"
+      },
+      {
+        name: "DICT Netiquette and Data Privacy",
+        url: "https://drive.google.com/file/d/1ssHnncRyuNUeBEEEo_Zg-C8421Z1Dau0/view?usp=drive_link"
+      }, {
+        name: "DICT Enhanced Institutional Development Workshop",
+        url: "https://drive.google.com/file/d/1kwbWZ4ezEjdhStGpIjZ1eJZlN8tu8LVJ/view?usp=drive_link"
+      }, {
+        name: "DICT ICT Trends and Essentials in the New Normal",
+        url: "https://drive.google.com/file/d/1nbV2wxLG3eedQXdspnjGXqmeuyp5BzGc/view?usp=drive_link"
+      },
+      {
+        name: "DICT STS Approach in Understanding the Impact of Digital Technology for Women",
+        url: "https://drive.google.com/file/d/1d8r0pbYhdMRhr5rWoKq431FCLn5diVnH/view?usp=drive_link"
+      },
+      {
+        name: "DICT FreeWifi: Internet Media and Information Literacy",
+        url: "https://drive.google.com/file/d/1dI5gvw0MQY7od63760b_AatR0B49EpGr/view?usp=drive_link"
+      }, {
+        name: "DICT Introduction to Arduino",
+        url: "https://drive.google.com/file/d/1XgZQXLu095JBjIgvFBeKaAlIJpf0EpC_/view?usp=drive_link"
+      }, {
+        name: "DICT IT Security Policy: The Baseline in Information Security",
+        url: "https://drive.google.com/file/d/1-z6VoGy0VGMmwMYbGSmhWSHo_j_Cvl87/view?usp=drive_link"
+      }, {
+        name: "DICT Interactive Learning Methods to Modern Students",
+        url: "https://drive.google.com/file/d/1i6lr1IdJU8CF_BS3agTC6sBb0tcLguJy/view?usp=drive_link"
+      }, {
+        name: "DICT Low Bandwith Teaching: Making Distance Learning More Inclusive",
+        url: "https://drive.google.com/file/d/1aHeAYr9HbqeMtTY2jBZS2FDehOj3sij2/view?usp=drive_link"
+      }, {
+        name: "DICT Making the Right Deal for Persons with Disabilities",
+        url: "https://drive.google.com/file/d/1ILBorZYb6JIBNQ8nBl1zGKrEjXoCdZp8/view?usp=drive_link"
+      }, {
+        name: "DICT Orientation of NVDA Screen Readers for Visually-Impaired Clients to Tech4ED Center Managers & Knowledge Workers",
+        url: "https://drive.google.com/file/d/1STtnPA2YjAwqGIBtQO0qylHDuul4mDbP/view?usp=drive_link"
+      }, {
+        name: "DICT The Hows of Becoming an ESL Teacher",
+        url: "https://drive.google.com/file/d/1WfNqxcUkxsA8YbiJOtSAld2XrkakDGVQ/view?usp=drive_link"
+      }, {
+        name: "DOST 42nd Annual Scientific Meeting",
+        url: "https://drive.google.com/file/d/10rskH3ZFccwEsYAdvti5gU3qp9H9JJIn/view?usp=drive_link"
+      },
+      {
+        name: "DOST & CvSU 2nd National Makapuno Summit",
+        url: "https://drive.google.com/file/d/1w3ofJlAjX-rNA_8lzdq5VDyhkfaH8NpO/view?usp=drive_link"
+      }, {
+        name: "DOST Webinar Series on Intellectual Property and Technology Transfer",
+        url: "https://drive.google.com/file/d/1DbGRhRlK_2xC5tWL3KgPiZ60Z15khUNe/view?usp=drive_link"
+      }, {
+        name: "GLOBE FOREFRONT: The 2020 National Conference on Digital Learning",
+        url: "https://drive.google.com/file/d/1AdYpmIXz-WrVkLvv7bqEmpoOmfKB_rXW/view?usp=drive_link"
+      }, {
+        name: "KAAGAPAY Teacher Support Adaptive Design for Learning",
+        url: "https://drive.google.com/file/d/1RwJp-0zf62DcemCLuBOMtFivyxMF5mS6/view?usp=drive_link"
+      }, {
+        name: "KAAGAPAY Teacher Support Canva 101 and Principles of Design",
+        url: "https://drive.google.com/file/d/1BylXBQzluAp8rUXirS4jlI4JVgzrflhH/view?usp=drive_link"
+      }, {
+        name: "KAAGAPAY Teacher Support Promoting Integrity and Honesty in Assessments",
+        url: "https://drive.google.com/file/d/1EFykBe20nJtXX8UEzVwFgpJQ8GMWdEe0/view?usp=drive_link"
+      },
+      {
+        name: "KAAGAPAY Teacher Support Technology Integration in a Hybrid Setup",
+        url: "https://drive.google.com/file/d/1fIJQ9M0AoqMpiT71elg39wVXf7GYl_c4/view?usp=drive_link"
+      }, {
+        name: "Model Online Lessons with National Geographic Learning",
+        url: "https://drive.google.com/file/d/1GYjz4KIxvrd4cKq3h0urmQ6BETrMagEk/view?usp=drive_link"
+      }, {
+        name: "ROTARY's ENGAGE: Creating a Better World and Building International Relationship",
+        url: "https://drive.google.com/file/d/1s7Ju8ZYiJHFr6SPxRIk438PaVzX4de6b/view?usp=drive_link"
+      }, {
+        name: "UE Technology's Bright Impact on the Pandemic",
+        url: "https://drive.google.com/file/d/152yrqR1l9s8jZKXW5-urQqdfEUmLgmX4/view?usp=drive_link"
+      }, {
+        name: "Best Concept Paper - Writeshop on Research Development and Publication",
+        url: "https://drive.google.com/file/d/1isGkI6g5rvf5iHYNd98Wt5bxj395nGcp/view?usp=drive_link"
+      }, {
+        name: "2023 Faculty Research Colloquium - Call for Proposals",
+        url: "https://drive.google.com/file/d/18A9qZ2UbX67gpkWINz0PAPlq9MJWxg1q/view?usp=drive_link"
+      }, {
+        name: "Courtship: Pursuing Viable Coffee Business Ventures",
+        url: "https://drive.google.com/file/d/1_VCOXCde-cwgETLJcvB0MkKv6H8kwXm_/view?usp=drive_link"
+      }, {
+        name: "Navigating the New Normal: Effective Research Methods Amidst the Pandemic",
+        url: "https://drive.google.com/file/d/1pJNh_xAUYFAVE7CYXK2gz7QVv3TdXSrp/view?usp=drive_link"
+      }, {
+        name: "National Ethical Guidelines and National Regulations Applying Research Ethics Principles",
+        url: "https://drive.google.com/file/d/1tstNQ8lkuA1ZKFs4czehRaCKd9FiyU-w/view?usp=drive_link"
+      }, {
+        name: "Impactful Services and Transformative Opportunities in Response to the needs of Community and the Academe",
+        url: "https://drive.google.com/file/d/1ws6rwtJ2oOG-JxxWK3PTIh_fPP-xI3vq/view?usp=drive_link"
+      }, {
+        name: "Training Workshop on Impact Assessment of Extension Programs/Projects",
+        url: "https://drive.google.com/file/d/13LfXzG38IscadfiDMelumNyDH8HvuerE/view?usp=drive_link"
+      }, {
+        name: "Capability Enhancement and Training Workshop for Extension Implementers",
+        url: "https://drive.google.com/file/d/1Ym2UgVr6DHv7ik0oeLlZ6Y3S3nogWKHO/view?usp=drive_link"
+      },
+      {
+        name: "Going Virtual: Teaching Research in the New Normal",
+        url: "https://drive.google.com/file/d/1scE1mTop-ki5Is7RHBnef5lVfIgcVGAv/view?usp=drive_link"
+      }
+    ],
+    speaking_engagements: [
+      {
+        name: "Resource Speaker: Capability Enhancement Training on the Utilization of the CvSU - Learning Management System",
+        url: "https://drive.google.com/file/d/1JyjRYKmT809wJQRplriEVrTKBhzLYPoi/view?usp=drive_link"
+      },
+      {
+        name: "Resource Speaker: Department of Computer Studies' Faculty Orientation",
+        url: "https://drive.google.com/file/d/18-6ZG3wryxLOhWfJouuybGJALVcN5lKf/view?usp=drive_link"
+      },
+    ],
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -184,8 +381,20 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [
+            { time: "8:00 AM - 9:00 AM", subject: "ITEC 111", section: "IT 4-1", room: null },
+            { time: "9:00 AM - 10:00 AM", subject: "ITEC 111", section: "IT 4-3", room: "Room 303" },
+            { time: "12:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-4", room: "Room 303" },
+            { time: "1:00 PM - 3:00 PM", subject: "ITEC 111", section: "IT 4-1", room: "CL 4" },
+            { time: "3:00 PM - 5:00 PM", subject: "ITEC 111", section: "IT 4-5", room: "CL 4" },
+            { time: "5:00 PM - 6:00 PM", subject: "ITEC 111", section: "IT 4-3", room: null },
+            { time: "6:00 PM - 7:00 PM", subject: "ITEC 111", section: "IT 4-5", room: null },
+
+
+          ],
+          tuesday: [
+
+          ],
           wednesday: [],
           thursday: [],
           friday: [],
@@ -215,7 +424,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 3.79],
+    evaluation_scores: [4.30, 4.47, 4.71, 4.59, 4.48, 3.79],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -295,7 +504,13 @@ export const people = [
     first_name: "Ely Rose ",
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
-    designation: "Computer Science Program Coordinator",
+    designations: {
+      current_designation: "Coordinator, Computer Science Program",
+      last_designation: [
+        { year: 2024, designation: "Try2024" },
+        { year: 2023, designation: "Try2023" },
+      ],
+    },
     image: "/images/briones.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -496,8 +711,13 @@ export const people = [
     first_name: "Donnalyn ",
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
-    designation: "Information Technology Program Coordinator",
-    image: "/images/montallana.JPG",
+    designations: {
+      current_designation: "Coordinator, Information Technology Program",
+      last_designation: [
+        { year: 2024, designation: "Try2024" },
+        { year: 2023, designation: "Try2023" },
+      ],
+    }, image: "/images/montallana.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
     resume: "/resume/resume-sample.png",
@@ -6984,7 +7204,7 @@ export const people = [
     first_name: "Edmund",
     last_name: "Martinez",
     name: "Edmund E. Martinez",
-    designations: { 
+    designations: {
       current_designation: "Instructor I",
       last_designation: [
         { year: 2024, designation: "Try2024" },
@@ -7617,7 +7837,7 @@ export const people = [
     first_name: "Richard",
     last_name: "Ongayo",
     name: "Ridhard D. Ongayo",
-    designation: "Instructor I",
+    designation: "Assistant Professor I",
     image: "/images/ongayo.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",

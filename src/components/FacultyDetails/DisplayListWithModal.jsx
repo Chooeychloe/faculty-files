@@ -25,7 +25,7 @@ function DisplayListWithModal({ title, items }) {
               rel="noopener noreferrer"
               className="hover:underline hover:text-red-900"
             >
-              {toFormalCase(doc.name) || `${title} ${index + 1}`}
+              {doc.name || `${title} ${index + 1}`}
             </a>
           </li>
         ))}

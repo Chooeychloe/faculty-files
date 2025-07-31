@@ -1,4 +1,3 @@
-import React, { useState, useMemo } from "react";
 import { toFormalCase } from '../utils/formatTitleCase';
 import DisplayListWithModal from "./DisplayListWithModal";
 
@@ -13,7 +12,8 @@ function PersonInfoCard({
   certificates,
   speaking_engagements,
   membership
-}) {
+}) 
+{
 
   return (
     // Main card container
@@ -34,7 +34,6 @@ function PersonInfoCard({
           <p className="text-xl font-semibold text-red-900 mb-1">
             {designations.current_designation}
           </p>
-          <p className="text-sm text-gray-600">Current Role</p>
         </div>
       )}
 
@@ -43,9 +42,9 @@ function PersonInfoCard({
           designations.last_designation.length > 0 && (
             <div className="mb-6 border-t pt-4 border-gray-300">
               <h3 className="text-base font-semibold text-gray-800 mb-2">
-                Previous Designations
+                 Designations
               </h3>
-              <ul className="list-disc list-inside space-y-1 text-red-900">
+              <ul className="list-disc list-inside space-y-1 text-red-900 text-start">
                 {designations.last_designation.map((item, index) => (
                   <li key={index} className="text-sm">
                     <span className="font-medium">{item.designation}</span>(
@@ -110,7 +109,7 @@ function PersonInfoCard({
               
               {resume && (
                 <div className="mt-4">
-                  <a href={resume.url} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-gray-800 hover:underline hover:text-red-900">
+                  <a href={resume} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-gray-800 hover:underline hover:text-red-900">
                     View Resume
                   </a>
                 </div>

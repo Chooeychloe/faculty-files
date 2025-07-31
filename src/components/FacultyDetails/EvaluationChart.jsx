@@ -35,11 +35,11 @@ function EvaluationChart({first_name,last_name, evaluationScores, evaluationLabe
         labels: {
           generateLabels: (chart) => {
             const scoreMeanings = {
-              5: "5 - Very Satisfactory",
-              4: "4 - Satisfactory",
-              3: "3 - Fair",
+              5: "5 - Outstanding",
+              4: "4 - Very Satisfactory",
+              3: "3 - Satisfactory",
               2: "2 - Unsatisfactory",
-              1: "1 - Very Unsatisfactory",
+              1: "1 - Poor",
             };
             const dataset = chart.data.datasets[0];
             return [
