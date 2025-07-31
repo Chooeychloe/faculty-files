@@ -104,8 +104,6 @@ export default function Dashboard() {
     setCurrentImage((prev) => (prev + 1) % images.length);
   }, []);
 
- 
-
   // --- Modal and Navigation Functions ---
   const openModal = (image) => {
     setSelectedImage(image);
@@ -129,7 +127,7 @@ export default function Dashboard() {
   }, [next]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col min-h-screen bg-gray-50 overflow-x-hidden">
       {/* <Header /> */}
       <Navigation />
 
