@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/orgchart" element={<OrgChart />} />
-        <Route path="/home" element={<Header />} /> {/* 👈 Add this line */}
+        <Route path="/home" element={<Header />} />
         <Route path="/person/:id" element={<PersonDetail />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
