@@ -105,11 +105,12 @@ function OrgChart() {
                   className="w-20 h-20 rounded-full object-cover mx-auto mb-2 border-4 border-white"
                 />
                 <p className="font-medium">{faculty.name}</p>
-                <p className="text-sm">
-                  Faculty Member
-                  {/* {faculty.designations.current_designation || 
-                  "Faculty Member"} */}
-                </p>
+                {faculty.designations &&
+                  faculty.designations.current_designation && (
+                    <p className="text-sm">
+                      {faculty.designations.current_designation}
+                    </p>
+                  )}
               </div>
             ))}
           </div>
@@ -123,7 +124,7 @@ function OrgChart() {
           />
         </div>
       )}
-    <Footer textColor={"text-gray-900"} iconColor="text-gray-900"/>
+      <Footer textColor={"text-gray-900"} iconColor="text-gray-900" />
     </div>
   );
 }
