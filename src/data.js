@@ -226,58 +226,184 @@ export const people = [
       },
     ],
     schedule: [
-      {
+      { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "8:00 AM - 9:00 AM", subject: "DCIT 24", section: "CS 2-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 24", section: "CS 2-2" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 24", section: "CS 2-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "DCIT 24", section: "CS 2-1" },
-            { time: "1:00 PM - 3:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            { time: "8:00 AM - 9:00 AM", 
+              subject: "DCIT 24", 
+              section: "CS 2-2",
+              room: null,
+            },
+            { time: "9:00 AM - 10:00 AM", 
+              subject: "DCIT 24", 
+              section: "CS 2-2",
+              room: null, 
+            },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "DCIT 24", 
+              section: "CS 2-1",
+              room: null,
+            },
+            { time: "11:00 AM - 12:00 PM", 
+              subject: "DCIT 24", 
+              section: "CS 2-1",
+              room: null, 
+            },
+            { time: "1:00 PM - 3:00 PM", 
+              subject: "CONSULTATION", 
+              room: "FACULTY" 
+            }
           ],
           tuesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "CVSU 101", section: "CS 1-3" },
-            { time: "8:00 AM - 9:00 AM", subject: "DCIT 22", section: "IT 1-2" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 22 (LAB)", section: "CS 1-1" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 22 (LAB)", section: "CS 1-1" },
-            { time: "1:00 PM - 2:00 PM", subject: "DCIT 22 (LAB)", section: "IT 1-2" },
-            { time: "7:00 PM - 8:00 PM", subject: "COSC 101", section: "CS 3-1" },
-            { time: "8:00 PM - 9:00 PM", subject: "COSC 101", section: "CS 3-1" }
+            { time: "7:00 AM - 8:00 AM", 
+              subject: "CVSU 101", 
+              section: "CS 1-3",
+              room: null, 
+            },
+            { time: "8:00 AM - 9:00 AM", 
+              subject: "DCIT 22", 
+              section: "IT 1-2",
+              room: null,
+            },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "CS 1-1",
+              room: null,
+            },
+            { time: "11:00 AM - 1:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "CS 1-1",
+              room: null, 
+            },
+            { time: "1:00 PM - 2:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "IT 1-2", 
+              room: null,
+            },
+            { time: "7:00 PM - 8:00 PM", 
+              subject: "COSC 101", 
+              section: "CS 3-1", 
+              room: null,
+            },
+            { time: "8:00 PM - 9:00 PM", 
+              subject: "COSC 101", 
+              section: "CS 3-1", 
+              room: null,
+            }
           ],
           wednesday: [
-            { time: "1:00 PM - 2:00 PM", subject: "DCIT 24 (LAB)", section: "CS 2-1" },
-            { time: "2:00 PM - 4:00 PM", subject: "DCIT 24 (LAB)", section: "CS 2-1" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 24 (LAB)", section: "CS 2-2" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 24 (LAB)", section: "CS 2-2" }
+            { time: "1:00 PM - 2:00 PM", 
+              subject: "DCIT 24 (LAB)", 
+              section: "CS 2-1",
+              room: null, 
+            },
+            { time: "2:00 PM - 4:00 PM", 
+              subject: "DCIT 24 (LAB)", 
+              section: "CS 2-1",
+              room: null, 
+            },
+            { time: "4:00 PM - 5:00 PM", 
+              subject: "DCIT 24 (LAB)", 
+              section: "CS 2-2",
+              room: null, 
+            },
+            { time: "5:00 PM - 7:00 PM", 
+              subject: "DCIT 24 (LAB)", 
+              section: "CS 2-2",
+              room: null, 
+            }
           ],
           thursday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 101 (LAB)", section: "CS 3-1" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 101 (LAB)", section: "CS 3-1" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 22 (LAB)", section: "CS 1-1" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 22 (LAB)", section: "CS 1-1" },
-            { time: "1:00 PM - 2:00 PM", subject: "DCIT 22 (LAB)", section: "IT 1-2" },
-            { time: "2:00 PM - 4:00 PM", subject: "DCIT 22 (LAB)", section: "IT 1-2" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 22 (LAB)", section: "CS 1-1" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 22 (LAB)", section: "IT 1-2" },
-            { time: "8:00 PM - 9:00 PM", subject: "COSC 101 (LAB)", section: "CS 3-1" }
+            { time: "7:00 AM - 8:00 AM", 
+              subject: "COSC 101 (LAB)", 
+              section: "CS 3-1", 
+              room: null,
+            },
+            { time: "8:00 AM - 9:00 AM", 
+              subject: "COSC 101 (LAB)", 
+              section: "CS 3-1", 
+              room: null,
+            },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "CS 1-1", 
+              room: null,
+            },
+            { time: "11:00 AM - 1:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "CS 1-1", 
+              room: null,
+            },
+            { time: "1:00 PM - 2:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "IT 1-2", 
+              room: null,
+            },
+            { time: "2:00 PM - 4:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "IT 1-2", 
+              room: null,
+            },
+            { time: "4:00 PM - 5:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "CS 1-1" 
+
+            },
+            { time: "5:00 PM - 7:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "IT 1-2", 
+
+            },
+            { time: "8:00 PM - 9:00 PM", 
+              subject: "COSC 101 (LAB)", 
+              section: "CS 3-1", 
+
+            }
           ],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
-      {
+      { //2nd 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-4" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 70 (LEC)", section: "IT 2-2", room: "ROOM 305" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 70 (LEC)", section: "IT 2-4", room: "ROOM 303" },
-            { time: "1:00 PM - 2:30 PM", subject: "ITEC 70 (LAB)", section: "IT 2-2", room: "CL 4" },
-            { time: "3:00 PM - 5:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "6:00 PM - 9:00 PM", subject: "ITEC 70 (LAB)", section: "IT 2-1", room: "CL 2" }
+            { time: "7:00 AM - 8:00 AM", 
+              subject: "ITEC 70 (LEC) ASYNC", 
+              section: "IT 2-4", 
+              room: null,
+            },
+            { time: "8:00 AM - 9:00 AM", 
+              subject: "ITEC 70 (LEC) ASYNC", 
+              section: "IT 2-2",
+              room: null, 
+            },
+            { time: "9:00 AM - 10:00 AM", 
+              subject: "ITEC 70 (LEC)", 
+              section: "IT 2-2", 
+              room: "ROOM 305" 
+            },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "ITEC 70 (LEC)", 
+              section: "IT 2-4", 
+              room: "ROOM 303" 
+            },
+            { time: "1:00 PM - 2:30 PM", 
+              subject: "ITEC 70 (LAB)", 
+              section: "IT 2-2", 
+              room: "CL 4" 
+            },
+            { time: "3:00 PM - 5:00 PM", 
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY" },
+            { time: "6:00 PM - 9:00 PM", 
+              subject: "ITEC 70 (LAB)", 
+              section: "IT 2-1", 
+              room: "CL 2" 
+            }
           ],
           tuesday: [
             { time: "7:00 AM - 8:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-6" },
@@ -304,54 +430,161 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      { //1st 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "7:00 AM - 9:00 AM", subject: "DCIT 24", section: "IT 2-6", room: "CL 4" },
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 24 (LAB) ASYNC", section: "IT 2-6" },
-            { time: "1:00 PM - 3:00 PM", subject: "DCIT 24", section: "IT 2-7", room: "CL 4" },
+            { time: "7:00 AM - 9:00 AM", 
+              subject: "DCIT 24", 
+              section: "IT 2-6", 
+              room: "CL 4" },
+            { time: "9:00 AM - 10:00 AM", 
+              subject: "DCIT 24 (LAB) ASYNC", 
+              section: "IT 2-6", 
+              room: null,
+            },
+            { time: "1:00 PM - 3:00 PM", 
+              subject: "DCIT 24", 
+              section: "IT 2-7", 
+              room: "CL 4" 
+            },
           ],
           tuesday: [
-            { time: "7:00 AM - 10:00 AM", subject: "DCIT 22", section: "IT 1-4", room: "CL 2" },
-            { time: "10:00 AM - 1:00 PM", subject: "DCIT 22 (LAB)", section: "IT 1-5", room: "CL 2" },
-            { time: "2:00 PM - 3:00 PM", subject: "DCIT 22 (LEC)", section: "IT 1-4", room: "ROOM 305" },
-            { time: "3:00 PM - 4:00 PM", subject: "DCIT 22 (LAB) ASYNC", section: "IT 1-6" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 22 (LEC)", section: "IT 1-6", room: "CL 4" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 22", section: "IT 1-6", room: "CL 4" },
-            { time: "7:00 PM - 8:00 PM", subject: "DCIT 24 (LEC) ASYNC", section: "IT 2-6" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 24 (LEC) ASYNC", section: "IT 2-7" }
+            { time: "7:00 AM - 10:00 AM", 
+              subject: "DCIT 22", 
+              section: "IT 1-4", 
+              room: "CL 2" 
+            },
+            { time: "10:00 AM - 1:00 PM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "IT 1-5", 
+              room: "CL 2" 
+            },
+            { time: "2:00 PM - 3:00 PM", 
+              subject: "DCIT 22 (LEC)", 
+              section: "IT 1-4", 
+              room: "ROOM 305" 
+            },
+            { time: "3:00 PM - 4:00 PM", 
+              subject: "DCIT 22 (LAB) ASYNC", 
+              section: "IT 1-6",
+              room: null,
+            },
+            { time: "4:00 PM - 5:00 PM", 
+              subject: "DCIT 22 (LEC)", 
+              section: "IT 1-6", 
+              room: "CL 4" 
+            },
+            { time: "5:00 PM - 7:00 PM", 
+              subject: "DCIT 22", 
+              section: "IT 1-6", 
+              room: "CL 4" 
+            },
+            { time: "7:00 PM - 8:00 PM", 
+              subject: "DCIT 24 (LEC) ASYNC", 
+              section: "IT 2-6", 
+              room: null,
+            },
+            { time: "8:00 PM - 9:00 PM", 
+              subject: "DCIT 24 (LEC) ASYNC", 
+              section: "IT 2-7", 
+              room: null,
+            }
           ],
           wednesday: [],
           thursday: [
-            { time: "7:00 AM - 9:00 AM", subject: "DCIT 22", section: "IT 1-4", room: "CL 2" },
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 22 (LAB) ASYNC", section: "IT 1-4" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 22 (LAB) ASYNC", section: "IT 1-5" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 22", section: "IT 1-5", room: "CL 2" },
-            { time: "2:00 PM - 3:00 PM", subject: "DCIT 22 (LEC)", section: "IT 1-5", room: "ROOM 305" },
-            { time: "3:00 PM - 5:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            { time: "7:00 AM - 9:00 AM", 
+              subject: "DCIT 22", 
+              section: "IT 1-4", 
+              room: "CL 2" 
+            },
+            { time: "9:00 AM - 10:00 AM", 
+              subject: "DCIT 22 (LAB) ASYNC", 
+              section: "IT 1-4", 
+              room: null,
+            },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "DCIT 22 (LAB) ASYNC", 
+              section: "IT 1-5", 
+              room: null,
+            },
+            { time: "11:00 AM - 1:00 PM", 
+              subject: "DCIT 22", 
+              section: "IT 1-5", 
+              room: "CL 2" 
+            },
+            { time: "2:00 PM - 3:00 PM", 
+              subject: "DCIT 22 (LEC)", 
+              section: "IT 1-5", 
+              room: "ROOM 305" 
+            },
+            { time: "3:00 PM - 5:00 PM", 
+              subject: "CONSULTATION",
+              section: null, 
+              room: "FACULTY" 
+            }
           ],
           friday: [],
           saturday: [
-            { time: "7:00 AM - 9:00 AM", subject: "DCIT 22 (LAB)", section: "IT 1-6", room: "CL 4" },
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 22 (LAB) ASYNC", section: "IT 1-6" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 24 (LEC)", section: "IT 2-6", room: "ROOM 303" },
-            { time: "11:00 AM - 12:00 PM", subject: "DCIT 24 (LEC)", section: "IT 2-7", room: "ROOM 303" }
+            { time: "7:00 AM - 9:00 AM", 
+              subject: "DCIT 22 (LAB)", 
+              section: "IT 1-6", 
+              room: "CL 4" 
+            },
+            { time: "9:00 AM - 10:00 AM", 
+              subject: "DCIT 22 (LAB) ASYNC", 
+              section: "IT 1-6" 
+            },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "DCIT 24 (LEC)", 
+              section: "IT 2-6", 
+              room: "ROOM 303" 
+            },
+            { time: "11:00 AM - 12:00 PM", 
+              subject: "DCIT 24 (LEC)", 
+              section: "IT 2-7", 
+              room: "ROOM 303" 
+            }
           ],
           sunday: [],
         }
       },
-      {
+      { //2nd 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "7:00 AM - 8:00 AM", subject: "DCIT 24 (LAB) ASYNC", section: "IT 2-5" },
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTAION", room: "FACULTY" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 70 (LAB) ASYNC", section: "IT 2-6" },
-            { time: "11:00 AM - 1:00 PM", subject: "ITEC 70", section: "IT 2-5", room: "CL 1" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 70 (LAB) ASYNC", section: "IT 2-4" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 70", section: "IT 2-6", room: "CL 1" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 70 (LAB) ASYNC", section: "IT 2-3" }
+            { time: "7:00 AM - 8:00 AM", 
+              subject: "DCIT 24 (LAB) ASYNC", 
+              section: "IT 2-5" },
+            { time: "8:00 AM - 10:00 AM", 
+              subject: "CONSULTAION",
+              room: null,
+              room: "FACULTY" },
+            { time: "10:00 AM - 11:00 AM", 
+              subject: "ITEC 70 (LAB) ASYNC", 
+              section: "IT 2-6",
+              room: null, 
+            },
+            { time: "11:00 AM - 1:00 PM", 
+              subject: "ITEC 70", 
+              section: "IT 2-5", 
+              room: "CL 1" 
+            },
+            { time: "1:00 PM - 2:00 PM", 
+              subject: "ITEC 70 (LAB) ASYNC", 
+              section: "IT 2-4",
+              room: null, 
+            },
+            { time: "3:00 PM - 5:00 PM", 
+              subject: "ITEC 70", 
+              section: "IT 2-6", 
+              room: "CL 1" 
+            },
+            { time: "5:00 PM - 6:00 PM", 
+              subject: "ITEC 70 (LAB) ASYNC", 
+              section: "IT 2-3", 
+              room: null,
+            }
           ],
           tuesday: [
             { time: "9:00 AM - 11:00 AM", subject: "ITEC 70", section: "IT 2-4", room: "CL 1" },
@@ -382,7 +615,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      { //1st 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [
@@ -406,21 +639,45 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "8:00 AM - 11:00 AM", subject: "ITEC 199", section: "IT 4-2", room: "ACCRE" },
-            { time: "11:00 AM - 2:00 PM", subject: "ITEC 199", section: "IT 4-6", room: "ACCRE" }
+            { time: "8:00 AM - 11:00 AM", 
+              subject: "ITEC 199", 
+              section: "IT 4-2", 
+              room: "ACCRE" 
+            },
+            { time: "11:00 AM - 2:00 PM", 
+              subject: "ITEC 199", 
+              section: "IT 4-6", 
+              room: "ACCRE" 
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "9:00 AM - 12:00 PM", subject: "RESEARCH/EXTENSION", room: "FACULTY" },
-            { time: "3:00 PM - 6:00 PM", subject: "ITEC 200A", section: "IT 3-4", room: "ACCRE" }
+            { time: "9:00 AM - 12:00 PM", 
+              subject: "RESEARCH/EXTENSION",
+              section: null,
+              room: "FACULTY" 
+            },
+            { time: "3:00 PM - 6:00 PM", 
+              subject: "ITEC 200A", 
+              section: "IT 3-4", 
+              room: "ACCRE" 
+            }
           ],
           thursday: [
-            { time: "8:00 AM - 11:00 AM", subject: "ITEC 199", section: "IT 4-2", room: "ACCRE" },
-            { time: "11:00 AM - 2:00 PM", subject: "ITEC 199", section: "IT 4-6", room: "ACCRE" }
+            { time: "8:00 AM - 11:00 AM", 
+              subject: "ITEC 199", 
+              section: "IT 4-2", 
+              room: "ACCRE" 
+            },
+            { time: "11:00 AM - 2:00 PM", 
+              subject: "ITEC 199", 
+              section: "IT 4-6", 
+              room: "ACCRE" 
+            }
           ],
           friday: [],
           saturday: [],
@@ -503,18 +760,13 @@ export const people = [
       }
     }
   },
+  
   //Ely Rose Panganiban-Briones
   {
     first_name: "Ely Rose ",
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
-    designations: {
-      current_designation: "Coordinator, Computer Science Program",
-      last_designation: [
-        { year: 2024, designation: "Try2024" },
-        { year: 2023, designation: "Try2023" },
-      ],
-    },
+    designation: "Computer Science Program Coordinator",
     image: "/images/briones.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN Computer Science",
@@ -784,18 +1036,14 @@ export const people = [
       }
     }
   },
+
   //Donnalyn Montallana
   {
     first_name: "Donnalyn ",
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
-    designations: {
-      current_designation: "Coordinator, Information Technology Program",
-      last_designation: [
-        { year: 2024, designation: "Try2024" },
-        { year: 2023, designation: "Try2023" },
-      ],
-    }, image: "/images/montallana.JPG",
+    designation: "Information Technology Program Coordinator",
+    image: "/images/montallana.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
     resume: "https://drive.google.com/file/d/1kD5p9q7zx08Lh5Wi_zMhJUaF3tcAH38r/view?usp=drive_link",
@@ -1148,12 +1396,19 @@ export const people = [
       }
     }
   },
+
   //Steffanie Bato
   {
     first_name: "Steffanie ",
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
-    designation: "Head, OSAS",
+    designations: { 
+      current_designation: "Head, OSAS",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/bato.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -1578,10 +1833,8 @@ export const people = [
     first_name: "Bryan",
     last_name: "Ablaza",
     name: "Bryan Dale Ablaza",
-    designations: {
-      current_designation: "Instructor I",
-
-    }, image: "/images/ablaza.JPG",
+    designation: "Instructor I",
+    image: "/images/ablaza.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
@@ -1601,7 +1854,11 @@ export const people = [
     },],
 
     schedule: [
-      {
+      // No Record 1st 22-23 
+      // No Record 2nd 22-23 
+      // No Record 1st 23-24 
+      // No Record 2nd 23-24 
+      {// 1st 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
@@ -1613,13 +1870,14 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {// 2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
             {
               time: "9:00 AM - 11:00 AM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY ROOM"
             },
             {
@@ -1774,7 +2032,13 @@ export const people = [
     first_name: "Mikaela",
     last_name: "Arciaga",
     name: "Mikaela Arciaga",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/arciaga.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -1793,7 +2057,8 @@ export const people = [
     }],
 
     schedule: [
-      {
+      // No Record 1st 22-23
+      {// 2nd 22-23 
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -1916,7 +2181,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {// 1st 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -2045,7 +2310,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {// 2nd 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -2188,7 +2453,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {// 1st 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
@@ -2200,7 +2465,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {// 1st 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
@@ -2396,7 +2661,13 @@ export const people = [
     first_name: "Stephen",
     last_name: "Bacolor",
     name: "Stephen Bacolor",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/bacolor.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -2642,7 +2913,13 @@ export const people = [
     first_name: "Jhon Nerick",
     last_name: "Batuigas",
     name: "Jhon Nerick Batuigas",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/batuigas.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
@@ -2803,7 +3080,13 @@ export const people = [
     first_name: "Edan",
     last_name: "Belgica",
     name: "Edan A. Belgica",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/belgic.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -3472,7 +3755,13 @@ export const people = [
     first_name: "Ralph Christian",
     last_name: "Bolarda",
     name: "Ralph Christian Bolarda, MIT",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/bolarda.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -4060,7 +4349,13 @@ export const people = [
     first_name: "Rafael",
     last_name: "Carvajal",
     name: "Rafel J. Carvajal",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/carvajal.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
@@ -4235,7 +4530,13 @@ export const people = [
     first_name: "Jerico",
     last_name: "Castillo",
     name: "Jerico D. Castillo",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/castillo.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
@@ -4681,7 +4982,13 @@ export const people = [
     first_name: "Mariel",
     last_name: "Castillo",
     name: "Mariel E. Castillo",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/m_castillo.JPG",
     diploma: [{
       name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS",
@@ -5762,7 +6069,13 @@ export const people = [
     first_name: "Alvin",
     last_name: "Celino",
     name: "Alvin P. Celino",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/celino.JPG",
     diploma: [{
       name: "Bachelor of Science in Computer Engineering",
@@ -5905,7 +6218,13 @@ export const people = [
     first_name: "Allen Dave",
     last_name: "Coles",
     name: "Allen Dave Coles",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/coles.JPG",
     diploma:
       [
@@ -6022,7 +6341,7 @@ export const people = [
     last_name: "Decipulo",
     name: "Redem M. Decipulo",
     designation: "Instructor I",
-    image: "/images/decipulo2.png",
+    image: "/images/decipulo.jpg",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link" },
     ],
@@ -6235,7 +6554,13 @@ export const people = [
     first_name: "Rufino",
     last_name: "Dela Cruz",
     name: "Rufino A. Dela Cruz Jr.",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/delacruz.jpg",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -6407,7 +6732,7 @@ export const people = [
     last_name: "Dela Pena",
     name: "Jen Jerome V. Dela Pena",
     designation: "Instructor I",
-    image: "/images/delapena2.png",
+    image: "/images/delapena.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link" }
     ],
@@ -6617,7 +6942,13 @@ export const people = [
     first_name: "Francisco",
     last_name: "Roi",
     name: "Roi M. Francisco",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/francisc.jpg",
     diploma: [
       { name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION", url: "https://drive.google.com/file/d/1AHTgB2AiSAKrXSZaEJrNxW2ZW8B2P1zI/view?usp=drive_link" }
@@ -6754,13 +7085,18 @@ export const people = [
       }
     }
   },
-
   //Lawrence Jimenez
   {
     first_name: "Lawrence ",
     last_name: "Jimenez",
     name: "Lawrence G. Jimenez",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/jimenez.jpg",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -6970,7 +7306,13 @@ export const people = [
     first_name: "James",
     last_name: "Mañozo",
     name: "James Mañozo",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/mañozo.JPG",
     diploma: [
       { name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS", url: "https://drive.google.com/file/d/1LA5i_jQ_B08bJ5ESgNsk7t9aptgyVY86/view?usp=drive_link" },
@@ -7152,7 +7494,13 @@ export const people = [
     first_name: "Ashley",
     last_name: "Manuel",
     name: "Ashley Manuel",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/manuel.JPG",
     diploma: [
       { name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION", url: "https://drive.google.com/file/d/1G-6r59KX54zX_6ckdCSJE3mGYCzD0O4s/view?usp=drive_link" }
@@ -7279,6 +7627,8 @@ export const people = [
       }
     }
   },
+
+
   //Edmund Martinez
   {
     first_name: "Edmund",
@@ -7645,7 +7995,13 @@ export const people = [
     first_name: "Julios",
     last_name: "Mojas",
     name: "Julios M. Mojas",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/mojas.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -7917,7 +8273,7 @@ export const people = [
     first_name: "Richard",
     last_name: "Ongayo",
     name: "Ridhard D. Ongayo",
-    designation: "Assistant Professor I",
+    designation: "Instructor I",
     image: "/images/ongayo.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
@@ -8220,7 +8576,13 @@ export const people = [
     first_name: "Aida",
     last_name: "Penson",
     name: "Aida M. Penson",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/penson.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
@@ -8773,7 +9135,13 @@ export const people = [
     first_name: "Nestor Miguel",
     last_name: "Pimentel",
     name: "Nestor Miguel T. Pimentel",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/pimentel.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -9280,7 +9648,13 @@ export const people = [
     first_name: "Jay-Ar",
     last_name: "Racadio",
     name: "Jay-Ar A. Racadio",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/racadio.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -9796,7 +10170,13 @@ export const people = [
     first_name: "Alvina",
     last_name: "Ramallosa",
     name: "Alvina Ramallosa",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/ramallosa.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -10593,7 +10973,13 @@ export const people = [
     first_name: "Joven",
     last_name: "Rios",
     name: "Joven S. Rios",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/rios.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
@@ -11039,7 +11425,7 @@ export const people = [
     last_name: "Rodil",
     name: "Nino M. Rodil",
     designation: "Instructor I",
-    image: "/images/rodil2.jpg",
+    image: "/images/rodil.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1Qqu3GM0naLFfLRAweoTQ-qLgh7yIdOnm/view?usp=drive_link"
@@ -11524,12 +11910,20 @@ export const people = [
       }
     }
   },
+
+
   //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
     name: "Rachel Rodriguez",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/rodriguez.JPG",
     diploma: {
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -11824,7 +12218,13 @@ export const people = [
     first_name: "Clarissa",
     last_name: "Rostrollo",
     name: "Clarissa Rostrollo",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/rostrollo.JPG",
     diploma: {
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -12059,7 +12459,13 @@ export const people = [
     first_name: "Clarence",
     last_name: "Salvador",
     name: "Marc Clarence Salvador",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/salvador.jpeg",
     diploma: {
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -12286,7 +12692,13 @@ export const people = [
     first_name: "Jessica Ann",
     last_name: "Sambrano",
     name: "Jessica Ann Sambrano",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/sambrano.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
@@ -12459,7 +12871,13 @@ export const people = [
     first_name: "Benedick",
     last_name: "Sarmieto",
     name: "Benedick M. Sarmiento",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/sarmiento.jpg",
     diploma: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
@@ -12667,7 +13085,13 @@ export const people = [
     first_name: "Jerome",
     last_name: "Tacata",
     name: "Jerome Tacata",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/tacata.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -12907,7 +13331,13 @@ export const people = [
     first_name: "Pamela",
     last_name: "Tagum",
     name: "Pamela Marie O. Tagum",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/tagum.JPG",
     diploma: [{
       name: "DIPLOMA IN COMPUTER ENGINEERING TECHNOLOGY",
@@ -13016,7 +13446,13 @@ export const people = [
     first_name: "Cesar II",
     last_name: "Talibong",
     name: "Cesar II B. Talibong ",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/talibong.jpg",
     diploma: [
       {
@@ -13221,7 +13657,13 @@ export const people = [
     first_name: "Russel Adrianne",
     last_name: "Villareal",
     name: "Russel Adrianne Villareal",
-    designation: "Instructor I",
+    designations: { 
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
     image: "/images/villareal.JPG",
     diploma: [null],
     tor: [null],
