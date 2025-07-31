@@ -11,7 +11,7 @@ export const people = [
         { year: 2023, designation: "Head, Learning Management System" },
       ],
     },
-    image: "/images/ocampo.JPG",
+    image: "/images/ocampo1.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1eb7ywoWS-hKWnlj8g9OfPXKNqLJrQhiy/view?usp=drive_link"
