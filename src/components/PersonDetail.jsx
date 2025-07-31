@@ -28,6 +28,7 @@ function PersonDetail() {
     certificates,
     speaking_engagements,
     masters_diploma,
+    eligibility,
     schedule,
     evaluation_scores,
     evaluation_labels,
@@ -54,6 +55,7 @@ function PersonDetail() {
               masters_diploma={masters_diploma}
               tor={tor}
               resume={resume}
+              eligibility = {eligibility}
               certificates={certificates}
               speaking_engagements={speaking_engagements}
               membership={membership}

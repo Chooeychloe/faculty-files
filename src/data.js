@@ -34,6 +34,10 @@ export const people = [
         url: "https://drive.google.com/file/d/1pd25vvYjys5ZUegGQEWrTO0tubJXhH1y/view?usp=drive_link"
       },
     ],
+    eligibility: [{
+      name: "Civil Service Eligibility",
+      url: "https://drive.google.com/file/d/1I6h1xkg3N6wJxNbcKHDtDGAqCJKp38Ft/view?usp=drive_link"
+    }],
     resume: "https://drive.google.com/file/d/1_pRyAoW8oieEtTcWmI7pfpaJymr8VdLx/view?usp=drive_link",
     certificates: [
       {
@@ -512,18 +516,92 @@ export const people = [
       ],
     },
     image: "/images/briones.JPG",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
-    certificates: [{
-      name: "Certificate in Teaching and Learning",
-      url: "/certificates/cert.jpg"
+    diploma: [{
+      name: "BACHELOR OF SCIENCE IN Computer Science",
+      url: "https://drive.google.com/file/d/1tpMZvR2nZDrYbfcw-2R8Vhskbep96gZ5/view?usp=drive_link"
+    },
+    {
+      name: "Professional Education",
+      url: "https://drive.google.com/file/d/1L68jVi_7z49TEyJ1q0vQv1ZVOR-zMobR/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1d9Gq_KomjZg38BwbD7gCQhmMrqUN03w6/view?usp=drive_link"
     }],
-    speaking_engagements: [{
-      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
-      url: "/certificates/cert.jpg"
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN Computer Science",
+        url: "https://drive.google.com/file/d/1JMW2G7YQd705Oa0a4uEDxadB5MFzZV-k/view?usp=drive_link"
+      },
+
+    ],
+     eligibility: [{
+      name: "Civil Service Eligibility",
+      url: "https://drive.google.com/file/d/1SpzqXSUwNcWUGgD87nA_BE3gpVFYuS1F/view?usp=drive_link"
     }],
-    masters_diploma: "/diploma/diplom.jpg",
+    certificates: [
+      {
+        name: "Webinar on Gender Issues in Safety and Health at the Workplace",
+        url: "https://drive.google.com/file/d/1lULPswD9Bt5HZmgtvHJ_T7HpmpVPsJM9/view?usp=drive_link"
+      },
+      {
+        name: "Assessment in the New Normal Webinar",
+        url: "https://drive.google.com/file/d/1vSMqVj7KucZuRkinS-nfoKoHw7VKhlqN/view?usp=drive_link"
+      },
+      {
+        name: "Benchmarking and Training of Trainers on Gender and Development",
+        url: "https://drive.google.com/file/d/1yb8MBiywa0ufRMy9pMLVkuVfE3kXXWfH/view?usp=drive_link"
+      },
+      {
+        name: "DOST Webinar on Introduction to Gender and Development Concepts",
+        url: "https://drive.google.com/file/d/1TH2ltYQVYQb5HTln9qZdtRqikwDe4a3L/view?usp=drive_link"
+      },
+      {
+        name: "Capability Enhancement Training on the Utilization of the CvSU - Learning Management System",
+        url: "https://drive.google.com/file/d/1HgN-LV9gpd3Co91YbUgAxkmrWy8e3Y2y/view?usp=drive_link"
+      },
+      {
+        name: "Empowering LGBTQIA+ Individuals with Knowledge on Sexual Health and Safety",
+        url: "https://drive.google.com/file/d/1orU8YUt6oCrbOYJ_GhXV6T46qKoS0Ais/view?usp=drive_link"
+      },
+      {
+        name: "2025 Gender and Development Planning and Budgeting",
+        url: "https://drive.google.com/file/d/1JowwER_ADaS-em9iu7ziphE3lL5y6g2v/view?usp=drive_link"
+      },
+      {
+        name: "Gender Matters! Embedding GAD Principles to Inclusive Education",
+        url: "https://drive.google.com/file/d/1QNEyaYaKZrOPW3Bsglr6MjFXToZk78k4/view?usp=drive_link"
+      },
+      {
+        name: "From Rights to Reality: The Magna Carta of Women",
+        url: "https://drive.google.com/file/d/15k8Vo7bk2ZegGUWn6eV_C_Z1ayZCbjtl/view?usp=drive_link"
+      },
+      {
+        name: "DOST Meet Your Scientist: Innovating with Engineering Sciences and Technology",
+        url: "https://drive.google.com/file/d/1LskaZwH7kA8ENRwDr278RZaXs3O6dfvj/view?usp=drive_link"
+      },
+      {
+        name: "Exploring Basic Components of Google Suite",
+        url: "https://drive.google.com/file/d/1t3qwl6xv7zR74tu-GztpxeXFlSF9e02l/view?usp=drive_link"
+      }, {
+        name: "Human Trafficking Awareness Webinar",
+        url: "https://drive.google.com/file/d/1Oc2MzVOBEBwlwP2QV7HVuFoOrxh_dPk8/view?usp=drive_link"
+      }, {
+        name: "DOST & NAST 43rd Annual Scientific Meeting",
+        url: "https://drive.google.com/file/d/1flCSIAVKZhlvJWA1NrNKjvNPMrxXkF7S/view?usp=drive_link"
+      }, {
+        name: "BacoorEx: Webinar Serye sa Urban Farming",
+        url: "https://drive.google.com/file/d/1J1uSnlzgTK1I7Ss0tnd9mYuF-ATMiwLR/view?usp=drive_link"
+      }, {
+        name: "DICT Cybersecurity: How to Prevent, Detect and React from Cyber Threats and Attacks",
+        url: "https://drive.google.com/file/d/149VLe_kUffXkoENN_NHcDhzO9GvZuT2I/view?usp=drive_link"
+      }, {
+        name: "The Business Case for Gender Equality at Work",
+        url: "https://drive.google.com/file/d/15cnHLfxYaNOB3JC9XUeHlecovKLmEt_J/view?usp=drive_link"
+      },
+
+    ],
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -610,7 +688,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.32],
+    evaluation_scores: [4.17, 4.15, 4.28, 4.40, 4.37, 4.32],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -720,7 +798,7 @@ export const people = [
     }, image: "/images/montallana.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
+    resume: "https://drive.google.com/file/d/1kD5p9q7zx08Lh5Wi_zMhJUaF3tcAH38r/view?usp=drive_link",
     certificates: [{
       name: "Certificate in Teaching and Learning",
       url: "/certificates/cert.jpg"
@@ -1079,7 +1157,7 @@ export const people = [
     image: "/images/bato.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
+    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=drive_link",
     certificates: [{
       name: "Certificate in Teaching and Learning",
       url: "/certificates/cert.jpg"
@@ -1500,8 +1578,10 @@ export const people = [
     first_name: "Bryan",
     last_name: "Ablaza",
     name: "Bryan Dale Ablaza",
-    designation: "Instructor I",
-    image: "/images/ablaza.JPG",
+    designations: {
+      current_designation: "Instructor I",
+
+    }, image: "/images/ablaza.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
-import { toFormalCase } from '../utils/formatTitleCase';
 
 function DisplayListWithModal({ title, items }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -68,7 +67,7 @@ function DisplayListWithModal({ title, items }) {
                         rel="noopener noreferrer"
                         className="text-gray-900 hover:text-red-900 block w-full"
                       >
-                        {toFormalCase(doc.name) || `${title} ${index + 1}`}
+                        {doc.name || `${title} ${index + 1}`}
                       </a>
                     </td>
                   </tr>
