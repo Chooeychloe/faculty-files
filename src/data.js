@@ -257,6 +257,7 @@ export const people = [
             {
               time: "1:00 PM - 3:00 PM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY"
             }
           ],
@@ -370,20 +371,20 @@ export const people = [
             {
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 22 (LAB)",
-              section: "CS 1-1"
-
+              section: "CS 1-1",
+              room: null
             },
             {
               time: "5:00 PM - 7:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "IT 1-2",
-
+              room: null
             },
             {
               time: "8:00 PM - 9:00 PM",
               subject: "COSC 101 (LAB)",
               section: "CS 3-1",
-
+              room: null
             }
           ],
           friday: [],
@@ -439,25 +440,95 @@ export const people = [
             }
           ],
           tuesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-6" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-5" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 70 (LEC)", section: "IT 2-1", room: "ROOM 301" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 70 (LEC)", section: "IT 2-6", room: "ROOM 305" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 70 (LEC)", section: "IT 2-3", room: "ROOM 303" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-6",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 70 (LEC)",
+              section: "IT 2-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 70 (LEC)",
+              section: "IT 2-6",
+              room: "ROOM 305"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 70 (LEC)",
+              section: "IT 2-3",
+              room: "ROOM 303"
+            }
           ],
           wednesday: [
-            { time: "10:00 AM - 11:30 AM", subject: "ITEC 70 (LAB)", section: "IT 2-4", room: "CL 4" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 70 (LEC)", section: "IT 2-5", room: "ROOM 303" },
-            { time: "6:00 PM - 9:00 PM", subject: "ITEC 70 (LAB)", section: "IT 2-3", room: "CL 1" }
+            {
+              time: "10:00 AM - 11:30 AM",
+              subject: "ITEC 70 (LAB)",
+              section: "IT 2-4",
+              room: "CL 4"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 70 (LEC)",
+              section: "IT 2-5",
+              room: "ROOM 303"
+            },
+            {
+              time: "6:00 PM - 9:00 PM",
+              subject: "ITEC 70 (LAB)",
+              section: "IT 2-3",
+              room: "CL 1"
+            }
           ],
           thursday: [],
           friday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 70 (LAB)", section: "IT 2-6", room: "CL 4" },
-            { time: "10:00 AM - 1:00 PM", subject: "ITEC 70 (LAB)", section: "IT 2-5", room: "CL 4" },
-            { time: "2:30 PM - 4:00 PM", subject: "ITEC 70 (LAB)", section: "IT 2-2", room: "CL 4" },
-            { time: "4:00 PM - 5:30 PM", subject: "ITEC 70 (LAB)", section: "IT 2-4", room: "CL 2" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 70 (LAB)",
+              section: "IT 2-6",
+              room: "CL 4"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "ITEC 70 (LAB)",
+              section: "IT 2-5",
+              room: "CL 4"
+            },
+            {
+              time: "2:30 PM - 4:00 PM",
+              subject: "ITEC 70 (LAB)",
+              section: "IT 2-2",
+              room: "CL 4"
+            },
+            {
+              time: "4:00 PM - 5:30 PM",
+              subject: "ITEC 70 (LAB)",
+              section: "IT 2-4",
+              room: "CL 2"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -611,12 +682,13 @@ export const people = [
             {
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 24 (LAB) ASYNC",
-              section: "IT 2-5"
+              section: "IT 2-5",
+              room: null
             },
             {
               time: "8:00 AM - 10:00 AM",
-              subject: "CONSULTAION",
-              room: null,
+              subject: "CONSULTATION",
+              section: null,
               room: "FACULTY"
             },
             {
@@ -651,29 +723,119 @@ export const people = [
             }
           ],
           tuesday: [
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 70", section: "IT 2-4", room: "CL 1" },
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 70", section: "IT 2-1", room: "CL 1" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-4" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-5" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-6" }
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 70",
+              section: "IT 2-4",
+              room: "CL 1"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 70",
+              section: "IT 2-1",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-4",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-6",
+              room: null
+            }
           ],
           wednesday: [
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 70", section: "IT 2-1", room: "ROOM 301" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-1" },
-            { time: "12:00 AM - 1:00 PM", subject: "ITEC 70", section: "IT 2-4", room: "ROOM 303" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 70 (LEC) ASYNC", section: "IT 2-2" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 70", section: "IT 2-3", room: "ROOM 303" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 70", section: "IT 2-2", room: "ROOM 302" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 70",
+              section: "IT 2-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "12:00 AM - 1:00 PM",
+              subject: "ITEC 70",
+              section: "IT 2-4",
+              room: "ROOM 303"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 70 (LEC) ASYNC",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 70",
+              section: "IT 2-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 70",
+              section: "IT 2-2",
+              room: "ROOM 302"
+            }
           ],
           thursday: [],
           friday: [
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 70", section: "IT 2-5", room: "ROOM 302" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 70", section: "IT 2-6", room: "ROOM 301" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 70 (LAB) ASYNC", section: "IT 2-2" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 70 (LAB) ASYNC", section: "IT 2-1" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 70", section: "IT 2-2", room: "CL 1" },
-            { time: "5:00 PM - 7:00 PM", subject: "ITEC 70", section: "IT 2-3", room: "CL 1" }
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 70",
+              section: "IT 2-5",
+              room: "ROOM 302"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 70",
+              section: "IT 2-6",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 70 (LAB) ASYNC",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 70 (LAB) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 70",
+              section: "IT 2-2",
+              room: "CL 1"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 70",
+              section: "IT 2-3",
+              room: "CL 1"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -683,18 +845,50 @@ export const people = [
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 111", section: "IT 4-1", room: null },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 111", section: "IT 4-3", room: "Room 303" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-4", room: "Room 303" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 111", section: "IT 4-1", room: "CL 4" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 111", section: "IT 4-5", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 111", section: "IT 4-3", room: null },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 111", section: "IT 4-5", room: null },
-
-
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 111",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 111",
+              section: "IT 4-3",
+              room: "Room 303"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-4",
+              room: "Room 303"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-1",
+              room: "CL 4"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-5",
+              room: "CL 4"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-3",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-5",
+              room: null
+            }
           ],
           tuesday: [
-
           ],
           wednesday: [],
           thursday: [],
@@ -1485,14 +1679,18 @@ export const people = [
     designations: {
       current_designation: "Head, OSAS",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/bato.JPG",
     diploma: "/diploma/diplom.jpg",
     tor: "/tor/tor.jfif",
     resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=drive_link",
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
     certificates: [{
       name: "Certificate in Teaching and Learning",
       url: "/certificates/cert.jpg"
@@ -1761,6 +1959,82 @@ export const people = [
           sunday: [],
         }
       },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 200B ASYNC",
+              section: "IT 4-5",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "ITEC 200B",
+              section: "IT 4-1",
+              room: "ACCRE"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 200B ASYNC",
+              section: "IT 4-4",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 200B",
+              section: "IT 4-1",
+              room: "ACCRE"
+            },
+          ],
+          tuesday: [
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 200B ASYNC",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 200B",
+              section: "IT 4-2",
+              room: "ACCRE"
+            },
+          ],
+          wednesday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 200B",
+              section: "IT 4-5",
+              room: "ACCRE"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 200B",
+              section: "IT 4-2",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "RESEARCH",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "2:00 PM - 5:00 PM",
+              subject: "EXTENSION",
+              section: null,
+              room: "FACULTY"
+            },
+          ],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        },
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -1908,12 +2182,18 @@ export const people = [
     }
   },
 
-  //Bryan Ablaza
+ //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
     name: "Bryan Dale Ablaza",
-    designation: "Instructor I",
+    designations: {
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: null, designation: null },
+        { year: null, designation: null },
+      ],
+    },
     image: "/images/ablaza.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
@@ -1934,23 +2214,136 @@ export const people = [
     },],
 
     schedule: [
-      // No Record 1st 22-23 
-      // No Record 2nd 22-23 
-      // No Record 1st 23-24 
-      // No Record 2nd 23-24 
-      {// 1st 24-25
+      {
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
           tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
+          wednesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 111 ASYNC",
+              section: "CS 4-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 100 ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "COSC 111",
+              section: "CS 4-1",
+              room: "CL 1"
+            }, 
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY ROOM"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 111",
+              section: "CS 4-2",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 111 (LEC) ASYNC",
+              section: "CS 4-3",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 111 (LAB) ASYNC",
+              section: "CS 4-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 100 ASYNC",
+              section: "CS 4-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "COSC 100",
+              section: "CS 4-1",
+              room: "ROOM 305"
+            }, 
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "COSC 100",
+              section: "CS 4-2",
+              room: "ROOM 301"
+            }, 
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 111",
+              section: "CS 4-3",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 100 ASYNC",
+              section: "CS 4-2",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 111 ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+          ],
+          friday: [
+             {
+              time: "8:00 AM - 10:00 AM",
+              subject: "COSC 100",
+              section: "CS 4-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 111",
+              section: "CS 4-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 111",
+              section: "CS 4-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "COSC 111",
+              section: "CS 4-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "COSC 111 ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "COSC 111 ASYNC",
+              section: "CS 4-3",
+              room: null
+            },
+          ],
           saturday: [],
           sunday: [],
         }
       },
-      {// 2nd 24-25
+      {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
@@ -1959,6 +2352,7 @@ export const people = [
               subject: "CONSULTATION",
               section: null,
               room: "FACULTY ROOM"
+
             },
             {
               time: "1:00 PM - 4:00 PM",
@@ -2115,8 +2509,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/arciaga.JPG",
@@ -2137,8 +2531,7 @@ export const people = [
     }],
 
     schedule: [
-      // No Record 1st 22-23
-      {// 2nd 22-23 
+      {
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -2171,6 +2564,7 @@ export const people = [
             {
               time: "1:00 PM - 3:00 PM",
               subject: "CONSULTATION HOURS",
+              section: null,
               room: "FACULTY ROOM"
             },
             {
@@ -2209,16 +2603,19 @@ export const people = [
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 25 (LEC) ASYNC",
               section: "IT 2-6",
+              room: null
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 1-2",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 1-1",
+              room: null
             },
           ],
           thursday: [
@@ -2244,16 +2641,19 @@ export const people = [
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 25 (LEC) ASYNC",
               section: "CS 2-1",
+              room: null
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "DCIT 25 (LEC) ASYNC",
               section: "CS 2-2",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "DCIT 25 (LEC) ASYNC",
               section: "CS 2-3",
+              room: null
             },
           ],
           friday: [],
@@ -2261,7 +2661,7 @@ export const people = [
           sunday: [],
         }
       },
-      {// 1st 23-24
+      {
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -2275,6 +2675,7 @@ export const people = [
               time: "10:00 AM - 1:00 PM",
               subject: "DCIT 22",
               section: "CS 1-1",
+              room: null
             },
             {
               time: "2:00 PM - 3:00 PM",
@@ -2301,15 +2702,18 @@ export const people = [
               time: "7:00 AM - 9:00 AM",
               subject: "DCIT 26 (LEC) ASYNC",
               section: "CS 3-1",
+              room: null
             },
             {
               time: "7:00 AM - 9:00 AM",
               subject: "DCIT 26 (LEC) ASYNC",
               section: "CS 3-2",
+              room: null
             },
             {
               time: "10:00 AM - 12:00 PM",
               subject: "CONSULTATION HOURS",
+              section: null,
               room: "CL 4"
             },
             {
@@ -2348,21 +2752,25 @@ export const people = [
               time: "3:00 PM - 4:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-2",
+              room: null
             },
             {
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-3",
+              room: null
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-1",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-2",
+              room: null
             },
           ],
           thursday: [
@@ -2390,7 +2798,7 @@ export const people = [
           sunday: [],
         }
       },
-      {// 2nd 23-24
+      {
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -2443,11 +2851,13 @@ export const people = [
               time: "3:00 PM - 4:00 PM",
               subject: "ITEC 50 LAB ASYNC",
               section: "CS 1-4",
+              room: null
             },
             {
               time: "4:00 PM - 5:00 PM",
               subject: "ITEC 50 LAB ASYNC",
               section: "CS 1-5",
+              room: null
             },
           ],
           wednesday: [
@@ -2461,11 +2871,13 @@ export const people = [
               time: "10:00 AM - 11:00 AM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "CS 1-5",
+              room: null
             },
             {
               time: "11:00 AM - 12:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "CS 1-4",
+              room: null
             },
             {
               time: "12:00 PM - 1:00 PM",
@@ -2477,21 +2889,25 @@ export const people = [
               time: "1:00 PM - 2:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 1-4",
+              room: null
             },
             {
               time: "2:00 PM - 3:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 1-5",
+              room: null
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "ITEC 50 LAB ASYNC",
               section: "IT 1-4",
+              room: null
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "ITEC 50 LAB ASYNC",
               section: "IT 1-5",
+              room: null
             },
           ],
           thursday: [
@@ -2505,20 +2921,24 @@ export const people = [
               time: "9:00 AM - 10:00 AM",
               subject: "ITEC 95 ASYNC",
               section: "IT 3-1",
+              room: null
             },
             {
               time: "10:00 AM - 11:00 AM",
               subject: "ITEC 95 ASYNC",
               section: "IT 3-2",
+              room: null
             },
             {
               time: "11:00 AM - 12:00 PM",
               subject: "ITEC 95 ASYNC",
               section: "IT 3-3",
+              room: null
             },
             {
               time: "1:00 PM - 3:00 PM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY"
             },
             {
@@ -2533,19 +2953,161 @@ export const people = [
           sunday: [],
         }
       },
-      {// 1st 24-25
+      {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 26 (LEC) ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-5",
+              room: "CL 2"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-5",
+              room: "CL 5"
+            },
+          ],
+          tuesday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 50",
+              section: "IT 2-1",
+              room: "CL 4"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 26",
+              section: "CS 3-6",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-3",
+              room: "CL 4"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 26 (LEC) ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 26 (LAB) ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 26 (LEC) ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-1",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 26 (LAB) ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 26",
+              section: "IT 2-2",
+              room: "CL 5"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "IT 2-3",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 50",
+              section: "IT 2-2",
+              room: "CL 3"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-6",
+              room: "CL 5"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 26 (LAB) ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-4",
+              room: "ROOM 305"
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
-      {// 1st 24-25
+      {
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
@@ -2564,6 +3126,7 @@ export const people = [
             {
               time: "3:00 PM - 5:00 PM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY ROOM"
             },
 
@@ -2744,8 +3307,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/bacolor.JPG",
@@ -2778,10 +3341,164 @@ export const people = [
         details: {
           monday: [],
           tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
+          wednesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 80 (LAB) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 80 (LAB) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 80 (LAB) ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "COSC 80 (LEC) ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 80 (LEC) ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 80",
+              section: "CS 3-6",
+              room: "CL 4"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 80 ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 80 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "COSC 80 ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-3",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "COSC 80 ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-2",
+              room: "ROOM 301"
+            },
+          ],
+          friday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "COSC 80",
+              section: "CS 3-6",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-4",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "COSC 80 (LAB) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 80 (LAB) ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 80 (LAB) ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+          ],
+          saturday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "COSC 80",
+              section: "CS 3-2",
+              room: "CL 1"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "COSC 80",
+              section: "CS 3-1",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-5",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 80",
+              section: "CS 3-3",
+              room: "CL 1"
+            },
+          ],
           sunday: [],
         }
       },
@@ -2996,8 +3713,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/batuigas.JPG",
@@ -3023,10 +3740,133 @@ export const people = [
         details: {
           monday: [],
           tuesday: [],
-          wednesday: [],
+          wednesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 90 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 90 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 90 (LEC) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 AM",
+              subject: "ITEC 90 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "COSC 105 (LEC) ASYNC",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 105",
+              section: "CS 4-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 105",
+              section: "CS 4-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 105 (LEC) ASYNC",
+              section: "IT 4-2",
+              room: null
+            },
+          ],
           thursday: [],
-          friday: [],
-          saturday: [],
+          friday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "COSC 105",
+              section: "CS 4-1",
+              room: "CL 1"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 105",
+              section: "CS 4-3",
+              room: "CL 1"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "COSC 105",
+              section: "CS 4-3",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 105",
+              section: "CS 4-2",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 105 (LAB) ASYNC",
+              section: "CS 4-3",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "COSC 105 (LAB) ASYNC",
+              section: "CS 4-3",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 105 (LAB) ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 105 (LAB) ASYNC",
+              section: "CS 4-2",
+              room: null
+            },
+          ],
+          saturday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "COSC 105 (LAB) ASYNC",
+              section: "CS 4-2",
+              room: "CL 2"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 90",
+              section: "IT 3-2",
+              room: "CL 3"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 90",
+              section: "IT 3-6",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 90",
+              section: "IT 3-6",
+              room: "CL 3"
+            },
+          ],
           sunday: [],
         }
       },
@@ -3058,6 +3898,7 @@ export const people = [
             {
               time: "8:00 AM - 10:00 AM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY"
             },
             {
@@ -3163,8 +4004,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/belgic.jpeg",
@@ -3221,13 +4062,13 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 22",
               section: "CS 1-6",
-              room: ""
+              room: "null"
             },
             {
               time: "8:00 AM - 9:00 AM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-6",
-              room: ""
+              room: "null"
             },
           ],
           wednesday: [],
@@ -3236,13 +4077,13 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-7",
-              room: ""
+              room: "null"
             },
             {
               time: "8:00 AM - 9:00 AM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-7",
-              room: ""
+              room: "null"
             },
           ],
           friday: [],
@@ -3251,43 +4092,43 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-6",
-              room: ""
+              room: "null"
             },
             {
               time: "8:00 AM - 12:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-6",
-              room: ""
+              room: "null"
             },
             {
               time: "1:00 PM - 2:00 PM",
               subject: "ORNT 1",
               section: "CS 1-4",
-              room: ""
+              room: "null"
             },
             {
               time: "2:00 PM - 3:00 PM",
               subject: "ORNT 1",
               section: "CS 1-2",
-              room: ""
+              room: "null"
             },
             {
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 22",
               section: "CS 1-7",
-              room: ""
+              room: "null"
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-7",
-              room: ""
+              room: "null"
             },
             {
               time: "6:00 PM - 9:00 PM",
               subject: "DCIT 22 (LAB)",
               section: "CS 1-7",
-              room: ""
+              room: "null"
             },
           ],
           sunday: [],
@@ -3301,7 +4142,7 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 23",
               section: "IT 1-2",
-              room: ""
+              room: "null"
             },
             {
               time: "8:00 AM - 11:00 AM",
@@ -3313,7 +4154,7 @@ export const people = [
               time: "12:00 PM - 1:00 PM",
               subject: "DCIT 23",
               section: "IT 1-3",
-              room: ""
+              room: "null"
             },
             {
               time: "1:00 PM - 7:00 PM",
@@ -3327,7 +4168,7 @@ export const people = [
               time: "8:00 AM - 9:00 AM",
               subject: "DCIT 23",
               section: "IT 1-1",
-              room: ""
+              room: "null"
             },
             {
               time: "9:00 AM - 12:00 PM",
@@ -3409,6 +4250,7 @@ export const people = [
               time: "9:00 AM - 10:00 AM",
               subject: "DCIT 50 (LAB) ASYNC",
               section: "CS 2-2",
+              room: null
             },
             {
               time: "10:00 AM - 11:00 AM",
@@ -3426,16 +4268,19 @@ export const people = [
               time: "1:00 PM - 2:00 PM",
               subject: "DCIT 50 ASYNC",
               section: "CS 2-4",
+              room: null
             },
             {
               time: "2:00 PM - 3:00 PM",
               subject: "DCIT 50 ASYNC",
               section: "CS 2-5",
+              room: null
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "DCIT 50 ASYNC",
               section: "CS 2-6",
+              room: null
             },
           ],
           wednesday: [
@@ -3443,15 +4288,18 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 50 ASYNC",
               section: "CS 2-2",
+              room: null
             },
             {
               time: "8:00 AM - 9:00 AM",
               subject: "DCIT 50 ASYNC",
               section: "CS 2-3",
+              room: null
             },
             {
               time: "9:00 AM - 11:00 AM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY",
             },
           ],
@@ -3538,6 +4386,7 @@ export const people = [
               time: "7:00 PM - 8:00 PM",
               subject: "DCIT 50 (LAB) ASYNC",
               section: "CS 2-6",
+              room: null
             },
           ],
           sunday: [],
@@ -3576,16 +4425,19 @@ export const people = [
               time: "12:00 PM - 1:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "CS 2-5",
+              room: null
             },
             {
               time: "1:00 PM - 2:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "CS 2-6",
+              room: null
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "CS 2-7",
+              room: null
             },
           ],
           wednesday: [
@@ -3611,16 +4463,19 @@ export const people = [
               time: "12:00 PM - 1:00 PM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "CS 2-5",
+              room: null
             },
             {
               time: "1:00 PM - 2:00 PM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "CS 2-6",
+              room: null
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "CS 2-7",
+              room: null
             },
           ],
           thursday: [
@@ -3628,6 +4483,7 @@ export const people = [
               time: "8:00 AM - 10:00 AM",
               subject: "DCIT 23 (LAB) ASYNC",
               section: "CS 1-1",
+              room: null
             },
             {
               time: "10:00 AM - 12:00 PM",
@@ -3639,11 +4495,13 @@ export const people = [
               time: "12:00 PM - 2:00 PM",
               subject: "DCIT 23 (LAB) ASYNC",
               section: "CS 1-2",
+              room: null
             },
             {
               time: "12:00 PM - 2:00 PM",
               subject: "CONSULTATION",
               room: "FACULTY",
+              room: null
             },
           ],
           friday: [],
@@ -3680,11 +4538,160 @@ export const people = [
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
+          tuesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-2",
+              room: "CL 1"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 75",
+              section: "CS 3-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-6",
+              room: "CL 4"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-3",
+              room: "CL 3"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 75",
+              section: "CS 3-4",
+              room: "ROOM 305"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+          ],
+          friday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-6",
+              room: "CL 4"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-4",
+              room: "CL 4"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-3",
+              room: "CL 4"
+            },
+          ],
+          saturday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-1",
+              room: "CL 4"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "COSC 75",
+              section: "CS 3-2",
+              room: "CL 4"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 75",
+              section: "CS 3-5",
+              room: "ROOM 305"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 75 (LAB) ASYNC",
+              section: "CS 3-3",
+              room: "CL 4"
+            },
+          ],
           sunday: [],
         }
       },
@@ -3838,8 +4845,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/bolarda.JPG",
@@ -3875,6 +4882,7 @@ export const people = [
             {
               time: "7:00 AM - 9:00 AM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY"
             },
             {
@@ -3901,31 +4909,37 @@ export const people = [
               time: "2:00 PM - 3:00 PM",
               subject: "DCIT 55 (LEC)",
               section: "IT 2-5",
+              room: null
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "IT 2-6",
+              room: null
             },
             {
               time: "4:00 PM - 5:00 PM",
               subject: "ITEC 60 (LEC) ASYNC",
               section: "IT 2-4",
+              room: null
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "ITEC 60 (LEC) ASYNC",
               section: "IT 2-5",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "ITEC 60 (LEC) ASYNC",
               section: "IT 2-6",
+              room: null
             },
             {
               time: "7:00 PM - 8:00 PM",
               subject: "DCIT 55(LEC) ASYNC",
               section: "IT 2-4",
+              room: null
             },
           ],
           wednesday: [
@@ -4005,6 +5019,7 @@ export const people = [
               time: "10:00 AM - 11:00 AM",
               subject: "DCIT 24 (LAB) ASYNC",
               section: "IT 2-5",
+              room: null
             },
             {
               time: "11:00 AM - 1:00 PM",
@@ -4048,6 +5063,7 @@ export const people = [
               time: "12:00 PM - 1:00 PM",
               subject: "DCIT 24 (LAB) ASYNC",
               section: "IT 2-2",
+              room: null
             },
             {
               time: "1:00 PM - 4:00 PM",
@@ -4059,16 +5075,19 @@ export const people = [
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 24 ASYNC",
               section: "IT 2-1",
+              room: null
             },
             {
               time: "5:00 PM - 7:00 PM",
               subject: "DCIT 24 ASYNC",
               section: "IT 2-4",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "DCIT 24 ASYNC",
               section: "IT 2-5",
+              room: null
             },
           ],
           wednesday: [
@@ -4082,6 +5101,7 @@ export const people = [
               time: "9:00 AM - 10:00 AM",
               subject: "DCIT 24 (LAB) ASYNC",
               section: "IT 2-1",
+              room: null
             },
             {
               time: "10:00 AM - 11:00 AM",
@@ -4107,26 +5127,31 @@ export const people = [
               time: "11:00 AM - 12:00 PM",
               subject: "DCIT 24 ASYNC",
               section: "IT 2-2",
+              room: null
             },
             {
               time: "12:00 PM - 1:00 PM",
               subject: "DCIT 24 ASYNC",
               section: "IT 2-3",
+              room: null
             },
             {
               time: "12:00 PM - 3:00 PM",
               subject: "CONSULTATION",
               room: "FACULTY",
+              room: null
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "DCIT 24 (LAB) ASYNC",
               section: "IT 2-4",
+              room: null
             },
             {
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "CS 3-3",
+              room: null
             },
             {
               time: "5:00 PM - 7:00 PM",
@@ -4148,11 +5173,13 @@ export const people = [
               time: "9:00 AM - 10:00 AM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "CS 2-1",
+              room: null
             },
             {
               time: "10:00 AM - 11:00 AM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "CS 2-2",
+              room: null
             },
             {
               time: "11:00 AM - 1:00 PM",
@@ -4176,11 +5203,13 @@ export const people = [
               time: "5:00 PM - 6:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "CS 2-1",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "CS 2-2",
+              room: null
             },
           ],
           tuesday: [
@@ -4194,11 +5223,13 @@ export const people = [
               time: "11:00 AM - 12:00 PM",
               subject: "ITEC 60 (LAB) ASYNC",
               section: "IT 2-2",
+              room: null
             },
             {
               time: "12:00 PM - 1:00 PM",
               subject: "ITEC 60 (LAB) ASYNC",
               section: "IT 2-4",
+              room: null
             },
             {
               time: "1:00 PM - 3:00 PM",
@@ -4210,16 +5241,19 @@ export const people = [
               time: "4:00 PM - 5:00 PM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "IT 2-7",
+              room: null
             },
             {
               time: "5:00 PM - 6:00 PM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "IT 2-7",
+              room: null
             },
             {
               time: "6:00 PM - 7:00 PM",
               subject: "DCIT 55 (LAB) ASYNC",
               section: "IT 2-6",
+              room: null
             },
           ],
           wednesday: [
@@ -4270,22 +5304,27 @@ export const people = [
             {
               time: "8:00 AM - 10:00 AM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY",
+              
             },
             {
               time: "10:00 AM - 11:00 AM",
               subject: "DCIT 55 (LEC) ASYNC",
               section: "IT 2-6",
+              room: null
             },
             {
               time: "11:00 AM - 12:00 PM",
               subject: "ITEC 60 (LEC) ASYNC",
               section: "IT 2-2",
+              room: null
             },
             {
               time: "12:00 PM - 1:00 PM",
               subject: "ITEC 60 (LEC) ASYNC",
               section: "IT 2-2",
+              room: null
             },
           ],
           friday: [],
@@ -4298,7 +5337,56 @@ export const people = [
         details: {
           monday: [],
           tuesday: [],
-          wednesday: [],
+          wednesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-4",
+              room: "CL 4"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-4",
+              room: "ROOM 305"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-5",
+              room: "CL 1"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-4",
+              room: "ROOM 401"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "CS 2-4",
+              room: "CL 4"
+            },
+            {
+              time: "6:30 PM - 7:30 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+          ],
           thursday: [],
           friday: [],
           saturday: [],
@@ -4339,6 +5427,7 @@ export const people = [
             {
               time: "12:00 PM - 2:00 PM",
               subject: "CONSULTATION",
+              section: null,
               room: "FACULTY"
             },
             {
@@ -4432,8 +5521,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/carvajal.JPG",
@@ -4462,11 +5551,165 @@ export const people = [
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
-          tuesday: [],
-          wednesday: [],
+          tuesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "INSY 55 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "INSY 55 (LEC) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "INSY 55 (LEC) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-6",
+              room: "ROOM 401"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "INSY 55 (LEC) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM  - 8:00 AM",
+              subject: "INSY 55 (LEC)",
+              section: "IT 3-2",
+              room: "ROOM 401"
+            },
+            {
+              time: "8:00 AM  - 9:00 AM",
+              subject: "INSY 55 (LEC)",
+              section: "IT 3-3",
+              room: "ROOM 401"
+            },
+            {
+              time: "9:00 AM  - 10:00 AM",
+              subject: "INSY 55 (LEC)",
+              section: "IT 3-4",
+              room: "ROOM 401"
+            },
+            {
+              time: "11:00 AM  - 12:00 PM",
+              subject: "INSY 55 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "12:00 PM  - 1:00 PM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "2:00 PM  - 4:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: null
+            },
+            {
+              time: "4:00 PM  - 5:00 PM",
+              subject: "INSY 55 (LEC)",
+              section: "IT 3-6",
+              room: "ROOM 201"
+            },
+            {
+              time: "6:00 PM  - 7:00 PM",
+              subject: "INSY 55 (LEC)",
+              section: "IT 3-5",
+              room: "ROOM 301"
+            },
+          ],
           thursday: [],
-          friday: [],
-          saturday: [],
+          friday: [
+            {
+              time: "7:00 AM  - 9:00 AM",
+              subject: "INSY 55",
+              section: "IT 3-1",
+              room: "CL 5"
+            },
+            {
+              time: "9:00 AM  - 11:00 AM",
+              subject: "INSY 55",
+              section: "IT 3-2",
+              room: "CL 5"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "INSY 55 (LAB)",
+              section: "IT 3-4",
+              room: "CL 5"
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "INSY 55 (LAB)",
+              section: "IT 3-5",
+              room: "CL 5"
+            },
+          ],
+          saturday: [
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "INSY 55 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-3",
+              room: "CL 4"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-6",
+              room: "CL 4"
+            },
+          ],
           sunday: [],
         }
       },
@@ -4613,8 +5856,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/castillo.jpg",
@@ -4653,13 +5896,13 @@ export const people = [
               time: "3:00 PM - 5:00 PM",
               subject: "DCIT 21",
               section: "CS 1-2",
-              room: ""
+              room: "null"
             },
             {
               time: "7:00 PM - 8:00 PM",
               subject: "COSC 85 (LAB)",
               section: "CS 4-1",
-              room: ""
+              room: "null"
             },
           ],
           tuesday: [
@@ -4667,7 +5910,7 @@ export const people = [
               time: "5:00 PM - 7:00 PM",
               subject: "COSC 85 (LAB)",
               section: "CS 4-1",
-              room: ""
+              room: "null"
             },
           ],
           wednesday: [
@@ -4675,7 +5918,7 @@ export const people = [
               time: "5:00 PM - 7:00 PM",
               subject: "DCIT 21",
               section: "CS 1-1",
-              room: ""
+              room: "null"
             },
           ],
           thursday: [],
@@ -4685,49 +5928,49 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "DCIT 21",
               section: "CS 1-1",
-              room: ""
+              room: "null"
             },
             {
               time: "8:00 AM - 9:00 AM",
               subject: "DCIT 21 (LAB)",
               section: "CS 1-1",
-              room: ""
+              room: "null"
             },
             {
               time: "9:00 AM - 10:00 AM",
               subject: "DCIT 21 (LAB)",
               section: "CS 1-1",
-              room: ""
+              room: "null"
             },
             {
               time: "10:00 AM - 11:00 AM",
               subject: "DCIT 21",
               section: "CS 1-2",
-              room: ""
+              room: "null"
             },
             {
               time: "11:00 AM - 12:00 PM",
               subject: "DCIT 21 (LAB)",
               section: "CS 1-2",
-              room: ""
+              room: "null"
             },
             {
               time: "12:00 PM - 1:00 PM",
               subject: "DCIT 21 (LAB)",
               section: "CS 1-2",
-              room: ""
+              room: "null"
             },
             {
               time: "2:00 PM - 3:00 PM",
               subject: "ORNT 1",
               section: "IT 1-1",
-              room: ""
+              room: "null"
             },
             {
               time: "3:00 PM - 4:00 PM",
               subject: "ORNT 1",
               section: "IT 1-2",
-              room: ""
+              room: "null"
             },
           ],
           sunday: [],
@@ -4746,11 +5989,13 @@ export const people = [
               time: "7:00 AM - 8:00 AM",
               subject: "ITEC 50 (LEC)",
               section: "IT 1-7",
+              room: null
             },
             {
               time: "8:00 AM - 9:00 AM",
               subject: "ITEC 50 (LEC)",
               section: "IT 1-6",
+              room: null
             },
             {
               time: "9:00 AM - 10:00 AM",
@@ -4822,6 +6067,7 @@ export const people = [
               time: "6:00 PM - 7:00 PM",
               subject: "ITEC 50 (LAB) ASYNC",
               section: "CS 2-7",
+              room: null
             },
             {
               time: "7:00 PM - 9:00 PM",
@@ -4835,16 +6081,19 @@ export const people = [
               time: "6:00 PM - 7:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "CS 2-3",
+              room: null
             },
             {
               time: "7:00 PM - 8:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "CS 2-4",
+              room: null
             },
             {
               time: "8:00 PM - 9:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "CS 2-7",
+              room: null
             },
           ],
           friday: [
@@ -4858,6 +6107,7 @@ export const people = [
               time: "8:00 PM - 9:00 PM",
               subject: "ITEC 50 (LAB) ASYNC",
               section: "CS 2-4",
+              room: null
             },
           ],
           saturday: [],
@@ -4884,6 +6134,7 @@ export const people = [
               time: "8:00 PM - 9:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 2-2",
+              room: null
             },
           ],
           tuesday: [
@@ -4897,11 +6148,13 @@ export const people = [
               time: "7:00 PM - 8:00 PM",
               subject: "GNED 08 ASYNC",
               section: "CS 2-3",
+              room: null
             },
             {
               time: "8:00 PM - 9:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 1-1",
+              room: null
             },
           ],
           wednesday: [
@@ -4921,6 +6174,7 @@ export const people = [
               time: "8:00 PM - 9:00 PM",
               subject: "ITEC 50 (LEC) ASYNC",
               section: "IT 1-2",
+              room: null
             },
           ],
           thursday: [
@@ -4934,11 +6188,13 @@ export const people = [
               time: "7:00 PM - 8:00 PM",
               subject: "GNED 08 ASYNC",
               section: "CS 2-7",
+              room: null
             },
             {
               time: "8:00 PM - 9:00 PM",
               subject: "ITEC 50 (LAB) ASYNC",
               section: "IT 1-1",
+              room: null
             },
           ],
           friday: [],
@@ -4949,10 +6205,74 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "CvSU 101",
+              section: "CS 1-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 24",
+              section: "CS 1-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 24 (LEC) ASYNC",
+              section: "CS 2-2",
+              room: "ROOM 301"
+            },
+          ],
+          tuesday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "CvSU 101",
+              section: "CS 1-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 24 (LEC) ASYNC",
+              section: "CS 2-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 24 (LAB) ASYNC",
+              section: "CS 2-3",
+              room: "ROOM 301"
+            },
+          ],
+          wednesday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 24",
+              section: "CS 1-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "DCIT 24",
+              section: "CS 2-3",
+              room: "CL 2"
+            },
+          ],
+          thursday: [
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "DCIT 24",
+              section: "CS 2-2",
+              room: "CL 3"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 24 (LAB) ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -6144,7 +7464,9 @@ export const people = [
       }
     }
   },
-  //Alvin Celino
+
+
+//Alvin Celino
   {
     first_name: "Alvin",
     last_name: "Celino",
@@ -6204,11 +7526,28 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
+          monday: [
+            { time: "7:00 AM - 8:00 AM", section: "CS 3-5", subject: "COSC 85 (LEC) ASYNC", room: "" },
+            { time: "8:00 AM - 9:00 AM", section: "CS 3-6", subject: "COSC 85 (LEC) ASYNC", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 3-6", subject: "COSC 85 (LAB) ASYNC", room: "" },
+          ],
+          tuesday: [
+            { time: "7:00 AM - 9:00 AM", section: "CS 3-6", subject: "COSC 85", room: "CL 5" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 3-6", subject: "COSC 85 (LAB) ASYNC", room: "" },
+          ],
+          wednesday: [
+            { time: "7:00 AM - 9:00 AM", section: "CS 3-4", subject: "COSC 85", room: "CL 5" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 3-4", subject: "COSC 85", room: "CL 5" },
+          ],
+          thursday: [
+            { time: "7:00 AM - 8:00 AM", section: "CS 3-6", subject: "COSC 85", room: "ROOM 303" },
+            { time: "8:00 AM - 9:00 AM", section: "CS 3-4", subject: "COSC 85 (LEC) ASYNC", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 3-4", subject: "COSC 85 (LAB) ASYNC", room: "" },
+          ],
+          friday: [
+            { time: "7:00 AM - 9:00 AM", section: "CS 3-5", subject: "COSC 85", room: "CL 3" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 3-5", subject: "COSC 85 (LAB) ASYNC", room: "" },
+          ],
           saturday: [],
           sunday: [],
         }
@@ -6333,10 +7672,39 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            { time: "8:00 AM - 9:00 AM", section: "IT 4-1", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 4-3", subject: "ITEC 111", room: "ROOM 303" },
+            { time: "10:00 AM - 11:00 AM", section: "IT 4-3", subject: "ITEC 111 (LAB) ASYNC", room: "" },
+            { time: "1:00 PM - 3:00 PM", section: "IT 4-3", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+            { time: "3:00 PM - 5:00 PM", section: "IT 4-3", subject: "ITEC 111", room: "CL 4" },
+            { time: "5:00 PM - 6:00 PM", section: "IT 4-3", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+            { time: "6:00 PM - 7:00 PM", section: "IT 4-5", subject: "ITEC 111 (LAB) ASYNC", room: "" }
+          ],
+          tuesday: [
+            { time: "8:00 AM - 9:00 AM", section: "IT 4-1", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 4-6", subject: "ITEC 111 (LAB) ASYNC", room: "" },
+            { time: "10:00 AM - 11:00 AM", section: "IT 4-6", subject: "ITEC 111 (LAB) ASYNC", room: "" },
+            { time: "1:00 PM - 3:00 PM", section: "IT 4-2", subject: "ITEC 111", room: "CL 4" },
+            { time: "3:00 PM - 5:00 PM", section: "IT 4-6", subject: "ITEC 111", room: "CL 4" },
+          ],
+          wednesday: [
+            { time: "9:00 AM - 11:00 AM", section: "", subject: "CONSULTATION", room: "" },
+            { time: "11:00 AM - 12:00 PM", section: "IT 4-5", subject: "ITEC 111", room: "ROOM 303" },
+            { time: "1:00 PM - 3:00 PM", section: "IT 4-3", subject: "ITEC 111", room: "CL 4" },
+            { time: "3:00 PM - 4:00 PM", section: "IT 4-3", subject: "ITEC 111 (LAB) ASYNC", room: "" },
+            { time: "5:00 PM - 6:00 PM", section: "IT 4-5", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+          ],
+          thursday: [
+            { time: "8:00 AM - 9:00 AM", section: "IT 4-4", subject: "ITEC 111 (LAB) ASYNC", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 4-4", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+            { time: "10:00 AM - 11:00 AM", section: "IT 4-1", subject: "ITEC 111", room: "ROOM 303" },
+            { time: "11:00 AM - 12:00 PM", section: "IT 4-2", subject: "ITEC 111", room: "ROOM 303" },
+            { time: "1:00 PM - 3:00 PM", section: "IT 4-4", subject: "ITEC 111", room: "CL 4" },
+            { time: "3:00 PM - 4:00 PM", section: "IT 4-6", subject: "ITEC 111", room: "ROOM 301" },
+            { time: "4:00 PM - 5:00 PM", section: "IT 4-1", subject: "ITEC 111 (LAB) ASYNC", room: "" },
+            { time: "5:00 PM - 6:00 PM", section: "IT 4-2", subject: "ITEC 111 (LEC) ASYNC", room: "" },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -6357,7 +7725,7 @@ export const people = [
           ],
           wednesday: [
             { time: "7:00 AM - 10:00 AM", section: "CS 2-4", subject: "GNED 08", room: "ROOM 107" },
-            { time: "10:00 PM - 12:00 PM", section: "", subject: "Consultation", room: "Faculty" }
+            { time: "10:00 PM - 12:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" }
           ],
           thursday: [
             { time: "10:00 AM - 1:00 PM", section: "IT 2-6", subject: "GNED 08", room: "ROOM 101" },
@@ -6420,8 +7788,14 @@ export const people = [
     first_name: "Redem",
     last_name: "Decipulo",
     name: "Redem M. Decipulo",
-    designation: "Instructor I",
-    image: "/images/decipulo2.png",
+    designations: {
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
+    image: "/images/decipulo.jpg",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link" },
     ],
@@ -6438,37 +7812,37 @@ export const people = [
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-1", subject: "ITEC 55 (Lec)", room: "ROOM 305" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "3:00 PM - 5:00 PM", section: "IT 2-1", subject: "ITEC 55 (Lab)", room: "CL 2" }
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-1", subject: "ITEC 55 (LEC)", room: "ROOM 305" },
+            { time: "1:00 PM - 3:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
+            { time: "3:00 PM - 5:00 PM", section: "IT 2-1", subject: "ITEC 55 (LAB)", room: "CL 2" }
           ],
           tuesday: [
-            { time: "8:00 AM - 9:00 AM", section: "IT 2-1", subject: "ITEC 55 (Lec) Async", room: "" },
-            { time: "9:00 AM - 10:00 AM", section: "IT 2-1", subject: "ITEC 55 (Lab) Async", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-3", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-4", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-5", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 2-6", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "2:00 AM - 3:00 PM", section: "IT 2-7", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "3:00 AM - 4:00 PM", section: "IT 2-3", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-4", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 2-5", subject: "DCIT 24 (Lab) Async", room: "" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 2-6", subject: "DCIT 24 (Lec) Async", room: "" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 2-7", subject: "DCIT 24 (Lab) Async", room: "" }
+            { time: "8:00 AM - 9:00 AM", section: "IT 2-1", subject: "ITEC 55 (LEC) ASYNC", room: null },
+            { time: "9:00 AM - 10:00 AM", section: "IT 2-1", subject: "ITEC 55 (LAB) ASYNC", room: null },
+            { time: "10:00 AM - 11:00 AM", section: "IT 2-3", subject: "DCIT 24 (LEC) ASYNC", room: null },
+            { time: "11:00 AM - 12:00 PM", section: "IT 2-4", subject: "DCIT 24 (LAB) ASYNC", room: null },
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-5", subject: "DCIT 24 (LEC) ASYNC", room: null },
+            { time: "1:00 PM - 2:00 PM", section: "IT 2-6", subject: "DCIT 24 (LAB) ASYNC", room: null },
+            { time: "2:00 AM - 3:00 PM", section: "IT 2-7", subject: "DCIT 24 (LEC) ASYNC", room: null },
+            { time: "3:00 AM - 4:00 PM", section: "IT 2-3", subject: "DCIT 24 (LAB) ASYNC", room: null },
+            { time: "4:00 PM - 5:00 PM", section: "IT 2-4", subject: "DCIT 24 (LEC) ASYNC", room: null },
+            { time: "5:00 PM - 6:00 PM", section: "IT 2-5", subject: "DCIT 24 (LAB) ASYNC", room: null },
+            { time: "6:00 PM - 7:00 PM", section: "IT 2-6", subject: "DCIT 24 (LEC) ASYNC", room: null },
+            { time: "7:00 PM - 8:00 PM", section: "IT 2-7", subject: "DCIT 24 (LAB) ASYNC", room: null }
           ],
           wednesday: [],
           thursday: [
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-5", subject: "ITEC 55 (Lec)", room: "CL 3" },
-            { time: "11:00 AM - 12:00 PM", section: "CS 2-3", subject: "DCIT 24 (Lec)", room: "ROOM 303" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 2-5", subject: "DCIT 24 (Lab)", room: "CL 4" },
-            { time: "3:00 PM - 5:00 PM", section: "CS 2-3", subject: "DCIT 24 (Lab)", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", section: "CS 2-4", subject: "DCIT 24 (Lec)", room: "ROOM 305" }
+            { time: "10:00 AM - 11:00 AM", section: "CS 2-5", subject: "ITEC 55 (LEC)", room: "CL 3" },
+            { time: "11:00 AM - 12:00 PM", section: "CS 2-3", subject: "DCIT 24 (LEC)", room: "ROOM 303" },
+            { time: "1:00 PM - 3:00 PM", section: "CS 2-5", subject: "DCIT 24 (LAB)", room: "CL 4" },
+            { time: "3:00 PM - 5:00 PM", section: "CS 2-3", subject: "DCIT 24 (LAB)", room: "CL 4" },
+            { time: "5:00 PM - 6:00 PM", section: "CS 2-4", subject: "DCIT 24 (LEC)", room: "ROOM 305" }
           ],
           friday: [
-            { time: "8:00 AM - 9:00 AM", section: "CS 2-6", subject: "DCIT 24 (Lec)", room: "ROOM 303" },
-            { time: "10:00 AM - 12:00 PM", section: "CS 2-7", subject: "DCIT 24 (Lab)", room: "CL 3" },
-            { time: "12:00 PM - 2:00 PM", section: "CS 2-4", subject: "DCIT 24 (Lab)", room: "CL 3" },
-            { time: "5:00 PM - 6:00 PM", section: "CS 2-7", subject: "DCIT 24 (Lec)", room: "ROOM 305" },
+            { time: "8:00 AM - 9:00 AM", section: "CS 2-6", subject: "DCIT 24 (LEC)", room: "ROOM 303" },
+            { time: "10:00 AM - 12:00 PM", section: "CS 2-7", subject: "DCIT 24 (LAB)", room: "CL 3" },
+            { time: "12:00 PM - 2:00 PM", section: "CS 2-4", subject: "DCIT 24 (LAB)", room: "CL 3" },
+            { time: "5:00 PM - 6:00 PM", section: "CS 2-7", subject: "DCIT 24 (LEC)", room: "ROOM 305" },
           ],
           saturday: [],
           sunday: [],
@@ -6480,34 +7854,34 @@ export const people = [
           monday: [
             { time: "7:00 AM - 9:00 AM", section: "IT 2-6", subject: "ITEC 65", room: "CL 3" },
             { time: "9:00 AM - 11:00 AM", section: "IT 2-5", subject: "ITEC 65", room: "CL 1" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-7", subject: "ITEC 60 (Lec) Async", room: "" },
+            { time: "11:00 AM - 12:00 PM", section: "IT 2-7", subject: "ITEC 60 (LEC) ASYNC", room: null },
             { time: "1:00 PM - 3:00 PM", section: "IT 2-7", subject: "ITEC 60", room: "Cl 4" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 2-5", subject: "ITEC 65 (Lab) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-3", subject: "ITEC 60 (Lab) Async", room: "" }
+            { time: "3:00 PM - 4:00 PM", section: "IT 2-5", subject: "ITEC 65 (LAB) ASYNC", room: null },
+            { time: "4:00 PM - 5:00 PM", section: "IT 2-3", subject: "ITEC 60 (LAB) ASYNC", room: null }
           ],
           tuesday: [
             { time: "9:00 PM - 10:00 PM", section: "IT 2-3", subject: "ITEC 60", room: "ROOM 303" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 60 (Lec) Async", room: "" },
-            { time: "11:00 AM - 1:00 PM", section: "", subject: "Consultation", room: "Faculty" },
+            { time: "10:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 60 (LEC) ASYNC", room: null },
+            { time: "11:00 AM - 1:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
             { time: "1:00 PM - 3:00 PM", section: "IT 3-4", subject: "ITEC 95", room: "Audi 2" },
             { time: "3:00 PM - 4:00 PM", section: "IT 2-1", subject: "ITEC 60", room: "ROOM 301" },
             { time: "5:00 PM - 7:00 PM", section: "IT 3-5", subject: "ITEC 95", room: "ROOM 302" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 2-6", subject: "ITEC 65 (Lec) Async", room: "" }
+            { time: "7:00 PM - 8:00 PM", section: "IT 2-6", subject: "ITEC 65 (LEC) ASYNC", room: null }
           ],
           wednesday: [
             { time: "7:00 AM - 8:00 AM", section: "IT 2-6", subject: "ITEC 62", room: "CL 2" },
             { time: "8:00 AM - 10:00 AM", section: "IT 2-1", subject: "ITEC 60", room: "CL 2" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 60 (Lab) Async", room: "" },
+            { time: "10:00 AM - 11:00 AM", section: "IT 2-1", subject: "ITEC 60 (LAB) ASYNC", room: null },
             { time: "11:00 AM - 12:00 PM", section: "IT 2-5", subject: "ITEC 65", room: "CL 3" },
             { time: "1:00 PM - 3:00 PM", section: "IT 2-3", subject: "ITEC 60", room: "CL 2" },
             { time: "3:00 PM - 4:00 PM", section: "IT 2-7", subject: "ITEC 60", room: "ROOM 301" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-5", subject: "ITEC 65 (Lec) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 2-6", subject: "ITEC 65 (Lec) Async", room: "" }
+            { time: "4:00 PM - 5:00 PM", section: "IT 2-5", subject: "ITEC 65 (LEC) ASYNC", room: null },
+            { time: "5:00 PM - 6:00 PM", section: "IT 2-6", subject: "ITEC 65 (LEC) ASYNC", room: null }
           ],
           thursday: [
-            { time: "8:00 AM - 9:00 AM", section: "IT 2-3", subject: "ITEC 60 (Lec) Async", room: "" },
-            { time: "9:00 PM - 10:00 PM", section: "IT 2-7", subject: "ITEC 60 (Lab) Async", room: "" },
-            { time: "10:00 PM - 11:00 PM", section: "IT 3-4", subject: "ITEC 60 (Lec) Async", room: "" }
+            { time: "8:00 AM - 9:00 AM", section: "IT 2-3", subject: "ITEC 60 (LEC) ASYNC", room: null },
+            { time: "9:00 PM - 10:00 PM", section: "IT 2-7", subject: "ITEC 60 (LAB) ASYNC", room: null },
+            { time: "10:00 PM - 11:00 PM", section: "IT 3-4", subject: "ITEC 60 (LEC) ASYNC", room: null }
           ],
           friday: [],
           saturday: [],
@@ -6517,11 +7891,40 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [{ time: "9:00 AM - 11:00 AM", subject: "Software Engineering Principles", room: "G202" }],
-          tuesday: [{ time: "1:00 PM - 3:00 PM", subject: "Operating Systems", room: "G302" }],
-          wednesday: [],
-          thursday: [{ time: "10:00 AM - 11:00 AM", subject: "Office Hours", room: "Faculty Office 2" }],
-          friday: [{ time: "9:00 AM - 12:00 PM", subject: "Curriculum Review", room: "Conf. Room A" }],
+          monday: [
+            { time: "1:00 pM - 3:00 pM", section: "IT 2-2", subject: "ITEC 55", room: "CL 5" },
+            { time: "3:00 PM - 4:00 PM", section: "IT 2-2", subject: "ITEC 55 (LEC) ASYNC", room: "" },
+            { time: "4:00 PM - 6:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
+            { time: "7:00 PM - 9:00 PM", section: "IT 3-6", subject: "ITEC 85", room: "CL 5" }
+          ],
+          tuesday: [
+            { time: "10:00 AM - 11:00 AM", section: "IT 3-5", subject: "ITEC 85", room: "ACCRE" },
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-1", subject: "ITEC 55 (LEC) ASYNC", room: "" },
+            { time: "1:00 PM - 2:00 PM", section: "IT 2-3", subject: "ITEC 55", room: "CL 5" },
+            { time: "2:00 PM - 3:00 PM", section: "IT 2-3", subject: "ITEC 55", room: "CL 3" },
+            { time: "4:00 PM - 5:00 PM", section: "IT 3-6", subject: "ITEC 85", room: "CL 2" },
+            { time: "5:00 PM - 6:00 PM", section: "IT 2-1", subject: "ITEC 55", room: "CL 1" },
+            { time: "6:00 PM - 7:00 PM", section: "IT 2-1", subject: "ITEC 55 (LAB) ASYNC", room: "CL 1" },
+            { time: "7:00 PM - 9:00 PM", section: "IT 3-4", subject: "ITEC 85", room: "CL 5" }
+          ],
+          wednesday: [
+            { time: "7:00 AM - 9:00 AM", section: "IT 2-3", subject: "ITEC 55", room: "CL 3" },
+            { time: "11:00 AM - 12:00 PM", section: "IT 2-1", subject: "ITEC 55 (LAB) ASYNC", room: "" },
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-2", subject: "ITEC 55 (LEC) ASYNC", room: "" },
+            { time: "2:00 PM - 3:00 PM", section: "IT 2-2", subject: "ITEC 85 (LEC) ASYNC", room: "" },
+            { time: "3:00 PM - 4:00 PM", section: "IT 3-6", subject: "ITEC 85 (LAB) ASYNC", room: "" },
+            { time: "4:00 PM - 6:00 PM", section: "IT 3-4", subject: "ITEC 85", room: "CL 5" },
+          ],
+          thursday: [
+            { time: "10:00 AM - 11:00 AM", section: "IT 3-4", subject: "ITEC 85", room: "ACCRE" },
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-2", subject: "ITEC 55", room: "CL 3" },
+            { time: "1:00 PM - 2:00 PM", section: "IT 2-3", subject: "ITEC 55 (LAB) ASYNC", room: "" },
+            { time: "2:00 PM - 3:00 PM", section: "IT 2-2", subject: "ITEC 55 (LAB) ASYNC", room: "" },
+            { time: "4:00 PM - 5:00 PM", section: "IT 3-4", subject: "ITEC 85 (LEC) ASYNC", room: "" },
+            { time: "5:00 PM - 6:00 PM", section: "IT 3-4", subject: "ITEC 85 (LEC) ASYNC", room: "" },
+            { time: "7:00 PM - 9:00 PM", section: "IT 3-5", subject: "ITEC 85", room: "CL 5" }
+          ],
+          friday: [],
           saturday: [],
           sunday: [],
         }
@@ -6541,8 +7944,8 @@ export const people = [
             { time: "5:00 PM - 7:00 PM", section: "IT 2-6", subject: "DCIT 25", room: "ROOM 203" }
           ],
           thursday: [
-            { time: "10:00 AM - 12:00 PM", section: "IT 2-2", subject: "ITEC 65", room: "" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
+            { time: "10:00 AM - 12:00 PM", section: "IT 2-2", subject: "ITEC 65", room: null },
+            { time: "1:00 PM - 3:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
             { time: "4:00 PM - 7:00 PM", section: "IT 2-1", subject: "ITEC 65", room: "CL 4" }
           ],
           friday: [
@@ -6657,33 +8060,33 @@ export const people = [
             { time: "9:00 AM - 11:00 AM", section: "CS 1-3", subject: "DCIT 21", room: "CL 2" },
             { time: "11:00 AM - 2:00 PM", section: "IT 2-6", subject: "ITEC 65", room: "CL 1" },
             { time: "3:00 PM - 4:00 PM", section: "CS 1-5", subject: "DCIT 21", room: "ROOM 302" },
-            { time: "4:00 PM - 5:00 PM", section: "CS 1-4", subject: "DCIT 21 (Lab) Async", room: "" },
+            { time: "4:00 PM - 5:00 PM", section: "CS 1-4", subject: "DCIT 21 (LAB) ASYNC", room: null },
             { time: "5:00 PM - 7:00 PM", section: "CS 1-4", subject: "DCIT 21", room: "CL 2" }
           ],
           tuesday: [
-            { time: "8:00 AM - 9:00 AM", section: "IT 2-6", subject: "ITEC 55 (Lec) Async", room: "" },
-            { time: "9:00 AM - 10:00 AM", section: "IT 2-7", subject: "ITEC 55 (Lec) Async", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-6", subject: "ITEC 55 (Lab) Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 2-7", subject: "ITEC 55 (Lab) Async", room: "" },
-            { time: "1:00 AM - 2:00 PM", section: "CS 1-2", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "2:00 AM - 3:00 PM", section: "CS 1-3", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "3:00 AM - 4:00 PM", section: "CS 1-4", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "4:00 AM - 5:00 PM", section: "CS 1-5", subject: "DCIT 21 (Lec) Async", room: "" },
-            { time: "5:00 AM - 6:00 PM", section: "CS 1-2", subject: "DCIT 21 (Lab) Async", room: "" },
-            { time: "6:00 AM - 7:00 PM", section: "CS 1-3", subject: "DCIT 21 (Lab) Async", room: "" },
-            { time: "7:00 AM - 8:00 PM", section: "CS 1-5", subject: "DCIT 21 (Lab) Async", room: "" },
+            { time: "8:00 AM - 9:00 AM", section: "IT 2-6", subject: "ITEC 55 (LEC) ASYNC", room: null },
+            { time: "9:00 AM - 10:00 AM", section: "IT 2-7", subject: "ITEC 55 (LEC) ASYNC", room: null },
+            { time: "10:00 AM - 11:00 AM", section: "IT 2-6", subject: "ITEC 55 (LAB) ASYNC", room: null },
+            { time: "11:00 AM - 12:00 PM", section: "IT 2-7", subject: "ITEC 55 (LAB) ASYNC", room: null },
+            { time: "1:00 AM - 2:00 PM", section: "CS 1-2", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "2:00 AM - 3:00 PM", section: "CS 1-3", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "3:00 AM - 4:00 PM", section: "CS 1-4", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "4:00 AM - 5:00 PM", section: "CS 1-5", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "5:00 AM - 6:00 PM", section: "CS 1-2", subject: "DCIT 21 (LAB) ASYNC", room: null },
+            { time: "6:00 AM - 7:00 PM", section: "CS 1-3", subject: "DCIT 21 (LAB) ASYNC", room: null },
+            { time: "7:00 AM - 8:00 PM", section: "CS 1-5", subject: "DCIT 21 (LAB) ASYNC", room: null },
           ],
           wednesday: [
-            { time: "8:00 AM - 9:00 AM", section: "CS 1-4", subject: "DCIT 21 (Lec)", room: "ROOM 301" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 1-3", subject: "DCIT 21 (Lec)", room: "ROOM 301" },
+            { time: "8:00 AM - 9:00 AM", section: "CS 1-4", subject: "DCIT 21 (LEC)", room: "ROOM 301" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 1-3", subject: "DCIT 21 (LEC)", room: "ROOM 301" },
             { time: "1:00 PM - 3:00 PM", section: "CS 1-5", subject: "DCIT 21", room: "CL 2" },
             { time: "3:00 PM - 5:00 PM", section: "CS 2-7", subject: "ITEC 55", room: "CL 3" },
-            { time: "7:00 PM - 8:00 PM", section: "CS 1-2", subject: "DCIT 21 (Lec)", room: "ROOM 301" },
+            { time: "7:00 PM - 8:00 PM", section: "CS 1-2", subject: "DCIT 21 (LEC)", room: "ROOM 301" },
           ],
           thursday: [
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-6", subject: "ITEC 55 (Lec)", room: "ROOM 303" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 2-7", subject: "ITEC 55 (Lec)", room: "ROOM 301" },
-            { time: "3:00 PM - 5:00 PM", section: "", subject: "Consultation", room: "Faculty" },
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-6", subject: "ITEC 55 (LEC)", room: "ROOM 303" },
+            { time: "2:00 PM - 3:00 PM", section: "IT 2-7", subject: "ITEC 55 (LEC)", room: "ROOM 301" },
+            { time: "3:00 PM - 5:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
           ],
           friday: [],
           saturday: [],
@@ -6695,33 +8098,33 @@ export const people = [
         details: {
           monday: [
             { time: "11:00 AM - 1:00 PM", section: "CS 3-3", subject: "ITEC 65", room: "ROOM 210" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "3:00 PM - 4:00 PM", section: "CS 3-3", subject: "ITEC 85 Async", room: "" }
+            { time: "1:00 PM - 3:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
+            { time: "3:00 PM - 4:00 PM", section: "CS 3-3", subject: "ITEC 85 ASYNC", room: null }
           ],
           tuesday: [
-            { time: "12:00 PM - 1:00 PM", section: "IT 2-3", subject: "DCIT 25 (Lec) Async", room: "" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 2-4", subject: "DCIT 25 (Lec) Async", room: "" },
-            { time: "3:00 PM - 4:00 PM", section: "CS 2-5", subject: "DCIT25 (Lab) Async", room: "" },
+            { time: "12:00 PM - 1:00 PM", section: "IT 2-3", subject: "DCIT 25 (LEC) ASYNC", room: null },
+            { time: "2:00 PM - 3:00 PM", section: "IT 2-4", subject: "DCIT 25 (LEC) ASYNC", room: null },
+            { time: "3:00 PM - 4:00 PM", section: "CS 2-5", subject: "DCIT25 (LAB) ASYNC", room: null },
             { time: "4:00 PM - 5:00 PM", section: "IT 2-4", subject: "DCIT 25", room: "ROOM 301" },
-            { time: "5:00 PM - 6:00 PM", section: "CS 2-7", subject: "ITEC 65 (Lec) Async", room: "" },
+            { time: "5:00 PM - 6:00 PM", section: "CS 2-7", subject: "ITEC 65 (LEC) ASYNC", room: null },
             { time: "6:00 PM - 8:00 PM", section: "IT 2-3", subject: "ITEC 65", room: "CL 2" },
 
           ],
           wednesday: [
             { time: "11:00 AM - 1:00 AM", section: "CS 2-3", subject: "GNED 14", room: "ROOM 305" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 2-3", subject: "DCIT 25 (Lab) Async", room: "" },
+            { time: "1:00 PM - 2:00 PM", section: "IT 2-3", subject: "DCIT 25 (LAB) ASYNC", room: null },
             { time: "2:00 PM - 3:00 PM", section: "CS 2-5", subject: "DCIT 25", room: "ROOM 302" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 2-4", subject: "DCIT 25 (Lab) Async", room: "" },
+            { time: "3:00 PM - 4:00 PM", section: "IT 2-4", subject: "DCIT 25 (LAB) ASYNC", room: null },
             { time: "4:00 PM - 5:00 PM", section: "CS 2-7", subject: "DCIT 25", room: "ROOM 305" },
             { time: "5:00 PM - 6:00 PM", section: "IT 2-3", subject: "DCIT 25", room: "ROOM 301" },
             { time: "6:00 PM - 7:00 PM", section: "IT 2-4", subject: "DCIT 25", room: "CL 1" }
           ],
           thursday: [
             { time: "7:00 AM - 9:00 AM", section: "CS 2-7", subject: "DCIT 25", room: "CL 3" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 2-3", subject: "GNED 14", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-4", subject: "GNED 14", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "CS 2-5", subject: "DCIT 25", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "CS 2-7", subject: "DCIT 25", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 2-3", subject: "GNED 14", room: null },
+            { time: "10:00 AM - 11:00 AM", section: "CS 2-4", subject: "GNED 14", room: null },
+            { time: "11:00 AM - 12:00 PM", section: "CS 2-5", subject: "DCIT 25", room: null },
+            { time: "12:00 PM - 1:00 PM", section: "CS 2-7", subject: "DCIT 25", room: null },
             { time: "2:00 PM - 4:00 PM", section: "CS 2-4", subject: "GNED 14", room: "ROOM 303" },
             { time: "4:00 PM - 6:00 PM", section: "CS 2-5", subject: "DCIT 25", room: "CL 2" },
           ],
@@ -6733,10 +8136,39 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            { time: "10:00 AM - 11:00 AM", section: "CS 1-4", subject: "DCIT 21", room: "ROOM 303" },
+            { time: "11:00 AM - 12:00 PM", section: "CS 3-1", subject: "COSC 101 (LAB) ASYNC", room: "ROOM 303" },
+            { time: "1:00 PM - 3:00 PM", section: "CS 1-4", subject: "DCIT 21", room: "CL 1" },
+            { time: "3:00 PM - 4:00 PM", section: "CS 1-4", subject: "DCIT 21 (LAB) ASYNC", room: null },
+            { time: "4:00 PM - 5:00 PM", section: "CS 1-5", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "5:00 PM - 7:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
+          ],
+          tuesday: [
+            { time: "10:00 AM - 11:00 AM", section: "CS 3-3", subject: "COSC 101 (LEC) ASYNC", room: null },
+            { time: "11:00 AM - 1:00 PM", section: "CS 1-5", subject: "DCIT 21", room: "CL 1" },
+            { time: "1:00 PM - 2:00 PM", section: "CS 3-4", subject: "COSC 101 (LEC) ASYNC", room: null },
+            { time: "3:00 PM - 4:00 PM", section: "CS 3-3", subject: "COSC 101 (LAB) ASYNC", room: null },
+            { time: "4:00 PM - 5:00 PM", section: "CS 3-2", subject: "COSC 101 (LEC) ASYNC", room: null },
+          ],
+          wednesday: [
+            { time: "10:00 AM - 11:00 AM", section: "CS 3-4", subject: "COSC 101 (LAB) ASYNC", room: null },
+            { time: "11:00 AM - 12:00 PM", section: "CS 3-2", subject: "COSC 101", room: "ROOM 201" },
+            { time: "12:00 PM - 1:00 PM", section: "CS 1-5", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "1:00 PM - 2:00 PM", section: "CS 1-5", subject: "DCIT 21", room: "ROOM 301" },
+            { time: "4:00 PM - 6:00 PM", section: "CS 3-1", subject: "COSC 101", room: "CL 1" },
+            { time: "6:00 PM - 7:00 PM", section: "CS 3-1", subject: "COSC 101", room: "ROOM 303" },
+            { time: "7:00 PM - 9:00 PM", section: "CS 3-4", subject: "COSC 101", room: "CL 4" }
+          ],
+          thursday: [
+            { time: "10:00 AM - 11:00 AM", section: "CS 3-2", subject: "COSC 101 (LAB) ASYNC", room: null },
+            { time: "11:00 AM - 12:00 PM", section: "CS 3-1", subject: "COSC 101 (LEC) ASYNC", room: null },
+            { time: "12:00 PM - 1:00 PM", section: "CS 1-4", subject: "DCIT 21 (LEC) ASYNC", room: null },
+            { time: "1:00 PM - 2:00 PM", section: "CS 3-4", subject: "COSC 101", room: "ROOM 201" },
+            { time: "3:00 PM - 5:00 PM", section: "CS 3-3", subject: "COSC 101", room: "CL 5" },
+            { time: "5:00 PM - 6:00 PM", section: "CS 3-3", subject: "COSC 101", room: "CL 3" },
+            { time: "7:00 PM - 9:00 PM", section: "CS 3-2", subject: "COSC 101", room: "CL 2" },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -6753,7 +8185,7 @@ export const people = [
           ],
           tuesday: [
             { time: "10:30 AM - 12:00 PM", section: "IT 1-6", subject: "GNED 01", room: "ROOM 203" },
-            { time: "1:00 PM - 3:00 PM", section: "", subject: "Consultation", room: "Faculty" },
+            { time: "1:00 PM - 3:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
           ],
           wednesday: [
             { time: "7:00 AM - 9:00 AM", section: "IT 2-3", subject: "ITEC 70", room: "ROOM 204" },
@@ -6811,8 +8243,14 @@ export const people = [
     first_name: "Jen Jerome",
     last_name: "Dela Pena",
     name: "Jen Jerome V. Dela Pena",
-    designation: "Instructor I",
-    image: "/images/delapena2.png",
+    designations: {
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: 2023, designation: "Past designation" },
+        { year: 2024, designation: "Past designation" },
+      ],
+    },
+    image: "/images/delapena.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link" }
     ],
@@ -6843,15 +8281,15 @@ export const people = [
           ],
           tuesday: [],
           wednesday: [
-            { time: "10:00 AM - 12:00 PM", section: "", subject: "Consultation", room: "Faculty" },
+            { time: "10:00 AM - 12:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
             { time: "12:00 PM - 1:00 PM", section: "IT 3-2", subject: "DCIT 26", room: "CL 4" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 3-1", subject: "DCIT 26 (Lec) Async", room: "" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 3-2", subject: "DCIT 26 (Lec) Async", room: "" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 3-3", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 4-1", subject: "ITEC 111 (Lab) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 4-2", subject: "ITEC 111 (Lab) Async", room: "" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 4-3", subject: "ITEC 111 (Lab) Async", room: "" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 3-3", subject: "ITEC 111 (Lab) Async", room: "" }
+            { time: "1:00 PM - 2:00 PM", section: "IT 3-1", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "2:00 PM - 3:00 PM", section: "IT 3-2", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "3:00 PM - 4:00 PM", section: "IT 3-3", subject: "ITEC 111 (LEC) ASYNC", room: null },
+            { time: "4:00 PM - 5:00 PM", section: "IT 4-1", subject: "ITEC 111 (LAB) ASYNC", room: null },
+            { time: "5:00 PM - 6:00 PM", section: "IT 4-2", subject: "ITEC 111 (LAB) ASYNC", room: null },
+            { time: "6:00 PM - 7:00 PM", section: "IT 4-3", subject: "ITEC 111 (LAB) ASYNC", room: null },
+            { time: "7:00 PM - 8:00 PM", section: "IT 3-3", subject: "ITEC 111 (LAB) ASYNC", room: null }
           ],
           thursday: [
             { time: "10:00 AM - 11:00 AM", section: "IT 4-3", subject: "ITEC 111", room: "305" },
@@ -6859,16 +8297,16 @@ export const people = [
             { time: "1:00 PM - 3:00 PM", section: "IT 4-1", subject: "ITEC 111", room: "CL 1" },
             { time: "3:00 PM - 5:00 PM", section: "IT 4-2", subject: "ITEC 111", room: "CL 1" },
             { time: "5:00 PM - 6:00 PM", section: "IT 4-2", subject: "ITEC 111", room: "ROOM 302" },
-            { time: "6:00 PM - 7:00 PM", section: "IT 3-1", subject: "DCIT 26 (Lab) Async", room: "" },
-            { time: "7:00 PM - 8:00 PM", section: "IT 3-2", subject: "DCIT 26 (Lec) Async", room: "" },
+            { time: "6:00 PM - 7:00 PM", section: "IT 3-1", subject: "DCIT 26 (LAB) ASYNC", room: null },
+            { time: "7:00 PM - 8:00 PM", section: "IT 3-2", subject: "DCIT 26 (LEC) ASYNC", room: null },
             { time: "8:00 PM - 9:00 PM", section: "IT 3-3", subject: "DCIT 26", room: "ROOM 303" }
           ],
           friday: [],
           saturday: [
             { time: "9:00 AM - 11:00 AM", section: "IT 4-3", subject: "ITEC 111", room: "CL 1" },
-            { time: "11:00 AM - 12:00 PM", section: "IT 4-2", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 4-3", subject: "ITEC 111 (Lec) Async", room: "" },
-            { time: "1:00 PM - 2:00 PM", section: "IT 4-1", subject: "ITEC 111 (Lec) Async", room: "" },
+            { time: "11:00 AM - 12:00 PM", section: "IT 4-2", subject: "ITEC 111 (LEC) ASYNC", room: null },
+            { time: "12:00 PM - 1:00 PM", section: "IT 4-3", subject: "ITEC 111 (LEC) ASYNC", room: null },
+            { time: "1:00 PM - 2:00 PM", section: "IT 4-1", subject: "ITEC 111 (LEC) ASYNC", room: null },
             { time: "5:00 PM - 7:00 PM", section: "IT 3-2", subject: "DCIT 26", room: "CL 1" },
           ],
           sunday: [],
@@ -6878,39 +8316,39 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "8:00 AM - 9:00 AM", section: "CS 3-2", subject: "COSC  106 (Lab) Async", room: "" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 3-1", subject: "COSC  106 (Lab) Async", room: "" },
+            { time: "8:00 AM - 9:00 AM", section: "CS 3-2", subject: "COSC  106 (LAB) ASYNC", room: null },
+            { time: "9:00 AM - 10:00 AM", section: "CS 3-1", subject: "COSC  106 (LAB) ASYNC", room: null },
             { time: "11:00 AM - 1:00 PM", section: "CS 3-2", subject: "COSC  106", room: "CL 4" },
             { time: "1:00 PM - 2:00 PM", section: "IT 1-6", subject: "ITEC 60", room: "ROOM 303" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 2-6", subject: "ITEC 60 (Lab) Async", room: "" },
+            { time: "2:00 PM - 3:00 PM", section: "IT 2-6", subject: "ITEC 60 (LAB) ASYNC", room: null },
             { time: "3:00 PM - 5:00 PM", section: "CS 3-1", subject: "COSC  106", room: "CL 4" },
             { time: "5:00 PM - 6:00 PM", section: "IT 2-5", subject: "ITEC 60", room: "ROOM 303" },
           ],
           tuesday: [],
           wednesday: [
-            { time: "9:00 AM - 10:00 AM", section: "IT 2-6", subject: "ITEC 60 (Lec) Async ", room: "" },
-            { time: "10:00 AM - 11:00 AM", section: "IT 2-5", subject: "ITEC 60 (Lec) Async ", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 2-6", subject: "ITEC 60 (LEC) ASYNC ", room: null },
+            { time: "10:00 AM - 11:00 AM", section: "IT 2-5", subject: "ITEC 60 (LEC) ASYNC ", room: null },
             { time: "12:00 PM - 2:00 PM", section: "IT 2-5", subject: "ITEC 60", room: "CL 1" },
             { time: "2:00 PM - 3:00 PM", section: "CS 3-2", subject: "COSC 106", room: "CL 4" },
             { time: "3:00 PM - 4:00 PM", section: "CS 3-1", subject: "COSC 106", room: "CL 4" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 2-5", subject: "ITEC 60 (Lab) Async", room: "" },
+            { time: "4:00 PM - 5:00 PM", section: "IT 2-5", subject: "ITEC 60 (LAB) ASYNC", room: null },
             { time: "5:00 PM - 7:00 PM", section: "IT 2-6", subject: "ITEC 60", room: "CL 2" },
           ],
           thursday: [
             { time: "12:00 PM - 2:00 PM", section: "IT 3-5", subject: "ITEC 101", room: "CL 3" },
-            { time: "2:00 PM - 3:00 PM", section: "IT 3-5", subject: "ITEC 101 (Lab) Async", room: "" },
-            { time: "3:00 PM - 4:00 PM", section: "IT 3-6", subject: "ITEC 101 (Lab) Async", room: "" },
+            { time: "2:00 PM - 3:00 PM", section: "IT 3-5", subject: "ITEC 101 (LAB) ASYNC", room: null },
+            { time: "3:00 PM - 4:00 PM", section: "IT 3-6", subject: "ITEC 101 (LAB) ASYNC", room: null },
             { time: "4:00 PM - 6:00 PM", section: "IT 3-6", subject: "ITEC 101", room: "CL 3" },
           ],
           friday: [],
           saturday: [
             { time: "9:00 AM - 10:00 AM", section: "IT 3-6", subject: "ITEC 101", room: "ROOM 305" },
             { time: "10:00 AM - 11:00 PM", section: "IT 3-5", subject: "ITEC 101", room: "ROOM 305" },
-            { time: "11:00 PM - 12:00 PM", section: "IT 3-5", subject: "ITEC 101 (Lec) Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "IT 3-6", subject: "ITEC 101 (Lec) Async", room: "" },
-            { time: "2:00 PM - 4:00 PM", section: "", subject: "Consultation", room: "Faculty" },
-            { time: "4:00 PM - 5:00 PM", section: "IT 3-2", subject: "COSC 106 (Lec) Async", room: "" },
-            { time: "5:00 PM - 6:00 PM", section: "IT 3-1", subject: "COSC 106 (Lec) Async", room: "" },
+            { time: "11:00 PM - 12:00 PM", section: "IT 3-5", subject: "ITEC 101 (LEC) ASYNC", room: null },
+            { time: "12:00 PM - 1:00 PM", section: "IT 3-6", subject: "ITEC 101 (LEC) ASYNC", room: null },
+            { time: "2:00 PM - 4:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
+            { time: "4:00 PM - 5:00 PM", section: "IT 3-2", subject: "COSC 106 (LEC) ASYNC", room: null },
+            { time: "5:00 PM - 6:00 PM", section: "IT 3-1", subject: "COSC 106 (LEC) ASYNC", room: null },
           ],
           sunday: [],
         }
@@ -6918,12 +8356,40 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
+          monday: [
+            { time: "10:00 AM - 11:00 AM", section: "IT 3-2", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "11:00 AM - 12:00 AM", section: "IT 3-2", subject: "DCIT 26 (LAB) ASYNC", room: null },
+            { time: "1:00 PM - 2:00 PM", section: "IT 3-1", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "2:00 PM - 3:00 PM", section: "IT 3-1", subject: "DCIT 26 (LAB) ASYNC", room: null },
+            { time: "3:00 PM - 4:00 PM", section: "IT 3-6", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "5:00 PM - 7:00 PM", section: "IT 3-1", subject: "DCIT 26", room: "CL 3" },
+            { time: "7:00 PM - 8:00 PM", section: "IT 3-1", subject: "DCIT 26", room: "CL 3" },
+          ],
           tuesday: [],
-          wednesday: [],
-          thursday: [],
+          wednesday: [
+            { time: "10:00 AM - 11:00 AM", section: "IT 3-5", subject: "DCIT 26", room: "ROOM 401" },
+            { time: "11:00 AM - 12:00 PM", section: "IT 3-2", subject: "DCIT 26", room: "ROOM 401" },
+            { time: "12:00 PM - 1:00 PM", section: "IT 3-6", subject: "DCIT 26 (LAB) ASYNC", room: "ROOM 401" },
+            { time: "1:00 PM - 2:00 PM", section: "IT 3-5", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "2:00 PM - 3:00 PM", section: "IT 3-5", subject: "DCIT 26 (LAB) ASYNC", room: null },
+            { time: "4:00 PM - 6:00 PM", section: "IT 3-5", subject: "DCIT 26", room: "CL 5" },
+            { time: "6:00 PM - 8:00 PM", section: "IT 3-6", subject: "DCIT 26", room: "CL 5" },
+            { time: "8:00 PM - 9:00 PM", section: "IT 3-6", subject: "DCIT 26", room: "CL 5" },
+          ],
+          thursday: [
+            { time: "9:00 AM - 10:00 AM", section: "IT 3-3", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "10:00 AM - 11:00 AM", section: "IT 3-3", subject: "DCIT 26 (LAB) ASYNC", room: null },
+            { time: "1:00 PM - 2:00 PM", section: "IT 3-4", subject: "DCIT 26 (LAB) ASYNC", room: null },
+            { time: "3:00 PM - 5:00 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
+          ],
           friday: [],
-          saturday: [],
+          saturday: [
+            { time: "12:00 PM - 1:00 PM", section: "IT 3-4", subject: "DCIT 26 (LEC) ASYNC", room: null },
+            { time: "1:00 PM - 3:00 PM", section: "IT 3-4", subject: "DCIT 26", room: "CL 5" },
+            { time: "3:00 PM - 5:00 PM", section: "IT 3-2", subject: "DCIT 26", room: "CL 5" },
+            { time: "6:00 PM - 7:00 PM", section: "IT 3-3", subject: "DCIT 26", room: "ROOM 303" },
+            { time: "7:00 PM - 9:00 PM", section: "IT 3-3", subject: "DCIT 26", room: "CL 5" },
+          ],
           sunday: [],
         }
       },
@@ -6951,7 +8417,7 @@ export const people = [
           saturday: [
             { time: "10:00 AM - 12:00 PM", section: "CS 3-2", subject: "COSC 106", room: "ROOM 204" },
             { time: "12:00 PM - 2:00 PM", section: "CS 3-6", subject: "COSC 106", room: "ROOM 107" },
-            { time: "2:30 PM - 4:30 PM", section: "", subject: "Consultation", room: "Faculty" },
+            { time: "2:30 PM - 4:30 PM", section: "", subject: "CONSULTATION", room: "FACULTY" },
             { time: "5:00 PM - 7:00 PM", section: "CS 3-5", subject: "COSC 106", room: "ROOM 201" },
           ],
           sunday: [],
@@ -7048,24 +8514,24 @@ export const people = [
           monday: [
             { time: "7:00 AM - 9:00 AM", section: "CS 2-1", subject: "COSC 65", room: "CL 1" },
             { time: "9:00 AM - 10:00 AM", section: "CS 2-2", subject: "COSC 65", room: "CL 1" },
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-3", subject: "COSC 65 (Lab) Async", room: "" },
+            { time: "10:00 AM - 11:00 AM", section: "CS 2-3", subject: "COSC 65 (LAB) ASYNC", room: null },
           ],
           tuesday: [
-            { time: "7:00 AM - 8:00 AM", section: "CS 2-5", subject: "GNED 08 Async", room: "" },
+            { time: "7:00 AM - 8:00 AM", section: "CS 2-5", subject: "GNED 08 ASYNC", room: null },
             { time: "8:00 AM - 10:00 AM", section: "CS 2-5", subject: "GNED 08", room: "ROOM 301" }
           ],
           wednesday: [
             { time: "7:00 AM - 9:00 AM", section: "CS 2-2", subject: "COCS 65", room: "CL 1" },
             { time: "9:00 AM - 10:00 AM", section: "CS 2-1", subject: "COSC 65", room: "ROOM 301" },
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-2", subject: "COSC 65 (Lab) Async", room: "" },
+            { time: "10:00 AM - 11:00 AM", section: "CS 2-2", subject: "COSC 65 (LAB) ASYNC", room: null },
           ],
           thursday: [
             { time: "7:00 AM - 9:00 AM", section: "CS 2-6", subject: "GNED 08", room: "ROOM 301" },
-            { time: "9:00 AM - 10:00 AM", section: "CS 2-6", subject: "GNED 08 Async", room: "" },
+            { time: "9:00 AM - 10:00 AM", section: "CS 2-6", subject: "GNED 08 ASYNC", room: null },
           ],
           friday: [
-            { time: "7:00 AM - 8:00 AM", section: "CS 2-1", subject: "COSC 65 (Lec) Async", room: "" },
-            { time: "8:00 AM - 9:00 AM", section: "CS 2-2", subject: "COSC 65 (Lec) Async", room: "" },
+            { time: "7:00 AM - 8:00 AM", section: "CS 2-1", subject: "COSC 65 (LEC) ASYNC", room: null },
+            { time: "8:00 AM - 9:00 AM", section: "CS 2-2", subject: "COSC 65 (LEC) ASYNC", room: null },
           ],
           saturday: [],
           sunday: [],
@@ -7074,11 +8540,28 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
+          monday: [
+            { time: "7:00 AM - 9:00 AM", section: "IT 3-3", subject: "ITEC 90", room: "CL 5" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 3-3", subject: "ITEC 90 (LAB) ASYNC", room: null },
+          ],
+          tuesday: [
+            { time: "7:00 AM - 8:00 AM", section: "IT 3-3", subject: "ITEC 90", room: "ROOM 401" },
+            { time: "8:00 AM - 9:00 AM", section: "IT 3-4", subject: "ITEC 90", room: "ROOM 401" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 3-5", subject: "ITEC 90", room: "ROOM 401" },
+          ],
+          wednesday: [
+            { time: "7:00 AM - 8:00 AM", section: "IT 3-3", subject: "ITEC 90 (LEC) ASYNC", room: null },
+            { time: "8:00 AM - 9:00 AM", section: "IT 3-4", subject: "ITEC 90 (LEC) ASYNC", room: null },
+            { time: "9:00 AM - 10:00 AM", section: "IT 3-5", subject: "ITEC 90 (LEC) ASYNC", room: null },
+          ],
+          thursday: [
+            { time: "7:00 AM - 9:00 AM", section: "IT 3-4", subject: "ITEC 90", room: "CL 5" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 3-4", subject: "ITEC 90 (LAB) ASYNC", room: null },
+          ],
+          friday: [
+            { time: "7:00 AM - 9:00 AM", section: "IT 3-5", subject: "ITEC 90", room: "CL 2" },
+            { time: "9:00 AM - 10:00 AM", section: "IT 3-5", subject: "ITEC 90 (LAB) ASYNC", room: null },
+          ],
           saturday: [],
           sunday: [],
         }
@@ -7724,117 +9207,121 @@ export const people = [
     image: "/images/martinez.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1I4XT9BVoXJbnossRYZ17BDBcGf5e3vNb/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1qdE8Sjd9zJVmaWyJLimqcj0fM-w8wg64/view?usp=sharing"
     },],
     masters_diploma: [{
-      name: "MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1niKFF7rHL9QYydkeqeXcWbBcPBrPZJBY/view?usp=drive_link"
-    },],
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1fvK81JPTKD1yIt7ZPhCHwaH813CW9Yxw/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1fN0Ck8ZL7HJrisi6hWnX4n48Mz7i7gAE/view?usp=drive_link"
-    },
+      name: "",
+      url: ""
+    }],
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/13zl0k4LQ49dJUk_4MId--KylAwMvef0l/view?usp=drive_link"
+      },
+    ],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1AAqHNicJI4ZMhiAInpDnmUbxsXnyQn9t/view?usp=drive_link",
     certificates: [
       {
-        name: "BASIC OF NETWORKING DESIGN - TESDA",
-        url: "https://drive.google.com/file/d/1vvOObhDtuqocZQph0w0WYImNGbKKCz-D/view?usp=drive_link"
+        name: "AI Lessons and Assessment with Curipod",
+        url: "https://drive.google.com/file/d/1mjiQfeZ_eeNRruJ8YwsE9UnbALST6WMy/view?usp=sharing"
       },
       {
-        name: "CANVA FOR BEGINNERS - TESDA",
-        url: "https://drive.google.com/file/d/1Wgb23NDB1sl1a8NPMk4U84mUTAWCgiNP/view?usp=drive_link"
+        name: "Basics of Network Design",
+        url: "https://drive.google.com/file/d/1Tbkb1NIhtI4apEhgRp0R7yLQ3RnpC_2a/view?usp=sharing"
       },
       {
-        name: "COMPUTER LITERACY TRAINING PROGRAM - ADAMSON UNIVERSITY",
-        url: "https://drive.google.com/file/d/1DXrVZuQqJmvqD8c8o2UlLKA8RmfKj3M3/view?usp=drive_link"
+        name: "Canva for Beginners",
+        url: "https://drive.google.com/file/d/10OTfb-OYVmf0v2cIhq0slXDT7F7zDMmz/view?usp=sharing"
       },
       {
-        name: "CYBERATTACKS AND CYBERSECURITY - MINDORO STATE UNIVERSITY",
-        url: "https://drive.google.com/file/d/1CZkmHDYObK4SBPKN4M1gYOYx1rGHyvMg/view?usp=drive_link"
+        name: "Canva for Beginners 2",
+        url: "https://drive.google.com/file/d/1DTNsGvPDUbtqMs6rA7vQJrj6bn24jqCm/view?usp=sharing"
       },
       {
-        url: "https://drive.google.com/file/d/1DXrVZuQqJmvqD8c8o2UlLKA8RmfKj3M3/view?usp=drive_link",
-        name: "COMPUTER LITERACY TRAINING PROGRAM - ADAMSON UNIVERSITY"
+        name: "Computer Literacy Training Program",
+        url: "https://drive.google.com/file/d/1_vItA_IOTSyr-gTFgjq1YhakO_lvOSvH/view?usp=sharing"
       },
       {
-        name: "CYBERSECURITY AWARENESS - DICT",
-        url: "https://drive.google.com/file/d/1r4BbghOqrJurLveXCTeFgr4mnSQiyQlz/view?usp=drive_link"
+        name: "Cyber Attacks and Security",
+        url: "https://drive.google.com/file/d/1ifDjVHZZiq-Au_JlPunX3beAncDY0APf/view?usp=sharing"
       },
       {
-        name: "CYBERSECURITY AWARENESS - DICT",
-        url: "https://drive.google.com/file/d/13XdmTRmEG_FjrDmL6OsShSBK9A8cTtfi/view?usp=drive_link"
+        name: "Cybersecurity Awareness",
+        url: "https://drive.google.com/file/d/11DyIwwq9JTvOJR4-rv97ElYCGlSmTVz5/view?usp=sharing"
       },
       {
-        name: "CYBERSECURITY AWARENESS - DICT,",
-        url: "https://drive.google.com/file/d/1fLkq6fLtsnQHGjNlXweqecLmbL4HmQNv/view?usp=drive_link"
+        name: "Cybersecurity Awareness 2",
+        url: "https://drive.google.com/file/d/1mP_kaFIoRpdAcCYZN0M0hTbZZLRQLGx7/view?usp=sharing"
       },
       {
-        name: "CYBERTALKS: CYBER RESILIENCE: ADAPTING, INNOVATING AND DEFENDING IN THE DIGITAL AGE - DICT",
-        url: "https://drive.google.com/file/d/1FaDk-bVSwzBfgWj47G-VEzv4UBD2fbUm/view?usp=drive_link"
+        name: "Cybersecurity Awareness 3",
+        url: "https://drive.google.com/file/d/1Me-E6_1SBCeDUdlGbJC-5jNfnmEaWwrS/view?usp=sharing"
       },
       {
-        name: "DATA PRIVACY ACT (RA 10173) AWARENESS SEMINAR - DICT",
-        url: "https://drive.google.com/file/d/1aESd4gd605Z9gFdA-yuSQlexjxDzVWhu/view?usp=drive_link"
+        name: "CALABARZON Cybertalks: Cyber Resilience",
+        url: "https://drive.google.com/file/d/1Sl7mDh5ZJZX0KmGzMvJAFAnbiPIoVodW/view?usp=sharing"
       },
       {
-        name: "ICT PEDAGOGY, ANDRAGOGY, AND HEUTAGOGY: DYNAMICS OF TEACHING ICT - DICT",
-        url: "https://drive.google.com/file/d/1z1oMOW-d17CfL2-6_vhEsa1ZXBcr8Nu5/view?usp=drive_link"
+        name: "Data Privacy Act Awareness Seminar",
+        url: "https://drive.google.com/file/d/12-LTRv_aLK-BYeo0J2gah6074i79P_cF/view?usp=sharing"
       },
       {
-        name: "EMERGNCY COMMUNICATION SYSTEMS WEBINAR - DICT",
-        url: "https://drive.google.com/file/d/10BCOMkEsG7qBxAY5nhOWl60rlEjy26PX/view?usp=drive_link"
+        name: "ICT Pedagogy, Andragogy, and Heutagogy: Dynamics of Teaching ICT",
+        url: "https://drive.google.com/file/d/1e_wcVYPy9upY_O9h-rTX8mlHQIzks2bI/view?usp=sharing"
       },
       {
-        name: "EXCEL TECHNIQUES FOR DATA ANALYSIS - DICT",
-        url: "https://drive.google.com/file/d/1et6l0US2uD1mFDJrXIFP2VEHM-GKNyMq/view?usp=drive_link"
+        name: "Emergency Communications System",
+        url: "https://drive.google.com/file/d/12ac4hC7oTVYn4TiAk7626jOFuD8i0c8v/view?usp=sharing"
       },
       {
-        name: "ADOBE CREATIVE EDUCATORS CERTIFICATIONS (LEVEL 2) - DICT",
-        url: "https://drive.google.com/file/d/1UUnvQtPs4ALWnfAA7XprE_mG3ZSUDBzS/view?usp=drive_link"
+        name: "Excel Techniques for Data Analysis",
+        url: "https://drive.google.com/file/d/1nXDP56tApnkudFWUb9gPXghRXC-95WKs/view?usp=sharing"
       },
       {
-        name: "EXPLORATION AND UTILIZATION OF GOOGLE WORKSPACE",
-        url: "https://drive.google.com/file/d/1c453fXYZg9m7EhnnmviB7MusVlD_ajEU/view?usp=drive_link"
+        name: "Adobe Creative Edutors Certifications - Level 2: Free Wifi for All",
+        url: "https://drive.google.com/file/d/16um42PSKiudcpCbiMeSRprPWSEIqIW5S/view?usp=sharing"
       },
       {
-        name: "GOOGLE WORKSPACE",
-        url: "https://drive.google.com/file/d/1DCjXx9-ljt5S6V4e0Bn5v3GZWxyT6tF_/view?usp=drive_link"
+        name: "Exploration and Utilization of Google Workspace",
+        url: "https://drive.google.com/file/d/1p2GcAABoTwepuJJm97de0ZRe4_FcMnLO/view?usp=sharing"
       },
       {
-        name: "GRAPHIC DESIGN USING ADOBE EXPRESS - CREATIVE NATION ACADEMY",
-        url: "https://drive.google.com/file/d/1EzjYeKJbnUTKTZHC5L1QiBDH8lBPaeMu/view?usp=drive_link"
+        name: "Google Workspace 2",
+        url: "https://drive.google.com/file/d/1VO29S8f1DOIarpCayAP0oBhCTp_Q6Hrt/view?usp=sharing"
       },
       {
-        name: "GRAPHIC DESIGN USING ADOBE EXPRESS - CREATIVE NATION ACADEMY",
-        url: "https://drive.google.com/file/d/1FccoRc4EYIUY7mQxKhqVA_8om520S2-r/view?usp=drive_link"
+        name: "Graphic Design using Adobe Express",
+        url: "https://drive.google.com/file/d/1KKDM4CLDs7kVu03bM7Hr2DEu_uQ0d8D7/view?usp=sharing"
       },
       {
-        name: "MAXIMIZE YOUR FREELANCE EARNINGS WITH AI TOOLS - DICT",
-        url: "https://drive.google.com/file/d/1G5NWSrUNStLD09QlmFcbLYxH0BgtkOno/view?usp=drive_link"
+        name: "Graphic Design using Adobe Express2",
+        url: "https://drive.google.com/file/d/1wodc5GVykA1UaL8IQAvLgCEH1OQdnvts/view?usp=sharing"
       },
       {
-        name: "COMPUTER SYSTEM SERVICING (NCII) - TESDA",
-        url: "https://drive.google.com/file/d/1AzuqFWhQ_ZAPNZNpel3_h2rYdhs9unjM/view?usp=drive_link"
+        name: "Maximize your Freelance Earnings with AI Tools",
+        url: "https://drive.google.com/file/d/1CCfcXtiYIMuRreBs-0xxAk1qh47P0DWx/view?usp=sharing"
       },
       {
-        name: "PC FORMATTING USING VIRTUALBOX - DICT",
-        url: "https://drive.google.com/file/d/1eh5a_4WkCmEr9ILz1t77ttAt_ODxbqg-/view?usp=drive_link"
+        name: "NC II",
+        url: "https://drive.google.com/file/d/1ndePrkwZyxVCqkYAL776QRLBthjlu0Q8/view?usp=sharing"
       },
       {
-        name: "VIDEO EDITING USING ADOBE PHOTOSHOP - CREATIVE NATION ACADEMY",
-        url: "https://drive.google.com/file/d/1X1491C9F9y46SDfDp-Bf3Q13pc3lQPn0/view?usp=drive_link"
+        name: "PC Formatting using Virtual Box",
+        url: "https://drive.google.com/file/d/1ao-UCfFreHbSpRJV_vgZhgCCrmQfVaxs/view?usp=sharing"
       },
       {
-        name: "WEB 3.0 101 WEBINAR - DICT",
-        url: "https://drive.google.com/file/d/1X9VQ4Fnjb7FwuW_oDp-9BAl7B-LfMVwj/view?usp=drive_link"
+        name: "Video Editing using Photoshop",
+        url: "https://drive.google.com/file/d/1Oau2-QpDkeWvVesA_eRoLnT9F2II79eE/view?usp=sharing"
       },
       {
-        name: "COMPUTER SYSTEM SERVICING - TESDA",
-        url: "https://drive.google.com/file/d/1AzuqFWhQ_ZAPNZNpel3_h2rYdhs9unjM/view?usp=drive_link"
-      }
-    ],
+        name: "Web 3.0 101 Webinar",
+        url: "https://drive.google.com/file/d/13W7xbRJuLXukbeGOgh9HX3FgN98HMr32/view?usp=sharing"
+      },
+      ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -7943,6 +9430,43 @@ export const people = [
               subject: "ITEC 105",
               section: "IT 3-4 (LEC) ASYNC",
               room: null
+            },
+          ],
+          sunday: [],
+        }
+      },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 23-24",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [],
+          thursday: [],
+          friday: [],
+          saturday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 90",
+              section: "IT 3-1",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "ITEC 90",
+              section: "IT 3-1",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 1:00 PM",
+              subject: "ITEC 90 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null            
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 90 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null            
             },
           ],
           sunday: [],
@@ -8078,88 +9602,259 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/mojas.JPG",
     diploma: [{
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1tblDO1MXNqwooST1lts8t_-XQKKCq1Lq/view?usp=drive_link"
+      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1mTI1v4nLevcHRYq-OnTHWJ7dSwbLrHum/view?usp=sharing"
     },],
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/153JADjzVYIdLU9ZpBHgW8Z7FrFBKJqpY/view?usp=drive_link"
-    },],
-    resume: [{
-      url: "https://drive.google.com/file/d/1uvX97ogxkKL2uavAOeKdIk26H-gWmMp4/view?usp=drive_link"
-    },],
-    certificates:
-      [{
-        name: "DCS RESEARCH COLLOQUIUM 2024 - CAVITE STATE UNIVERSITY - BACOOR",
-        url: "https://drive.google.com/file/d/1RRujWOYRHKWoYXDaDwDv-4bVqe6rltLe/view?usp=drive_link"
-      },
-      {
-        name: "1ST INTERNATIONAL RESEARCH CONFERENCE ON SUSTAINABLE DEVELOPMENT 2024",
-        url: "https://drive.google.com/file/d/1NuCSTpagn6qtvAsVgJKbi0hqDU5IqtCO/view?usp=drive_link"
-      },
-      {
-        name: "ICT PROJECT MANAGEMENT - DICT",
-        url: "https://drive.google.com/file/d/1HW_Eho_7eXo9oHrT680zxnbpe5Y0u523/view?usp=drive_link"
-      },
-      {
-        name: "RESPONSIBLE RESEACH: BALANCING ARTIFICIAL INTELLIGENCE AND ETHICS - ISTREL",
-        url: "https://drive.google.com/file/d/1Kc-_Tq1SKDcwmlGhSsXt8V-Jl7ORaIyQ/view?usp=drive_link"
-      },
-      {
-        name: "SOFTWARE DEVELOPMENT AND DESIGN THINKING - DICT",
-        url: "https://drive.google.com/file/d/1yuf_b5qEWDe5IHQrfMWBUxNjbIMFyl1b/view?usp=drive_link"
-      },
-      {
-        name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-        url: "https://drive.google.com/file/d/1a9xzBfNAljx0shN1taI5B1txc3DpebNO/view?usp=drive_link"
-      },
-      {
-        name: "IN2ITION 2024: 3RD PHYIGF - SOUTHVILLE INTERNATIONAL SCHOOL AND COLLEGES",
-        url: "https://drive.google.com/file/d/1p2Aq0gCyG_-RLpLIVT8xmKNDIVrNzsmh/view?usp=drive_link"
-      },
-      {
-        name: "STUDENT RESEARCH SYMPOSIUM - CAVITE STATE UNIVERSITY - MAIN",
-        url: "https://drive.google.com/file/d/1WrvHBRNgB3v0AFBsHSd2J3d5D4rG7wJM/view?usp=drive_link"
-      },
-      {
-        name: "STUDENT RESEARCH SYMPOSIUM (SECOND PLACE) - CAVITE STATE UNIVERSITY - MAIN",
-        url: "https://drive.google.com/file/d/1rW0_c2oVOBLksNEvfo3oON-p2sMvK15N/view?usp=drive_link"
-      },
-      {
-        name: "3RD ALCUCOA NATIONAL RESEARCH CONFERENCE",
-        url: "https://drive.google.com/file/d/1FgBcF-Jt56eVd30ittHrYmmPntgbeROM/view?usp=drive_link"
-      },
-      {
-        name: "3RD ALCUCOA NATIONAL RESEARCH CONFERENCE (BEST PAPER PRESENTATION)",
-        url: "https://drive.google.com/file/d/1ILphwXXv9mZBHfXzuI4SudCE5m7RgSpB/view?usp=drive_link"
-      },
-      {
-        name: "9TH GENDER AND DEVELOPMENT RESEARCH CONFERENCE - CAVITE STATE UNIVERSITY - MAIN",
-        url: "https://drive.google.com/file/d/1JxZNVNzwqhlCVcHz1p8QKUXW3Zj2XlqY/view?usp=drive_link"
-      },
-      {
-        name: "1ST INTERNATIONAL RESEARCH CONFERENCE ON SUSTAINABLE DEVELOPMENT 2024",
-        url: "https://drive.google.com/file/d/1jJGmRauyzmJO4_EVTHFriNgwxaforDZC/view?usp=drive_link"
-      },
-      {
-        name: "COMPUTER SYSTEM SERVICING - TESDA",
-        url: "https://drive.google.com/file/d/1CQFvsFs9xzZQTy7pI-mRJXgc7heYmUXD/view?usp=drive_link"
-      },],
-    speaking_engagements: [{
-      name: "STUDENT RESEARCH SYMPOSIUM - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1WrvHBRNgB3v0AFBsHSd2J3d5D4rG7wJM/view?usp=drive_link"
+    masters_diploma: [{
+      name: "",
+      url: ""
     }],
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+        url: "https://drive.google.com/file/d/1jEQAd9nZlSZ4XXwmm3Sf7OK0OP9zJ1Jx/view?usp=sharing"
+      },
+    ],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1u0vUTH1wHsGdJi88TctnunVhfo0Hczsf/view?usp=drive_link",
+    certificates: [
+      {
+        name: "Department of Computer Studies Research Colloquium 2024",
+        url: "https://drive.google.com/file/d/1kFGdti3gDzqB9_GPdgJ76rFXsnv6GUee/view?usp=sharing"
+      },
+      {
+        name: "Student Research Symposium : Certificate of Participation",
+        url: "https://drive.google.com/file/d/1oa4oR1q6xDu-TPLnTZMOzUnJ8EKheC7e/view?usp=sharing"
+      },
+      {
+        name: "Student Research Symposium: 2nd Place Best Research Paper",
+        url: "https://drive.google.com/file/d/1MidmxulUOO1Ku3Wcmz7TPHNwsKowm9aK/view?usp=sharing"
+      },
+      {
+        name: "Best Paper Presentation - 3rd ALCUCOA National Research Conference ",
+        url: "https://drive.google.com/file/d/1ksyRM9efSdVlP9HB5bCwxOzFCm5EkqpT/view?usp=sharing"
+      },
+      {
+        name: "9th Gender and Development Research Conference",
+        url: "https://drive.google.com/file/d/102jptls7pfydIvQyb40Ua2EzjnRXZ8_Q/view?usp=sharing"
+      },
+      {
+        name: "Certificate of Recognition - 3rd ALCUCOA National Research Conference",
+        url: "https://drive.google.com/file/d/1MecOFHEUtMlL6iLZI6IdnqeYigmwFdU8/view?usp=sharing"
+      },
+      {
+        name: "1st International Research Conference on Sustainable Development 2024",
+        url: "https://drive.google.com/file/d/1E-Kvc4Yqun2sqtnN3J2Hv1YwLHdjOjh0/view?usp=sharing"
+      },
+      {
+        name: "NC II: Computer Systems Servicing",
+        url: "https://drive.google.com/file/d/1f4S_dAR7OYINMHPRc15kWHIzjGIbSU4n/view?usp=sharing"
+      },
+      {
+        name: "Information Session on ICT Project Management",
+        url: "https://drive.google.com/file/d/1730K2U538oqCWW75Sc86O_wgpKhnTpxg/view?usp=sharing"
+      },
+      {
+        name: "Responsible Research: Balancing Artificial Intelligence (AI) and Ethics",
+        url: "https://drive.google.com/file/d/1vq4QdY70qHIhj2qWLBrc-mmzQC2Jy_V8/view?usp=sharing"
+      },
+      {
+        name: "Solutions for the Future: Progress and Challenge in the Achievent of the Sustainable Development Goals",
+        url: "https://drive.google.com/file/d/1CI5-sn_x7ISnIy31oRBdDQ-xhUKOro9i/view?usp=sharing"
+      },
+      {
+        name: "Information Session on Software Development and Design",
+        url: "https://drive.google.com/file/d/1jVXQWInk0i3C-TfM-LGs-YdARl80lDeZ/view?usp=sharing"
+      },
+      {
+        name: "Seminar-Workshop on Module Development and Publication of Cavite State University-Bacoor City Campus faculty.",
+        url: "https://drive.google.com/file/d/1CCofk_FMDVy6XMjG9dmtcAnByEJAkt6_/view?usp=sharing"
+      },
+      {
+        name: "3rd PhYIGF Seires: Tech Horizon: Bridging Digital Today to Tomorrow",
+        url: "https://drive.google.com/file/d/1-YBGvLX3BqVFvcQohgLTccBuSPKiezP1/view?usp=sharing"
+      },
+      ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
       //No Record - 1st SEM  23-24
       //No Record - 2nd SEM  24-25
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 50",
+              section: "CS 2-2",
+              room: "CL 4"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-3",
+              room: "CL 4"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 50 (LEC) ASYNC ",
+              section: "CS 2-1",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 60 (LEC) ASYNC ",
+              section: "CS 2-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 60 (LAB) ASYNC ",
+              section: "CS 2-2",
+              room: null
+            },
+          ],
+          tuesday: [],
+          wednesday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 60 (LEC) ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 60 (LAB) ASYNC",
+              section: "CS 2-1",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "CS 2-1",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 50",
+              section: "CS 2-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "COSC 60",
+              section: "CS 2-1",
+              room: "CL 1"
+            },
+            {
+              time: "11:00 AM - 1:00 AM",
+              subject: "COSC 60",
+              section: "CS 2-2",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 60",
+              section: "CS 2-3",
+              room: "CL 4"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+          ],
+          friday: [],
+          saturday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 60",
+              section: "CS 2-2",
+              room: "ROOM 303"
+            },
+            {
+              time: "9:00 AM -109:00 AM",
+              subject: "COSC 60",
+              section: "CS 2-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 60",
+              section: "CS 2-2",
+              room: "ROOM 303"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-1",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 50",
+              section: "CS 2-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 60 (LAB) ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+          ],
+          sunday: [],
+        }
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -8353,16 +10048,42 @@ export const people = [
     first_name: "Richard",
     last_name: "Ongayo",
     name: "Ridhard D. Ongayo",
-    designation: "Instructor I",
+    designations: {
+      current_designation: "Department Chairperson",
+      last_designation: [
+        { year: 2024, designation: "Program Coordinator, Information Technology" },
+        { year: 2023, designation: "Head, Learning Management System" },
+      ],
+    },
     image: "/images/ongayo.JPG",
     diploma: [{
-      name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
-      url: "https://drive.google.com/file/d/1YVgISKruS4SCtI-b9rzhVQ8iZ8BZhTVi/view?usp=drive_link"
-    },],
-    // masters_diploma: {name:"", url:""},
-    // tor: {name:"", url:""},
-    // resume: {url:""},
-    // certificates: [{name:"", url:""},],
+      name: "BACHELORS OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
+      url: "https://drive.google.com/file/d/1kqoOE115IyFzi9b0y0ttzbEwaSJJ1fXM/view?usp=sharing"
+    },
+    {
+      name: "Professional Teacher Certification",
+      url: "https://drive.google.com/file/d/1kqoOE115IyFzi9b0y0ttzbEwaSJJ1fXM/view?usp=sharing"
+    },
+  ],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [{
+        name: "",
+        url: ""
+      },],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: null,
+    certificates: [
+      {
+        name: null,
+        url: null
+      },
+      ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -8519,6 +10240,81 @@ export const people = [
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 55 ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 55 ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 55 ASYNC",
+              section: "CS 2-1",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 55 ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "COSC 55 ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+          ],
+          friday: [],
+          saturday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "COSC 55",
+              section: "CS 2-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "COSC 55",
+              section: "CS 2-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 55",
+              section: "CS 2-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 55",
+              section: "CS 2-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "COSC 55",
+              section: "CS 2-5",
+              room: "ROOM 305"
+            },
+          ],
+          sunday: [],
+        }
+      },
+      { //2nd 24-25
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
           monday: [
             {
               time: "6:00 PM - 8:00 PM",
@@ -8659,8 +10455,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/penson.jpg",
@@ -9068,6 +10864,82 @@ export const people = [
         details: {
           monday: [
             {
+              time: "5:00 PM - 7:00 PM",
+              subject: "MATH 3",
+              section: "CS 3-1",
+              room: "ACCRE"
+            },
+            {
+              time: "7:00 - 9:00 PM",
+              subject: "MATH 3",
+              section: "CS 3-5",
+              room: "ROOM 201"
+            },
+          ],
+          tuesday: [
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "MATH 3",
+              section: "CS 3-3",
+              room: "ACCRE"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "MATH 3 ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "MATH 3 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "MATH 3",
+              section: "CS 3-4",
+              room: "ACCRE"
+            },
+            {
+              time: "7:00 - 9:00 PM",
+              subject: "MATH 3",
+              section: "CS 3-2",
+              room: "ROOM 301"
+            },
+          ],
+          thursday: [
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "MATH 3 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "MATH 3",
+              section: "CS 3-1",
+              room: "ACCRE"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "MATH 3 ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+          ],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      { //2nd 24-25
+        semesterName: "2nd Sem A.Y 24-25",
+        details: {
+          monday: [
+            {
               time: "5:00 PM - 6:30 PM",
               subject: "COSCS 110",
               section: "CS 4-1",
@@ -9218,8 +11090,8 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/pimentel.jpg",
@@ -9235,6 +11107,10 @@ export const people = [
     resume: {
       url: "https://drive.google.com/file/d/1_Gun1auCL0MZ_HQbMCunrsQb_5beMCtM/view?usp=drive_link"
     },
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
     certificates: [
       {
         name: "2ND IGNITE IT CONVENTION - IGNITE",
@@ -9533,6 +11409,155 @@ export const people = [
           sunday: [],
         }
       },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-2",
+              room: "CL 2"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-4",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-3",
+              room: "CL 3"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-4",
+              room: "ROOM 303"
+            },
+            {
+              time: "3:00 PM - 4:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-2",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-3",
+              room: null
+            },
+          ],
+          tuesday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-2",
+              room: "CL 3"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-4",
+              room: "CL 3"
+            },
+            
+            {
+              time: "3:00 PM - 4:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-2",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-3",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-2",
+              room: "ROOM 301"
+            }, 
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-2",
+              room: null
+            }, 
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-4",
+              room: "CL 3"
+            }, 
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-3",
+              room: "CL 3"
+            }, 
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }, 
+          ],
+          thursday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 4-2",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 4-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 80C",
+              section: "IT 4-1",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 80C",
+              section: "IT 4-2",
+              room: "CL 2"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 80C",
+              section: "IT 4-3",
+              room: "CL 2"
+            },
+          ],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -9731,33 +11756,40 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/racadio.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1nCFGl5mhhCo99GBlsrUvCv3BuP-_VAtA/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1ZXnx3Hcn0DZDxIq4CDlXjPFcF-OSa79P/view?usp=drive_link"
     },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1Azf0IC2oiLqtec7M0_Edd6JONffKIPSI/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://docs.google.com/document/d/1dFB9TS_jtSqFCrMOTWZQtVMzZPjocAKs/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true"
-    },
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/1Hj1oVAYP8-PxQ8bpuOb8nPrVXALLS9Lx/view?usp=drive_link"
+      },
+    ],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://docs.google.com/document/d/12EmweAMw_wq-dRohBTVu8hXZJKepNKQY/edit?usp=drive_link&ouid=112585383982213171878&rtpof=true&sd=true",
     certificates: [
       {
-        name: "COMPUTER PROGRAMMING III (INTERMEDIATE JAVA PROGRAMMING) - STI",
-        url: "https://drive.google.com/file/d/1A3Y85q8rkoKEpwiguMhkcI0upi8ms4ID/view?usp=drive_link"
+        name: "CERTIFICATION: Computer Programming 3 (Intermediate Java Programming) ",
+        url: "https://drive.google.com/file/d/1lCwO1Ty-sFTB5h-IqRnfBGvOuMHrNUhu/view?usp=sharing"
       },
       {
-        name: "TRAINERS METHODOLOGY LEVEL 1 - TESDA",
-        url: "https://drive.google.com/file/d/11o0VgaPJcUj_Cb6rvQREXjy0ZW2aVelg/view?usp=drive_link"
-      },],
-    // speaking_engagements: [{name:"", url:""},],
+        name: "Certificate of Completion: Trainers Methodology Level I",
+        url: "https://drive.google.com/file/d/1XKgMw0CP3VsNd7idynEVLt89ULaGXK4O/view?usp=sharing"
+      },
+      ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -10075,6 +12107,172 @@ export const people = [
           sunday: [],
         }
       },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 50",
+              section: "IT 2-6",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 116 (LEC) ASYNC",
+              section: "IT 4-5",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 116 (LEC) ASYNC",
+              section: "IT 4-4",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 116",
+              section: "IT 4-5",
+              room: "ROOM 305"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 50",
+              section: "IT 4-4",
+              room: "ROOM 201"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "IT 2-6",
+              room: null
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 116",
+              section: "IT 1-4",
+              room: "CL 4"
+            },
+          ],
+          tuesday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 50 (LEC) ASYNC",
+              section: "IT 1-6",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 50 (LAB) ASYNC",
+              section: "IT 4-6",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-5",
+              room: "ROOM 303"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 116",
+              section: "IT 4-6",
+              room: "ROOM 305"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-6",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "IT 2-4",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 50",
+              section: "IT 2-4",
+              room: "CL 4"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "IT 2-4",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 50 (LAB) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 50 (LEC) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 116",
+              section: "IT 4-5",
+              room: "CL 4"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 116 (LAB) ASYNC",
+              section: "IT 4-5",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 116 (LAB) ASYNC",
+              section: "IT 4-6",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 116 (LAB) ASYNC",
+              section: "IT 4-4",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 50",
+              section: "IT 2-5",
+              room: "CL 5"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 116",
+              section: "IT 4-4",
+              room: "ROOM 305"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 116",
+              section: "IT 4-6",
+              room: "CL 4"
+            },
+          ],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -10253,40 +12451,48 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/ramallosa.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1JhQzXFYI9KPAMkCdtD2tOvxzZWmcIFhN/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1QXj6xXdx7JpqUH--a9Oy823GOT_p53LX/view?usp=sharing"
     },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1NMdVjMmnGUsIoGOWAEV5LPtg5UKkLDx4/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1gMxHBB_NXHm6Rd4drwIZ2vxrsKP3leJJ/view?usp=drive_link"
-    },
+    masters_diploma: [{
+      name: "MASTERS IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1HPA63gFQoB12ruMlgzhs2bBEwMHAgqnK/view?usp=sharing"
+    }],
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/1IJkXoGwt309JMCVE8_FgwYyloKRt90yV/view?usp=sharing"
+      },
+    ],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1JiZzJOxrcEF1k-mw-Jlpq7aPCS4ItK4K/view?usp=drive_link",
     certificates: [
       {
-        name: "HARNESSING AI: RESPONSIBLE AND ETHICAL USE OF AI IN THE ACADEMIC SETTING - UNIVERSITY OF THE PHILIPPINES DILIMAN",
-        url: "https://drive.google.com/file/d/1AKBWp-vy7Jz43i8d9lTpwg5PxMdzmwIs/view?usp=drive_link"
+        name: "R1 101: Introduction to Research Integrity",
+        url: "https://drive.google.com/file/d/1BoGWRK4JDOcnqTACNTPvoHXd4BH4SLBu/view?usp=sharing"
       },
       {
-        name: "R1 101: INTRODUCTION TO RESEARCH INTEGRITY - UNIVERSITY OF THE PHILIPPINES DILIMAN",
-        url: "https://drive.google.com/file/d/17MYXIHUQhKnRzOuAQkqXZ1KUJvM6UCwM/view?usp=drive_link"
+        name: "Computer Literacy and System Support Extension Services",
+        url: "https://drive.google.com/file/d/1AF4j1t3ywa2fgQICrLLkbneGXg5ITlBx/view?usp=sharing"
       },
       {
-        name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - CAVITE STATE UNIVERSITY - MAIN",
-        url: "https://drive.google.com/file/d/1llQ2UhSnDz7RyFP2EGZBWhvdouy1Hasn/view?usp=drive_link"
-      },],
-    speaking_engagements: [{
-      name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1zaM5_GolEkUb_edP9eMGJOXe_Edjur1c/view?usp=drive_link"
-    }],
+        name: "CLASSES: Future-Proofing CvSU through Responsive and Relevant Research, Innovation and Extension",
+        url: "https://drive.google.com/file/d/16-gOKbjLXUNZrcExSHBUCHVvX_WjH0mc/view?usp=sharing"
+      },
+      {
+        name: "LINANGAN 2024 - Certificate of Participation",
+        url: "https://drive.google.com/file/d/1gMrP5VpsAJLykRLdFWBbKu_oy3fcrqEi/view?usp=drive_link"
+      },
+      ],
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -10862,6 +13068,154 @@ export const people = [
           sunday: [],
         }
       },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-5",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-7",
+              room: "CL 2"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-7",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 21",
+              section: "IT 1-6",
+              room: "ROOM 305"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-5",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-7",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-6",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-5",
+              room: "CL 2"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-6",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "IT 4-4",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 21",
+              section: "IT 1-7",
+              room: "ROOM 305"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "CONSULTATION HOURS",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 65 (LAB) ASYNC",
+              section: "IT 4-5",
+              room: null
+            },
+          ],
+          friday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 65",
+              section: "IT 1-5",
+              room: "ROOM 303"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 65",
+              section: "IT 1-6",
+              room: "ROOM 303"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 65 (LEC) ASYNC",
+              section: "IT 4-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "IT 1-7",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "IT 1-6",
+              room: null
+            },
+          ],
+          saturday: [
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 65 ASYNC",
+              section: "IT 4-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 65",
+              section: "IT 4-4",
+              room: "ROOM 303"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 65",
+              section: "IT 4-5",
+              room: "ROOM 303"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "IT 4-5",
+              room: null
+            },
+          ],
+          sunday: [],
+        }
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -11056,22 +13410,36 @@ export const people = [
     designations: {
       current_designation: "Instructor I",
       last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
+        { year: null, designation: null },
+        { year: null, designation: null },
       ],
     },
     image: "/images/rios.JPG",
-    diploma: [{
-      name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
-      url: "https://drive.google.com/file/d/1U9AYJP_pHKbYD99EqeVAAbVw09WAFiX3/view?usp=drive_link"
+     diploma: [{
+      name: "Bachelor of Science in Electronics and Communication Engineering",
+      url: "https://drive.google.com/file/d/1cbpkH4s_y5QematKaMNb58JWaSJRIUE6/view?usp=sharing"
     },],
-    // masters_diploma: {name:"", url:""},
-    resume: {
-      url: "https://drive.google.com/file/d/1MGU35y36s_dmTGekSpVv27Y359A531rh/view?usp=drive_link"
-    },
-    // tor: {name:"", url:""},
-    // certificates: [{name:"", url:""},],
-    // speaking_engagements: [{name:"", url:""},],
+    masters_diploma: [{
+      name: "Master of Science in Information and Communication Technology (MSICT)",
+      url: "https://drive.google.com/file/d/1jPFNlJqjccAV5mwG9UpT7vor6iPBVWe6/view?usp=sharing"
+    }],
+    tor: [
+      {
+        name: null,
+        url: null
+      },
+    ],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1ItjYpqRkuhMtPL5sraF1SdpQekTArf1T/view?usp=drive_link",
+    certificates: [
+      {
+        name: "MSICT Masteral Certification",
+        url: "https://drive.google.com/file/d/1u9Zktm86DoDUpJOJ9LPFw4azV5i0VNBX/view?usp=sharing"
+      },
+      ],
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -11376,6 +13744,68 @@ export const people = [
           sunday: [],
         }
       },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [],
+          tuesday: [],
+          wednesday: [],
+          thursday: [
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "COSC 60",
+              section: "CS 2-4",
+              room: "ROOM 401"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "COSC 60",
+              section: "CS 2-4",
+              room: "CL 5"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 60 (LEC) ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "COSC 60 (LAB) ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+          ],
+          friday: [
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "COSC 60",
+              section: "CS 2-5",
+              room: "ROOM 401"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "COSC 60",
+              section: "CS 2-5",
+              room: "CL 5"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 60 (LEC) ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "COSC 60 (LAB) ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+          ],
+          saturday: [],
+          sunday: [],
+        }
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -11504,21 +13934,39 @@ export const people = [
     first_name: "Nino",
     last_name: "Rodil",
     name: "Nino M. Rodil",
-    designation: "Instructor I",
+    designations: {
+      current_designation: "Instructor I",
+      last_designation: [
+        { year: null, designation: null },
+        { year: null, designation: null },
+      ],
+    },
     image: "/images/rodil2.jpg",
     diploma: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1Qqu3GM0naLFfLRAweoTQ-qLgh7yIdOnm/view?usp=drive_link"
+      name: "Bachelor of Science in Information Technology",
+      url: "https://drive.google.com/file/d/1HXPF2LYxrwy3FZLR8Z7BiZ8-j-bD21lT/view?usp=drive_link"
     },],
-    // masters_diploma: {name:"", url:""},
-    tor: [{
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1Qqu3GM0naLFfLRAweoTQ-qLgh7yIdOnm/view?usp=drive_link"
-    },],
-    resume: {
-      url: "https://drive.google.com/file/d/1HkY_9si5VpTlHTekGsKrlN9E0l91DiFB/view?usp=drive_link"
-    },
-    // certificates: [{name:"", url:""},],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [
+      {
+        name: "Bachelor of Science in Information Technology",
+        url: "https://drive.google.com/file/d/1HXPF2LYxrwy3FZLR8Z7BiZ8-j-bD21lT/view?usp=drive_link"
+      },
+    ],
+    eligibility: [{
+      name: "Civil Service Eligibility",
+      url: "https://drive.google.com/file/d/19Dzqobg3hnRRfxFQeFXwTYYrB1bM2AUB/view?usp=sharing"
+    }],
+    resume: "https://drive.google.com/file/d/16R4RcB0NRNx-V6byvD1TjPrYFZJuEFkZ/view?usp=drive_link",
+    certificates: [
+      {
+        name: null,
+        url: null
+      },
+      ],
     // speaking_engagements: [{name:"", url:""},],
     schedule: [
       { //1st 22-23
@@ -11859,6 +14307,94 @@ export const people = [
           sunday: [],
         }
       },
+      { //1st 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        details: {
+          monday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 110",
+              section: "IT 4-1",
+              room: "CL 1"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 110",
+              section: "IT 4-1",
+              room: "CL 1"
+            },
+          ],
+          tuesday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 110",
+              section: "IT 4-2",
+              room: "CL 1"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 110",
+              section: "IT 4-2",
+              room: "CL 1"
+            },
+          ],
+          wednesday: [
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 110",
+              section: "IT 4-3",
+              room: "CL 1"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 110",
+              section: "IT 4-3",
+              room: "CL 1"
+            },
+          ],
+          thursday: [],
+          friday: [],
+          saturday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 110 (LEC) ASYNC",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 110 (LEC) ASYNC",
+              section: "IT 4-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 110 (LEC) ASYNC",
+              section: "IT 4-2",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 110 (LEC) ASYNC",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 110 (LEC) ASYNC",
+              section: "IT 4-3",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 110 (LEC) ASYNC",
+              section: "IT 4-2",
+              room: null
+            },
+          ],
+          sunday: [],
+        }
+      },
       { //2nd 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
@@ -11992,7 +14528,7 @@ export const people = [
   },
 
 
-  //Rachel Rodriguez
+    //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
@@ -12005,46 +14541,65 @@ export const people = [
       ],
     },
     image: "/images/rodriguez.JPG",
-    diploma: {
+    diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1HtP05Tgh2OtUPJr1ie1p1hxrvs4LO6IV/view?usp=drive_link"
-    },
-    tor: {
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1HtP05Tgh2OtUPJr1ie1p1hxrvs4LO6IV/view?usp=drive_link"
-    },
-    resume: {
-      url: "https://docs.google.com/document/d/1x-8Twt1hyOmNbmcEw58YPWWBma-Qv8cm/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true",
-    },
-    certificates: [{
-      name: "LIBREOFFICE: FREE AND OPEN-SOURCE PRODUCTIVITY SOFTWARE SUITE - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1yqT6zTFZy-KViA_HNb9aqnZdHTvNZU8T/view?usp=drive_link"
-    },
-    {
-      name: "EXPLORING BASIC COMPONENTS OF GOOGLE SUITE - CAVITE STATE UNIVERSITY - MAIN",
-      url: "https://drive.google.com/file/d/1O-ZqBTQuh9jPge20nd9sCnEuYbBAPhwO/view?usp=drive_link"
-    },
-    {
-      name: "THE INFORMATION SCIENCE OF GREEN IOT, INTERNET OF THINGS - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1hexCNUhjupc8UKFwjdjT_9bLSDq40GLg/view?usp=drive_link"
-    },
-    {
-      name: "SMART UNIVERSITY: LEVERAGING TECHNOLOGY FOR BETTER TEACHING AND LEARNING - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1ZiIhH6zIr0zRbqBKVbPKWgqdUCHOp_-6/view?usp=drive_link"
-    },
-    {
-      name: "SENTIMENT ANALYSIS AND COMPUTING: 3RD INTERNATIONAL WEBINAR - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1rk1fqni5ox45ioDt-u96TrUsW_w3Fyp7/view?usp=drive_link"
-    },
-    ],
-    speaking_engagements: [{
-      name: "CSS ACADEMIC INDUSTRY COUNCIL CURRICULUM REVIEW 2022 - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1nQXk_cgbGcPqbu1tyjfiDJ5YowEChlCF/view?usp=drive_link"
-    },
-    {
-      name: "TIKTOK SHOP TRAINING",
-      url: "https://drive.google.com/file/d/1fS4N6MEHqbvgqUzQ-6uOKyf4qjDOMRWD/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1Yd8S93cy4y0yqfW-bMZ_Dn3knzwEVHK5/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "",
+      url: ""
     }],
+    tor: [{
+      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+      url: "https://drive.google.com/file/d/17fi4Klo2PbgLI6Q4HxdTZgjwoJSmN2VZ/view?usp=drive_link"
+      }],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://docs.google.com/document/d/12kJP8D1EVDZXn073_CPqVMH42jCmNL6Y/edit?usp=drive_link&ouid=107814182689736419287&rtpof=true&sd=true",
+    certificates: [
+      {
+        name: "LibreOffice: Free and Open-SourceProductivity Software Suite",
+        url: "https://drive.google.com/file/d/10CmWktIlackd1Gkeiw8vpsYcyHTp8RFh/view?usp=drive_link"
+      },
+      {
+        name: "Exploring Basic Components of Google Suite",
+        url: "https://drive.google.com/file/d/1jO8-9gbn01rW3w_SoC_ZoBN075W_hL9W/view?usp=drive_link"
+      },
+      {
+        name: "The Information Science of Green IoT, Internet of Things",
+        url: "https://drive.google.com/file/d/1onIgL3mM7U_yF-WbQeS9bt8seETIDmm9/view?usp=drive_link"
+      },
+      {
+        name: "CCS Academic Industry Council Curriculum Review 2022",
+        url: "https://drive.google.com/file/d/1-CbWOfsjZjEw9s4wgYWlnIcp9bLwI90x/view?usp=drive_link"
+      },
+      {
+        name: "A Smart University: Leveraging Technology for Better Teaching and Learning",
+        url: "https://drive.google.com/file/d/1qjXQVXoCZ4X__-u_wdYoMmi-LxmZMqME/view?usp=drive_link"
+      }, {
+        name: "Sentiment Analysis and Computing: 3rd International Webinar",
+        url: "https://drive.google.com/file/d/1ImjCsSIXDBc5IYxtOmeldb6JZz2rEI9C/view?usp=drive_link"
+      }, {
+        name: "Organizing Committee Member - Information Technology Entrepreneurial Development, Research and Innovation: 4th International Webinar",
+        url: "https://drive.google.com/file/d/13AuPMNa5YEwSz3Afswu9x0EfbwBt5QMs/view?usp=drive_link"
+      }, {
+        name: "Organizing Committee Member - 3rd International Webinar On Sentiment Analysis and Computing",
+        url: "https://drive.google.com/file/d/1ovhfvaFILSDvNsadZPwDIA_pppFkqld8/view?usp=drive_link"
+      }, {
+        name: "Organizing Committee Member - A Smart University: Leveraging Technology for Better Teaching and Learning",
+        url: "https://drive.google.com/file/d/13H8EfZAt3IvtdyJHn9hsPBxJmvK1gw1P/view?usp=drive_link"
+      },
+
+    ],
+    speaking_engagements: [
+      {
+        name: "Resource Speaker: TikTok Shop (Seller Side) Training",
+        url: "https://drive.google.com/file/d/1LOlD5s-zbXvs_ct5_LVf0eJxeX4ENrnf/view?usp=drive_link"
+      },
+
+    ],
 
     schedule: [
       {
@@ -12053,37 +14608,152 @@ export const people = [
           monday: [
           ],
           tuesday: [
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "10:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "2:00 PM - 5:00 PM", subject: "ITEC 111 (LAB)", section: "IT 4-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-1" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 55", section: "IT 2-1" },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "10:00 PM - 1:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "2:00 PM - 5:00 PM",
+              subject: "ITEC 111 (LAB)",
+              section: "IT 4-2",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-1",
+              room: null
+            },
           ],
           wednesday: [
           ],
           thursday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 55 (LAB)", section: "IT 2-3" },
-            { time: "8:00 AM - 10:00 AM", subject: "ITEC 55 (LAB)", section: "IT 2-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 55 (LAB)", section: "IT 2-1" },
-            { time: "11:00 AM - 1:00 PM", subject: "ITEC 55 (LAB)", section: "IT 2-1" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 55 (LAB)", section: "IT 2-2" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 55 (LAB)", section: "IT 2-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-6" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 55", section: "IT 2-6" },
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 55 (LAB)",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-6",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-6",
+              room: null
+            },
           ],
           friday: [
           ],
           saturday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 55", section: "IT 2-3" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 111", section: "IT 4-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 111", section: "IT 4-2" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 111", section: "IT 4-2" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 55", section: "IT 2-3" },
-            { time: "3:30 PM - 4:30 PM", subject: "ITEC 55 (LAB)" },
-            { time: "4:30 PM - 6:00 PM", subject: "ITEC 55", section: "IT 2-6" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 55", section: "IT 2-2" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 55", section: "IT 2-2" },
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 55",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 111",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 111",
+              section: "IT 4-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-2",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 111",
+              section: "IT 4-2",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "3:30 PM - 4:30 PM",
+              subject: "ITEC 55 (LAB)",
+              room: null
+
+            },
+            {
+              time: "4:30 PM - 6:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-6",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-2",
+              room: null
+            },
           ],
           sunday: [
           ],
@@ -12094,32 +14764,132 @@ export const people = [
         details: {
           monday: [],
           tuesday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 101", section: "IT 3-1", room: "CL 4" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 60 (LEC)", section: "IT 2-3", room: "ROOM 303" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 101 (LEC)", section: "IT 3-2", room: "ROOM 305" },
-            { time: "3:00 PM - 3:00 PM", subject: "ITEC 60 (LEC)", section: "IT 2-1", room: "ROOM 302" },
-            { time: "5:00 PM - 7:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "7:00 PM - 8:30 PM", subject: "ITEC 101 (LAB)", section: "IT 3-3", room: "CL 2" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 101",
+              section: "IT 3-1",
+              room: "CL 4"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 60 (LEC)",
+              section: "IT 2-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 101 (LEC)",
+              section: "IT 3-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "3:00 PM - 3:00 PM",
+              subject: "ITEC 60 (LEC)",
+              section: "IT 2-1",
+              room: "ROOM 302"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "7:00 PM - 8:30 PM",
+              subject: "ITEC 101 (LAB)",
+              section: "IT 3-3",
+              room: "CL 2"
+            }
           ],
           wednesday: [],
           thursday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 101 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 101 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 101 (LEC)", section: "IT 3-1" },
-            { time: "10:00 AM - 1:00 PM", subject: "ITEC 101 (LAB)", section: "IT 3-2", room: "CL 4" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 60 (LEC)", section: "IT 2-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 101 (LEC)", section: "IT 3-3" },
-            { time: "7:00 PM - 8:30 PM", subject: "ITEC 101 (LAB)", section: "IT 3-3", room: "CL 3" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 101 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null,
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 101 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null,
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 101 (LEC)",
+              section: "IT 3-1",
+              room: null,
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "ITEC 101 (LAB)",
+              section: "IT 3-2",
+              room: "CL 4"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 60 (LEC)",
+              section: "IT 2-2",
+              room: null,
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 101 (LEC)",
+              section: "IT 3-3",
+              room: null,
+            },
+            {
+              time: "7:00 PM - 8:30 PM",
+              subject: "ITEC 101 (LAB)",
+              section: "IT 3-3",
+              room: "CL 3"
+            }
           ],
           friday: [],
           saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 60 (LAB)", section: "IT 2-1", room: "CL 4" },
-            { time: "10:00 AM - 1:00 PM", subject: "ITEC 60 (LAB)", section: "IT 2-2", room: "CL 4" },
-            { time: "2:00 PM - 5:00 PM", subject: "ITEC 60 (LAB)", section: "IT 2-3", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-3" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-2" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-1" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 101 (LEC) ASYNC", section: "IT 3-3" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 60 (LAB)",
+              section: "IT 2-1",
+              room: "CL 4"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "ITEC 60 (LAB)",
+              section: "IT 2-2",
+              room: "CL 4"
+            },
+            {
+              time: "2:00 PM - 5:00 PM",
+              subject: "ITEC 60 (LAB)",
+              section: "IT 2-3",
+              room: "CL 4"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 60 (LEC) ASYNC",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 60 (LEC) ASYNC",
+              section: "IT 2-2",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "ITEC 60 (LEC) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "ITEC 101 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            }
           ],
           sunday: [],
         }
@@ -12128,37 +14898,162 @@ export const people = [
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "10:00 AM - 11:00 AM", subject: "CVSU 101", section: "CS 1-2", room: "ROOM 301" },
-            { time: "11:00 AM - 12:00 PM", subject: "DCIT 25 (LEC)", section: "IT 3-1", room: "ROOM 301" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-6", room: "CL 3" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 25 (LEC)", section: "IT 3-3", room: "ROOM 302" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-6" }
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "CVSU 101",
+              section: "CS 1-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 25 (LEC)",
+              section: "IT 3-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 80 (LAB)",
+              section: "IT 3-6",
+              room: "CL 3"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 25 (LEC)",
+              section: "IT 3-3",
+              room: "ROOM 302"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 25 (LEC)", section: "IT 3-2", room: "ROOM 305" },
-            { time: "10:00 AM - 12:00 PM", subject: "DCIT 25 (LAB)", section: "IT 3-1", room: "CL 3" },
-            { time: "12:00 PM - 1:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-1" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-6", room: "CL 4" },
-            { time: "3:00 PM - 4:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "5:00 PM - 6:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-3" },
-            { time: "6:00 PM - 7:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-4" },
-            { time: "7:00 PM - 8:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-5" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "IT 3-6" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 25 (LEC)",
+              section: "IT 3-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 25 (LAB)",
+              section: "IT 3-1",
+              room: "CL 3"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 80 (LEC)",
+              section: "IT 3-6",
+              room: "CL 4"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "IT 3-6",
+              room: null
+            }
           ],
           thursday: [],
           friday: [
-            { time: "7:00 AM - 8:00 AM", subject: "DCIT 25 (LEC)", section: "IT 3-4", room: "CL 2" },
-            { time: "8:00 AM - 10:00 AM", subject: "DCIT 25", section: "IT 3-4", room: "CL 2" },
-            { time: "10:00 AM - 11:00 AM", subject: "DCIT 25 (LEC)", section: "IT 3-5", room: "CL 2" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 25", section: "IT 3-5", room: "CL 2" },
-            { time: "2:00 PM - 3:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-2" },
-            { time: "3:00 PM - 5:00 PM", subject: "DCIT 25", section: "IT 3-2", room: "CL 2" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 25", section: "IT 3-3", room: "CL 1" },
-            { time: "7:00 PM - 8:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-3" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "IT 3-5" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 25 (LEC)",
+              section: "IT 3-4",
+              room: "CL 2"
+            },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "DCIT 25",
+              section: "IT 3-4",
+              room: "CL 2"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 25 (LEC)",
+              section: "IT 3-5",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 25",
+              section: "IT 3-5",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 25",
+              section: "IT 3-2",
+              room: "CL 2"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "DCIT 25",
+              section: "IT 3-3",
+              room: "CL 1"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "IT 3-5",
+              room: null
+            }
           ],
           saturday: [],
           sunday: [],
@@ -12168,36 +15063,156 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "7:00 AM - 9:00 AM", subject: "ITEC 65", section: "IT 2-6", room: "CL 3" },
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 65", section: "IT 2-5", room: "CL 1" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-7" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 60", section: "IT 2-7", room: "CL 4" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 65 (LAB) ASYNC", section: "IT 2-5" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 60 (LAB) ASYNC", section: "IT 2-3" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "ITEC 65",
+              section: "IT 2-6",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 65",
+              section: "IT 2-5",
+              room: "CL 1"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 60 (LEC) ASYNC",
+              section: "IT 2-7",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-7",
+              room: "CL 4"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 65 (LAB) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 60 (LAB) ASYNC",
+              section: "IT 2-3",
+              room: null
+            }
           ],
           tuesday: [
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 60", section: "IT 2-3", room: "ROOM 303" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-1" },
-            { time: "11:00 AM - 1:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 95", section: "IT 3-4", room: "AUDI 2" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 60", section: "IT 2-1", room: "ROOM 301" },
-            { time: "5:00 PM - 7:00 PM", subject: "ITEC 95", section: "IT 3-5", room: "ROOM 302" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 65 (LAB) ASYNC", section: "IT 2-6" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 60 (LEC) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 95",
+              section: "IT 3-4",
+              room: "AUDI 2"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 95",
+              section: "IT 3-5",
+              room: "ROOM 302"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "ITEC 65 (LAB) ASYNC",
+              section: "IT 2-6",
+              room: null
+            }
           ],
           wednesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 65", section: "IT 2-6", room: "CL 2" },
-            { time: "8:00 AM - 10:00 AM", subject: "ITEC 60", section: "IT 2-1", room: "CL 2" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 60 (LAB) ASYNC", section: "IT 2-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 65", section: "IT 2-5", room: "CL 3" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 60", section: "IT 2-3", room: "CL 2" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 60", section: "IT 2-7", room: "ROOM 301" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 65 (LAB) ASYNC", section: "IT 2-5" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 65 (LEC) ASYNC", section: "IT 2-6" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 65",
+              section: "IT 2-6",
+              room: "CL 2"
+            },
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-1",
+              room: "CL 2"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 60 (LAB) ASYNC",
+              section: "IT 2-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 65",
+              section: "IT 2-5",
+              room: "CL 3"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-3",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-7",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 65 (LAB) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 65 (LEC) ASYNC",
+              section: "IT 2-6",
+              room: null
+            }
           ],
           thursday: [
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 60 (LEC) ASYNC", section: "IT 2-3" },
-            { time: "9:00 AM -10:00 AM", subject: "ITEC 60 (LAB) ASYNC", section: "IT 2-7" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 95 ASYNC", section: "IT 3-4" },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 60 (LEC) ASYNC",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "9:00 AM -10:00 AM",
+              subject: "ITEC 60 (LAB) ASYNC",
+              section: "IT 2-7",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 95 ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
           ],
           friday: [],
           saturday: [],
@@ -12207,12 +15222,148 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
+          monday: [
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "INSY 50 ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+            {
+              time: "11:00 AM - 11:00 AM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "INSY 50 ASYNC",
+              section: "CS 2-1",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "INSY 50",
+              section: "CS 2-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "INSY 50",
+              section: "CS 2-1",
+              room: "ROOM 303"
+            },
+          ],
+          tuesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "INSY 50 ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-2",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-1",
+              room: "ROOM 401"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "INSY 50",
+              section: "CS 2-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-2",
+              room: "CL 2"
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "INSY 50",
+              section: "CS 2-5",
+              room: "CL 5"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "INSY 50 ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "INSY 50 ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "INSY 50",
+              section: "CS 2-3",
+              room: "ROOM 303"
+            },
+          ],
           thursday: [],
           friday: [],
-          saturday: [],
+          saturday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 80 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 80",
+              section: "IT 3-1",
+              room: "CL 5"
+            },
+          ],
           sunday: [],
         }
       },
@@ -12223,23 +15374,88 @@ export const people = [
           tuesday: [],
           wednesday: [],
           thursday: [
-            { time: "7:00 AM - 10:00 AM", subject: "DCIT 25", section: "CS 2-3", room: "CL 1" },
-            { time: "10:00 AM - 12:00 PM", subject: "DCIT 25", section: "IT 2-3", room: "ROOM 203" },
-            { time: "1:00 PM - 3:00 PM", subject: "GNED 06", section: "IT 1-6", room: "AUDI 2" },
-            { time: "3:00 PM - 4:30 PM", subject: "GNED 06", section: "IT 1-5", room: "ROOM 107" },
-            { time: "6:00 PM - 7:00 PM", subject: "GNED 06", section: "IT 1-6", room: "ROOM 109" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "DCIT 25",
+              section: "CS 2-3",
+              room: "CL 1"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-3",
+              room: "ROOM 203"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "GNED 06",
+              section: "IT 1-6",
+              room: "AUDI 2"
+            },
+            {
+              time: "3:00 PM - 4:30 PM",
+              subject: "GNED 06",
+              section: "IT 1-5",
+              room: "ROOM 107"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "GNED 06",
+              section: "IT 1-6",
+              room: "ROOM 109"
+            }
           ],
           friday: [
-            { time: "8:00 AM - 10:00 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "10:00 AM - 1:00 PM", subject: "DCIT 25", section: "IT 2-4", room: "CL 3" },
-            { time: "2:00 PM - 4:00 PM", subject: "DCIT 25", section: "IT 2-4", room: "ROOM 201" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 25", section: "CS 2-3", room: "AUDI" }
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-4",
+              room: "CL 3"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-4",
+              room: "ROOM 201"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-3",
+              room: "AUDI"
+            }
           ],
           saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "DCIT 25", section: "IT 2-3", room: "CL 1" },
-            { time: "10:00 AM - 11:30 AM", subject: "GNED 06", section: "IT 1-5", room: "CL 3" },
-            { time: "1:00 PM - 4:00 PM", subject: "DCIT 25", section: "CS 2-1", room: "CL 1" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 25", section: "CS 2-1", room: "ROOM 107" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "DCIT 25",
+              section: "IT 2-3",
+              room: "CL 1"
+            },
+            {
+              time: "10:00 AM - 11:30 AM",
+              subject: "GNED 06",
+              section: "IT 1-5",
+              room: "CL 3"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-1",
+              room: "CL 1"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-1",
+              room: "ROOM 107"
+            }
           ],
           sunday: [],
         }
@@ -12306,63 +15522,164 @@ export const people = [
       ],
     },
     image: "/images/rostrollo.JPG",
-    diploma: {
+    diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1-EzbQ77U9l2H4qBHZkuOMH9BYgaB_3cZ/view?usp=drive_link"
-    },
-    tor: {
-      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      url: "https://drive.google.com/file/d/1FZIwC5ImoW7EshHE5HnQJiieL4IOwxf5/view?usp=drive_link"
-    },
-    resume: {
-      url: "https://docs.google.com/document/d/1q_Ao6n-tOg0YO2fA4gvI3CzKD1yJOcdf/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true",
-    },
-    certificates: [{
-      name: "TRAINING-WORKSHOP ON PROPOSAL WRITING AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1gOBLzYTe2CAeBBkK4dnlG06RwmvNQClL/view?usp=drive_link"
-    },
-    {
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1Yl264k-ko_tXBi_7X39ai06mZivJwL3r/view?usp=drive_link"
-    },
-    {
-      name: "GRADUATE/UNDERGRADUATE THESIS DOCUMENTATION STYLE AND TYPING MECHANICS - CAVITE STATE UNIVESITY - MAIN",
-      url: "https://drive.google.com/file/d/1fnMID7-7qYIO-8sKP4SPQRxr7AAefdFt/view?usp=drive_link"
-    },
+      url: "https://drive.google.com/file/d/1AVuWCCM4vQ4BfdTWSiGd5lgbx0JrAvjn/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+        url: "https://drive.google.com/file/d/1vOf4Lo4HaOSGkNgGcaksbleb7lbHvVpD/view?usp=drive_link"
+      },
     ],
-    speaking_engagements: [{
-      name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSAL - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1zEyYdiQDz1bWqT-1pg1yPXlKTGXQOWSP/view?usp=drive_link"
-    },
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://docs.google.com/document/d/1wGAiVYWw4SiXszzRFbqWcoI4U-wW5E3d/edit?usp=drive_link&ouid=107814182689736419287&rtpof=true&sd=true",
+    certificates: [
+      {
+        name: "Training-Workshop on Proposal Writing and Publication",
+        url: "https://drive.google.com/file/d/1eBzM2UaKGWysl0pBjjw2ALxuMq6JUwFw/view?usp=drive_link"
+      },
+      {
+        name: "Faculty On The Beam: Research Impact Beyond Academic Excellence.",
+        url: "https://drive.google.com/file/d/1SfP-7EzSiQSTsD1OvIFGoD-etWghmWMY/view?usp=drive_link"
+      },
+      {
+        name: "CELLAR Webinar Series Episode 1: Graduate Undergraduate Thesis Documentation Style and Typing Mechanics",
+        url: "https://drive.google.com/file/d/1e4ysd9PFlwb7DJahdDpYD5_jIUVvjGgD/view?usp=drive_link"
+      },
+      {
+        name: "Seminar-Workshop on Module Development and Publication",
+        url: "https://drive.google.com/file/d/1nVxL9JNIQBIlgGSBNXbc06-fn6YoJr39/view?usp=drive_link"
+      },
     ],
+     speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
 
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
-          monday: [{ time: "7:00 AM - 8:00 AM", subject: "CONSULTATION", room: "FACULTY" }],
+          monday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }
+          ],
           tuesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 75 (LEC)", section: "CS 3-1", room: "ROOM 305" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC)", section: "CS 3-3", room: "ROOM 305" },
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-2" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "COSC 75 (LEC)",
+              section: "CS 3-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LEC)",
+              section: "CS 3-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-2",
+              room: null
+            }
           ],
           wednesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 111", section: "CS 4-1", room: "ROOM 303" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-1" },
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-3" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "COSC 111",
+              section: "CS 4-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-3",
+              room: null
+            }
           ],
-          thursday: [{ time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC)", section: "CS 3-2", room: "ROOM 305" }],
+          thursday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LEC)",
+              section: "CS 3-2",
+              room: "ROOM 305"
+            }
+          ],
           friday: [],
           saturday: [
-            { time: "7:00 AM - 8:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-1" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 75 (LEC) ASYNC", section: "CS 3-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "COSC 111 (LAB) ASYNC", section: "CS 4-1" },
-            { time: "11:00 AM - 12:00 PM", subject: "COSC 111 (LEC) ASYNC", section: "CS 4-1" },
-            { time: "12:00 PM - 2:00 PM", subject: "COSC 111", section: "CS 4-1", room: "CL 2" },
-            { time: "3:00 PM - 5:00 PM", subject: "COSC 75", section: "CS 3-1", room: "ROOM 303" },
-            { time: "5:00 PM - 7:00 PM", subject: "COSC 75", section: "CS 3-2", room: "ROOM 303" },
-            { time: "7:00 PM - 9:00 PM", subject: "COSC 75", section: "CS 3-3", room: "ROOM 303" },
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 75 (LEC) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 111 (LAB) ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 111 (LEC) ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "COSC 111",
+              section: "CS 4-1",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 75",
+              section: "CS 3-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "COSC 75",
+              section: "CS 3-2",
+              room: "ROOM 303"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "COSC 75",
+              section: "CS 3-3",
+              room: "ROOM 303"
+            }
           ],
           sunday: [],
         }
@@ -12371,38 +15688,148 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "11:00 AM - 12:00 PM", subject: "COSC 65 (LAB) ASYNC", section: "CS 2-3" },
-            { time: "12:00 PM - 1:00 PM", subject: "GNED 12 ASYNC", section: "CS 1-4" },
-            { time: "1:00 PM - 3:00 PM", subject: "COSC 90", section: "CS 3-2", room: "ROOM 302" }
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 65 (LAB) ASYNC",
+              section: "CS 2-3",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "GNED 12 ASYNC",
+              section: "CS 1-4",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "COSC 90",
+              section: "CS 3-2",
+              room: "ROOM 302"
+            }
           ],
           tuesday: [
-            { time: "10:00 AM - 11:00 AM", subject: "GNED 01 ASYNC", section: "CS 1-2" },
-            { time: "11:00 AM - 12:00 PM", subject: "GNED 01 ASYNC", section: "CS 1-3" },
-            { time: "12:00 PM - 2:00 PM", subject: "GNED 01", section: "CS 1-3", room: "ROOM 302" }
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "GNED 01 ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "GNED 01 ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "GNED 01",
+              section: "CS 1-3",
+              room: "ROOM 302"
+            }
           ],
           wednesday: [
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 65", section: "CS 2-3", room: "ROOM 305" },
-            { time: "10:00 AM - 12:00 PM", subject: "COSC 70", section: "CS 2-5", room: "ROOM 302" },
-            { time: "12:00 PM - 1:00 PM", subject: "GNED 12 ASYNC", section: "CS 1-3" },
-            { time: "1:00 PM - 2:00 PM", subject: "GNED 01 ASYNC", section: "CS 1-1" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 65",
+              section: "CS 2-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "COSC 70",
+              section: "CS 2-5",
+              room: "ROOM 302"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "GNED 12 ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "GNED 01 ASYNC",
+              section: "CS 1-1",
+              room: null
+            }
           ],
           thursday: [
-            { time: "9:00 AM - 10:00 AM", subject: "COSC 65", section: "CS 2-3", room: "ROOM 302" },
-            { time: "10:00 AM - 11:00 AM", subject: "COSC 70 ASYNC", section: "CS 2-5" },
-            { time: "11:00 AM - 12:00 PM", subject: "COSC 65 (LEC) ASYNC", section: "CS 1-3" },
-            { time: "12:00 PM - 2:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "COSC 65",
+              section: "CS 2-3",
+              room: "ROOM 302"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "COSC 70 ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 65 (LEC) ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }
           ],
           friday: [
-            { time: "10:00 AM - 12:00 PM", subject: "COSC 65", section: "CS 2-3", room: "CL 3" },
-            { time: "12:00 PM - 1:00 PM", subject: "COSC 65 (LAB) ASYNC", section: "CS 2-6" },
-            { time: "1:00 PM - 2:00 PM", subject: "COSC 65 (LEC) ASYNC", section: "CS 2-6" }
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "COSC 65",
+              section: "CS 2-3",
+              room: "CL 3"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 65 (LAB) ASYNC",
+              section: "CS 2-6",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "COSC 65 (LEC) ASYNC",
+              section: "CS 2-6",
+              room: null
+            }
           ],
           saturday: [
-            { time: "7:00 AM - 9:00 AM", subject: "GNED 12", section: "CS 1-4", room: "ROOM 302" },
-            { time: "9:00 AM - 11:00 AM", subject: "GNED 01", section: "CS 1-1", room: "ROOM 301" },
-            { time: "11:00 AM - 1:00 PM", subject: "COSC 65", section: "CS 2-6", room: "CL 2" },
-            { time: "3:00 PM - 5:00 PM", subject: "GNED 01", section: "CS 1-2", room: "CL 3" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 12", section: "CS 1-3", room: "CL 4" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "GNED 12",
+              section: "CS 1-4",
+              room: "ROOM 302"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "GNED 01",
+              section: "CS 1-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "COSC 65",
+              section: "CS 2-6",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "GNED 01",
+              section: "CS 1-2",
+              room: "CL 3"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "GNED 12",
+              section: "CS 1-3",
+              room: "CL 4"
+            }
           ],
           sunday: [],
         }
@@ -12410,11 +15837,154 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
+          monday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 22",
+              section: "CS 1-2",
+              room: "ROOM 303"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "CVSU 101",
+              section: "CS 1-2",
+              room: "ROOM 303"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 22",
+              section: "CS 1-3",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "CVSU 101",
+              section: "CS 1-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-2",
+              room: "CL 2"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-5",
+              room: "CL 2"
+            },
+          ],
+          tuesday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 22",
+              section: "CS 1-5",
+              room: "CL 2"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-1",
+              room: "CL 2"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-3",
+              room: "CL 2"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-5",
+              room: "CL 2"
+            },
+          ],
+          wednesday: [
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-1",
+              room: "CL 2"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-2",
+              room: "CL 2"
+            },
+          ],
+          thursday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-5",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-5",
+              room: null
+            },
+          ],
+          friday: [
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-1",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+          ],
           saturday: [],
           sunday: [],
         }
@@ -12423,29 +15993,104 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "8:30 AM - 10:00 AM", subject: "COSC 90", section: "CS 3-3", room: "ROOM 201" },
-            { time: "10:00 AM - 1:00 PM", subject: "DCIT 23", section: "CS 1-2", room: "CL 1" },
-            { time: "1:30 PM - 4:30 PM", subject: "COSC 90", section: "CS 3-1", room: "ROOM 201" },
-            { time: "4:30 PM - 6:00 PM", subject: "COSC 70", section: "CS 2-1", room: "ROOM 203" }
+            {
+              time: "8:30 AM - 10:00 AM",
+              subject: "COSC 90",
+              section: "CS 3-3",
+              room: "ROOM 201"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-2",
+              room: "CL 1"
+            },
+            {
+              time: "1:30 PM - 4:30 PM",
+              subject: "COSC 90",
+              section: "CS 3-1",
+              room: "ROOM 201"
+            },
+            {
+              time: "4:30 PM - 6:00 PM",
+              subject: "COSC 70",
+              section: "CS 2-1",
+              room: "ROOM 203"
+            }
           ],
           tuesday: [
-            { time: "7:00 AM - 10:00 AM", subject: "DCIT 23", section: "CS 1-1", room: "CL 1" },
-            { time: "10:30 AM - 12:00 PM", subject: "COSC 90", section: "CS 3-3", room: "ROOM 201" },
-            { time: "12:00 PM - 3:00 PM", subject: "DCIT 23", section: "CS 1-2", room: "CL 2" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "DCIT 23",
+              section: "CS 1-1",
+              room: "CL 1"
+            },
+            {
+              time: "10:30 AM - 12:00 PM",
+              subject: "COSC 90",
+              section: "CS 3-3",
+              room: "ROOM 201"
+            },
+            {
+              time: "12:00 PM - 3:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-2",
+              room: "CL 2"
+            }
           ],
           wednesday: [
-            { time: "9:30 AM - 11:30 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "11:30 AM - 1:00 PM", subject: "COSC 90", section: "CS 3-2", room: "ROOM 203" },
-            { time: "1:00 PM - 2:30 PM", subject: "COSC 70", section: "CS 2-1", room: "ROOM 107" }
+            {
+              time: "9:30 AM - 11:30 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "11:30 AM - 1:00 PM",
+              subject: "COSC 90",
+              section: "CS 3-2",
+              room: "ROOM 203"
+            },
+            {
+              time: "1:00 PM - 2:30 PM",
+              subject: "COSC 70",
+              section: "CS 2-1",
+              room: "ROOM 107"
+            }
           ],
           thursday: [
-            { time: "10:00 AM - 11:30 AM", subject: "COSC 90", section: "CS 3-2", room: "ROOM 201" },
-            { time: "12:00 PM - 1:00 PM", subject: "DCIT 23", section: "CS 1-2", room: "ROOM 204" },
-            { time: "1:00 PM - 2:00 PM", subject: "DCIT 23", section: "CS 1-1", room: "CL 5" }
+            {
+              time: "10:00 AM - 11:30 AM",
+              subject: "COSC 90",
+              section: "CS 3-2",
+              room: "ROOM 201"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-2",
+              room: "ROOM 204"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-1",
+              room: "CL 5"
+            }
           ],
           friday: [
-            { time: "10:00 AM - 1:00 PM", subject: "COSC 70", section: "CS 2-3", room: "CL 1" },
-            { time: "1:00 PM - 4:00 PM", subject: "DCIT 23", section: "CS 1-1", room: "CL 3" }
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "COSC 70",
+              section: "CS 2-3",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-1",
+              room: "CL 3"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -12547,106 +16192,190 @@ export const people = [
       ],
     },
     image: "/images/salvador.jpeg",
-    diploma: {
+    diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1nsWZ6gLwu8DDNH2k-KGd6T5EzNglNRoM/view?usp=drive_link"
-    },
-    tor: {
+      url: "https://drive.google.com/file/d/1VrQw_lrZr5FNg2r0ExYMpoLyYvQ-O4da/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1IXHswA7eQP3LWjzUBvOQpvyWdZIIWfmr/view?usp=drive_link"
-    },
-    resume: {
-      url: "https://drive.google.com/file/d/1A5cC0fxc9ea9vSUG40C2ZhNZ1shOTScO/view?usp=drive_link",
-    },
-    certificates: [{
-      name: "TRAINING-WORKSHOP ON PROPOSAL WRITING AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1vB356LKPkpzFPmIHb3p0kurn9i2mKgij/view?usp=drive_link"
-    },
-    {
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1YEjuNWbiQHNz8oSJgEpYXE-ZpVstsnLm/view?usp=drive_link"
-    },
-    {
-      name: "GRADUATE/UNDERGRADUATE THESIS DOCUMENTATION STYLE AND TYPING MECHANICS - CAVITE STATE UNIVESITY - MAIN",
-      url: "https://drive.google.com/file/d/1P01Q0-aMYQqdgQ4ajvoeMo0HOTLFNMdM/view?usp=drive_link"
-    },
+      url: "https://drive.google.com/file/d/118xvJxnliMKgEJIA-OiGw7WXm4IBgRK3/view?usp=drive_link"
+    }],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1G5F2YR4A64QDJpL7mdVDRy-Ngrcv67mg/view?usp=drive_link",
+    certificates: [
+      {
+        name: "Seminar-Workshop on Module Development and Publication",
+        url: "https://drive.google.com/file/d/12OLIdwr-hbp2oZUipqSzLV6TpebdOxGK/view?usp=drive_link"
+      },
+      {
+        name: "Training-Workshop on Proposal Writing and Publication",
+        url: "https://drive.google.com/file/d/1B_AtebOJLArOZrrmYE3ov4ZFx9gt7Oc0/view?usp=drive_link"
+      },
+      {
+        name: "CELLAR Webinar Series Episode 1: Graduate Undergraduate Thesis Documentation Style and Typing Mechanics",
+        url: "https://drive.google.com/file/d/1gvj73FYFbha4N5SGes5TOkTlTF1RIzAH/view?usp=drive_link"
+      },
+      {
+        name: "2024 Orientation/Re-orientation Cum Capability Enhancement for Faculty and Staff",
+        url: "https://drive.google.com/file/d/1ZqzBbrn3cCL0LKf-bZ4KyPizx2jkyoxK/view?usp=drive_link"
+      },
+      {
+        name: "KMC Caravan at CvSU-Bacoor City Campus",
+        url: "https://drive.google.com/file/d/1YxD9sW1dd8rDtiRVNNYHF4F_4RpRCh_v/view?usp=drive_link"
+      },
     ],
+     speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 ASYNC", section: "CS 4-1" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-1", room: "ROOM 305" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-3", room: "ROOM 305" }
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "ITEC 80 (LEC)",
+              section: "IT 3-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "ITEC 80 (LEC)",
+              section: "IT 3-3",
+              room: "ROOM 305"
+            }
           ],
           tuesday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-1" },
-            { time: "7:00 PM - 8:00 PM", subject: "CVSU 101", section: "IT 1-4", room: "ROOM 301" },
-            { time: "8:00 PM - 9:00 PM", subject: "CVSU 101", section: "IT 1-6", room: "ROOM 301" }
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-6",
+              room: "ROOM 301"
+            }
           ],
           wednesday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-3" },
-            { time: "7:00 PM - 9:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }
           ],
           thursday: [
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-3" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-2" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-1" }
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 3-1",
+              room: null
+            }
           ],
           friday: [
-            { time: "5:00 PM - 6:00 PM", subject: "DCIT 21 ASYNC", section: "IT 1-1" },
-            { time: "6:00 PM - 7:00 PM", subject: "DCIT 21 (LAB) ASYNC", section: "IT 1-1" },
-            { time: "7:00 PM - 9:00 PM", subject: "DCIT 21 (LAB)", section: "IT 1-1", room: "CL 1" }
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 21 ASYNC",
+              section: "IT 1-1",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "IT 1-1",
+              room: null
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "DCIT 21 (LAB)",
+              section: "IT 1-1",
+              room: "CL 1"
+            }
           ],
           saturday: [
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 80 (LAB)", section: "IT 3-1", room: "CL 4" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 80 (LEC)", section: "IT 3-2", room: "ROOM 305" },
-            { time: "1:00 PM - 2:00 PM", subject: "DCIT 21 (LEC)", section: "IT 1-1", room: "ROOM 305" },
-            { time: "2:00 PM - 4:00 PM", subject: "ITEC 80 (LEC)", section: "CS 4-1", room: "ROOM 305" },
-            { time: "4:00 PM - 6:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-3", room: "CL 3" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 (LAB) ASYNC", section: "IT 3-2" },
-            { time: "7:00 PM - 9:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-3", room: "CL 4" }
-          ],
-          sunday: [],
-        }
-      },
-      {
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [
-            { time: "5:00 PM - 6:00 PM", subject: "GNED 12 ASYNC", section: "IT 1-3" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 100 (LAB)", section: "IT 3-4" },
-            { time: "7:00 PM - 9:00 PM", subject: "ITEC 100", section: "IT 3-4", room: "CL 1" }
-          ],
-          tuesday: [
-            { time: "6:00 PM - 7:00 PM", subject: "GNED 12 ASYNC", section: "IT 1-1" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 12", section: "IT 1-1", room: "ROOM 302" }
-          ],
-          wednesday: [
-            { time: "5:00 PM - 6:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "6:00 PM - 7:00 PM", subject: "GNED 12 ASYNC", section: "IT 1-2" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 12", section: "IT 1-2", room: "ROOM 304" }
-          ],
-          thursday: [
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 100 (LEC) ASYNC", section: "IT 3-4" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 100 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 100", section: "IT 3-1", room: "ROOM 303" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 105", section: "IT 3-3", room: "ROOM 301" }
-          ],
-          friday: [
-            { time: "5:00 PM - 6:00 PM", subject: "GNED 12 ASYNC", section: "CS 1-2" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 105 (LEC) ASYNC", section: "IT 3-3" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 105 (LAB)", section: "IT 3-3" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 105 (LAB)", section: "IT 3-1" }
-          ],
-          saturday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 100", section: "IT 3-4", room: "ROOM 303" },
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 105", section: "IT 3-3", room: "CL 1" },
-            { time: "11:00 AM - 1:00 PM", subject: "ITEC 100", section: "IT 3-1", room: "CL 3" },
-            { time: "4:00 PM - 5:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "5:00 PM - 7:00 PM", subject: "GNED 12", section: "IT 1-3", room: "ROOM 301" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 12", section: "CS 1-2", room: "CL 1" }
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 80 (LAB)",
+              section: "IT 3-1",
+              room: "CL 4"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 80 (LEC)",
+              section: "IT 3-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 21 (LEC)",
+              section: "IT 1-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "ITEC 80 (LEC)",
+              section: "CS 4-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "ITEC 80 (LAB)",
+              section: "IT 3-3",
+              room: "CL 3"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 80 (LAB)",
+              section: "IT 3-3",
+              room: "CL 4"
+            }
           ],
           sunday: [],
         }
@@ -12654,10 +16383,152 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-7",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-1",
+              room: "CL 2"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-1",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-1",
+              room: null
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+          ],
+          tuesday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-7",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-7",
+              room: "CL 3"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-7",
+              room: "CL 3"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-5",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-6",
+              room: "CL 1"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-5",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-6",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 22",
+              section: "IT 1-5",
+              room: "ROOM 303"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-1",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-6",
+              room: "ROOM 303"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-6",
+              room: "ROOM 303"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-5",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "CVSU 101",
+              section: "IT 1-5",
+              room: "ROOM 301"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-7",
+              room: "CL 3"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-5",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 22",
+              section: "IT 1-6",
+              room: "CL 1"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "IT 1-6",
+              room: null
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -12668,25 +16539,90 @@ export const people = [
         details: {
           monday: [],
           tuesday: [
-            { time: "10:00 AM - 1:00 PM", subject: "GNED 01", section: "CS 1-1", room: "ROOM 204" },
-            { time: "1:00 PM - 4:00 PM", subject: "ITEC 101", section: "IT 3-1", room: "CL 4" },
-            { time: "4:30 PM - 6:30 PM", subject: "ITEC 101", section: "IT 3-2", room: "ROOM 107" },
-            { time: "7:00 PM - 8:30 PM", subject: "GNED 06", section: "CS 1-4", room: "CL 3" }
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "GNED 01",
+              section: "CS 1-1",
+              room: "ROOM 204"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "ITEC 101",
+              section: "IT 3-1",
+              room: "CL 4"
+            },
+            {
+              time: "4:30 PM - 6:30 PM",
+              subject: "ITEC 101",
+              section: "IT 3-2",
+              room: "ROOM 107"
+            },
+            {
+              time: "7:00 PM - 8:30 PM",
+              subject: "GNED 06",
+              section: "CS 1-4",
+              room: "CL 3"
+            }
           ],
           wednesday: [
-            { time: "10:00 AM - 1:00 PM", subject: "GNED 01", section: "CS 1-3", room: "ROOM 107" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 101", section: "IT 3-3", room: "AUDI" },
-            { time: "3:30 PM - 5:00 PM", subject: "GNED 06", section: "CS 1-4", room: "AUDI" }
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "GNED 01",
+              section: "CS 1-3",
+              room: "ROOM 107"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 101",
+              section: "IT 3-3",
+              room: "AUDI"
+            },
+            {
+              time: "3:30 PM - 5:00 PM",
+              subject: "GNED 06",
+              section: "CS 1-4",
+              room: "AUDI"
+            }
           ],
           thursday: [
-            { time: "10:00 AM - 1:00 PM", subject: "GNED 01", section: "CS 1-5", room: "CL 4" },
-            { time: "2:00 PM - 4:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "5:00 PM - 8:00 PM", subject: "GNED 01", section: "CS 1-2", room: "CL 5" }
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "GNED 01",
+              section: "CS 1-5",
+              room: "CL 4"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "5:00 PM - 8:00 PM",
+              subject: "GNED 01",
+              section: "CS 1-2",
+              room: "CL 5"
+            }
           ],
           friday: [
-            { time: "10:00 AM - 12:00 PM", subject: "ITEC 101", section: "IT 3-1", room: "ROOM 107" },
-            { time: "1:00 PM - 4:00 PM", subject: "ITEC 101", section: "IT 3-3", room: "CL 1" },
-            { time: "4:00 PM - 7:00 PM", subject: "ITEC 101", section: "IT 3-2", room: "ROOM 201" }
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "ITEC 101",
+              section: "IT 3-1",
+              room: "ROOM 107"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "ITEC 101",
+              section: "IT 3-3",
+              room: "CL 1"
+            },
+            {
+              time: "4:00 PM - 7:00 PM",
+              subject: "ITEC 101",
+              section: "IT 3-2",
+              room: "ROOM 201"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -12780,9 +16716,32 @@ export const people = [
       ],
     },
     image: "/images/sambrano.JPG",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
+    diploma: [{
+      name: "",
+      url: ""
+    },],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [{
+      name: "",
+      url: ""
+      }],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: null,
+    certificates: [{
+      name: "",
+      url: ""
+    }],
+     speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
+
     schedule: [
       {
         semesterName: "2nd Sem A.Y 23-24",
@@ -12790,33 +16749,138 @@ export const people = [
           monday: [],
           tuesday: [],
           wednesday: [
-            { time: "8:00 AM - 9:00 AM", subject: "GNED 09 ASYNC", section: "IT 3-2" },
-            { time: "10:00 AM - 11:00 AM", subject: "GNED 09 ASYNC", section: "CS 3-2" },
-            { time: "11:00 AM - 12:00 AM", subject: "GNED 09 ASYNC", section: "CS 3-3" },
-            { time: "12:00 PM - 2:00 PM", subject: "GNED 14", section: "CS 2-5", room: "ROOM 302" },
-            { time: "2:00 PM - 3:00 PM", subject: "GNED 14 ASYNC" },
-            { time: "3:00 PM - 5:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "GNED 09 ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "GNED 09 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 AM",
+              subject: "GNED 09 ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "GNED 14",
+              section: "CS 2-5",
+              room: "ROOM 302"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "GNED 14 ASYNC",
+              section: null,
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }
           ],
           thursday: [
-            { time: "9:00 AM - 10:00 AM", subject: "GNED 14 ASYNC", section: "IT 2-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "GNED 14 ASYNC", section: "CS 2-2" },
-            { time: "11:00 AM - 12:00 PM", subject: "GNED 14 ASYNC", section: "CS 2-1" },
-            { time: "12:00 AM - 1:00 PM", subject: "GNED 09 ASYNC", section: "CS 3-1" },
-            { time: "1:00 AM - 2:00 PM", subject: "GNED 09 ASYNC", section: "IT 3-1" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "GNED 14 ASYNC",
+              section: "IT 2-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "GNED 14 ASYNC",
+              section: "CS 2-2",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "GNED 14 ASYNC",
+              section: "CS 2-1",
+              room: null
+            },
+            {
+              time: "12:00 AM - 1:00 PM",
+              subject: "GNED 09 ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "1:00 AM - 2:00 PM",
+              subject: "GNED 09 ASYNC",
+              section: "IT 3-1",
+              room: null
+            }
           ],
           friday: [
-            { time: "9:00 AM - 11:00 AM", subject: "GNED 14", section: "IT 2-3", room: "ROOM 305" },
-            { time: "11:00 AM - 1:00 PM", subject: "GNED 09", section: "CS 3-1", room: "ROOM 305" },
-            { time: "1:00 PM - 3:00 PM", subject: "GNED 09", section: "CS 3-2", room: "ROOM 305" },
-            { time: "4:00 PM - 5:00 PM", subject: "GNED 09 ASYNC", section: "IT 3-3" },
-            { time: "5:00 PM - 7:00 PM", subject: "GNED 09", section: "IT 3-3", room: "ROOM 305" }
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "GNED 14",
+              section: "IT 2-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "GNED 09",
+              section: "CS 3-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "GNED 09",
+              section: "CS 3-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "GNED 09 ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-3",
+              room: "ROOM 305"
+            }
           ],
           saturday: [
-            { time: "7:00 AM - 9:00 AM", subject: "GNED 14", section: "CS 2-2", room: "ROOM 305" },
-            { time: "9:00 AM - 11:00 AM", subject: "GNED 09", section: "IT 3-1", room: "AUDI 2" },
-            { time: "1:00 PM - 3:00 PM", subject: "GNED 14", section: "CS 2-1", room: "ROOM 305" },
-            { time: "3:00 PM - 5:00 PM", subject: "GNED 09", section: "IT 3-3", room: "ROOM 303" },
-            { time: "5:00 PM - 7:00 PM", subject: "GNED 09", section: "IT 3-2", room: "CL 2" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "GNED 14",
+              section: "CS 2-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "GNED 09",
+              section: "IT 3-1",
+              room: "AUDI 2"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "GNED 14",
+              section: "CS 2-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-2",
+              room: "CL 2"
+            }
           ],
           sunday: [],
         }
@@ -12824,10 +16888,158 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-5",
+              room: null
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 21",
+              section: "CS 1-1",
+              room: "CL 1"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 21",
+              section: "CS 1-2",
+              room: "CL 1"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-1",
+              room: "ACCRE"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 21",
+              section: "CS 1-3",
+              room: "CL 1"
+            },
+          ],
+          tuesday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-6",
+              room: "ACCRE"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 65",
+              section: "CS 3-2",
+              room: "ACCRE"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 21",
+              section: "CS 1-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 21",
+              section: "CS 1-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 21",
+              section: "CS 1-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-5",
+              room: "ACCRE"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "CS 1-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "CS 1-1",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-3",
+              room: "ACCRE"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-1",
+              room: "ACCRE"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-6",
+              room: null
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -12837,29 +17049,109 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "8:30 AM - 10:00 AM", subject: "GNED 14", section: "CS 2-2", room: "ROOM 203" },
-            { time: "10:00 AM - 12:00 PM", subject: "GNED 09", section: "IT 3-4", room: "ROOM 101" },
-            { time: "12:00 PM - 2:00 PM", subject: "GNED 14", section: "CS 2-1", room: "ROOM 204" },
-            { time: "4:00 PM - 5:30 PM", subject: "GNED 14", section: "CS 2-3", room: "AUDI" }
+            {
+              time: "8:30 AM - 10:00 AM",
+              subject: "GNED 14",
+              section: "CS 2-2",
+              room: "ROOM 203"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-4",
+              room: "ROOM 101"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "GNED 14",
+              section: "CS 2-1",
+              room: "ROOM 204"
+            },
+            {
+              time: "4:00 PM - 5:30 PM",
+              subject: "GNED 14",
+              section: "CS 2-3",
+              room: "AUDI"
+            }
           ],
           tuesday: [
-            { time: "9:00 AM - 12:00 PM", subject: "GNED 09", section: "IT 3-5", room: "ROOM 107" },
-            { time: "12:00 PM - 1:30 PM", subject: "GNED 09", section: "CS 3-4", room: "ROOM 107" },
-            { time: "2:00 PM - 4:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "4:00 PM - 5:30 PM", subject: "GNED 14", section: "CS 2-2", room: "CL 3" }
+            {
+              time: "9:00 AM - 12:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-5",
+              room: "ROOM 107"
+            },
+            {
+              time: "12:00 PM - 1:30 PM",
+              subject: "GNED 09",
+              section: "CS 3-4",
+              room: "ROOM 107"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "4:00 PM - 5:30 PM",
+              subject: "GNED 14",
+              section: "CS 2-2",
+              room: "CL 3"
+            }
           ],
           wednesday: [
-            { time: "8:30 AM - 11:30 AM", subject: "GNED 09", section: "IT 3-3", room: "ROOM 109" },
-            { time: "11:30 AM - 1:00 PM", subject: "GNED 09", section: "CS 3-4", room: "ROOM 109" },
-            { time: "2:00 PM - 3:00 PM", subject: "GNED 09", section: "IT 3-4", room: "ROOM 204" },
-            { time: "3:00 PM - 6:00 PM", subject: "GNED 14", section: "CS 2-4", room: "ROOM 107" }
+            {
+              time: "8:30 AM - 11:30 AM",
+              subject: "GNED 09",
+              section: "IT 3-3",
+              room: "ROOM 109"
+            },
+            {
+              time: "11:30 AM - 1:00 PM",
+              subject: "GNED 09",
+              section: "CS 3-4",
+              room: "ROOM 109"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-4",
+              room: "ROOM 204"
+            },
+            {
+              time: "3:00 PM - 6:00 PM",
+              subject: "GNED 14",
+              section: "CS 2-4",
+              room: "ROOM 107"
+            }
           ],
           thursday: [],
           friday: [
-            { time: "7:00 AM - 8:30 AM", subject: "GNED 14", section: "CS 2-3", room: "AUDI" },
-            { time: "9:00 AM - 12:00 PM", subject: "GNED 09", section: "IT 3-2", room: "ROOM 201" },
-            { time: "1:00 PM - 4:00 PM", subject: "GNED 09", section: "IT 3-1", room: "AUDI" },
-            { time: "4:00 PM - 5:00 PM", subject: "GNED 14", section: "CS 2-1", room: "CL 4" }
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "GNED 14",
+              section: "CS 2-3",
+              room: "AUDI"
+            },
+            {
+              time: "9:00 AM - 12:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-2",
+              room: "ROOM 201"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "GNED 09",
+              section: "IT 3-1",
+              room: "AUDI"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "GNED 14",
+              section: "CS 2-1",
+              room: "CL 4"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -12961,52 +17253,126 @@ export const people = [
     image: "/images/sarmiento.jpg",
     diploma: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
-      url: "https://drive.google.com/file/d/1TCOi2uvlxKWdUmjhgWMxrWj4XY4Jh5ET/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1LQjwYOBtlZKYHgSfKwob4S4jIs7s1uF4/view?usp=drive_link"
     },
     {
       name: "BACHELOR OF TECHNICAL-VOCATIONAL TEACHER EDUCATION MAJOR IN COMPUTER HARDWARE SERVICING",
-      url: "https://drive.google.com/file/d/162SEpiuPo-_6FjdT250VpWqmOUTZdfX9/view?usp=drive_link"
-    },
-    ],
-    tor: {
+      url: "https://drive.google.com/file/d/1XS8G1cD68cXQZXKmfVjLoJed1KMkRCfv/view?usp=drive_link"
+    }],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
+    tor: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
-      url: "https://drive.google.com/file/d/1O17jZwXcWF811O1QHSJ9VRIHt4s4qkmS/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1EKKWLSf7cDQqIBXDOwNaA1XwOAAJKPQH/view?usp=drive_link"
     },
+    {
+      name: "BACHELOR OF TECHNICAL-VOCATIONAL TEACHER EDUCATION MAJOR IN COMPUTER HARDWARE SERVICING",
+      url: "https://drive.google.com/file/d/1qCNdr9J1GvEex2lTRdRFTDd5jdUKoZVg/view?usp=drive_link"
+    }],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
     resume: null,
     certificates: [{
       name: "MICROSOFT OFFICE SPECIALIST - OFFICE EXCEL 2010",
-      url: "https://drive.google.com/file/d/1QrAWYJde7VNuOTtB5pNT1rK3GgmtWWlL/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1SY8HVbA3nZqoKgnef2-QOC1WChLYHDMh/view?usp=drive_link"
     },
     {
       name: "COMPUTER SYSTEM SERVICING",
-      url: "https://drive.google.com/file/d/1IRd1B0khYCocbNAd4JQBU0fSsfrSwGxw/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1xNbDl9AOtCpZt-QiOADcKJBe5mSbvbeh/view?usp=drive_link"
     },
     {
       name: "PHILIPPINE TVET TRAINERS QUALIFICATION SYSTEMS (PTTQS)",
-      url: "https://drive.google.com/file/d/1-ZOP5PpIyRjEcKLxep95X-VmPfCTN8Ri/view?usp=drive_link"
-    },
-    ],
+      url: "https://drive.google.com/file/d/1AT0-9gSEDoAYPuAMz0GKqW_yB5u8mSmK/view?usp=drive_link"
+    }],
+     speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
+
     schedule: [
       {
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-2", room: "CL 3" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 106 (LEC)", section: "IT 3-2", room: "ROOM 303" }
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 106 (LAB)",
+              section: "IT 3-2",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 106 (LEC)",
+              section: "IT 3-2",
+              room: "ROOM 303"
+            }
           ],
-          tuesday: [{ time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-2", room: "ROOM 303" }],
+          tuesday: [
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 106 (LAB)",
+              section: "IT 3-2",
+              room: "ROOM 303"
+            }
+          ],
           wednesday: [],
-          thursday: [{ time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-1", room: "ROOM 303" },],
+          thursday: [
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 106 (LAB)",
+              section: "IT 3-1",
+              room: "ROOM 303"
+            }
+          ],
           friday: [
-            { time: "7:00 AM - 8:30 AM", subject: "ITEC 106 (LAB)", section: "IT 3-1", room: "CL 2" },
-            { time: "8:30 AM - 9:30 AM", subject: "ITEC 106 (LEC)", section: "IT 3-1", room: "ROOM 305" }
+            {
+              time: "7:00 AM - 8:30 AM",
+              subject: "ITEC 106 (LAB)",
+              section: "IT 3-1",
+              room: "CL 2"
+            },
+            {
+              time: "8:30 AM - 9:30 AM",
+              subject: "ITEC 106 (LEC)",
+              section: "IT 3-1",
+              room: "ROOM 305"
+            }
           ],
           saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 106 (LAB)", section: "IT 3-3", room: "CL 3" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 106 (LEC)", section: "IT 3-3", room: "ROOM 305" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-1" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-3" },
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 106 (LAB)",
+              section: "IT 3-3",
+              room: "CL 3"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 106 (LEC)",
+              section: "IT 3-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            }
           ],
           sunday: [],
         }
@@ -13015,20 +17381,74 @@ export const people = [
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "3:00 PM - 5:00 PM", subject: "COSC 85", section: "CS 3-2", room: "CL 3" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 85 (LAB) ASYNC", section: "CS 3-2" },
-            { time: "6:00 PM - 7:00 PM", subject: "COSC 85", section: "CS 3-1", room: "ROOM 303" }
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-2",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85 (LAB) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-1",
+              room: "ROOM 303"
+            }
           ],
-          tuesday: [{ time: "2:00 PM - 5:00 PM", subject: "COSC 85", section: "CS 3-3", room: "CL 3" }],
+          tuesday: [
+            {
+              time: "2:00 PM - 5:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-3",
+              room: "CL 3"
+            }
+          ],
           wednesday: [
-            { time: "2:00 PM - 3:00 PM", subject: "COSC 85 ASYNC", section: "CS 3-1" },
-            { time: "3:00 PM - 4:00 PM", subject: "COSC 85 ASYNC", section: "CS 3-2" },
-            { time: "4:00 PM - 5:00 PM", subject: "COSC 85 ASYNC", section: "CS 3-3" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 85", section: "CS 3-3", room: "ROOM 301" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 85", section: "CS 3-2", room: "ROOM 301" }
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "COSC 85 ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "COSC 85 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "COSC 85 ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-2",
+              room: "ROOM 301"
+            }
           ],
           thursday: [],
-          friday: [{ time: "3:00 PM - 6:00 PM", subject: "COSC 85", section: "CS 3-1", room: "CL 2" }],
+          friday: [
+            {
+              time: "3:00 PM - 6:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-1",
+              room: "CL 2"
+            }
+          ],
           saturday: [],
           sunday: [],
         }
@@ -13037,26 +17457,86 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "7:00 AM - 9:00 AM", subject: "GNED 01", section: "IT 1-2", room: "ROOM 302" },
-            { time: "9:00 AM - 10:00 AM", subject: "GNED 01 ASYNC", section: "IT 1-2" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "GNED 01",
+              section: "IT 1-2",
+              room: "ROOM 302"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "GNED 01 ASYNC",
+              section: "IT 1-2",
+              room: null
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "7:00 AM - 9:00 AM", subject: "GNED 01", section: "IT 1-3", room: "ROOM 303" },
-            { time: "9:00 AM - 10:00 AM", subject: "GNED 01 ASYNC", section: "IT 1-3" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "GNED 01",
+              section: "IT 1-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "GNED 01 ASYNC",
+              section: "IT 1-3",
+              room: null
+            }
           ],
           thursday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 106", section: "IT 3-2", room: "ROOM 305" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "ITEC 106", section: "IT 3-1", room: "ROOM 301" },
-            { time: "10:00 AM - 11:00 AM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-1" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 106",
+              section: "IT 3-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 106",
+              section: "IT 3-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null
+            }
           ],
           friday: [],
           saturday: [
-            { time: "7:00 AM - 9:00 AM", subject: "ITEC 106", section: "IT 3-1", room: "CL 3" },
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 106", section: "IT 3-2", room: "CL 3" },
-            { time: "11:00 AM - 12:00 PM", subject: "ITEC 106 (LAB) ASYNC", section: "IT 3-1" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 106 (LAB) ASYNC", section: "IT 3-2" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "ITEC 106",
+              section: "IT 3-1",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 106",
+              section: "IT 3-2",
+              room: "CL 3"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 106 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 106 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
           ],
           sunday: [],
         }
@@ -13065,11 +17545,87 @@ export const people = [
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
-          tuesday: [],
+          tuesday: [
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85 (LEC) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 85 (LAB) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+          ],
           wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
+          thursday: [
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-2",
+              room: "ROOM 303"
+            },
+          ],
+          friday: [
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 85 (LEC) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 85 (LAB) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+          ],
+          saturday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "COSC 85",
+              section: "CS 3-3",
+              room: "CL 3"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-1",
+              room: "CL 3"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "COSC 85",
+              section: "CS 3-2",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 85 (LEC) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 85 (LAB) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+          ],
           sunday: [],
         }
       },
@@ -13082,10 +17638,30 @@ export const people = [
           thursday: [],
           friday: [],
           saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 105", section: "IT 3-2", room: "CL 5" },
-            { time: "10:00 AM - 12:00 PM", subject: "ITEC 105", section: "IT 3-3", room: "ROOM 107" },
-            { time: "2:00 PM - 4:00 PM", subject: "ITEC 105", section: "IT 3-2", room: "ROOM 201" },
-            { time: "4:00 PM - 7:00 PM", subject: "ITEC 105", section: "IT 3-3", room: "CL 5" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 105",
+              section: "IT 3-2",
+              room: "CL 5"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "ITEC 105",
+              section: "IT 3-3",
+              room: "ROOM 107"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "ITEC 105",
+              section: "IT 3-2",
+              room: "ROOM 201"
+            },
+            {
+              time: "4:00 PM - 7:00 PM",
+              subject: "ITEC 105",
+              section: "IT 3-3",
+              room: "CL 5"
+            }
           ],
           sunday: [],
         }
@@ -13175,70 +17751,75 @@ export const people = [
     image: "/images/tacata.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1yTysOCyM5-fhLH5MS_pQmVwtO_8un-fL/view?usp=drive_link"
-    },
-    ],
+      url: "https://drive.google.com/file/d/1yrj7_HQsfVOQ_xVScgh6q4jhJ4wqpHr-/view?usp=drive_link"
+    }],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1XdWIDqz-DUPii7WZE8pWRiyYgL_C0P-f/view?usp=drive_link"
-    },
-    ],
-    resume: {
-      url: "https://drive.google.com/file/d/102AlDuAN_0K07mSEFJqoHu_UU5GJyDRg/view?usp=drive_link"
-    },
+      url: "https://drive.google.com/file/d/1U0M93ISa964VMCyn9mSLuLVofgpGmQSo/view?usp=drive_link"
+    }],
+     eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1W7ORNdHqBrO6eJ1TxIY7v3r6jOErCgYI/view?usp=drive_link",
     certificates: [{
-      name: "CSS ESSENTIALS - CISCO NETWORKING ACADEMY",
+      name: "COMPUTER SERVICING SYSTEM TRAINING FACILITATOR",
       url: "https://drive.google.com/file/d/1dCq6YwlUfLgADAxZjuh18JvisXVqKJdn/view?usp=drive_link"
-    },
-    {
-      name: "CYBER THREAT MANAGEMENT - CISCO NETWORKING ACADEMY",
-      url: "https://drive.google.com/file/d/1KEyzF-WQvWZTPYBtjmgm_ts-Iyjgf3eZ/view?usp=drive_link"
-    },
-    {
-      name: "HTML ESSENTIALS - CISCO NETWORKING ACADEMY",
-      url: "https://drive.google.com/file/d/1SvLKLsvyza0Vq9bdRoz60yz42W3ucTrA/view?usp=drive_link"
-    },
-    {
-      name: "LEARN SQL: INTRODUCTION TO QUERYING DATA - DICT",
-      url: "https://drive.google.com/file/d/1Rfzsx7g_zsbf8WDK2klOYamQSVzxOWDL/view?usp=drive_link"
-    },
-    {
-      name: "NETWORK DEFENSE - CISCO NETWORK ACADEMY",
-      url: "https://drive.google.com/file/d/1JglblWbVoWmviuNP1ndFJHSivaVPYN4i/view?usp=drive_link"
-    },
-    {
-      name: "PROGRAMMING FOR BEGINNERS USING PYTHON - DICT",
-      url: "https://drive.google.com/file/d/1hPIrqxGZBDdVkNP-GZYz_gcb9TB-fcZp/view?usp=drive_link"
-    },
-    {
-      name: "PYTHON ESSENTIAL 1 - CISCO NETWORK ACADEMY",
-      url: "https://drive.google.com/file/d/1szee3tizLHLmWF0XdfyflRXUW5_-4rgm/view?usp=drive_link"
-    },
-    {
-      name: "PYTHON ESSENTIAL 2 - CISCO NETWORK ACADEMY",
-      url: "https://drive.google.com/file/d/15dw95V-xRzXSHxKfaXj-NTWhWObAWopN/view?usp=drive_link"
-    },
-    {
+    }, {
       name: "DIGITAL LEARNING APAC - IBE FORUM",
-      url: "https://drive.google.com/file/d/1JOhli0irWsWS9e5d1r_OHrA6tc-v6H9T/view?usp=drive_link"
-    },
-    {
+      url: "https://drive.google.com/file/d/1H0cFpJqa-j_OHffNJ7OHLbJbwDBIoN98/view?usp=drive_link"
+    }, {
       name: "CANVAS LEARNING MANAGEMENT SYSTEM - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1iiphM5G_HnLbDXelwSQ41gq0i0axZPUj/view?usp=drive_link",
-    },
-    {
-      name: "PROMOTING GLOBAL ENGAGEMENT TOWARDS A SUSTAINABLE AND SAFE ENVIRONMENT - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1NAzjUv9H20KcRebXKU_MjKHjXtytfvy0/view?usp=drive_link"
-    },
-    {
-      name: "ART OF WRITING RESEARCH ON BLOCKCHAIN TECHNOLOGY - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1EXNhoqEoxWcLdCkKgjvsbHb7GisidWma/view?usp=drive_link"
-    },
-    {
-      name: "INFORMATION TECHNOLOGY ENTREPRENEURIAL DEVELOPMENT, RESEARCH, AND INNOVATION - PERPETUAL HELP MOLINO",
-      url: "https://drive.google.com/file/d/1Ux6BP1F4XOkFqIIg8Bw5iHwitXfbDdrx/view?usp=drive_link"
-    },
-    ],
+      url: "https://drive.google.com/file/d/1XhnLN8vyvEdW7BtstUo2_zq0Db8GqWLR/view?usp=drive_link",
+    }, {
+      name: "Promoting Global Engagement Towards a Sustainable and Safe Environment",
+      url: "https://drive.google.com/file/d/1rE0dUBy5O6mzbKE8xKBIeHu3e879M26T/view?usp=drive_link",
+    }, {
+      name: "ICDL Profile",
+      url: "https://drive.google.com/file/d/1fYiFCZnCnUTvH01XPyuWpDXJA294H7fB/view?usp=drive_link",
+    }, {
+      name: "BED In-Service Training for Teachers",
+      url: "https://drive.google.com/file/d/1FQ5ecCgk0iCplIAwSX6e9RFVcW6l14Hg/view?usp=drive_link",
+    }, {
+      name: "Art of Writing Research of Blockhain Technology",
+      url: "https://drive.google.com/file/d/16UfGop5ib2C2sornH9GxCVcbwAzwsztU/view?usp=drive_link",
+    }, {
+      name: "Information Technology Entrepreneurial Development, Research and Innovation: 4th International Webinar",
+      url: "https://drive.google.com/file/d/1AJmeOfkYUYCjrjKrVEd5DKV1_pHJD5wO/view?usp=drive_link",
+    }, {
+      name: "CSS Essentials",
+      url: "https://drive.google.com/file/d/10ugnfxaw8mBJxGYK8KdTri1llEc6kAAm/view?usp=drive_link",
+    }, {
+      name: "Cyber Threat Management",
+      url: "https://drive.google.com/file/d/17XCWAmlWB5s_mUFHhVLzDRNDAifwsomq/view?usp=drive_link",
+    }, {
+      name: "HTML Essentials",
+      url: "https://drive.google.com/file/d/1HQLJUVLkHrDBWgyKF1Hgqb7tJitg5fsT/view?usp=drive_link",
+    }, {
+      name: "Learn SQL: Introduction to Querying Data",
+      url: "https://drive.google.com/file/d/1gRUUHwELbscxNX0JApZC2utFV9BWRhO2/view?usp=drive_link",
+    }, {
+      name: "Network Defense",
+      url: "https://drive.google.com/file/d/1EhKKQxEQFbp-IvYE1QyFmp5lH2aFtFxY/view?usp=drive_link",
+    }, {
+      name: "Programming for Beginners Using Python",
+      url: "https://drive.google.com/file/d/1S7wVZpFRQN_PicP5WDfZIDuP3pjXHRl6/view?usp=drive_link",
+    }, {
+      name: "Python Essentials 1",
+      url: "https://drive.google.com/file/d/1LfVAtonzyJyTZw7R2_L9sIFGdcGFiHmX/view?usp=drive_link",
+    }, {
+      name: "Python Essentials 2",
+      url: "https://drive.google.com/file/d/1xTedQURYRcbvAxgzaUL-1Iy2VOONOjix/view?usp=drive_link",
+    }],
+      speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -13247,33 +17828,144 @@ export const people = [
           ],
           tuesday: [],
           wednesday: [
-            { time: "1:00 PM - 3:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "3:00 PM - 4:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-1" },
-            { time: "4:00 PM - 5:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-2" },
-            { time: "5:00 PM - 7:00 PM", subject: "GNED 14", section: "IT 2-4", room: "CL 1" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 11", section: "CS 1-5", room: "ROOM 201" }
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "GNED 11 ASYNC",
+              section: "CS 1-1",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "GNED 11 ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "GNED 14",
+              section: "IT 2-4",
+              room: "CL 1"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "GNED 11",
+              section: "CS 1-5",
+              room: "ROOM 201"
+            }
           ],
-          thursday: [],
+
           friday: [
-            { time: "7:00 AM - 9:00 AM", subject: "GNED 11", section: "CS 1-3", room: "ROOM 201" },
-            { time: "9:00 AM - 11:00 AM", subject: "GNED 11", section: "CS 1-2", room: "ROOM 312" },
-            { time: "11:00 AM - 12:00 PM", subject: "GNED 14 ASYNC", section: "IT 2-5" },
-            { time: "1:00 PM - 3:00 PM", subject: "GNED 14", section: "IT 2-5", room: "CL 1" },
-            { time: "3:00 PM - 4:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-3" },
-            { time: "4:00 PM - 5:00 PM", subject: "GNED 11 ASYNC", section: "CS 1-5" },
-            { time: "5:00 PM - 6:00 PM", subject: "GNED 11 ASYNC", section: "IT 2-4" },
-            { time: "7:00 PM - 9:00 PM", subject: "GNED 11", section: "CS 1-1", room: "ROOM 312" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "GNED 11",
+              section: "CS 1-3",
+              room: "ROOM 201"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "GNED 11",
+              section: "CS 1-2",
+              room: "ROOM 312"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "GNED 14 ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "GNED 14",
+              section: "IT 2-5",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "GNED 11 ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "GNED 11 ASYNC",
+              section: "CS 1-5",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "GNED 11 ASYNC",
+              section: "IT 2-4",
+              room: null
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "GNED 11",
+              section: "CS 1-1",
+              room: "ROOM 312"
+            }
           ],
+
           saturday: [
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 85 ASYNC", section: "IT 3-3" },
-            { time: "9:00 AM - 11:00 AM", subject: "COSC 111", section: "CS 4-1", room: "ROOM 305" },
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 85 (LEC) ASYNC", section: "IT 3-3" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 85 (LAB)", section: "IT 3-3", room: "CL 3" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 85 (LEC)", section: "IT 3-3", room: "CL 3" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 85 (LEC) ASYNC", section: "IT 3-4" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 85 (LAB) ASYNC", section: "IT 3-4" },
-            { time: "6:00 PM - 8:00 PM", subject: "ITEC 85 (LAB)", section: "IT 3-4", room: "CL 3" },
-            { time: "8:00 PM - 9:00 PM", subject: "ITEC 85 (LEC)", section: "IT 3-4", room: "CL 3" }
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 85 ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "COSC 111",
+              section: "CS 4-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 85 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 85 (LAB)",
+              section: "IT 3-3",
+              room: "CL 3"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 85 (LEC)",
+              section: "IT 3-3",
+              room: "CL 3"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 85 (LEC) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 85 (LAB) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "ITEC 85 (LAB)",
+              section: "IT 3-4",
+              room: "CL 3"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "ITEC 85 (LEC)",
+              section: "IT 3-4",
+              room: "CL 3"
+            }
           ],
           sunday: [],
         }
@@ -13283,36 +17975,151 @@ export const people = [
         details: {
           monday: [],
           tuesday: [
-            { time: "11:00 AM - 12:00 PM", subject: "DCIT 25", section: "CS 2-4", room: "ROOM 301" },
-            { time: "12:00 PM - 1:00 PM", subject: "COSC 65", section: "CS 2-5", room: "ROOM 301" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 106", section: "IT 3-6", room: "CL 4" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 106 (LAB) ASYNC", section: "IT 3-6" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 25", section: "CS 2-6" },
-            { time: "6:00 PM - 7:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "CS 2-4" },
-            { time: "7:00 PM - 8:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "CS 2-6" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 25 (LEC) ASYNC", section: "CS 2-5" }
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 65",
+              section: "CS 2-5",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-6",
+              room: "CL 4"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 106 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-6",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "CS 2-6",
+              room: null
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 25 (LEC) ASYNC",
+              section: "CS 2-5",
+              room: null
+            }
           ],
           wednesday: [
-            { time: "2:00 PM - 3:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "CS 2-4" },
-            { time: "3:00 PM - 4:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "CS 2-6" },
-            { time: "4:00 PM - 5:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "CS 2-5" },
-            { time: "5:00 PM - 6:00 PM", subject: "DCIT 25 (LAB) ASYNC", section: "CS 2-7" },
-            { time: "6:00 PM - 8:00 PM", subject: "COSC 65", section: "CS 2-5", room: "CL 4" }
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "CS 2-4",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "CS 2-6",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "CS 2-5",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 25 (LAB) ASYNC",
+              section: "CS 2-7",
+              room: null
+            },
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "COSC 65",
+              section: "CS 2-5",
+              room: "CL 4"
+            }
           ],
           thursday: [
-            { time: "12:00 PM - 2:00 PM", subject: "DCIT 25", section: "CS 2-6", room: "CL 2" },
-            { time: "2:00 PM - 4:00 PM", subject: "COSC 65", section: "CS 2-7", room: "CL 3" },
-            { time: "5:00 PM - 7:00 PM", subject: "GNED 12", section: "IT 1-6", room: "ROOM 305" },
-            { time: "7:00 PM - 9:00 PM", subject: "DCIT 25", section: "CS 2-4", room: "CL 1" }
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-6",
+              room: "CL 2"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "COSC 65",
+              section: "CS 2-7",
+              room: "CL 3"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "GNED 12",
+              section: "IT 1-6",
+              room: "ROOM 305"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "DCIT 25",
+              section: "CS 2-4",
+              room: "CL 1"
+            }
           ],
           friday: [],
           saturday: [
-            { time: "7:00 AM - 8:00 AM", subject: "ITEC 106", section: "IT 3-6", room: "ROOM 301" },
-            { time: "8:00 AM - 9:00 AM", subject: "COSC 65", section: "CS 2-7", room: "ROOM 303" },
-            { time: "10:00 AM - 12:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-6" },
-            { time: "1:00 PM - 2:00 PM", subject: "COSC 65 (LEC) ASYNC", section: "CS 2-7" },
-            { time: "2:00 PM - 3:00 PM", subject: "GNED 12 ASYNC", section: "IT 1-6" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 106",
+              section: "IT 3-6",
+              room: "ROOM 301"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "COSC 65",
+              section: "CS 2-7",
+              room: "ROOM 303"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "COSC 65 (LEC) ASYNC",
+              section: "CS 2-7",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "GNED 12 ASYNC",
+              section: "IT 1-6",
+              room: null
+            }
           ],
           sunday: [],
         }
@@ -13320,10 +18127,164 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-1",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-2",
+              room: "CL 3"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 21",
+              section: "IT 1-3",
+              room: "CL 3"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 21",
+              section: "IT 1-4",
+              room: "ROOM 303"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "IT 1-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "IT 1-2",
+              room: null
+            },
+          ],
+          tuesday: [
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "IT 1-3",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-2",
+              room: null
+            },
+          ],
+          wednesday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 21",
+              section: "IT 1-2",
+              room: "ROOM 301"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-3",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 21 (LAB) ASYNC",
+              section: "IT 1-4",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 21",
+              section: "IT 1-4",
+              room: "CL 1"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 21",
+              section: "IT 1-3",
+              room: "ROOM 301"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "CVSU 101",
+              section: "IT 1-4",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-4",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 21 (LEC) ASYNC",
+              section: "IT 1-1",
+              room: null
+            },
+          ],
+          thursday: [
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "IT 4-6",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 65",
+              section: "IT 1-4",
+              room: "ROOM 303"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-4",
+              room: null
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-4",
+              room: "ROOM 303"
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -13334,25 +18295,90 @@ export const people = [
         details: {
           monday: [],
           tuesday: [
-            { time: "10:00 AM - 12:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "12:00 PM - 2:00 PM", subject: "ITEC 50", section: "IT 1-1", room: "ROOM 203" },
-            { time: "3:00 PM - 5:00 PM", subject: "DCIT 55", section: "CS 2-5", room: "ROOM 201" },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-1",
+              room: "ROOM 203"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 55",
+              section: "CS 2-5",
+              room: "ROOM 201"
+            }
           ],
           wednesday: [
-            { time: "7:00 AM - 9:00 AM", subject: "ITEC 60", section: "IT 2-2", room: "CL 5" },
-            { time: "10:00 AM - 1:00 PM", subject: "DCIT 55", section: "CS 2-5", room: "CL 4" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 60", section: "IT 2-3", room: "ROOM 204" },
-            { time: "5:00 PM - 7:00 PM", subject: "DCIT 55", section: "CS 2-1", room: "ACCRE" },
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-2",
+              room: "CL 5"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "DCIT 55",
+              section: "CS 2-5",
+              room: "CL 4"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-3",
+              room: "ROOM 204"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "DCIT 55",
+              section: "CS 2-1",
+              room: "ACCRE"
+            }
           ],
           thursday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 50", section: "IT 1-1", room: "CL 2" },
-            { time: "1:00 PM - 4:00 PM", subject: "ITEC 60", section: "IT 2-3", room: "CL 1" },
-            { time: "4:00 PM - 7:00 PM", subject: "ITEC 60", section: "IT 2-2", room: "CL 1" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 50",
+              section: "IT 1-1",
+              room: "CL 2"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-3",
+              room: "CL 1"
+            },
+            {
+              time: "4:00 PM - 7:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-2",
+              room: "CL 1"
+            }
           ],
           friday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 60", section: "IT 2-6", room: "CL 5" },
-            { time: "10:00 AM - 1:00 PM", subject: "DCIT 55", section: "CS 2-1", room: "CL 5" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 60", section: "IT 2-6", room: "ROOM 201" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-6",
+              room: "CL 5"
+            },
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "DCIT 55",
+              section: "CS 2-1",
+              room: "CL 5"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-6",
+              room: "ROOM 201"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -13421,36 +18447,45 @@ export const people = [
     image: "/images/tagum.JPG",
     diploma: [{
       name: "DIPLOMA IN COMPUTER ENGINEERING TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1ANoBLwbbR_Guqo0G5uVE43NXy5VdlaQX/view?usp=drive_link",
-    },
-    {
+      url: "https://drive.google.com/file/d/1od_LrJTLHmB7FIlORP_X794nE5VGy5Jm/view?usp=drive_link",
+    }, {
       name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
-      url: "https://drive.google.com/file/d/14DVxCjdrG7UNrjlP9NH3SmVVnFS2iFjD/view?usp=drive_link"
-    },
-    ],
+      url: "https://drive.google.com/file/d/1CDjMTLP4QCGITQem7IpXkFvSRpH-96t0/view?usp=drive_link"
+    }],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
     tor: [{
       name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
-      url: "https://drive.google.com/file/d/1ULne0ElwwPXxIN6OlxQOxqD8RUwfVaLc/view?usp=drive_link"
-    },
-    ],
+      url: "https://drive.google.com/file/d/1SbRFhnbDAU1V_nF0OjxG1kEANKejEwoj/view?usp=drive_link"
+    }],
+     eligibility: [{
+      name: "",
+      url: ""
+    }],
     resume: null,
     certificates: [{
-      name: "TEFL COURSE - TEFL PROFESSIONAL INSTITUTE",
-      url: "https://drive.google.com/file/d/13ABUtDl0xwZ5KG0sbWntkY-e_hopMXaG/view?usp=drive_link"
-    },
-    {
-      name: "TEACHING ENGLISH TO YOUNG LEARNERS (TEYL) - TESOL/TEFL",
-      url: "https://drive.google.com/file/d/1edRoIllzNgjWf3Km5kdlW9dsHjGp6ZpM/view?usp=drive_link"
-    },
-    {
-      name: "TEACHING ENGLISH TO SPEAKERS OF OTHER LANGAUGE - TESOL",
-      url: "https://drive.google.com/file/d/1WT1UIOWaDjzPoOqiGxlIb43o-Hgpm5Qb/view?usp=drive_link"
-    },
-    {
-      name: "COMPUTER SYSTEMS SERVICING",
-      url: "https://drive.google.com/file/d/1p_ZrB9asZOz8REocCvlWflZC_cbdN80O/view?usp=drive_link"
-    },
-    ],
+      name: "NCII - TESDA",
+      url: "https://drive.google.com/file/d/1bz1VewKdJGMFW-4O51aXL61Gf-sqkNZR/view?usp=drive_link"
+    }, {
+      name: "Teaching English as a Foreign Language Course",
+      url: "https://drive.google.com/file/d/18IE2HBioPnKgdkm6k3axK41PblLzkjfE/view?usp=drive_link"
+    }, {
+      name: "Teaching English To Young Learners (TEYL)",
+      url: "https://drive.google.com/file/d/1Vv-pGrQpU_PW8obzkZsJlIXOtV60qLS_/view?usp=drive_link"
+    }, {
+      name: "International Open Course",
+      url: "https://drive.google.com/file/d/1hv13M2EO6CIkIY3o4KW4WyKevClsnFVP/view?usp=drive_link"
+    },{
+      name: "Teaching English to Speakers of Other Languages (TESOL)",
+      url: "https://drive.google.com/file/d/1o8_rjiimIEjMqF7LO1HHizSoj80kjjPP/view?usp=drive_link"
+    }],
+     speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 24-25",
@@ -13459,8 +18494,82 @@ export const people = [
           tuesday: [],
           wednesday: [],
           thursday: [],
-          friday: [],
-          saturday: [],
+          friday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 26 (LEC) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 26 (LAB) ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "DCIT 26 (LEC) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 26 (LEC) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 26 (LAB) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 26 (LAB) ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+          ],
+          saturday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 26",
+              section: "CS 3-3",
+              room: "CL 2"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-2",
+              room: "CL 4"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-1",
+              room: "CL 2"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-1",
+              room: "CL 2"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 26",
+              section: "CS 3-2",
+              room: "ROOM 303"
+            },
+          ],
           sunday: [],
         }
       },
@@ -13468,18 +18577,38 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "7:00 PM - 9:00 PM", subject: "ITEC 95", section: "IT 3-4", room: "ROOM 204" }
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 95",
+              section: "IT 3-4",
+              room: "ROOM 204"
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "7:00 PM - 8:30 PM", subject: "ITEC 95", section: "IT 3-5", room: "AUDI" }
+            {
+              time: "7:00 PM - 8:30 PM",
+              subject: "ITEC 95",
+              section: "IT 3-5",
+              room: "AUDI"
+            }
           ],
           thursday: [],
           friday: [
-            { time: "7:30 PM - 9:00 PM", subject: "ITEC 95", section: "IT 3-5", room: "ROOM 201" }
+            {
+              time: "7:30 PM - 9:00 PM",
+              subject: "ITEC 95",
+              section: "IT 3-5",
+              room: "ROOM 201"
+            }
           ],
           saturday: [
-            { time: "7:00 AM - 10:00 AM", subject: "GNED 09", section: "CS 3-6", room: "ROOM 204" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "GNED 09",
+              section: "CS 3-6",
+              room: "ROOM 204"
+            }
           ],
           sunday: [],
         }
@@ -13534,63 +18663,200 @@ export const people = [
       ],
     },
     image: "/images/talibong.jpg",
-    diploma: [
-      {
-        name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-        url: "https://drive.google.com/file/d/1kgtKuCwTSfufgj0RdQgNS8yPwDuSo4Wa/view?usp=drive_link"
-      },
-    ],
+    diploma: [{
+      name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
+      url: "https://drive.google.com/file/d/1k6keyD9HfTEJbFX-NHBi3DcpdeRQnerZ/view?usp=drive_link"
+    }],
+    masters_diploma: [{
+      name: "",
+      url: ""
+    }],
     tor: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
-      url: "https://drive.google.com/file/d/13HpTCurPKzo68rvQanTrlW4WpIUPvjMg/view?usp=drive_link"
-    },
-    ],
-    resume:
-    {
-      url: "https://docs.google.com/document/d/1AFp6ue4xok1x7FQcGMhaQhZPXdrL36uP/edit?usp=drive_link&ouid=102452445519148225886&rtpof=true&sd=true"
-    },
-    certificates: null,
-    speaking_engagements: [{
-      name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVESITY - BACOOR",
-      url: "https://drive.google.com/file/d/1zykr4P8Xb_PzZPaW3QH_n5Q8kSUY_F6J/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1vV6z7wFQaI-hDYmwU-v3Kf481hpv-ghO/view?usp=drive_link"
     }],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://docs.google.com/document/d/1qPCDHBXPrx3tbHLzwCqaqE4efxHuxNV4/edit?usp=drive_link&ouid=107814182689736419287&rtpof=true&sd=true",
+    certificates: [{
+      name: "Computer Servicing System Facilitator",
+      url: "https://drive.google.com/file/d/1Xby5QMMXGSkWN6VmVZ461uRBpEq2KxLm/view?usp=drive_link"
+    }, {
+      name: "Faculty On The Beam: Research Impact Beyond Academic Excellence",
+      url: "https://drive.google.com/file/d/1_P7cRmv0wsIIHknlnmcCCjXiJ0nGGq5g/view?usp=drive_link"
+    },{
+      name: "ICDL Profile Certificate",
+      url: "https://drive.google.com/file/d/1AInob1wfJJFtmKc_TX10VtlCdB3EQyxK/view?usp=drive_link"
+    }],
+     speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "9:00 AM - 11:00 AM", subject: "INSY 55", section: "IT 3-3", room: "ROOM 303" },
-            { time: "1:00 PM - 3:00 PM", subject: "INSY 55 (LAB)", section: "IT 3-1", room: "ROOM 302" }
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "INSY 55",
+              section: "IT 3-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "INSY 55 (LAB)",
+              section: "IT 3-1",
+              room: "ROOM 302"
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "7:00 AM - 8:00 AM", subject: "INSY 55 ASYNC", section: "IT 3-1" },
-            { time: "8:00 AM - 9:00 AM", subject: "INSY 55 ASYNC", section: "IT 3-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "INSY 55 ASYNC", section: "IT 3-3" },
-            { time: "10:00 AM - 11:00 AM", subject: "INSY 55", section: "IT 3-2", room: "ROOM 305" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 85", section: "IT 3-6", room: "ROOM 305" },
-            { time: "1:00 PM - 2:00 PM", subject: "INSY 55", section: "IT 3-1", room: "ROOM 305" },
-            { time: "2:00 PM - 4:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "4:00 PM - 5X:00 PM", subject: "ITEC 85", section: "IT 3-5", room: "ROOM 305" },
-            { time: "6:00 PM - 7:00 PM", subject: "INSY 55 ASYNC", section: "IT 3-4" },
-            { time: "7:00 PM - 8:00 PM", subject: "INSY 55 (LAB )ASYNC", section: "IT 3-4" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "INSY 55 ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "INSY 55 ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "INSY 55 ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "INSY 55",
+              section: "IT 3-2",
+              room: "ROOM 305"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-6",
+              room: "ROOM 305"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-1",
+              room: "ROOM 305"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-5",
+              room: "ROOM 305"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "INSY 55 ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "INSY 55 (LAB )ASYNC",
+              section: "IT 3-4",
+              room: null
+            }
           ],
           thursday: [
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 85", section: "IT 3-6", room: "ROOM 303" },
-            { time: "3:00 PM - 5:00 PM", subject: "ITEC 85", section: "IT 3-5", room: "ROOM 302" },
-            { time: "6:00 PM - 7:00 PM", subject: "INSY 55", section: "IT 3-3", room: "ROOM 305" }
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-6",
+              room: "ROOM 303"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-5",
+              room: "ROOM 302"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-3",
+              room: "ROOM 305"
+            }
           ],
           friday: [
-            { time: "7:00 AM - 8:00 AM", subject: "INSY 55 (LAB) ASYNC", section: "IT 3-1" },
-            { time: "8:00 AM - 9:00 AM", subject: "INSY 55 (LAB) ASYNC", section: "IT 3-2" },
-            { time: "9:00 AM - 10:00 AM", subject: "INSY 55 (LAB) ASYNC", section: "IT 3-3" },
-            { time: "10:00 AM - 12:00 PM", subject: "INSY 55 (LAB)", section: "IT 3-2", room: "ROOM 302" },
-            { time: "12:00 PM - 1:00 PM", subject: "ITEC 85 ASYNC", section: "IT 3-5" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 85 ASYNC", section: "IT 3-6" },
-            { time: "3:00 PM - 4:00 PM", subject: "ITEC 85 (LAB) ASYNC", section: "IT 3-5" },
-            { time: "4:00 PM - 6:00 PM", subject: "INSY 55", section: "IT 3-4", room: "ROOM 303" },
-            { time: "6:00 PM - 7:00 PM", subject: "INSY 55", section: "IT 3-4", room: "CL 4" },
-            { time: "7:00 PM - 8:00 PM", subject: "ITEC 85 (LAB) ASYNC", section: "IT 3-6" }
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "INSY 55 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "INSY 55 (LAB)",
+              section: "IT 3-2",
+              room: "ROOM 302"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 85 ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 85 ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 85 (LAB) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-4",
+              room: "ROOM 303"
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "INSY 55",
+              section: "IT 3-4",
+              room: "CL 4"
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "ITEC 85 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            }
           ],
           saturday: [],
           sunday: [],
@@ -13600,33 +18866,128 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "7:00 AM - 9:00 AM", subject: "DCIT 23", section: "IT 1-5", room: "CL 2" },
-            { time: "9:00 AM - 11:00 AM", subject: "DCIT 23 (LAB) ASYNC", section: "IT 1-5" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 23 (LAB) ASYNC", section: "IT 1-4" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 106 (LEC) ASYNC", section: "IT 3-3" },
-            { time: "6:00 PM - 8:00 PM", subject: "DCIT 23", section: "IT 1-4", room: "CL 3" },
-            { time: "8:00 PM - 9:00 PM", subject: "DCIT 23", section: "IT 1-4", room: "CL 3" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 23",
+              section: "IT 1-5",
+              room: "CL 2"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 23 (LAB) ASYNC",
+              section: "IT 1-5",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 23 (LAB) ASYNC",
+              section: "IT 1-4",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 106 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-4",
+              room: "CL 3"
+            },
+            {
+              time: "8:00 PM - 9:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-4",
+              room: "CL 3"
+            }
           ],
           tuesday: [
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 23", section: "CS 1-3", room: "CL 4" },
-            { time: "10:00 AM - 12:00 PM", subject: "DCIT 23", section: "CS 1-3", room: "CL 4" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 106", section: "IT 3-3", room: "ROOM 305" },
-            { time: "2:00 PM - 3:00 PM", subject: "ITEC 106 (LAB) ASYNC", section: "IT 3-3" },
-            { time: "3:00 PM - 5:00 PM", subject: "DCIT 23", section: "IT 1-5", room: "CL 4" },
-            { time: "5:00 PM - 6:00 PM", subject: "DCIT 23", section: "IT 1-5", room: "CL 4" }
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 23",
+              section: "CS 1-3",
+              room: "CL 4"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-3",
+              room: "CL 4"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 106 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-5",
+              room: "CL 4"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-5",
+              room: "CL 4"
+            }
           ],
           wednesday: [
-            { time: "9:00 AM - 11:00 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 23 (LAB) ASYNC", section: "CS 1-3" },
-            { time: "1:00 PM - 3:00 PM", subject: "GNED 06", section: "CS 1-1", room: "ROOM 301" },
-            { time: "3:00 PM - 4:00 PM", subject: "GNED 06 ASYNC", section: "CS 1-1" }
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 23 (LAB) ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "GNED 06",
+              section: "CS 1-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "GNED 06 ASYNC",
+              section: "CS 1-1",
+              room: null
+            }
           ],
           thursday: [],
           friday: [],
           saturday: [
-            { time: "11:00 AM - 1:00 PM", subject: "DCIT 23", section: "IT 1-4", room: "CL 1" },
-            { time: "3:00 PM - 5:00 PM", subject: "DCIT 23", section: "CS 1-3", room: "CL 2" },
-            { time: "5:00 PM - 7:00 PM", subject: "ITEC 106", section: "IT 3-3", room: "CL 1" }
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-4",
+              room: "CL 1"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "DCIT 23",
+              section: "CS 1-3",
+              room: "CL 2"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 106",
+              section: "IT 3-3",
+              room: "CL 1"
+            }
           ],
           sunday: [],
         }
@@ -13634,11 +18995,165 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
+          monday: [
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 85 (LEC) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 85 (LAB) ASYNC",
+              section: "IT 3-1",
+              room: null
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 80 (LEC) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 90 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-3",
+              room: "CL 5"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 85 (LEC) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 85 (LAB) ASYNC",
+              section: "IT 3-2",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 85 (LEC)",
+              section: "IT 3-1",
+              room: "ROOM 401"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 80 (LEC)",
+              section: "IT 3-6",
+              room: "CL 1"
+            },
+          ],
+          tuesday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "ITEC 85",
+              section: "IT 3-2",
+              room: "CL 1"
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 85 (LEC) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "ITEC 80",
+              section: "IT 3-4",
+              room: "CL 5"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 85 (LAB) ASYNC",
+              section: "IT 3-3",
+              room: null
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-5",
+              room: "CL 5"
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-6",
+              room: "CL 5"
+            },
+          ],
           wednesday: [],
-          thursday: [],
-          friday: [],
+          thursday: [
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 80 (LEC) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 80 (LEC) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 80 (LAB) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-3",
+              room: "CL 4"
+            },
+          ],
+          friday: [
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 85",
+              section: "IT 3-1",
+              room: "CL 3"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "ITEC 85",
+              section: "IT 3-2",
+              room: "CL 3"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-5",
+              room: "CL 3"
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-4",
+              room: "CL 3"
+            },
+          ],
           saturday: [],
           sunday: [],
         }
@@ -13647,24 +19162,79 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "8:00 AM - 10:00 AM", subject: "ITEC 50", section: "CS 1-2", room: "AUDI" },
-            { time: "1:00 PM - 4:00 PM", subject: "ITEC 60", section: "IT 2-4", room: "CL 4" },
-            { time: "4:00 PM - 7:00 PM", subject: "ITEC 60", section: "IT 2-5", room: "CL 3" }
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "ITEC 50",
+              section: "CS 1-2",
+              room: "AUDI"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-4",
+              room: "CL 4"
+            },
+            {
+              time: "4:00 PM - 7:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-5",
+              room: "CL 3"
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "9:00 AM - 11:00 AM", subject: "ITEC 60", section: "IT 2-5", room: "AUDI 2" },
-            { time: "11:00 AM - 1:00 PM", subject: "ITEC 60", section: "IT 2-4", room: "AUDI 2" }
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-5",
+              room: "AUDI 2"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "ITEC 60",
+              section: "IT 2-4",
+              room: "AUDI 2"
+            }
           ],
           thursday: [
-            { time: "7:00 AM - 9:00 AM", subject: "ITEC 60", section: "IT 2-1", room: "CL 3" },
-            { time: "9:00 AM - 11:00 AM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "1:00 PM - 4:00 PM", subject: "ITEC 50", section: "CS 1-2", room: "CL 3" },
-            { time: "4:00 PM - 6:00 PM", subject: "ITEC 50", section: "CS 1-1", room: "ROOM 101" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-1",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "1:00 PM - 4:00 PM",
+              subject: "ITEC 50",
+              section: "CS 1-2",
+              room: "CL 3"
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "ITEC 50",
+              section: "CS 1-1",
+              room: "ROOM 101"
+            }
           ],
           friday: [
-            { time: "7:00 AM - 10:00 AM", subject: "ITEC 60", section: "IT 2-1", room: "CL 3" },
-            { time: "6:00 PM - 9:00 PM", subject: "ITEC 50", section: "CS 1-1", room: "CL 2" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "ITEC 60",
+              section: "IT 2-1",
+              room: "CL 3"
+            },
+            {
+              time: "6:00 PM - 9:00 PM",
+              subject: "ITEC 50",
+              section: "CS 1-1",
+              room: "CL 2"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -13745,53 +19315,170 @@ export const people = [
       ],
     },
     image: "/images/villareal.JPG",
-    diploma: [null],
-    tor: [null],
-    resume: {
-      url: "https://drive.google.com/file/d/1thAHDQ1hSViTTXM-keeejBOgu1dvVnnE/view?usp=drive_link"
-    },
-    certificates: [{
-      name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1H5xEkT1TrLUmC9MZuyevKh1A-XQCW31P/view?usp=drive_link"
+    diploma: [{
+      name: "",
+      url: ""
+    },],
+    masters_diploma: [{
+      name: "",
+      url: ""
     }],
+    tor: [{
+      name: "",
+      url: ""
+      }],
+    eligibility: [{
+      name: "",
+      url: ""
+    }],
+    resume: "https://drive.google.com/file/d/1Sdca9ziZP1hxYwjF04phtPG7gUhJv-mz/view?usp=drive_link",
+    certificates: [{
+      name: "Digital Editing and Microsoft Excel Training",
+      url: "https://drive.google.com/file/d/1_jjZP7HNhOq9FdQQR2v9fzK_H2PxnyCZ/view?usp=drive_link"
+    }, {
+      name: "PRC Certification of Passing",
+      url: "https://drive.google.com/file/d/1iA16hw8DAy_6KNqVIT2dAIvO0OU36uec/view?usp=drive_link"
+    }, {
+      name: "PRC Passing Rate",
+      url: "https://drive.google.com/file/d/1yDE1nlTZGh0mry0go8GUpan7jTbJTaZ2/view?usp=drive_link"
+    }, {
+      name: "Seminar-Workshop on Module Development and Publication",
+      url: "https://drive.google.com/file/d/1Mir5HLrEjyBbHBQnENUAljtmOaEeEPfM/view?usp=drive_link"
+    },
+    ],
     speaking_engagements: [{
       name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION - MAMBOG ELEMENTARY SCHOOL",
-      url: "https://drive.google.com/file/d/1loyMz2C6OmtHSI_JMEBRO7lGi1ou9lzt/view?usp=drive_link"
-    },
-    {
+      url: "https://drive.google.com/file/d/1Mx-VCnKsvpTEjdbLZ49V5kYc2jjSPBct/view?usp=drive_link"
+    }, {
       name: "2024 RESEACH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVERSITY - BACOOR",
-      url: "https://drive.google.com/file/d/1b_sUN997MR80cJmLkq_gIaI3m2OfS9_7/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1sQpsezr7dtC_dPLBBgXr_DztKr6ixcwr/view?usp=drive_link"
     }],
+    
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "12:00 PM - 2:00 PM", subject: "DCIT 65", section: "CS 3-2", room: "ROOM 109" },
-            { time: "2:00 PM - 3:00 PM", subject: "DCIT 65 ASYNC", section: "CS 3-2" },
-            { time: "3:00 PM - 4:00 PM", subject: "DCIT 65 ASYNC", section: "CS 3-3" },
-            { time: "4:00 PM - 5:00 PM", subject: "COSC 101", section: "CS 3-1" },
-            { time: "5:00 PM - 6:00 PM", subject: "COSC 101 (LAB) ASYNC", section: "CS 3-1" },
-            { time: "6:00 PM - 7:00 PM", subject: "COSC 105 ASYNC", section: "CS 4-1" },
-            { time: "7:00 PM - 8:00 PM", subject: "COSC 105 (LAB) ASYNC", section: "CS 4-1" }
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 65",
+              section: "CS 3-2",
+              room: "ROOM 109"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-2",
+              room: null
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 65 ASYNC",
+              section: "CS 3-3",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "COSC 101",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "COSC 101 (LAB) ASYNC",
+              section: "CS 3-1",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "COSC 105 ASYNC",
+              section: "CS 4-1",
+              room: null
+            },
+            {
+              time: "7:00 PM - 8:00 PM",
+              subject: "COSC 105 (LAB) ASYNC",
+              section: "CS 4-1",
+              room: null
+            }
           ],
           tuesday: [],
           wednesday: [
-            { time: "7:00 AM - 9:00 AM", subject: "ITEC 80 (LAB)", section: "IT 3-5", room: "CL 3" },
-            { time: "9:00 AM - 11:00 AM", subject: "COSC 101", section: "CS 3-1", room: "CL 4" },
-            { time: "11:00 AM - 12:00 PM", subject: "COSC 101 (LEC)", section: "CS 3-1", room: "ROOM 301" },
-            { time: "12:00 PM - 1:00 PM", subject: "COSC 105 (LEC)", section: "CS 4-1", room: "CL 3" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 80", section: "IT 3-4", room: "AUDI 3" },
-            { time: "3:00 PM - 5:00 PM", subject: "COSC 105", section: "CS 4-1", room: "CL 2" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-4" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 80 ASYNC", section: "IT 3-4" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "ITEC 80 (LAB)",
+              section: "IT 3-5",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "COSC 101",
+              section: "CS 3-1",
+              room: "CL 4"
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "COSC 101 (LEC)",
+              section: "CS 3-1",
+              room: "ROOM 301"
+            },
+            {
+              time: "12:00 PM - 1:00 PM",
+              subject: "COSC 105 (LEC)",
+              section: "CS 4-1",
+              room: "CL 3"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-4",
+              room: "AUDI 3"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "COSC 105",
+              section: "CS 4-1",
+              room: "CL 2"
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 80 ASYNC",
+              section: "IT 3-4",
+              room: null
+            }
           ],
           thursday: [],
           friday: [
-            { time: "8:00 AM - 10:00 AM", subject: "DCIT 65", section: "CS 3-3", room: "ROOM 109" },
-            { time: "1O:00 AM - 12:00 PM", subject: "ITEC 80 (LAB)", section: "IT 3-4", room: "ROOM 109" },
-            { time: "1:00 PM - 3:00 PM", subject: "ITEC 80", section: "IT 3-5", room: "ROOM 109" },
-            { time: "3:00 PM - 5:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "DCIT 65",
+              section: "CS 3-3",
+              room: "ROOM 109"
+            },
+            {
+              time: "1O:00 AM - 12:00 PM",
+              subject: "ITEC 80 (LAB)",
+              section: "IT 3-4",
+              room: "ROOM 109"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "ITEC 80",
+              section: "IT 3-5",
+              room: "ROOM 109"
+            },
+            {
+              time: "3:00 PM - 5:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -13801,32 +19488,137 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "9:00 AM - 11:00 AM", subject: "DCIT 23", section: "IT 1-6", room: "CL 4" },
-            { time: "11:00 AM - 1:00 PM", subject: "GNED 12", section: "IT 1-5", room: "ROOM 301" },
-            { time: "1:00 PM - 2:00 PM", subject: "GNED 12 ASYNC", section: "IT 1-5" },
-            { time: "2:00 PM - 3:00 PM", subject: "GNED 12 ASYNC", section: "IT 1-4" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 50 (LEC) ASYNC", section: "IT 1-3" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 50", section: "IT 1-3", room: "ROOM 305" },
-            { time: "6:00 PM - 8:00 PM", subject: "ITEC 50", section: "IT 1-3", room: "CL 2" },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 23",
+              section: "IT 1-6",
+              room: "CL 4"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "GNED 12",
+              section: "IT 1-5",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "GNED 12 ASYNC",
+              section: "IT 1-5",
+              room: null
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "GNED 12 ASYNC",
+              section: "IT 1-4",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 50 (LEC) ASYNC",
+              section: "IT 1-3",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-3",
+              room: "ROOM 305"
+            },
+            {
+              time: "6:00 PM - 8:00 PM",
+              subject: "ITEC 50",
+              section: "IT 1-3",
+              room: "CL 2"
+            }
           ],
           tuesday: [
-            { time: "7:00 AM - 9:00 AM", subject: "ITEC 100", section: "IT 3-5", room: "CL 3" },
-            { time: "9:00 AM - 11:00 AM", subject: "DCIT 23 (LAB) ASYNC", section: "IT 1-6" },
-            { time: "11:00 AM - 1:00 PM", subject: "ITEC 100", section: "IT 3-6", room: "CL 3" },
-            { time: "2:00 PM - 4:00 PM", subject: "CONSULTATION", room: "FACULTY" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 100 (LAB) ASYNC", section: "IT 3-6" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 100 (LEC) ASYNC", section: "IT 3-6" }
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "ITEC 100",
+              section: "IT 3-5",
+              room: "CL 3"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 23 (LAB) ASYNC",
+              section: "IT 1-6",
+              room: null
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "ITEC 100",
+              section: "IT 3-6",
+              room: "CL 3"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 100 (LAB) ASYNC",
+              section: "IT 3-6",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 100 (LEC) ASYNC",
+              section: "IT 3-6",
+              room: null
+            }
           ],
           wednesday: [],
           thursday: [
-            { time: "8:00 AM - 9:00 AM", subject: "ITEC 100", section: "IT 3-5", room: "ROOM 305" },
-            { time: "9:00 AM - 10:00 AM", subject: "DCIT 23", section: "IT 1-6", room: "CL 1" },
-            { time: "10:00 AM - 12:00 PM", subject: "DCIT 23", section: "IT 1-6", room: "CL 1" },
-            { time: "1:00 PM - 2:00 PM", subject: "ITEC 100", section: "IT 3-6", room: "ROOM 302" },
-            { time: "2:00 PM - 4:00 PM", subject: "GNED 12", section: "IT 1-4", room: "ROOM 302" },
-            { time: "4:00 PM - 5:00 PM", subject: "ITEC 100 (LAB) ASYNC", section: "IT 3-5" },
-            { time: "5:00 PM - 6:00 PM", subject: "ITEC 100 (LEC) ASYNC", section: "IT 3-5" },
-            { time: "6:00 PM - 7:00 PM", subject: "ITEC 100 (LAB) ASYNC", section: "IT 1-3" },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "ITEC 100",
+              section: "IT 3-5",
+              room: "ROOM 305"
+            },
+            {
+              time: "9:00 AM - 10:00 AM",
+              subject: "DCIT 23",
+              section: "IT 1-6",
+              room: "CL 1"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 23",
+              section: "IT 1-6",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 100",
+              section: "IT 3-6",
+              room: "ROOM 302"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "GNED 12",
+              section: "IT 1-4",
+              room: "ROOM 302"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 100 (LAB) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 100 (LEC) ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
+            {
+              time: "6:00 PM - 7:00 PM",
+              subject: "ITEC 100 (LAB) ASYNC",
+              section: "IT 1-3",
+              room: null
+            }
           ],
           friday: [],
           saturday: [],
@@ -13836,10 +19628,152 @@ export const people = [
       {
         semesterName: "1st Sem A.Y 24-25",
         details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
+          monday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "GNED 02",
+              section: "CS 1-4",
+              room: "ROOM 305"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "ITEC 55 (LAB) ASYNC",
+              section: "IT 2-4",
+              room: null
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-4",
+              room: "ROOM 201"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "GNED 02",
+              section: "CS 1-5",
+              room: "ROOM 301"
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "GNED 02 ASYNC",
+              section: "CS 1-1",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "GNED 02 ASYNC",
+              section: "CS 1-3",
+              room: null
+            },
+          ],
+          tuesday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "GNED 02",
+              section: "CS 1-1",
+              room: "ROOM 303"
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-6",
+              room: "CL 5"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "ITEC 55 (LEC) ASYNC",
+              section: "IT 2-6",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 55 (LEC) ASYNC",
+              section: "IT 2-4",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-6",
+              room: "ROOM 301"
+            },
+            {
+              time: "7:00 PM - 9:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-5",
+              room: "CL 2"
+            },
+          ],
+          wednesday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "GNED 02",
+              section: "CS 1-3",
+              room: "ROOM 303"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            },
+            {
+              time: "2:00 PM - 3:00 PM",
+              subject: "ITEC 55 (LAB) ASYNC",
+              section: "IT 2-6",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 55 (LEC) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+            {
+              time: "5:00 PM - 7:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-4",
+              room: "CL 4"
+            },
+          ],
+          thursday: [
+            {
+              time: "8:00 AM - 10:00 AM",
+              subject: "GNED 02",
+              section: "CS 1-2",
+              room: "ROOM 303"
+            },
+            {
+              time: "10:00 AM - 11:00 AM",
+              subject: "GNED 02 ASYNC",
+              section: "CS 1-2",
+              room: null
+            },
+            {
+              time: "11:00 AM - 12:00 PM",
+              subject: "ITEC 55",
+              section: "IT 2-5",
+              room: "ROOM 301"
+            },
+            {
+              time: "1:00 PM - 2:00 PM",
+              subject: "GNED 02 ASYNC",
+              section: "CS 1-5",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "GNED 02 ASYNC",
+              section: "CS 1-4",
+              room: null
+            },
+            {
+              time: "5:00 PM - 6:00 PM",
+              subject: "ITEC 55 (LAB) ASYNC",
+              section: "IT 2-5",
+              room: null
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
@@ -13849,25 +19783,85 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
-            { time: "10:00 AM - 1:00 PM", subject: "COSC 95", section: "CS 3-3", room: "ROOM 109" },
-            { time: "3:00 PM - 6:30 PM", subject: "GNED 08", section: "IT 2-4", room: "CL 4" },
-            { time: "6:30 PM - 8:00 PM", subject: "GNED 08", section: "CS 2-3", room: "CL 4" }
+            {
+              time: "10:00 AM - 1:00 PM",
+              subject: "COSC 95",
+              section: "CS 3-3",
+              room: "ROOM 109"
+            },
+            {
+              time: "3:00 PM - 6:30 PM",
+              subject: "GNED 08",
+              section: "IT 2-4",
+              room: "CL 4"
+            },
+            {
+              time: "6:30 PM - 8:00 PM",
+              subject: "GNED 08",
+              section: "CS 2-3",
+              room: "CL 4"
+            }
           ],
           tuesday: [
-            { time: "7:00 AM - 8:00 PM", subject: "GNED 08", section: "CS 2-3", room: "CL 4" },
-            { time: "11:00 AM - 1:00 PM", subject: "CONSULTATION", room: "FACULTY" }
+            {
+              time: "7:00 AM - 8:00 PM",
+              subject: "GNED 08",
+              section: "CS 2-3",
+              room: "CL 4"
+            },
+            {
+              time: "11:00 AM - 1:00 PM",
+              subject: "CONSULTATION",
+              section: null,
+              room: "FACULTY"
+            }
           ],
           wednesday: [
-            { time: "7:00 AM - 10:00 AM", subject: "COSC 95", section: "CS 3-2", room: "AUDI" },
-            { time: "3:00 PM - 4:00 PM", subject: "DCIT 25", section: "IT 2-1", room: "AUDI 2" },
-            { time: "4:00 PM - 6:00 PM", subject: "DCIT 25", section: "IT 2-1", room: "CL 3" }
+            {
+              time: "7:00 AM - 10:00 AM",
+              subject: "COSC 95",
+              section: "CS 3-2",
+              room: "AUDI"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-1",
+              room: "AUDI 2"
+            },
+            {
+              time: "4:00 PM - 6:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-1",
+              room: "CL 3"
+            }
           ],
           thursday: [],
           friday: [
-            { time: "8:30 AM - 10:00 AM", subject: "GNED 08", section: "CS 2-3", room: "ROOM 107" },
-            { time: "12:00 PM - 2:00 PM", subject: "DCIT 25", section: "IT 2-2", room: "ROOM 201" },
-            { time: "2:00 PM - 4:00 PM", subject: "DCIT 25", section: "IT 2-1", room: "ROOM 201" },
-            { time: "4:00 PM - 7:00 PM", subject: "DCIT 25", section: "IT 2-2", room: "CL 1" }
+            {
+              time: "8:30 AM - 10:00 AM",
+              subject: "GNED 08",
+              section: "CS 2-3",
+              room: "ROOM 107"
+            },
+            {
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-2",
+              room: "ROOM 201"
+            },
+            {
+              time: "2:00 PM - 4:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-1",
+              room: "ROOM 201"
+            },
+            {
+              time: "4:00 PM - 7:00 PM",
+              subject: "DCIT 25",
+              section: "IT 2-2",
+              room: "CL 1"
+            }
           ],
           saturday: [],
           sunday: [],
@@ -13935,5 +19929,6 @@ export const people = [
       },
     }
   },
+
 
 ];
