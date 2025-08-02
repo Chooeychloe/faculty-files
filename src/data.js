@@ -1031,7 +1031,7 @@ export const people = [
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
     designations: {
-      current_designation: "Program Coordinator, Computer Science" ,
+      current_designation: "Program Coordinator, Computer Science",
       last_designation: [
         { year: 2024, designation: "Program Coordinator,Computer Science" },
         { year: 2023, designation: "GAD Coordinator" },
@@ -1312,7 +1312,7 @@ export const people = [
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
     designations: {
-      current_designation:  "Program Coordinator, Information Technology",
+      current_designation: "Program Coordinator, Information Technology",
       last_designation: [
         { year: 2024, designation: "Program Coordinator, Information Technology" },
         { year: 2023, designation: "Program Coordinator, Information Technology" },
@@ -1637,7 +1637,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.45],
+    evaluation_scores: [3.72, 4.56, 4.49, 4.22, 4.72, 4.45],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -2094,7 +2094,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.50],
+    evaluation_scores: [4.54, 4.36, 4.27, 4.32, 3.89, 4.50],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -2182,7 +2182,7 @@ export const people = [
     }
   },
 
- //Bryan Ablaza
+  //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
@@ -2237,7 +2237,7 @@ export const people = [
               subject: "COSC 111",
               section: "CS 4-1",
               room: "CL 1"
-            }, 
+            },
             {
               time: "1:00 PM - 3:00 PM",
               subject: "CONSULTATION",
@@ -2275,13 +2275,13 @@ export const people = [
               subject: "COSC 100",
               section: "CS 4-1",
               room: "ROOM 305"
-            }, 
+            },
             {
               time: "12:00 PM - 2:00 PM",
               subject: "COSC 100",
               section: "CS 4-2",
               room: "ROOM 301"
-            }, 
+            },
             {
               time: "3:00 PM - 5:00 PM",
               subject: "COSC 111",
@@ -2302,7 +2302,7 @@ export const people = [
             },
           ],
           friday: [
-             {
+            {
               time: "8:00 AM - 10:00 AM",
               subject: "COSC 100",
               section: "CS 4-3",
@@ -3231,8 +3231,8 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.75, 4.33, 4.53],
-    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.03, 4.75, 4.33, 4.51, 4.53],
+    evaluation_labels: ["2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
         "2024": [
@@ -3953,7 +3953,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.46],
+    evaluation_scores: [4.52, 4.46],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -4501,7 +4501,7 @@ export const people = [
               time: "12:00 PM - 2:00 PM",
               subject: "CONSULTATION",
               room: "FACULTY",
-              room: null
+              section: null
             },
           ],
           friday: [],
@@ -4789,7 +4789,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.97, null, 4.34],
+    evaluation_scores: [4.36, 4.21, 4.04, 3.97, 3.66, 4.34],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -5139,7 +5139,7 @@ export const people = [
               time: "12:00 PM - 3:00 PM",
               subject: "CONSULTATION",
               room: "FACULTY",
-              room: null
+              section: null
             },
             {
               time: "3:00 PM - 4:00 PM",
@@ -5306,7 +5306,7 @@ export const people = [
               subject: "CONSULTATION",
               section: null,
               room: "FACULTY",
-              
+
             },
             {
               time: "10:00 AM - 11:00 AM",
@@ -5475,7 +5475,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.12, null, 4.25],
+    evaluation_scores: [4.03, 4.17, 4.12, 4.43, 4.25],
     evaluation_labels: ["2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -5795,7 +5795,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.41],
+    evaluation_scores: [4.25, 4.41],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -6344,7 +6344,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.71, 4.19, null, 3.67],
+    evaluation_scores: [4.71, 4.19, 3.67, 3.67],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -6801,7 +6801,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.94, null, 3.66],
+    evaluation_scores: [3.78, 3.94, 3.61, 3.66],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -7431,7 +7431,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 4.36, null, 4.16],
+    evaluation_scores: [4.68, 4.52, 4.44, 4.36, 3.88, 4.16],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -7466,7 +7466,7 @@ export const people = [
   },
 
 
-//Alvin Celino
+  //Alvin Celino
   {
     first_name: "Alvin",
     last_name: "Celino",
@@ -7566,8 +7566,8 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.29, 4.48, 4.37],
-    evaluation_labels: ["2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.45, 4.29, 4.48, 4.37],
+    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
         "2024": [
@@ -7737,7 +7737,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.13],
+    evaluation_scores: [4.25, 4.13],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -7958,7 +7958,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.59, null, 3.93],
+    evaluation_scores: [4.60, 3.59, 4.02, 3.93],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -8205,7 +8205,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.54, 4.56, 3.97],
+    evaluation_scores: [4.51, 4.54, 4.56, 3.97],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -8424,7 +8424,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.69, null, 3.79],
+    evaluation_scores: [3.99, 3.69, 4.32, 3.79],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -8580,7 +8580,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.66, 4.11, null, 4.10],
+    evaluation_scores: [4.66, 4.11, 4.57, 4.10],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -8791,7 +8791,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.32, null, 3.98],
+    evaluation_scores: [4.40, 4.32, 4.22, 3.98],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -9007,7 +9007,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.15, null, 3.78],
+    evaluation_scores: [3.81, 4.15, 4.11, 3.78],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -9126,7 +9126,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.51],
+    evaluation_scores: [3.66, 4.51],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -9321,7 +9321,7 @@ export const people = [
         name: "Web 3.0 101 Webinar",
         url: "https://drive.google.com/file/d/13W7xbRJuLXukbeGOgh9HX3FgN98HMr32/view?usp=sharing"
       },
-      ],
+    ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -9460,13 +9460,13 @@ export const people = [
               time: "3:00 PM - 1:00 PM",
               subject: "ITEC 90 (LEC) ASYNC",
               section: "IT 3-1",
-              room: null            
+              room: null
             },
             {
               time: "4:00 PM - 5:00 PM",
               subject: "ITEC 90 (LAB) ASYNC",
               section: "IT 3-1",
-              room: null            
+              room: null
             },
           ],
           sunday: [],
@@ -9498,7 +9498,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [4.76, 4.51, null, 4.12],
+    evaluation_scores: [4.76, 4.51, 4.70, 4.12],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -9683,7 +9683,7 @@ export const people = [
         name: "3rd PhYIGF Seires: Tech Horizon: Bridging Digital Today to Tomorrow",
         url: "https://drive.google.com/file/d/1-YBGvLX3BqVFvcQohgLTccBuSPKiezP1/view?usp=sharing"
       },
-      ],
+    ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -9944,7 +9944,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [null, 4.39],
+    evaluation_scores: [3.93, 4.39],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -10064,15 +10064,15 @@ export const people = [
       name: "Professional Teacher Certification",
       url: "https://drive.google.com/file/d/1kqoOE115IyFzi9b0y0ttzbEwaSJJ1fXM/view?usp=sharing"
     },
-  ],
+    ],
     masters_diploma: [{
       name: "",
       url: ""
     }],
     tor: [{
-        name: "",
-        url: ""
-      },],
+      name: "",
+      url: ""
+    },],
     eligibility: [{
       name: "",
       url: ""
@@ -10083,7 +10083,7 @@ export const people = [
         name: null,
         url: null
       },
-      ],
+    ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -10365,7 +10365,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [4.59, 4.82, null, 4.77],
+    evaluation_scores: [4.59, 4.82, 4.81, 4.77],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -11007,8 +11007,8 @@ export const people = [
       },
     ],
 
-    evaluation_scores: [null, 4.41, null, 4.21],
-    evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.19, 3.98, 4.13, 4.41, 3.21, 4.21],
+    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
         "2024": [
@@ -11469,7 +11469,7 @@ export const people = [
               section: "IT 1-4",
               room: "CL 3"
             },
-            
+
             {
               time: "3:00 PM - 4:00 AM",
               subject: "DCIT 22 (LAB) ASYNC",
@@ -11489,31 +11489,31 @@ export const people = [
               subject: "DCIT 22",
               section: "IT 1-2",
               room: "ROOM 301"
-            }, 
+            },
             {
               time: "8:00 AM - 9:00 AM",
               subject: "DCIT 22 (LAB) ASYNC",
               section: "IT 1-2",
               room: null
-            }, 
+            },
             {
               time: "9:00 AM - 11:00 AM",
               subject: "DCIT 22",
               section: "IT 1-4",
               room: "CL 3"
-            }, 
+            },
             {
               time: "11:00 AM - 1:00 PM",
               subject: "DCIT 22",
               section: "IT 1-3",
               room: "CL 3"
-            }, 
+            },
             {
               time: "11:00 AM - 1:00 PM",
               subject: "CONSULTATION",
               section: null,
               room: "FACULTY"
-            }, 
+            },
           ],
           thursday: [
             {
@@ -11789,7 +11789,7 @@ export const people = [
         name: "Certificate of Completion: Trainers Methodology Level I",
         url: "https://drive.google.com/file/d/1XKgMw0CP3VsNd7idynEVLt89ULaGXK4O/view?usp=sharing"
       },
-      ],
+    ],
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -12356,7 +12356,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [4.67, 4.17, null, 4.0],
+    evaluation_scores: [4.67, 4.17, 3.60, 4.0],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -12492,7 +12492,7 @@ export const people = [
         name: "LINANGAN 2024 - Certificate of Participation",
         url: "https://drive.google.com/file/d/1gMrP5VpsAJLykRLdFWBbKu_oy3fcrqEi/view?usp=drive_link"
       },
-      ],
+    ],
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -13323,7 +13323,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [null, null, null, 3.62, null, 3.81],
+    evaluation_scores: [3.79, 4.17, 4.08, 3.62, 3.49, 3.81],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -13415,7 +13415,7 @@ export const people = [
       ],
     },
     image: "/images/rios.JPG",
-     diploma: [{
+    diploma: [{
       name: "Bachelor of Science in Electronics and Communication Engineering",
       url: "https://drive.google.com/file/d/1cbpkH4s_y5QematKaMNb58JWaSJRIUE6/view?usp=sharing"
     },],
@@ -13439,7 +13439,7 @@ export const people = [
         name: "MSICT Masteral Certification",
         url: "https://drive.google.com/file/d/1u9Zktm86DoDUpJOJ9LPFw4azV5i0VNBX/view?usp=sharing"
       },
-      ],
+    ],
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -13845,7 +13845,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [null, null, null, 3.42, null, 4.70],
+    evaluation_scores: [4.30, 4.55, 4.43, 3.42, 4.98, 4.70],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -13966,7 +13966,7 @@ export const people = [
         name: null,
         url: null
       },
-      ],
+    ],
     // speaking_engagements: [{name:"", url:""},],
     schedule: [
       { //1st 22-23
@@ -14448,7 +14448,7 @@ export const people = [
         }
       },
     ],
-    evaluation_scores: [null, null, null, 3.96, null, 3.87],
+    evaluation_scores: [3.80, 4.53, 4.46, 3.96, 3.40, 3.87],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -14528,7 +14528,7 @@ export const people = [
   },
 
 
-    //Rachel Rodriguez
+  //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
@@ -14552,7 +14552,7 @@ export const people = [
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/17fi4Klo2PbgLI6Q4HxdTZgjwoJSmN2VZ/view?usp=drive_link"
-      }],
+    }],
     eligibility: [{
       name: "",
       url: ""
@@ -15461,7 +15461,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.80, null, 3.87],
+    evaluation_scores: [4.08, 4.50, 3.84, 3.81, 4.27, 3.87],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -15559,7 +15559,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1nVxL9JNIQBIlgGSBNXbc06-fn6YoJr39/view?usp=drive_link"
       },
     ],
-     speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -16097,7 +16097,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.53, 4.72, 4.79],
+    evaluation_scores: [4.55, 4.53, 4.72, 4.79],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -16231,7 +16231,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1YxD9sW1dd8rDtiRVNNYHF4F_4RpRCh_v/view?usp=drive_link"
       },
     ],
-     speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -16727,7 +16727,7 @@ export const people = [
     tor: [{
       name: "",
       url: ""
-      }],
+    }],
     eligibility: [{
       name: "",
       url: ""
@@ -16737,7 +16737,7 @@ export const people = [
       name: "",
       url: ""
     }],
-     speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -17288,7 +17288,7 @@ export const people = [
       name: "PHILIPPINE TVET TRAINERS QUALIFICATION SYSTEMS (PTTQS)",
       url: "https://drive.google.com/file/d/1AT0-9gSEDoAYPuAMz0GKqW_yB5u8mSmK/view?usp=drive_link"
     }],
-     speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -17667,7 +17667,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.64, 3.58, null, 4.42],
+    evaluation_scores: [4.64, 3.58, 4.31, 4.42],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -17761,7 +17761,7 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1U0M93ISa964VMCyn9mSLuLVofgpGmQSo/view?usp=drive_link"
     }],
-     eligibility: [{
+    eligibility: [{
       name: "",
       url: ""
     }],
@@ -17815,7 +17815,7 @@ export const people = [
       name: "Python Essentials 2",
       url: "https://drive.google.com/file/d/1xTedQURYRcbvAxgzaUL-1Iy2VOONOjix/view?usp=drive_link",
     }],
-      speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -18385,7 +18385,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.43, 4.43, 4.50],
+    evaluation_scores: [4.01, 4.43, 4.43, 4.50],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -18460,7 +18460,7 @@ export const people = [
       name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
       url: "https://drive.google.com/file/d/1SbRFhnbDAU1V_nF0OjxG1kEANKejEwoj/view?usp=drive_link"
     }],
-     eligibility: [{
+    eligibility: [{
       name: "",
       url: ""
     }],
@@ -18477,11 +18477,11 @@ export const people = [
     }, {
       name: "International Open Course",
       url: "https://drive.google.com/file/d/1hv13M2EO6CIkIY3o4KW4WyKevClsnFVP/view?usp=drive_link"
-    },{
+    }, {
       name: "Teaching English to Speakers of Other Languages (TESOL)",
       url: "https://drive.google.com/file/d/1o8_rjiimIEjMqF7LO1HHizSoj80kjjPP/view?usp=drive_link"
     }],
-     speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -18614,7 +18614,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.67],
+    evaluation_scores: [4.41, 4.67],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -18686,11 +18686,11 @@ export const people = [
     }, {
       name: "Faculty On The Beam: Research Impact Beyond Academic Excellence",
       url: "https://drive.google.com/file/d/1_P7cRmv0wsIIHknlnmcCCjXiJ0nGGq5g/view?usp=drive_link"
-    },{
+    }, {
       name: "ICDL Profile Certificate",
       url: "https://drive.google.com/file/d/1AInob1wfJJFtmKc_TX10VtlCdB3EQyxK/view?usp=drive_link"
     }],
-     speaking_engagements: [{
+    speaking_engagements: [{
       name: "",
       url: ""
     }],
@@ -19241,7 +19241,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.31, null, 4.12],
+    evaluation_scores: [3.91, 4.31, 4.57, 4.12],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -19326,7 +19326,7 @@ export const people = [
     tor: [{
       name: "",
       url: ""
-      }],
+    }],
     eligibility: [{
       name: "",
       url: ""
@@ -19353,7 +19353,7 @@ export const people = [
       name: "2024 RESEACH SYMPOSIUM - CALL FOR PROPOSALS - CAVITE STATE UNIVERSITY - BACOOR",
       url: "https://drive.google.com/file/d/1sQpsezr7dtC_dPLBBgXr_DztKr6ixcwr/view?usp=drive_link"
     }],
-    
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -19868,7 +19868,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 2.75, null, 4.33],
+    evaluation_scores: [4.38, 2.75, 4.19, 4.33],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
