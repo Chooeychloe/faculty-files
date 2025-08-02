@@ -1318,8 +1318,30 @@ export const people = [
         { year: 2023, designation: "Program Coordinator, Information Technology" },
       ],
     }, image: "/images/montallana.JPG",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
+    diploma: [{
+      name: "BACHELOR OF SCIENCE IN Computer Science",
+      url: "https://drive.google.com/file/d/1YGFTDqhOpQLm-MTyVf-G1rIjkLK4Ywyi/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1Z43jPBn7CVNiJx_qXhoiOuX9XBt8_5Th/view?usp=drive_link"
+    }],
+
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN Computer Science",
+        url: "https://drive.google.com/file/d/1rqopZ8vXK9r4z5AnfucpsO69ws3vpx5e/view?usp=drive_link"
+      },
+
+      {
+        name: "Masters in Information Technology",
+        url: "https://drive.google.com/file/d/10ZD9TydEnDwlAGv67C3BcTZO64Dynh73/view?usp=drive_link"
+      },
+    ],
+    eligibility: [{
+      name: "Service Record",
+      url: "https://drive.google.com/file/d/1COHBVWF9KaJ206z0fzwre9u-Nw-pNrFD/view?usp=drive_link"
+    }],
     resume: "https://drive.google.com/file/d/1kD5p9q7zx08Lh5Wi_zMhJUaF3tcAH38r/view?usp=drive_link",
     certificates: [{
       name: "Certificate in Teaching and Learning",
@@ -1329,7 +1351,6 @@ export const people = [
       name: "Speaking Engagement at the 2023 ICT Educators' Conference",
       url: "/certificates/cert.jpg"
     }],
-    masters_diploma: "/diploma/diplom.jpg",
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1676,6 +1697,8 @@ export const people = [
     first_name: "Steffanie ",
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
+        image: "/images/bato.JPG",
+
     designations: {
       current_designation: "Head, OSAS",
       last_designation: [
@@ -1683,14 +1706,37 @@ export const people = [
         { year: null, designation: null },
       ],
     },
-    image: "/images/bato.JPG",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
-    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=drive_link",
-    eligibility: [{
-      name: "",
-      url: ""
+    diploma: [{
+      name: "BACHELOR OF SCIENCE IN Computer Science",
+      url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1K35wnHSxDduMcHaEww3JOqg19WezOrC7/view?usp=drive_link"
     }],
+
+    tor: [
+      {
+        name: "BACHELOR OF SCIENCE IN Computer Science",
+        url: "https://drive.google.com/file/d/1bICKZRb586paVAZRiYugPMwA8mhBw-zy/view?usp=drive_link"
+      },
+
+      {
+        name: "Masters in Information Technology",
+        url: "https://drive.google.com/file/d/10MFWiwoIW_GYqVmBuLA_aFeEVj_kD1Hq/view?usp=drive_link"
+      },
+    ],
+    eligibility: [{
+      name: "Civil Service Eligibility",
+      url: "https://drive.google.com/file/d/1SrhPjFGCtSmpDlTFl-lJsj1NlzNGHOYe/view?usp=drive_link"
+    }, {
+      name: "Professional Teacher",
+      url: "https://drive.google.com/file/d/1vz-mazHHQvUoS4hk0ShvjHokL_SQnqzS/view?usp=drive_link"
+
+      ,
+    }],
+    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=drive_link",
+
     certificates: [{
       name: "Certificate in Teaching and Learning",
       url: "/certificates/cert.jpg"
@@ -1699,7 +1745,6 @@ export const people = [
       name: "Speaking Engagement at the 2023 ICT Educators' Conference",
       url: "/certificates/cert.jpg"
     }],
-    masters_diploma: "/diploma/diplom.jpg",
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
