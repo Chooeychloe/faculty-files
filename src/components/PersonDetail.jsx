@@ -84,7 +84,7 @@ function PersonDetail() {
           </div>
         </div>
       </div>
-      <Footer textColor={"text-white"}></Footer>
+      <Footer spanColor={"text-red-900"}></Footer>
     </>
   );
 }

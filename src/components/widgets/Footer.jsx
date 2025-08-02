@@ -1,6 +1,6 @@
 import "boxicons/css/boxicons.min.css";
 
-const Footer = ({ textColor = "text-white", iconColor = "text-white" }) => {
+const Footer = ({ textColor = "text-white", iconColor = "text-white" , spanColor}) => {
   const handleEmailClick = () => {
     window.location.href = "mailto:cvsubacoor.itcs@cvsu.edu.ph";
   };
@@ -18,7 +18,7 @@ const Footer = ({ textColor = "text-white", iconColor = "text-white" }) => {
     <footer className="flex flex-col items-center justify-center text-sm mt-1 py-6 border-t border-gray-700 font-funnel">
       <p className={`mb-3 ${textColor}`}>
         © {new Date().getFullYear()}{" "}
-        <span className="text-red-900 font-semibold">
+        <span className={spanColor}>
           Department of Computer Studies
         </span>
         . All rights reserved.

@@ -124,7 +124,7 @@ function OrgChart() {
           />
         </div>
       )}
-      <Footer textColor={"text-gray-900"} iconColor="text-gray-900" />
+      <Footer textColor={"text-gray-900"} iconColor="text-gray-900" spanColor={"text-red-900"} />
     </div>
   );
 }

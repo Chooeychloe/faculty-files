@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from "../assets/cvsu.ico";
+import Logo from "/diploma/cvsu.ico";
 import PersonCard from "./PersonCard";
 import { people } from "../data";
 import { X, Search } from "lucide-react";
@@ -80,7 +80,7 @@ function Header() {
       </header>
 
       <PersonCard data={filteredPeople} />
-      <Footer textColor={"text-white"} />
+      <Footer textColor={"text-white"} spanColor={"text-red-900"} />
     </>
   );
 }

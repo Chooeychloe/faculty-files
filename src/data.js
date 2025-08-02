@@ -7795,7 +7795,7 @@ export const people = [
         { year: 2024, designation: "Past designation" },
       ],
     },
-    image: "/images/decipulo.jpg",
+    image: "/images/decipulo2.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1tte-IH3YhYpZhqNHYWHw7YExMBQUjzOx/view?usp=drive_link" },
     ],
@@ -8250,7 +8250,7 @@ export const people = [
         { year: 2024, designation: "Past designation" },
       ],
     },
-    image: "/images/delapena.png",
+    image: "/images/delapena2.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1O2kNowNkAmzWIfIarrIbGLog9wJXX_xc/view?usp=drive_link" }
     ],
