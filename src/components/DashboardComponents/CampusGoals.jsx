@@ -3,6 +3,7 @@ import {
   Globe2,
   SearchCheck,
   BadgeCheck,
+  GraduationCap,
 } from "lucide-react";
 
 export default function CampusGoals() {
@@ -16,7 +17,8 @@ export default function CampusGoals() {
       text: "Prepare students to meet the demands of the global market and respond to the society’s needs.",
     },
     {
-      icon: SearchCheck,
+      icon: GraduationCap,
+
       text: "Develop innovative and scholarly researchers who have the ability to create new understanding in quest for GAD-related quality research through inquiry, analysis and problem solving.",
     },
     {
@@ -26,13 +28,14 @@ export default function CampusGoals() {
   ];
 
   return (
-    <section className="bg-white py-16 px-4 md:px-10">
+    <section id="campus-goals" className="bg-white py-16 px-4 md:px-10">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-red-900 mb-6">
-        Goals of the Campus
+          Goals of the Campus
         </h2>
         <p className="text-center text-gray-700 mb-10 max-w-3xl mx-auto">
-          In support of the Vision and Mission of the University, CvSU – Bacoor City Campus shall:
+          In support of the Vision and Mission of the University, CvSU – Bacoor
+          City Campus shall:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-8">

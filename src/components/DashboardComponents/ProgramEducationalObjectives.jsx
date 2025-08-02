@@ -31,7 +31,7 @@ export default function ProgramEducationalObjectives() {
   ];
 
   return (
-    <section className="bg-amber-50 py-16 px-4 md:px-10">
+    <section id="cs-objectives" className="bg-amber-50 py-16 px-4 md:px-10">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-red-900 mb-6">
         Program Educational Objectives (based on the program CMO)

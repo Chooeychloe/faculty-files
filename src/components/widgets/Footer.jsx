@@ -19,7 +19,7 @@ const Footer = ({ textColor = "text-white", iconColor = "text-white" , spanColor
       <p className={`mb-3 ${textColor}`}>
         © {new Date().getFullYear()}{" "}
         <span className={spanColor}>
-          Department of Computer Studies
+          Department of Computer Studies CvSU-Bacoor
         </span>
         . All rights reserved.
       </p>

@@ -150,7 +150,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        <div className="max-w-7xl mx-auto px-6 py-16 space-y-20">
+        <div id="visionmission" className="max-w-7xl mx-auto px-6 py-16 space-y-20">
           {/* Vision & Mission */}
           <section className="grid md:grid-cols-2 gap-12">
             <div>
@@ -173,7 +173,7 @@ export default function Dashboard() {
                 pandaigdigang kakayahan at kagandahang asal.
               </p>
             </div>
-            <div>
+            <div >
               <h3 className="text-3xl font-bold text-amber-400 mb-4 border-b-2 border-amber-400 pb-2">
                 Our Mission
               </h3>

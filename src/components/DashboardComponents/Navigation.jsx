@@ -1,4 +1,3 @@
-
 import { useNavigate } from "react-router-dom";
 import Logo from "/diploma/cvsu.ico";
 
@@ -8,7 +7,7 @@ export default function Navigation() {
   return (
     <header className="bg-red-900 shadow-md w-full sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-4 flex-wrap gap-y-4">
           <div
             className="flex items-center space-x-4 cursor-pointer"
             onClick={() => navigate("/")}
@@ -27,20 +26,44 @@ export default function Navigation() {
               </p>
             </div>
           </div>
-          <nav className="hidden md:flex space-x-6 text-amber-50">
-            <a href="/home" className=" hover:text-amber-400 font-medium">
-              Faculty
-            </a>
-            <a href="/orgchart" className=" hover:text-amber-400 font-medium">
-              Org Chart
-            </a>
-            <a href="#vision" className=" hover:text-amber-400 font-medium">
-              Vision
-            </a>
-            <a href="#mission" className=" hover:text-amber-400 font-medium">
-              Mission
-            </a>
-          </nav>
+
+          <div className="hidden md:flex flex-col items-end space-y-2 text-right">
+            <nav className="flex space-x-6 text-amber-50">
+              <a href="/home" className="hover:text-amber-400 font-medium">
+                Faculty
+              </a>
+              <a href="/orgchart" className="hover:text-amber-400 font-medium">
+                Org Chart
+              </a>
+              <a
+                href="#visionmission"
+                className="hover:text-amber-400 font-medium"
+              >
+                Vision & Mission
+              </a>
+            </nav>
+
+            <nav className="flex space-x-6 text-amber-50">
+              <a
+                href="#campus-goals"
+                className="hover:text-amber-400 font-medium"
+              >
+                Campus Goals
+              </a>
+              <a
+                href="#dept-objectives"
+                className="hover:text-amber-400 font-medium"
+              >
+                Department Objectives
+              </a>
+              <a
+                href="#cs-objectives"
+                className="hover:text-amber-400 font-medium"
+              >
+                CS Objectives
+              </a>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
