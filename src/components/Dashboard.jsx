@@ -138,8 +138,9 @@ export default function Dashboard() {
               Welcome to the Department of Computer Studies
             </h2>
             <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-amber0 drop-shadow-md">
-              Fostering innovation and excellence in technology and computer
-              science.
+              Dedicated to shaping future-ready IT professionals and Computer
+              scientists through quality instruction, research, and impactful
+              community extension.
             </p>
             <button
               onClick={() => navigate("/home")}
@@ -150,7 +151,10 @@ export default function Dashboard() {
           </div>
         </section>
 
-        <div id="visionmission" className="max-w-7xl mx-auto px-6 py-16 space-y-20">
+        <div
+          id="visionmission"
+          className="max-w-7xl mx-auto px-6 py-16 space-y-20"
+        >
           {/* Vision & Mission */}
           <section className="grid md:grid-cols-2 gap-12">
             <div>
@@ -173,7 +177,7 @@ export default function Dashboard() {
                 pandaigdigang kakayahan at kagandahang asal.
               </p>
             </div>
-            <div >
+            <div>
               <h3 className="text-3xl font-bold text-amber-400 mb-4 border-b-2 border-amber-400 pb-2">
                 Our Mission
               </h3>
