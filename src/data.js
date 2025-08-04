@@ -1306,18 +1306,18 @@ export const people = [
     }
   },
 
- //Donnalyn Montallana
+  //Donnalyn Montallana
   {
     first_name: "Donnalyn ",
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
     designations: {
-      current_designation:  "Program Coordinator, Information Technology",
+      current_designation: "Program Coordinator, Information Technology",
       last_designation: [
         { year: 2024, designation: "Program Coordinator, Information Technology" },
         { year: 2023, designation: "Program Coordinator, Information Technology" },
       ],
-    }, 
+    },
     image: "/images/montallana.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -1330,15 +1330,15 @@ export const people = [
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE (1)",
       url: "https://drive.google.com/file/d/1rqopZ8vXK9r4z5AnfucpsO69ws3vpx5e/view?usp=sharing"
-      },
-      {
+    },
+    {
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE (2)",
       url: "https://drive.google.com/file/d/10EdtuUWqckgj-5ktKDptfU3fNrDR29-P/view?usp=sharing"
-      },
-      {
+    },
+    {
       name: "MASTER IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/10ZD9TydEnDwlAGv67C3BcTZO64Dynh73/view?usp=sharing"
-      },
+    },
     ],
     eligibility: [{
       name: "Proof of Rendered Services",
@@ -1752,7 +1752,7 @@ export const people = [
     first_name: "Steffanie ",
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
-        image: "/images/bato.JPG",
+    image: "/images/bato.JPG",
 
     designations: {
       current_designation: "Head, OSAS",
@@ -1762,40 +1762,67 @@ export const people = [
       ],
     },
     diploma: [{
-      name: "BACHELOR OF SCIENCE IN Computer Science",
-      url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=drive_link"
+      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+      url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=sharing"
     },],
     masters_diploma: [{
       name: "MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1K35wnHSxDduMcHaEww3JOqg19WezOrC7/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1K35wnHSxDduMcHaEww3JOqg19WezOrC7/view?usp=sharing"
     }],
     tor: [
       {
-        name: "BACHELOR OF SCIENCE IN Computer Science",
-        url: "https://drive.google.com/file/d/1bICKZRb586paVAZRiYugPMwA8mhBw-zy/view?usp=drive_link"
+        name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+        url: "https://drive.google.com/file/d/1bICKZRb586paVAZRiYugPMwA8mhBw-zy/view?usp=sharing"
       },
       {
-        name: "Masters in Information Technology",
-        url: "https://drive.google.com/file/d/10MFWiwoIW_GYqVmBuLA_aFeEVj_kD1Hq/view?usp=drive_link"
+        name: "MASTER OF INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/10MFWiwoIW_GYqVmBuLA_aFeEVj_kD1Hq/view?usp=sharing"
       },
     ],
-    eligibility: [{
-      name: "Civil Service Eligibility",
-      url: "https://drive.google.com/file/d/1SrhPjFGCtSmpDlTFl-lJsj1NlzNGHOYe/view?usp=drive_link"
-    }, {
-      name: "Professional Teacher",
-      url: "https://drive.google.com/file/d/1vz-mazHHQvUoS4hk0ShvjHokL_SQnqzS/view?usp=drive_link"
-      ,
-    }],
-    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=drive_link",
-
-    certificates: [{
-      name: "Certificate in Teaching and Learning",
-      url: "/certificates/cert.jpg"
-    }],
+    eligibility: [
+      {
+        name: "Civil Service Eligibility",
+        url: "https://drive.google.com/file/d/1SrhPjFGCtSmpDlTFl-lJsj1NlzNGHOYe/view?usp=sharing"
+      },
+      {
+        name: "Professional Teacher",
+        url: "https://drive.google.com/file/d/1vz-mazHHQvUoS4hk0ShvjHokL_SQnqzS/view?usp=sharing"
+      },
+      {
+        name: "Scientific and Technological Specialist",
+        url: "https://drive.google.com/file/d/1AgaOK5FQebhaXWLecGFymXKQbDocUEO2/view?usp=sharing"
+      },
+    ],
+    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=sharing",
+    certificates: [
+      {
+        name: "Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP)",
+        url: "https://drive.google.com/file/d/1XtQnLdyVG0isjlWfgmhOn4rb3v93DIs9/view?usp=sharing"
+      },
+      {
+        name: "3rd DCS Techcellence Award",
+        url: "https://drive.google.com/file/d/1R95UEE7Tt1rRgemSIpdrF7UvrVOQn4Fb/view?usp=sharing"
+      },
+      {
+        name: "AACUP National Conference: Bayanihan 2024",
+        url: "https://drive.google.com/file/d/1KoYTNoGxmCJWOv-0gRKZj7ThZjZx4JuQ/view?usp=sharing"
+      },
+      {
+        name: "KMC Caravan at CvSU - Bacoor City Campus",
+        url: "https://drive.google.com/file/d/1atTCp3thHwLq8qJ4dXmFbx62B7bHTkVw/view?usp=sharing"
+      },
+      {
+        name: "LEAD ACCREDITOR: Online Accreditation of Cotabato State University",
+        url: "https://drive.google.com/file/d/1bsIBOxRwBh3wBKtJxy74yEtHoFdvgpS6/view?usp=sharing"
+      },
+      {
+        name: "Emergency First Aid Training",
+        url: "https://drive.google.com/file/d/1D2ghma7sD-jIdmcJVasaAVJI19qf9tzm/view?usp=sharing"
+      },
+    ],
     speaking_engagements: [{
-      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
-      url: "/certificates/cert.jpg"
+      name: "",
+      url: ""
     }],
     schedule: [
       { //1st 22-23
@@ -2279,7 +2306,7 @@ export const people = [
     }
   },
 
- //Bryan Ablaza
+  //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
@@ -2303,7 +2330,7 @@ export const people = [
     tor: [{
       name: "",
       url: ""
-      }],
+    }],
     eligibility: [{
       name: "",
       url: ""
@@ -2342,7 +2369,7 @@ export const people = [
               subject: "COSC 111",
               section: "CS 4-1",
               room: "CL 1"
-            }, 
+            },
             {
               time: "1:00 PM - 3:00 PM",
               subject: "CONSULTATION",
@@ -2380,13 +2407,13 @@ export const people = [
               subject: "COSC 100",
               section: "CS 4-1",
               room: "ROOM 305"
-            }, 
+            },
             {
               time: "12:00 PM - 2:00 PM",
               subject: "COSC 100",
               section: "CS 4-2",
               room: "ROOM 301"
-            }, 
+            },
             {
               time: "3:00 PM - 5:00 PM",
               subject: "COSC 111",
@@ -2407,7 +2434,7 @@ export const people = [
             },
           ],
           friday: [
-             {
+            {
               time: "8:00 AM - 10:00 AM",
               subject: "COSC 100",
               section: "CS 4-3",
@@ -3424,14 +3451,14 @@ export const people = [
     },
     image: "/images/bacolor.JPG",
     diploma: [
-    {
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1rRRGzuvyXcHxaycXVJ6o7nMkM-MMTrkS/view?usp=sharing"
-    },
-    {
-      name: "SHS TVL - ICT PROGRAMMING",
-      url: "https://drive.google.com/file/d/1-r_xWdJZXSw0Uy7Sp97YWHlSddJ7ajuu/view?usp=sharing"
-    },
+      {
+        name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/1rRRGzuvyXcHxaycXVJ6o7nMkM-MMTrkS/view?usp=sharing"
+      },
+      {
+        name: "SHS TVL - ICT PROGRAMMING",
+        url: "https://drive.google.com/file/d/1-r_xWdJZXSw0Uy7Sp97YWHlSddJ7ajuu/view?usp=sharing"
+      },
     ],
     masters_diploma: [{
       name: "",
@@ -5449,7 +5476,7 @@ export const people = [
               subject: "CONSULTATION",
               section: null,
               room: "FACULTY",
-              
+
             },
             {
               time: "10:00 AM - 11:00 AM",
@@ -6040,12 +6067,12 @@ export const people = [
     ],
     speaking_engagements: [
       {
-      name: "Resource Speaker: District-Level Training on the Matatag Curriculum for Grade 7 Teachers",
-      url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharing"
+        name: "Resource Speaker: District-Level Training on the Matatag Curriculum for Grade 7 Teachers",
+        url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharing"
       },
       {
-      name: "Resource Speaker: Teacher-Advisers Capacity Building in Batang Bayanin Framework",
-      url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharingk"
+        name: "Resource Speaker: Teacher-Advisers Capacity Building in Batang Bayanin Framework",
+        url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharingk"
       },
     ],
     schedule: [
@@ -7841,7 +7868,7 @@ export const people = [
   },
 
 
- //Alvin Celino
+  //Alvin Celino
   {
     first_name: "Alvin",
     last_name: "Celino",
@@ -7867,7 +7894,7 @@ export const people = [
       { name: "Professional Education   ", url: "https://drive.google.com/file/d/15vlyxlq1KPXCzz83s4fkxCRgOtgEPDKq/view?usp=sharing" }],
     resume: "https://drive.google.com/file/d/15rXfP6nJbDmwJioLcM-fvZOlxednEWYf/view?usp=sharing",
     certificates: [
-      { name: "KMC Caravan at CvSU-Bacoor City Campus", url: "https://drive.google.com/file/d/1B7KpDWX-0m_Bkq4hBzyQDm6zHcjIS_69/view?usp=sharing"},
+      { name: "KMC Caravan at CvSU-Bacoor City Campus", url: "https://drive.google.com/file/d/1B7KpDWX-0m_Bkq4hBzyQDm6zHcjIS_69/view?usp=sharing" },
       { name: "Awareness, Basics, and Care: The ABC's of HIV/AIDS", url: "https://drive.google.com/file/d/1shgqtyxxxIkArKOu2dJ0TdfjiG90R_1x/view?usp=sharing" },
     ],
     schedule: [
@@ -8647,9 +8674,10 @@ export const people = [
     membership: [
       { name: "Member: ICT Industry Council", url: "https://drive.google.com/file/d/1GCy2xayDMoMErTGS71X53wChBd0v4aZY/view?usp=sharing" },
     ],
-    speaking_engagements: [
-
-    ],
+    speaking_engagements: [{
+      name: "",
+      url: ""
+    }],
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -11494,8 +11522,8 @@ export const people = [
       url: "https://drive.google.com/file/d/1HY21cQ2Cdc99F0m6tDfoI4mcL4iwAyF9/view?usp=sharing"
     },],
     masters_diploma: {
-      name:"", 
-      url:""
+      name: "",
+      url: ""
     },
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -11506,7 +11534,7 @@ export const people = [
     },
     eligibility: [
       {
-        name: "", 
+        name: "",
         url: ""
       },
     ],
@@ -11534,8 +11562,8 @@ export const people = [
     ],
     speaking_engagements: [
       {
-        name:"", 
-        url:""
+        name: "",
+        url: ""
       },
     ],
 
@@ -13825,7 +13853,7 @@ export const people = [
       url: "https://drive.google.com/file/d/1jPFNlJqjccAV5mwG9UpT7vor6iPBVWe6/view?usp=sharing"
     }],
     tor: [
-      { 
+      {
         name: null,
         url: null
       },
@@ -14360,8 +14388,8 @@ export const people = [
     ],
     speaking_engagements: [
       {
-        name:"", 
-        url:""
+        name: "",
+        url: ""
       },
     ],
     schedule: [
@@ -14914,7 +14942,7 @@ export const people = [
   },
 
 
-   //Rachel Rodriguez
+  //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
@@ -14967,7 +14995,7 @@ export const people = [
       }, {
         name: "Sentiment Analysis and Computing: 3rd International Webinar",
         url: "https://drive.google.com/file/d/1ImjCsSIXDBc5IYxtOmeldb6JZz2rEI9C/view?usp=drive_link"
-      }, 
+      },
 
     ],
     speaking_engagements: [
