@@ -38,7 +38,7 @@ function PersonDetail() {
 
   return (
     <>
-      <PersonHeader />
+      <PersonHeader  text={"IT/CS Faculty Dashboard"} subtitle={"Department of Computer Studies"}/>
 
       <div className="container mx-auto px-4 mt-8 pb-16">
         {/* Main wrapper to stack all sections vertically and center them */}

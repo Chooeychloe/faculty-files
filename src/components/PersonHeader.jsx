@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function PersonHeader() {
+function PersonHeader({text, subtitle}) {
   const navigate = useNavigate();
 
   return (
@@ -11,9 +11,9 @@ function PersonHeader() {
         onClick={() => navigate("/home")}
       >
         <h1 className="text-xl font-bold hover:scale-105 cursor-pointer">
-          IT/CS Faculty Dashboard
+           {text}
         </h1>
-        <h2>Department of Computer Studies</h2>
+        <h2>{subtitle}</h2>
       </div>
       <button
         onClick={() => navigate("/")}

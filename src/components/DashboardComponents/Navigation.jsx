@@ -33,7 +33,7 @@ export default function Navigation() {
                 Faculty
               </a>
               <a href="/orgchart" className="hover:text-amber-400 font-medium">
-                Org Chart
+                Organizational Chart
               </a>
               <a
                 href="#visionmission"
