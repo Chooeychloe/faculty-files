@@ -56,7 +56,7 @@ function OrgChart() {
               />
               <p className="text-lg font-bold text-center">{chair.name}</p>
               <p className="text-sm text-center">
-                {chair.designations.current_designation || "Department Chair"}
+                {chair.designation || "Department Chair"}
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@ function OrgChart() {
                 />
                 <p className="font-semibold text-center">{coord.name}</p>
                 <p className="text-sm text-center">
-                  {coord.designations.current_designation || "Coordinator"}
+                  {coord.designation || "Coordinator"}
                 </p>
               </div>
             ))}
@@ -105,10 +105,10 @@ function OrgChart() {
                   className="w-20 h-20 rounded-full object-cover mx-auto mb-2 border-4 border-white"
                 />
                 <p className="font-medium">{faculty.name}</p>
-                {faculty.designations &&
-                  faculty.designations.current_designation && (
+                {faculty.designation &&
+                  faculty.designation && (
                     <p className="text-sm">
-                      {faculty.designations.current_designation}
+                      {faculty.designation}
                     </p>
                   )}
               </div>

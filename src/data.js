@@ -1736,7 +1736,7 @@ export const people = [
     name: "Steffanie M. Bato, MIT",
     image: "/images/bato.JPG",
     isCS: true,
-    designations: "Head, OSAS",
+    designation: "Head, OSAS",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=sharing"

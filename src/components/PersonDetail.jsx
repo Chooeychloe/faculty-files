@@ -20,7 +20,7 @@ function PersonDetail() {
     first_name,
     last_name,
     name,
-    designations,
+    designation,
     image,
     diploma,
     resume,
@@ -49,7 +49,7 @@ function PersonDetail() {
               first_name={first_name}
               last_name={last_name}
               name={name}
-              designations={designations}
+              designation={designation}
               image={image}
               diploma={diploma}
               masters_diploma={masters_diploma}

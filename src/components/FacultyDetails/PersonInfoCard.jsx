@@ -3,7 +3,7 @@ import DisplayListWithModal from "./DisplayListWithModal";
 
 function PersonInfoCard({
   name,
-  designations,
+  designation,
   image,
   diploma,
   masters_diploma,
@@ -30,17 +30,17 @@ function PersonInfoCard({
           </div>
           <h2 className="text-3xl font-bold text-center mb-2">{name}</h2>
 
-          {designations && designations.current_designation && (
+          {designation  && (
             <div className="text-center mb-4">
               <p className="text-xl font-semibold text-red-900 mb-1">
-                {designations.current_designation}
+                {designation}
               </p>
             </div>
           )}
 
-          {designations &&
-            Array.isArray(designations.last_designation) &&
-            designations.last_designation.length > 0 && (
+          {/* {designation &&
+            Array.isArray(designation) &&
+            designation > 0 && (
               <div className="mb-6 border-t pt-4 border-gray-300">
                 <h3 className="text-base font-semibold text-gray-800 mb-2">
                   Designations
@@ -54,7 +54,7 @@ function PersonInfoCard({
                   ))}
                 </ul>
               </div>
-            )}
+            )} */}
         </div>
 
         {/* === RIGHT COLUMN === */}
