@@ -4,13 +4,8 @@ export const people = [
     first_name: "Jovelyn",
     last_name: "Ocampo",
     name: "Jovelyn D. Ocampo, MIT",
-    designations: {
-      current_designation: "Department Chairperson",
-      last_designation: [
-        { year: 2024, designation: "Program Coordinator, Information Technology" },
-        { year: 2023, designation: "Head, Learning Management System" },
-      ],
-    },
+    isCS: true,
+    designation: "Department Chairperson",
     image: "/images/ocampo1.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -1030,13 +1025,9 @@ export const people = [
     first_name: "Ely Rose ",
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
-    designations: {
-      current_designation: "Program Coordinator, Computer Science",
-      last_designation: [
-        { year: 2024, designation: "Program Coordinator,Computer Science" },
-        { year: 2023, designation: "GAD Coordinator" },
-      ],
-    }, image: "/images/briones.JPG",
+    isCS: true,
+    designation: "Program Coordinator, Computer Science",
+    image: "/images/briones.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN Computer Science",
       url: "https://drive.google.com/file/d/1tpMZvR2nZDrYbfcw-2R8Vhskbep96gZ5/view?usp=drive_link"
@@ -1054,12 +1045,12 @@ export const people = [
         name: "BACHELOR OF SCIENCE IN Computer Science",
         url: "https://drive.google.com/file/d/1JMW2G7YQd705Oa0a4uEDxadB5MFzZV-k/view?usp=drive_link"
       },
-
     ],
     eligibility: [{
       name: "Civil Service Eligibility",
       url: "https://drive.google.com/file/d/1SpzqXSUwNcWUGgD87nA_BE3gpVFYuS1F/view?usp=drive_link"
     }],
+    resume: null,
     certificates: [
       {
         name: "Webinar on Gender Issues in Safety and Health at the Workplace",
@@ -1122,6 +1113,8 @@ export const people = [
       },
 
     ],
+
+    speaking_engagements: null,
 
     schedule: [
       {
@@ -1306,18 +1299,13 @@ export const people = [
     }
   },
 
- //Donnalyn Montallana
+  //Donnalyn Montallana
   {
     first_name: "Donnalyn ",
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
-    designations: {
-      current_designation:  "Program Coordinator, Information Technology",
-      last_designation: [
-        { year: 2024, designation: "Program Coordinator, Information Technology" },
-        { year: 2023, designation: "Program Coordinator, Information Technology" },
-      ],
-    }, 
+    isCS: true,
+    designation: "Program Coordinator, Information Technology",
     image: "/images/montallana.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -1330,15 +1318,15 @@ export const people = [
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE (1)",
       url: "https://drive.google.com/file/d/1rqopZ8vXK9r4z5AnfucpsO69ws3vpx5e/view?usp=sharing"
-      },
-      {
+    },
+    {
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE (2)",
       url: "https://drive.google.com/file/d/10EdtuUWqckgj-5ktKDptfU3fNrDR29-P/view?usp=sharing"
-      },
-      {
+    },
+    {
       name: "MASTER IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/10ZD9TydEnDwlAGv67C3BcTZO64Dynh73/view?usp=sharing"
-      },
+    },
     ],
     eligibility: [{
       name: "Proof of Rendered Services",
@@ -1346,14 +1334,8 @@ export const people = [
     }],
     resume: "https://drive.google.com/file/d/1kD5p9q7zx08Lh5Wi_zMhJUaF3tcAH38r/view?usp=sharing",
 
-    certificates: [{
-      name: "Certificate in Teaching and Learning",
-      url: "/certificates/cert.jpg"
-    }],
-    speaking_engagements: [{
-      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
-      url: "/certificates/cert.jpg"
-    }],
+    certificates: null,
+    speaking_engagements: null,
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -1752,51 +1734,101 @@ export const people = [
     first_name: "Steffanie ",
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
-        image: "/images/bato.JPG",
-
-    designations: {
-      current_designation: "Head, OSAS",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    image: "/images/bato.JPG",
+    isCS: true,
+    designations: "Head, OSAS",
     diploma: [{
-      name: "BACHELOR OF SCIENCE IN Computer Science",
-      url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=drive_link"
+      name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+      url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=sharing"
     },],
     masters_diploma: [{
       name: "MASTER IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1K35wnHSxDduMcHaEww3JOqg19WezOrC7/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1K35wnHSxDduMcHaEww3JOqg19WezOrC7/view?usp=sharing"
     }],
     tor: [
       {
-        name: "BACHELOR OF SCIENCE IN Computer Science",
-        url: "https://drive.google.com/file/d/1bICKZRb586paVAZRiYugPMwA8mhBw-zy/view?usp=drive_link"
+        name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+        url: "https://drive.google.com/file/d/1bICKZRb586paVAZRiYugPMwA8mhBw-zy/view?usp=sharing"
       },
       {
-        name: "Masters in Information Technology",
-        url: "https://drive.google.com/file/d/10MFWiwoIW_GYqVmBuLA_aFeEVj_kD1Hq/view?usp=drive_link"
+        name: "MASTER OF INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/10MFWiwoIW_GYqVmBuLA_aFeEVj_kD1Hq/view?usp=sharing"
       },
     ],
-    eligibility: [{
-      name: "Civil Service Eligibility",
-      url: "https://drive.google.com/file/d/1SrhPjFGCtSmpDlTFl-lJsj1NlzNGHOYe/view?usp=drive_link"
-    }, {
-      name: "Professional Teacher",
-      url: "https://drive.google.com/file/d/1vz-mazHHQvUoS4hk0ShvjHokL_SQnqzS/view?usp=drive_link"
-      ,
-    }],
-    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=drive_link",
-
-    certificates: [{
-      name: "Certificate in Teaching and Learning",
-      url: "/certificates/cert.jpg"
-    }],
-    speaking_engagements: [{
-      name: "Speaking Engagement at the 2023 ICT Educators' Conference",
-      url: "/certificates/cert.jpg"
-    }],
+    eligibility: [
+      {
+        name: "Civil Service Eligibility",
+        url: "https://drive.google.com/file/d/1SrhPjFGCtSmpDlTFl-lJsj1NlzNGHOYe/view?usp=sharing"
+      },
+      {
+        name: "Professional Teacher",
+        url: "https://drive.google.com/file/d/1vz-mazHHQvUoS4hk0ShvjHokL_SQnqzS/view?usp=sharing"
+      },
+      {
+        name: "Scientific and Technological Specialist",
+        url: "https://drive.google.com/file/d/1AgaOK5FQebhaXWLecGFymXKQbDocUEO2/view?usp=sharing"
+      },
+    ],
+    resume: "https://drive.google.com/file/d/1bkrqVGq3j1Ydwqa9VJphFQrCUbZEb36o/view?usp=sharing",
+    certificates: [
+      {
+        name: "Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP)",
+        url: "https://drive.google.com/file/d/1XtQnLdyVG0isjlWfgmhOn4rb3v93DIs9/view?usp=sharing"
+      },
+      {
+        name: "3rd DCS Techcellence Award",
+        url: "https://drive.google.com/file/d/1R95UEE7Tt1rRgemSIpdrF7UvrVOQn4Fb/view?usp=sharing"
+      },
+      {
+        name: "AACUP National Conference: Bayanihan 2024",
+        url: "https://drive.google.com/file/d/1KoYTNoGxmCJWOv-0gRKZj7ThZjZx4JuQ/view?usp=sharing"
+      },
+      {
+        name: "KMC Caravan at CvSU - Bacoor City Campus",
+        url: "https://drive.google.com/file/d/1atTCp3thHwLq8qJ4dXmFbx62B7bHTkVw/view?usp=sharing"
+      },
+      {
+        name: "LEAD ACCREDITOR: Online Accreditation of Cotabato State University",
+        url: "https://drive.google.com/file/d/1bsIBOxRwBh3wBKtJxy74yEtHoFdvgpS6/view?usp=sharing"
+      },
+      {
+        name: "Emergency First Aid Training",
+        url: "https://drive.google.com/file/d/1D2ghma7sD-jIdmcJVasaAVJI19qf9tzm/view?usp=sharing"
+      },
+      {
+        name: "RDE Boot Camp: STAARRDEC Webinar Series to Strengthen Competencies of Researchers/Extensionists in the Region",
+        url: "https://drive.google.com/file/d/1mVbVz0MUE6Zd_3GgLviso5OxkKnvnUDU/view?usp=sharing"
+      },
+      {
+        name: "Roles of ICT in Disaster Risk Management",
+        url: "https://drive.google.com/file/d/1my38xsoZU3gHg0KtFmKYNo_Wlyn3HjOY/view?usp=sharing"
+      },
+      {
+        name: "MICROSMITH - ACADEMICTech",
+        url: "https://drive.google.com/file/d/1IfTa30iNVLnkJL0-TjMW0hMwt1tEmEu_/view?usp=sharing"
+      },
+      {
+        name: "Intermediate Object-Oriented Programming with Java",
+        url: "https://drive.google.com/file/d/1PdM_LWbQEExZ51cr3bpIFOMTu4JbdVts/view?usp=sharing"
+      },
+      {
+        name: "1st International Multidisciplinary Research Conference",
+        url: "https://drive.google.com/file/d/1Fi60k1Uk9FkXO4XB2Uzvth_bhzle-CI0/view?usp=sharing"
+      },
+      {
+        name: "44th Annual Science Meeting",
+        url: "https://drive.google.com/file/d/1QPMsSPWANEszx9H0fpfGT_Mn9_EqCALK/view?usp=sharing"
+      },
+      {
+        name: "Beginning SQL Server",
+        url: "https://drive.google.com/file/d/1ssrvbAHLgWw0H3zy6M2iYy9Gr_6vO8AM/view?usp=sharing"
+      },
+      {
+        name: "Exploring Filipino Culture and Conservation: A Webinar Series",
+        url: "https://drive.google.com/file/d/1sbWYFiMdE_8ChQQVKxgxP_t_UO-zuEcN/view?usp=sharing"
+      },
+    ],
+    speaking_engagements: null,
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -2279,35 +2311,21 @@ export const people = [
     }
   },
 
- //Bryan Ablaza
+  //Bryan Ablaza
   {
     first_name: "Bryan",
     last_name: "Ablaza",
     name: "Bryan Dale Ablaza",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/ablaza.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1HqKmpcY5ONCYYooJmq6kur_NuIqTD1xT/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
-    tor: [{
-      name: "",
-      url: ""
-      }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1DwxvMB55GxK2groUnOOoKFxs02j8rO28/view?usp=sharing",
     certificates: [{
       name: "TUP - Cavite: Off-Campus Practice Teaching",
@@ -2317,6 +2335,8 @@ export const people = [
       name: "TUP - Cavite: EdukaTalks: A SEM1 Seminar Series",
       url: "https://drive.google.com/file/d/1gAI3BAoYCaD4AWMyVuUdxsYFl-wg5AJV/view?usp=sharing"
     },],
+
+    speaking_engagements: null,
 
     schedule: [
       {
@@ -2342,7 +2362,7 @@ export const people = [
               subject: "COSC 111",
               section: "CS 4-1",
               room: "CL 1"
-            }, 
+            },
             {
               time: "1:00 PM - 3:00 PM",
               subject: "CONSULTATION",
@@ -2380,13 +2400,13 @@ export const people = [
               subject: "COSC 100",
               section: "CS 4-1",
               room: "ROOM 305"
-            }, 
+            },
             {
               time: "12:00 PM - 2:00 PM",
               subject: "COSC 100",
               section: "CS 4-2",
               room: "ROOM 301"
-            }, 
+            },
             {
               time: "3:00 PM - 5:00 PM",
               subject: "COSC 111",
@@ -2407,7 +2427,7 @@ export const people = [
             },
           ],
           friday: [
-             {
+            {
               time: "8:00 AM - 10:00 AM",
               subject: "COSC 100",
               section: "CS 4-3",
@@ -2611,35 +2631,26 @@ export const people = [
     first_name: "Mikaela",
     last_name: "Arciaga",
     name: "Mikaela Arciaga",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/arciaga.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1kvJePlHOZXKyps2YQJJcVtQcKIbBF3dD/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1EP8Mar7AM2hAb6atzy8S5rhrFoRAobU1/view?usp=sharing"
     },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1jH248Tb10QmEvnn_4CcIqgjZUtxmB7Yi/view?usp=sharing",
     certificates: [{
       name: "CvSU - Bacoor Campus: 2024 Orientation/Re-orientation Cum Capability Enhancement for Faculty and Staff",
       url: "https://drive.google.com/file/d/1M3m9m2YnH90uYgwAQ_CG8JnGSV9b8P8e/view?usp=sharing"
     }],
+
+    speaking_engagements: null,
 
     schedule: [
       {
@@ -3415,36 +3426,25 @@ export const people = [
     first_name: "Stephen",
     last_name: "Bacolor",
     name: "Stephen Bacolor",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/bacolor.JPG",
     diploma: [
-    {
-      name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
-      url: "https://drive.google.com/file/d/1rRRGzuvyXcHxaycXVJ6o7nMkM-MMTrkS/view?usp=sharing"
-    },
-    {
-      name: "SHS TVL - ICT PROGRAMMING",
-      url: "https://drive.google.com/file/d/1-r_xWdJZXSw0Uy7Sp97YWHlSddJ7ajuu/view?usp=sharing"
-    },
+      {
+        name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+        url: "https://drive.google.com/file/d/1rRRGzuvyXcHxaycXVJ6o7nMkM-MMTrkS/view?usp=sharing"
+      },
+      {
+        name: "SHS TVL - ICT PROGRAMMING",
+        url: "https://drive.google.com/file/d/1-r_xWdJZXSw0Uy7Sp97YWHlSddJ7ajuu/view?usp=sharing"
+      },
     ],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: " BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1EAeOrqMRoPht4PvE2S8jCi9ekqy8GRrU/view?usp=sharing"
     },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1DoiZthN0a1d1rRJ_RkUQih8qlhbDUmN4/view?usp=sharing",
     certificates: [{
       name: "LEADERSHIP SUMMIT 2023: Kabsuhenyong Kiderato sa Panibagong Panahon",
@@ -3458,6 +3458,9 @@ export const people = [
       name: "DATACOM - Imus: Computer Literacy Program",
       url: "https://drive.google.com/file/d/1HcjdsGSykcdjQuRx80SF32CGs_9LFoZs/view?usp=sharing"
     },],
+
+    speaking_engagements: null,
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 24-25",
@@ -3833,35 +3836,26 @@ export const people = [
     first_name: "Jhon Nerick",
     last_name: "Batuigas",
     name: "Jhon Nerick Batuigas",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/batuigas.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1NrwfYFy06xSZfFUaLGCZ6XT0EjqATcB9/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1BAjVkoyglPSlnv6NJR_oyFPLLUuZ4xG6/view?usp=sharing"
     },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1v7brbEQKzbsx7ii_JTQDDt-2jO125aH-/view?usp=sharing",
     certificates: [{
       name: "TESDA - NC II Computer Systems Servicing",
       url: "https://drive.google.com/file/d/1kGUKM8UPXx1MjTPAPYkG1Mvi24auSc_d/view?usp=drive_link"
     }],
+
+    speaking_engagements: null,
 
     schedule: [
       {
@@ -4130,30 +4124,19 @@ export const people = [
     first_name: "Edan",
     last_name: "Belgica",
     name: "Edan A. Belgica",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: "", designation: "" },
-        { year: "", designation: "" },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/belgic.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1LHZjCtk4QjJybAQidfkTgR43OguT-YUa/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/12h2NRJ0lflbtDWRicPpFyEXV57LWAarM/view?usp=sharing"
     },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1F9HjURWkRElhk73WY6aJTRrJmOg7B8eu/view?usp=sharing",
     certificates: [
       {
@@ -4193,6 +4176,9 @@ export const people = [
         url: "https://drive.google.com/file/d/1qH1MsYft30DsZuq3KAfGt2_dXA9tHSwy/view?usp=sharing"
       }
     ],
+
+    speaking_engagements: null,
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -4641,8 +4627,8 @@ export const people = [
             {
               time: "12:00 PM - 2:00 PM",
               subject: "CONSULTATION",
-              room: "FACULTY",
-              room: null
+              section: null,
+              room: "FACULTY"
             },
           ],
           friday: [],
@@ -4983,13 +4969,8 @@ export const people = [
     first_name: "Ralph Christian",
     last_name: "Bolarda",
     name: "Ralph Christian Bolarda, MIT",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/bolarda.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -5003,10 +4984,7 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/12aRxoy1t8KZi9n94JozfAAS_x56wR6bz/view?usp=sharing"
     },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/14BzZdKotYLDw4VLaSNW2Dnu0YgBx1yNt/view?usp=sharing",
     certificates: [
       {
@@ -5017,6 +4995,9 @@ export const people = [
         name: "CvSU: Bacoor Campus - Seminar-Workshop on Module Development and Publication of CvSU - Bacoor Campus faculty",
         url: "https://drive.google.com/file/d/1tYjr4HnPGJZQo_Rff_xmkgwFpTGQhwqH/view?usp=drive_link"
       },],
+
+    speaking_engagements: null,
+
     schedule: [
       {
         semesterName: "2nd Sem A.Y 22-23",
@@ -5281,8 +5262,8 @@ export const people = [
             {
               time: "12:00 PM - 3:00 PM",
               subject: "CONSULTATION",
-              room: "FACULTY",
-              room: null
+              section: null,
+              room: "FACULTY"
             },
             {
               time: "3:00 PM - 4:00 PM",
@@ -5449,7 +5430,7 @@ export const people = [
               subject: "CONSULTATION",
               section: null,
               room: "FACULTY",
-              
+
             },
             {
               time: "10:00 AM - 11:00 AM",
@@ -5661,30 +5642,19 @@ export const people = [
     first_name: "Rafael",
     last_name: "Carvajal",
     name: "Rafel J. Carvajal",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/carvajal.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1VAg2pCeL-C-bLorrUuXNsCHHjc1r1ZHo/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1pB6hMe3Mt66g-W5tN6YpXlIRv5U0yl37/view?usp=sharing"
     },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/16w4dgYEwJNCAlmgVGF-b0nnetrZys0zX/view?usp=sharing",
     certificates: [
       {
@@ -5695,6 +5665,9 @@ export const people = [
         name: "DICT: Beyond Firewalls: A Unified Approach to Cybersecurity",
         url: "https://drive.google.com/file/d/1oyJ2MH2zTlzLptjlSf-8SYEEzyM48V6n/view?usp=sharing"
       },],
+
+    speaking_engagements: null,
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 24-25",
@@ -6002,22 +5975,14 @@ export const people = [
     first_name: "Jerico",
     last_name: "Castillo",
     name: "Jerico D. Castillo",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/castillo.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1Kia4r8MzvA8LLF4cA1LHMzEW7wsoxHS9/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [
       {
         name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
@@ -6040,14 +6005,15 @@ export const people = [
     ],
     speaking_engagements: [
       {
-      name: "Resource Speaker: District-Level Training on the Matatag Curriculum for Grade 7 Teachers",
-      url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharing"
+        name: "Resource Speaker: District-Level Training on the Matatag Curriculum for Grade 7 Teachers",
+        url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharing"
       },
       {
-      name: "Resource Speaker: Teacher-Advisers Capacity Building in Batang Bayanin Framework",
-      url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharingk"
+        name: "Resource Speaker: Teacher-Advisers Capacity Building in Batang Bayanin Framework",
+        url: "https://drive.google.com/file/d/1pZjoC-RjKUNnU8O1UHoHpw6stR_1QSad/view?usp=sharingk"
       },
     ],
+    
     schedule: [
       {
         semesterName: "1st Sem A.Y 22-23",
@@ -6543,22 +6509,14 @@ export const people = [
     first_name: "Mariel",
     last_name: "Castillo",
     name: "Mariel E. Castillo",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/m_castillo.JPG",
     diploma: [{
       name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS",
       url: "https://drive.google.com/file/d/1r3iYNmsGBAN3qE4qVpYZEz-6eF6MuiBN/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS",
       url: "https://drive.google.com/file/d/18sWgJShaQ6a-Vvq8-jAKtQ06a15z3nOg/view?usp=sharing"
@@ -6568,6 +6526,8 @@ export const people = [
       url: "https://drive.google.com/file/d/1lTK7LB7bE1JQfTxjmkpM4NNxfdcLTSEt/view?usp=sharing"
     }],
     resume: "https://drive.google.com/file/d/1kUaJDH8cd-wXOOGW5VuQFV6U7LFCixW8/view?usp=sharing",
+    certificates: null,
+    speaking_engagements: null,
 
     schedule: [
       {
@@ -7158,13 +7118,8 @@ export const people = [
     first_name: "Alvin",
     last_name: "Catalo",
     name: "Alvin Catalo, MIT",
-    designations: {
-      current_designation: "Research Coordinator",
-      last_designation: [
-        { year: 2023, designation: "Past designation" },
-        { year: 2024, designation: "Past designation" },
-      ],
-    },
+    isCS: true,
+    designation: "Research Coordinator",
     image: "/images/catalo.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -7182,6 +7137,7 @@ export const people = [
       name: "MASTER IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1A8oi41rRJgMxFhmE_SjJ_AiFwQpqdN7U/view?usp=sharing"
     },],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1Ylupre3aeNooteILBIaUoisUma-Clz1k/view?usp=sharing",
     certificates: [{
       name: "Kolehiyo ng Lungsod ng Dasmarinas: KLD Faculty Development Activities 2024",
@@ -7841,35 +7797,31 @@ export const people = [
   },
 
 
- //Alvin Celino
+  //Alvin Celino
   {
     first_name: "Alvin",
     last_name: "Celino",
     name: "Alvin P. Celino",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/celino.JPG",
     diploma: [{
       name: "Bachelor of Science in Computer Engineering",
       url: "https://drive.google.com/drive/u/0/folders/1KSoKg-rK_VFTfFAMjVJSAvdT9iADpyd6"
     }],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [
       { name: "Bachelor of Science in Computer Engineering", url: "https://drive.google.com/file/d/1qI6WEUC40Feer4_oX8sQd25l9hpTf6cd/view?usp=sharing" },
       { name: "Professional Education   ", url: "https://drive.google.com/file/d/15vlyxlq1KPXCzz83s4fkxCRgOtgEPDKq/view?usp=sharing" }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/15rXfP6nJbDmwJioLcM-fvZOlxednEWYf/view?usp=sharing",
     certificates: [
-      { name: "KMC Caravan at CvSU-Bacoor City Campus", url: "https://drive.google.com/file/d/1B7KpDWX-0m_Bkq4hBzyQDm6zHcjIS_69/view?usp=sharing"},
+      { name: "KMC Caravan at CvSU-Bacoor City Campus", url: "https://drive.google.com/file/d/1B7KpDWX-0m_Bkq4hBzyQDm6zHcjIS_69/view?usp=sharing" },
       { name: "Awareness, Basics, and Care: The ABC's of HIV/AIDS", url: "https://drive.google.com/file/d/1shgqtyxxxIkArKOu2dJ0TdfjiG90R_1x/view?usp=sharing" },
     ],
+
+    speaking_engagements: null,
+
     schedule: [
       {//1st Sem 23-24
         semesterName: "1st Sem A.Y 23-24",
@@ -8012,13 +7964,8 @@ export const people = [
     first_name: "Allen Dave",
     last_name: "Coles",
     name: "Allen Dave Coles",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/coles.JPG",
     diploma:
       [
@@ -8027,9 +7974,11 @@ export const people = [
           url: "https://drive.google.com/file/d/1ymnpO0wDODjUPYGM3mJDRFp4MBIXGix8/view?usp=sharing"
         },
       ],
+    masters_diploma: null,
     tor: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1rRDjoPaZd5I1mX49Ji7pXNiCxK_LhyRs/view?usp=sharing" },
     ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/16T3lT_Fns4tnZzf9Sn1Tf89rZwHY_JU0/view?usp=sharing",
     certificates: [
       { name: "Training Workshop on Proposal Writing and Publication Cavite State University-Bacoor", url: "https://drive.google.com/file/d/1LJm2rO4vdXqg0CS4GyZWJQ8UZY6qBbWa/view?usp=sharing" },
@@ -8165,24 +8114,19 @@ export const people = [
     first_name: "Redem",
     last_name: "Decipulo",
     name: "Redem M. Decipulo",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/decipulo2.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1CNqtDcB_vQ81rH6V-ceu2HJrwcoHy1nb/view?usp=sharing" },
     ],
+    masters_diploma: null,
     tor: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/116ROfTkuZyVJNvBW8evIcm0ULP4x9nMV/view?usp=sharing" },
     ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1PLRF_awIv2fDu90fclwAWI5g1t2EzZx8/view?usp=sharing",
-    certificates: [
-
-    ],
+    certificates: null,
     speaking_engagements: [
       { name: "COMPUTER LITERACY AND SYSTEM SUPPORT EXTENSION SERVICES - MAMBOG ELEMENTARY SCHOOL", url: "https://drive.google.com/file/d/1WW4_dRJYXHOL6OOwzYYZ9ToUOrLOHoYK/view?usp=sharing" }
     ],
@@ -8416,20 +8360,16 @@ export const people = [
     first_name: "Rufino",
     last_name: "Dela Cruz",
     name: "Rufino A. Dela Cruz Jr.",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/delacruz.jpg",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
-    certificates: [
-      { name: "", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
-    ],
+    diploma: null,
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
+    resume: null,
+    certificates: null,
+    speaking_engagements: null,
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -8622,20 +8562,17 @@ export const people = [
     first_name: "Jen Jerome",
     last_name: "Dela Pena",
     name: "Jen Jerome V. Dela Pena",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/delapena2.png",
     diploma: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/11osEwevohEEMp2k3tzD0MFV-i3D0Qfbz/view?usp=sharing" }
     ],
+    masters_diploma: null,
     tor: [
       { name: "Bachelor of Science in Industrial Education", url: "https://drive.google.com/file/d/1yQ1YohmOYvAhWWBfeQWC-uGBadUHv5YN/view?usp=sharing " }
     ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/16agbTu0U4cOYOnKiQKENa_U-WoEp_2k9/view?usp=sharing",
     certificates: [
       { name: "Programming for Beginners Using Python - DICT", url: "https://drive.google.com/file/d/1MQA2Ma6Gru1OgXoNfcNm7Wluytj3I_ON/view?usp=sharing" },
@@ -8647,9 +8584,7 @@ export const people = [
     membership: [
       { name: "Member: ICT Industry Council", url: "https://drive.google.com/file/d/1GCy2xayDMoMErTGS71X53wChBd0v4aZY/view?usp=sharing" },
     ],
-    speaking_engagements: [
-
-    ],
+    speaking_engagements: null,
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -8868,20 +8803,17 @@ export const people = [
     first_name: "Francisco",
     last_name: "Roi",
     name: "Roi M. Francisco",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/francisc.jpg",
     diploma: [
       { name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION", url: "https://drive.google.com/file/d/1zNUwy7l08svApUBq_t6E90qfAxFyfWP7/view?usp=sharing" }
     ],
+    masters_diploma: null,
     tor: [
       { name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION", url: "https://drive.google.com/file/d/1K5KYW6I8uDtjhDLWHy6Bridtgcv5Pzmp/view?usp=sharing" }
     ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/11fQjBy8_Qs9O7-WoblM15J1I06oEh9nf/view?usp=sharing",
     certificates: [
       { name: "COMPUTER SYSTEM SERVICING (NCII) - TESDA", url: "https://drive.google.com/file/d/1rPLVsOg0yvl2W9u0eEgd09gqSVAXvSBX/view?usp=sharing" },
@@ -8889,6 +8821,7 @@ export const people = [
       { name: "2023 Orientation Seminar for Newly Hired Employees", url: "https://drive.google.com/file/d/15sk0V8A5o6U5JeuzuT9C_TIRnNrhmqQ6/view?usp=sharing" },
       { name: "Awareness, Basics, and Care: The ABC's of HIV/AIDS", url: "https://drive.google.com/file/d/1hXhHE_KMQ2T0b2yn3PpsHm7--t_JT0_z/view?usp=sharing" },
     ],
+    speaking_engagements: null,
     schedule: [
       {
         semesterName: "2nd Sem A.Y 23-24",
@@ -9035,20 +8968,16 @@ export const people = [
     first_name: "Lawrence ",
     last_name: "Jimenez",
     name: "Lawrence G. Jimenez",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/jimenez.jpg",
-    diploma: "/diploma/diplom.jpg",
-    tor: "/tor/tor.jfif",
-    resume: "/resume/resume-sample.png",
-    certificates: [
-      { name: "Dancerist", url: "https://drive.google.com/file/d/1B5tlyKXsCiKzrzuGC65Z58e_kMh5n-fO/view?usp=drive_link" },
-    ],
+    diploma: null,
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
+    resume: null,
+    certificates: null,
+    speaking_engagements: null,
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -9251,28 +9180,27 @@ export const people = [
     first_name: "James",
     last_name: "Mañozo",
     name: "James Mañozo",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/mañozo.JPG",
     diploma: [
       { name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS", url: "https://drive.google.com/file/d/1b7ihrrQUMta1UwxDEh3MLouUjkC34PxQ/view?usp=sharing" },
     ],
+    masters_diploma: null,
     tor: [
       {
         name: "BACHELOR OF SECONDARY EDUCATION MAJOR IN MATHEMATICS", url: "https://drive.google.com/file/d/12o3ookfXR0MY3Ubu2mWScXbNPzSsJY7_/view?usp=sharing"
       }
     ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1HX4Z_J22QM_d9Ju8ISlmUOD2fwXOIddF/view?usp=sharing",
     certificates: [
       { name: "SEMINAR-WORKSHOP ON MODULE DEVELOPMENT AND PUBLICATION - CAVITE STATE UNIVERSITY - BACOOR", url: "https://drive.google.com/file/d/1UENv14aWif5scAcyPaQs4ULx21Z06Nkr/view?usp=sharing" },
       { name: "2024 RESEARCH SYMPOSIUM - CALL FOR PROPOSAL - CAVITE STATE UNIVERSITY - BACOOR", url: "https://drive.google.com/file/d/1xK4-VdLjQacKfeXMgCaFXwcgEfbEygH_/view?usp=sharing" },
       { name: "Awareness, Basics, and Care: The ABC's of HIV/AIDS", url: "https://drive.google.com/file/d/11iUKkP-goEAbN_vrqz8X212qGWQmiBD5/view?usp=sharing" },
     ],
+    speaking_engagements: null,
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 23-24",
@@ -9440,20 +9368,17 @@ export const people = [
     first_name: "Ashley",
     last_name: "Manuel",
     name: "Ashley Manuel",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/manuel.JPG",
     diploma: [
       { name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION", url: "https://drive.google.com/file/d/1zfGaCn30KjoeMgBrWK6Vt9iplhxaAzA1/view?usp=sharing" }
     ],
+    masters_diploma: null,
     tor: [
       { name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION", url: "https://drive.google.com/file/d/1U1btBGK4BuZhjYueXLpGIEX-uInGk-oP/view?usp=sharing" }
     ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1hWZcH5D4ceD6X5IwzQP_btt9Gfdbs_EN/view?usp=sharing",
     certificates: [
       { name: "SETTING UP COMPUTER NETWORKS - TESDA", url: "https://drive.google.com/file/d/19m2phdAmA_iBgNhFn0MSajuTkTHRbf20/view?usp=sharing" },
@@ -9464,6 +9389,9 @@ export const people = [
       { name: "MAINTAINING COMPUTER SYSTEMS AND NETWORKS - TESDA", url: "https://drive.google.com/file/d/1G-nh177yJF2WLh4ELbEenc7XFIKF-aov/view?usp=sharing" },
       { name: "INTRODUCTION TO VISUAL GRAPHIC DESIGN - TESDA", url: "https://drive.google.com/file/d/1RQiTei6AEOEf9--QhIq3JcrBYJDmeGMb/view?usp=sharing" }
     ],
+
+    speaking_engagements: null,
+
     schedule: [
       {
         semesterName: "1st Sem A.Y 24-25",
@@ -9580,32 +9508,21 @@ export const people = [
     first_name: "Edmund",
     last_name: "Martinez",
     name: "Edmund E. Martinez",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/martinez.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1qdE8Sjd9zJVmaWyJLimqcj0fM-w8wg64/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [
       {
         name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
         url: "https://drive.google.com/file/d/13zl0k4LQ49dJUk_4MId--KylAwMvef0l/view?usp=drive_link"
       },
     ],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1AAqHNicJI4ZMhiAInpDnmUbxsXnyQn9t/view?usp=drive_link",
     certificates: [
       {
@@ -9705,10 +9622,8 @@ export const people = [
         url: "https://drive.google.com/file/d/13W7xbRJuLXukbeGOgh9HX3FgN98HMr32/view?usp=sharing"
       },
     ],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
+    
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -9986,32 +9901,21 @@ export const people = [
     first_name: "Julios",
     last_name: "Mojas",
     name: "Julios M. Mojas",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/mojas.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1mTI1v4nLevcHRYq-OnTHWJ7dSwbLrHum/view?usp=sharing"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [
       {
         name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
         url: "https://drive.google.com/file/d/1jEQAd9nZlSZ4XXwmm3Sf7OK0OP9zJ1Jx/view?usp=sharing"
       },
     ],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1u0vUTH1wHsGdJi88TctnunVhfo0Hczsf/view?usp=drive_link",
     certificates: [
       {
@@ -10071,10 +9975,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1-YBGvLX3BqVFvcQohgLTccBuSPKiezP1/view?usp=sharing"
       },
     ],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -10438,14 +10339,9 @@ export const people = [
   {
     first_name: "Richard",
     last_name: "Ongayo",
-    name: "Ridhard D. Ongayo",
-    designations: {
-      current_designation: "Department Chairperson",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    name: "Richard D. Ongayo",
+    isCS: true,
+    designation: "Faculty",
     image: "/images/ongayo.JPG",
     diploma: [{
       name: "BACHELORS OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
@@ -10456,25 +10352,12 @@ export const people = [
       url: "https://drive.google.com/file/d/1kqoOE115IyFzi9b0y0ttzbEwaSJJ1fXM/view?usp=sharing"
     },
     ],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
-    tor: [{
-      name: "",
-      url: ""
-    },],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
     resume: null,
-    certificates: [
-      {
-        name: null,
-        url: null
-      },
-    ],
+    certificates: null,
+    speaking_engagements: null,
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -10843,13 +10726,8 @@ export const people = [
     first_name: "Aida",
     last_name: "Penson",
     name: "Aida M. Penson",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/penson.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATIONS ENGINEERING",
@@ -10859,10 +10737,8 @@ export const people = [
       name: null,
       url: null
     },
-    tor: [{
-      name: "",
-      url: ""
-    },],
+    tor: null,
+    eligibility: null,
     resume: {
       url: "https://drive.google.com/file/d/1TFtrUD8vWJF8JIiuqDcREw48ejdIYycY/view?usp=sharing"
     },
@@ -10875,6 +10751,8 @@ export const people = [
         name: "Introduction to Data Privacy - DICT",
         url: "https://drive.google.com/file/d/11jOTm5V_NrOY2W1BCS9HA8nHHpK6Ty8y/view?usp=sharing"
       },],
+
+      speaking_engagements: null,
 
     schedule: [
       { //1st 22-23
@@ -11481,35 +11359,25 @@ export const people = [
     first_name: "Nestor Miguel",
     last_name: "Pimentel",
     name: "Nestor Miguel T. Pimentel",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/pimentel.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1HY21cQ2Cdc99F0m6tDfoI4mcL4iwAyF9/view?usp=sharing"
     },],
     masters_diploma: {
-      name:"", 
-      url:""
+      name: "",
+      url: ""
     },
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1u7f_c32ShwkNV_KLwZSySC9ywuraxhi8/view?usp=sharing"
     },],
+    eligibility: null,
     resume: {
       url: "https://drive.google.com/file/d/14yo-rSIsoj5SAMWBkm878chhBd-Ipqnt/view?usp=sharing"
     },
-    eligibility: [
-      {
-        name: "", 
-        url: ""
-      },
-    ],
     certificates: [
       {
         name: "Conduct Compentency Assessment",
@@ -11532,12 +11400,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1eHfSX21BB6LXx658RyzEnH15PVoOJHch/view?usp=sharing"
       },
     ],
-    speaking_engagements: [
-      {
-        name:"", 
-        url:""
-      },
-    ],
+    speaking_engagements: null,
 
     schedule: [
       //No Record - 1st SEM  22-23
@@ -12158,13 +12021,8 @@ export const people = [
     first_name: "Jay-Ar",
     last_name: "Racadio",
     name: "Jay-Ar A. Racadio",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/racadio.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -12182,12 +12040,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1Hj1oVAYP8-PxQ8bpuOb8nPrVXALLS9Lx/view?usp=sharing"
       },
     ],
-    eligibility: [
-      {
-        name: "",
-        url: ""
-      },
-    ],
+    eligibility: null,
     resume: "https://docs.google.com/document/d/12EmweAMw_wq-dRohBTVu8hXZJKepNKQY/edit?usp=drive_link&ouid=112585383982213171878&rtpof=true&sd=true ",
     certificates: [
       {
@@ -12199,6 +12052,8 @@ export const people = [
         url: "https://drive.google.com/file/d/1XKgMw0CP3VsNd7idynEVLt89ULaGXK4O/view?usp=sharing"
       },
     ],
+    speaking_engagements: null,
+
     schedule: [
       //No Record - 1st SEM  22-23
       //No Record - 2nd SEM  22-23
@@ -12847,13 +12702,8 @@ export const people = [
     first_name: "Alvina",
     last_name: "Ramallosa",
     name: "Alvina Ramallosa",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/ramallosa.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -12869,12 +12719,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1IJkXoGwt309JMCVE8_FgwYyloKRt90yV/view?usp=sharing"
       },
     ],
-    eligibility: [
-      {
-        name: "",
-        url: ""
-      }
-    ],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1JiZzJOxrcEF1k-mw-Jlpq7aPCS4ItK4K/view?usp=sharing",
     certificates: [
       {
@@ -12894,6 +12739,8 @@ export const people = [
         url: "https://drive.google.com/file/d/1gMrP5VpsAJLykRLdFWBbKu_oy3fcrqEi/view?usp=drive_link"
       },
     ],
+    speaking_engagements: null,
+
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -13808,13 +13655,8 @@ export const people = [
     first_name: "Joven",
     last_name: "Rios",
     name: "Joven S. Rios",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/rios.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE AND COMMUNICATIONS ENGINEERING",
@@ -13824,16 +13666,8 @@ export const people = [
       name: "MASTER OF SCIENCE IN INFORMATION COMMUNICATION (MSICT)",
       url: "https://drive.google.com/file/d/1jPFNlJqjccAV5mwG9UpT7vor6iPBVWe6/view?usp=sharing"
     }],
-    tor: [
-      { 
-        name: null,
-        url: null
-      },
-    ],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    tor: null,
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1ItjYpqRkuhMtPL5sraF1SdpQekTArf1T/view?usp=drive_link",
     certificates: [
       {
@@ -13841,6 +13675,8 @@ export const people = [
         url: "https://drive.google.com/file/d/1u9Zktm86DoDUpJOJ9LPFw4azV5i0VNBX/view?usp=sharing"
       },
     ],
+    speaking_engagements: null,
+
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -14325,22 +14161,14 @@ export const people = [
     first_name: "Nino",
     last_name: "Rodil",
     name: "Nino M. Rodil",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/rodil2.jpg",
     diploma: [{
       name: "Bachelor of Science in Information Technology",
       url: "https://drive.google.com/file/d/1HXPF2LYxrwy3FZLR8Z7BiZ8-j-bD21lT/view?usp=drive_link"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [
       {
         name: "Bachelor of Science in Information Technology",
@@ -14352,18 +14180,9 @@ export const people = [
       url: "https://drive.google.com/file/d/19Dzqobg3hnRRfxFQeFXwTYYrB1bM2AUB/view?usp=sharing"
     }],
     resume: "https://drive.google.com/file/d/16R4RcB0NRNx-V6byvD1TjPrYFZJuEFkZ/view?usp=drive_link",
-    certificates: [
-      {
-        name: null,
-        url: null
-      },
-    ],
-    speaking_engagements: [
-      {
-        name:"", 
-        url:""
-      },
-    ],
+    certificates: null,
+    speaking_engagements: null,
+    
     schedule: [
       { //1st 22-23
         semesterName: "1st Sem A.Y 22-23",
@@ -14914,35 +14733,24 @@ export const people = [
   },
 
 
-   //Rachel Rodriguez
+  //Rachel Rodriguez
   {
     first_name: "Rachel",
     last_name: "Rodriguez",
     name: "Rachel Rodriguez",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/rodriguez.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1Yd8S93cy4y0yqfW-bMZ_Dn3knzwEVHK5/view?usp=drive_link"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/17fi4Klo2PbgLI6Q4HxdTZgjwoJSmN2VZ/view?usp=drive_link"
     }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://docs.google.com/document/d/12kJP8D1EVDZXn073_CPqVMH42jCmNL6Y/edit?usp=drive_link&ouid=107814182689736419287&rtpof=true&sd=true",
     certificates: [
       {
@@ -14967,7 +14775,7 @@ export const people = [
       }, {
         name: "Sentiment Analysis and Computing: 3rd International Webinar",
         url: "https://drive.google.com/file/d/1ImjCsSIXDBc5IYxtOmeldb6JZz2rEI9C/view?usp=drive_link"
-      }, 
+      },
 
     ],
     speaking_engagements: [
@@ -15891,32 +15699,21 @@ export const people = [
     first_name: "Clarissa",
     last_name: "Rostrollo",
     name: "Clarissa Rostrollo",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/rostrollo.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1AVuWCCM4vQ4BfdTWSiGd5lgbx0JrAvjn/view?usp=drive_link"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [
       {
         name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
         url: "https://drive.google.com/file/d/1vOf4Lo4HaOSGkNgGcaksbleb7lbHvVpD/view?usp=drive_link"
       },
     ],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://docs.google.com/document/d/1wGAiVYWw4SiXszzRFbqWcoI4U-wW5E3d/edit?usp=drive_link&ouid=107814182689736419287&rtpof=true&sd=true",
     certificates: [
       {
@@ -15936,10 +15733,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1nVxL9JNIQBIlgGSBNXbc06-fn6YoJr39/view?usp=drive_link"
       },
     ],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
 
     schedule: [
 
@@ -16564,30 +16358,19 @@ export const people = [
     first_name: "Clarence",
     last_name: "Salvador",
     name: "Marc Clarence Salvador",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/salvador.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1VrQw_lrZr5FNg2r0ExYMpoLyYvQ-O4da/view?usp=drive_link"
     },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/118xvJxnliMKgEJIA-OiGw7WXm4IBgRK3/view?usp=drive_link"
     }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1G5F2YR4A64QDJpL7mdVDRy-Ngrcv67mg/view?usp=drive_link",
     certificates: [
       {
@@ -16603,10 +16386,7 @@ export const people = [
         url: "https://drive.google.com/file/d/1gvj73FYFbha4N5SGes5TOkTlTF1RIzAH/view?usp=drive_link"
       },
     ],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
     schedule: [
       //No Record - 1ST SEM 22-23
       //No Record - 2ND SEM 22-23
@@ -17232,39 +17012,16 @@ export const people = [
     first_name: "Jessica Ann",
     last_name: "Sambrano",
     name: "Jessica Ann Sambrano",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/sambrano.JPG",
-    diploma: [{
-      name: "",
-      url: ""
-    },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
-    tor: [{
-      name: "",
-      url: ""
-    }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    diploma: null,
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
     resume: null,
-    certificates: [{
-      name: "",
-      url: ""
-    }],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    certificates: null,
+    speaking_engagements: null,
 
     schedule: [
       // No Record 1ST SEM 22-23
@@ -17770,13 +17527,8 @@ export const people = [
     first_name: "Benedick",
     last_name: "Sarmieto",
     name: "Benedick M. Sarmiento",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/sarmiento.jpg",
     diploma: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
@@ -17786,10 +17538,7 @@ export const people = [
       name: "BACHELOR OF TECHNICAL-VOCATIONAL TEACHER EDUCATION MAJOR IN COMPUTER HARDWARE SERVICING",
       url: "https://drive.google.com/file/d/1XS8G1cD68cXQZXKmfVjLoJed1KMkRCfv/view?usp=drive_link"
     }],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
       url: "https://drive.google.com/file/d/1EKKWLSf7cDQqIBXDOwNaA1XwOAAJKPQH/view?usp=drive_link"
@@ -17798,10 +17547,7 @@ export const people = [
       name: "BACHELOR OF TECHNICAL-VOCATIONAL TEACHER EDUCATION MAJOR IN COMPUTER HARDWARE SERVICING",
       url: "https://drive.google.com/file/d/1qCNdr9J1GvEex2lTRdRFTDd5jdUKoZVg/view?usp=drive_link"
     }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: null,
     certificates: [{
       name: "MICROSOFT OFFICE SPECIALIST - OFFICE EXCEL 2010",
@@ -17815,10 +17561,7 @@ export const people = [
       name: "PHILIPPINE TVET TRAINERS QUALIFICATION SYSTEMS (PTTQS)",
       url: "https://drive.google.com/file/d/1AT0-9gSEDoAYPuAMz0GKqW_yB5u8mSmK/view?usp=drive_link"
     }],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
 
     schedule: [
       { //2nd Sem A.Y 22-23
@@ -18268,30 +18011,19 @@ export const people = [
     first_name: "Jerome",
     last_name: "Tacata",
     name: "Jerome Tacata",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/tacata.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1yrj7_HQsfVOQ_xVScgh6q4jhJ4wqpHr-/view?usp=drive_link"
     }],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1U0M93ISa964VMCyn9mSLuLVofgpGmQSo/view?usp=drive_link"
     }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1W7ORNdHqBrO6eJ1TxIY7v3r6jOErCgYI/view?usp=drive_link",
     certificates: [{
       name: "COMPUTER SERVICING SYSTEM TRAINING FACILITATOR",
@@ -18342,10 +18074,7 @@ export const people = [
       name: "Python Essentials 2",
       url: "https://drive.google.com/file/d/1xTedQURYRcbvAxgzaUL-1Iy2VOONOjix/view?usp=drive_link",
     }],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
 
     schedule: [
       //No Record - 1ST SEM 22-23
@@ -18966,13 +18695,8 @@ export const people = [
     first_name: "Pamela",
     last_name: "Tagum",
     name: "Pamela Marie O. Tagum",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: false,
+    designation: "Faculty",
     image: "/images/tagum.JPG",
     diploma: [{
       name: "DIPLOMA IN COMPUTER ENGINEERING TECHNOLOGY",
@@ -18981,18 +18705,12 @@ export const people = [
       name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
       url: "https://drive.google.com/file/d/1CDjMTLP4QCGITQem7IpXkFvSRpH-96t0/view?usp=drive_link"
     }],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF TECHNICAL TEACHER EDUCATION",
       url: "https://drive.google.com/file/d/1SbRFhnbDAU1V_nF0OjxG1kEANKejEwoj/view?usp=drive_link"
     }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: null,
     certificates: [{
       name: "NCII - TESDA",
@@ -19010,10 +18728,7 @@ export const people = [
       name: "Teaching English to Speakers of Other Languages (TESOL)",
       url: "https://drive.google.com/file/d/1o8_rjiimIEjMqF7LO1HHizSoj80kjjPP/view?usp=drive_link"
     }],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
 
     schedule: [
       //No Record - 1ST SEM 22-23
@@ -19188,30 +18903,19 @@ export const people = [
     first_name: "Cesar II",
     last_name: "Talibong",
     name: "Cesar II B. Talibong ",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/talibong.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1k6keyD9HfTEJbFX-NHBi3DcpdeRQnerZ/view?usp=drive_link"
     }],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
+    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INDUSTRIAL EDUCATION",
       url: "https://drive.google.com/file/d/1vV6z7wFQaI-hDYmwU-v3Kf481hpv-ghO/view?usp=drive_link"
     }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    eligibility: null,
     resume: "https://docs.google.com/document/d/1qPCDHBXPrx3tbHLzwCqaqE4efxHuxNV4/edit?usp=drive_link&ouid=107814182689736419287&rtpof=true&sd=true",
     certificates: [{
       name: "Computer Servicing System Facilitator",
@@ -19223,10 +18927,7 @@ export const people = [
       name: "ICDL Profile Certificate",
       url: "https://drive.google.com/file/d/1AInob1wfJJFtmKc_TX10VtlCdB3EQyxK/view?usp=drive_link"
     }],
-    speaking_engagements: [{
-      name: "",
-      url: ""
-    }],
+    speaking_engagements: null,
 
     schedule: [
       //No Record - 1ST SEM 22-23
@@ -19842,30 +19543,13 @@ export const people = [
     first_name: "Russel Adrianne",
     last_name: "Villareal",
     name: "Russel Adrianne Villareal",
-    designations: {
-      current_designation: "Instructor I",
-      last_designation: [
-        { year: null, designation: null },
-        { year: null, designation: null },
-      ],
-    },
+    isCS: true,
+    designation: "Faculty",
     image: "/images/villareal.JPG",
-    diploma: [{
-      name: "",
-      url: ""
-    },],
-    masters_diploma: [{
-      name: "",
-      url: ""
-    }],
-    tor: [{
-      name: "",
-      url: ""
-    }],
-    eligibility: [{
-      name: "",
-      url: ""
-    }],
+    diploma: null,
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
     resume: "https://drive.google.com/file/d/1Sdca9ziZP1hxYwjF04phtPG7gUhJv-mz/view?usp=drive_link",
     certificates: [{
       name: "Digital Editing and Microsoft Excel Training",
