@@ -4,13 +4,8 @@ export const people = [
     first_name: "Jovelyn",
     last_name: "Ocampo",
     name: "Jovelyn D. Ocampo, MIT",
-    designations: {
-      current_designation: "Department Chairperson",
-      last_designation: [
-        { year: 2024, designation: "Program Coordinator, Information Technology" },
-        { year: 2023, designation: "Head, Learning Management System" },
-      ],
-    },
+    isCS: true,
+    designation: "Department Chairperson",
     image: "/images/ocampo1.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -846,22 +841,22 @@ export const people = [
         details: {
           monday: [
             {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 111",
-              section: "IT 4-1",
+              time: "11:00 AM - 12:00 PM",
+              subject: "DCIT 60 ASYNC",
+              section: "IT 3-6",
               room: null
             },
             {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 111",
-              section: "IT 4-3",
-              room: "Room 303"
+              time: "12:00 PM - 2:00 PM",
+              subject: "DCIT 60",
+              section: "IT 3-6",
+              room: "ACCRE"
             },
             {
-              time: "12:00 PM - 1:00 PM",
-              subject: "ITEC 111",
-              section: "IT 4-4",
-              room: "Room 303"
+              time: "2:00 PM - 4:00 PM",
+              subject: "ITEC 200B",
+              section: "IT 4-3",
+              room: "Room 401"
             },
             {
               time: "1:00 PM - 3:00 PM",
@@ -876,22 +871,78 @@ export const people = [
               room: "CL 4"
             },
             {
-              time: "5:00 PM - 6:00 PM",
-              subject: "ITEC 111",
+              time: "4:00 PM - 5:00 PM",
+              subject: "ITEC 200B ASYNC",
               section: "IT 4-3",
               room: null
             },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 111",
-              section: "IT 4-5",
-              room: null
-            }
           ],
           tuesday: [
+            {
+              time: "7:00 AM - 8:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-4",
+              room: null
+            },
+            {
+              time: "8:00 AM - 9:00 AM",
+              subject: "DCIT 22",
+              section: "CS 1-4",
+              room: "CL 1"
+            },
+            {
+              time: "9:00 AM - 11:00 AM",
+              subject: "DCIT 22",
+              section: "CS 1-4",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 60",
+              section: "IT 3-4",
+              room: "ACCRE"
+            },
+            {
+              time: "3:00 PM - 4:00 PM",
+              subject: "DCIT 60 ASYNC",
+              section: "IT 3-4",
+              room: null
+            },
+            {
+              time: "4:00 PM - 5:00 PM",
+              subject: "DCIT 60 ASYNC",
+              section: "IT 3-5",
+              room: null
+            },
           ],
-          wednesday: [],
-          thursday: [],
+          wednesday: [
+            {
+              time: "9:00 AM - 12:00 PM",
+              subject: "RESEARCH/EXTENSION",
+              section: null,
+              room: "FACULTY"
+            },
+          ],
+          thursday: [
+            {
+              time: "7:00 AM - 9:00 AM",
+              subject: "DCIT 22 (LAB) ASYNC",
+              section: "CS 1-4",
+              room: null
+            },
+            {
+              time: "10:00 AM - 12:00 PM",
+              subject: "DCIT 22",
+              section: "CS 1-4",
+              room: "CL 1"
+            },
+            {
+              time: "1:00 PM - 3:00 PM",
+              subject: "DCIT 60",
+              section: "IT 3-5",
+              room: "ACCRE"
+            },
+          ],
           friday: [],
           saturday: [],
           sunday: [],
