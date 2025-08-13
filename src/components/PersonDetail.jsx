@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useLocation } from "react-router-dom";
 import PersonHeader from "./PersonHeader";
@@ -8,6 +7,7 @@ import FacultySchedule from "./FacultyDetails/FacultySchedule";
 import DevelopmentPlan from "./FacultyDetails/DevelopmentPlan";
 import NotFound from "./NotFound";
 import Footer from "./widgets/Footer";
+import Navigation from "./DashboardComponents/Navigation";
 
 function PersonDetail() {
   const { state } = useLocation();
@@ -38,8 +38,7 @@ function PersonDetail() {
 
   return (
     <>
-      <PersonHeader  text={"IT/CS Faculty Dashboard"} subtitle={"Department of Computer Studies"}/>
-
+      <Navigation className="sticky top-0 z-50 font-funnel" />
       <div className="container mx-auto px-4 mt-8 pb-16">
         {/* Main wrapper to stack all sections vertically and center them */}
         <div className="flex flex-col items-center gap-12 lg:gap-16">
@@ -55,7 +54,7 @@ function PersonDetail() {
               masters_diploma={masters_diploma}
               tor={tor}
               resume={resume}
-              eligibility = {eligibility}
+              eligibility={eligibility}
               certificates={certificates}
               speaking_engagements={speaking_engagements}
               membership={membership}

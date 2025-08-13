@@ -9959,7 +9959,7 @@ export const people = [
     name: "Julios M. Mojas",
     isCS: true,
     designation: "Faculty",
-    image: "/images/mojas.JPG",
+    image: "/images/mojasreal.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1mTI1v4nLevcHRYq-OnTHWJ7dSwbLrHum/view?usp=sharing"

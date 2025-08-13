@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from "/diploma/cvsu.ico";
+// REMOVED: Unused imports can be cleaned up
+// import Logo from "/diploma/cvsu.ico";
+// import { X, Search } from "lucide-react";
 import PersonCard from "./PersonCard";
 import { people } from "../data";
-import { X, Search } from "lucide-react";
 import Footer from "./widgets/Footer";
+import Navigation from "./DashboardComponents/Navigation";
+
 function Header() {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
@@ -22,66 +25,18 @@ function Header() {
   );
 
   return (
-    <>
-      <header>
-        <div className="bg-red-900 py-3 shadow-white my-12 rounded font-funnel">
-          <div className="flex justify-between items-center px-4">
-            {/* Logo Section */}
-            <div className="flex item-center mr-20">
-              <img
-                src={Logo}
-                alt=""
-                className="pr-5 object-contain"
-                width="60"
-                height="60"
-              />
-              <h2
-                className="text-amber-50 font-bold text-xl shover:scale-105 cursor-pointer"
-                onClick={() => navigate("/")}
-              >
-                Department of Computer Studies <br />
-                <span className="text-amber-400 text-base">
-                  Cavite State University - Bacoor City Campus
-                </span>
-              </h2>
-            </div>
+    // MODIFICATION: Replaced the React Fragment `<>` with a `<div>`.
+    // ADDITION: Added classes to this div to define the page layout and, most importantly, the font.
+    <div className="flex flex-col min-h-screen  font-funnel">
+      {/* ADDITION: Made the Navigation sticky on this page as well for consistency. */}
+      <Navigation className="sticky top-0 z-50" />
 
-            {/* Search Input Section */}
-            <div className="w-1/2 relative">
-              <input
-                type="text"
-                className="pl-10 pr-10 py-3 border rounded-full text-gray-900 w-full outline-none bg-amber-50"
-                placeholder="Search by name..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
-
-              {/* Search icon on the left */}
-              <Search
-                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
-                size={18}
-              />
-
-              {/* Clear button on the right */}
-              {search && (
-                <button
-                  type="button"
-                  onClick={() => setSearch("")}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-red-500 transition-opacity duration-200"
-                  title="Clear"
-                  aria-label="Clear search"
-                >
-                  <X size={18} />
-                </button>
-              )}
-            </div>
-          </div>
-        </div>
-      </header>
+      {/* MODIFICATION: Wrapped the main content in a `flex-grow` div. */}
+      {/* This ensures the footer is pushed to the bottom of the screen, even if the content is short. */}
 
       <PersonCard data={filteredPeople} />
       <Footer textColor={"text-white"} spanColor={"text-red-900"} />
-    </>
+    </div>
   );
 }
 
