@@ -1004,7 +1004,9 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Attend local/ national seminars on emerging IT trends."],
+        "2024": [
+          "Attended local/ national seminars on emerging IT trends."
+        ],
         "2025": [
           "Enrolled in doctorate degree program in Information Technology.",
           "Participated in local and international workshops and training on current trends and technologies.",
@@ -1028,20 +1030,39 @@ export const people = [
         ],
       },
       loading: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": [
+          "Computer Programming 1",
+          "Multimedia Systems",
+          "Methods of Research"
+        ],
+        "2025": [
+          "Capstone Project 1",
+          "Practicum(IT Internship Supervision)"
+        ],
+        "2026": [
+          "Methods of Research",
+          "Undergraduate Thesis A",
+          "Practicum(IT Internship Supervision)"
+        ],
+        "2027": [
+          "Methods of Research",
+          "Undergraduate Thesis A",
+          "Practicum(IT Internship Supervision)"
+        ],
+        "2028": [
+          "Methods of Research",
+          "Undergraduate Thesis A",
+          "Practicum(IT Internship Supervision)"
+        ],
       },
       research: {
         "2024": [
-          "Attended a research capacity-building seminar.",
+          "Attendeded a research capacity-building seminar.",
           "Served as panelist/ adviser for capstone projects and undergraduate research."
         ],
         "2025": [
           "Applied for at least 1 research for funding.",
-          "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."
+          "Continued serving as research panelist, adviser, and mentor students to seek external funding opportunities for their research."
         ],
         "2026": [
           "Publish at least one paper in a Scopus- or CHED- recognized journal.",
@@ -1263,12 +1284,12 @@ export const people = [
     development_plan: {
       professionalDevelopment: {
         "2024": [
-          "Attend local/ national seminars on emerging IT trends.",
+          "Attended local/ national seminars on emerging IT trends.",
         ],
         "2025": [
-          "Continue to enroll in the DIT program.Integrate learnings into teaching and program enhancement.",
-          "Attend and present at virtual international conferences",
-          "Continue to attend relevant training and seminars within the field of computer studies."
+          "Continued to enroll in the DIT program.Integrate learnings into teaching and program enhancement.",
+          "Attended and presented at virtual international conferences",
+          "Continued to attend relevant training and seminars within the field of computer studies."
         ],
         "2026": [
           "Continue my Doctor of Information Technology (DIT) coursework to advance my academic and professional expertise.",
@@ -1315,13 +1336,13 @@ export const people = [
       },
       research: {
         "2024": [
-          "Attend a research capacity-building seminar.",
+          "Attended a research capacity-building seminar.",
           "Serve as panelist/ adviser for undergraduate research."
         ],
         "2025": [
-          "Apply for at least 1 research for funding.",
-          "Co-author and present at national/ international conferences.",
-          "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."
+          "Applied for at least 1 research for funding.",
+          "Co-authored and presented at national/ international conferences.",
+          "Continued to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."
         ],
         "2026": [
           "Publish at least one paper in a Scopus- or CHED- recognized journal.",
@@ -1337,7 +1358,9 @@ export const people = [
         ],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
+        "2024": [
+          "Actively participated in extension programs organized at the campus level, especially those initiated by the department."
+        ],
         "2025": [
           "Continue to actively participate in extension programs and initiatives.",
           "Align capstone/research projects with community extension goals."
@@ -1350,7 +1373,9 @@ export const people = [
           "Facilitate a new extension project",
           "Collaborate with LGUs, or NGOs on tech-enabled outreach.."
         ],
-        "2028": ["Continue to facilitate ICT based extension projects on partner communities."],
+        "2028": [
+          "Continue to facilitate ICT based extension projects on partner communities."
+        ],
       }
     }
   },
@@ -1755,32 +1780,98 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Attended relevant training and seminars within the field of computer studies."],
-        "2025": ["Participated in local and international workshops and training on current trends and technologies.", "Joined and became an active member of IT and CS related professional organizations."],
-        "2026": ["Continue to enroll in the DIT program. Integrate learnings into teaching and program enhancement", "Attend and present at national and regional conferences.", "Continue to attend relevant training and seminars within the field of computer studies."],
-        "2027": ["Continue DIT schooling.", "Propose a new research proposal.", "Continue to attend relevant training and seminars within the field of computer studies.", "Attend face-to-face or hybrid international conferences."],
-        "2028": ["Proceed with DIT dissertation.", "Continue to attend relevant training and seminars within the field of computer studies."],
+        "2024": [
+          "Continued DIT coursework in a CHED-recognized institution.",
+          "Attended training and seminars on teaching innovation and digital learning tools.",
+          "Participated in CLASSES activities to train the community in productivity applications."
+        ],
+        "2025": [
+          "Joined local and international workshops on current trends in IT education.",
+          "An active member of professional organizations such as PSITE, CSP, or ACM.",
+          "Assist in organizing institutional training programs for students and community partners."
+        ],
+        "2026": [
+          "Present teaching and learning practices at national or regional conferences.",
+          "Continue professional growth through seminars and certifications.",
+          "Contribute to the enhancement of CLASSES training modules for community partners."
+        ],
+        "2027": [
+          "Pursue international exposure by attending global conferences (onsite or hybrid).",
+          "Continue progress in DIT program requirements.",
+          "Take part in extension leadership by facilitating digital skills training under CLASSES."
+        ],
+        "2028": [
+          "Complete dissertation requirements for the DIT program.","Mentor junior faculty and students on academic and professional development.",
+          "Sustain active participation in community extension and institutional training programs."
+        ],
       },
       loading: {
-        "2024": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
-        "2025": ["Methods of Research", "Practicum(IT Intership Supervision)"],
-        "2026": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
-        "2027": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
-        "2028": ["Methods of Research", "Capstone A and B", "Practicum(IT/CS Intership Supervision)"],
+        "2024": [
+          "Methods of Research",
+          "Capstone A and B",
+          "Practicum(IT/CS Intership Supervision)"
+        ],
+        "2025": [
+          "Methods of Research",
+          "Practicum(IT Intership Supervision)"
+        ],
+        "2026": [
+          "Methods of Research",
+          "Capstone A and B",
+          "Practicum(IT/CS Intership Supervision)"
+        ],
+        "2027": [
+          "Methods of Research",
+          "Capstone A and B",
+          "Practicum(IT/CS Intership Supervision)"
+        ],
+        "2028": [
+          "Methods of Research",
+          "Capstone A and B",
+          "Practicum(IT/CS Intership Supervision)"
+        ],
       },
       research: {
-        "2024": ["Attended a research capacity-building seminar.", "Served as panelist/ adviser for undergraduate research."],
-        "2025": ["Finished current research project and submitted all related paperworks.", "Served as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
-        "2026": ["Draft and submit a research proposal for funding.", "Publish at least one paper in a Scopus- or CHED- recognized journal.", "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
-        "2027": ["Collaborate with partner institutions or industry for applied research.", "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
-        "2028": ["Continue to attend research related presentations and conferences to gather insights and experiences.", "Continue to serve as research panelist, adviser, and mentor students to seek external funding opportunities for their research."],
+        "2024": [
+          "Attended a research capacity-building seminar.",
+          "Served as research adviser and panelist for undergraduate projects."
+        ],
+        "2025": [
+          "Finalized ongoing research projects and submit requirements.",
+          "Guided student research groups in preparing proposals for external funding."
+        ],
+        "2026": [
+          "Develop and submit a faculty research proposal for institutional or external funding.",
+          "Publish at least one paper in a recognized journal."
+        ],
+        "2027": [
+          "Collaborate with other institutions or industries on applied research projects.",
+          "Present completed studies in research conferences."
+        ],
+        "2028": [
+          "Maintain active research engagement through publication and conference participation.",
+          "Continue mentoring student researchers and providing guidance as panelist/adviser."
+        ],
       },
       extensions: {
-        "2024": ["Actively participated in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Continue to actively participate in extension programs and initiatives.", "Realign capstone/research projects with community extension goals."],
-        "2026": ["Conduct project impact assessments and submit results.", "Submit proposals/ideas on a new ICT-based extension project proposal that addresses identified community needs."],
-        "2027": ["Continue to actively participate in extension programs organized at the campus level, especially those initiated by the department.", "Collaborate with LGUs, or NGOs on tech-enabled outreach."],
-        "2028": ["Continue to actively participate in extension programs organized at the campus level, especially those initiated by the department."],
+        "2024": [
+          "Actively participated in extension programs organized at the campus level, especially those initiated by the department."
+        ],
+        "2025": [
+          "Continued to actively participate in extension programs and initiatives.",
+          "Realign capstone/research projects with community extension goals."
+        ],
+        "2026": [
+          "Conduct project impact assessments and submit results.",
+          "Submit proposals/ideas on a new ICT-based extension project proposal that addresses identified community needs."
+        ],
+        "2027": [
+          "Continue to actively participate in extension programs organized at the campus level, especially those initiated by the department.",
+          "Collaborate with LGUs, or NGOs on tech-enabled outreach."
+        ],
+        "2028": [
+          "Lead the development of a sustainable partnership model that supports ongoing technology-driven outreach efforts in multiple communities through joint monitoring and evaluation."
+        ],
       }
     }
   },
@@ -2284,28 +2375,30 @@ export const people = [
     development_plan: {
       professionalDevelopment: {
         "2024": [
-          "Pursued graduate studies by enrolling Doctor in Information Technology in any CHED recognized institution.",
-          "Participated in local and international workshops and bootcamps on emerging technologies.",
-          "Incorporated blended learning, flipped classroom strategies, and project-based learning into CS and IT courses.",
-          "Mastered tools such as Moodle, Google Classroom, and Canvas for online and hybrid learning"
+          "Started pursuing a Doctor in Information Technology (DIT) at a CHED-recognized institution to further academic and research competence.",
+          "Attended workshops and bootcamps to keep up with emerging technologies and practical innovations.",
+          "Applied blended learning and project-based strategies in teaching to enhance student engagement and learning outcomes.Incorporated blended learning, flipped classroom strategies, and project-based learning into CS and IT courses.",
+          "Strengthened the use of LMS platforms (Moodle, Google Classroom, Canvas) to improve online and hybrid instruction delivery."
         ],
         "2025": [
-          "Participated in local and international workshops and bootcamps on emerging technologies.",
-          "Active member of any IT and CS related professional organizations like Philippine Society of IT Educators (PSITE), Computing Society of the Philippines (CSP) and Association for Computing Machinery (ACM).",
-          "Attended and present at national and regional conferences (e.g., NCITE, iSITE, etc.)"
+          "Actively engaged in professional organizations such as PSITE, CSP, or ACM for networking and knowledge exchange.",
+          "Attended and presented research in national conferences (NCITE, iSITE, etc.) to share findings and gain feedback.",
+          "Continued participation in technology-focused workshops to sharpen skills and remain updated with new trends."
         ],
         "2026": [
-          "Continue striving to finish DIT in any CHED recognized institution.",
-          "Engage in research on computer science education, software development, or data analytics.",
-          "Obtain industry-recognized certifications such as: Cisco (CCNA), Microsoft (Azure and the likes)"
+          "Progress steadily in DIT coursework and fulfill research requirements toward dissertation completion.",
+          "Obtain industry-recognized certifications (e.g., Cisco CCNA, Microsoft Azure) to strengthen professional and technical expertise.",
+          "Initiate independent research in areas like CS education, software development, or data analytics to contribute to the field."
         ],
         "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue to mentor student researchers to be able to produce at least Research per year for funding"
+          "Publish or co-author a peer-reviewed research article to contribute to academic knowledge.",
+          "Continue mentoring students in research and capstone projects, guiding them in practical and scholarly outputs.",
+          "Present research outputs in academic forums or symposia to disseminate findings and build credibility."
         ],
         "2028": [
-          "Continue striving to finish DIT in any CHED recognized institution.",
-          "Engage in research on computer science education, software development, or data analytics; present in symposia or publish in any reputable academic journals."
+          "Complete or be close to completing the DIT degree, demonstrating academic perseverance and expertise..",
+          "Sustain active research engagement through consistent publications in reputable journals.",
+          "Continue involvement in community extension under CLASSES, with a focus on technology-based training for social impact."
         ],
       },
       loading: {
@@ -2327,41 +2420,41 @@ export const people = [
       },
       research: {
         "2024": [
-          "Engaged in research on computer science education, software development, or data analytics.",
-          "Continue guiding students in their research journey."
+          "Started exploring research directions in Computer Science education, software development, and data analytics as possible areas of contribution.",
+          "Actively mentored student researchers by guiding them in formulating research problems, applying methodologies, and preparing for presentations."
         ],
         "2025": [
-          "Engaged in research on computer science education, software development, or data analytics.",
-          "Continue guiding students in their research journey."
+          "Continued to support both faculty and student-led research in IT/CS, fostering collaboration and knowledge-building.",
+          "Presented research proposals in academic conferences or institutional review panels to refine ideas and receive constructive feedback."
         ],
         "2026": [
-          "Continue to mentor student researchers to be able to produce at least Research per year for funding.",
-          "Continue guiding students in their research journey."
+          "Produce at least one research output eligible for funding.",
+          "Continue guiding undergraduate research."
         ],
         "2027": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
+          "Publish or co-author in a peer-reviewed journal.",
+          "Present completed studies at national/international conferences."
         ],
         "2028": [
-          "Write and Publish / co-author at least one peer-reviewed article in any reputable academic journals.",
-          "Continue guiding students in their research journey."
+          "Consistently publish and present IT-related research",
+          "Maintain mentorship of student researchers for continuity of research culture."
         ],
       },
       extensions: {
         "2024": [
-          "Participated in the department’s initiative to conduct community outreach through ICT literacy trainings and support for local schools or barangays"
+          "Actively participated in the department’s community extension program initiatives by facilitating ICT literacy training sessions and providing technical support to partner local schools and barangays."
         ],
         "2025": [
-          "Continuing the kick off extension activities under CLASSES program of BacoorEx in Mambog Elementary School, BJMP Bacoor and Brgy. Molino II."
+          "Strengthen engagement in the CLASSES program under BacoorEx by implementing planned extension activities in Mambog Elementary School, BJMP Bacoor, and Brgy. Molino II."
         ],
         "2026": [
-          "Continue to kick off extension activities under CLASSES program of BacoorEx in Mambog Elementary School, BJMP Bacoor and Brgy. Molino II."
+          "Deepen involvement in the CLASSES program by refining delivery strategies, incorporating feedback, and ensuring consistent implementation across the identified partner communities."
         ],
         "2027": [
-          "Lead the department towards the thorough evaluation and monitoring of the CLASSES project before it will be terminated."
+          "1. Take a leadership role in the comprehensive evaluation and impact assessment of the CLASSES project, in preparation for its formal conclusion."
         ],
         "2028": [
-          "Formulate another extension project that would be beneficial to the chosen community through peer collaboration."
+          "1. Initiate the development of a new extension project through collaborative planning with peers, aimed at addressing evolving community needs and sustaining outreach efforts."
         ],
       }
     }
@@ -3807,82 +3900,79 @@ export const people = [
     development_plan: {
       professionalDevelopment: {
         "2024": [
-          "Attended industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Gained more knowledge through workshops related to Operating Systems, Mobile Technology, and Computer Programming.",
-          "Broadened my knowledge and strength in teaching."
+          "Attended industry-recognized IT trainings and seminars.",
+          "Joined workshops to strengthen knowledge in programming, operating systems, and mobile technologies.",
+          "Enhanced teaching strategies through professional development activities."
         ],
         "2025": [
-          "Attended industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Gained more knowledge through workshops related to Operating Systems, Mobile Technology, and Computer Programming.",
-          "Broadened my knowledge and strength in teaching.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming."
+          "Continued attending IT-related training and seminars.",
+          "Participated in workshops on emerging tools and applications in computing.",
+          "Built a foundation in teaching by applying new methods and techniques."
         ],
         "2026": [
-          "Continue to attend industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Be a resource speaker related to Operating Systems, and  Mobile Technology.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming.",
-          "Gain a unit in terms of Teaching.",
-          "To attend workshops in Google, and Microsoft."
+          "Serve as a resource speaker for topics related to IT and computing.",
+          "Gain additional teaching units toward licensure requirements.",
+          "Join institutional and external training programs (e.g., Google, Microsoft)."
         ],
         "2027": [
-          "Continue to attend industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Be a resource speaker related to Operating Systems, and  Mobile Technology.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming.",
-          "Gain a unit in terms of Teaching.",
-          "Gain a License for Teaching.",
-          "Pursue a Master’s degree in Information Technology."
+          "Begin formal enrollment in Master’s in Information Technology.",
+          "Obtain professional teaching license.",
+          "Sustain participation in training, workshops, and extension activities."
         ],
         "2028": [
-          "Continue to attend industry-recognized training and seminars related to my Degree, BS Information Technology.",
-          "Be a resource speaker related to Operating Systems, and  Mobile Technology.",
-          "Continue in attending training, seminars and workshops related to Information Technology, Hosting, Mobile Technology and Computer Programming.",
-          "Gain a unit in terms of Teaching.",
-          "Gain a License for Teaching.",
-          "Pursue a Master’s degree in Information Technology.",
-          "Work abroad as a teacher"
+          "Continue progress in Master’s studies.",
+          "Pursue international teaching or industry opportunities for broader exposure.",
+          "Maintain active role as a trainer or speaker in IT-related community programs."
         ],
       },
       loading: {
-        "2024": ["COSC 85: OPERATING SYSTEMS"],
-        "2025": ["COSC 90: PROGRAMMING LANGUAGES", "COSC 70: SOFTWARE ENGINEERING I", "ITEC 65: OPEN-SOURCE TECHNOLOGY"],
-        "2026": ["COSC 85: OPERATING SYSTEMS", "ITEC 55: PLATFORM TECHNOLOGIES"],
+        "2024": [
+          "COSC 85: OPERATING SYSTEMS"
+        ],
+        "2025": [
+          "COSC 90: PROGRAMMING LANGUAGES", "COSC 70: SOFTWARE ENGINEERING I", 
+          "ITEC 65: OPEN-SOURCE TECHNOLOGY"
+        ],
+        "2026": [
+          "COSC 85: OPERATING SYSTEMS", 
+          "ITEC 55: PLATFORM TECHNOLOGIES"
+        ],
         "2027": ["Any Major Subject BSIT/BSCS Course"],
         "2028": ["Any Major Subject BSIT/BSCS Course"],
       },
       research: {
         "2024": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development."
+          "One of the proponents of a Faculty Study."
         ],
         "2025": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development."
+          "Develop the application that supports the Faculty Study."
         ],
         "2026": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development.",
-          "Be able to compose my own research related to Operating System innovation."
+          "Presentation of the Faculty Study to the CvSU’s CELLAR.",
+          "Be a member of the research projects for the extension services."
         ],
         "2027": [
-          "Engage in research related to computer studies",
-          "Guide students with their research development.",
-          "Be able to compose my own research related to Operating System innovation."
+          "Make publications of the presented research and studies."
         ],
         "2028": [
-          "Engage in research related to computer studies"
+          "Continue with the research-related application development and create research projects locally and internationally."
         ],
       },
       extensions: {
-        "2024": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2025": ["Actively participate in extension programs organized at the campus level, especially those initiated by the department."],
-        "2026": ["Be able to conduct an extension program regarding Mobile Technology Efficiency"],
+        "2024": [
+          "Participated in the campus extension activities."
+        ],
+        "2025": [
+          "Develop applications and automated solutions for the extension projects."
+        ],
+        "2026": [
+          "Finish the development of the application and automated solutions for the extension projects."
+        ],
         "2027": [
-          "Continue to conduct an extension program regarding Mobile Technology Efficiency.",
-          "Collaborate with LGUs and NGOs for Literacy on Mobile Technology."
+          "Develop additional applications for an automated solution and processes for the extension projects."
         ],
         "2028": [
-          "Continue to conduct an extension program regarding Mobile Technology Efficiency.",
-          "Collaborate with LGUs and NGOs for Literacy on Mobile Technology."
+          "Initiate training and workshops related to application development."
         ],
       }
     }
@@ -5661,36 +5751,74 @@ export const people = [
     development_plan: {
       professionalDevelopment: {
         "2024": [
-          "Attend training on latest software development and cloud computing technologies.",
-          "Integrate coding challenges and hands-on activities to reinforce programming concepts."
+          "Attended advanced training in research methodologies (quantitative, qualitative, and mixed methods) and academic writing for high-impact journals."
         ],
         "2025": [
-          "Completed Master in Information Technology (MIT), enhancing expertise in software development, database systems, and emerging IT trends."
+          "Developed leadership skills by joining academic associations (e.g., PSITE, PACITE) and presenting papers at their conferences."
         ],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2026": [
+          "Take specialized certification in Data Governance, Cloud Security, or Digital Ethics."
+        ],
+        "2027": [
+          "Enroll and Begin doctoral coursework in IT or related discipline."
+        ],
+        "2028": [
+          "Continue doctoral dissertation requirements and prepare for postdoctoral-level projects."
+        ],
       },
       loading: {
-        "2024": ["Advanced Database Management System", "Web System and Technologies", "Web System and Technologies"],
-        "2025": ["Advanced Database Management System", "Human Computer Interaction 2"],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": [
+          "Advanced Database Management System", 
+          "Web System and Technologies", 
+          "Web System and Technologies"
+        ],
+        "2025": [
+          "Advanced Database Management System", 
+          "Human Computer Interaction 2"
+        ],
+        "2026": [
+          "Any major Computer Science Course Subjects"
+        ],
+        "2027": [
+          "Any major Computer Science Course Subjects"
+        ],
+        "2028": [
+          "Any major Computer Science Course Subjects"
+        ],
       },
       research: {
-        "2024": ["Engaged in research initiatives focused on Computer Studies, including emerging technologies and applied computing."],
-        "2025": ["Encourage innovation and critical thinking in student-led research efforts."],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": [
+          "Initiated a faculty-led research project on emerging IT governance frameworks, focusing on data privacy and cybersecurity in higher education institutions."
+        ],
+        "2025": [
+          "Collaborated with external industry partners to co-author applied research on AI adoption in local businesses."
+        ],
+        "2026": [
+          "Publish at least one article in an indexed journal related to digital transformation and policy-making in education."
+        ],
+        "2027": [
+          "Lead an interdisciplinary research team (education, IT, and business) producing outputs for CHED/DICT-funded projects."
+        ],
+        "2028": [
+          "Produce a research monograph consolidating findings on digital governance and innovation ecosystems, as groundwork for a doctoral dissertation."
+        ],
       },
       extensions: {
-        "2024": [],
-        "2025": [],
-        "2026": [],
-        "2027": [],
-        "2028": [],
+        "2024": [
+          "Helped the department in the Extension Projects"
+        ],
+        "2025": [
+          "Collaborate to extension projects of the department"
+        ],
+        "2026": [
+          "Launch a digital literacy program for senior citizens in partnership with Barangay councils."
+        ],
+        "2027": [
+          "Collaborate with LGUs to establish a Smart Barangay Project integrating IoT for community safety and environmental monitoring"
+        ],
+        "2028": [
+          "Lead a regional extension initiative that creates a Digital Transformation Roadmap for local schools and SMEs."
+        ],
       }
     }
   },
@@ -7823,32 +7951,72 @@ export const people = [
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
-        "2024": ["Attended relevant workshops and earned industry-recognized certifications in the IT and Computer Science field to continually update and expand technical knowledge."],
-        "2025": ["Became an active member of a professional IT/Computer Science organization to stay updated on emerging trends, contribute to the field, and expand my professional network."],
-        "2026": ["Pursue a Doctoral degree in Information Technology to advance my research capabilities and contribute to academic knowledge and innovation."],
-        "2027": ["Pursue doctoral studies in [IT/Computer Science] and aim to publish at least one research paper in a peer-reviewed journal or conference during the course of my program."],
-        "2028": [" participate in specialized workshops and obtain recognized certifications in the IT and Computer Science fields to keep my technical skills current and continuously broaden my expertise."],
+        "2024": [
+          "Attended relevant workshops and earned industry-recognized certifications in the IT and Computer Science field to continually update and expand technical knowledge."
+        ],
+        "2025": [
+          "Became an active member of a professional IT/Computer Science organization to stay updated on emerging trends, contribute to the field, and expand my professional network."
+        ],
+        "2026": [
+          "Pursue a Doctoral degree in Information Technology to advance my research capabilities and contribute to academic knowledge and innovation."
+        ],
+        "2027": [
+          "Pursue doctoral studies in [IT/Computer Science] and aim to publish at least one research paper in a peer-reviewed journal or conference during the course of my program."
+        ],
+        "2028": [
+          "Participate in specialized workshops and obtain recognized certifications in the IT and Computer Science fields to keep my technical skills current and continuously broaden my expertise."
+        ],
       },
       loading: {
-        "2024": ["Information Management", "Institutional Orientation"],
+        "2024": [
+          "Information Management", 
+          "Institutional Orientation"
+        ],
         "2025": ["Methods of Research"],
         "2026": ["Any Major BSIT/BSCS Courses"],
         "2027": ["Any Major BSIT/BSCS Courses"],
         "2028": ["Any Major BSIT/BSCS Courses"],
       },
       research: {
-        "2024": ["One of the proponents of a Faculty Study."],
-        "2025": ["One of the proponents of a Faculty Study."],
-        "2026": ["Present at least one research paper"],
-        "2027": ["Publish at least one research paper"],
-        "2028": ["Publish at least one research paper"],
+        "2024": [
+          "Attend relevant training and workshops to enhance teaching methods.",
+          "Participate in CLASSES extension by facilitating sessions on productivity tools."
+        ],
+        "2025": [
+          "Join professional organizations in IT and Computing.",
+          "Support institutional training programs and community outreach activities."
+        ],
+        "2026": [
+          "Apply learnings from doctoral studies to curriculum and teaching innovations.",
+          "Present teaching and learning practices at institutional or regional events.",
+          "Maintain active participation in CLASSES extension initiatives."
+        ],
+        "2027": [
+          "Engage in international or hybrid conferences to gain exposure.",
+          "Continue doctoral studies and progress to dissertation writing phase.",
+          "Mentor junior faculty and students in academic and professional growth."
+        ],
+        "2028": [
+          "Contribute to institutional development by sharing expertise in research and teaching.",
+          "Sustain leadership role in extension activities for community partners."
+        ],
       },
       extensions: {
-        "2024": ["Actively Participate in Extension programs"],
-        "2025": ["Actively Participate in Extension programs"],
-        "2026": ["Actively Participate in Extension programs"],
-        "2027": ["Actively Participate in Extension programs"],
-        "2028": ["Actively Participate in Extension programs"],
+        "2024": [
+          "Actively Participate in Extension programs"
+        ],
+        "2025": [
+          "Assist in organizing and running a campus-based “CLASSES” extension project campaign under BacoorEx to promote responsible technology use among students and parents"
+        ],
+        "2026": [
+          "Collaborate with fellow faculty in designing interactive learning experiences for community youth, such as gamified digital literacy or mobile app tutorials"
+        ],
+        "2027": [
+          "Initiate a short-term project or pilot session on Cyber Safety for Families, targeting barangay-level engagement and feedback-driven improvement."
+        ],
+        "2028": [
+          "Evaluate the impact of community-based digital wellness initiatives and co-author a documentation or case study for internal dissemination and planning."
+        ],
       }
     }
   },
@@ -9862,28 +10030,28 @@ export const people = [
     development_plan: {
       professionalDevelopment: {
         "2024": [
-          "Established effective systems and standards in computer laboratory management to improve teaching strategies.",
-          "Attended relevant seminars and training related to Information Technology."
+          "Strengthen computer laboratory systems and improve classroom teaching strategies.",
+          "Attended seminars and trainings related to IT instruction and lab management."
         ],
         "2025": [
-          "Established effective systems and standards in computer laboratory management to improve teaching strategies.",
-          "Attended relevant seminars and training related to Information Technology.",
-          "Stayed updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
+          "Continue improving laboratory operations through updated systems and standards.",
+          "Attended trainings on new and emerging technologies.",
+          "Apply updated tools and methods in teaching and laboratory practices."
         ],
         "2026": [
-          "Continue to Establish an effective systems and standards in computer laboratory management and to improve teaching strategies",
-          "Continue to Attend relevant seminars and training related to Information Technology.",
-          "Staying updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
+          "Sustain participation in trainings and workshops on ICT and digital tools.",
+          "Maintain updated practices in teaching and lab operations.",
+          "Take active part in extension programs under CLASSES to share ICT skills with the community."
         ],
         "2027": [
-          "Continue to Establish an effective systems and standards in computer laboratory management and to improve teaching strategies",
-          "Continue to Attend relevant seminars and training related to Information Technology.",
-          "Staying updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
+          "Enhance professional development through additional IT-related certifications or courses.",
+          "Mentor students and assist junior faculty in laboratory practices.",
+          "Participate in institutional projects that require technical support and ICT expertise"
         ],
         "2028": [
-          "Continue to Establish an effective systems and standards in computer laboratory management and to improve teaching strategies",
-          "Continue to Attend relevant seminars and training related to Information Technology.",
-          "Staying updated with new and emerging technologies to ensure the integration of the latest tools, software, and methodologies in both laboratory operations and ICT instruction."
+          "Continue pursuing advanced trainings as preparation for graduate studies.",
+          "Share best practices in laboratory management with peers and students.",
+          "Take on leadership role in extension activities focused on digital literacy."
         ],
       },
       loading: {
@@ -9910,45 +10078,41 @@ export const people = [
       },
       research: {
         "2024": [
-          "Guided students with their research development.",
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects."
+          "Attended research capability-building seminars or workshops to strengthen foundational research skills.",
+          "Explore potential research topics aligned with information technology and digital tools."
         ],
         "2025": [
-          "Guided students with their research development.",
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects."
+          "Begin drafting a personal research proposal that can be developed into a formal study.",
+          "Collaborated with peers or faculty members to gain experience in co-authoring research papers."
         ],
         "2026": [
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects."
+          "Conduct an individual or co-authored research study and seek opportunities for presentation at institutional or regional research forums.",
+          "Continue enhancing research skills by attending trainings on research methodology and academic writing."
         ],
         "2027": [
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects.",
-          "Serve as Adviser in undergraduate capstone/thesis projects."
+          "Finalize and present a personal research paper at national conferences.",
+          "Revise research work for possible submission to a refereed or institutional journal."
         ],
         "2028": [
-          "Serve as Technical Critic or panelist in undergraduate capstone/thesis projects.",
-          "Serve as Adviser in undergraduate capstone/thesis projects."
+           "Publish an individual or co-authored research article in a reputable local or international journal.",
+           "Initiate planning for future research aligned with postgraduate studies or advanced specialization."
         ],
       },
       extensions: {
         "2024": [
-          "Participated in extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
+          "Participated in extension activities and programs"
         ],
         "2025": [
-          "Participated in extension activities and programs",
           "Assist and provide the equipment and materials needed for extension activities"
         ],
         "2026": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
+          "Support extension activities and programs"
         ],
         "2027": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
+          "Collaborated with faculty peers to assess and revise learning materials based on community feedback and evolving tech needs."
         ],
         "2028": [
-          "Support extension activities and programs",
-          "Assist and provide the equipment and materials needed for extension activities"
+          "Help design and launch an advanced training series to ensure long-term digital capability development in partner areas."
         ],
       }
     }
@@ -20228,5 +20392,100 @@ export const people = [
       },
     }
   },
+
+  //Zannie I. Gamuyao
+  // {
+  //   first_name: "Zannie",
+  //   last_name: "Gamuyao",
+  //   name: "Zannie I. Gamuyao, MSM",
+  //   isCS: true,
+  //   designation: "Faculty",
+  //   image: null,
+  //   diploma: null,
+  //   masters_diploma: null,
+  //   tor: null,
+  //   eligibility: null,
+  //   resume: null,
+  //   certificates: null,
+  //   speaking_engagements: null,
+  //   schedule: [],
+  //   evaluation_scores: [],
+  //   evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+  //   development_plan: {
+  //     professionalDevelopment: {
+  //       "2024": [
+  //         "An active member of national and international mathematical societies"
+  //       ],
+  //       "2025": [
+  //         "Obtained certifications in Statistical Modeling and Machine Learning to integrate math with computing and industry practice."
+  //       ],
+  //       "2026": [
+  //         " Serve as a research mentor and panelist in graduate-level programs, extending expertise beyond mathematics into applied sciences."
+  //       ],
+  //       "2027": [
+  //         "Finalize dissertation writing, strengthen research presentation skills, and participate in doctoral colloquia."
+  //       ],
+  //       "2028": [
+  //         "Earn doctoral degree in Mathematics and pursue advanced training in data analytics, AI, and mathematical computing."
+  //       ],
+  //     },
+  //     loading: {
+  //       "2024": [
+  //         "Quantitative Methods",
+  //         "Applied Statistics"
+  //       ],
+  //       "2025": [
+  //         "Quantitative Methods",
+  //         "Applied Statistics"
+  //       ],
+  //       "2026": [
+  //         "Quantitative Methods",
+  //         "Applied Statistics"
+  //       ],
+  //       "2027": [
+  //         "Quantitative Methods",
+  //         "Applied Statistics"
+  //       ],
+  //       "2028": [
+  //         "Quantitative Methods",
+  //         "Applied Statistics"
+  //       ],
+  //     },
+  //     research: {
+  //       "2024": [
+  //         "Engage in collaborative interdisciplinary research linking mathematics, computer science, and education for predictive analytics and modeling."
+  //       ],
+  //       "2025": [
+  //         "Lead a funded research project on mathematical modeling for disaster risk reduction and climate resilience."
+  //       ],
+  //       "2026": [
+  //         "Publish a research monograph consolidating mathematical innovations applied to technology, education, and sustainability."
+  //       ],
+  //       "2027": [
+  //         "Complete and defend dissertation in Mathematics, focusing on advanced mathematical models and their real-world applications."
+  //       ],
+  //       "2028": [
+  //         "Publish two research papers in international journals on applied mathematics for computing and data science."
+  //       ],
+  //     },
+  //     extensions: {
+  //       "2024": [
+  //         "Participated in the Department Extension Project (CLASSES)"
+  //       ],
+  //       "2025": [
+  //         "Engage with Innovation and Collaborate with the department extension project"
+  //       ],
+  //       "2026": [
+  //         "Partner with Barangay Molino II to conduct a Community Data Skills Bootcamp, teaching residents how to use spreadsheets and basic statistics for small businesses and community "
+  //       ],
+  //       "2027": [
+  //         "Launch a Content Creation with Data program, helping teachers and students integrate infographics, charts, and math-based visuals in digital content."
+  //       ],
+  //       "2028": [
+  //         "Establish a Math & Data for Online Business Program, guiding community partners in using data analytics for online entrepreneurship under CLASSES."
+  //       ],
+  //     }
+  //   }
+  // },
 
 ];
