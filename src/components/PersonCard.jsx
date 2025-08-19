@@ -1,14 +1,12 @@
 // MODIFICATION: Imported the `useMemo` hook from React.
 import React, { useState, useEffect, useMemo } from "react";
 import PersonList from "./PersonList";
-import { useNavigate } from "react-router-dom";
 import { people } from "../data";
 import { X, Search } from "lucide-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function PersonCard() {
   const [currentPage, setCurrentPage] = useState(1);
-  const navigate = useNavigate();
 
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");

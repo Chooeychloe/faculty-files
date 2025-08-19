@@ -4182,6 +4182,7 @@ export const people = [
     name: "Edan A. Belgica",
     isCS: true,
     designation: "Faculty",
+    portfolio: "https://dhan-portfolio.vercel.app",
     image: "/images/belgic.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",

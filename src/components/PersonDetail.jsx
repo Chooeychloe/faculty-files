@@ -21,6 +21,7 @@ function PersonDetail() {
     last_name,
     name,
     designation,
+    portfolio,
     image,
     diploma,
     resume,
@@ -49,6 +50,7 @@ function PersonDetail() {
               last_name={last_name}
               name={name}
               designation={designation}
+              portfolio={portfolio}
               image={image}
               diploma={diploma}
               masters_diploma={masters_diploma}
