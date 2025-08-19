@@ -13,6 +13,7 @@ function PersonInfoCard({
   speaking_engagements,
   eligibility,
   membership,
+  portfolio,
 }) {
   return (
     // Main card container
@@ -30,12 +31,23 @@ function PersonInfoCard({
           </div>
           <h2 className="text-3xl font-bold text-center mb-2">{name}</h2>
 
-          {designation  && (
+          {designation && (
             <div className="text-center mb-4">
               <p className="text-xl font-semibold text-red-900 mb-1">
                 {designation}
               </p>
             </div>
+          )}
+
+          {portfolio && (
+            <a
+              href={portfolio}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-red-900"
+            >
+             <i className="text-blue-600">{portfolio}</i> 
+            </a>
           )}
 
           {/* {designation &&
