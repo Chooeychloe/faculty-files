@@ -1751,7 +1751,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.8, 4.7, 4.9, 4.8, 4.9, 4.45],
+    evaluation_scores: [3.72, 4.56, 4.49, 4.22, 4.72, 4.45],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -3409,8 +3409,8 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.75, 4.33, 4.53],
-    evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
+    evaluation_scores: [4.03, 4.75, 4.33, 4.51, 4.53],
+    evaluation_labels: ["2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
         "2024": [
@@ -4132,7 +4132,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.46],
+    evaluation_scores: [4.52, 4.46],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -4973,7 +4973,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 3.97, null, 4.34],
+    evaluation_scores: [4.36, 4.21, 4.04, 3.97, 3.66, 4.34],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -5656,7 +5656,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, 4.12, null, 4.25],
+    evaluation_scores: [4.03, 4.17, 4.12, 4.43, 4.25],
     evaluation_labels: ["2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -5974,7 +5974,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 4.41],
+    evaluation_scores: [4.25, 4.41],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -6528,7 +6528,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [4.71, 4.19, null, 3.67],
+    evaluation_scores: [4.71, 4.19, 3.67, 3.67],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -7109,7 +7109,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, 3.94, null, 3.66],
+    evaluation_scores: [3.78, 3.94, 3.61, 3.66],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
@@ -7819,7 +7819,7 @@ export const people = [
         }
       }
     ],
-    evaluation_scores: [null, null, null, 4.36, null, 4.16],
+    evaluation_scores: [4.68, 4.52, 4.44, 4.36, 3.88, 4.16],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
     development_plan: {
       professionalDevelopment: {
