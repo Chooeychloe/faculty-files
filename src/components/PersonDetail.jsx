@@ -8,6 +8,7 @@ import DevelopmentPlan from "./FacultyDetails/DevelopmentPlan";
 import NotFound from "./NotFound";
 import Footer from "./widgets/Footer";
 import Navigation from "./DashboardComponents/Navigation";
+import ResearchAndExtension from "./FacultyDetails/ResearchAndExtension";
 
 function PersonDetail() {
   const { state } = useLocation();
@@ -61,6 +62,9 @@ function PersonDetail() {
               speaking_engagements={speaking_engagements}
               membership={membership}
             />
+          </div>
+          <div className="w-full max-w-6xl">
+            <ResearchAndExtension/>
           </div>
 
           {/* Section 2: Evaluation Chart */}
