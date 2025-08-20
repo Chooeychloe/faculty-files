@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "/diploma/cvsu.ico";
 
-function PersonHeader({ text, subtitle }) {
+function PersonHeader() {
   const navigate = useNavigate();
 
   return (

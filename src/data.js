@@ -1801,7 +1801,7 @@ export const people = [
           "Take part in extension leadership by facilitating digital skills training under CLASSES."
         ],
         "2028": [
-          "Complete dissertation requirements for the DIT program.","Mentor junior faculty and students on academic and professional development.",
+          "Complete dissertation requirements for the DIT program.", "Mentor junior faculty and students on academic and professional development.",
           "Sustain active participation in community extension and institutional training programs."
         ],
       },
@@ -3930,11 +3930,11 @@ export const people = [
           "COSC 85: OPERATING SYSTEMS"
         ],
         "2025": [
-          "COSC 90: PROGRAMMING LANGUAGES", "COSC 70: SOFTWARE ENGINEERING I", 
+          "COSC 90: PROGRAMMING LANGUAGES", "COSC 70: SOFTWARE ENGINEERING I",
           "ITEC 65: OPEN-SOURCE TECHNOLOGY"
         ],
         "2026": [
-          "COSC 85: OPERATING SYSTEMS", 
+          "COSC 85: OPERATING SYSTEMS",
           "ITEC 55: PLATFORM TECHNOLOGIES"
         ],
         "2027": ["Any Major Subject BSIT/BSCS Course"],
@@ -5116,7 +5116,7 @@ export const people = [
     first_name: "Ralph Christian",
     last_name: "Bolarda",
     name: "Ralph Christian Bolarda, MIT",
-    isCS: false,
+    isCS: true,
     designation: "Faculty",
     image: "/images/bolarda.JPG",
     diploma: [{
@@ -5768,12 +5768,12 @@ export const people = [
       },
       loading: {
         "2024": [
-          "Advanced Database Management System", 
-          "Web System and Technologies", 
+          "Advanced Database Management System",
+          "Web System and Technologies",
           "Web System and Technologies"
         ],
         "2025": [
-          "Advanced Database Management System", 
+          "Advanced Database Management System",
           "Human Computer Interaction 2"
         ],
         "2026": [
@@ -7969,7 +7969,7 @@ export const people = [
       },
       loading: {
         "2024": [
-          "Information Management", 
+          "Information Management",
           "Institutional Orientation"
         ],
         "2025": ["Methods of Research"],
@@ -8027,7 +8027,7 @@ export const people = [
     first_name: "Alvin",
     last_name: "Celino",
     name: "Alvin P. Celino",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/celino.JPG",
     diploma: [{
@@ -8339,7 +8339,7 @@ export const people = [
     first_name: "Redem",
     last_name: "Decipulo",
     name: "Redem M. Decipulo",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/decipulo2.png",
     diploma: [
@@ -8585,7 +8585,7 @@ export const people = [
     first_name: "Rufino",
     last_name: "Dela Cruz",
     name: "Rufino A. Dela Cruz Jr.",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/delacruz.jpg",
     diploma: null,
@@ -9028,7 +9028,7 @@ export const people = [
     first_name: "Francisco",
     last_name: "Roi",
     name: "Roi M. Francisco",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/francisc.jpg",
     diploma: [
@@ -9733,7 +9733,7 @@ export const people = [
     first_name: "Edmund",
     last_name: "Martinez",
     name: "Edmund E. Martinez",
-    isCS: false,
+    isCS: true,
     designation: "Faculty",
     image: "/images/martinez.JPG",
     diploma: [{
@@ -10094,8 +10094,8 @@ export const people = [
           "Revise research work for possible submission to a refereed or institutional journal."
         ],
         "2028": [
-           "Publish an individual or co-authored research article in a reputable local or international journal.",
-           "Initiate planning for future research aligned with postgraduate studies or advanced specialization."
+          "Publish an individual or co-authored research article in a reputable local or international journal.",
+          "Initiate planning for future research aligned with postgraduate studies or advanced specialization."
         ],
       },
       extensions: {
@@ -10559,7 +10559,7 @@ export const people = [
     first_name: "Richard",
     last_name: "Ongayo",
     name: "Richard D. Ongayo",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/ongayo.JPG",
     diploma: [{
@@ -10945,7 +10945,7 @@ export const people = [
     first_name: "Aida",
     last_name: "Penson",
     name: "Aida M. Penson",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/penson.jpg",
     diploma: [{
@@ -11578,7 +11578,7 @@ export const people = [
     first_name: "Nestor Miguel",
     last_name: "Pimentel",
     name: "Nestor Miguel T. Pimentel",
-    isCS: false,
+    isCS: true,
     designation: "Faculty",
     image: "/images/pimentel.jpg",
     diploma: [{
@@ -12248,7 +12248,7 @@ export const people = [
     first_name: "Jay-Ar",
     last_name: "Racadio",
     name: "Jay-Ar A. Racadio",
-    isCS: false,
+    isCS: true,
     designation: "Faculty",
     image: "/images/racadio.jpeg",
     diploma: [{
@@ -16663,7 +16663,7 @@ export const people = [
     first_name: "Clarence",
     last_name: "Salvador",
     name: "Marc Clarence Salvador",
-    isCS: false,
+    isCS: true,
     designation: "Faculty",
     image: "/images/salvador.jpeg",
     diploma: [{
@@ -17334,7 +17334,7 @@ export const people = [
     first_name: "Jessica Ann",
     last_name: "Sambrano",
     name: "Jessica Ann Sambrano",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/sambrano.JPG",
     diploma: null,
@@ -19287,7 +19287,7 @@ export const people = [
     first_name: "Cesar II",
     last_name: "Talibong",
     name: "Cesar II B. Talibong ",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/talibong.jpg",
     diploma: [{
@@ -19927,7 +19927,7 @@ export const people = [
     first_name: "Russel Adrianne",
     last_name: "Villareal",
     name: "Russel Adrianne Villareal",
-    isCS: true,
+    isCS: false,
     designation: "Faculty",
     image: "/images/villareal.JPG",
     diploma: null,
@@ -20555,100 +20555,22 @@ export const people = [
       },
     }
   },
+  //Zannie Gamuyao
+  {
+    first_name: "Zannie",
+    last_name: "Gamuyao",
+    name: "Zannie I. Gamuyao, MSM",
+    isCS: true,
+    designation: "Faculty",
+    image: "/images/gamuyao.jpg",
+    diploma: null,
+    masters_diploma: null,
+    tor: null,
+    eligibility: null,
+    resume: null,
+    certificates: null,
+    speaking_engagements: null,
 
-  //Zannie I. Gamuyao
-  // {
-  //   first_name: "Zannie",
-  //   last_name: "Gamuyao",
-  //   name: "Zannie I. Gamuyao, MSM",
-  //   isCS: true,
-  //   designation: "Faculty",
-  //   image: null,
-  //   diploma: null,
-  //   masters_diploma: null,
-  //   tor: null,
-  //   eligibility: null,
-  //   resume: null,
-  //   certificates: null,
-  //   speaking_engagements: null,
-  //   schedule: [],
-  //   evaluation_scores: [],
-  //   evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
-  //   development_plan: {
-  //     professionalDevelopment: {
-  //       "2024": [
-  //         "An active member of national and international mathematical societies"
-  //       ],
-  //       "2025": [
-  //         "Obtained certifications in Statistical Modeling and Machine Learning to integrate math with computing and industry practice."
-  //       ],
-  //       "2026": [
-  //         " Serve as a research mentor and panelist in graduate-level programs, extending expertise beyond mathematics into applied sciences."
-  //       ],
-  //       "2027": [
-  //         "Finalize dissertation writing, strengthen research presentation skills, and participate in doctoral colloquia."
-  //       ],
-  //       "2028": [
-  //         "Earn doctoral degree in Mathematics and pursue advanced training in data analytics, AI, and mathematical computing."
-  //       ],
-  //     },
-  //     loading: {
-  //       "2024": [
-  //         "Quantitative Methods",
-  //         "Applied Statistics"
-  //       ],
-  //       "2025": [
-  //         "Quantitative Methods",
-  //         "Applied Statistics"
-  //       ],
-  //       "2026": [
-  //         "Quantitative Methods",
-  //         "Applied Statistics"
-  //       ],
-  //       "2027": [
-  //         "Quantitative Methods",
-  //         "Applied Statistics"
-  //       ],
-  //       "2028": [
-  //         "Quantitative Methods",
-  //         "Applied Statistics"
-  //       ],
-  //     },
-  //     research: {
-  //       "2024": [
-  //         "Engage in collaborative interdisciplinary research linking mathematics, computer science, and education for predictive analytics and modeling."
-  //       ],
-  //       "2025": [
-  //         "Lead a funded research project on mathematical modeling for disaster risk reduction and climate resilience."
-  //       ],
-  //       "2026": [
-  //         "Publish a research monograph consolidating mathematical innovations applied to technology, education, and sustainability."
-  //       ],
-  //       "2027": [
-  //         "Complete and defend dissertation in Mathematics, focusing on advanced mathematical models and their real-world applications."
-  //       ],
-  //       "2028": [
-  //         "Publish two research papers in international journals on applied mathematics for computing and data science."
-  //       ],
-  //     },
-  //     extensions: {
-  //       "2024": [
-  //         "Participated in the Department Extension Project (CLASSES)"
-  //       ],
-  //       "2025": [
-  //         "Engage with Innovation and Collaborate with the department extension project"
-  //       ],
-  //       "2026": [
-  //         "Partner with Barangay Molino II to conduct a Community Data Skills Bootcamp, teaching residents how to use spreadsheets and basic statistics for small businesses and community "
-  //       ],
-  //       "2027": [
-  //         "Launch a Content Creation with Data program, helping teachers and students integrate infographics, charts, and math-based visuals in digital content."
-  //       ],
-  //       "2028": [
-  //         "Establish a Math & Data for Online Business Program, guiding community partners in using data analytics for online entrepreneurship under CLASSES."
-  //       ],
-  //     }
-  //   }
-  // },
+  },
 
 ];
