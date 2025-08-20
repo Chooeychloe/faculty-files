@@ -25,14 +25,8 @@ function Header() {
   );
 
   return (
-    // MODIFICATION: Replaced the React Fragment `<>` with a `<div>`.
-    // ADDITION: Added classes to this div to define the page layout and, most importantly, the font.
     <div className="flex flex-col min-h-screen  font-funnel">
-      {/* ADDITION: Made the Navigation sticky on this page as well for consistency. */}
-      <Navigation className="sticky top-0 z-50" />
-
-      {/* MODIFICATION: Wrapped the main content in a `flex-grow` div. */}
-      {/* This ensures the footer is pushed to the bottom of the screen, even if the content is short. */}
+      <Navigation className="top-0 z-50" />
 
       <PersonCard data={filteredPeople} />
       <Footer textColor={"text-white"} spanColor={"text-red-900"} />

@@ -19,7 +19,7 @@ function PersonList({ data }) {
           className="card bg-amber-50 border border-gray-200 rounded-lg shadow hover:scale-105 cursor-pointer transition ease-in-out delay-50"
         >
           <div className="relative w-full" style={{ paddingBottom: "125%" }}>
-            <picture className="absolute inset-0 w-full h-full">
+            <picture className="absolute inset-0 w-full h-full rounded-lg overflow-hidden">
               {person.optimizedImages?.webp && (
                 <source
                   srcSet={`${person.optimizedImages.webp.small} 480w, ${person.optimizedImages.webp.medium} 800w, ${person.optimizedImages.webp.large} 1200w`}
