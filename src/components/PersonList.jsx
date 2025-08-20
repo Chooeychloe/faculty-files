@@ -5,11 +5,10 @@ function PersonList({ data }) {
   const navigate = useNavigate();
 
   const handlePersonClick = (person) => {
-    navigate(`/person/${person.last_name}${person.first_name}`, {
-      state: { person },
-    });
+    if (!person.isCS) return;
+    const id = `${person.last_name}${person.first_name}`;
+    navigate(`/person/${id}`, { state: { person } });
   };
-
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-12">
       {data.map((person, index) => (

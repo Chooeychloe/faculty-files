@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { people } from "../data";
-// REMOVED: Unused import of PersonHeader.
 import Footer from "./widgets/Footer";
 import Navigation from "./DashboardComponents/Navigation";
 
@@ -10,6 +9,7 @@ function OrgChart() {
   const [selectedYear, setSelectedYear] = useState("Computer Science Program");
 
   const handleClick = (person) => {
+    if (!person.isCS) return;
     const id = `${person.last_name}${person.first_name}`;
     navigate(`/person/${id}`, { state: { person } });
   };
@@ -23,15 +23,10 @@ function OrgChart() {
   const coordinators = people.slice(1, 3);
   const facultyMembers = people.slice(3);
 
-  // MODIFICATION: The root div is now a flex container for a robust layout.
-  // REMOVED: The `py-10` padding has been removed from this root container.
   return (
     <div className="flex flex-col min-h-screen bg-amber-50 font-funnel">
       <Navigation className=" top-0 z-50" />
 
-      {/* ADDITION: The page content is now wrapped in a `<main>` tag. */}
-      {/* ADDITION: This main tag grows to push the footer down. */}
-      {/* MODIFICATION: The `py-10` padding is now correctly applied here, only affecting the content. */}
       <main className="flex-grow py-10 px-4">
         <div className="flex justify-center gap-4 mb-8">
           {[

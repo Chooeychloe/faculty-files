@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-// REMOVED: Unused imports can be cleaned up
-// import Logo from "/diploma/cvsu.ico";
-// import { X, Search } from "lucide-react";
+
 import PersonCard from "./PersonCard";
 import { people } from "../data";
 import Footer from "./widgets/Footer";
 import Navigation from "./DashboardComponents/Navigation";
 
 function Header() {
-  const navigate = useNavigate();
-  const [search, setSearch] = useState("");
+  const [search] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
 
   useEffect(() => {

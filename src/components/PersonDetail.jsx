@@ -64,25 +64,30 @@ function PersonDetail() {
           </div>
 
           {/* Section 2: Evaluation Chart */}
-          <div className="w-full max-w-6xl">
-            <EvaluationChart
-              name={name}
-              first_name={first_name}
-              last_name={last_name}
-              evaluationScores={evaluation_scores}
-              evaluationLabels={evaluation_labels}
-            />
-          </div>
-
+          {evaluation_scores && evaluation_labels && (
+            <div className="w-full max-w-6xl">
+              <EvaluationChart
+                name={name}
+                first_name={first_name}
+                last_name={last_name}
+                evaluationScores={evaluation_scores}
+                evaluationLabels={evaluation_labels}
+              />
+            </div>
+          )}
           {/* Section 3: Faculty Schedule Table */}
-          <div className="w-full max-w-6xl">
-            <FacultySchedule schedule={schedule} />
-          </div>
+          {schedule && (
+            <div className="w-full max-w-6xl">
+              <FacultySchedule schedule={schedule} />
+            </div>
+          )}
 
           {/* Section 4: Individual Development Plan Table */}
-          <div className="w-full max-w-6xl">
-            <DevelopmentPlan development_plan={development_plan} />
-          </div>
+          {development_plan && (
+            <div className="w-full max-w-6xl">
+              <DevelopmentPlan development_plan={development_plan} />
+            </div>
+          )}
         </div>
       </div>
       <Footer spanColor={"text-red-900"}></Footer>

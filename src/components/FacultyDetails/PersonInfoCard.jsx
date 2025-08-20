@@ -50,23 +50,7 @@ function PersonInfoCard({
             </a>
           )}
 
-          {/* {designation &&
-            Array.isArray(designation) &&
-            designation > 0 && (
-              <div className="mb-6 border-t pt-4 border-gray-300">
-                <h3 className="text-base font-semibold text-gray-800 mb-2">
-                  Designations
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-red-900 text-start">
-                  {designations.last_designation.map((item, index) => (
-                    <li key={index} className="text-sm">
-                      <span className="font-medium">{item.designation}</span>(
-                      {item.year})
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )} */}
+        
         </div>
 
         {/* === RIGHT COLUMN === */}
