@@ -1,7 +1,6 @@
 // src/components/Navigation.js
 
-// MODIFICATION: Removed `useState` as it's no longer needed for a CSS-only hover effect.
-import { useState } from "react"; // Kept for the mobile menu state
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
@@ -9,7 +8,6 @@ import Logo from "/diploma/cvsu.ico";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 export default function Navigation({ className }) {
-  // State for the mobile menu is still needed and correct.
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
 
@@ -44,7 +42,6 @@ export default function Navigation({ className }) {
               </div>
             </div>
 
-            {/* --- Desktop Navigation --- */}
             <nav className="hidden md:flex items-center space-x-8 text-amber-50">
               <NavLink
                 to="/"
@@ -54,7 +51,6 @@ export default function Navigation({ className }) {
               >
                 Home
               </NavLink>
-
               <NavLink
                 to="/home"
                 style={activeLinkStyle}
@@ -62,7 +58,6 @@ export default function Navigation({ className }) {
               >
                 Faculty
               </NavLink>
-
               <NavLink
                 to="/orgchart"
                 style={activeLinkStyle}
@@ -71,7 +66,7 @@ export default function Navigation({ className }) {
                 Organizational Chart
               </NavLink>
 
-              <div className="relative inline-block group">
+              <div className="relative group">
                 <div className="flex items-center font-medium border-b-2 border-transparent group-hover:border-amber-400 transition-colors duration-200 cursor-default">
                   About Us
                   <ChevronDown
@@ -81,32 +76,32 @@ export default function Navigation({ className }) {
                 </div>
 
                 <div
-                  className="absolute right-0 mt-2 w-56 bg-red-800 rounded-md shadow-lg z-50 origin-top-right transition-all duration-200 ease-out
+                  className="absolute right-0 pt-2 w-56 origin-top-right transition-all duration-200 ease-out
                              transform opacity-0 scale-95 pointer-events-none 
                              group-hover:transform group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto"
                 >
-                  <div className="py-1">
+                  <div className="bg-red-800 rounded-md shadow-lg py-1">
                     <Link
                       to="/#visionmission"
-                      className="block px-4 py-2 text-sm text-amber-50 hover:bg-red-700"
+                      className="block px-4 py-2 text-sm rounded-t-md text-amber-50 transform-all duration-200 hover:bg-red-900 hover:text-amber-400 hover:text-base"
                     >
                       Vision & Mission
                     </Link>
                     <Link
                       to="/#campus-goals"
-                      className="block px-4 py-2 text-sm text-amber-50 hover:bg-red-700"
+                      className="block px-4 py-2 text-sm text-amber-50 transform-all duration-200 hover:bg-red-900 hover:text-amber-400 hover:text-base"
                     >
                       Campus Goals
                     </Link>
                     <Link
                       to="/#dept-objectives"
-                      className="block px-4 py-2 text-sm text-amber-50 hover:bg-red-700"
+                      className="block px-4 py-2 text-sm text-amber-50 transform-all duration-200 hover:bg-red-900 hover:text-amber-400 hover:text-base"
                     >
                       Department Objectives
                     </Link>
                     <Link
                       to="/#cs-objectives"
-                      className="block px-4 py-2 text-sm text-amber-50 hover:bg-red-700"
+                      className="block px-4 py-2 text-sm rounded-b-md text-amber-50 transform-all duration-200 hover:bg-red-900 hover:text-amber-400 hover:text-base"
                     >
                       CS Objectives
                     </Link>
@@ -115,7 +110,6 @@ export default function Navigation({ className }) {
               </div>
             </nav>
 
-            {/* --- Mobile Hamburger Button --- */}
             <div className="md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(true)}
@@ -128,7 +122,6 @@ export default function Navigation({ className }) {
         </div>
       </header>
 
-      {/* --- Mobile Menu Overlay --- */}
       {isMobileMenuOpen && (
         <div className="fixed inset-0 bg-red-900 z-50 flex flex-col items-center justify-center text-amber-50 md:hidden">
           <button
