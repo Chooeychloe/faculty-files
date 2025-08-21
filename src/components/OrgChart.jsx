@@ -33,7 +33,7 @@ function OrgChart() {
             "Computer Science Program",
             "2024-2025",
             "2023-2024",
-            "2022-2023",
+            // "2022-2023",
           ].map((year) => (
             <button
               key={year}
