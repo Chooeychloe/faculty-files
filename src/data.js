@@ -7,6 +7,22 @@ export const people = [
     isCS: true,
     designation: "Department Chairperson",
     image: "/images/ocampo1.JPG",
+    research: [{
+      name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    },
+    {
+      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+      url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    },
+    {
+      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+      url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    },],
+    extension: {
+      image: "/extension/extension-ocampo.jpg",
+      url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1eb7ywoWS-hKWnlj8g9OfPXKNqLJrQhiy/view?usp=drive_link"
@@ -1105,6 +1121,29 @@ export const people = [
     isCS: true,
     designation: "Program Coordinator, Computer Science",
     image: "/images/briones.JPG",
+    research: [{
+      name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    },
+
+    {
+      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+      url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    },
+    {
+      name: "Tambuli",
+      url: ""
+    },
+    {
+      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+      url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    },
+    ],
+
+    extension: {
+      image: "/extension/extension-briones.jpg",
+      url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN Computer Science",
       url: "https://drive.google.com/file/d/1tpMZvR2nZDrYbfcw-2R8Vhskbep96gZ5/view?usp=drive_link"
@@ -1388,6 +1427,22 @@ export const people = [
     isCS: true,
     designation: "Program Coordinator, Information Technology",
     image: "/images/montallana.JPG",
+    // research: [{
+    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    // },
+    // {
+    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    // },
+    // {
+    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    // },],
+    extension: {
+      image: "/extension/extension-montallana.jfif",
+      url: "https://drive.google.com/drive/folders/1BPdSr_u3K7C_QwvNg1gIlsOTVBjctH6D?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1YGFTDqhOpQLm-MTyVf-G1rIjkLK4Ywyi/view?usp=sharing"
@@ -1884,6 +1939,22 @@ export const people = [
     image: "/images/bato.JPG",
     isCS: true,
     designation: "Head, OSAS",
+    // research: [{
+    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    // },
+    // {
+    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    // },
+    // {
+    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    // },],
+    extension: {
+      image: "/extension/extension-bato.jpg",
+      url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1zgcMEhmGPtSmFFNlCyWQ11oH_XPMNvVw/view?usp=sharing"
@@ -4271,8 +4342,17 @@ export const people = [
     last_name: "Belgica",
     name: "Edan A. Belgica",
     isCS: true,
+    research: [{
+      name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    }],
+    extension: {
+      image: "/extension/extension-belgica.jpg",
+      url: "https://drive.google.com/drive/folders/1mTylSv93-VvO42-J_rfPT5R0XvpKGVFw?usp=drive_link"
+    },
     designation: "Faculty",
     portfolio: "https://dhan-portfolio.vercel.app",
+
     image: "/images/belgic.jpeg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -7310,6 +7390,17 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1RQ0DgQMHf7YU3pz7kdKQHFcap4yGH4t7/view?usp=sharing"
     },],
+    research: [{
+      name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    }, {
+      name: "Predicting Student's Probability of Passing Major Courses using Logistic Regression and Support Vector Machine",
+      url: "https://drive.google.com/drive/folders/1-o8diTqXAjrM83zQsYNC6qj_zT5cz-XE?usp=drive_link"
+    }],
+    extension: {
+      image: "/extension/extension-catalo.jpg",
+      url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
+    },
     masters_diploma: [{
       name: "MASTER IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/17pcc6vsjQsTbD0p9JFlosmscHF9p1rn_/view?usp=sharing"
@@ -12944,6 +13035,22 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/ramallosa.jpg",
+    // research: [{
+    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    // },
+    // {
+    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    // },
+    // {
+    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    // },],
+    extension: {
+      image: "/extension/extension-ramallosa.jfif",
+      url: "https://drive.google.com/drive/folders/1fK1tU4ZvtrqoXdHSPNn-R_kXwDe6HTYM?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1QXj6xXdx7JpqUH--a9Oy823GOT_p53LX/view?usp=sharing"
@@ -15006,6 +15113,28 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/rodriguez.JPG",
+    //    research: [{
+    //     name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //     url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    //   },
+
+    //   {
+    //     name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //     url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    //   },
+    //     {
+    //     name: "Tambuli",
+    //     url: ""
+    //   },
+    //   {
+    //     name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //     url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    //   },
+    // ],
+    extension: {
+      image: "/extension/extension-rodriguez.jpg",
+      url: "https://drive.google.com/drive/folders/1fK1tU4ZvtrqoXdHSPNn-R_kXwDe6HTYM?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1Yd8S93cy4y0yqfW-bMZ_Dn3knzwEVHK5/view?usp=drive_link"
@@ -15994,6 +16123,14 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/rostrollo.JPG",
+    research: [{
+      name: "Design and Development of a Multi-Purpose Arduino Based Solar Powered Pest Device",
+      url: "https://drive.google.com/drive/folders/1gU0VTr-pa1GZNGSVztCQHonuFujRLskX?usp=drive_link"
+    }],
+    extension: {
+      image: "/extension/extension-rostrollo.jpg",
+      url: "https://drive.google.com/drive/folders/1mTylSv93-VvO42-J_rfPT5R0XvpKGVFw?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1AVuWCCM4vQ4BfdTWSiGd5lgbx0JrAvjn/view?usp=drive_link"
@@ -16666,6 +16803,28 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/salvador.jpeg",
+    // research: [{
+    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    // },
+
+    // {
+    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    // },
+    // {
+    //   name: "Tambuli",
+    //   url: ""
+    // },
+    // {
+    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    // },
+    // ],
+    extension: {
+      image: "/extension/extension-salvador.jpg",
+      url: "https://drive.google.com/drive/folders/1fK1tU4ZvtrqoXdHSPNn-R_kXwDe6HTYM?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1VrQw_lrZr5FNg2r0ExYMpoLyYvQ-O4da/view?usp=drive_link"
@@ -17852,6 +18011,22 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/sarmiento.jpg",
+    // research: [{
+    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    // },
+    // {
+    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    // },
+    // {
+    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    // },],
+    extension: {
+      image: "/extension/extension-sarmiento.jpg",
+      url: "https://example.com"
+    },
     diploma: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
       url: "https://drive.google.com/file/d/1LQjwYOBtlZKYHgSfKwob4S4jIs7s1uF4/view?usp=drive_link"
@@ -18361,6 +18536,22 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/tacata.JPG",
+    // research: [{
+    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
+    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    // },
+    // {
+    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    // },
+    // {
+    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    // },],
+    extension: {
+      image: "/extension/extension-tacata.jfif",
+      url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
+    },
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1yrj7_HQsfVOQ_xVScgh6q4jhJ4wqpHr-/view?usp=drive_link"
@@ -20563,13 +20754,126 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/gamuyao.jpg",
-    diploma: null,
-    masters_diploma: null,
-    tor: null,
-    eligibility: null,
-    resume: null,
-    certificates: null,
-    speaking_engagements: null,
+    // research: "Triangle",
+    // extension: {
+    //   image: "/extension/extension-ocampo.jpg",
+    //   url: "https://example.com"
+    // },
+    diploma: [{
+      name: "BACHELOR OF SCIENCE IN MATHEMATICS",
+      url: "https://drive.google.com/file/d/1bdUGEqvkAf3VQhoCnAps1ApbLPke20eX/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "MASTER OF SCIENCE IN MATHEMATICS",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
+    }],
+    tor: [
+
+      {
+        name: "BACHELOR OF SCIENCE IN MATHEMATICS",
+        url: "https://drive.google.com/file/d/1Z3AdiOa4RhmfKxuGTEsXXiAnbAB2RYJE/view?usp=drive_link"
+      },
+      {
+        name: "MASTER OF SCIENCE IN MATHEMATICS",
+        url: "https://drive.google.com/file/d/1_sXLNEEfm2XZPp04Ya88dC2yERvRvjb9/view?usp=drive_link"
+      },
+    ],
+
+    // resume: "https://drive.google.com/file/d/1_pRyAoW8oieEtTcWmI7pfpaJymr8VdLx/view?usp=drive_link",
+    certificates: [
+
+      {
+        name: "DICT: Data Privacy Awareness for the Academe",
+        url: "https://drive.google.com/file/d/1EP6YKJApiKacZbLGCB9N0fSUQzX0WvLZ/view?usp=drive_link"
+      },
+      {
+        name: "DICT: Cybersecurity: How to Prevent, Detect, and React from Cyber Threats & Attacks",
+        url: "https://drive.google.com/file/d/1xZqym63J9NKJMN4tZDrQxIrA0MnS6opq/view?usp=drive_link"
+      }
+    ],
+    speaking_engagements: [
+      {
+        name: "Resource Speaker: FLIP BUILDER Orientation",
+        url: "https://drive.google.com/file/d/1_ZaVEblW1GDYBK2KVqK_acZQN22xG7mc/view?usp=drive_link"
+      }
+
+    ],
+
+  },
+  //Maria Lourdez Lamanilao
+  {
+    first_name: "Maria Lourdez",
+    last_name: "Lamanilao",
+    name: "Maria Lourdez Lamanilao, MBA",
+    isCS: true,
+    designation: "Faculty",
+    image: "/images/lamanilao.jpg",
+    // research: "Triangle",
+    // extension: {
+    //   image: "/extension/extension-ocampo.jpg",
+    //   url: "https://example.com"
+    // },
+    diploma: [{
+      name: "Associate in Computer Science",
+      url: "https://drive.google.com/file/d/1qE0359qRLpxhbOU1FSVUj26EI-GSSURu/view?usp=drive_link"
+    },],
+    masters_diploma: [{
+      name: "MASTER IN BUSINESS ADMINISTRATION",
+      url: "https://drive.google.com/file/d/1ncMrMIuFgzShTkYSZorV1glD9pTbGB_u/view?usp=drive_link"
+    }],
+    tor: [
+
+      {
+        name: "MASTER IN BUSINESS ADMINISTRATION",
+        url: "https://drive.google.com/file/d/1kXL8FOh74fEL8gmATpXf_S151127YUoo/view?usp=drive_link"
+      },
+
+    ],
+
+    resume: "https://drive.google.com/file/d/1Se89lVfZKwK3ki47EE7ZUFN7RUDkaoVc/view?usp=drive_link",
+    certificates: [
+
+      {
+        name: "Data Associate Capstone Course",
+        url: "https://drive.google.com/file/d/1K0MwbrktWqWs5Dn-FrFltw8NGAq77U1R/view?usp=drive_link"
+      },
+      {
+        name: "Data Associate Pathway",
+        url: "https://drive.google.com/file/d/1d0kdFr-kzVSm3azcFfTGtT1mqbkX3WIw/view?usp=drive_link"
+      },
+      {
+        name: "Data Visualization Fundamentals",
+        url: "https://drive.google.com/file/d/1XYHBwRpCO2Rls-6xr629QA8QNxG7tPMB/view?usp=drive_link"
+      }, {
+        name: "Enterprise Data Governance",
+        url: "https://drive.google.com/file/d/1NfFRdOFmu47LwPEvxvTjraM6gaS2QQWT/view?usp=drive_link"
+      },
+      {
+        name: "SQL for Business Users",
+        url: "https://drive.google.com/file/d/1KqHGJkswIX47vfT9lYb8eFITc-1IiBq6/view?usp=drive_link"
+      },
+    ],
+    speaking_engagements: [
+      {
+        name: "Keynote Speaker: Writeshop on Research Development and Publications",
+        url: "https://drive.google.com/file/d/1FLRBFwN3MkVCiXBcHPtWFwRsBe84eeTH/view?usp=drive_link"
+      },
+      {
+        name: "Resource Speaker/Trainor: Project 4 Kaagapay sa Kabuhayang tungo sa Kaunlaran",
+        url: "https://drive.google.com/file/d/1cFBoVGxYRwbJHwSZJiBLxZvlgaqmzjX-/view?usp=drive_link"
+      }
+
+    ],
+    membership: [
+      {
+        name: "Human Resource Educators Association of the Philippines, Inc.",
+        url: "https://drive.google.com/file/d/1TLCIv8m-XGUnlg7YwfHLuTM003eivu0O/view?usp=drive_link"
+      },
+      {
+        name: "Regular Member of the Philippine Association of Teachers and Educators, Inc.",
+        url: "https://drive.google.com/file/d/1LhwYK-QeTpcRG1twPiz_NYoGH5YsiYl0/view?usp=drive_link"
+      },
+    ],
 
   },
 

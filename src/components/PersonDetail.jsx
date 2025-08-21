@@ -24,6 +24,8 @@ function PersonDetail() {
     designation,
     portfolio,
     image,
+    research,
+    extension,
     diploma,
     resume,
     tor,
@@ -63,10 +65,11 @@ function PersonDetail() {
               membership={membership}
             />
           </div>
-          <div className="w-full max-w-6xl">
-            <ResearchAndExtension/>
-          </div>
-
+          {(research || extension) && (
+            <div className="w-full max-w-6xl">
+              <ResearchAndExtension research={research} extension={extension} />
+            </div>
+          )}
           {/* Section 2: Evaluation Chart */}
           {evaluation_scores && evaluation_labels && (
             <div className="w-full max-w-6xl">
