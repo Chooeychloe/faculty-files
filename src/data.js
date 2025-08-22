@@ -237,7 +237,7 @@ export const people = [
       },
     ],
     schedule: [
-      { //1st 22-23
+      { //1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -403,7 +403,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 22-23
+      { //2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -545,7 +545,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 23-24
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -686,7 +686,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -852,168 +852,13 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 60 ASYNC",
-              section: "IT 3-6",
-              room: null
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "DCIT 60",
-              section: "IT 3-6",
-              room: "ACCRE"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "ITEC 200B",
-              section: "IT 4-3",
-              room: "Room 401"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 111",
-              section: "IT 4-1",
-              room: "CL 4"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "ITEC 111",
-              section: "IT 4-5",
-              room: "CL 4"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 200B ASYNC",
-              section: "IT 4-3",
-              room: null
-            },
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-4",
-              room: null
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-4",
-              room: "CL 1"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-4",
-              room: "CL 1"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 60",
-              section: "IT 3-4",
-              room: "ACCRE"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 60 ASYNC",
-              section: "IT 3-4",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 60 ASYNC",
-              section: "IT 3-5",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "9:00 AM - 12:00 PM",
-              subject: "RESEARCH/EXTENSION",
-              section: null,
-              room: "FACULTY"
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-4",
-              room: null
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-4",
-              room: "CL 1"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 60",
-              section: "IT 3-5",
-              room: "ACCRE"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-ocampo-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "ITEC 199",
-              section: "IT 4-2",
-              room: "ACCRE"
-            },
-            {
-              time: "11:00 AM - 2:00 PM",
-              subject: "ITEC 199",
-              section: "IT 4-6",
-              room: "ACCRE"
-            }
-          ],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "9:00 AM - 12:00 PM",
-              subject: "RESEARCH/EXTENSION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "ITEC 200A",
-              section: "IT 3-4",
-              room: "ACCRE"
-            }
-          ],
-          thursday: [
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "ITEC 199",
-              section: "IT 4-2",
-              room: "ACCRE"
-            },
-            {
-              time: "11:00 AM - 2:00 PM",
-              subject: "ITEC 199",
-              section: "IT 4-6",
-              room: "ACCRE"
-            }
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-ocampo-sched.png",
       }
     ],
     evaluation_scores: [4.30, 4.47, 4.71, 4.59, 4.48, 3.79],
@@ -1233,89 +1078,136 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      {
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
           tuesday: [
-            { time: "10:00 AM - 12:00 PM", section: "CS 2-1", subject: "INSY 50", room: "ROOM 302" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 4-1", subject: "COSC 200A", room: "ROOM 303" },
+            { 
+              time: "10:00 AM - 12:00 PM", 
+              section: "CS 2-1", 
+              subject: "INSY 50", 
+              room: "ROOM 302" 
+            },
+            { 
+              time: "1:00 PM - 3:00 PM", 
+              section: "CS 4-1", 
+              subject: "COSC 200A", 
+              room: "ROOM 303" 
+            },
           ],
           wednesday: [
-            { time: "10:00 AM - 11:00 AM", section: "CS 2-1", subject: "INSY 50 Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "CS 2-1", subject: "INSY 50 Async", room: "" },
-            { time: "12:00 PM - 1:00 PM", section: "CS 2-1", subject: "INSY 50 Async", room: "" },
+            { 
+              time: "10:00 AM - 11:00 AM", 
+              section: "CS 2-1", 
+              subject: "INSY 50 Async", 
+              room: null 
+            },
+            { 
+              time: "11:00 AM - 12:00 PM", 
+              section: "CS 2-1", 
+              subject: "INSY 50 Async", 
+              room: null 
+            },
+            { 
+              time: "12:00 PM - 1:00 PM", 
+              section: "CS 2-1", 
+              subject: "INSY 50 Async", 
+              room: null 
+            },
           ],
           thursday: [
-            { time: "10:00 AM - 12:00 PM", section: "CS 2-2", subject: "INSY 50", room: "ROOM 302" },
-            { time: "1:00 PM - 3:00 PM", section: "CS 2-3", subject: "INSY 50", room: "ROOM 302" },
+            { 
+              time: "10:00 AM - 12:00 PM", 
+              section: "CS 2-2", 
+              subject: "INSY 50", 
+              room: "ROOM 302" 
+            },
+            { 
+              time: "1:00 PM - 3:00 PM", 
+              section: "CS 2-3", 
+              subject: "INSY 50", 
+              room: "ROOM 302" 
+            },
           ],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "9:00 AM - 12:00 AM", section: "", subject: "Research", room: "Faculty" },
-            { time: "1:00 PM - 4:00 PM", section: "", subject: "Extension", room: "Faculty" },
+            { time: "9:00 AM - 12:00 AM", 
+              section: "", 
+              subject: "Research", 
+              room: "FACULTY ROOM" 
+            },
+            { time: "1:00 PM - 4:00 PM",
+              section: "", 
+              subject: "Extension", 
+              room: "FACULTY ROOM" 
+            },
           ],
           tuesday: [
-            { time: "10:30 AM - 12:30 PM", section: "CS 4-1", subject: "COSC 200B", room: "ROOM 408" },
-            { time: "3:00 PM - 5:00 PM", section: "IT 4-1", subject: "ITEC 199", room: "CL 4" },
+            { time: "10:30 AM - 12:30 PM",
+              section: "CS 4-1",
+              subject: "COSC 200B", 
+              room: "ROOM 408" 
+            },
+            { time: "3:00 PM - 5:00 PM", 
+              section: "IT 4-1", 
+              subject: "ITEC 199", 
+              room: "CL 4" 
+            },
           ],
           wednesday: [
-            { time: "10:00 AM - 11:00 AM", section: "IT 3-6", subject: "DCIT 60 Async", room: "" },
-            { time: "11:00 AM - 12:00 PM", section: "CS 4-1", subject: "COSC 200B", room: "" },
-            { time: "12:00 PM - 2:00 PM", section: "IT 4-1", subject: "ITEC 199", room: "" },
+            { time: "10:00 AM - 11:00 AM",
+              section: "IT 3-6", 
+              subject: "DCIT 60 Async", 
+              room: null 
+            },
+            { 
+              time: "11:00 AM - 12:00 PM", 
+              section: "CS 4-1", 
+              subject: "COSC 200B", 
+              room: null 
+            },
+            { time: "12:00 PM - 2:00 PM", 
+              section: "IT 4-1", 
+              subject: "ITEC 199", 
+              room: null 
+            },
           ],
           thursday: [
-            { time: "10:00 AM - 12:00 PM", section: "IT 3-6", subject: "ITEC 200A", room: "ROOM 302" },
-            { time: "3:00 PM - 5:00 PM", section: "IT 4-1", subject: "ITEC 199", room: "CL 4" },
+            { 
+              time: "10:00 AM - 12:00 PM", 
+              section: "IT 3-6", 
+              subject: "ITEC 200A", 
+              room: "ROOM 302" 
+            },
+            { 
+              time: "3:00 PM - 5:00 PM", 
+              section: "IT 4-1", 
+              subject: "ITEC 199", 
+              room: "CL 4" 
+            },
           ],
           friday: [],
           saturday: [],
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-briones-sched.png",
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            { time: "10:00 AM - 1:00 PM", section: "IT 4-1", subject: "IT 4-1", room: "ACCRE" },
-            { time: "3:00 PM - 6:00 PM", section: "CS 4-2", subject: "COSC 200B", room: "ACCRE" },
-          ],
-          tuesday: [
-            { time: "1:00 PM - 4:00 PM", section: "", subject: "Extension", room: "Faculty" },
-          ],
-          wednesday: [
-            { time: "10:00 AM - 1:00 PM", section: "IT 4-1", subject: "ITEC 199", room: "ACCRE" },
-            { time: "3:00 PM - 6:00 PM", section: "", subject: "Research", room: "" },
-          ],
-          thursday: [
-            { time: "10:00 AM - 1:00 PM", section: "CS 4-3", subject: "COSC 200B", room: "ACCRE" },
-            { time: "1:00 PM - 4:00 PM", section: "CS 4-1", subject: "COSC 200B", room: "ACCRE" },
-          ],
-          friday: [
-            { time: "9:00 AM - 11:00 AM", subject: "Strategic Planning Session", room: "Conf. Room B" },
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-briones-sched.png",
       }
     ],
     evaluation_scores: [4.17, 4.15, 4.28, 4.40, 4.37, 4.32],
@@ -1473,7 +1365,7 @@ export const people = [
     certificates: null,
     speaking_engagements: null,
     schedule: [
-      {
+      {// 1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -1553,7 +1445,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -1602,7 +1494,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -1649,7 +1541,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -1706,129 +1598,13 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 60 ASYNC",
-              section: "IT 3-1",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 60 ASYNC",
-              section: "IT 3-3",
-              room: null
-            },
-          ],
-          tuesday: [
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 60",
-              section: "IT 3-2",
-              room: "ACCRE"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 60",
-              section: "IT 3-2",
-              room: "ACCRE"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 60 ASYNC",
-              section: "IT 3-3",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "RESEARCH",
-              section: null,
-              room: null
-            },
-            {
-              time: "2:00 PM - 5:00 PM",
-              subject: "EXTENSION",
-              section: null,
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 60",
-              section: "IT 3-3",
-              room: "ACCRE"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-montallana-sched.png",
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "ITEC 199",
-              section: "IT 4-3",
-              room: "ACCRE"
-            },
-            {
-              time: "11:00 AM - 2:00 PM",
-              subject: "ITEC 199",
-              section: "IT 4-4",
-              room: "ACCRE"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "ITEC 199",
-              section: "IT 4-5",
-              room: "ACCRE"
-            },
-          ],
-          tuesday: [
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "ITEC 199",
-              section: "IT 4-3",
-              room: "ACCRE"
-            },
-            {
-              time: "11:00 AM - 2:00 PM",
-              subject: "RESEARCH",
-            },
-          ],
-          wednesday: [
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "EXTENSION",
-            },
-          ],
-          thursday: [
-            {
-              time: "11:00 AM - 2:00 PM",
-              subject: "ITEC 199",
-              section: "IT 4-4",
-              room: "ACCRE"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "ITEC 199",
-              section: "IT 4-5",
-              room: "ACCRE"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-montallana-sched.png",
       }
     ],
     evaluation_scores: [3.72, 4.56, 4.49, 4.22, 4.72, 4.45],
@@ -2048,62 +1824,75 @@ export const people = [
     ],
     speaking_engagements: null,
     schedule: [
-      { //1st 22-23
+      {//1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
-          monday: [],
+          monday: [
+            { time: "11:00 AM - 1:00 PM",
+              section: "CS 2-2", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "2:00 PM - 5:00 PM", 
+              section: null, 
+              subject: "RESEARCH AND EXTENSION", 
+              room: null 
+            },
+          ],
           tuesday: [
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-1",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 21",
-              section: "CS 1-3",
-              room: null
-            },
-            {
-              time: "2:00 PM - 5:00 PM",
-              subject: "INSY 55 (LAB)",
-              section: "IT 3-2",
-              room: null
+            { time: "2:00 PM - 3:00 PM",
+              section: "IT 3-3", 
+              subject: "INSY 55", 
+              room: null 
             },
           ],
           wednesday: [
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 21",
-              section: "CS 1-3",
-              room: null
+            { time: "8:00 AM - 9:00 AM",
+              section: "CS 2-2", 
+              subject: "INSY 50", 
+              room: null 
             },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "RESEARCH AND EXTENSION",
-              section: null,
-              room: null
-            }
+            { time: "9:00 AM - 10:00 AM",
+              section: "CS 2-1", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "1:00 PM - 2:00 PM",
+              section: "CS 2-3", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "2:00 PM - 4:00 PM",
+              section: "CS 2-3", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "5:00 PM - 6:00 PM",
+              section: "IT 3-3", 
+              subject: "INSY 55", 
+              room: null 
+            },
           ],
           thursday: [
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "INSY 55",
-              section: "IT 3-1",
-              room: null
+            { time: "9:00 PM - 10:00 PM",
+              section: "CS 1-1", 
+              subject: "CvSU 101", 
+              room: null 
             },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 21 (LAB)",
-              section: "CS 1-3",
-              room: null
+            { time: "10:00 AM - 11:00 AM",
+              section: "IT 3-3", 
+              subject: "INSY 55 (LAB)", 
+              room: null 
             },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "INSY 55",
-              section: "IT 3-2",
-              room: null
+            { time: "11:00 AM - 1:00 PM",
+              section: "IT 3-3", 
+              subject: "INSY 55 (LAB)", 
+              room: null 
             },
           ],
           friday: [],
@@ -2111,50 +1900,51 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 22-23
+      {//2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "ITEC 200A",
-              section: "IT 3-3",
-              room: "ROOM 305"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 200A",
-              section: "IT 3-2",
-              room: "ROOM 305"
+            { time: "1:00 PM - 4:00 PM",
+              section: "IT 4-1", 
+              subject: "ITEC 99", 
+              room: "ROOM 303" 
             },
           ],
-          tuesday: [],
+          tuesday: [
+            
+          ],
           wednesday: [
-            {
-              time: "1:00 PM - 4:00 AM",
-              subject: "RESEARCH AND EXTENSION",
-              section: null,
-              room: null
-            }
+            { time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1", 
+              subject: "COSC 70", 
+              room: "ROOM 301"
+            },
+            { time: "1:00 PM - 3:00 PM",
+              section: "CS 2-2", 
+              subject: "COSC 70", 
+              room: "ROOM 302"
+            },
+            { time: "3:00 PM - 6:00 PM",
+              section: "IT 4-1", 
+              subject: "ITEC 99", 
+              room: "ROOM 305" 
+            },
           ],
           thursday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 23 (LEC)",
-              section: "IT 1-4",
-              room: null
+            { time: "10:00 AM - 11:00 AM",
+              section: "CS 2-1", 
+              subject: "COSC 70 (ASYNC)", 
+              room: null 
             },
-            {
-              time: "9:00 AM - 12:00 PM",
-              subject: "DCIT 23 (LAB)",
-              section: "IT 1-4",
-              room: "COM LAB 3"
+            { time: "1:00 PM - 2:00 PM",
+              section: "CS 2-1", 
+              subject: "COSC 70 (ASYNC)", 
+              room: null 
             },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 23 (LAB)",
-              section: "IT 1-4",
-              room: "COM LAB 3"
+            { time: "2:00 PM - 5:00 PM",
+              section: null, 
+              subject: "RESEARCH AND EXTENSION", 
+              room: null 
             },
           ],
           friday: [],
@@ -2162,7 +1952,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 23-24
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -2224,7 +2014,7 @@ export const people = [
           sunday: [],
         },
       },
-      { //2nd 23-24
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -2306,140 +2096,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 200B ASYNC",
-              section: "IT 4-5",
-              room: null
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "ITEC 200B",
-              section: "IT 4-1",
-              room: "ACCRE"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 200B ASYNC",
-              section: "IT 4-4",
-              room: null
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "ITEC 200B",
-              section: "IT 4-1",
-              room: "ACCRE"
-            },
-          ],
-          tuesday: [
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 200B ASYNC",
-              section: "IT 4-1",
-              room: null
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "ITEC 200B",
-              section: "IT 4-2",
-              room: "ACCRE"
-            },
-          ],
-          wednesday: [
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 200B",
-              section: "IT 4-5",
-              room: "ACCRE"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "ITEC 200B",
-              section: "IT 4-2",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "RESEARCH",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "2:00 PM - 5:00 PM",
-              subject: "EXTENSION",
-              section: null,
-              room: "FACULTY"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        },
+        image: "/faculty-schedule/1st-sem/1-bato-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "ITEC 200A",
-              section: "IT 3-3",
-              room: "ACCRE"
-            }
-          ],
-          tuesday: [
-            {
-              time: "9:00 AM - 12:00 PM",
-              subject: "ITEC 200A",
-              section: "IT 3-1",
-              room: "ACCRE"
-            },
-            {
-              time: "12:00 PM - 3:00 PM",
-              subject: "ITEC 200A",
-              section: "IT 3-2",
-              room: "ACCRE"
-            }
-          ],
-          wednesday: [
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "ITEC 200B",
-              section: "IT 4",
-              room: "ACCRE"
-            },
-            {
-              time: "8:00 AM - 11:00 AM",
-              subject: "ITEC 200A",
-              section: "IT 3-5",
-              room: "ACCRE"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "RESEARCH",
-              section: null,
-              room: "FACULTY"
-            },
-          ],
-          thursday: [
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "EXTENSION",
-              section: null,
-              room: "FACULTY"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-bato-sched.png",
+      }
     ],
     evaluation_scores: [4.54, 4.36, 4.27, 4.32, 3.89, 4.50],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -2522,10 +2186,10 @@ export const people = [
           "Deepen involvement in the CLASSES program by refining delivery strategies, incorporating feedback, and ensuring consistent implementation across the identified partner communities."
         ],
         "2027": [
-          "1. Take a leadership role in the comprehensive evaluation and impact assessment of the CLASSES project, in preparation for its formal conclusion."
+          "Take a leadership role in the comprehensive evaluation and impact assessment of the CLASSES project, in preparation for its formal conclusion."
         ],
         "2028": [
-          "1. Initiate the development of a new extension project through collaborative planning with peers, aimed at addressing evolving community needs and sustaining outreach efforts."
+          "Initiate the development of a new extension project through collaborative planning with peers, aimed at addressing evolving community needs and sustaining outreach efforts."
         ],
       }
     }
@@ -2873,7 +2537,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      {
+      //No 1st Sem A.Y 22-23
+      { //2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -3003,7 +2668,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -3140,7 +2805,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -3295,283 +2960,14 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      { //1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "IT 2-1",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "IT 2-2",
-              room: null
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: null
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 26 (LEC) ASYNC",
-              section: "CS 3-5",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 26",
-              section: "CS 3-5",
-              room: "CL 2"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "DCIT 26",
-              section: "CS 3-5",
-              room: "CL 5"
-            },
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 50",
-              section: "IT 2-1",
-              room: "CL 4"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 26",
-              section: "CS 3-6",
-              room: "CL 2"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-3",
-              room: "CL 4"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 26 (LEC) ASYNC",
-              section: "CS 3-4",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 26 (LAB) ASYNC",
-              section: "CS 3-4",
-              room: null
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 26 (LEC) ASYNC",
-              section: "CS 3-6",
-              room: null
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-3",
-              room: "ROOM 305"
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-1",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 26 (LAB) ASYNC",
-              section: "CS 3-5",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-1",
-              room: "ROOM 303"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "DCIT 26",
-              section: "IT 2-2",
-              room: "CL 5"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "IT 2-3",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 50",
-              section: "IT 2-2",
-              room: "CL 3"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 26",
-              section: "CS 3-6",
-              room: "CL 5"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 26 (LAB) ASYNC",
-              section: "CS 3-6",
-              room: null
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 26",
-              section: "CS 3-4",
-              room: "ROOM 305"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-arciaga-sched.png",
       },
-      {
+      { //2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 50",
-              section: "IT 1-4",
-              room: "CL 4"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-7",
-              room: "CL 2"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY ROOM"
-            },
-
-          ],
-          tuesday: [
-
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "ITEC 95",
-              section: "IT 3-3",
-              room: "ROOM 203"
-            },
-            {
-              time: "8:30 AM - 10:00 AM",
-              subject: "ITEC 95",
-              section: "IT 3-2",
-              room: "ROOM 203"
-            },
-            {
-              time: "10:00 AM - 11:30 AM",
-              subject: "ITEC 95",
-              section: "IT 3-1",
-              room: "ROOM 203"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-5",
-              room: "ROOM 203"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-4",
-              room: "AUDI"
-            },
-          ],
-          thursday: [
-          ],
-          friday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "ITEC 95",
-              section: "IT 3-1",
-              room: "ROOM 203"
-            },
-            {
-              time: "8:30 AM - 10:00 AM",
-              subject: "ITEC 95",
-              section: "IT 3-3",
-              room: "ROOM 203"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-5",
-              room: "ROOM 203"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-4",
-              room: "AUDI"
-            },
-          ],
-          saturday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "ITEC 95",
-              section: "IT 3-3",
-              room: "ROOM 203"
-            },
-            {
-              time: "8:30 AM - 10:00 AM",
-              subject: "ITEC 95",
-              section: "IT 3-2",
-              room: "ROOM 203"
-            },
-            {
-              time: "10:00 AM - 11:30 AM",
-              subject: "ITEC 95",
-              section: "IT 3-1",
-              room: "ROOM 203"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-5",
-              room: "ROOM 203"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-4",
-              room: "AUDI"
-            },
-          ],
-          sunday: [
-          ],
-        }
-      }
+        image: "/faculty-schedule/2nd-sem/2-arciaga-sched.png",
+      },
     ],
     evaluation_scores: [4.03, 4.75, 4.33, 4.51, 4.53],
     evaluation_labels: ["2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -3682,7 +3078,11 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      {
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
+      {// 1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
@@ -3848,7 +3248,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
@@ -4075,7 +3475,11 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      {
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
@@ -4210,7 +3614,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [],
@@ -4407,7 +3811,7 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      {
+      {//1st Sem A.Y 22-23"
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [],
@@ -4488,7 +3892,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -4589,7 +3993,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
@@ -4746,7 +4150,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [],
@@ -4888,259 +4292,13 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "COSC 75 (LEC) ASYNC",
-              section: "CS 3-3",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "COSC 75 (LEC) ASYNC",
-              section: "CS 3-4",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-4",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-6",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-5",
-              room: null
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-1",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-2",
-              room: "CL 1"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "COSC 75 (LEC) ASYNC",
-              section: "CS 3-1",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "COSC 75",
-              section: "CS 3-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-2",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "COSC 75 (LEC) ASYNC",
-              section: "CS 3-2",
-              room: null
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-6",
-              room: "CL 4"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-3",
-              room: "CL 3"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "COSC 75",
-              section: "CS 3-4",
-              room: "ROOM 305"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "COSC 75 (LEC) ASYNC",
-              section: "CS 3-6",
-              room: null
-            },
-          ],
-          friday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-6",
-              room: "CL 4"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-4",
-              room: "CL 4"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-3",
-              room: null
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-3",
-              room: "CL 4"
-            },
-          ],
-          saturday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-1",
-              room: "CL 4"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "COSC 75",
-              section: "CS 3-2",
-              room: "CL 4"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "COSC 75",
-              section: "CS 3-5",
-              room: "ROOM 305"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "COSC 75 (LAB) ASYNC",
-              section: "CS 3-3",
-              room: "CL 4"
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-belgica-sched.png",
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "ITEC 85",
-              section: "CS 3-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-2",
-              room: "CL 1"
-            },
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "ITEC 106",
-              section: "IT 3-1",
-              room: "ROOM 107"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 106",
-              section: "IT 3-2",
-              room: "ROOM 109"
-            },
-            {
-              time: "12:00 PM - 3:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-4",
-              room: "CL 1"
-            },
-            {
-              time: "3:00 PM - 6:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-3",
-              room: "CL 1"
-            },
-          ],
-          wednesday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 85",
-              section: "CS 3-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "CONSULTATION",
-              room: "FACULTY"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 106",
-              section: "IT 3-2",
-              room: "CL 1"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 106",
-              section: "IT 3-1",
-              room: "CL 1"
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 55",
-              section: "CS 2-4",
-              room: "ROOM 107"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 55",
-              section: "CS 2-2",
-              room: "ROOM 107"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-belgica-sched.png",
       }
     ],
     evaluation_scores: [4.36, 4.21, 4.04, 3.97, 3.66, 4.34],
@@ -5222,11 +4380,10 @@ export const people = [
         name: "CvSU: Bacoor Campus - Seminar-Workshop on Module Development and Publication of CvSU - Bacoor Campus faculty",
         url: "https://drive.google.com/file/d/1tYjr4HnPGJZQo_Rff_xmkgwFpTGQhwqH/view?usp=drive_link"
       },],
-
     speaking_engagements: null,
-
     schedule: [
-      {
+      //No 1st Sem A.Y 22-23
+      {//2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -5356,7 +4513,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -5516,7 +4673,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -5683,147 +4840,13 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "CS 2-4",
-              room: null
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "CS 2-4",
-              room: null
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-4",
-              room: "CL 4"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-4",
-              room: "ROOM 305"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-5",
-              room: "CL 1"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-4",
-              room: "ROOM 401"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "CS 2-4",
-              room: "CL 4"
-            },
-            {
-              time: "6:30 PM - 7:30 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "CS 2-5",
-              room: null
-            },
-          ],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-bolarda-sched.png",
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 10:-00 AM",
-              subject: "DCIT 55",
-              section: "IT 2-4",
-              room: "CL 2"
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-5",
-              room: "ROOM 204"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-6",
-              room: "CL 2"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "GNED 09",
-              section: "CS 3-5",
-              room: "ROOM 109"
-            },
-          ],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-5",
-              room: "ROOM 109"
-            },
-            {
-              time: "6:00 PM - 7:30 PM",
-              subject: "DCIT 55",
-              section: "IT 2-5",
-              room: "ROOM 109"
-            },
-          ],
-          thursday: [],
-          friday: [
-            {
-              time: "7:00 AM - 10:-00 AM",
-              subject: "DCIT 55",
-              section: "IT 2-5",
-              room: "CL 2"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-6",
-              room: "ROOM 203"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-5",
-              room: "CL 4"
-            },
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-5",
-              room: "ROOM 204"
-            },
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-bolarda-sched.png",
       }
     ],
     evaluation_scores: [4.03, 4.17, 4.12, 4.43, 4.25],
@@ -5934,7 +4957,11 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      {
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [],
@@ -6100,7 +5127,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {// 2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [],
@@ -6280,7 +5307,7 @@ export const people = [
     ],
 
     schedule: [
-      {
+      {//1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -6368,7 +5395,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [],
@@ -6417,7 +5444,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -6506,7 +5533,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -6594,7 +5621,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
           monday: [
@@ -6670,7 +5697,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
         details: {
           monday: [
@@ -7446,7 +6473,7 @@ export const people = [
       url: "https://drive.google.com/file/d/17CPmfjW-kC8HGDmXew-DptLYowmrWLAQ/view?usp=sharing"
     }],
     schedule: [
-      {
+      {//1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -7588,7 +6615,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -7695,7 +6722,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
@@ -7764,7 +6791,7 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [],
@@ -7886,156 +6913,13 @@ export const people = [
           sunday: [],
         }
       },
-      {
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 24",
-              section: "IT 2-4",
-              room: "CL 1"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 24",
-              section: "IT 2-4",
-              room: "ROOM 201"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 24 (LAB) ASYNC",
-              section: "IT 2-6",
-              room: null
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 24 (LEC) ASYNC",
-              section: "IT 2-6",
-              room: null
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 24 (LAB) ASYNC",
-              section: "IT 2-5",
-              room: null
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "DCIT 24 (LAB) ASYNC",
-              section: "IT 2-4",
-              room: null
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "DCIT 24",
-              section: "IT 2-6",
-              room: "CL 2"
-            },
-          ],
-          tuesday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "CVSU 101",
-              section: "CS 1-3",
-              room: "ROOM 301"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 24 (LEC) ASYNC",
-              section: "IT 2-5",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 24",
-              section: "IT 2-5",
-              room: "ROOM 301"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 24",
-              section: "IT 2-6",
-              room: "ROOM 305"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "DCIT 24",
-              section: "IT 2-5",
-              room: "CL 4"
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "DCIT 24 (LEC) ASYNC",
-              section: "IT 2-4",
-              room: null
-            },
-          ],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-catalo-sched.png",
       },
-      {
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "CONSULTATION",
-              room: "FACULTY"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-1",
-              room: "ACCRE"
-            },
-            {
-              time: "2:00 PM - 5:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-5",
-              room: "ACCRE"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-3",
-              room: "ACCRE"
-            },
-          ],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "CONSULTATION",
-              room: "FACULTY"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-4",
-              room: "ACCRE"
-            },
-            {
-              time: "2:00 PM - 5:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-2",
-              room: "ACCRE"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-6",
-              room: "ACCRE"
-            },],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-catalo-sched.png",
       }
     ],
     evaluation_scores: [4.68, 4.52, 4.44, 4.36, 3.88, 4.16],
@@ -9941,9 +8825,9 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 23-24
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
@@ -9992,7 +8876,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [],
@@ -10053,68 +8937,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 90",
-              section: "IT 3-1",
-              room: "CL 2"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "ITEC 90",
-              section: "IT 3-1",
-              room: "CL 1"
-            },
-            {
-              time: "3:00 PM - 1:00 PM",
-              subject: "ITEC 90 (LEC) ASYNC",
-              section: "IT 3-1",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 90 (LAB) ASYNC",
-              section: "IT 3-1",
-              room: null
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-martinez-sched.png",
       },
-      { //2nd 24-25
-        semesterName: "2nd Sem A.Y 23-24",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 105",
-              section: "IT 3-1",
-              room: "ACCRE"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 105",
-              section: "IT 3-1",
-              room: "CL 5"
-            },
-          ],
-          sunday: [],
-        }
-      },
+      {//2nd Sem A.Y 24-25
+        semesterName: "2nd Sem A.Y 24-25",
+        image: "/faculty-schedule/2nd-sem/2-martinez-sched.png",
+      }
     ],
     evaluation_scores: [4.76, 4.51, 4.70, 4.12],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -10289,264 +9119,18 @@ export const people = [
     ],
     speaking_engagements: null,
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      //No Record - 1st SEM  23-24
-      //No Record - 2nd SEM  24-25
-      { //1st 24-25
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 50",
-              section: "CS 2-2",
-              room: "CL 4"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "CS 2-3",
-              room: null
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-3",
-              room: "CL 4"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 50 (LEC) ASYNC ",
-              section: "CS 2-1",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 60 (LEC) ASYNC ",
-              section: "CS 2-1",
-              room: null
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 60 (LAB) ASYNC ",
-              section: "CS 2-2",
-              room: null
-            },
-          ],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "COSC 60 (LEC) ASYNC",
-              section: "CS 2-3",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "COSC 60 (LAB) ASYNC",
-              section: "CS 2-1",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "CS 2-2",
-              room: null
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "CS 2-2",
-              room: null
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "CS 2-1",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 50",
-              section: "CS 2-1",
-              room: "ROOM 301"
-            },
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "COSC 60",
-              section: "CS 2-1",
-              room: "CL 1"
-            },
-            {
-              time: "11:00 AM - 1:00 AM",
-              subject: "COSC 60",
-              section: "CS 2-2",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "COSC 60",
-              section: "CS 2-3",
-              room: "CL 4"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "CS 2-3",
-              room: null
-            },
-          ],
-          friday: [],
-          saturday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "COSC 60",
-              section: "CS 2-2",
-              room: "ROOM 303"
-            },
-            {
-              time: "9:00 AM -109:00 AM",
-              subject: "COSC 60",
-              section: "CS 2-3",
-              room: "ROOM 303"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "COSC 60",
-              section: "CS 2-2",
-              room: "ROOM 303"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-1",
-              room: "CL 2"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 50",
-              section: "CS 2-3",
-              room: "ROOM 301"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 60 (LAB) ASYNC",
-              section: "CS 2-3",
-              room: null
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "CS 2-2",
-              room: null
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-mojas-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "COSC 90",
-              section: "CS 3-5",
-              room: "ROOM 107"
-            },
-            {
-              time: "8:30 AM - 10:00 AM",
-              subject: "GNED 09",
-              section: "CS 3-1",
-              room: "ROOM 109"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "COSC 90",
-              section: "CS 3-6",
-              room: "ROOM 203"
-            },
-            {
-              time: "2:00 PM - 3:30 PM",
-              subject: "GNED 09",
-              section: "CS 3-3",
-              room: "ROOM 309"
-            },
-          ],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "COSC 65",
-              section: "CS 2-4",
-              room: "ROOM 101"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "4:00 PM - 5:30 PM",
-              subject: "GNED 09",
-              section: "CS 3-3",
-              room: "ROOM 109"
-            },
-          ],
-          thursday: [
-            {
-              time: "9:00 AM - 12:00 PM",
-              subject: "COSC 65",
-              section: "CS 2-4",
-              room: "CL 3"
-            },
-            {
-              time: "12:30 PM - 2:00 PM",
-              subject: "GNED 09",
-              section: "CS 1-3",
-              room: "ROOM 109"
-            },
-          ],
-          friday: [],
-          saturday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "COSC 90",
-              section: "CS 3-5",
-              room: "AUDI"
-            },
-            {
-              time: "12:30 - 2:00 PM",
-              subject: "GNED 09",
-              section: "CS 3-2",
-              room: "ROOM 204"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "COSC 90",
-              section: "CS 3-4",
-              room: "ROOM 203"
-            }
-          ],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-mojas-sched.png",
+      }
     ],
     evaluation_scores: [3.93, 4.39],
     evaluation_labels: ["1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -10669,8 +9253,8 @@ export const people = [
     certificates: null,
     speaking_engagements: null,
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       { //1st 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -11713,9 +10297,9 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 23-24
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
@@ -11857,7 +10441,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -11987,255 +10571,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-2",
-              room: "CL 2"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-4",
-              room: null
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-3",
-              room: "CL 3"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-4",
-              room: "ROOM 303"
-            },
-            {
-              time: "3:00 PM - 4:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-2",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-3",
-              room: null
-            },
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-2",
-              room: "CL 3"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-3",
-              room: "ROOM 303"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-4",
-              room: "CL 3"
-            },
-
-            {
-              time: "3:00 PM - 4:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-2",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-3",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-2",
-              room: null
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-4",
-              room: "CL 3"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-3",
-              room: "CL 3"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-          ],
-          thursday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 80 ASYNC",
-              section: "IT 4-1",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 80 ASYNC",
-              section: "IT 4-2",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 80 ASYNC",
-              section: "IT 4-3",
-              room: null
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 80C",
-              section: "IT 4-1",
-              room: "CL 2"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "ITEC 80C",
-              section: "IT 4-2",
-              room: "CL 2"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 80C",
-              section: "IT 4-3",
-              room: "CL 2"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-pimentel-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "DCIT 23",
-              section: "IT 1-3",
-              room: "CL 5"
-            },
-            {
-              time: "9:00 AM - 1:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-4",
-              room: "CL 5"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "COSC 65",
-              section: "CS 2-3",
-              room: "ROOM 101"
-            },
-          ],
-          tuesday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 23",
-              section: "IT 1-1",
-              room: "AUDI"
-            },
-            {
-              time: "9:00 AM - 10:30 AM",
-              subject: "DCIT 23",
-              section: "IT 1-1",
-              room: "ROOM 201"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-3",
-              room: "CL 5"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "CONSULTATION HOURS",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-3",
-              room: "CL 5"
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "ITEC 85",
-              section: "CS 3-4",
-              room: "ROOM 201"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-1",
-              room: "CL 1"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-4",
-              room: "CL 2"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-4",
-              room: "ROOM 101"
-            },
-          ],
-          thursday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 23",
-              section: "IT 1-1",
-              room: "CL 1"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "COSC 65",
-              section: "CS 2-3",
-              room: "CL 4"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-pimentel-sched.png",
+      }
     ],
 
     evaluation_scores: [4.83, 4.68, 4.41, 4.35],
@@ -12346,12 +10689,7 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1ZXnx3Hcn0DZDxIq4CDlXjPFcF-OSa79P/view?usp=sharing"
     },],
-    masters_diploma: [
-      {
-        name: "",
-        url: ""
-      },
-    ],
+    masters_diploma: null,
     tor: [
       {
         name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -12373,9 +10711,9 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
-      { //1st 23-24
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -12529,7 +10867,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -12689,254 +11027,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 50",
-              section: "IT 2-6",
-              room: "ROOM 305"
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 116 (LEC) ASYNC",
-              section: "IT 4-5",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 116 (LEC) ASYNC",
-              section: "IT 4-4",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 116",
-              section: "IT 4-5",
-              room: "ROOM 305"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 50",
-              section: "IT 4-4",
-              room: "ROOM 201"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "IT 2-6",
-              room: null
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "ITEC 116",
-              section: "IT 1-4",
-              room: "CL 4"
-            },
-          ],
-          tuesday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 50 (LEC) ASYNC",
-              section: "IT 1-6",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "ITEC 50 (LAB) ASYNC",
-              section: "IT 4-6",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-5",
-              room: "ROOM 303"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "ITEC 116",
-              section: "IT 4-6",
-              room: "ROOM 305"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-6",
-              room: "CL 3"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "IT 2-4",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 50",
-              section: "IT 2-4",
-              room: "CL 4"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "IT 2-4",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 50 (LAB) ASYNC",
-              section: "IT 2-5",
-              room: null
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 50 (LEC) ASYNC",
-              section: "IT 2-5",
-              room: null
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "ITEC 116",
-              section: "IT 4-5",
-              room: "CL 4"
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 116 (LAB) ASYNC",
-              section: "IT 4-5",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 116 (LAB) ASYNC",
-              section: "IT 4-6",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 116 (LAB) ASYNC",
-              section: "IT 4-4",
-              room: null
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 50",
-              section: "IT 2-5",
-              room: "CL 5"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 116",
-              section: "IT 4-4",
-              room: "ROOM 305"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "ITEC 116",
-              section: "IT 4-6",
-              room: "CL 4"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-racadio-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 50",
-              section: "IT 1-3",
-              room: "CL 3"
-            },
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 50",
-              section: "IT 1-3",
-              room: "CL 3"
-            },
-          ],
-          wednesday: [
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-2",
-              room: "204"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "CONSULTATION HOURS",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-2",
-              room: "AUDI 2"
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-3",
-              room: "ROOM 204"
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "DCIT 55",
-              section: "IT 2-2",
-              room: "CL 4"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-1",
-              room: "CL 2"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-3",
-              room: "ROOM 204"
-            },
-          ],
-          friday: [],
-          saturday: [
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-1",
-              room: "CL 3"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "DCIT 55",
-              section: "IT 2-3",
-              room: "CL 3"
-            },
-          ],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-racadio-sched.png",
+      }
     ],
     evaluation_scores: [4.67, 4.17, 3.60, 4.0],
     evaluation_labels: ["1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -13088,7 +11186,7 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      { //1st 22-23
+      { //1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -13206,7 +11304,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 22-23
+      { //2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -13330,7 +11428,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 23-24
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [
@@ -13502,7 +11600,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -13662,260 +11760,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-5",
-              room: "ROOM 305"
-            },
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-7",
-              room: "CL 2"
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-7",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 21",
-              section: "IT 1-6",
-              room: "ROOM 305"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-5",
-              room: null
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-7",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-6",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-5",
-              room: "CL 2"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-6",
-              room: "CL 2"
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 65 ASYNC",
-              section: "IT 4-4",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 21",
-              section: "IT 1-7",
-              room: "ROOM 305"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "CONSULTATION HOURS",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 65 (LAB) ASYNC",
-              section: "IT 4-5",
-              room: null
-            },
-          ],
-          friday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 65",
-              section: "IT 1-5",
-              room: "ROOM 303"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 65",
-              section: "IT 1-6",
-              room: "ROOM 303"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 65 (LEC) ASYNC",
-              section: "IT 4-3",
-              room: "ROOM 303"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 65 ASYNC",
-              section: "IT 1-7",
-              room: null
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 65 ASYNC",
-              section: "IT 1-6",
-              room: null
-            },
-          ],
-          saturday: [
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 65 ASYNC",
-              section: "IT 4-3",
-              room: null
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 65",
-              section: "IT 4-4",
-              room: "ROOM 303"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 65",
-              section: "IT 4-5",
-              room: "ROOM 303"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 65 ASYNC",
-              section: "IT 4-5",
-              room: null
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-ramallosa-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 100",
-              section: "IT 3-4",
-              room: "CL 4"
-            },
-            {
-              time: "11:30 AM - 1:00 PM",
-              subject: "GNED 10",
-              section: "CS 4-1",
-              room: "ROOM 201"
-            },
-            {
-              time: "3:30 PM - 5:00 PM",
-              subject: "GNED 10",
-              section: "CS 4-2",
-              room: "ROOM 201"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "ITEC 100",
-              section: "IT 3-5",
-              room: "ROOM 204"
-            },
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 8:30 AM",
-              subject: "GNED 10",
-              section: "CS 4-1",
-              room: "ROOM 201"
-            },
-            {
-              time: "9:00 AM - 12:00 PM",
-              subject: "DCIT 60",
-              section: "CS 3-6",
-              room: "ACCRE"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "GNED 01",
-              section: "CS 1-4",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 3:30 PM",
-              subject: "GNED 10",
-              section: "CS 4-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "3:30 PM - 5:00 PM",
-              subject: "GNED 10",
-              section: "CS 4-2",
-              room: "ROOM 201"
-            },
-          ],
-          friday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 100",
-              section: "IT 2-3",
-              room: "CL 4"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "ITEC 100",
-              section: "IT 3-4",
-              room: "ROOM 204"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "GNED 01",
-              section: "CS 1-4",
-              room: "ROOM 107"
-            },
-          ],
-          saturday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "DCIT 60",
-              section: "CS 3-5",
-              room: "ACCRE"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "CONSULTATION HOURS",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "1:00 PM - 2:30 PM",
-              subject: "GNED 1-0",
-              section: "CS 4-3",
-              room: "AUDI"
-            },
-          ],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-ramallosa-sched.png",
+      }
     ],
     evaluation_scores: [3.79, 4.17, 4.08, 3.62, 3.49, 3.81],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -14023,7 +11875,7 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      { //1st 22-23
+      { //1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -14113,7 +11965,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 22-23
+      { //2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [],
@@ -14177,7 +12029,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 23-24
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
@@ -14264,7 +12116,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [],
@@ -14326,106 +12178,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "COSC 60",
-              section: "CS 2-4",
-              room: "ROOM 401"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "COSC 60",
-              section: "CS 2-4",
-              room: "CL 5"
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "COSC 60 (LEC) ASYNC",
-              section: "CS 2-4",
-              room: null
-            },
-            {
-              time: "8:00 PM - 9:00 PM",
-              subject: "COSC 60 (LAB) ASYNC",
-              section: "CS 2-4",
-              room: null
-            },
-          ],
-          friday: [
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "COSC 60",
-              section: "CS 2-5",
-              room: "ROOM 401"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "COSC 60",
-              section: "CS 2-5",
-              room: "CL 5"
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "COSC 60 (LEC) ASYNC",
-              section: "CS 2-5",
-              room: null
-            },
-            {
-              time: "8:00 PM - 9:00 PM",
-              subject: "COSC 60 (LAB) ASYNC",
-              section: "CS 2-5",
-              room: null
-            },
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-rios-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "COSC 65",
-              section: "CS 2-5",
-              room: "ROOM 107"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "ITEC 85",
-              section: "CS 3-6",
-              room: "ROOM 203"
-            },
-          ],
-          friday: [
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "COSC 65",
-              section: "CS 2-5",
-              room: "AUDI"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "COSC 65",
-              section: "CS 3-6",
-              room: "CL 4"
-            },
-          ],
-          saturday: [],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-rios-sched.png",
+      }
     ],
     evaluation_scores: [4.30, 4.55, 4.43, 3.42, 4.98, 4.70],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -14536,7 +12296,7 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      { //1st 22-23
+      { //1st Sem A.Y 22-23
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
@@ -14644,7 +12404,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 22-23
+      { //2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
@@ -14709,7 +12469,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 23-24
+      { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
           monday: [],
@@ -14792,7 +12552,7 @@ export const people = [
           sunday: [],
         }
       },
-      { //2nd 23-24
+      { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
@@ -14874,146 +12634,14 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 110",
-              section: "IT 4-1",
-              room: "CL 1"
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "ITEC 110",
-              section: "IT 4-1",
-              room: "CL 1"
-            },
-          ],
-          tuesday: [
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 110",
-              section: "IT 4-2",
-              room: "CL 1"
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "ITEC 110",
-              section: "IT 4-2",
-              room: "CL 1"
-            },
-          ],
-          wednesday: [
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "ITEC 110",
-              section: "IT 4-3",
-              room: "CL 1"
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "ITEC 110",
-              section: "IT 4-3",
-              room: "CL 1"
-            },
-          ],
-          thursday: [],
-          friday: [],
-          saturday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 110 (LEC) ASYNC",
-              section: "IT 4-1",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 110 (LEC) ASYNC",
-              section: "IT 4-3",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 110 (LEC) ASYNC",
-              section: "IT 4-2",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "ITEC 110 (LEC) ASYNC",
-              section: "IT 4-1",
-              room: null
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 110 (LEC) ASYNC",
-              section: "IT 4-3",
-              room: null
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "ITEC 110 (LEC) ASYNC",
-              section: "IT 4-2",
-              room: null
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-rodil-sched.png",
       },
-      { //2nd 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [
-            {
-              time: "6:300 PM - 8:30 PM",
-              subject: "ITEC 100",
-              section: "IT 3-1",
-              room: "ROOM 107"
-            },
-          ],
-          wednesday: [
-            {
-              time: "6:00 PM - 8:00 PM",
-              subject: "ITEC 100",
-              section: "IT 3-2",
-              room: "ROOM 107"
-            },
-          ],
-          thursday: [],
-          friday: [
-            {
-              time: "6:00 PM - 8:00 PM",
-              subject: "ITEC 100",
-              section: "IT 3-3",
-              room: "ROOM 203"
-            },
-          ],
-          saturday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 100",
-              section: "IT 3-3",
-              room: "CL 2"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "ITEC 100",
-              section: "IT 3-2",
-              room: "CL 2"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 100",
-              section: "IT 3-1",
-              room: "CL 2"
-            },
-          ],
-          sunday: [],
-        }
-      },
+        image: "/faculty-schedule/2nd-sem/2-rodil-sched.png",
+      }
     ],
     evaluation_scores: [3.80, 4.53, 4.46, 3.96, 3.40, 3.87],
     evaluation_labels: ["1st Sem A.Y 22-23", "2nd Sem A.Y 22-23", "1st Sem A.Y 23-24", "2nd Sem A.Y 23-24", "1st Sem A.Y 24-25", "2nd Sem A.Y 24-25"],
@@ -15798,246 +13426,13 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st Sem A.Y 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "INSY 50 ASYNC",
-              section: "CS 2-5",
-              room: null
-            },
-            {
-              time: "11:00 AM - 11:00 AM",
-              subject: "ITEC 80 ASYNC",
-              section: "IT 3-3",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "ITEC 80 ASYNC",
-              section: "CS 3-1",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "INSY 50 ASYNC",
-              section: "CS 2-1",
-              room: null
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "INSY 50",
-              section: "CS 2-2",
-              room: "ROOM 305"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "ITEC 80",
-              section: "IT 3-3",
-              room: "ROOM 305"
-            },
-            {
-              time: "6:00 PM - 8:00 PM",
-              subject: "INSY 50",
-              section: "CS 2-1",
-              room: "ROOM 303"
-            },
-          ],
-          tuesday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 80 (LAB) ASYNC",
-              section: "IT 3-2",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "INSY 50 ASYNC",
-              section: "CS 2-4",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "ITEC 80 (LAB) ASYNC",
-              section: "IT 3-1",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "ITEC 80",
-              section: "IT 3-2",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "ITEC 80",
-              section: "IT 3-1",
-              room: "ROOM 401"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "INSY 50",
-              section: "CS 2-4",
-              room: "ROOM 301"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "ITEC 80",
-              section: "IT 3-2",
-              room: "CL 2"
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "ITEC 80 (LAB) ASYNC",
-              section: "IT 3-3",
-              room: null
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "INSY 50",
-              section: "CS 2-5",
-              room: "CL 5"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "INSY 50 ASYNC",
-              section: "CS 2-2",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "INSY 50 ASYNC",
-              section: "CS 2-3",
-              room: null
-            },
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "INSY 50",
-              section: "CS 2-3",
-              room: "ROOM 303"
-            },
-          ],
-          thursday: [],
-          friday: [],
-          saturday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "ITEC 80 (LEC) ASYNC",
-              section: "IT 3-2",
-              room: null
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "ITEC 80",
-              section: "IT 3-1",
-              room: "CL 5"
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-rodriguez-sched.png",
       },
-      { //2nd Sem A.Y 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "DCIT 25",
-              section: "CS 2-3",
-              room: "CL 1"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 25",
-              section: "IT 2-3",
-              room: "ROOM 203"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "GNED 06",
-              section: "IT 1-6",
-              room: "AUDI 2"
-            },
-            {
-              time: "3:00 PM - 4:30 PM",
-              subject: "GNED 06",
-              section: "IT 1-5",
-              room: "ROOM 107"
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "GNED 06",
-              section: "IT 1-6",
-              room: "ROOM 109"
-            }
-          ],
-          friday: [
-            {
-              time: "8:00 AM - 10:00 AM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 25",
-              section: "IT 2-4",
-              room: "CL 3"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "DCIT 25",
-              section: "IT 2-4",
-              room: "ROOM 201"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-3",
-              room: "AUDI"
-            }
-          ],
-          saturday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "DCIT 25",
-              section: "IT 2-3",
-              room: "CL 1"
-            },
-            {
-              time: "10:00 AM - 11:30 AM",
-              subject: "GNED 06",
-              section: "IT 1-5",
-              room: "CL 3"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-1",
-              room: "CL 1"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "DCIT 25",
-              section: "CS 2-1",
-              room: "ROOM 107"
-            }
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-rodriguez-sched.png",
       }
     ],
     evaluation_scores: [4.08, 4.50, 3.84, 3.81, 4.27, 3.87],
@@ -16165,9 +13560,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-
-      //No record - 1ST SEM 22-23
-      //No record - 2ND SEM 22-23
+      //No record - 1st Sem A.Y 22-23
+      //No record - 2nd Sem A.Y 22-23
       { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -16437,267 +13831,13 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st Sem A.Y 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-2",
-              room: "ROOM 303"
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "CVSU 101",
-              section: "CS 1-2",
-              room: "ROOM 303"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-3",
-              room: "CL 2"
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "CVSU 101",
-              section: "CS 1-1",
-              room: "ROOM 303"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-1",
-              room: "ROOM 303"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-2",
-              room: "CL 2"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-5",
-              room: "CL 2"
-            },
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 22",
-              section: "CS 1-5",
-              room: "CL 2"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-3",
-              room: null
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-3",
-              room: "CL 2"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-5",
-              room: "CL 2"
-            },
-          ],
-          wednesday: [
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-3",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-3",
-              room: "ROOM 303"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "DCIT 22",
-              section: "CS 1-2",
-              room: "CL 2"
-            },
-          ],
-          thursday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-5",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-1",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-2",
-              room: null
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-5",
-              room: null
-            },
-          ],
-          friday: [
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-1",
-              room: null
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "CS 1-2",
-              room: null
-            },
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-rostrollo-sched.png",
       },
-      { //2nd Sem A.Y 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "8:30 AM - 10:00 AM",
-              subject: "COSC 90",
-              section: "CS 3-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 23",
-              section: "CS 1-2",
-              room: "CL 1"
-            },
-            {
-              time: "1:30 PM - 4:30 PM",
-              subject: "COSC 90",
-              section: "CS 3-1",
-              room: "ROOM 201"
-            },
-            {
-              time: "4:30 PM - 6:00 PM",
-              subject: "COSC 70",
-              section: "CS 2-1",
-              room: "ROOM 203"
-            }
-          ],
-          tuesday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "DCIT 23",
-              section: "CS 1-1",
-              room: "CL 1"
-            },
-            {
-              time: "10:30 AM - 12:00 PM",
-              subject: "COSC 90",
-              section: "CS 3-3",
-              room: "ROOM 201"
-            },
-            {
-              time: "12:00 PM - 3:00 PM",
-              subject: "DCIT 23",
-              section: "CS 1-2",
-              room: "CL 2"
-            }
-          ],
-          wednesday: [
-            {
-              time: "9:30 AM - 11:30 AM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "11:30 AM - 1:00 PM",
-              subject: "COSC 90",
-              section: "CS 3-2",
-              room: "ROOM 203"
-            },
-            {
-              time: "1:00 PM - 2:30 PM",
-              subject: "COSC 70",
-              section: "CS 2-1",
-              room: "ROOM 107"
-            }
-          ],
-          thursday: [
-            {
-              time: "10:00 AM - 11:30 AM",
-              subject: "COSC 90",
-              section: "CS 3-2",
-              room: "ROOM 201"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "DCIT 23",
-              section: "CS 1-2",
-              room: "ROOM 204"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 23",
-              section: "CS 1-1",
-              room: "CL 5"
-            }
-          ],
-          friday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "COSC 70",
-              section: "CS 2-3",
-              room: "CL 1"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "DCIT 23",
-              section: "CS 1-1",
-              room: "CL 3"
-            }
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-rostrollo-sched.png",
       }
     ],
     evaluation_scores: [4.55, 4.53, 4.72, 4.79],
@@ -16852,8 +13992,8 @@ export const people = [
     ],
     speaking_engagements: null,
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -17148,253 +14288,13 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st Sem A.Y 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-7",
-              room: null
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "1:00 PM - 2:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-1",
-              room: null
-            },
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-          ],
-          tuesday: [
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-7",
-              room: null
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-7",
-              room: "CL 3"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-7",
-              room: "CL 3"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-5",
-              room: "CL 1"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-6",
-              room: "CL 1"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-5",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-6",
-              room: null
-            },
-            {
-              time: "10:00 AM - 11:00 AM",
-              subject: "DCIT 22",
-              section: "IT 1-5",
-              room: "ROOM 303"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-6",
-              room: "ROOM 303"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "CVSU 101",
-              section: "IT 1-6",
-              room: "ROOM 303"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-1",
-              room: null
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-5",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "CVSU 101",
-              section: "IT 1-5",
-              room: "ROOM 301"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-7",
-              room: "CL 3"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-5",
-              room: "CL 1"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 22",
-              section: "IT 1-6",
-              room: "CL 1"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 22 (LAB) ASYNC",
-              section: "IT 1-6",
-              room: null
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-salvador-sched.png",
       },
-      { //2nd Sem A.Y 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "GNED 01",
-              section: "CS 1-1",
-              room: "ROOM 204"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-1",
-              room: "CL 4"
-            },
-            {
-              time: "4:30 PM - 6:30 PM",
-              subject: "ITEC 101",
-              section: "IT 3-2",
-              room: "ROOM 107"
-            },
-            {
-              time: "7:00 PM - 8:30 PM",
-              subject: "GNED 06",
-              section: "CS 1-4",
-              room: "CL 3"
-            }
-          ],
-          wednesday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "GNED 01",
-              section: "CS 1-3",
-              room: "ROOM 107"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-3",
-              room: "AUDI"
-            },
-            {
-              time: "3:30 PM - 5:00 PM",
-              subject: "GNED 06",
-              section: "CS 1-4",
-              room: "AUDI"
-            }
-          ],
-          thursday: [
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "GNED 01",
-              section: "CS 1-5",
-              room: "CL 4"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "5:00 PM - 8:00 PM",
-              subject: "GNED 01",
-              section: "CS 1-2",
-              room: "CL 5"
-            }
-          ],
-          friday: [
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-1",
-              room: "ROOM 107"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-3",
-              room: "CL 1"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 101",
-              section: "IT 3-2",
-              room: "ROOM 201"
-            }
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-salvador-sched.png",
       }
     ],
     evaluation_scores: [4.71, 4.65, 4.28, 4.46],
@@ -17505,8 +14405,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      // No Record 1ST SEM 22-23
-      // No Record 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       // Summer 1ST SEM 23-24
       { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
@@ -18061,6 +14961,7 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
+      //No Record - 1st Sem A.Y 22-23
       { //2nd Sem A.Y 22-23
         semesterName: "2nd Sem A.Y 22-23",
         details: {
@@ -18308,130 +15209,13 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st Sem A.Y 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "COSC 85 (LEC) ASYNC",
-              section: "CS 3-2",
-              room: null
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "COSC 85 (LAB) ASYNC",
-              section: "CS 3-2",
-              room: null
-            },
-          ],
-          wednesday: [],
-          thursday: [
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "COSC 85",
-              section: "CS 3-1",
-              room: "ROOM 305"
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "COSC 85",
-              section: "CS 3-2",
-              room: "ROOM 303"
-            },
-          ],
-          friday: [
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "COSC 85",
-              section: "CS 3-3",
-              room: "ROOM 301"
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "COSC 85 (LEC) ASYNC",
-              section: "CS 3-3",
-              room: null
-            },
-            {
-              time: "7:00 PM - 8:00 PM",
-              subject: "COSC 85 (LAB) ASYNC",
-              section: "CS 3-3",
-              room: null
-            },
-          ],
-          saturday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "COSC 85",
-              section: "CS 3-3",
-              room: "CL 3"
-            },
-            {
-              time: "11:00 AM - 1:00 PM",
-              subject: "COSC 85",
-              section: "CS 3-1",
-              room: "CL 3"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "COSC 85",
-              section: "CS 3-2",
-              room: "CL 3"
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "COSC 85 (LEC) ASYNC",
-              section: "CS 3-1",
-              room: null
-            },
-            {
-              time: "6:00 PM - 7:00 PM",
-              subject: "COSC 85 (LAB) ASYNC",
-              section: "CS 3-1",
-              room: null
-            },
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-sarmiento-sched.png",
       },
-      { //2nd Sem A.Y 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [],
-          wednesday: [],
-          thursday: [],
-          friday: [],
-          saturday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 105",
-              section: "IT 3-2",
-              room: "CL 5"
-            },
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "ITEC 105",
-              section: "IT 3-3",
-              room: "ROOM 107"
-            },
-            {
-              time: "2:00 PM - 4:00 PM",
-              subject: "ITEC 105",
-              section: "IT 3-2",
-              room: "ROOM 201"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 105",
-              section: "IT 3-3",
-              room: "CL 5"
-            }
-          ],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-sarmiento-sched.png",
       }
     ],
     evaluation_scores: [4.64, 3.58, 4.31, 4.42],
@@ -18615,8 +15399,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2ND Sem A.Y 22-23
       { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -18920,265 +15704,13 @@ export const people = [
           sunday: [],
         }
       },
-      { //1st Sem A.Y 24-25
+      {//1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
-        details: {
-          monday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-1",
-              room: "CL 3"
-            },
-            {
-              time: "9:00 AM - 11:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-2",
-              room: "CL 3"
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 21",
-              section: "IT 1-3",
-              room: "CL 3"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 21",
-              section: "IT 1-4",
-              room: "ROOM 303"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 21 (LAB) ASYNC",
-              section: "IT 1-1",
-              room: null
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 21 (LAB) ASYNC",
-              section: "IT 1-2",
-              room: null
-            },
-          ],
-          tuesday: [
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 21 (LAB) ASYNC",
-              section: "IT 1-3",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "CVSU 101",
-              section: "IT 1-1",
-              room: "ROOM 301"
-            },
-            {
-              time: "12:00 PM - 1:00 PM",
-              subject: "CVSU 101",
-              section: "IT 1-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "CVSU 101",
-              section: "IT 1-3",
-              room: "ROOM 301"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-2",
-              room: null
-            },
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 8:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-1",
-              room: "ROOM 303"
-            },
-            {
-              time: "8:00 AM - 9:00 AM",
-              subject: "DCIT 21",
-              section: "IT 1-2",
-              room: "ROOM 301"
-            },
-            {
-              time: "9:00 AM - 10:00 AM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-3",
-              room: null
-            },
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 21 (LAB) ASYNC",
-              section: "IT 1-4",
-              room: null
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "DCIT 21",
-              section: "IT 1-4",
-              room: "CL 1"
-            },
-            {
-              time: "2:00 PM - 3:00 PM",
-              subject: "DCIT 21",
-              section: "IT 1-3",
-              room: "ROOM 301"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "CVSU 101",
-              section: "IT 1-4",
-              room: "ROOM 301"
-            },
-            {
-              time: "4:00 PM - 5:00 PM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-4",
-              room: null
-            },
-            {
-              time: "5:00 PM - 6:00 PM",
-              subject: "DCIT 21 (LEC) ASYNC",
-              section: "IT 1-1",
-              room: null
-            },
-          ],
-          thursday: [
-            {
-              time: "11:00 AM - 12:00 PM",
-              subject: "DCIT 65 ASYNC",
-              section: "IT 4-6",
-              room: null
-            },
-            {
-              time: "1:00 PM - 3:00 PM",
-              subject: "DCIT 65",
-              section: "IT 1-4",
-              room: "ROOM 303"
-            },
-            {
-              time: "3:00 PM - 4:00 PM",
-              subject: "DCIT 65 ASYNC",
-              section: "CS 3-4",
-              room: null
-            },
-            {
-              time: "4:00 PM - 6:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "7:00 PM - 9:00 PM",
-              subject: "DCIT 65",
-              section: "CS 3-4",
-              room: "ROOM 303"
-            },
-          ],
-          friday: [],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/1st-sem/1-tacata-sched.png",
       },
-      { //2nd Sem A.Y 24-25
+      {//2nd Sem A.Y 24-25
         semesterName: "2nd Sem A.Y 24-25",
-        details: {
-          monday: [],
-          tuesday: [
-            {
-              time: "10:00 AM - 12:00 PM",
-              subject: "CONSULTATION",
-              section: null,
-              room: "FACULTY"
-            },
-            {
-              time: "12:00 PM - 2:00 PM",
-              subject: "ITEC 50",
-              section: "IT 1-1",
-              room: "ROOM 203"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-5",
-              room: "ROOM 201"
-            }
-          ],
-          wednesday: [
-            {
-              time: "7:00 AM - 9:00 AM",
-              subject: "ITEC 60",
-              section: "IT 2-2",
-              room: "CL 5"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-5",
-              room: "CL 4"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "ITEC 60",
-              section: "IT 2-3",
-              room: "ROOM 204"
-            },
-            {
-              time: "5:00 PM - 7:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-1",
-              room: "ACCRE"
-            }
-          ],
-          thursday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 50",
-              section: "IT 1-1",
-              room: "CL 2"
-            },
-            {
-              time: "1:00 PM - 4:00 PM",
-              subject: "ITEC 60",
-              section: "IT 2-3",
-              room: "CL 1"
-            },
-            {
-              time: "4:00 PM - 7:00 PM",
-              subject: "ITEC 60",
-              section: "IT 2-2",
-              room: "CL 1"
-            }
-          ],
-          friday: [
-            {
-              time: "7:00 AM - 10:00 AM",
-              subject: "ITEC 60",
-              section: "IT 2-6",
-              room: "CL 5"
-            },
-            {
-              time: "10:00 AM - 1:00 PM",
-              subject: "DCIT 55",
-              section: "CS 2-1",
-              room: "CL 5"
-            },
-            {
-              time: "3:00 PM - 5:00 PM",
-              subject: "ITEC 60",
-              section: "IT 2-6",
-              room: "ROOM 201"
-            }
-          ],
-          saturday: [],
-          sunday: [],
-        }
+        image: "/faculty-schedule/2nd-sem/2-tacata-sched.png",
       }
     ],
     evaluation_scores: [4.01, 4.43, 4.43, 4.50],
@@ -19306,10 +15838,10 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
-      //No Record - 1ST SEM 23-24
-      //No Record - 2ND SEM 23-24
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
       { //1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
@@ -19505,8 +16037,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -20149,8 +16681,8 @@ export const people = [
     }],
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -20778,10 +17310,8 @@ export const people = [
         url: "https://drive.google.com/file/d/1_sXLNEEfm2XZPp04Ya88dC2yERvRvjb9/view?usp=drive_link"
       },
     ],
-
     // resume: "https://drive.google.com/file/d/1_pRyAoW8oieEtTcWmI7pfpaJymr8VdLx/view?usp=drive_link",
     certificates: [
-
       {
         name: "DICT: Data Privacy Awareness for the Academe",
         url: "https://drive.google.com/file/d/1EP6YKJApiKacZbLGCB9N0fSUQzX0WvLZ/view?usp=drive_link"
@@ -20797,6 +17327,20 @@ export const people = [
         url: "https://drive.google.com/file/d/1_ZaVEblW1GDYBK2KVqK_acZQN22xG7mc/view?usp=drive_link"
       }
 
+    ],
+    schedule: [
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
+      {//1st Sem A.Y 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        image: "/faculty-schedule/1st-sem/1-gamuyao-sched.png",
+      },
+      {//2nd Sem A.Y 24-25
+        semesterName: "2nd Sem A.Y 24-25",
+        image: "/faculty-schedule/2nd-sem/2-gamuyao-sched.png",
+      }
     ],
 
   },
@@ -20822,7 +17366,6 @@ export const people = [
       url: "https://drive.google.com/file/d/1ncMrMIuFgzShTkYSZorV1glD9pTbGB_u/view?usp=drive_link"
     }],
     tor: [
-
       {
         name: "MASTER IN BUSINESS ADMINISTRATION",
         url: "https://drive.google.com/file/d/1kXL8FOh74fEL8gmATpXf_S151127YUoo/view?usp=drive_link"
@@ -20832,7 +17375,6 @@ export const people = [
 
     resume: "https://drive.google.com/file/d/1Se89lVfZKwK3ki47EE7ZUFN7RUDkaoVc/view?usp=drive_link",
     certificates: [
-
       {
         name: "Data Associate Capstone Course",
         url: "https://drive.google.com/file/d/1K0MwbrktWqWs5Dn-FrFltw8NGAq77U1R/view?usp=drive_link"
@@ -20862,8 +17404,21 @@ export const people = [
         name: "Resource Speaker/Trainor: Project 4 Kaagapay sa Kabuhayang tungo sa Kaunlaran",
         url: "https://drive.google.com/file/d/1cFBoVGxYRwbJHwSZJiBLxZvlgaqmzjX-/view?usp=drive_link"
       }
-
     ],
+    schedule: [
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
+      {//1st Sem A.Y 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        image: "/faculty-schedule/1st-sem/1-lamanilao-sched.png",
+      },
+      {//2nd Sem A.Y 24-25
+        semesterName: "2nd Sem A.Y 24-25",
+        image: "/faculty-schedule/2nd-sem/2-lamanilao-sched.png",
+      },
+    ],    
     membership: [
       {
         name: "Human Resource Educators Association of the Philippines, Inc.",
