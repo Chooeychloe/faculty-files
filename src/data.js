@@ -9253,8 +9253,8 @@ export const people = [
     certificates: null,
     speaking_engagements: null,
     schedule: [
-      //No Record - 1st SEM  22-23
-      //No Record - 2nd SEM  22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       { //1st 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -13992,8 +13992,8 @@ export const people = [
     ],
     speaking_engagements: null,
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -14405,8 +14405,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      // No Record - Sem A.Y 22-23
-      // No Record - Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       // Summer 1ST SEM 23-24
       { //2nd Sem A.Y 23-24
         semesterName: "2nd Sem A.Y 23-24",
@@ -15838,10 +15838,10 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
-      //No Record - 1ST SEM 23-24
-      //No Record - 2ND SEM 23-24
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
       { //1st Sem A.Y 24-25
         semesterName: "1st Sem A.Y 24-25",
         details: {
@@ -16037,8 +16037,8 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       { //1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -16681,8 +16681,8 @@ export const people = [
     }],
 
     schedule: [
-      //No Record - 1ST SEM 22-23
-      //No Record - 2ND SEM 22-23
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
       {
         semesterName: "1st Sem A.Y 23-24",
         details: {
@@ -17366,7 +17366,6 @@ export const people = [
       url: "https://drive.google.com/file/d/1ncMrMIuFgzShTkYSZorV1glD9pTbGB_u/view?usp=drive_link"
     }],
     tor: [
-
       {
         name: "MASTER IN BUSINESS ADMINISTRATION",
         url: "https://drive.google.com/file/d/1kXL8FOh74fEL8gmATpXf_S151127YUoo/view?usp=drive_link"
@@ -17376,7 +17375,6 @@ export const people = [
 
     resume: "https://drive.google.com/file/d/1Se89lVfZKwK3ki47EE7ZUFN7RUDkaoVc/view?usp=drive_link",
     certificates: [
-
       {
         name: "Data Associate Capstone Course",
         url: "https://drive.google.com/file/d/1K0MwbrktWqWs5Dn-FrFltw8NGAq77U1R/view?usp=drive_link"
@@ -17406,8 +17404,21 @@ export const people = [
         name: "Resource Speaker/Trainor: Project 4 Kaagapay sa Kabuhayang tungo sa Kaunlaran",
         url: "https://drive.google.com/file/d/1cFBoVGxYRwbJHwSZJiBLxZvlgaqmzjX-/view?usp=drive_link"
       }
-
     ],
+    schedule: [
+      //No Record - 1st Sem A.Y 22-23
+      //No Record - 2nd Sem A.Y 22-23
+      //No Record - 1st Sem A.Y 23-24
+      //No Record - 2nd Sem A.Y 23-24
+      {//1st Sem A.Y 24-25
+        semesterName: "1st Sem A.Y 24-25",
+        image: "/faculty-schedule/1st-sem/1-lamanilao-sched.png",
+      },
+      {//2nd Sem A.Y 24-25
+        semesterName: "2nd Sem A.Y 24-25",
+        image: "/faculty-schedule/2nd-sem/2-lamanilao-sched.png",
+      },
+    ],    
     membership: [
       {
         name: "Human Resource Educators Association of the Philippines, Inc.",
