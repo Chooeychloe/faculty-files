@@ -12,11 +12,11 @@ export const people = [
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
     },
     {
-      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
       url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
     },
     {
-      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm (Proposal)",
       url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
     },],
     extension: {
@@ -970,17 +970,17 @@ export const people = [
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
     },
-
     {
-      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
+      name: "Tambuli: An Emergency Alert System for the City of Bacoor",
+      url: "https://drive.google.com/drive/folders/1sHLHHyK3J2Nb3-CPIfO_-Qv2k0DyZ6Ub?usp=drive_link"
+    },
+    {
+      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
       url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
     },
+
     {
-      name: "Tambuli",
-      url: ""
-    },
-    {
-      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
+      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm (Proposal)",
       url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
     },
     ],
@@ -1085,51 +1085,51 @@ export const people = [
         details: {
           monday: [],
           tuesday: [
-            { 
-              time: "10:00 AM - 12:00 PM", 
-              section: "CS 2-1", 
-              subject: "INSY 50", 
-              room: "ROOM 302" 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1",
+              subject: "INSY 50",
+              room: "ROOM 302"
             },
-            { 
-              time: "1:00 PM - 3:00 PM", 
-              section: "CS 4-1", 
-              subject: "COSC 200A", 
-              room: "ROOM 303" 
+            {
+              time: "1:00 PM - 3:00 PM",
+              section: "CS 4-1",
+              subject: "COSC 200A",
+              room: "ROOM 303"
             },
           ],
           wednesday: [
-            { 
-              time: "10:00 AM - 11:00 AM", 
-              section: "CS 2-1", 
-              subject: "INSY 50 Async", 
-              room: null 
+            {
+              time: "10:00 AM - 11:00 AM",
+              section: "CS 2-1",
+              subject: "INSY 50 Async",
+              room: null
             },
-            { 
-              time: "11:00 AM - 12:00 PM", 
-              section: "CS 2-1", 
-              subject: "INSY 50 Async", 
-              room: null 
+            {
+              time: "11:00 AM - 12:00 PM",
+              section: "CS 2-1",
+              subject: "INSY 50 Async",
+              room: null
             },
-            { 
-              time: "12:00 PM - 1:00 PM", 
-              section: "CS 2-1", 
-              subject: "INSY 50 Async", 
-              room: null 
+            {
+              time: "12:00 PM - 1:00 PM",
+              section: "CS 2-1",
+              subject: "INSY 50 Async",
+              room: null
             },
           ],
           thursday: [
-            { 
-              time: "10:00 AM - 12:00 PM", 
-              section: "CS 2-2", 
-              subject: "INSY 50", 
-              room: "ROOM 302" 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "CS 2-2",
+              subject: "INSY 50",
+              room: "ROOM 302"
             },
-            { 
-              time: "1:00 PM - 3:00 PM", 
-              section: "CS 2-3", 
-              subject: "INSY 50", 
-              room: "ROOM 302" 
+            {
+              time: "1:00 PM - 3:00 PM",
+              section: "CS 2-3",
+              subject: "INSY 50",
+              room: "ROOM 302"
             },
           ],
           friday: [],
@@ -1141,59 +1141,65 @@ export const people = [
         semesterName: "2nd Sem A.Y 23-24",
         details: {
           monday: [
-            { time: "9:00 AM - 12:00 AM", 
-              section: "", 
-              subject: "Research", 
-              room: "FACULTY ROOM" 
+            {
+              time: "9:00 AM - 12:00 AM",
+              section: "",
+              subject: "Research",
+              room: "FACULTY ROOM"
             },
-            { time: "1:00 PM - 4:00 PM",
-              section: "", 
-              subject: "Extension", 
-              room: "FACULTY ROOM" 
+            {
+              time: "1:00 PM - 4:00 PM",
+              section: "",
+              subject: "Extension",
+              room: "FACULTY ROOM"
             },
           ],
           tuesday: [
-            { time: "10:30 AM - 12:30 PM",
+            {
+              time: "10:30 AM - 12:30 PM",
               section: "CS 4-1",
-              subject: "COSC 200B", 
-              room: "ROOM 408" 
+              subject: "COSC 200B",
+              room: "ROOM 408"
             },
-            { time: "3:00 PM - 5:00 PM", 
-              section: "IT 4-1", 
-              subject: "ITEC 199", 
-              room: "CL 4" 
+            {
+              time: "3:00 PM - 5:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 199",
+              room: "CL 4"
             },
           ],
           wednesday: [
-            { time: "10:00 AM - 11:00 AM",
-              section: "IT 3-6", 
-              subject: "DCIT 60 Async", 
-              room: null 
+            {
+              time: "10:00 AM - 11:00 AM",
+              section: "IT 3-6",
+              subject: "DCIT 60 Async",
+              room: null
             },
-            { 
-              time: "11:00 AM - 12:00 PM", 
-              section: "CS 4-1", 
-              subject: "COSC 200B", 
-              room: null 
+            {
+              time: "11:00 AM - 12:00 PM",
+              section: "CS 4-1",
+              subject: "COSC 200B",
+              room: null
             },
-            { time: "12:00 PM - 2:00 PM", 
-              section: "IT 4-1", 
-              subject: "ITEC 199", 
-              room: null 
+            {
+              time: "12:00 PM - 2:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 199",
+              room: null
             },
           ],
           thursday: [
-            { 
-              time: "10:00 AM - 12:00 PM", 
-              section: "IT 3-6", 
-              subject: "ITEC 200A", 
-              room: "ROOM 302" 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "IT 3-6",
+              subject: "ITEC 200A",
+              room: "ROOM 302"
             },
-            { 
-              time: "3:00 PM - 5:00 PM", 
-              section: "IT 4-1", 
-              subject: "ITEC 199", 
-              room: "CL 4" 
+            {
+              time: "3:00 PM - 5:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 199",
+              room: "CL 4"
             },
           ],
           friday: [],
@@ -1319,18 +1325,19 @@ export const people = [
     isCS: true,
     designation: "Program Coordinator, Information Technology",
     image: "/images/montallana.JPG",
-    // research: [{
-    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    // },
-    // {
-    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    // },
-    // {
-    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    // },],
+    research: [{
+      name: "Development and Acceptability of a Weather and Disaster Awareness Information System for the City of Bacoor",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    },
+    {
+      name: "The Technology Intervention for Special Education: A Quasi-Experimental Study on Student Engagement and Achievement (PROPOSAL)",
+      url: "https://drive.google.com/drive/folders/15Wzx0Xc0i4aGJ9rGJX7nIF2V20q8Leox?usp=drive_link"
+    },
+    {
+      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
+      url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    }
+    ],
     extension: {
       image: "/extension/extension-montallana.jfif",
       url: "https://drive.google.com/drive/folders/1BPdSr_u3K7C_QwvNg1gIlsOTVBjctH6D?usp=drive_link"
@@ -1715,18 +1722,15 @@ export const people = [
     image: "/images/bato.JPG",
     isCS: true,
     designation: "Head, OSAS",
-    // research: [{
-    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    // },
-    // {
-    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    // },
-    // {
-    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    // },],
+    research: [{
+      name: "Development and Acceptability of a Weather and Disaster Awareness Information System for the City of Bacoor",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    },
+    {
+      name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
+      url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+    }
+    ],
     extension: {
       image: "/extension/extension-bato.jpg",
       url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
@@ -1828,71 +1832,83 @@ export const people = [
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "11:00 AM - 1:00 PM",
-              section: "CS 2-2", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "11:00 AM - 1:00 PM",
+              section: "CS 2-2",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "2:00 PM - 5:00 PM", 
-              section: null, 
-              subject: "RESEARCH AND EXTENSION", 
-              room: null 
+            {
+              time: "2:00 PM - 5:00 PM",
+              section: null,
+              subject: "RESEARCH AND EXTENSION",
+              room: null
             },
           ],
           tuesday: [
-            { time: "2:00 PM - 3:00 PM",
-              section: "IT 3-3", 
-              subject: "INSY 55", 
-              room: null 
+            {
+              time: "2:00 PM - 3:00 PM",
+              section: "IT 3-3",
+              subject: "INSY 55",
+              room: null
             },
           ],
           wednesday: [
-            { time: "8:00 AM - 9:00 AM",
-              section: "CS 2-2", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "8:00 AM - 9:00 AM",
+              section: "CS 2-2",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "9:00 AM - 10:00 AM",
-              section: "CS 2-1", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "9:00 AM - 10:00 AM",
+              section: "CS 2-1",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "10:00 AM - 12:00 PM",
-              section: "CS 2-1", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "1:00 PM - 2:00 PM",
-              section: "CS 2-3", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "1:00 PM - 2:00 PM",
+              section: "CS 2-3",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "2:00 PM - 4:00 PM",
-              section: "CS 2-3", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "2:00 PM - 4:00 PM",
+              section: "CS 2-3",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "5:00 PM - 6:00 PM",
-              section: "IT 3-3", 
-              subject: "INSY 55", 
-              room: null 
+            {
+              time: "5:00 PM - 6:00 PM",
+              section: "IT 3-3",
+              subject: "INSY 55",
+              room: null
             },
           ],
           thursday: [
-            { time: "9:00 PM - 10:00 PM",
-              section: "CS 1-1", 
-              subject: "CvSU 101", 
-              room: null 
+            {
+              time: "9:00 PM - 10:00 PM",
+              section: "CS 1-1",
+              subject: "CvSU 101",
+              room: null
             },
-            { time: "10:00 AM - 11:00 AM",
-              section: "IT 3-3", 
-              subject: "INSY 55 (LAB)", 
-              room: null 
+            {
+              time: "10:00 AM - 11:00 AM",
+              section: "IT 3-3",
+              subject: "INSY 55 (LAB)",
+              room: null
             },
-            { time: "11:00 AM - 1:00 PM",
-              section: "IT 3-3", 
-              subject: "INSY 55 (LAB)", 
-              room: null 
+            {
+              time: "11:00 AM - 1:00 PM",
+              section: "IT 3-3",
+              subject: "INSY 55 (LAB)",
+              room: null
             },
           ],
           friday: [],
@@ -1904,47 +1920,54 @@ export const people = [
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "1:00 PM - 4:00 PM",
-              section: "IT 4-1", 
-              subject: "ITEC 99", 
-              room: "ROOM 303" 
+            {
+              time: "1:00 PM - 4:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 99",
+              room: "ROOM 303"
             },
           ],
           tuesday: [
-            
+
           ],
           wednesday: [
-            { time: "10:00 AM - 12:00 PM",
-              section: "CS 2-1", 
-              subject: "COSC 70", 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1",
+              subject: "COSC 70",
               room: "ROOM 301"
             },
-            { time: "1:00 PM - 3:00 PM",
-              section: "CS 2-2", 
-              subject: "COSC 70", 
+            {
+              time: "1:00 PM - 3:00 PM",
+              section: "CS 2-2",
+              subject: "COSC 70",
               room: "ROOM 302"
             },
-            { time: "3:00 PM - 6:00 PM",
-              section: "IT 4-1", 
-              subject: "ITEC 99", 
-              room: "ROOM 305" 
+            {
+              time: "3:00 PM - 6:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 99",
+              room: "ROOM 305"
             },
           ],
           thursday: [
-            { time: "10:00 AM - 11:00 AM",
-              section: "CS 2-1", 
-              subject: "COSC 70 (ASYNC)", 
-              room: null 
+            {
+              time: "10:00 AM - 11:00 AM",
+              section: "CS 2-1",
+              subject: "COSC 70 (ASYNC)",
+              room: null
             },
-            { time: "1:00 PM - 2:00 PM",
-              section: "CS 2-1", 
-              subject: "COSC 70 (ASYNC)", 
-              room: null 
+            {
+              time: "1:00 PM - 2:00 PM",
+              section: "CS 2-1",
+              subject: "COSC 70 (ASYNC)",
+              room: null
             },
-            { time: "2:00 PM - 5:00 PM",
-              section: null, 
-              subject: "RESEARCH AND EXTENSION", 
-              room: null 
+            {
+              time: "2:00 PM - 5:00 PM",
+              section: null,
+              subject: "RESEARCH AND EXTENSION",
+              room: null
             },
           ],
           friday: [],
@@ -2518,6 +2541,12 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/arciaga.JPG",
+    research: [
+      {
+        name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
+        url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+      }
+    ],
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1kvJePlHOZXKyps2YQJJcVtQcKIbBF3dD/view?usp=sharing"
@@ -3749,7 +3778,12 @@ export const people = [
     research: [{
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    }],
+    },
+
+    {
+      name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm (Proposal)",
+      url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
+    },],
     extension: {
       image: "/extension/extension-belgica.jpg",
       url: "https://drive.google.com/drive/folders/1mTylSv93-VvO42-J_rfPT5R0XvpKGVFw?usp=drive_link"
@@ -4357,6 +4391,12 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/bolarda.JPG",
+    research: [
+      {
+        name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
+        url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+      }
+    ],
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1xI9TonOm7Rxl6lxHb3WWtWWMlW0smUIt/view?usp=sharing"
@@ -6420,6 +6460,10 @@ export const people = [
     research: [{
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    },
+    {
+      name: "Tambuli: An Emergency Alert System for the City of Bacoor",
+      url: "https://drive.google.com/drive/folders/1sHLHHyK3J2Nb3-CPIfO_-Qv2k0DyZ6Ub?usp=drive_link"
     }, {
       name: "Predicting Student's Probability of Passing Major Courses using Logistic Regression and Support Vector Machine",
       url: "https://drive.google.com/drive/folders/1-o8diTqXAjrM83zQsYNC6qj_zT5cz-XE?usp=drive_link"
@@ -8701,8 +8745,6 @@ export const people = [
       }
     }
   },
-
-
   //Edmund Martinez
   {
     first_name: "Edmund",
@@ -9046,6 +9088,11 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/mojasreal.jpg",
+    research: [
+      {
+        name: "Tambuli: An Emergency Alert System for the City of Bacoor",
+        url: "https://drive.google.com/drive/folders/1sHLHHyK3J2Nb3-CPIfO_-Qv2k0DyZ6Ub?usp=drive_link"
+      }],
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1mTI1v4nLevcHRYq-OnTHWJ7dSwbLrHum/view?usp=sharing"
@@ -11133,18 +11180,19 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/ramallosa.jpg",
-    // research: [{
-    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    // },
-    // {
-    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    // },
-    // {
-    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    // },],
+    research: [
+      {
+        name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
+        url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+      },
+      {
+        name: "The Technology Intervention for Special Education: A Quasi-Experimental Study on Student Engagement and Achievement (PROPOSAL)",
+        url: "https://drive.google.com/drive/folders/15Wzx0Xc0i4aGJ9rGJX7nIF2V20q8Leox?usp=drive_link"
+      },
+      {
+        name: "Design and Development of a Multi-purpose Ardunio-Based Solar-Powered Pest Device (Proposal)",
+        url: "https://drive.google.com/drive/folders/1gU0VTr-pa1GZNGSVztCQHonuFujRLskX?usp=drive_link"
+      },],
     extension: {
       image: "/extension/extension-ramallosa.jfif",
       url: "https://drive.google.com/drive/folders/1fK1tU4ZvtrqoXdHSPNn-R_kXwDe6HTYM?usp=drive_link"
@@ -12731,8 +12779,6 @@ export const people = [
       }
     }
   },
-
-
   //Rachel Rodriguez
   {
     first_name: "Rachel",
@@ -12741,24 +12787,19 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/rodriguez.JPG",
-    //    research: [{
-    //     name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //     url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    //   },
-
-    //   {
-    //     name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //     url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    //   },
-    //     {
-    //     name: "Tambuli",
-    //     url: ""
-    //   },
-    //   {
-    //     name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //     url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    //   },
-    // ],
+    research: [
+      {
+        name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
+        url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
+      },
+      {
+        name: "The Technology Intervention for Special Education: A Quasi-Experimental Study on Student Engagement and Achievement (PROPOSAL)",
+        url: "https://drive.google.com/drive/folders/15Wzx0Xc0i4aGJ9rGJX7nIF2V20q8Leox?usp=drive_link"
+      },
+      {
+        name: "Design and Development of a Multi-purpose Ardunio-Based Solar-Powered Pest Device (Proposal)",
+        url: "https://drive.google.com/drive/folders/1gU0VTr-pa1GZNGSVztCQHonuFujRLskX?usp=drive_link"
+      },],
     extension: {
       image: "/extension/extension-rodriguez.jpg",
       url: "https://drive.google.com/drive/folders/1fK1tU4ZvtrqoXdHSPNn-R_kXwDe6HTYM?usp=drive_link"
@@ -13518,10 +13559,17 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/rostrollo.JPG",
-    research: [{
-      name: "Design and Development of a Multi-Purpose Arduino Based Solar Powered Pest Device",
-      url: "https://drive.google.com/drive/folders/1gU0VTr-pa1GZNGSVztCQHonuFujRLskX?usp=drive_link"
-    }],
+
+    research: [
+      {
+        name: "The Technology Intervention for Special Education: A Quasi-Experimental Study on Student Engagement and Achievement (PROPOSAL)",
+        url: "https://drive.google.com/drive/folders/15Wzx0Xc0i4aGJ9rGJX7nIF2V20q8Leox?usp=drive_link"
+      },
+
+      {
+        name: "Design and Development of a Multi-purpose Ardunio-Based Solar-Powered Pest Device (Proposal)",
+        url: "https://drive.google.com/drive/folders/1gU0VTr-pa1GZNGSVztCQHonuFujRLskX?usp=drive_link"
+      },],
     extension: {
       image: "/extension/extension-rostrollo.jpg",
       url: "https://drive.google.com/drive/folders/1mTylSv93-VvO42-J_rfPT5R0XvpKGVFw?usp=drive_link"
@@ -13943,24 +13991,16 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/salvador.jpeg",
-    // research: [{
-    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    // },
+    research: [
+      {
+        name: "The Technology Intervention for Special Education: A Quasi-Experimental Study on Student Engagement and Achievement (PROPOSAL)",
+        url: "https://drive.google.com/drive/folders/15Wzx0Xc0i4aGJ9rGJX7nIF2V20q8Leox?usp=drive_link"
+      },
 
-    // {
-    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    // },
-    // {
-    //   name: "Tambuli",
-    //   url: ""
-    // },
-    // {
-    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    // },
-    // ],
+      {
+        name: "Green Future: An Online Information System to Build An Eco Friendly Community Together. (PROPOSAL)",
+        url: "https://drive.google.com/drive/folders/1MBu_IAdfhmJmWqQG3Nj9ATOu3EfY4YmT?usp=drive_link"
+      },],
     extension: {
       image: "/extension/extension-salvador.jpg",
       url: "https://drive.google.com/drive/folders/1fK1tU4ZvtrqoXdHSPNn-R_kXwDe6HTYM?usp=drive_link"
@@ -15320,18 +15360,7 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/tacata.JPG",
-    // research: [{
-    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    // },
-    // {
-    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    // },
-    // {
-    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    // },],
+
     extension: {
       image: "/extension/extension-tacata.jfif",
       url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
@@ -17286,11 +17315,11 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/gamuyao.jpg",
-    // research: "Triangle",
-    // extension: {
-    //   image: "/extension/extension-ocampo.jpg",
-    //   url: "https://example.com"
-    // },
+    research: [{
+      name: "Development and Acceptability of a Weather and Disaster Awareness Information System for the City of Bacoor",
+      url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
+    }
+    ],
     diploma: [{
       name: "BACHELOR OF SCIENCE IN MATHEMATICS",
       url: "https://drive.google.com/file/d/1bdUGEqvkAf3VQhoCnAps1ApbLPke20eX/view?usp=drive_link"
@@ -17352,11 +17381,15 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/lamanilao.jpg",
-    // research: "Triangle",
-    // extension: {
-    //   image: "/extension/extension-ocampo.jpg",
-    //   url: "https://example.com"
-    // },
+    research: [{
+      name: "Improvement of Marketing Strategies for Pineapple and Sugarcane Crops in the Municipalities of Silang and Magallanes in Cavite",
+      url: "https://drive.google.com/drive/folders/1lNT10MVajPdsLcKLHHZL0iq2O1vkN9BB?usp=drive_link"
+    },
+    {
+      name: "Strategic Management towards Maximizing Community Engagement for Micro and Small Enterprises",
+      url: "https://drive.google.com/drive/folders/126H56KNp2zbrIc8-bzPFd7EHdMSfGqA4?usp=drive_link"
+    }
+    ],
     diploma: [{
       name: "Associate in Computer Science",
       url: "https://drive.google.com/file/d/1qE0359qRLpxhbOU1FSVUj26EI-GSSURu/view?usp=drive_link"
@@ -17418,7 +17451,7 @@ export const people = [
         semesterName: "2nd Sem A.Y 24-25",
         image: "/faculty-schedule/2nd-sem/2-lamanilao-sched.png",
       },
-    ],    
+    ],
     membership: [
       {
         name: "Human Resource Educators Association of the Philippines, Inc.",
