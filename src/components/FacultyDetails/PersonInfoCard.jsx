@@ -46,10 +46,10 @@ function PersonInfoCard({
           {academic_rank && (
             <div className="text-center mb-4">
               <div className="flex justify-center items-center gap-2">
-                <span className="text-gray-900 font-medium text-xl">
+                <span className="text-gray-900 font-medium">
                   Academic Rank:
                 </span>
-                <span className="text-xl font-semibold text-red-900">
+                <span className="font-semibold text-red-900">
                   {academic_rank}
                 </span>
               </div>

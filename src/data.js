@@ -3955,12 +3955,7 @@ export const people = [
     name: "Edan A. Belgica",
     isCS: true,
     academic_rank: "Instructor I",
-    membership: [
-      {
-        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
-        url: "https://drive.google.com/file/d/1HqWX8gl4G5WeL5jUCtlhqOdR7UZKAycJ/view?usp=drive_link"
-      },
-    ],
+
     research: [{
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
@@ -4577,12 +4572,7 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     academic_rank: "Instructor I",
-    membership: [
-      {
-        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
-        url: "https://drive.google.com/file/d/1HqWX8gl4G5WeL5jUCtlhqOdR7UZKAycJ/view?usp=drive_link"
-      },
-    ],
+
     image: "/images/bolarda.JPG",
     research: [
       {
