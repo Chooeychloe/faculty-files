@@ -23,7 +23,7 @@ function DisplayListWithModal({ title, items, listClassName }) {
               href={doc.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline hover:text-red-900"
+              className="text-base hover:underline hover:text-red-900"
             >
               {doc.name || `${title} ${index + 1}`}
             </a>
@@ -33,9 +33,9 @@ function DisplayListWithModal({ title, items, listClassName }) {
       {hasMoreItems && (
         <button
           onClick={() => setIsModalOpen(true)}
-          className="text-sm text-blue-800 hover:underline font-semibold mt-2"
+          className="text-sm text-red-900 hover:underline font-semibold mt-2"
         >
-          VIEW ALL
+          View All
         </button>
       )}
 

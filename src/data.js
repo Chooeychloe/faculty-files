@@ -7,6 +7,11 @@ export const people = [
     isCS: true,
     designation: "Department Chairperson",
     image: "/images/ocampo1.JPG",
+
+    academic_rank: "Instructor III",
+    membership: [
+      { name: "Member: Integrated Society of Information Technology Enthusiasts Inc.", url: "https://drive.google.com/file/d/19uZY4OIIT6wI3XF0narvksnT50MkXvXM/view?usp=drive_link" },
+    ],
     research: [{
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
@@ -964,6 +969,19 @@ export const people = [
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
     isCS: true,
+
+    academic_rank: "Assistant Professor III",
+    membership: [
+      {
+        name: "Member: International Society of Transdisciplinary Researchers, Educators, and Leaders, Inc.",
+        url: "https://drive.google.com/file/d/1GVZq8jI6dLmdQHgtt5JvemqHHlbSrKol/view?usp=drive_link"
+      },
+
+      {
+        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
+        url: "https://drive.google.com/file/d/1sYWOLzO2b2cTvctZY1ImX9EbZznqeXWM/view?usp=drive_link"
+      },
+    ],
     designation: "Program Coordinator, Computer Science",
     image: "/images/briones.JPG",
     research: [{
@@ -1082,71 +1100,83 @@ export const people = [
         semesterName: "1st Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "11:00 AM - 1:00 PM",
-              section: "CS 2-2", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "11:00 AM - 1:00 PM",
+              section: "CS 2-2",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "2:00 PM - 5:00 PM", 
-              section: null, 
-              subject: "RESEARCH AND EXTENSION", 
-              room: null 
+            {
+              time: "2:00 PM - 5:00 PM",
+              section: null,
+              subject: "RESEARCH AND EXTENSION",
+              room: null
             },
           ],
           tuesday: [
-            { time: "2:00 PM - 3:00 PM",
-              section: "IT 3-3", 
-              subject: "INSY 55", 
-              room: null 
+            {
+              time: "2:00 PM - 3:00 PM",
+              section: "IT 3-3",
+              subject: "INSY 55",
+              room: null
             },
           ],
           wednesday: [
-            { time: "8:00 AM - 9:00 AM",
-              section: "CS 2-2", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "8:00 AM - 9:00 AM",
+              section: "CS 2-2",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "9:00 AM - 10:00 AM",
-              section: "CS 2-1", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "9:00 AM - 10:00 AM",
+              section: "CS 2-1",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "10:00 AM - 12:00 PM",
-              section: "CS 2-1", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "1:00 PM - 2:00 PM",
-              section: "CS 2-3", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "1:00 PM - 2:00 PM",
+              section: "CS 2-3",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "2:00 PM - 4:00 PM",
-              section: "CS 2-3", 
-              subject: "INSY 50", 
-              room: null 
+            {
+              time: "2:00 PM - 4:00 PM",
+              section: "CS 2-3",
+              subject: "INSY 50",
+              room: null
             },
-            { time: "5:00 PM - 6:00 PM",
-              section: "IT 3-3", 
-              subject: "INSY 55", 
-              room: null 
+            {
+              time: "5:00 PM - 6:00 PM",
+              section: "IT 3-3",
+              subject: "INSY 55",
+              room: null
             },
           ],
           thursday: [
-            { time: "9:00 PM - 10:00 PM",
-              section: "CS 1-1", 
-              subject: "CvSU 101", 
-              room: null 
+            {
+              time: "9:00 PM - 10:00 PM",
+              section: "CS 1-1",
+              subject: "CvSU 101",
+              room: null
             },
-            { time: "10:00 AM - 11:00 AM",
-              section: "IT 3-3", 
-              subject: "INSY 55 (LAB)", 
-              room: null 
+            {
+              time: "10:00 AM - 11:00 AM",
+              section: "IT 3-3",
+              subject: "INSY 55 (LAB)",
+              room: null
             },
-            { time: "11:00 AM - 1:00 PM",
-              section: "IT 3-3", 
-              subject: "INSY 55 (LAB)", 
-              room: null 
+            {
+              time: "11:00 AM - 1:00 PM",
+              section: "IT 3-3",
+              subject: "INSY 55 (LAB)",
+              room: null
             },
           ],
           friday: [],
@@ -1158,47 +1188,54 @@ export const people = [
         semesterName: "2nd Sem A.Y 22-23",
         details: {
           monday: [
-            { time: "1:00 PM - 4:00 PM",
-              section: "IT 4-1", 
-              subject: "ITEC 99", 
-              room: "ROOM 303" 
+            {
+              time: "1:00 PM - 4:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 99",
+              room: "ROOM 303"
             },
           ],
           tuesday: [
-            
+
           ],
           wednesday: [
-            { time: "10:00 AM - 12:00 PM",
-              section: "CS 2-1", 
-              subject: "COSC 70", 
+            {
+              time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1",
+              subject: "COSC 70",
               room: "ROOM 301"
             },
-            { time: "1:00 PM - 3:00 PM",
-              section: "CS 2-2", 
-              subject: "COSC 70", 
+            {
+              time: "1:00 PM - 3:00 PM",
+              section: "CS 2-2",
+              subject: "COSC 70",
               room: "ROOM 302"
             },
-            { time: "3:00 PM - 6:00 PM",
-              section: "IT 4-1", 
-              subject: "ITEC 99", 
-              room: "ROOM 305" 
+            {
+              time: "3:00 PM - 6:00 PM",
+              section: "IT 4-1",
+              subject: "ITEC 99",
+              room: "ROOM 305"
             },
           ],
           thursday: [
-            { time: "10:00 AM - 11:00 AM",
-              section: "CS 2-1", 
-              subject: "COSC 70 (ASYNC)", 
-              room: null 
+            {
+              time: "10:00 AM - 11:00 AM",
+              section: "CS 2-1",
+              subject: "COSC 70 (ASYNC)",
+              room: null
             },
-            { time: "1:00 PM - 2:00 PM",
-              section: "CS 2-1", 
-              subject: "COSC 70 (ASYNC)", 
-              room: null 
+            {
+              time: "1:00 PM - 2:00 PM",
+              section: "CS 2-1",
+              subject: "COSC 70 (ASYNC)",
+              room: null
             },
-            { time: "2:00 PM - 5:00 PM",
-              section: null, 
-              subject: "RESEARCH AND EXTENSION", 
-              room: null 
+            {
+              time: "2:00 PM - 5:00 PM",
+              section: null,
+              subject: "RESEARCH AND EXTENSION",
+              room: null
             },
           ],
           friday: [],
@@ -1451,6 +1488,13 @@ export const people = [
     isCS: true,
     designation: "Program Coordinator, Information Technology",
     image: "/images/montallana.JPG",
+    academic_rank: "Assistant Professor I",
+    membership: [
+      {
+        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
+        url: "https://drive.google.com/file/d/11BW6DsLxEVjUGgCSZcrwIbktVMmvB_9H/view?usp=drive_link"
+      },
+    ],
     research: [{
       name: "Development and Acceptability of a Weather and Disaster Awareness Information System for the City of Bacoor",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
@@ -1848,6 +1892,13 @@ export const people = [
     image: "/images/bato.JPG",
     isCS: true,
     designation: "Head, OSAS",
+    academic_rank: "Assistant Professor II",
+    membership: [
+      {
+        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
+        url: "https://drive.google.com/file/d/1HqWX8gl4G5WeL5jUCtlhqOdR7UZKAycJ/view?usp=drive_link"
+      },
+    ],
     research: [{
       name: "Development and Acceptability of a Weather and Disaster Awareness Information System for the City of Bacoor",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
@@ -2667,6 +2718,8 @@ export const people = [
     isCS: true,
     designation: "Faculty",
     image: "/images/arciaga.JPG",
+    academic_rank: "Instructor I",
+
     research: [
       {
         name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
@@ -3901,6 +3954,13 @@ export const people = [
     last_name: "Belgica",
     name: "Edan A. Belgica",
     isCS: true,
+    academic_rank: "Instructor I",
+    membership: [
+      {
+        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
+        url: "https://drive.google.com/file/d/1HqWX8gl4G5WeL5jUCtlhqOdR7UZKAycJ/view?usp=drive_link"
+      },
+    ],
     research: [{
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
@@ -4516,6 +4576,13 @@ export const people = [
     name: "Ralph Christian Bolarda, MIT",
     isCS: true,
     designation: "Faculty",
+    academic_rank: "Instructor I",
+    membership: [
+      {
+        name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
+        url: "https://drive.google.com/file/d/1HqWX8gl4G5WeL5jUCtlhqOdR7UZKAycJ/view?usp=drive_link"
+      },
+    ],
     image: "/images/bolarda.JPG",
     research: [
       {
@@ -6577,6 +6644,15 @@ export const people = [
     last_name: "Catalo",
     name: "Alvin Catalo, MIT",
     isCS: true,
+    academic_rank: "Instructor III",
+    membership: [
+      {
+        name: "Member: International Society of Transdisciplinary Researchers, Educators, and Leaders, Inc.",
+        url: "https://drive.google.com/file/d/13by1KfAJqHgIwdWO2GBqgT7goYgJp_-E/view?usp=drive_link"
+      },
+
+
+    ],
     designation: "Research Coordinator",
     image: "/images/catalo.JPG",
     diploma: [{
@@ -8878,6 +8954,7 @@ export const people = [
     name: "Edmund E. Martinez",
     isCS: true,
     designation: "Faculty",
+    academic_rank: "Instructor I",
     image: "/images/martinez.JPG",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -9212,8 +9289,17 @@ export const people = [
     last_name: "Mojas",
     name: "Julios M. Mojas",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/mojasreal.jpg",
+    membership: [
+      {
+        name: "Member: International Society of Transdisciplinary Researchers, Educators, and Leaders, Inc.",
+        url: "https://drive.google.com/file/d/1S_Ny5GQUKlM3Ws9kPQZPptbGtDeBYQKP/view?usp=drive_link"
+      },
+
+
+    ],
     research: [
       {
         name: "Tambuli: An Emergency Alert System for the City of Bacoor",
@@ -10428,6 +10514,7 @@ export const people = [
     name: "Nestor Miguel T. Pimentel",
     isCS: true,
     designation: "Faculty",
+    academic_rank: "Instructor I",
     image: "/images/pimentel.jpg",
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
@@ -10856,6 +10943,7 @@ export const people = [
     last_name: "Racadio",
     name: "Jay-Ar A. Racadio",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/racadio.jpeg",
     diploma: [{
@@ -11304,6 +11392,7 @@ export const people = [
     last_name: "Ramallosa",
     name: "Alvina Ramallosa",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/ramallosa.jpg",
     research: [
@@ -12027,6 +12116,7 @@ export const people = [
     last_name: "Rios",
     name: "Joven S. Rios",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/rios.JPG",
     diploma: [{
@@ -12448,6 +12538,7 @@ export const people = [
     last_name: "Rodil",
     name: "Nino M. Rodil",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/rodil2.jpg",
     diploma: [{
@@ -12911,7 +13002,14 @@ export const people = [
     last_name: "Rodriguez",
     name: "Rachel Rodriguez",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
+    membership: [
+      {
+        name: "Member: Philippine Society of Information Technology Educators (PSITE)",
+        url: "https://drive.google.com/file/d/1y0eQB8Zu1M0BtYFEc3SR7QnjdpM5M7xq/view?usp=drive_link"
+      },
+    ],
     image: "/images/rodriguez.JPG",
     research: [
       {
@@ -13683,6 +13781,7 @@ export const people = [
     last_name: "Rostrollo",
     name: "Clarissa Rostrollo",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/rostrollo.JPG",
 
@@ -14115,6 +14214,7 @@ export const people = [
     last_name: "Salvador",
     name: "Marc Clarence Salvador",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/salvador.jpeg",
     research: [
@@ -15075,6 +15175,7 @@ export const people = [
     last_name: "Sarmieto",
     name: "Benedick M. Sarmiento",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/sarmiento.jpg",
     // research: [{
@@ -15484,6 +15585,7 @@ export const people = [
     last_name: "Tacata",
     name: "Jerome Tacata",
     isCS: true,
+    academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/tacata.JPG",
 
@@ -17439,6 +17541,7 @@ export const people = [
     last_name: "Gamuyao",
     name: "Zannie I. Gamuyao, MSM",
     isCS: true,
+    academic_rank: "Associate Professor IV",
     designation: "Faculty",
     image: "/images/gamuyao.jpg",
     research: [{
@@ -17504,9 +17607,20 @@ export const people = [
     first_name: "Maria Lourdez",
     last_name: "Lamanilao",
     name: "Maria Lourdez Lamanilao, MBA",
+    academic_rank: "Assistant Professor I",
     isCS: true,
     designation: "Faculty",
     image: "/images/lamanilao.jpg",
+    membership: [
+      {
+        name: "Member: Human Resource Educators Association of the Philippines, Inc.",
+        url: "https://drive.google.com/file/d/1TLCIv8m-XGUnlg7YwfHLuTM003eivu0O/view?usp=drive_link"
+      },
+      {
+        name: "Member: Philippine Association of Teachers and Educators, Inc.",
+        url: "https://drive.google.com/file/d/1LhwYK-QeTpcRG1twPiz_NYoGH5YsiYl0/view?usp=drive_link"
+      },
+    ],
     research: [{
       name: "Improvement of Marketing Strategies for Pineapple and Sugarcane Crops in the Municipalities of Silang and Magallanes in Cavite",
       url: "https://drive.google.com/drive/folders/1lNT10MVajPdsLcKLHHZL0iq2O1vkN9BB?usp=drive_link"
@@ -17578,16 +17692,7 @@ export const people = [
         image: "/faculty-schedule/2nd-sem/2-lamanilao-sched.png",
       },
     ],
-    membership: [
-      {
-        name: "Human Resource Educators Association of the Philippines, Inc.",
-        url: "https://drive.google.com/file/d/1TLCIv8m-XGUnlg7YwfHLuTM003eivu0O/view?usp=drive_link"
-      },
-      {
-        name: "Regular Member of the Philippine Association of Teachers and Educators, Inc.",
-        url: "https://drive.google.com/file/d/1LhwYK-QeTpcRG1twPiz_NYoGH5YsiYl0/view?usp=drive_link"
-      },
-    ],
+
 
   },
 

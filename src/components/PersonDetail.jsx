@@ -38,6 +38,7 @@ function PersonDetail() {
     evaluation_labels,
     development_plan,
     membership,
+    academic_rank,
   } = state.person;
 
   return (
@@ -63,6 +64,7 @@ function PersonDetail() {
               certificates={certificates}
               speaking_engagements={speaking_engagements}
               membership={membership}
+              academic_rank={academic_rank}
             />
           </div>
           {(research || extension) && (
