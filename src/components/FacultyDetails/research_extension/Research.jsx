@@ -5,7 +5,7 @@ function Research({ research }) {
       {Array.isArray(research) && research.length > 0 && (
                       <div className="mt-4">
                         
-                        <ul className="list-disc list-inside space-y-1">
+                        <ul className="list-disc list-outside pl-5 space-y-1">
                           {research.map((doc, index) => (
                             <li key={index} className="m-4">
                               <a

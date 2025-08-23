@@ -1078,8 +1078,134 @@ export const people = [
     speaking_engagements: null,
 
     schedule: [
-      //No Record - 1st Sem A.Y 22-23
-      //No Record - 2nd Sem A.Y 22-23
+      {//1st Sem A.Y 22-23
+        semesterName: "1st Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "11:00 AM - 1:00 PM",
+              section: "CS 2-2", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "2:00 PM - 5:00 PM", 
+              section: null, 
+              subject: "RESEARCH AND EXTENSION", 
+              room: null 
+            },
+          ],
+          tuesday: [
+            { time: "2:00 PM - 3:00 PM",
+              section: "IT 3-3", 
+              subject: "INSY 55", 
+              room: null 
+            },
+          ],
+          wednesday: [
+            { time: "8:00 AM - 9:00 AM",
+              section: "CS 2-2", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "9:00 AM - 10:00 AM",
+              section: "CS 2-1", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "1:00 PM - 2:00 PM",
+              section: "CS 2-3", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "2:00 PM - 4:00 PM",
+              section: "CS 2-3", 
+              subject: "INSY 50", 
+              room: null 
+            },
+            { time: "5:00 PM - 6:00 PM",
+              section: "IT 3-3", 
+              subject: "INSY 55", 
+              room: null 
+            },
+          ],
+          thursday: [
+            { time: "9:00 PM - 10:00 PM",
+              section: "CS 1-1", 
+              subject: "CvSU 101", 
+              room: null 
+            },
+            { time: "10:00 AM - 11:00 AM",
+              section: "IT 3-3", 
+              subject: "INSY 55 (LAB)", 
+              room: null 
+            },
+            { time: "11:00 AM - 1:00 PM",
+              section: "IT 3-3", 
+              subject: "INSY 55 (LAB)", 
+              room: null 
+            },
+          ],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
+      {//2nd Sem A.Y 22-23
+        semesterName: "2nd Sem A.Y 22-23",
+        details: {
+          monday: [
+            { time: "1:00 PM - 4:00 PM",
+              section: "IT 4-1", 
+              subject: "ITEC 99", 
+              room: "ROOM 303" 
+            },
+          ],
+          tuesday: [
+            
+          ],
+          wednesday: [
+            { time: "10:00 AM - 12:00 PM",
+              section: "CS 2-1", 
+              subject: "COSC 70", 
+              room: "ROOM 301"
+            },
+            { time: "1:00 PM - 3:00 PM",
+              section: "CS 2-2", 
+              subject: "COSC 70", 
+              room: "ROOM 302"
+            },
+            { time: "3:00 PM - 6:00 PM",
+              section: "IT 4-1", 
+              subject: "ITEC 99", 
+              room: "ROOM 305" 
+            },
+          ],
+          thursday: [
+            { time: "10:00 AM - 11:00 AM",
+              section: "CS 2-1", 
+              subject: "COSC 70 (ASYNC)", 
+              room: null 
+            },
+            { time: "1:00 PM - 2:00 PM",
+              section: "CS 2-1", 
+              subject: "COSC 70 (ASYNC)", 
+              room: null 
+            },
+            { time: "2:00 PM - 5:00 PM",
+              section: null, 
+              subject: "RESEARCH AND EXTENSION", 
+              room: null 
+            },
+          ],
+          friday: [],
+          saturday: [],
+          sunday: [],
+        }
+      },
       {//1st Sem A.Y 23-24
         semesterName: "1st Sem A.Y 23-24",
         details: {
