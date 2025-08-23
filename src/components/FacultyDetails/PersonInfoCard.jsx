@@ -46,11 +46,9 @@ function PersonInfoCard({
               rel="noopener noreferrer"
               className="hover:underline hover:text-red-900"
             >
-             <i className="text-blue-600">{portfolio}</i> 
+              <i className="text-blue-600">{portfolio}</i>
             </a>
           )}
-
-        
         </div>
 
         {/* === RIGHT COLUMN === */}
@@ -61,10 +59,10 @@ function PersonInfoCard({
             <div>
               {Array.isArray(diploma) && diploma.length > 0 && (
                 <div className="mt-4">
-                  <h3 className="text-base font-semibold text-gray-800 mb-2">
+                  <h3 className="text-base text-red-800 font-semibold mb-2">
                     Diploma:
                   </h3>
-                  <ul className="list-disc list-inside space-y-1">
+                  <ul className="list-disc list-outside pl-5 space-y-1">
                     {diploma.map((doc, index) => (
                       <li key={index}>
                         <a
@@ -80,34 +78,35 @@ function PersonInfoCard({
                   </ul>
                 </div>
               )}
-              {Array.isArray(masters_diploma) && masters_diploma.length > 0 && (
-                <div className="mt-4">
-                  <h3 className="text-base font-semibold text-gray-800 mb-2">
-                    Master's Diploma:
-                  </h3>
-                  <ul className="list-disc list-inside space-y-1">
-                    {masters_diploma.map((doc, index) => (
-                      <li key={index}>
-                        <a
-                          href={doc.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:underline hover:text-red-900"
-                        >
-                          {toFormalCase(doc.name) ||
-                            `Master's Diploma ${index + 1}`}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              {Array.isArray(masters_diploma) &&
+                masters_diploma.length > 0 && (
+                  <div className="mt-4">
+                    <h3 className="text-base text-red-800 font-semibold mb-2">
+                      Master's Diploma
+                    </h3>
+                    <ul className="list-disc list-outside pl-5 space-y-1">
+                      {masters_diploma.map((doc, index) => (
+                        <li key={index}>
+                          <a
+                            href={doc.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline hover:text-red-900"
+                          >
+                            {toFormalCase(doc.name) ||
+                              `Master's Diploma ${index + 1}`}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               {Array.isArray(tor) && tor.length > 0 && (
                 <div className="mt-4">
-                  <h3 className="text-base font-semibold text-gray-800 mb-2">
-                    Transcript of Records:
+                  <h3 className="text-base text-red-800 font-semibold mb-2">
+                    Transcript of Records
                   </h3>
-                  <ul className="list-disc list-inside space-y-1">
+                  <ul className="list-disc list-outside pl-5 space-y-1">
                     {tor.map((doc, index) => (
                       <li key={index}>
                         <a
@@ -125,10 +124,10 @@ function PersonInfoCard({
               )}
               {Array.isArray(eligibility) && eligibility.length > 0 && (
                 <div className="mt-4">
-                  <h3 className="text-base font-semibold text-gray-800 mb-2">
-                    Eligibility:
+                  <h3 className="text-base text-red-800 font-semibold mb-2">
+                    Eligibility
                   </h3>
-                  <ul className="list-disc list-inside space-y-1">
+                  <ul className="list-disc list-outside pl-5 space-y-1">
                     {eligibility.map((doc, index) => (
                       <li key={index}>
                         <a
@@ -137,7 +136,7 @@ function PersonInfoCard({
                           rel="noopener noreferrer"
                           className="hover:underline hover:text-red-900"
                         >
-                          {toFormalCase(doc.name) || `TOR ${index + 1}`}
+                          {toFormalCase(doc.name) || `Eligibility ${index + 1}`}
                         </a>
                       </li>
                     ))}
@@ -151,7 +150,7 @@ function PersonInfoCard({
                     href={resume}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-base font-semibold text-gray-800 hover:underline hover:text-red-900"
+                    className="text-red-800 font-semibold hover:underline hover:text-red-900"
                   >
                     View Resume
                   </a>
@@ -161,18 +160,23 @@ function PersonInfoCard({
 
             {/* Sub-Column 2 */}
             <div>
-              <DisplayListWithModal title="Certificates" items={certificates} />
+              <DisplayListWithModal
+                title="Certificates"
+                items={certificates}
+                listClassName="list-disc list-outside pl-5 space-y-1"
+              />
               <DisplayListWithModal
                 title="Speaking Engagements"
                 items={speaking_engagements}
+                listClassName="list-disc list-outside pl-5 space-y-1"
               />
 
               {Array.isArray(membership) && membership.length > 0 && (
                 <div className="mt-4">
-                  <h3 className="text-base font-semibold text-gray-800 mb-2">
+                  <h3 className="text-sm text-red-800 font-semibold text-gray-800 mb-2">
                     Memberships & Affiliations:
                   </h3>
-                  <ul className="list-disc list-inside space-y-1">
+                  <ul className="list-disc list-outside pl-5 space-y-1">
                     {membership.map((doc, index) => (
                       <li key={index}>
                         <a
