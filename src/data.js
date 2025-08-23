@@ -1489,6 +1489,48 @@ export const people = [
     designation: "Program Coordinator, Information Technology",
     image: "/images/montallana.JPG",
     academic_rank: "Assistant Professor I",
+    certificates: [
+      {
+        name: "CELLAR Webinar Series: Narrative Report and Student Teaching Portfolio",
+        url: "https://drive.google.com/file/d/1xy8EEyJwvfz-La3p87ytsAc7nq2ZWWvi/view?usp=drive_link"
+      },
+      {
+        name: "CHED: Braving the New Normal: Embracing Realities...Caring for Well-being",
+        url: "https://drive.google.com/file/d/1buj6vmbJxsoLWsoqiO4WsSzXClFPMfYU/view?usp=drive_link"
+      },
+      {
+        name: "CHED: Creating and Maintaining Databases, Blogs, and Websites",
+        url: "https://drive.google.com/file/d/1lCioP2qkaQJruQGTNKPrib9rpV0Lo3u-/view?usp=drive_link"
+      },
+      {
+        name: "Research Center In-house Review: Navigating the New Normal: Effective Research Methods Amidst the Pandemic",
+        url: "https://drive.google.com/file/d/18rv3NSqbyak3x2xoO1b1Zv8HolQAhiVf/view?usp=drive_link"
+      },
+      {
+        name: "Research Center: Institutional Roles and Research Ethics Experiences on Ethics Review of Researches",
+        url: "https://drive.google.com/file/d/1yVEgZLUEA2TrvbFYFYM9domnClTE7xI_/view?usp=drive_link"
+      },
+      {
+        name: "Research Center: (RE) searching literature review: why should we care? ",
+        url: "https://drive.google.com/file/d/1YJU4S5bCLpwEk3fRPn_U4zzLLEZ_nF-M/view?usp=drive_link"
+      },
+      {
+        name: "Research Center: Getting your Papers Published",
+        url: "https://drive.google.com/file/d/1I3D5IhnQEYw3B-mZiEIX9rN9JruzT5O4/view?usp=drive_link"
+      },
+      {
+        name: "DOST: Fundamentals of Innovation, Intellectural Property, and Technology Commercialization",
+        url: "https://drive.google.com/file/d/1oRBiPXSvflJZvy1kO7dO_j2Ctb_awEZz/view?usp=drive_link"
+      },
+      {
+        name: "DOST: Solutions to Long-Standing Concerns",
+        url: "https://drive.google.com/file/d/1FlD-PKPUWPVwtjEosj4U_EgAauULMAnj/view?usp=drive_link"
+      },
+      {
+        name: "Resource for Educators and Academic Professionals: Accesible and Innovative Higher Education in a Time of Crisis",
+        url: "https://drive.google.com/file/d/1RnOl5G8VsEyZSzJp0G-pm4OerfJViheZ/view?usp=drive_link"
+      },
+    ],
     membership: [
       {
         name: "Member: Integrated Society of Information Technology Enthusiasts Inc.",
@@ -1539,7 +1581,6 @@ export const people = [
     }],
     resume: "https://drive.google.com/file/d/1kD5p9q7zx08Lh5Wi_zMhJUaF3tcAH38r/view?usp=sharing",
 
-    certificates: null,
     speaking_engagements: null,
     schedule: [
       {// 1st Sem A.Y 22-23
