@@ -16,6 +16,7 @@ function PersonInfoCard({
   membership,
   portfolio,
   academic_rank,
+  doctorate,
 }) {
   const [showTOR, setShowTOR] = useState(false);
 
@@ -122,6 +123,25 @@ function PersonInfoCard({
                         </ul>
                       </div>
                     )}
+                  {Array.isArray(doctorate) && doctorate.length > 0 && (
+                    <div className="mb-4">
+                      <ul className="list-disc list-outside pl-5 space-y-1">
+                        {doctorate.map((doc, index) => (
+                          <li key={index}>
+                            <a
+                              href={doc.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:underline hover:text-red-900"
+                            >
+                              {toFormalCase(doc.name) ||
+                                `Master's Diploma ${index + 1}`}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
                   {/* TOR with dropdown */}
                   {Array.isArray(tor) && tor.length > 0 && (

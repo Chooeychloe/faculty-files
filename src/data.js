@@ -7,8 +7,10 @@ export const people = [
     isCS: true,
     designation: "Department Chairperson",
     image: "/images/ocampo1.JPG",
-
-    academic_rank: "Instructor III",
+    doctorate: [{
+      name: "Doctor in Information Technology (Units)",
+      url: "https://drive.google.com/drive/folders/1Fh-7E7-OprsgWjhuHsgs49KgWNCIqlr3?fbclid=IwY2xjawMWZttleHRuA2FlbQIxMABicmlkETEwbG0yOExmaDRLdVdzcWxjAR5RrwuoK8vXb3wgVIkLFlNC3kmJYzg6ylH0oXqeUUxdgvWksGy5sZlsrB1tcQ_aem_GSqyptaR1vF-eXh8czERKw"
+    },], academic_rank: "Instructor III",
     membership: [
       { name: "Member: Integrated Society of Information Technology Enthusiasts Inc.", url: "https://drive.google.com/file/d/19uZY4OIIT6wI3XF0narvksnT50MkXvXM/view?usp=drive_link" },
     ],
@@ -969,8 +971,10 @@ export const people = [
     last_name: "Briones",
     name: "Ely Rose L. Panganiban-Briones, MIT",
     isCS: true,
-
-    academic_rank: "Assistant Professor III",
+    doctorate: [{
+      name: "Doctor in Information Technology (Units)",
+      url: "https://drive.google.com/drive/folders/1Fh-7E7-OprsgWjhuHsgs49KgWNCIqlr3?fbclid=IwY2xjawMWZttleHRuA2FlbQIxMABicmlkETEwbG0yOExmaDRLdVdzcWxjAR5RrwuoK8vXb3wgVIkLFlNC3kmJYzg6ylH0oXqeUUxdgvWksGy5sZlsrB1tcQ_aem_GSqyptaR1vF-eXh8czERKw"
+    },], academic_rank: "Assistant Professor III",
     membership: [
       {
         name: "Member: International Society of Transdisciplinary Researchers, Educators, and Leaders, Inc.",
@@ -1486,7 +1490,10 @@ export const people = [
     last_name: "Montallana",
     name: "Donnalyn B. Montallana, MIT",
     isCS: true,
-    designation: "Program Coordinator, Information Technology",
+    doctorate: [{
+      name: "Doctor in Information Technology (Units)",
+      url: "https://drive.google.com/drive/folders/1Fh-7E7-OprsgWjhuHsgs49KgWNCIqlr3?fbclid=IwY2xjawMWZttleHRuA2FlbQIxMABicmlkETEwbG0yOExmaDRLdVdzcWxjAR5RrwuoK8vXb3wgVIkLFlNC3kmJYzg6ylH0oXqeUUxdgvWksGy5sZlsrB1tcQ_aem_GSqyptaR1vF-eXh8czERKw"
+    },], designation: "Program Coordinator, Information Technology",
     image: "/images/montallana.JPG",
     academic_rank: "Assistant Professor I",
     certificates: [
@@ -1931,6 +1938,10 @@ export const people = [
     last_name: "Bato",
     name: "Steffanie M. Bato, MIT",
     image: "/images/bato.JPG",
+    doctorate: [{
+      name: "Doctor in Information Technology (Units)",
+      url: "https://drive.google.com/drive/folders/1Fh-7E7-OprsgWjhuHsgs49KgWNCIqlr3?fbclid=IwY2xjawMWZttleHRuA2FlbQIxMABicmlkETEwbG0yOExmaDRLdVdzcWxjAR5RrwuoK8vXb3wgVIkLFlNC3kmJYzg6ylH0oXqeUUxdgvWksGy5sZlsrB1tcQ_aem_GSqyptaR1vF-eXh8czERKw"
+    },],
     isCS: true,
     designation: "Head, OSAS",
     academic_rank: "Assistant Professor II",
@@ -2771,7 +2782,10 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1kvJePlHOZXKyps2YQJJcVtQcKIbBF3dD/view?usp=sharing"
     },],
-    masters_diploma: null,
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY (CAR)",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
+    }],
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1EP8Mar7AM2hAb6atzy8S5rhrFoRAobU1/view?usp=sharing"
@@ -10547,14 +10561,15 @@ export const people = [
     designation: "Faculty",
     academic_rank: "Instructor I",
     image: "/images/pimentel.jpg",
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY (UNITS)",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
+    }],
     diploma: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1HY21cQ2Cdc99F0m6tDfoI4mcL4iwAyF9/view?usp=sharing"
     },],
-    masters_diploma: {
-      name: "",
-      url: ""
-    },
+
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1u7f_c32ShwkNV_KLwZSySC9ywuraxhi8/view?usp=sharing"
@@ -11426,6 +11441,7 @@ export const people = [
     academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/ramallosa.jpg",
+
     research: [
       {
         name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite (Proposal)",
@@ -11448,7 +11464,7 @@ export const people = [
       url: "https://drive.google.com/file/d/1QXj6xXdx7JpqUH--a9Oy823GOT_p53LX/view?usp=sharing"
     },],
     masters_diploma: [{
-      name: "MASTERS IN INFORMATION TECHNOLOGY",
+      name: "MASTERS IN INFORMATION TECHNOLOGY (UNITS)",
       url: "https://drive.google.com/file/d/1HPA63gFQoB12ruMlgzhs2bBEwMHAgqnK/view?usp=sharing"
     }],
     tor: [
@@ -12155,8 +12171,8 @@ export const people = [
       url: "https://drive.google.com/file/d/1cbpkH4s_y5QematKaMNb58JWaSJRIUE6/view?usp=sharing"
     },],
     masters_diploma: [{
-      name: "MASTER OF SCIENCE IN INFORMATION COMMUNICATION (MSICT)",
-      url: "https://drive.google.com/file/d/1jPFNlJqjccAV5mwG9UpT7vor6iPBVWe6/view?usp=sharing"
+      name: "MASTER IN INFORMATION TECHNOLOGY",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
     }],
     tor: null,
     eligibility: null,
@@ -13035,6 +13051,10 @@ export const people = [
     isCS: true,
     academic_rank: "Instructor I",
     designation: "Faculty",
+    masters_diploma: [{
+      name: "MASTER OF ARTS IN EDUCATION (CAR)",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
+    }],
     membership: [
       {
         name: "Member: Philippine Society of Information Technology Educators (PSITE)",
@@ -13063,7 +13083,6 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1Yd8S93cy4y0yqfW-bMZ_Dn3knzwEVHK5/view?usp=drive_link"
     },],
-    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/17fi4Klo2PbgLI6Q4HxdTZgjwoJSmN2VZ/view?usp=drive_link"
@@ -15233,8 +15252,10 @@ export const people = [
       name: "BACHELOR OF TECHNICAL-VOCATIONAL TEACHER EDUCATION MAJOR IN COMPUTER HARDWARE SERVICING",
       url: "https://drive.google.com/file/d/1XS8G1cD68cXQZXKmfVjLoJed1KMkRCfv/view?usp=drive_link"
     }],
-    masters_diploma: null,
-    tor: [{
+    masters_diploma: [{
+      name: "MASTER OF ARTS IN EDUCATION (CAR)",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
+    }], tor: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",
       url: "https://drive.google.com/file/d/1EKKWLSf7cDQqIBXDOwNaA1XwOAAJKPQH/view?usp=drive_link"
     },
@@ -15619,7 +15640,10 @@ export const people = [
     academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/tacata.JPG",
-
+    masters_diploma: [{
+      name: "MASTER IN INFORMATION TECHNOLOGY (Units)",
+      url: "https://drive.google.com/file/d/1I_CkLbCCs4GuR8Q4ag78uXw9GX8H8ULt/view?usp=drive_link"
+    }],
     extension: {
       image: "/extension/extension-tacata.jfif",
       url: "https://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
@@ -15628,7 +15652,6 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1yrj7_HQsfVOQ_xVScgh6q4jhJ4wqpHr-/view?usp=drive_link"
     }],
-    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
       url: "https://drive.google.com/file/d/1U0M93ISa964VMCyn9mSLuLVofgpGmQSo/view?usp=drive_link"
@@ -17572,6 +17595,10 @@ export const people = [
     last_name: "Gamuyao",
     name: "Zannie I. Gamuyao, MSM",
     isCS: true,
+    doctorate: [{
+      name: "Doctor of Philosophy in Mathematics (CAR)",
+      url: "https://drive.google.com/drive/folders/1Fh-7E7-OprsgWjhuHsgs49KgWNCIqlr3?fbclid=IwY2xjawMWZttleHRuA2FlbQIxMABicmlkETEwbG0yOExmaDRLdVdzcWxjAR5RrwuoK8vXb3wgVIkLFlNC3kmJYzg6ylH0oXqeUUxdgvWksGy5sZlsrB1tcQ_aem_GSqyptaR1vF-eXh8czERKw"
+    },],
     academic_rank: "Associate Professor IV",
     designation: "Faculty",
     image: "/images/gamuyao.jpg",
