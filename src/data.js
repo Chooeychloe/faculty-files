@@ -4010,7 +4010,10 @@ export const people = [
     name: "Edan A. Belgica",
     isCS: true,
     academic_rank: "Instructor I",
-
+    masters_diploma: [{
+      name: "MASTER IN COMPUTER SCIENCE (enrolled)",
+      url: "https://drive.google.com/drive/folders/1Fh-7E7-OprsgWjhuHsgs49KgWNCIqlr3"
+    }],
     research: [{
       name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
       url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
@@ -4032,7 +4035,6 @@ export const people = [
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/1LHZjCtk4QjJybAQidfkTgR43OguT-YUa/view?usp=sharing"
     },],
-    masters_diploma: null,
     tor: [{
       name: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
       url: "https://drive.google.com/file/d/12h2NRJ0lflbtDWRicPpFyEXV57LWAarM/view?usp=sharing"
@@ -9336,7 +9338,13 @@ export const people = [
     isCS: true,
     academic_rank: "Instructor I",
     designation: "Faculty",
-    image: "/images/mojasreal.jpg",
+    image: "/images/mojas.JPG",
+      competencies: [
+      {
+        name: "TESDA: NCII Computer Systems Servicing",
+        url: "https://drive.google.com/file/d/1I8t7WCZFRWM3M_P2Y0K4TRxN_BLrkKIH/view?usp=drive_link"
+      },
+    ],
     membership: [
       {
         name: "Member: International Society of Transdisciplinary Researchers, Educators, and Leaders, Inc.",
@@ -15228,21 +15236,19 @@ export const people = [
     academic_rank: "Instructor I",
     designation: "Faculty",
     image: "/images/sarmiento.jpg",
-    // research: [{
-    //   name: "Inkclusive: A Web-based Text Editing Application for Detecting Sexist Language",
-    //   url: "https://drive.google.com/drive/folders/1d1nqfodyvOVoSPMQo9INazxI8JhfZjSV?usp=drive_link"
-    // },
-    // {
-    //   name: "Mangrove Conservation and Preservation Using Technology in the Municipality of Noveleta, Cavite",
-    //   url: "https://drive.google.com/drive/folders/12R9YvF5ckOrXUiE4BlHSLJJ8wWrcjlrR?usp=drive_link"
-    // },
-    // {
-    //   name: "Fintech-Based Platform for BJMP-Bacoor Male Dorm",
-    //   url: "https://drive.google.com/drive/folders/1Qy1mMSMcJB1mFuG9-QjvDUBpUGgZmofY?usp=drive_link"
-    // },],
+    competencies: [
+      {
+        name: "TESDA: NCII Computer Systems Servicing",
+        url: "https://drive.google.com/file/d/1xVzmIAUhGNyxMe4uRGXrAGlQSILixdmj/view?usp=drive_link"
+      },
+      {
+        name: "TESDA: Trainers Methodology Certificate I",
+        url: "https://drive.google.com/file/d/1D1S8ZEKVA6jLU4HY-Ay7wDlwof3cJZTe/view?usp=drive_link"
+      },
+    ],
     extension: {
       image: "/extension/extension-sarmiento.jpg",
-      url: "https://example.com"
+      url: "Fhttps://drive.google.com/drive/folders/1T8tknQnkDkDdTpfko1B6WGDKsYF2HfKa?usp=drive_link"
     },
     diploma: [{
       name: "INFORMATION TECHNOLOGY MAJOR IN COMPUTER TECHNICIAN",

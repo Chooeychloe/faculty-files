@@ -17,6 +17,7 @@ function PersonInfoCard({
   portfolio,
   academic_rank,
   doctorate,
+  competencies,
 }) {
   const [showTOR, setShowTOR] = useState(false);
 
@@ -236,6 +237,11 @@ function PersonInfoCard({
 
             {/* Sub-Column 2 */}
             <div>
+              <DisplayListWithModal
+                title="Competencies"
+                items={competencies}
+                listClassName="list-disc list-outside pl-5 space-y-1"
+              />
               <DisplayListWithModal
                 title="Certificates"
                 items={certificates}
