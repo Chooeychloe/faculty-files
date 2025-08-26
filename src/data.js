@@ -8998,7 +8998,7 @@ export const people = [
   {
     first_name: "Edmund",
     last_name: "Martinez",
-    name: "Edmund E. Martinez",
+    name: "Edmund C. Martinez",
     isCS: true,
     designation: "Faculty",
     academic_rank: "Instructor I",
